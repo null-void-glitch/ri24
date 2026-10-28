@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neue Kooperation - Makler - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Makler › Kooperationen › neue Kooperation (/adm/.../makler/kooperation/new/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Real field names and structure from the live backend. Beschreibung uses a plain textarea (TinyMCE on the live site). Speichern / Abbrechen are decorative.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li class="active">
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li class="active"><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>neue Kooperation</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Makler</a></li><li class="breadcrumb-item"><a href="#">Kooperationen</a></li><li class="breadcrumb-item active"><strong>neue Kooperation</strong></li></ol>
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight"><div class="row"><div class="col-lg-8 col-lg-offset-2"><a href="../makler-kooperationen/index.html" class="btn btn-default btn-sm m-b-md"><i class="fa fa-arrow-left"></i> zurück zur Übersicht</a>
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Neue Kooperation</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" method="post" action="#"><div class="form-group"><label for="name" class="col-sm-3 control-label">Name <span class="text-danger">*</span></label><div class="col-sm-9"><input type="text" class="form-control" id="name" name="name" placeholder=""></div></div><div class="form-group"><label for="link_anonym" class="col-sm-3 control-label">Link (anonym)</label><div class="col-sm-9"><input type="text" class="form-control" id="link_anonym" name="link_anonym" placeholder="https://www.was-auch-immer.intern"><p class="help-block">Wenn ein Link hinterlegt ist, wird der Eintrag mit Link auf der anonymen Seite <a href='https://www.regionalimmobilien24.de/kooperation/' target='_blank'>/kooperation/</a> angezeigt.</p></div></div><div class="form-group"><label for="link" class="col-sm-3 control-label">Link mit Ri24-Rabatt <span class="text-danger">*</span></label><div class="col-sm-9"><input type="text" class="form-control" id="link" name="link" placeholder="https://www.was-auch-immer.intern/ri24rabatt"></div></div><div class="form-group"><label for="beschreibung" class="col-sm-3 control-label">Beschreibung <span class="text-danger">*</span></label><div class="col-sm-9"><textarea class="form-control" id="beschreibung" name="beschreibung" rows="5" placeholder="Kurzbeschreibung der Kooperation…"></textarea></div></div><div class="form-group"><label for="is_partner_crm" class="col-sm-3 control-label">CRM mit Login im Partnerbereich</label><div class="col-sm-9"><select class="form-control" id="is_partner_crm" name="is_partner_crm"><option value="0">nein</option><option value="1">ja</option></select><p class="help-block">Wenn „ja“: wird im Partnerbereich des Maklers ein Login-Link eingeblendet.</p></div></div><div class="form-group"><label for="login_uri" class="col-sm-3 control-label">Login-Link für Partner-Bereich</label><div class="col-sm-9"><input type="text" class="form-control" id="login_uri" name="login_uri" placeholder="https://www.was-auch-immer.intern/login"><p class="help-block">Nur relevant wenn „CRM mit Login“ = ja.</p></div></div><div class="form-group"><div class="col-sm-offset-3 col-sm-9"><button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Speichern</button> <a href="../makler-kooperationen/index.html" class="btn btn-default"><i class="fa fa-arrow-left"></i> Abbrechen</a> <span class="text-muted m-l-md" style="font-size:12px;"><span class="text-danger">*</span> Pflichtfeld</span></div></div></form>
+            </div>
+        </div></div></div></div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

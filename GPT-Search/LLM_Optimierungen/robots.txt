@@ -1,0 +1,117 @@
+# robots.txt — regionalimmobilien24.de
+# Strategie: KI-/Antwort-Bots gezielt ERLAUBEN (Zitierbarkeit), aggressive
+# SEO-/Scraper-Bots BLOCKIEREN. Stand: 2026-07-14
+
+# ─────────────────────────────────────────────
+# KI- & Antwort-Suchmaschinen — explizit erlaubt
+# ─────────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# ─────────────────────────────────────────────
+# Klassische Suchmaschinen — erlaubt
+# ─────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ─────────────────────────────────────────────
+# Aggressive SEO-/Scraper-Bots — blockiert
+# ─────────────────────────────────────────────
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: ZoominfoBot
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+# ─────────────────────────────────────────────
+# Standard-Regel für alle übrigen Bots
+# ─────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ─────────────────────────────────────────────
+# Sitemaps
+# ─────────────────────────────────────────────
+Sitemap: https://www.regionalimmobilien24.de/sitemap.xml
+Sitemap: https://www.regionalimmobilien24.de/sitemap_index.xml

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>neuen Makler anlegen - RI24 SEO</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — neuen Makler anlegen (/adm/.../makler/new/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Login-Backend/FTP Passwort value is a fabricated placeholder, not a real generated credential. Angebotspaket is dropped here too (obsolete, same reasoning as Übersicht Makler / Makler bearbeiten). "neue Objekte im ADM anlegen" and "Baufi anhand Immo-Ort" are dropped as well — both are now always-on defaults for every Makler going forward, no longer a per-Makler option.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li class="active"><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>neuen Makler anlegen</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item active"><strong>Konfiguration</strong></li></ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-8">
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Maklerdaten</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Firmenname</label>
+        <div class="col-sm-9"><input type="text" class="form-control" placeholder="Immobilien GmbH"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Region</label>
+        <div class="col-sm-9"><select id="regioncode" name="regioncode" class="form-control"><option value="-- bitte wählen --" selected>-- bitte wählen --</option><option value="hli24">Havellandimmobilien24 (hli24)</option><option value="ohi24">Oberhavelimmobilien24 (ohi24)</option><option value="obli24">Oderlandimmobilien24 (obli24)</option><option value="swi24">Spreewaldimmobilien24 (swi24)</option><option value="umi24">Uckermarkimmobilien24 (umi24)</option><option value="bi24">Berlinimmobilien24 (bi24)</option><option value="bosi24">Bodenseeimmobilien24 (bosi24)</option><option value="hbi24">Heilbronnimmobilien24 (hbi24)</option><option value="ki24">Karlsruheimmobilien24 (ki24)</option><option value="mani24">Mannheimimmobilien24 (mani24)</option><option value="osi24">Oberschwabenimmobilien24 (osi24)</option><option value="rni24">Rheinneckarimmobilien24 (rni24)</option><option value="rhti24">Rheintalimmobilien24 (rhti24)</option><option value="sai24">Schwäbischealbimmobilien24 (sai24)</option><option value="swwi24">Schwarzwaldimmobilien24 (swwi24)</option><option value="sti24">Stuttgartimmobilien24 (sti24)</option><option value="abi24">Augsburgimmobilien24 (abi24)</option><option value="bsi24">Bayerisch-schwabenimmobilien24 (bsi24)</option><option value="mfi24">Mittelfrankenimmobilien24 (mfi24)</option><option value="mi24">Münchenimmobilien24 (mi24)</option><option value="nbi24">Niederbayernimmobilien24 (nbi24)</option><option value="obi24">Oberbayernimmobilien24 (obi24)</option><option value="ofi24">Oberfrankenimmobilien24 (ofi24)</option><option value="opi24">Oberpfalzimmobilien24 (opi24)</option><option value="ufi24">Unterfrankenimmobilien24 (ufi24)</option><option value="brei24">Bremenimmobilien24 (brei24)</option><option value="fi24">Frankfurtimmobilien24 (fi24)</option><option value="gii24">Giessenimmobilien24 (gii24)</option><option value="kai24">Kasselimmobilien24 (kai24)</option><option value="dai24">Südhessenimmobilien24 (dai24)</option><option value="wii24">Taunusimmobilien24 (wii24)</option><option value="weti24">Wetterauimmobilien24 (weti24)</option><option value="hhi24">Hamburgimmobilien24 (hhi24)</option><option value="lli24">Ludwigslustimmobilien24 (lli24)</option><option value="nwmi24">Nordwestmecklenburgimmobilien24 (nwmi24)</option><option value="roi24">Rostockimmobilien24 (roi24)</option><option value="si24">Schwerinimmobilien24 (si24)</option><option value="smbi24">Südmecklenburgimmobilien24 (smbi24)</option><option value="vpi24">Vorpommernimmobilien24 (vpi24)</option><option value="brai24">Braunschweigimmobilien24 (brai24)</option><option value="emsi24">Emslandimmobilien24 (emsi24)</option><option value="goti24">Göttingenimmobilien24 (goti24)</option><option value="hani24">Hannoverimmobilien24 (hani24)</option><option value="lwi24">Leineweserimmobilien24 (lwi24)</option><option value="lbi24">Lüneburgimmobilien24 (lbi24)</option><option value="osni24">Osnabrückimmobilien24 (osni24)</option><option value="wei24">Weseremsimmobilien24 (wei24)</option><option value="aai24">Aachen-Eifelimmobilien24 (aai24)</option><option value="bdi24">Bergisches-Dreieckimmobilien24 (bdi24)</option><option value="bgli24">Bergischeslandimmobilien24 (bgli24)</option><option value="di24">Dortmundimmobilien24 (di24)</option><option value="dui24">Duisburgimmobilien24 (dui24)</option><option value="duei24">Düsseldorfimmobilien24 (duei24)</option><option value="eei24">Essenimmobilien24 (eei24)</option><option value="koei24">Kölnimmobilien24 (koei24)</option><option value="mli24">Münsterlandimmobilien24 (mli24)</option><option value="nri24">Niederrheinimmobilien24 (nri24)</option><option value="reki24">Rhein-Erft-Kreisimmobilien24 (reki24)</option><option value="rski24">Rhein-Siegkreisimmobilien24 (rski24)</option><option value="rgi24">Ruhrgebietimmobilien24 (rgi24)</option><option value="saui24">Sauerlandimmobilien (saui24)</option><option value="sigi24">Siegerlandimmobilien24 (sigi24)</option><option value="tbi24">Teutoburger-Wald-Imobilien24 (tbi24)</option><option value="maii24">Mainzimmobilien24 (maii24)</option><option value="mri24">Mittelrheinimmobilien24 (mri24)</option><option value="rhhi24">Rheinhessenimmobilien24 (rhhi24)</option><option value="rpi24">Rheinpfalzimmobilien24 (rpi24)</option><option value="ti24">Trierimmobilien24 (ti24)</option><option value="wesi24">Westeifelimmobilien24 (wesi24)</option><option value="wwi24">Westerwaldimmobilien24 (wwi24)</option><option value="wpfi24">Westpfalzimmobilien24 (wpfi24)</option><option value="ami24">Altmarkimmobilien24 (ami24)</option><option value="ai24">Anhaltimmobilien24 (ai24)</option><option value="hai24">Halleimmobilien24 (hai24)</option><option value="hi24">Harzimmobilien24 (hi24)</option><option value="jei24">Jerichowimmobilien24 (jei24)</option><option value="mbi24">Magdeburgimmobilien24 (mbi24)</option><option value="sui24">Saaleunstrutimmobilien24 (sui24)</option><option value="sli24">Salzlandimmobilien (sli24)</option><option value="hoi24">Holsteinimmobilien24 (hoi24)</option><option value="kiei24">Kielimmobilien24 (kiei24)</option><option value="luei24">Lübeckimmobilien24 (luei24)</option><option value="slwi24">Schleswigimmobilien24 (slwi24)</option><option value="ci24">Chemnitzimmobilien24 (ci24)</option><option value="ddi24">Dresdenimmobilien24 (ddi24)</option><option value="eli24">Elbelandimmobilien24 (eli24)</option><option value="erzi24">Erzgebirgeimmobilien24 (erzi24)</option><option value="li24">Leipzigimmobilien24 (li24)</option><option value="msi24">Mittelsachsenimmobilien24 (msi24)</option><option value="nsi24">Nordsachsenimmobilien24 (nsi24)</option><option value="oli24">Oberlausitzimmobilien24 (oli24)</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24 (sosi24)</option><option value="vi24">Vogtlandimmobilien24 (vi24)</option><option value="zi24">Zwickauimmobilien24 (zi24)</option><option value="nsai24">Nordsaarlandimmobilien24 (nsai24)</option><option value="osai24">Ostsaarlandimmobilien24 (osai24)</option><option value="sbi24">Saarbrückenimmobilien24 (sbi24)</option><option value="wsai24">Westsaarlandimmobilien24 (wsai24)</option><option value="efi24">Erfurtimmobilien24 (efi24)</option><option value="mthi24">Mittelthüringenimmobilien24 (mthi24)</option><option value="nti24">Nordthueringenimmobilien24 (nti24)</option><option value="othi24">Ostthüringenimmobilien24 (othi24)</option><option value="swti24">Südwestthüringenimmobilien24 (swti24)</option></select></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">E-Mail</label>
+        <div class="col-sm-9"><input type="text" class="form-control" placeholder="email@domain.xyz"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Makler-ID</label>
+        <div class="col-sm-9"><input type="text" class="form-control" value="r24h94haeum" disabled></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Makler-Stufe/Modell</label>
+        <div class="col-sm-9"><select id="makler_stufe" name="makler_stufe" class="form-control"><option value="basic">Basic</option><option value="plus">Plus</option><option value="premium" selected>Premium</option></select></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Angebote zusammenfassen</label>
+        <div class="col-sm-9"><input type="checkbox" id="merge_offers"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">für Gemeinschaftsgeschäft freischalten (Multimakler)</label>
+        <div class="col-sm-9"><input type="checkbox" id="multimakler" checked> <small class="text-muted">(nur Premium)</small></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Freischaltung Immosolve</label>
+        <div class="col-sm-9"><input type="checkbox" id="kontakt_has_immosolve"></div>
+    </div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Login Backend</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Login-Name</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="r24h94haeum"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Passwort</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="b3n8Wq5t"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Login FTP</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Benutzername</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="r24h94haeum"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Passwort</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="b3n8Wq5t"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+            </div>
+        </div>
+</div>
+        <div class="col-lg-4">
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Daten speichern</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <button class="btn btn-primary btn-block">Speichern</button><p class="text-muted m-t-sm">* Pflichtfeld</p>
+            </div>
+        </div>
+</div>
+    </div>
+</div>
+
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

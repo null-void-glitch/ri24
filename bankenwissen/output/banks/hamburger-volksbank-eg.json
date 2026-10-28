@@ -1,0 +1,305 @@
+{
+  "bank": "Hamburger Volksbank eG",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "mit wohnwirtschaftlichem Hintergund\nbis max 80% BLA\nAuszahlung in einer Summe\nkein Verwendungsnachweis"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Modernisierungskosten werterhöhend durch Fachfirma nachweisen"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Frühestens ab dem 4. Monat ablösbar"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40160041"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 308, 358, 359"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Individuell über BaufiSmart anzufragen"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "Analog Neugeschäft"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Antrag definiertes Datum"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Kostenfreier Tilgungssatzwechsel: X mal innerhalb der Sollzinsbindung in Spanne von 1 - 10 %, wobei X für die Anzahl der Sollzinsbindungsjahre steht; Unterschreitung des Anfangstilgungssatzes nicht möglich"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung (über Besicherung deutsche Immobilie)"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Max. 3 Einheiten\nBalkon/Terrasse aus der Wohnfläche rechnen"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "öffentlicher Erbbaurechtsgeber: ja, Einzelfallentscheidung;\nprivater Erbbaurechtsgeber: nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "49,99%"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "ETW / EFH / ZFH / RH / DHH\nkeine Pflegeimmobilie / Studentenappartements\nNeubau, An- und Umbauten, Sanierungen und Kapitalbeschaffung (Objekt muss im Geschäftsgebiet Metropolregion Hamburg liegen)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Kauf und Neubau in der Metropolregion Hamburg : Kaufpreis/Gestehungskosten\nKauf außerhalb der Metropolregion Hamburg: vdp Wert mit den Vorgaben \"mittel\" für Ausstattung und Zustand\nZusatzsicherheiten sowie Anschlussfinanzierungen, Kapitalbeschaffungen und Renovierungen: vdp Wert mit den Vorgaben \"mittel\" für Ausstattung und Zustand"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Ab Grundbuchbelastung >600.000 EUR durch interne Gutachter"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Kein Nießbrauch/kein Wohnrecht\nBei Wertminderung ist die Eintragungsbewilligung einzureichen & wird im Einzelfall geprüft"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "In voller Höhe (ggf in Abstimmung mit dem Folgegehalt) > Elterngeldbescheid & Bestätigung des Arbeitgebers über die Folgebeschäftigung erforderlich"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "75% der Renteneinkünfte\nLebensphasenplanung muss vom Berater geprüft werden (Keine Ampelphasenschaltung hinterlegt)\nRenteninformation oder Pensionsberechnung erforderlich\nWitwenrente: Ja\nBesonderheit: gesonderte Prüfung in Einzelfällen notwendig\nWaisenrente: Ja\nBesonderheit: gesonderte Prüfung in Einzelfällen notwendig"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "GBR mit Registerauszug als Sicherheitengeber möglich \n \nZustellungsvollmacht für nicht deutsche Staatsbürger erforderlich"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 2"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 75"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Aufenthaltstitel unbefristet"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung (Auszahlung nach Probezeit)"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Grundbuchauszug und ggf. Mietvertrag und Darlehensvertrag (Hauptseiten) erforderlich"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich; Tranchenauszahlung 50.000 EUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "3 Bankarbeitstage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "VideoIdent\nbei Legitimation durch Reisepässe ist eine Meldebestätigung erforderlich\nVertragsunterschrift: Bei dem / der Vermittler/in"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Checker</title>
+    <script>
+    window.addEventListener('error', function(e) {
+        console.log('ERROR:', e.message, e.filename, e.lineno);
+    });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('=== CHECKING FOR FAILED RESOURCES ===');
+        
+        // Check all stylesheets
+        var sheets = document.styleSheets;
+        console.log('Stylesheets loaded:', sheets.length);
+        for(var i = 0; i < sheets.length; i++) {
+            try {
+                console.log('  [' + i + ']', sheets[i].href || 'inline');
+            } catch(e) {
+                console.log('  [' + i + '] ERROR:', e);
+            }
+        }
+        
+        // Check images
+        var imgs = document.querySelectorAll('img');
+        console.log('Images:', imgs.length);
+        imgs.forEach(function(img, i) {
+            if(!img.complete || !img.naturalWidth) {
+                console.log('  [BROKEN]', img.src);
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <p>Open your Exposeseite.html and check console output</p>
+</body>
+</html>

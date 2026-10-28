@@ -1,0 +1,3237 @@
+{
+  "generated_at": "2026-05-07T12:40:51.756Z",
+  "total_criteria": 132,
+  "total_companies": 324,
+  "total_banks": 487,
+  "criteria": [
+    {
+      "id": "alle-eigentumer-darlehensnehmer",
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 296
+    },
+    {
+      "id": "annuitatendarlehen",
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 449
+    },
+    {
+      "id": "anzahl-auszahlungen-max.",
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 415
+    },
+    {
+      "id": "beleihungsauslauf",
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 42
+    },
+    {
+      "id": "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent",
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 384
+    },
+    {
+      "id": "beleihungsauslauf-eigennutzer-max.-percent",
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 425
+    },
+    {
+      "id": "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent",
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 378
+    },
+    {
+      "id": "beleihungsauslauf-kapitalanleger-max.-percent",
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 422
+    },
+    {
+      "id": "besonderheiten-finanzierung",
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 187
+    },
+    {
+      "id": "bz-freie-zeit-kostenfrei-max.-monate-neubau",
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 440
+    },
+    {
+      "id": "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau",
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 440
+    },
+    {
+      "id": "darlehensbetrag",
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 439
+    },
+    {
+      "id": "darlehensbetrag-max.-euro",
+      "name": "Darlehensbetrag max. (€)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 6
+    },
+    {
+      "id": "darlehensbetrag-min.-euro",
+      "name": "Darlehensbetrag min. (€)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 32
+    },
+    {
+      "id": "disagio",
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 88
+    },
+    {
+      "id": "entry",
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 84
+    },
+    {
+      "id": "finanzierung-vorfalligkeitsentschadigung",
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 214
+    },
+    {
+      "id": "forwarddarlehen",
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 445
+    },
+    {
+      "id": "kapitalbeschaffung",
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 308
+    },
+    {
+      "id": "kfw-darlehen",
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 458
+    },
+    {
+      "id": "lebenshaltungskosten",
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 20
+    },
+    {
+      "id": "modernisierungsdarlehen",
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 53
+    },
+    {
+      "id": "nachfinanzierung",
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 23
+    },
+    {
+      "id": "nachrangdarlehen",
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 472
+    },
+    {
+      "id": "nichtabnahmeoption",
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 39
+    },
+    {
+      "id": "oneclick",
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 459
+    },
+    {
+      "id": "puffer-neubaumodernisierung",
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 274
+    },
+    {
+      "id": "regionale-forderinstitute",
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 438
+    },
+    {
+      "id": "sicherheitsabschlag-auf-gestehungskosten-percent",
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 420
+    },
+    {
+      "id": "variables-darlehen",
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 442
+    },
+    {
+      "id": "zinsbindung-jahre",
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 444
+    },
+    {
+      "id": "zusatzobjekt",
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 47
+    },
+    {
+      "id": "zwischenfinanzierung",
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "bank_count": 446
+    },
+    {
+      "id": "erneute-prufung-vor-auszahlung",
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 13
+    },
+    {
+      "id": "forwardperiode-in-monaten",
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 425
+    },
+    {
+      "id": "forward-zinsbindung-jahre",
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 380
+    },
+    {
+      "id": "prolongation",
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 447
+    },
+    {
+      "id": "unterschiedliche-auszahlungstermine",
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 30
+    },
+    {
+      "id": "weitere-hinweise-forward",
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "bank_count": 24
+    },
+    {
+      "id": "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung",
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 426
+    },
+    {
+      "id": "kfw-bankenwechsel",
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 11
+    },
+    {
+      "id": "kfw-kreditinstitutsnummer",
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 437
+    },
+    {
+      "id": "kfw-programme",
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 469
+    },
+    {
+      "id": "kfw-stand-alone",
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 433
+    },
+    {
+      "id": "kfw-subventionierung",
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 423
+    },
+    {
+      "id": "kfw-zinsreservierung",
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 137
+    },
+    {
+      "id": "l-bank-anrechnung-in-beleihungsauslauf-zur-konditionierung",
+      "name": "L-Bank Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 22
+    },
+    {
+      "id": "l-bank-programme",
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 33
+    },
+    {
+      "id": "l-bank-stand-alone",
+      "name": "L-Bank Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "bank_count": 22
+    },
+    {
+      "id": "prolongation-abwicklung",
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "bank_count": 378
+    },
+    {
+      "id": "prolongation-besonderheiten",
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "bank_count": 43
+    },
+    {
+      "id": "prolongation-erforderliche-unterlagen",
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "bank_count": 92
+    },
+    {
+      "id": "prolongation-verprovisionierung",
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "bank_count": 83
+    },
+    {
+      "id": "besonderheit-zur-tilgung",
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "bank_count": 106
+    },
+    {
+      "id": "sondertilgung-p.a.-kostenfrei-max.-percent",
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "bank_count": 478
+    },
+    {
+      "id": "tilgung-mind.-percent",
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "bank_count": 443
+    },
+    {
+      "id": "tilgungsaussetzung",
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "bank_count": 31
+    },
+    {
+      "id": "tilgungsbeginn",
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "bank_count": 237
+    },
+    {
+      "id": "tilgungsersatzprodukte",
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "bank_count": 51
+    },
+    {
+      "id": "tilgungssatzwechsel",
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "bank_count": 472
+    },
+    {
+      "id": "auslandsimmobilie",
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "bank_count": 256
+    },
+    {
+      "id": "bauweise",
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "bank_count": 315
+    },
+    {
+      "id": "besonderheiten-zum-objekt",
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "bank_count": 111
+    },
+    {
+      "id": "blankoauszahlung",
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "bank_count": 174
+    },
+    {
+      "id": "bodenrichtwert-euro",
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "bank_count": 12
+    },
+    {
+      "id": "denkmalschutz",
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "bank_count": 250
+    },
+    {
+      "id": "eigenleistungen",
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "bank_count": 51
+    },
+    {
+      "id": "energieausweis",
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "bank_count": 23
+    },
+    {
+      "id": "erbbaurechte",
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "bank_count": 473
+    },
+    {
+      "id": "ferienimmobilien",
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "bank_count": 385
+    },
+    {
+      "id": "fertighauser",
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "bank_count": 21
+    },
+    {
+      "id": "gewerbeflache-max.-percent",
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "bank_count": 470
+    },
+    {
+      "id": "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent",
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "bank_count": 428
+    },
+    {
+      "id": "max.-we-je-mfh",
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "bank_count": 436
+    },
+    {
+      "id": "mfh-moglich",
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "bank_count": 253
+    },
+    {
+      "id": "mietpool",
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "bank_count": 68
+    },
+    {
+      "id": "objektart",
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "bank_count": 456
+    },
+    {
+      "id": "objektbewertung",
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "bank_count": 468
+    },
+    {
+      "id": "objektgutachten",
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "bank_count": 308
+    },
+    {
+      "id": "pflegeimmobilien",
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "bank_count": 315
+    },
+    {
+      "id": "plz-gebiet",
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "bank_count": 446
+    },
+    {
+      "id": "reine-baugrundstucke",
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "bank_count": 443
+    },
+    {
+      "id": "vorlasten-abt.-ii",
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "bank_count": 464
+    },
+    {
+      "id": "vorlasten-abt.-iii",
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "bank_count": 440
+    },
+    {
+      "id": "wohnflache-mind.-m",
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "bank_count": 435
+    },
+    {
+      "id": "zwangsversteigerung",
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "bank_count": 312
+    },
+    {
+      "id": "ansatz-elterngeld",
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "bank_count": 387
+    },
+    {
+      "id": "ansatz-monatsgehalter",
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "bank_count": 442
+    },
+    {
+      "id": "ansatz-nebeneinkunfte",
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "bank_count": 43
+    },
+    {
+      "id": "ansatz-pflegegeld",
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "bank_count": 18
+    },
+    {
+      "id": "ansatz-rente",
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "bank_count": 232
+    },
+    {
+      "id": "ansatz-unterhalt",
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "bank_count": 327
+    },
+    {
+      "id": "befristeter-aufenthalt",
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "bank_count": 275
+    },
+    {
+      "id": "befristetes-arbeitsverhaltnis",
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "bank_count": 464
+    },
+    {
+      "id": "beschaftigungsverhaltnis",
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "bank_count": 455
+    },
+    {
+      "id": "besonderheiten-zur-person",
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "bank_count": 126
+    },
+    {
+      "id": "darlehensnehmer",
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "bank_count": 476
+    },
+    {
+      "id": "einkunfte-aus-vermietung-verpachtung",
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "bank_count": 39
+    },
+    {
+      "id": "freiberufler",
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "bank_count": 475
+    },
+    {
+      "id": "getrennt-lebende-darlehensnehmer",
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "bank_count": 12
+    },
+    {
+      "id": "grenzganger",
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "bank_count": 388
+    },
+    {
+      "id": "haushaltsuberschuss-rot-grenze-mind.-euro",
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "bank_count": 438
+    },
+    {
+      "id": "kapitalanleger",
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "bank_count": 43
+    },
+    {
+      "id": "kundenalter",
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "bank_count": 273
+    },
+    {
+      "id": "kurzarbeit",
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "bank_count": 248
+    },
+    {
+      "id": "negativmerkmale",
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "bank_count": 275
+    },
+    {
+      "id": "nicht-eu-burger",
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "bank_count": 40
+    },
+    {
+      "id": "privatier",
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "bank_count": 38
+    },
+    {
+      "id": "probezeit",
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "bank_count": 466
+    },
+    {
+      "id": "regelung-im-rentenalter",
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "bank_count": 242
+    },
+    {
+      "id": "selbstandige",
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "bank_count": 474
+    },
+    {
+      "id": "weiteres-immobilienvermogen",
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "bank_count": 28
+    },
+    {
+      "id": "zeitsoldat",
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "bank_count": 19
+    },
+    {
+      "id": "ablosung-ratenkredite",
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 239
+    },
+    {
+      "id": "auszahlung",
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 243
+    },
+    {
+      "id": "benotigte-unterlagen",
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 134
+    },
+    {
+      "id": "beratungsdokumentationpflichtunterlage",
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 352
+    },
+    {
+      "id": "dolmetscher-akzeptiert",
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 71
+    },
+    {
+      "id": "einreichungsfrist-bei-konditionserhohung",
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 208
+    },
+    {
+      "id": "einreichungversand-unterlagen",
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 407
+    },
+    {
+      "id": "einreichungversand-unterlagennachlieferungversand-unterlagen",
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 167
+    },
+    {
+      "id": "honorarberatung",
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 193
+    },
+    {
+      "id": "kundenschutz",
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 479
+    },
+    {
+      "id": "legitimation-und-vertragsunterschrift",
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 470
+    },
+    {
+      "id": "nachlieferungversand-unterlagen",
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 395
+    },
+    {
+      "id": "nassunterschrift",
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 314
+    },
+    {
+      "id": "objektbesichtigung",
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 129
+    },
+    {
+      "id": "qes-elektronische-unterschrift",
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 194
+    },
+    {
+      "id": "umschuldung",
+      "name": "Umschuldung",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 7
+    },
+    {
+      "id": "upload-darlehensvertrag",
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 300
+    },
+    {
+      "id": "vermittlerausfertigung-darlehensvertrag",
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 210
+    },
+    {
+      "id": "weitere-hinweise",
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "bank_count": 142
+    }
+  ],
+  "banks": [
+    {
+      "name": "1822direkt",
+      "criteria_count": 96,
+      "company_id": "f42c9866321f77fdb96fe8e496b0f0d3"
+    },
+    {
+      "name": "Allianz Lebensversicherung",
+      "criteria_count": 112,
+      "company_id": "d20e1661cfb855966663a1094d37c68b"
+    },
+    {
+      "name": "AXA",
+      "criteria_count": 102,
+      "company_id": "69b161ad57f782f7d41f0241380db6e3"
+    },
+    {
+      "name": "Bausparkasse Schwäbisch Hall AG",
+      "criteria_count": 70,
+      "company_id": "ce09b549000e6548624f466696554de7"
+    },
+    {
+      "name": "Bausparkasse Wüstenrot",
+      "criteria_count": 78,
+      "company_id": "a02ec16d138a772dc722abbecab1c25f"
+    },
+    {
+      "name": "BBBank",
+      "criteria_count": 102,
+      "company_id": "4289499b3f3fb51b41443ff94d96fd45"
+    },
+    {
+      "name": "Berliner Sparkasse",
+      "criteria_count": 90,
+      "company_id": "1400014f81ec3eb93324aecc16db23e4"
+    },
+    {
+      "name": "Braunschweigische Landessparkasse",
+      "criteria_count": 98,
+      "company_id": "387c02e896b658ee888c07670d91c354"
+    },
+    {
+      "name": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "criteria_count": 73,
+      "company_id": null
+    },
+    {
+      "name": "Commerzbank",
+      "criteria_count": 97,
+      "company_id": "ebab11bf98aac731329d5f2e34bbd9b0"
+    },
+    {
+      "name": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "criteria_count": 74,
+      "company_id": "4a10da24c6bb0b68b02c5de3916f8a93"
+    },
+    {
+      "name": "Dortmunder Volksbank",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "ERGO",
+      "criteria_count": 106,
+      "company_id": "37d7ff97b75b08b85333bf2894fcaffa"
+    },
+    {
+      "name": "Erzgebirgssparkasse",
+      "criteria_count": 87,
+      "company_id": "5c534f5905fc014898eb03c8a8fa2fe2"
+    },
+    {
+      "name": "Genossenschaftsbank Unterallgäu eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Gladbacher Bank",
+      "criteria_count": 80,
+      "company_id": null
+    },
+    {
+      "name": "Grafschafter Volksbank eG",
+      "criteria_count": 51,
+      "company_id": null
+    },
+    {
+      "name": "Hamburger Volksbank eG",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "Hannoversche Leben",
+      "criteria_count": 87,
+      "company_id": "aed78ea02dfaf586b2ed872096063858"
+    },
+    {
+      "name": "Hanseatic Bank",
+      "criteria_count": 78,
+      "company_id": "f3bcd65004709796373779ea0f3d0a23"
+    },
+    {
+      "name": "HASPA - Hamburger Sparkasse AG",
+      "criteria_count": 86,
+      "company_id": "fadcafc3f6d86386c6e9f966df33b619"
+    },
+    {
+      "name": "Heidenheimer Volksbank eG",
+      "criteria_count": 87,
+      "company_id": null
+    },
+    {
+      "name": "HUK Baufinanzierung",
+      "criteria_count": 81,
+      "company_id": "bcca6581-4b22-4846-aef7-ee1ca6ca1b9f"
+    },
+    {
+      "name": "HypoVereinsbank - UniCredit Bank GmbH",
+      "criteria_count": 100,
+      "company_id": "86b0625120bfce16d863147fc7633334"
+    },
+    {
+      "name": "ING",
+      "criteria_count": 99,
+      "company_id": "76d2c39ceefa0a5a4e184c73d0d69fd9"
+    },
+    {
+      "name": "Kasseler Sparkasse",
+      "criteria_count": 84,
+      "company_id": "f3fd64f7988cd1563e15b36fdc8bae20"
+    },
+    {
+      "name": "Kieler Volksbank eG",
+      "criteria_count": 88,
+      "company_id": null
+    },
+    {
+      "name": "Kreissparkasse Freudenstadt",
+      "criteria_count": 49,
+      "company_id": "83bedcce-07d4-448b-a2cf-0cc529739a2b"
+    },
+    {
+      "name": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "criteria_count": 75,
+      "company_id": "2d61082d-cf3f-46cf-834c-2f3c0d9cf764"
+    },
+    {
+      "name": "Kreissparkasse Kusel",
+      "criteria_count": 77,
+      "company_id": "f155ebf6-fd35-4c08-951f-9946d0dde118"
+    },
+    {
+      "name": "Kreissparkasse Saarpfalz",
+      "criteria_count": 85,
+      "company_id": "0efc68db-0cdf-4629-a912-9fc1c3f85b42"
+    },
+    {
+      "name": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "criteria_count": 44,
+      "company_id": "1290ad8a-f44a-4ad9-ace1-19fe7db979fe"
+    },
+    {
+      "name": "KSK Ahrweiler",
+      "criteria_count": 81,
+      "company_id": "a0c7bbbc0f9688561b5de83dafc8e29e"
+    },
+    {
+      "name": "KSK Anhalt-Bitterfeld",
+      "criteria_count": 91,
+      "company_id": "103927518e367065d6ffb34325d73153"
+    },
+    {
+      "name": "KSK Bautzen",
+      "criteria_count": 85,
+      "company_id": "bf6ca8fa0b4c2e642bfecd23d60a689c"
+    },
+    {
+      "name": "KSK Bersenbrück",
+      "criteria_count": 79,
+      "company_id": "932ca54d7fcd841a5cf4d60edf85606b"
+    },
+    {
+      "name": "KSK Biberach",
+      "criteria_count": 89,
+      "company_id": "15b115ff89e919cacec20972f7a932a7"
+    },
+    {
+      "name": "KSK Börde",
+      "criteria_count": 73,
+      "company_id": "fca3f25eaadd753a0bc19a37d3a68b69"
+    },
+    {
+      "name": "KSK Diepholz",
+      "criteria_count": 93,
+      "company_id": "8876e2c0d7bb72738e4cdad5363ca0fb"
+    },
+    {
+      "name": "KSK Döbeln",
+      "criteria_count": 60,
+      "company_id": "a05cc0e8e3f8e4fa27ef55b5e48092f8"
+    },
+    {
+      "name": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "criteria_count": 76,
+      "company_id": "4bde5c18-dd1d-4925-addd-581df0cb28bb"
+    },
+    {
+      "name": "KSK Heilbronn",
+      "criteria_count": 77,
+      "company_id": "dc4f1e9eaceb470ef005149663560a24"
+    },
+    {
+      "name": "KSK Heinsberg",
+      "criteria_count": 72,
+      "company_id": "a9141030cef9fdc8f3002575a4119a00"
+    },
+    {
+      "name": "KSK Köln",
+      "criteria_count": 88,
+      "company_id": "d44e38cfd9c15218ee643ce348916d6e"
+    },
+    {
+      "name": "KSK Melle",
+      "criteria_count": 66,
+      "company_id": "67e27149-b203-49c6-bd94-cfc482d283ff"
+    },
+    {
+      "name": "KSK Northeim",
+      "criteria_count": 57,
+      "company_id": "16e0f54f-e8fb-49b0-91a2-c48e7d072369"
+    },
+    {
+      "name": "KSK Ravensburg",
+      "criteria_count": 89,
+      "company_id": "45e83665192e1f1a3eea0b7a85ef71e1"
+    },
+    {
+      "name": "KSK Reutlingen",
+      "criteria_count": 90,
+      "company_id": "61d8ab09-7062-4668-9189-7d95ed324fd4"
+    },
+    {
+      "name": "KSK Rhein-Hunsrück",
+      "criteria_count": 75,
+      "company_id": "e85c8818-f138-4599-bcd3-a290acb2e8a4"
+    },
+    {
+      "name": "KSK Saalfeld-Rudolstadt",
+      "criteria_count": 89,
+      "company_id": "8ec165784904094dcb2de4135185d238"
+    },
+    {
+      "name": "KSK Schwalm-Eder",
+      "criteria_count": 57,
+      "company_id": "b6a144c1-54b0-49ea-bcdf-c2c004ae6899"
+    },
+    {
+      "name": "KSK Soltau",
+      "criteria_count": 75,
+      "company_id": "11adb6a5-2004-439f-b77b-3bf8ffa2ce39"
+    },
+    {
+      "name": "KSK St. Wendel",
+      "criteria_count": 85,
+      "company_id": "b32b2b3aee16eac288d519ff94ad44e3"
+    },
+    {
+      "name": "KSK Verden",
+      "criteria_count": 72,
+      "company_id": "0e0a0d48-d5ea-46e1-8532-73b71d6d4990"
+    },
+    {
+      "name": "KSK Vulkaneifel",
+      "criteria_count": 37,
+      "company_id": "bf7068b5-14a5-4887-8cfa-df766e9f02aa"
+    },
+    {
+      "name": "Kyffhäusersparkasse Artern-Sondershausen",
+      "criteria_count": 86,
+      "company_id": "35f5f2e831fbdcf317a3c944e298f494"
+    },
+    {
+      "name": "Landessparkasse zu Oldenburg",
+      "criteria_count": 91,
+      "company_id": "dbd301cf44f2f182392798e56f20dc00"
+    },
+    {
+      "name": "LBS NordOst (vormals LBS Ost)",
+      "criteria_count": 71,
+      "company_id": "a2745b7a10decc7231795dbab6a006fa"
+    },
+    {
+      "name": "LBS Süd",
+      "criteria_count": 33,
+      "company_id": "52dca12b-a264-4b22-9848-2138b3c10f96"
+    },
+    {
+      "name": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "criteria_count": 85,
+      "company_id": null
+    },
+    {
+      "name": "Mittelbrandenburgische Sparkasse",
+      "criteria_count": 93,
+      "company_id": "10e2d3453b9489697a0c44e903e55098"
+    },
+    {
+      "name": "Müritz-Sparkasse",
+      "criteria_count": 90,
+      "company_id": "272a2f34a32b699b53980e55d9d29670"
+    },
+    {
+      "name": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "criteria_count": 74,
+      "company_id": "eed5310c3c7032a71b1a258be223c163"
+    },
+    {
+      "name": "Oldenburger Volksbank eG",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "Oldenburgische Landesbank",
+      "criteria_count": 99,
+      "company_id": "c911a70566bf66c29ff4d81f9a8bef33"
+    },
+    {
+      "name": "OstseeSparkasse Rostock",
+      "criteria_count": 75,
+      "company_id": "6695af516af134a6af2a368812a0bd57"
+    },
+    {
+      "name": "PSD Braunschweig",
+      "criteria_count": 79,
+      "company_id": "f7fdba3cc2d6e6c81d7d5c8fde56eb2c"
+    },
+    {
+      "name": "PSD Hannover",
+      "criteria_count": 93,
+      "company_id": "0769ff9af7fd45622451ad639ba6cb88"
+    },
+    {
+      "name": "PSD Karlsruhe-Neustadt",
+      "criteria_count": 88,
+      "company_id": "10d70a5f614dda5d997c20c0fea2ca05"
+    },
+    {
+      "name": "PSD Koblenz",
+      "criteria_count": 89,
+      "company_id": "aa3f2926c8fa6cb05792f3e93a103ca8"
+    },
+    {
+      "name": "PSD München",
+      "criteria_count": 95,
+      "company_id": "bbf596890f7402a365fda18fa17be38f"
+    },
+    {
+      "name": "PSD Nord",
+      "criteria_count": 84,
+      "company_id": "42c891d14b0176157d9c231daf8c9035"
+    },
+    {
+      "name": "Raiffeisenbank eG Leezen",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "criteria_count": 78,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank im Kreis Calw eG",
+      "criteria_count": 89,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank im Nürnberger Land eG",
+      "criteria_count": 49,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Lauenburg-Elbe",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Oberpfalz Süd eG",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Plankstetten",
+      "criteria_count": 78,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Straubing eG",
+      "criteria_count": 82,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Wittelsbacher Land eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisen-Volksbank eG, Aurich",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisen-Volksbank Haßberge eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Rheinhessen Sparkasse",
+      "criteria_count": 93,
+      "company_id": "7c91d7bacb387645b7791b0bcab3b388"
+    },
+    {
+      "name": "Sparda-Bank Augsburg",
+      "criteria_count": 94,
+      "company_id": "80f404934eb0412338cc7b22df6c8646"
+    },
+    {
+      "name": "Sparda-Bank Berlin",
+      "criteria_count": 99,
+      "company_id": "f308e9fe78343289cb549c79ea6d963e"
+    },
+    {
+      "name": "Sparda-Bank Hamburg",
+      "criteria_count": 91,
+      "company_id": "550597a4d76c4f4c7f1c9c79eae482ae"
+    },
+    {
+      "name": "Sparda-Bank Hannover",
+      "criteria_count": 98,
+      "company_id": "5b705de240b9fa753ef02cd3874425f4"
+    },
+    {
+      "name": "Sparda-Bank München eG",
+      "criteria_count": 80,
+      "company_id": "d0d8414e7a65c50b1d17d0425cb5eb64"
+    },
+    {
+      "name": "Sparda-Bank Nürnberg",
+      "criteria_count": 97,
+      "company_id": "d1ef0524463cc0459acc23a4e93ec7e2"
+    },
+    {
+      "name": "Sparda-Bank Südwest",
+      "criteria_count": 94,
+      "company_id": "a2470cd947e25a79982b51f2292eaf49"
+    },
+    {
+      "name": "Sparda-Bank West",
+      "criteria_count": 93,
+      "company_id": "cf590bc3dd530b36ec8c259fa154a510"
+    },
+    {
+      "name": "Sparkasse Aachen",
+      "criteria_count": 94,
+      "company_id": "88c32992fd79bc885ae01b6a3a54f2e4"
+    },
+    {
+      "name": "Sparkasse Allgäu",
+      "criteria_count": 85,
+      "company_id": "c1ad73f4ef7233094b12a79e72f8fc89"
+    },
+    {
+      "name": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "criteria_count": 70,
+      "company_id": "959d76980b982d2d8b351d3b9265dc4b"
+    },
+    {
+      "name": "Sparkasse Amberg-Sulzbach",
+      "criteria_count": 94,
+      "company_id": "f56e905d562d40dc9ef355e86172deda"
+    },
+    {
+      "name": "Sparkasse am Niederrhein",
+      "criteria_count": 86,
+      "company_id": "e29ccb90df0c7c091b9b5550fb49bbc1"
+    },
+    {
+      "name": "Sparkasse an der Lippe",
+      "criteria_count": 76,
+      "company_id": "cf2c81d2-ccdf-44b0-8216-b39965b5e564"
+    },
+    {
+      "name": "Sparkasse an Ennepe und Ruhr",
+      "criteria_count": 49,
+      "company_id": "ca9dea5d-4445-479c-99ea-eefa6699c03c"
+    },
+    {
+      "name": "Sparkasse an Volme und Ruhr",
+      "criteria_count": 91,
+      "company_id": "53dafaec88b0329e68f2860e4ab2f63c"
+    },
+    {
+      "name": "Sparkasse Aschaffenburg Miltenberg",
+      "criteria_count": 89,
+      "company_id": "370f1cc8-0b12-4739-8f54-3aa6f1a7a292"
+    },
+    {
+      "name": "Sparkasse Aurich-Norden",
+      "criteria_count": 74,
+      "company_id": "5e39f8bc-76e2-4dd1-8999-01823564aca8"
+    },
+    {
+      "name": "Sparkasse Baden-Baden Gaggenau",
+      "criteria_count": 80,
+      "company_id": "1901c4b95704d8a105d26abf3ac24329"
+    },
+    {
+      "name": "Sparkasse Bad Tölz-Wolfratshausen",
+      "criteria_count": 36,
+      "company_id": "8d87d361-6e54-4e92-b18b-f893aeffd87c"
+    },
+    {
+      "name": "Sparkasse Bayreuth",
+      "criteria_count": 86,
+      "company_id": "b487ec12cb92aeadcebefb651fe8283c"
+    },
+    {
+      "name": "Sparkasse Bremen",
+      "criteria_count": 96,
+      "company_id": "dab4691d63e25041a09b25fa00587ff0"
+    },
+    {
+      "name": "Sparkasse Bühl",
+      "criteria_count": 76,
+      "company_id": "d2663945-1052-4e28-88b3-d2ea5ab4c166"
+    },
+    {
+      "name": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "criteria_count": 81,
+      "company_id": "59c869cc32280185417c1f9d5e6f822a"
+    },
+    {
+      "name": "Sparkasse Chemnitz",
+      "criteria_count": 90,
+      "company_id": "e89fc0fa8bf1be09bcdb16c0b996d08a"
+    },
+    {
+      "name": "Sparkasse Coburg-Lichtenfels",
+      "criteria_count": 60,
+      "company_id": "b7450a8c-57a1-4def-905e-bffd9ace9137"
+    },
+    {
+      "name": "Sparkasse Darmstadt",
+      "criteria_count": 58,
+      "company_id": "610a6b5d-7832-4b31-91f5-225cb77a7daf"
+    },
+    {
+      "name": "Sparkasse Deggendorf",
+      "criteria_count": 85,
+      "company_id": "8a9d6bbd2cfb3d0a1d3757f74c5caa33"
+    },
+    {
+      "name": "Sparkasse Dieburg",
+      "criteria_count": 83,
+      "company_id": "8f34f9d2-c500-48df-b776-fc525c3d6453"
+    },
+    {
+      "name": "Sparkasse Duisburg",
+      "criteria_count": 93,
+      "company_id": "6f07920027cc01a6a8d64d0007b30bb1"
+    },
+    {
+      "name": "Sparkasse Düren",
+      "criteria_count": 78,
+      "company_id": "5533aa35-5c61-4ab9-b946-a3fd72dc32d2"
+    },
+    {
+      "name": "Sparkasse Einbeck",
+      "criteria_count": 82,
+      "company_id": "ded9c32c-cdb0-425f-a222-2ccfcc3cc508"
+    },
+    {
+      "name": "Sparkasse Essen",
+      "criteria_count": 94,
+      "company_id": "eaa73106ab6e8da89c4a7381ceebe7ba"
+    },
+    {
+      "name": "Sparkasse Forchheim",
+      "criteria_count": 74,
+      "company_id": "d6cebe99-8491-4702-9526-a2341ef40d58"
+    },
+    {
+      "name": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "criteria_count": 87,
+      "company_id": "ce2e47a0-23f5-4a80-bb05-0e7cd3e6488d"
+    },
+    {
+      "name": "Sparkasse Fulda",
+      "criteria_count": 88,
+      "company_id": "4973dab40a51fbabcd3fc2b9c29b4404"
+    },
+    {
+      "name": "Sparkasse Fürstenfeldbruck",
+      "criteria_count": 88,
+      "company_id": "a78b2180850a17b9d87eaa588e753c81"
+    },
+    {
+      "name": "Sparkasse Fürth",
+      "criteria_count": 89,
+      "company_id": "4155ef3285f4f53516de0a64d215c945"
+    },
+    {
+      "name": "Sparkasse Gera-Greiz",
+      "criteria_count": 86,
+      "company_id": "26c018cd417bdacad7d8d76018c7dc36"
+    },
+    {
+      "name": "Sparkasse Gladbeck",
+      "criteria_count": 28,
+      "company_id": "d3fbc42d-d440-45a1-954a-fe37b70fafaf"
+    },
+    {
+      "name": "Sparkasse Gummersbach",
+      "criteria_count": 73,
+      "company_id": "130a9cb9-cb28-4d35-b67a-d581e02fc7ac"
+    },
+    {
+      "name": "Sparkasse Hameln-Weserbergland",
+      "criteria_count": 73,
+      "company_id": "1d3d9bd95df594913c83f5b628ab3b14"
+    },
+    {
+      "name": "Sparkasse Hamm",
+      "criteria_count": 51,
+      "company_id": "051cb3ea-275f-4020-9ec1-3b13d855efa7"
+    },
+    {
+      "name": "Sparkasse Hanau",
+      "criteria_count": 63,
+      "company_id": "1787be68-26e3-4f09-aa94-fded515c496d"
+    },
+    {
+      "name": "Sparkasse Hanauerland",
+      "criteria_count": 83,
+      "company_id": "f8313110-c2c1-42f5-824a-18a612ec110d"
+    },
+    {
+      "name": "Sparkasse Harburg-Buxtehude",
+      "criteria_count": 88,
+      "company_id": "9ff19ec162ee7daecea9ee586d79378a"
+    },
+    {
+      "name": "Sparkasse Heidelberg",
+      "criteria_count": 85,
+      "company_id": "49e7630d-fd8c-40fd-bc76-16d4168c2e66"
+    },
+    {
+      "name": "Sparkasse Hilden-Ratingen-Velbert",
+      "criteria_count": 78,
+      "company_id": "b5fcf55f55409f52c2ac7f3f867ef36e"
+    },
+    {
+      "name": "Sparkasse Hildesheim Goslar Peine",
+      "criteria_count": 98,
+      "company_id": "1c90d5ae03550186fb11395999fd4ef4"
+    },
+    {
+      "name": "Sparkasse Holstein",
+      "criteria_count": 79,
+      "company_id": "1df99cedc5c77f5cb6a32cdc62793220"
+    },
+    {
+      "name": "Sparkasse Ingolstadt Eichstätt",
+      "criteria_count": 82,
+      "company_id": "05287f1e-ec13-40d8-bac3-0aa2879e85e8"
+    },
+    {
+      "name": "Sparkasse Iserlohn",
+      "criteria_count": 73,
+      "company_id": "b9269bb4-6a97-4df0-8cac-3874b3c62004"
+    },
+    {
+      "name": "Sparkasse Jena-Saale-Holzland",
+      "criteria_count": 79,
+      "company_id": "44785e090bf9877ba021ff5a49e9cdec"
+    },
+    {
+      "name": "Sparkasse Karlsruhe",
+      "criteria_count": 88,
+      "company_id": "c98e83bb451c105ee8d9a596a6a1dfa3"
+    },
+    {
+      "name": "Sparkasse Kinzigtal",
+      "criteria_count": 72,
+      "company_id": "9eda6abdc51172f4583c99f8d9488358"
+    },
+    {
+      "name": "Sparkasse Koblenz",
+      "criteria_count": 60,
+      "company_id": "3015cceb-41ab-487f-93ec-2c4116556243"
+    },
+    {
+      "name": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "criteria_count": 85,
+      "company_id": "9fa2dcdc-35c4-45a8-95c6-68e8f16f7989"
+    },
+    {
+      "name": "Sparkasse Kulmbach-Kronach",
+      "criteria_count": 88,
+      "company_id": "4df8233d90760811231babedfe33d5f9"
+    },
+    {
+      "name": "Sparkasse Landsberg-Dießen",
+      "criteria_count": 69,
+      "company_id": "c5b18c2c-c944-4639-9763-c54c5dc18be9"
+    },
+    {
+      "name": "Sparkasse Langen-Seligenstadt",
+      "criteria_count": 66,
+      "company_id": "7bc68af5c3c762d469317ad1fc2bbc4d"
+    },
+    {
+      "name": "Sparkasse Leipzig",
+      "criteria_count": 83,
+      "company_id": "f79076e8ec9534817e7b32a000a19143"
+    },
+    {
+      "name": "Sparkasse Lemgo",
+      "criteria_count": 80,
+      "company_id": "cf29827d-8283-4745-80e9-407f14fc0112"
+    },
+    {
+      "name": "Sparkasse Lörrach-Rheinfelden",
+      "criteria_count": 64,
+      "company_id": "bf8013c6b3e11a349f3a81e9f66786bc"
+    },
+    {
+      "name": "Sparkasse Lübeck",
+      "criteria_count": 74,
+      "company_id": "744bd60ef1e433aa8a2b516a799fbb9b"
+    },
+    {
+      "name": "Sparkasse Markgräflerland",
+      "criteria_count": 81,
+      "company_id": "7fe83fff87bbb3b62f8f0899e031e705"
+    },
+    {
+      "name": "Sparkasse Märkisch Oderland",
+      "criteria_count": 82,
+      "company_id": "f1dbe12df60615f4b064079de5796eca"
+    },
+    {
+      "name": "Sparkasse Meißen",
+      "criteria_count": 85,
+      "company_id": "bdba807cc2d8e1993d8a1290fd997a01"
+    },
+    {
+      "name": "Sparkasse Minden-Lübbecke",
+      "criteria_count": 65,
+      "company_id": "e6f7eea3-858e-4d00-a746-89264e32f018"
+    },
+    {
+      "name": "Sparkasse Mittelfranken Süd",
+      "criteria_count": 79,
+      "company_id": "bfe7eeeb-1846-4c14-8857-37cbbb5e5cc5"
+    },
+    {
+      "name": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "criteria_count": 70,
+      "company_id": "c32eda2b29b35009e40d398ff8bfb199"
+    },
+    {
+      "name": "Sparkasse Mitten im Sauerland",
+      "criteria_count": 79,
+      "company_id": "1b9d393a64103c05605d5610ee0b5b3b"
+    },
+    {
+      "name": "Sparkasse Muldental",
+      "criteria_count": 80,
+      "company_id": "4791b58ab3949d04024b49e4e6d3c838"
+    },
+    {
+      "name": "Sparkasse Mülheim a. d. Ruhr",
+      "criteria_count": 86,
+      "company_id": "bf7585d0ec55f5868a8a13ce4ec5f53f"
+    },
+    {
+      "name": "Sparkasse Münsterland-Ost",
+      "criteria_count": 87,
+      "company_id": "b4e84873-e364-44e7-8784-582ed7d3ca4f"
+    },
+    {
+      "name": "Sparkasse Neckartal-Odenwald",
+      "criteria_count": 83,
+      "company_id": "59c997b0c77d53c1351af7fab76171f0"
+    },
+    {
+      "name": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "criteria_count": 78,
+      "company_id": "f0d1dbe9b23928dad7a491a51fcce618"
+    },
+    {
+      "name": "Sparkasse Neuss",
+      "criteria_count": 86,
+      "company_id": "73cce31c69a5801e1fe09f71ff43e586"
+    },
+    {
+      "name": "Sparkasse Neu-Ulm-Illertissen",
+      "criteria_count": 90,
+      "company_id": "da85b76c6104c8503778285220482c59"
+    },
+    {
+      "name": "Sparkasse Neuwied",
+      "criteria_count": 81,
+      "company_id": "baa487e0af3714a04f3d25a24f90d3b0"
+    },
+    {
+      "name": "Sparkasse Niederlausitz",
+      "criteria_count": 76,
+      "company_id": "4c8589c9-dcbf-4e0e-b5bd-8aa582252b63"
+    },
+    {
+      "name": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "criteria_count": 84,
+      "company_id": "7cb10240-045e-41c3-9cec-b938a11c28c0"
+    },
+    {
+      "name": "Sparkasse Nürnberg",
+      "criteria_count": 83,
+      "company_id": "ebbbd736ddca9cd26c0b6c3af6d7f3c2"
+    },
+    {
+      "name": "Sparkasse Oberland",
+      "criteria_count": 83,
+      "company_id": "06cd0bc0-60c0-4302-b1be-4ee15aff68df"
+    },
+    {
+      "name": "Sparkasse Offenbach",
+      "criteria_count": 31,
+      "company_id": "8896b749-9703-4d37-8146-234094045b82"
+    },
+    {
+      "name": "Sparkasse Offenburg-Ortenau",
+      "criteria_count": 76,
+      "company_id": "53635227d819862e975a95f3b77ac3ed"
+    },
+    {
+      "name": "Sparkasse Osterode am Harz",
+      "criteria_count": 72,
+      "company_id": "7ac30bf5-cb22-46da-b7dc-b4813fd11ba3"
+    },
+    {
+      "name": "Sparkasse Ostprignitz-Ruppin",
+      "criteria_count": 85,
+      "company_id": "a949ff583adce34c7aae45e78415bce2"
+    },
+    {
+      "name": "Sparkasse Paderborn-Detmold-Höxter",
+      "criteria_count": 89,
+      "company_id": "b5bd80f6-a0af-4a6a-9230-d4b3769ed115"
+    },
+    {
+      "name": "Sparkasse Pfaffenhofen",
+      "criteria_count": 76,
+      "company_id": "6a8dc9a04936b8bb4246fc090d545e8c"
+    },
+    {
+      "name": "Sparkasse Prignitz",
+      "criteria_count": 53,
+      "company_id": "901e73fa-0453-41e1-ac78-4934fdc87682"
+    },
+    {
+      "name": "Sparkasse Rastatt-Gernsbach",
+      "criteria_count": 81,
+      "company_id": "f033eee7-1bce-42cc-ad12-ad254cf3203d"
+    },
+    {
+      "name": "Sparkasse Rhein-Haardt",
+      "criteria_count": 63,
+      "company_id": "d79e6b48a3a3095b022525cf60c7d38f"
+    },
+    {
+      "name": "Sparkasse Rhein-Maas",
+      "criteria_count": 86,
+      "company_id": "5ad1b43eb91a186968b9d2186db9f66e"
+    },
+    {
+      "name": "Sparkasse Rhein-Nahe",
+      "criteria_count": 54,
+      "company_id": "9de7cec2-7171-47a9-9826-9eaa02de0cc7"
+    },
+    {
+      "name": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "criteria_count": 78,
+      "company_id": "787539388af587416c69c9c6e3efccac"
+    },
+    {
+      "name": "Sparkasse Rottal-Inn",
+      "criteria_count": 88,
+      "company_id": "83a615c63dbfde753e8e30462122a2bd"
+    },
+    {
+      "name": "Sparkasse Schaumburg",
+      "criteria_count": 89,
+      "company_id": "ab6fcf2bd38c5d0b753d515c69e94a74"
+    },
+    {
+      "name": "Sparkasse Schwaben-Bodensee",
+      "criteria_count": 72,
+      "company_id": "919e0550-8b3e-474e-9aba-85d4dff93487"
+    },
+    {
+      "name": "Sparkasse Schwelm-Sprockhövel",
+      "criteria_count": 69,
+      "company_id": "9281e569096776206c2d444c54e374d7"
+    },
+    {
+      "name": "Sparkasse Stade-Altes Land",
+      "criteria_count": 82,
+      "company_id": "5b09f2c4bd9f1125850ca54b49483209"
+    },
+    {
+      "name": "Sparkasse Starkenburg",
+      "criteria_count": 71,
+      "company_id": "2531930f-1251-47db-a41d-bb7aea6ad266"
+    },
+    {
+      "name": "Sparkasse Südholstein",
+      "criteria_count": 75,
+      "company_id": "45118665a675ea66a992107c7e921e88"
+    },
+    {
+      "name": "Sparkasse Südpfalz",
+      "criteria_count": 48,
+      "company_id": "f1610237-9b72-4eeb-8bef-c21a2dbf9010"
+    },
+    {
+      "name": "Sparkasse Uecker-Randow",
+      "criteria_count": 85,
+      "company_id": "a0938a519738cc80911489ba95decd9b"
+    },
+    {
+      "name": "Sparkasse Ulm",
+      "criteria_count": 89,
+      "company_id": "ceed8ccb814cd0b9713944ea9bcf597b"
+    },
+    {
+      "name": "Sparkasse Vest-Recklinghausen",
+      "criteria_count": 90,
+      "company_id": "725cfd1e9285f033e8f471010466dfb4"
+    },
+    {
+      "name": "Sparkasse Vorderpfalz",
+      "criteria_count": 90,
+      "company_id": "a7c215defac5cdb97c32cfdd30313571"
+    },
+    {
+      "name": "Sparkasse Vorpommern",
+      "criteria_count": 89,
+      "company_id": "f553d52c750c2bb982c48233bb199b5f"
+    },
+    {
+      "name": "Sparkasse Westerwald-Sieg",
+      "criteria_count": 89,
+      "company_id": "e371c4d0-95c4-4c98-95bd-aeac144a969c"
+    },
+    {
+      "name": "Sparkasse Westholstein",
+      "criteria_count": 80,
+      "company_id": "3c559c08ef29637e487a0349d648951f"
+    },
+    {
+      "name": "Sparkasse Westmünsterland",
+      "criteria_count": 68,
+      "company_id": "042c2d35-0dbf-41c7-8d74-4a702f4e0ecc"
+    },
+    {
+      "name": "Sparkasse Wilhelmshaven",
+      "criteria_count": 66,
+      "company_id": "13718cc5-7014-48f4-a537-608d3c570490"
+    },
+    {
+      "name": "Sparkasse Wittgenstein",
+      "criteria_count": 65,
+      "company_id": "f4fdad8f-c66a-44ee-9291-e430419c0304"
+    },
+    {
+      "name": "Sparkasse Zwickau",
+      "criteria_count": 86,
+      "company_id": "4965ada6b971f1d5e1b2486679f02e99"
+    },
+    {
+      "name": "Stadtsparkasse Augsburg",
+      "criteria_count": 71,
+      "company_id": "e26746ee-d005-47fe-b91b-f4ff7147a949"
+    },
+    {
+      "name": "Stadtsparkasse Cuxhaven",
+      "criteria_count": 71,
+      "company_id": "7f2a0b1b1b8674a715bb81f59f65551c"
+    },
+    {
+      "name": "Stadtsparkasse Dessau",
+      "criteria_count": 75,
+      "company_id": "d46e0000ff74430ba4242c710a01bf2b"
+    },
+    {
+      "name": "Stadtsparkasse Düsseldorf",
+      "criteria_count": 88,
+      "company_id": "536c19d8c3dd766d95258f89805a766c"
+    },
+    {
+      "name": "Stadt-Sparkasse Haan",
+      "criteria_count": 27,
+      "company_id": "1b4c45cf-e6b8-4515-9ab9-927afe478c97"
+    },
+    {
+      "name": "Stadtsparkasse München",
+      "criteria_count": 69,
+      "company_id": "dd2d8a002a95c37c9bf8a85128743fa6"
+    },
+    {
+      "name": "Stadtsparkasse Oberhausen",
+      "criteria_count": 75,
+      "company_id": "7e3ded08548215bd656014b26087a9a3"
+    },
+    {
+      "name": "Stadtsparkasse Remscheid",
+      "criteria_count": 85,
+      "company_id": "9908f5c24b889d186ceb5a97966091fb"
+    },
+    {
+      "name": "Stadtsparkasse Solingen",
+      "criteria_count": 82,
+      "company_id": "dfe62545447a2032cf18d57915624acf"
+    },
+    {
+      "name": "Stadtsparkasse Wuppertal",
+      "criteria_count": 88,
+      "company_id": "79048146e2a3a61d4c3eb65379d4bb50"
+    },
+    {
+      "name": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "criteria_count": 91,
+      "company_id": "db311244-6341-4617-9606-b31f740d0311"
+    },
+    {
+      "name": "Steyler Ethik Bank GmbH",
+      "criteria_count": 69,
+      "company_id": "613be527ac8c2132b066bf2441c5753c"
+    },
+    {
+      "name": "uniVersa",
+      "criteria_count": 92,
+      "company_id": "47edc694ab1b17199ed3afb226f82090"
+    },
+    {
+      "name": "VBU Volksbank im Unterland",
+      "criteria_count": 89,
+      "company_id": null
+    },
+    {
+      "name": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "Vereinigte Volksbanken eG",
+      "criteria_count": 79,
+      "company_id": null
+    },
+    {
+      "name": "Vereinte Volksbank eG Dorsten",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Alzey-Worms",
+      "criteria_count": 80,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank am Württemberg eG",
+      "criteria_count": 80,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank an der Niers eG",
+      "criteria_count": 86,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Beckum-Lippstadt",
+      "criteria_count": 64,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Börde-Bernburg eG",
+      "criteria_count": 69,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Breisgau-Markgräflerland eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Breisgau-Nord",
+      "criteria_count": 87,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "criteria_count": 95,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Delitzsch eG",
+      "criteria_count": 82,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Dresden-Bautzen eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Düsseldorf Neuss",
+      "criteria_count": 73,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eG - Die Gestalterbank",
+      "criteria_count": 101,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eG Essen Cappeln",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "criteria_count": 94,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Erft eG",
+      "criteria_count": 61,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Filder eG",
+      "criteria_count": 92,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Freiburg eG",
+      "criteria_count": 82,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Gronau-Ahaus eG",
+      "criteria_count": 63,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Halle (Saale) eG",
+      "criteria_count": 83,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Hameln-Stadthagen",
+      "criteria_count": 89,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Hellweg",
+      "criteria_count": 78,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank im bergischen Land",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank im Elbe-Weser-Dreieck eG",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank im Hochsauerland",
+      "criteria_count": 72,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "criteria_count": 69,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank in Schaumburg und Nienburg eG",
+      "criteria_count": 79,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Köln Bonn eG",
+      "criteria_count": 82,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Krefeld eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Kurpfalz eG",
+      "criteria_count": 77,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Lahr eG",
+      "criteria_count": 73,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Löbau-Zittau eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Lüneburger Heide eG",
+      "criteria_count": 79,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Mittelhessen",
+      "criteria_count": 97,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Mittlerer Neckar eG",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Nordharz eG",
+      "criteria_count": 83,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Oberberg",
+      "criteria_count": 72,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Raiffeisenbank Dachau eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank-Raiffeisenbank Glauchau eG",
+      "criteria_count": 63,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "criteria_count": 51,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Rhein-Erft-Köln eG",
+      "criteria_count": 83,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "criteria_count": 43,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Stuttgart",
+      "criteria_count": 89,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Überlingen",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Ulm-Biberach",
+      "criteria_count": 87,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Viersen eG",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Vorpommern eG Stralsund",
+      "criteria_count": 69,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Westmünsterland eG",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "criteria_count": 92,
+      "company_id": null
+    },
+    {
+      "name": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "VolkswohlBund",
+      "criteria_count": 83,
+      "company_id": "003adf2176854e23f2dc5f2029c11520"
+    },
+    {
+      "name": "VR-Bank Bonn Rhein-Sieg",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Donau-Mindel",
+      "criteria_count": 84,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Ellwangen eG",
+      "criteria_count": 77,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Fulda eG",
+      "criteria_count": 88,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "criteria_count": 88,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank im südlichen Franken eG",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank in Südniedersachsen eG",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Kempten-Oberallgäu eG",
+      "criteria_count": 78,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Main-Kinzig-Büdingen",
+      "criteria_count": 84,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Mecklenburg eG",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Mitte eG",
+      "criteria_count": 77,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Rhein-Neckar eG",
+      "criteria_count": 87,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Rottal-Inn eG",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "criteria_count": 79,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Uckermark-Randow eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "criteria_count": 73,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank zwischen den Meeren eG",
+      "criteria_count": 88,
+      "company_id": null
+    },
+    {
+      "name": "VReG -Volksbank Raiffeisenbank eG",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "VR GenoBank DonauWald",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "criteria_count": 87,
+      "company_id": null
+    },
+    {
+      "name": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "criteria_count": 86,
+      "company_id": null
+    },
+    {
+      "name": "VVB Saarlouis - Sulzbach/Saar",
+      "criteria_count": 86,
+      "company_id": null
+    },
+    {
+      "name": "Wartburg-Sparkasse",
+      "criteria_count": 84,
+      "company_id": "1f669c1df22770b1d75146a72cd3d0ba"
+    },
+    {
+      "name": "Aachener Bank eG",
+      "criteria_count": 72,
+      "company_id": null
+    },
+    {
+      "name": "Alte Leipziger",
+      "criteria_count": 86,
+      "company_id": "9cf4c209e458fc7932e9eecc254c95cb"
+    },
+    {
+      "name": "Bank 1 Saar eG",
+      "criteria_count": 58,
+      "company_id": null
+    },
+    {
+      "name": "Berliner Volksbank eG",
+      "criteria_count": 64,
+      "company_id": null
+    },
+    {
+      "name": "BHW",
+      "criteria_count": 81,
+      "company_id": "51c6e3e5e9140cb01813ce53b716ba52"
+    },
+    {
+      "name": "BKM - Bausparkasse Mainz AG",
+      "criteria_count": 72,
+      "company_id": "1b87e802cb34da52a3332f54c927fdcc"
+    },
+    {
+      "name": "Bordesholmer Sparkasse",
+      "criteria_count": 62,
+      "company_id": "2e8f1355f0f5550f37b5a0bc16d9a165"
+    },
+    {
+      "name": "Deutsche Bank",
+      "criteria_count": 93,
+      "company_id": "f83093e5a46617f71384fb2e6e1cd1cc"
+    },
+    {
+      "name": "DKB",
+      "criteria_count": 109,
+      "company_id": "1f2ccf1f2c117c58beb085dd490c84ae"
+    },
+    {
+      "name": "DZ HYP",
+      "criteria_count": 82,
+      "company_id": "44d409b3-829b-4ea2-ade0-81a6dca977bd"
+    },
+    {
+      "name": "Förde Sparkasse",
+      "criteria_count": 69,
+      "company_id": "b8a57571093554658e459ae833e9fc65"
+    },
+    {
+      "name": "Frankfurter Sparkasse",
+      "criteria_count": 81,
+      "company_id": "f390c9b84f5199dcd1aee7402afaf266"
+    },
+    {
+      "name": "Frankfurter Volksbank eG",
+      "criteria_count": 80,
+      "company_id": null
+    },
+    {
+      "name": "Gabler-Saliter-Bank",
+      "criteria_count": 25,
+      "company_id": "f4af9313-bfdc-47a2-bc66-7292fdf7366d"
+    },
+    {
+      "name": "Hannoversche Volksbank eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Harzsparkasse",
+      "criteria_count": 72,
+      "company_id": "528a990af5dabf8aed4115fc15d50487"
+    },
+    {
+      "name": "Herner Sparkasse",
+      "criteria_count": 60,
+      "company_id": "f0e756b0-fcad-445f-b71c-b57cd6403b3c"
+    },
+    {
+      "name": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "criteria_count": 60,
+      "company_id": "a5cc28ef7b8eb716e94779040f136817"
+    },
+    {
+      "name": "KSK Düsseldorf",
+      "criteria_count": 72,
+      "company_id": "b6e214b73eb42654c7da27d08bfa0a47"
+    },
+    {
+      "name": "KSK Eichsfeld",
+      "criteria_count": 76,
+      "company_id": "2330490257e2478152bb5f996641b020"
+    },
+    {
+      "name": "KSK Esslingen-Nürtingen",
+      "criteria_count": 57,
+      "company_id": "370bef751cafe5f6da20944f2550d9af"
+    },
+    {
+      "name": "KSK Göppingen",
+      "criteria_count": 60,
+      "company_id": "02ca9265360c001a598668fb95c51e26"
+    },
+    {
+      "name": "KSK Heidenheim",
+      "criteria_count": 57,
+      "company_id": "b578105c32659bbcc1702c0d78255765"
+    },
+    {
+      "name": "KSK Herzogtum Lauenburg",
+      "criteria_count": 65,
+      "company_id": "fd1e64e4a476c6fe304b9bbb68405938"
+    },
+    {
+      "name": "KSK Limburg",
+      "criteria_count": 68,
+      "company_id": "20f6de4e6b48c7498045f14142965c03"
+    },
+    {
+      "name": "KSK Ludwigsburg",
+      "criteria_count": 69,
+      "company_id": "cad51df2647f3a91fd69f50d561b239b"
+    },
+    {
+      "name": "KSK Mayen",
+      "criteria_count": 56,
+      "company_id": "f47fc7ac3b6d6ee28b9f253e403579ae"
+    },
+    {
+      "name": "KSK München Starnberg Ebersberg",
+      "criteria_count": 69,
+      "company_id": "688ffe5c49265e14df20dea4a1143800"
+    },
+    {
+      "name": "KSK Nordhausen",
+      "criteria_count": 53,
+      "company_id": "8177c61235cfa4562c1e3072e1f1747e"
+    },
+    {
+      "name": "KSK Saale-Orla",
+      "criteria_count": 83,
+      "company_id": "d379825e17868050d477eeede82e5755"
+    },
+    {
+      "name": "KSK Stendal",
+      "criteria_count": 67,
+      "company_id": "aee28d3d8145dd51e69eff35d4ed3e87"
+    },
+    {
+      "name": "KSK Traunstein-Trostberg",
+      "criteria_count": 69,
+      "company_id": "39a457f4d9565ac2e021b1cdbaac1f73"
+    },
+    {
+      "name": "KSK Tübingen",
+      "criteria_count": 61,
+      "company_id": "9f7e2173daf94069aac00ca6372e1c38"
+    },
+    {
+      "name": "KSK Waiblingen",
+      "criteria_count": 75,
+      "company_id": "cc398fba6cefba00ed096d9abc79c187"
+    },
+    {
+      "name": "KSK Walsrode",
+      "criteria_count": 71,
+      "company_id": "ba4300e030052f65fb40e91d2f815fbf"
+    },
+    {
+      "name": "Leipziger Volksbank eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "MHB - Münchener Hypothekenbank",
+      "criteria_count": 104,
+      "company_id": "81e1e65edb9d71af785b36222b8cb7a9"
+    },
+    {
+      "name": "Nassauische Sparkasse",
+      "criteria_count": 71,
+      "company_id": "85022b9832aef2439c386deaac070517"
+    },
+    {
+      "name": "Nord-Ostsee-Sparkasse",
+      "criteria_count": 58,
+      "company_id": "d6461048bd94a0dd7bd82b0e50af7029"
+    },
+    {
+      "name": "Ostsächsische Sparkasse Dresden",
+      "criteria_count": 71,
+      "company_id": "f7b5e0c4231aec852887d145a7c5b413"
+    },
+    {
+      "name": "Provinzial Rheinland",
+      "criteria_count": 63,
+      "company_id": "765bdfaf42910d79ee25411db1c10022"
+    },
+    {
+      "name": "PSD Hessen-Thüringen",
+      "criteria_count": 93,
+      "company_id": "fbf8b2b9f05d445cf88de66b7cbd164d"
+    },
+    {
+      "name": "PSD Rhein-Ruhr",
+      "criteria_count": 91,
+      "company_id": "66519d0b3ac1ee24e10f8c2bf5fe4bfc"
+    },
+    {
+      "name": "PSD West",
+      "criteria_count": 80,
+      "company_id": "7b55e21a5f8bd50e8dada29d4ca6410d"
+    },
+    {
+      "name": "Raiffeisenbank Augsburger Land West eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank HessenNord eG",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Hohenloher Land eG",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Schwaben Mitte eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Werratal-Landeck eG",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Raiffeisen-Volksbank Oder-Spree eG",
+      "criteria_count": 56,
+      "company_id": null
+    },
+    {
+      "name": "Rheingauer Volksbank eG",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "Rhön-Rennsteig Sparkasse",
+      "criteria_count": 75,
+      "company_id": "a6a05e9ba479e1490efd5ff2b1780052"
+    },
+    {
+      "name": "Saalesparkasse",
+      "criteria_count": 74,
+      "company_id": "a33b554b95ffbd3b3ef2dca8ab5c156b"
+    },
+    {
+      "name": "Salzlandsparkasse",
+      "criteria_count": 74,
+      "company_id": "cc06dbbaad08044da6205996603358ad"
+    },
+    {
+      "name": "Signal Iduna Bauspar AG",
+      "criteria_count": 81,
+      "company_id": "0458eb98-65e1-43de-9e64-b6528ef4ccbf"
+    },
+    {
+      "name": "Sparda-Bank Baden-Württemberg",
+      "criteria_count": 85,
+      "company_id": "bdd44efd1a213ba75129e76fcccffb0a"
+    },
+    {
+      "name": "Sparkasse Altenburger Land",
+      "criteria_count": 71,
+      "company_id": "935a453e1f3f12ab4b3bdf1d3ea03fb1"
+    },
+    {
+      "name": "Sparkasse Altmark West",
+      "criteria_count": 59,
+      "company_id": "8d1f17b2b5b95f8d1be97b17b65f64cc"
+    },
+    {
+      "name": "Sparkasse Ansbach",
+      "criteria_count": 72,
+      "company_id": "661bdb3c-44a7-4151-88e5-2ede1278121b"
+    },
+    {
+      "name": "Sparkasse Barnim",
+      "criteria_count": 65,
+      "company_id": "7bf6fe1318fcaad355516e0ceab887cb"
+    },
+    {
+      "name": "Sparkasse Bensheim",
+      "criteria_count": 57,
+      "company_id": "9bdacf41-52bd-47a7-a68c-0f3ac0ccebd5"
+    },
+    {
+      "name": "Sparkasse Bielefeld",
+      "criteria_count": 66,
+      "company_id": "3fa309a3c4f808c00c83758f3b38e525"
+    },
+    {
+      "name": "Sparkasse Bodensee",
+      "criteria_count": 73,
+      "company_id": "3ecaa575182f0cfdfbfee433f51e6d50"
+    },
+    {
+      "name": "Sparkasse Burgenlandkreis",
+      "criteria_count": 69,
+      "company_id": "03398cd361859c80f9ba3e7d4e6b05b0"
+    },
+    {
+      "name": "Sparkasse Dillenburg",
+      "criteria_count": 69,
+      "company_id": "2f606123f6f55ab7b71b5c49f9908d05"
+    },
+    {
+      "name": "Sparkasse Donnersberg",
+      "criteria_count": 55,
+      "company_id": "20067b398db7c607bbf21e57b360e4ed"
+    },
+    {
+      "name": "Sparkasse Elmshorn",
+      "criteria_count": 71,
+      "company_id": "3a54628630f05d470d9123c6fde4fef4"
+    },
+    {
+      "name": "Sparkasse Emsland",
+      "criteria_count": 69,
+      "company_id": "b9e5fceded2efc08c38179a0d259926d"
+    },
+    {
+      "name": "Sparkasse Gießen",
+      "criteria_count": 57,
+      "company_id": "5d657ae6019e2ff23231f5121c56234e"
+    },
+    {
+      "name": "Sparkasse Hegau-Bodensee",
+      "criteria_count": 71,
+      "company_id": "7b055052-9d67-4994-a1ac-515623506605"
+    },
+    {
+      "name": "Sparkasse Hellweg-Lippe",
+      "criteria_count": 72,
+      "company_id": "8bdc1aeea769cb85231bbeebce7c859f"
+    },
+    {
+      "name": "Sparkasse Herford",
+      "criteria_count": 54,
+      "company_id": "e2b399205605d62f0bff32829fa53930"
+    },
+    {
+      "name": "Sparkasse Hochschwarzwald",
+      "criteria_count": 72,
+      "company_id": "cd11c725c8bb8291aeb1e620b138447d"
+    },
+    {
+      "name": "Sparkasse im Landkreis Cham",
+      "criteria_count": 57,
+      "company_id": "0ad8ef4634c814926639a9c5dff424dd"
+    },
+    {
+      "name": "Sparkasse Kaiserslautern",
+      "criteria_count": 58,
+      "company_id": "232bd643-cfc7-4955-aed5-3fc929c1b3f6"
+    },
+    {
+      "name": "Sparkasse KölnBonn",
+      "criteria_count": 84,
+      "company_id": "fd087a6b702a57e52e466e8d71501a5d"
+    },
+    {
+      "name": "Sparkasse Landshut",
+      "criteria_count": 56,
+      "company_id": "fbcfd723404bfaf5c4629df91a363c24"
+    },
+    {
+      "name": "Sparkasse LeerWittmund",
+      "criteria_count": 68,
+      "company_id": "510b97439c993335f34d4a6c7daa06ef"
+    },
+    {
+      "name": "Sparkasse Leverkusen",
+      "criteria_count": 69,
+      "company_id": "c8c7b405-6635-4f3c-8752-1a9f3cd543d9"
+    },
+    {
+      "name": "Sparkasse Lüneburg",
+      "criteria_count": 72,
+      "company_id": "4dd3f9ffff48abb2f48f156ee9fe2376"
+    },
+    {
+      "name": "Sparkasse MagdeBurg",
+      "criteria_count": 58,
+      "company_id": "8de6cb459cb0b0bb091c0cb833f6dc30"
+    },
+    {
+      "name": "Sparkasse Mainfranken-Würzburg",
+      "criteria_count": 67,
+      "company_id": "17026b7447b3c42880f1e3797395143d"
+    },
+    {
+      "name": "Sparkasse Mecklenburg-Nordwest",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Sparkasse Mecklenburg-Schwerin",
+      "criteria_count": 57,
+      "company_id": "c1a381ce6bff1713db9bf396eaa14859"
+    },
+    {
+      "name": "Sparkasse Mecklenburg-Strelitz",
+      "criteria_count": 66,
+      "company_id": "441f2fa7973fa883fdd1abdb0efc663b"
+    },
+    {
+      "name": "Sparkasse Mittelholstein",
+      "criteria_count": 55,
+      "company_id": "325d07f98abf8395e5799cb8869fd29c"
+    },
+    {
+      "name": "Sparkasse Mittelsachsen",
+      "criteria_count": 73,
+      "company_id": "cbdccbbe5d455b63686e471469c1b7f5"
+    },
+    {
+      "name": "Sparkasse Neubrandenburg-Demmin",
+      "criteria_count": 61,
+      "company_id": "f6d033dced2cc91c667009f0a925e629"
+    },
+    {
+      "name": "Sparkasse Nienburg",
+      "criteria_count": 68,
+      "company_id": "4233f7924dfe213cc0488407dbc85125"
+    },
+    {
+      "name": "Sparkasse Oberhessen",
+      "criteria_count": 67,
+      "company_id": "37374660d1ef674351dc53ff7f5861f1"
+    },
+    {
+      "name": "Sparkasse Oberlausitz-Niederschlesien",
+      "criteria_count": 71,
+      "company_id": "5904ffd79386a0dd1c9e60d6b3815c04"
+    },
+    {
+      "name": "Sparkasse Oder-Spree",
+      "criteria_count": 70,
+      "company_id": "705328b2596e161a317d5ad4d01e34fa"
+    },
+    {
+      "name": "Sparkasse Osnabrück",
+      "criteria_count": 68,
+      "company_id": "e4559b545b35b1df87967b8391e209f9"
+    },
+    {
+      "name": "Sparkasse Passau",
+      "criteria_count": 57,
+      "company_id": "1b733b0f04f022e70a082bfb445fe726"
+    },
+    {
+      "name": "Sparkasse Pforzheim-Calw",
+      "criteria_count": 71,
+      "company_id": "b65a61e85ad470c81601194f3d03bade"
+    },
+    {
+      "name": "Sparkasse Regensburg",
+      "criteria_count": 66,
+      "company_id": "69b03535-cea1-45d4-9bc7-e05edfb59e43"
+    },
+    {
+      "name": "Sparkasse Rhein-Neckar-Nord",
+      "criteria_count": 70,
+      "company_id": "1904a18b1c7c8f0b260b3be53bfd9223"
+    },
+    {
+      "name": "Sparkasse Rosenheim-Bad Aibling",
+      "criteria_count": 66,
+      "company_id": "4285f1889a313e9ef2711fe650472f82"
+    },
+    {
+      "name": "Sparkasse Saarbrücken",
+      "criteria_count": 58,
+      "company_id": "058a2f7eb706f32b21111046a7e2842e"
+    },
+    {
+      "name": "Sparkasse Salem-Heiligenberg",
+      "criteria_count": 57,
+      "company_id": "2aec83f2a0c3d3767f6ab69432e4b5a8"
+    },
+    {
+      "name": "Sparkasse Schwarzwald-Baar",
+      "criteria_count": 57,
+      "company_id": "15ecaf22-3c59-4ab5-af78-4dcf1d1b09eb"
+    },
+    {
+      "name": "Sparkasse Uckermark",
+      "criteria_count": 68,
+      "company_id": "3c7a0fa6e62d37fa7b96665be7a09c89"
+    },
+    {
+      "name": "Sparkasse Unstrut-Hainich",
+      "criteria_count": 69,
+      "company_id": "fa374cbcf688e8280bc683f771b32b6e"
+    },
+    {
+      "name": "Sparkasse Vogtland",
+      "criteria_count": 57,
+      "company_id": "847e33d296a68677f859e29aee826347"
+    },
+    {
+      "name": "Sparkasse Waldeck-Frankenberg",
+      "criteria_count": 70,
+      "company_id": "620fb1b19a02a2347041097f96aff8cb"
+    },
+    {
+      "name": "Sparkasse Werra-Meißner",
+      "criteria_count": 70,
+      "company_id": "3c6606c4318f49c21e2100c042dc0ea8"
+    },
+    {
+      "name": "Spar- und Kreditbank Rheinstetten",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "Spreewaldbank eG",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Stadtsparkasse Rahden",
+      "criteria_count": 55,
+      "company_id": "2d3d773e-709a-4935-8d06-4ffa4ff20115"
+    },
+    {
+      "name": "Stadtsparkasse Wedel",
+      "criteria_count": 68,
+      "company_id": "ea4d2f121cfc28712b4a806b8e5fdbdc"
+    },
+    {
+      "name": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "criteria_count": 60,
+      "company_id": "9b8a9b50-7e1a-474f-bb1e-4762f2ee301c"
+    },
+    {
+      "name": "Vereinigte Volksbank eG Brakel",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "criteria_count": 72,
+      "company_id": null
+    },
+    {
+      "name": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Allgäu-Oberschwaben",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "criteria_count": 54,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Bremen-Nord",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Chemnitz",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Dreiländereck eG",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eG Oldenburger-Land Delmenhorst (vormals Volksbank Delmenhorst Schierbrok eG)",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank eG Westrhauderfehn",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Göppingen",
+      "criteria_count": 72,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Heinsberg eG",
+      "criteria_count": 53,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank in der Region eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank in Südwestfalen eG",
+      "criteria_count": 62,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Kaiserslautern",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Kassel Göttingen eG",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Kraichgau eG",
+      "criteria_count": 67,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Mittlerer Schwarzwald",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Neckartal eG",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank pur eG",
+      "criteria_count": 67,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "criteria_count": 69,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Rhein-Lippe eG",
+      "criteria_count": 55,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Rhein-Ruhr",
+      "criteria_count": 81,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Riesa",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Ruhr-Mitte",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Sauerland eG",
+      "criteria_count": 68,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Seesen",
+      "criteria_count": 51,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Solling eG",
+      "criteria_count": 64,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Stendal eG",
+      "criteria_count": 46,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Thüringen Mitte eG",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "Volksbank Vogtland-Saale-Orla eG",
+      "criteria_count": 56,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Amberg-Sulzbach eG",
+      "criteria_count": 71,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Bamberg-Forchheim eG",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Bayreuth-Hof eG",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Dreieich-Offenbach eG",
+      "criteria_count": 53,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank eG, Monheim",
+      "criteria_count": 66,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Erding eG",
+      "criteria_count": 78,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Fläming-Elsterland eG",
+      "criteria_count": 50,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "criteria_count": 85,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Lahn-Dill eG",
+      "criteria_count": 53,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Lausitz",
+      "criteria_count": 54,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Meißen-Großenhain",
+      "criteria_count": 52,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Memmingen",
+      "criteria_count": 53,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Mittelfranken Mitte eG",
+      "criteria_count": 60,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Mittelhaardt eG",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Mittelsachsen eG",
+      "criteria_count": 59,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Mittlere Oberpfalz eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Neuburg-Rain",
+      "criteria_count": 49,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Niederbayern-Oberpfalz",
+      "criteria_count": 62,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Ostalb",
+      "criteria_count": 54,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank RheinAhrEifel eG",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Ried-Überwald eG (ehemals Raiffeisenbank Ried eG)",
+      "criteria_count": 56,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "criteria_count": 70,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Starnberg-Zugspitze eG (vormals VR-Bank Starnberg-Herrsching-Landsberg)",
+      "criteria_count": 57,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Südpfalz eG",
+      "criteria_count": 79,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "criteria_count": 74,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Würzburg",
+      "criteria_count": 52,
+      "company_id": null
+    },
+    {
+      "name": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "criteria_count": 75,
+      "company_id": null
+    },
+    {
+      "name": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "criteria_count": 73,
+      "company_id": null
+    },
+    {
+      "name": "Waldeck-Frankenberger Bank eG (zuvor Waldecker Bank eG)",
+      "criteria_count": 53,
+      "company_id": null
+    },
+    {
+      "name": "Weser-Elbe Sparkasse",
+      "criteria_count": 72,
+      "company_id": "f478ad7eb0ab33f977bb473744ed89df"
+    },
+    {
+      "name": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "criteria_count": 76,
+      "company_id": null
+    },
+    {
+      "name": "Bankhaus Ellwanger und Geiger AG",
+      "criteria_count": 4,
+      "company_id": "d143ae98-77f4-41f3-a7e2-d9985931e771"
+    },
+    {
+      "name": "Darlehensbetrag > 400 TEUR - 500 TEUR",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "Sparkasse Schweinfurt-Haßberge",
+      "criteria_count": 23,
+      "company_id": "fe679c7c-008c-421f-b476-ef77920cc0c6"
+    },
+    {
+      "name": "Raiffeisenbank Kreis Kelheim eG",
+      "criteria_count": 22,
+      "company_id": null
+    },
+    {
+      "name": "Sparkasse Freyung-Grafenau",
+      "criteria_count": 22,
+      "company_id": "0c2bfd47-12ed-4064-beb5-dba92ab8cd84"
+    },
+    {
+      "name": "Volksbank Wilhelmshaven eG",
+      "criteria_count": 24,
+      "company_id": null
+    },
+    {
+      "name": "VR Bank in Holstein eG",
+      "criteria_count": 21,
+      "company_id": null
+    },
+    {
+      "name": "VR-Bank Spangenberg-Morschen eG",
+      "criteria_count": 22,
+      "company_id": null
+    },
+    {
+      "name": "weitere Sicherheiten neben Grundschulden",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "Soti",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "0 %",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "5 %",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "10 %",
+      "criteria_count": 1,
+      "company_id": null
+    },
+    {
+      "name": "Sparkasse Dachau",
+      "criteria_count": 2,
+      "company_id": "993926e9-edb4-4378-9700-add6092c7a2d"
+    },
+    {
+      "name": "Förderbank NRW.Bank",
+      "criteria_count": 1,
+      "company_id": "0cdb5432-65a9-476c-9673-ff60f6659e12"
+    },
+    {
+      "name": "Versand Vertragsunterlagen an den Kunden",
+      "criteria_count": 1,
+      "company_id": null
+    }
+  ]
+}

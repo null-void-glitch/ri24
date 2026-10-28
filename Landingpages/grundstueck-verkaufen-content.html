@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#BDE04F">
+<title>Grundstück verkaufen &amp; bewerten lassen | Regionalimmobilien24</title>
+<meta name="description" content="Grundstück verkaufen oder den Wert ermitteln lassen – unverbindlich und mit regionaler Marktkenntnis. Finden Sie den passenden Immobilienexperten für Ihr Grundstück.">
+<link rel="canonical" href="https://www.regionalimmobilien24.de/grundstueck-verkaufen/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Grundstück verkaufen &amp; bewerten lassen | Regionalimmobilien24">
+<meta property="og:description" content="Grundstückswert ermitteln und passenden Käufer finden – unverbindlich, mit regionaler Marktkenntnis.">
+<meta property="og:url" content="https://www.regionalimmobilien24.de/grundstueck-verkaufen/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   Regionalimmobilien24 — Landingpage "Grundstück verkaufen"
+   Signature: Liegenschaftskarte / cadastral parcel motif
+   ============================================================ */
+:root{
+  --brand:#BDE04F;          /* main brand: lime green — FILLS + dark accents only */
+  --brand-deep:#a6cf33;     /* darker shade: hover, visible green lines on light */
+  --brand-dark:#5f7d12;     /* dark green: legible green text/icons on light */
+  --brand-tint:#eef6d6;     /* light green wash */
+  --ink:#333333;            /* darkgray — headings & body */
+  --ink-strong:#1f1f1f;     /* near-black — strong headings, on-green text */
+  --muted:#565656;          /* gray — secondary text */
+  --paper:#f5f6f0;          /* light neutral section tint */
+  --paper-2:#ecede2;
+  --line:#e4e4dd;           /* hairline */
+  --line-soft:#eeeee8;
+  --dark:#2e2e2e;           /* dark section background */
+  --dark-2:#1c1c1c;         /* near-black */
+  --white:#ffffff;
+  --ink-90:#2b2b2b;
+  --radius:14px;
+  --radius-sm:9px;
+  --wrap:1140px;
+  --shadow:0 1px 2px rgba(40,40,40,.05), 0 14px 40px -22px rgba(40,40,40,.26);
+  --shadow-sm:0 1px 2px rgba(40,40,40,.06), 0 6px 22px -16px rgba(40,40,40,.28);
+  --fs-display:clamp(2.45rem,1.4rem + 4.6vw,4.1rem);
+  --fs-h2:clamp(1.7rem,1.2rem + 2vw,2.55rem);
+  --fs-h3:1.16rem;
+  --sp-section:clamp(4rem,2rem + 8vw,7rem);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  overflow-x:hidden;
+  font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  color:var(--ink);
+  background:var(--white);
+  font-size:1.0625rem;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--ink);line-height:1.08;letter-spacing:-.01em;margin:0}
+p{margin:0}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+ul{margin:0;padding:0;list-style:none}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:1.5rem}
+.section{padding-block:var(--sp-section);scroll-margin-top:84px}
+
+/* mono utility / cadastral-readout voice */
+.label{
+  font-family:"Space Mono",ui-monospace,monospace;
+  font-size:.74rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  font-weight:700;
+  display:inline-flex;align-items:center;gap:.55rem;flex-wrap:wrap;
+}
+.label::before{
+  content:"";width:22px;height:3px;border-radius:2px;background:var(--brand-deep);display:inline-block;
+}
+.label--plain::before{display:none}
+
+.eyebrow{
+  font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted);font-weight:700;
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  --bg:var(--brand-deep);
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.02rem;
+  line-height:1;padding:1rem 1.45rem;border-radius:10px;
+  text-decoration:none;border:1px solid transparent;cursor:pointer;
+  transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
+  white-space:nowrap;
+}
+.btn--primary{background:var(--brand);color:var(--ink-strong);box-shadow:0 10px 24px -12px rgba(166,207,51,.75)}
+.btn--primary:hover{background:var(--brand-deep);transform:translateY(-2px);box-shadow:0 16px 30px -14px rgba(166,207,51,.85)}
+.btn--dark{background:var(--ink-strong);color:#fff}
+.btn--dark:hover{background:#000;transform:translateY(-2px)}
+.btn--ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn--ghost:hover{border-color:var(--brand-deep);color:var(--ink-strong)}
+.btn--lg{padding:1.15rem 1.8rem;font-size:1.08rem;white-space:normal;text-align:center}
+.btn .arr{transition:transform .2s ease}
+.btn:hover .arr{transform:translateX(3px)}
+
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;background:
+  linear-gradient(180deg,#fff 0%, #faf9f3 60%, var(--paper) 100%);}
+.hero::before{ /* faint cadastral grid backdrop */
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:
+   linear-gradient(var(--line-soft) 1px,transparent 1px),
+   linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+  background-size:46px 46px;
+  -webkit-mask-image:radial-gradient(120% 90% at 80% 10%, #000 0%, transparent 65%);
+          mask-image:radial-gradient(120% 90% at 80% 10%, #000 0%, transparent 65%);
+}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,4vw,4.5rem);align-items:center;
+  padding-block:clamp(3rem,2rem + 5vw,6rem) clamp(3.5rem,2rem + 5vw,6rem)}
+.hero-copy{min-width:0}
+.hero h1{font-size:var(--fs-display);font-weight:700;margin:.85rem 0 0;overflow-wrap:break-word}
+.hero h1 em{font-style:normal;color:var(--ink-strong);background:linear-gradient(transparent 58%, var(--brand) 58%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hero-lead{font-size:1.16rem;color:var(--muted);max-width:33ch;margin-top:1.25rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:1.9rem;align-items:center}
+.hero-note{display:flex;align-items:center;gap:.5rem;margin-top:1.3rem;font-size:.92rem;color:var(--muted)}
+.hero-note svg{flex:none;color:var(--brand-dark)}
+
+/* parcel card (signature) */
+.parcel-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:1.1rem 1.1rem 1.25rem}
+.parcel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem;gap:1rem}
+.parcel-head .tag{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.parcel-head .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px var(--brand-tint)}
+.parcel-svg{width:100%;height:auto;display:block;border-radius:var(--radius-sm);background:
+  linear-gradient(#fdfdfa,#f4f5ee);}
+.parcel-foot{display:flex;justify-content:space-between;gap:1rem;margin-top:.7rem;flex-wrap:wrap}
+.parcel-stat{font-family:"Space Mono",monospace}
+.parcel-stat .k{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block}
+.parcel-stat .v{font-size:1rem;color:var(--ink);font-weight:700}
+.parcel-stat .v.q{color:var(--brand-dark)}
+
+/* svg drawing */
+.pl-stroke{fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linejoin:round}
+.pl-fill{fill:rgba(189,224,79,.28)}
+.pl-div{fill:none;stroke:var(--muted);stroke-width:1.4;stroke-dasharray:5 5;opacity:.6}
+.pl-neighbor{fill:none;stroke:var(--line);stroke-width:1.4;stroke-dasharray:3 4}
+.pl-pt{fill:var(--brand);stroke:var(--ink);stroke-width:2}
+.pl-label{font-family:"Space Mono",monospace;font-size:13px;fill:var(--ink-90);font-weight:700}
+.pl-anno{font-family:"Space Mono",monospace;font-size:11px;fill:var(--ink);font-weight:700}
+.pl-anno-line{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:2 3}
+.pl-pin{fill:var(--ink-strong)}
+
+/* ---------- generic section heading ---------- */
+.section-head{max-width:62ch}
+.section-head h2{font-size:var(--fs-h2);font-weight:700;margin:.7rem 0 0}
+.section-head p{color:var(--muted);margin-top:.9rem;font-size:1.08rem}
+.center{text-align:center;margin-inline:auto}
+
+/* ---------- Vorteile strip ---------- */
+.strip{background:var(--dark);color:#fff}
+.strip .wrap{padding-block:clamp(2.2rem,4vw,3.2rem)}
+.vorteile{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem 1.25rem}
+.vorteil{display:flex;gap:.7rem;align-items:flex-start;font-size:.98rem;line-height:1.4}
+.vorteil svg{flex:none;color:var(--brand);margin-top:2px}
+.strip .eyebrow{color:var(--brand)}
+.strip-head{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:1.8rem;flex-wrap:wrap}
+.strip-head h2{color:#fff;font-size:clamp(1.4rem,1rem + 1.4vw,1.9rem);max-width:20ch}
+
+/* ---------- Steps (numbered sequence) ---------- */
+.steps{display:grid;gap:1rem;margin-top:2.6rem}
+.step{display:grid;grid-template-columns:auto 1fr;gap:1.4rem;align-items:start;
+  padding:1.5rem 1.6rem;border:1px solid var(--line);border-radius:var(--radius);background:#fff;
+  transition:border-color .2s, box-shadow .2s, transform .2s}
+.step:hover{border-color:var(--brand-deep);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
+.step-num{font-family:"Space Mono",monospace;font-weight:700;font-size:1.5rem;color:var(--ink-strong);
+  line-height:1;border:1.5px solid var(--brand);border-radius:9px;width:54px;height:54px;
+  display:grid;place-items:center;background:var(--brand-tint)}
+.step h3{font-size:var(--fs-h3);margin-bottom:.35rem}
+.step p{color:var(--muted);font-size:1rem}
+@media(min-width:760px){
+  .steps{grid-template-columns:1fr 1fr}
+}
+
+/* ---------- Wertfaktoren grid ---------- */
+.bg-paper{background:var(--paper)}
+.fac-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:2.6rem}
+.fac{background:var(--paper);padding:1.5rem 1.45rem;transition:background .2s}
+.fac:hover{background:#fff}
+.fac .fi{display:flex;align-items:center;gap:.6rem;color:var(--ink-strong);margin-bottom:.6rem}
+.fac .fi svg{width:22px;height:22px}
+.fac .fn{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.1em;color:var(--muted)}
+.fac h3{font-size:1.08rem;margin-bottom:.3rem}
+.fac p{font-size:.94rem;color:var(--muted);line-height:1.55}
+
+/* ---------- Grundstücksarten cards ---------- */
+.arten{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-top:2.6rem}
+.art{border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;background:#fff;position:relative;overflow:hidden;
+  transition:border-color .2s, transform .2s, box-shadow .2s}
+.art::after{content:attr(data-idx);position:absolute;right:.9rem;top:.55rem;font-family:"Space Mono",monospace;
+  font-size:.7rem;color:var(--line);font-weight:700}
+.art:hover{border-color:var(--brand-deep);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.art h3{font-size:1.12rem;margin-bottom:.45rem}
+.art p{font-size:.93rem;color:var(--muted);line-height:1.55}
+.art .pill{display:inline-block;font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-strong);background:var(--brand);padding:.25rem .55rem;border-radius:6px;margin-bottom:.8rem}
+
+/* ---------- Bodenrichtwert callout ---------- */
+.callout{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(1.5rem,3vw,3rem);align-items:center;
+  background:linear-gradient(135deg,#c7e85f,#b0d840);color:var(--ink-strong);border-radius:18px;
+  padding:clamp(2rem,3vw,3.2rem);overflow:hidden;position:relative}
+.callout::before{content:"";position:absolute;inset:0;opacity:.10;pointer-events:none;
+  background-image:linear-gradient(#1f1f1f 1px,transparent 1px),linear-gradient(90deg,#1f1f1f 1px,transparent 1px);
+  background-size:34px 34px;-webkit-mask-image:radial-gradient(80% 120% at 90% 10%,#000,transparent 70%);
+  mask-image:radial-gradient(80% 120% at 90% 10%,#000,transparent 70%)}
+.callout h2{color:var(--ink-strong);font-size:clamp(1.5rem,1.1rem + 1.6vw,2.1rem);position:relative}
+.callout p{position:relative;margin-top:1rem;color:var(--ink)}
+.callout .eyebrow{color:#46570f}
+.callout-box{position:relative;background:#fff;border:1px solid rgba(31,31,31,.12);border-radius:12px;padding:1.4rem 1.5rem}
+.callout-box .big{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.5rem;color:var(--ink-strong);line-height:1.2}
+.callout-box ul{margin-top:.9rem;display:grid;gap:.5rem}
+.callout-box li{font-size:.92rem;color:var(--ink);display:flex;gap:.55rem;align-items:flex-start}
+.callout-box li::before{content:"–";color:var(--brand-dark)}
+.callout>*{min-width:0}
+.callout .btn{margin-top:1.4rem;white-space:normal;text-align:center}
+.callout .btn--primary{background:var(--ink-strong);color:#fff;box-shadow:0 10px 24px -12px rgba(31,31,31,.6)}
+.callout .btn--primary:hover{background:#000}
+
+/* ---------- Compare privat vs makler ---------- */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:2.6rem}
+.cmp{border:1px solid var(--line);border-radius:var(--radius);padding:1.7rem;background:#fff}
+.cmp.is-prim{border-color:var(--brand-deep);box-shadow:var(--shadow-sm);background:var(--brand-tint)}
+.cmp h3{font-size:1.2rem;display:flex;align-items:center;gap:.6rem;margin-bottom:1.1rem}
+.cmp h3 .badge{font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--brand);color:var(--ink-strong);padding:.2rem .45rem;border-radius:5px}
+.cmp li{display:flex;gap:.6rem;align-items:flex-start;padding:.5rem 0;font-size:.96rem;color:var(--ink-90);border-top:1px solid var(--line-soft)}
+.cmp li:first-of-type{border-top:none}
+.cmp li svg{flex:none;margin-top:3px}
+.cmp .neg{color:#9a9a9a}
+
+/* ---------- Unterlagen chips (details) ---------- */
+.docs details{border:1px solid var(--line);border-radius:var(--radius);background:#fff;margin-top:2rem;overflow:hidden}
+.docs summary{cursor:pointer;list-style:none;padding:1.3rem 1.6rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.1rem}
+.docs summary::-webkit-details-marker{display:none}
+.docs summary .chev{transition:transform .25s;color:var(--ink)}
+.docs details[open] summary .chev{transform:rotate(180deg)}
+.docs .docs-body{padding:0 1.6rem 1.6rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{font-family:"Space Mono",monospace;font-size:.78rem;background:var(--paper);border:1px solid var(--line);
+  color:var(--ink-90);padding:.4rem .7rem;border-radius:7px}
+
+/* ---------- FAQ ---------- */
+.faq{display:grid;gap:.75rem;margin-top:2.6rem}
+.faq details{border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;transition:border-color .2s}
+.faq details[open]{border-color:var(--brand-deep)}
+.faq summary{cursor:pointer;list-style:none;padding:1.15rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.05rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .q-plus{flex:none;width:22px;height:22px;position:relative}
+.faq summary .q-plus::before,.faq summary .q-plus::after{content:"";position:absolute;background:var(--brand-dark);border-radius:2px;transition:transform .25s,opacity .2s}
+.faq summary .q-plus::before{top:10px;left:2px;width:18px;height:2px}
+.faq summary .q-plus::after{top:2px;left:10px;width:2px;height:18px}
+.faq details[open] summary .q-plus::after{transform:rotate(90deg);opacity:0}
+.faq .faq-a{padding:0 1.4rem 1.25rem;color:var(--muted);font-size:1rem;max-width:72ch}
+
+/* ---------- Final CTA ---------- */
+.final{position:relative;background:var(--dark);color:#fff;border-radius:0;overflow:hidden}
+.final::before{content:"";position:absolute;inset:0;opacity:.13;pointer-events:none;
+  background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);
+  background-size:40px 40px;-webkit-mask-image:radial-gradient(70% 130% at 15% 50%,#000,transparent 70%);
+  mask-image:radial-gradient(70% 130% at 15% 50%,#000,transparent 70%)}
+.final .wrap{position:relative;text-align:center;padding-block:clamp(3.5rem,3vw,5.5rem)}
+.final h2{color:#fff;font-size:var(--fs-h2);max-width:20ch;margin:.8rem auto 0}
+.final p{color:#ccccc6;max-width:54ch;margin:1.1rem auto 0;font-size:1.1rem}
+.final .eyebrow{color:var(--brand)}
+.final .btn{margin-top:2rem}
+.final .btn--primary{background:var(--brand);color:var(--ink-strong);box-shadow:0 14px 30px -14px rgba(189,224,79,.85)}
+.final .btn--primary:hover{background:var(--brand-deep)}
+.final-mini{margin-top:1.2rem;font-family:"Space Mono",monospace;font-size:.78rem;letter-spacing:.05em;color:#b3b3ac}
+
+/* ---------- Footer / Hinweis ---------- */
+.site-footer{background:#161616;color:#a8a8a2;font-size:.92rem}
+.site-footer .wrap{padding-block:3rem 2.5rem}
+.hinweis{border:1px solid #2c2c2c;border-radius:var(--radius);padding:1.4rem 1.6rem;background:#1c1c1c}
+.hinweis h4{color:#d8d8d2;font-size:.95rem;font-family:"Space Mono",monospace;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.6rem}
+.hinweis p{line-height:1.6}
+#footer-head{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.2rem;color:#fff;
+  margin-top:2.4rem;padding-top:2rem;border-top:1px solid #2c2c2c}
+#footer-nav ul{display:flex;flex-wrap:wrap;gap:.55rem 1.6rem;margin-top:1rem}
+#footer-nav a{color:#a8a8a2;text-decoration:none;transition:color .15s}
+#footer-nav a:hover{color:var(--brand)}
+#footer-nav-social ul{display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin-top:1.9rem}
+#footer-nav-social a{display:inline-flex;align-items:center}
+#footer-nav-social img{display:block}
+.footer-nav-social-instagram img,.footer-nav-social-facebook img,.footer-nav-social-pinterest img{opacity:.8;transition:opacity .15s}
+.footer-nav-social-instagram a:hover img,.footer-nav-social-facebook a:hover img,.footer-nav-social-pinterest a:hover img{opacity:1}
+.footer-nav-social-google img{height:54px;width:auto;border-radius:6px;background:#fff;padding:2px}
+.footer-nav-eu img{height:46px;width:auto;border-radius:4px}
+#ri24_pwa_install_cmd{display:inline-flex;align-items:center;gap:.45rem;color:#a8a8a2;cursor:pointer;
+  font-size:.9rem;font-weight:600;transition:color .15s}
+#ri24_pwa_install_cmd:hover{color:var(--brand)}
+.footer-copy{margin-top:1.9rem;color:#7d7d77;font-size:.85rem;font-family:"Space Mono",monospace;letter-spacing:.03em}
+
+/* ---------- reveal animation (opt-in, reduced-motion safe) ---------- */
+.reveal-ready .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal-ready .reveal.in{opacity:1;transform:none}
+.reveal-ready .reveal.d1{transition-delay:.08s}
+.reveal-ready .reveal.d2{transition-delay:.16s}
+.reveal-ready .reveal.d3{transition-delay:.24s}
+
+/* parcel draw-on: default = drawn (visible) for reduced motion */
+@media (prefers-reduced-motion:no-preference){
+  .anim .pl-stroke{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.6s .25s ease forwards}
+  .anim .pl-div{stroke-dasharray:5 5;opacity:0;animation:fade .6s 1.5s ease forwards}
+  .anim .pl-pt{opacity:0;animation:pop .4s ease forwards}
+  .anim .pl-pt:nth-of-type(1){animation-delay:1.0s}
+  .anim .pl-pt:nth-of-type(2){animation-delay:1.15s}
+  .anim .pl-pt:nth-of-type(3){animation-delay:1.3s}
+  .anim .pl-pt:nth-of-type(4){animation-delay:1.45s}
+  .anim .pl-pt:nth-of-type(5){animation-delay:1.6s}
+  .anim .pl-anno-g{opacity:0;animation:fade .6s 1.9s ease forwards}
+}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fade{to{opacity:.6}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+
+/* focus visibility */
+a:focus-visible,button:focus-visible,summary:focus-visible,.btn:focus-visible{
+  outline:3px solid var(--ink-strong);outline-offset:2px;border-radius:6px;
+  box-shadow:0 0 0 6px rgba(189,224,79,.55)}
+
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:var(--ink-strong);padding:.6rem 1rem;z-index:100;border-radius:0 0 8px 0}
+.skip:focus{left:0}
+
+/* ---------- responsive ---------- */
+@media(max-width:920px){
+  .hero-grid{grid-template-columns:1fr;gap:2.5rem}
+  .parcel-card{max-width:460px}
+  .vorteile{grid-template-columns:repeat(2,1fr)}
+  .fac-grid{grid-template-columns:repeat(2,1fr)}
+  .arten{grid-template-columns:repeat(2,1fr)}
+  .callout{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  body{font-size:1rem}
+  .vorteile{grid-template-columns:1fr}
+  .fac-grid{grid-template-columns:1fr}
+  .arten{grid-template-columns:1fr}
+  .hero-cta .btn{flex:1 1 auto;justify-content:center}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#funnel">Direkt zur Grundstücksbewertung</a>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="label reveal">Grundstücksverkauf · regional begleitet</span>
+      <h1 class="reveal d1">Grundstück verkaufen oder <em>bewerten lassen</em></h1>
+      <p class="hero-lead reveal d2">Welcher Preis ist realistisch, welche Unterlagen zählen und wer ist der passende Käufer? Lassen Sie Ihr Grundstück von einem Immobilienexperten aus Ihrer Region einschätzen – unverbindlich.</p>
+      <div class="hero-cta reveal d3">
+        <a class="btn btn--primary btn--lg" href="https://www.regionalimmobilien24.de/maklersuche/">Grundstück unverbindlich bewerten lassen <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="#ablauf">So funktioniert's</a>
+      </div>
+      <p class="hero-note reveal d3">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg>
+        Ihre Anfrage ist kostenlos &amp; unverbindlich – Sie entscheiden, ob und mit wem Sie verkaufen möchten.
+      </p>
+    </div>
+
+    <!-- SIGNATURE: cadastral parcel card -->
+    <div class="parcel-card reveal d2" aria-hidden="true">
+      <div class="parcel-head">
+        <span class="tag">Liegenschaftskarte</span>
+        <span class="dot"></span>
+      </div>
+      <svg class="parcel-svg anim" viewBox="0 0 440 360" role="img">
+        <!-- faint neighbouring parcels -->
+        <polygon class="pl-neighbor" points="20,40 95,30 120,150 30,170"/>
+        <polygon class="pl-neighbor" points="345,40 420,60 410,200 360,230"/>
+        <polygon class="pl-neighbor" points="110,310 300,335 290,360 120,355"/>
+        <!-- main parcel -->
+        <polygon class="pl-fill" points="70,70 330,50 390,220 300,330 95,300"/>
+        <polygon class="pl-stroke" pathLength="1" points="70,70 330,50 390,220 300,330 95,300"/>
+        <!-- possible Teilung -->
+        <line class="pl-div" x1="200" y1="58" x2="197" y2="316"/>
+        <!-- labels -->
+        <text class="pl-label" x="84" y="96">Flur 3 · 127/4</text>
+        <text class="pl-label" x="150" y="200" style="font-size:18px">ca. 642 m²</text>
+        <!-- annotation -->
+        <g class="pl-anno-g">
+          <line class="pl-anno-line" x1="345" y1="150" x2="300" y2="120"/>
+          <circle class="pl-pin" cx="345" cy="150" r="4"/>
+          <text class="pl-anno" x="318" y="170">Bodenrichtwert?</text>
+        </g>
+        <!-- survey points (drawn last) -->
+        <circle class="pl-pt" cx="70" cy="70" r="5"/>
+        <circle class="pl-pt" cx="330" cy="50" r="5"/>
+        <circle class="pl-pt" cx="390" cy="220" r="5"/>
+        <circle class="pl-pt" cx="300" cy="330" r="5"/>
+        <circle class="pl-pt" cx="95" cy="300" r="5"/>
+      </svg>
+      <div class="parcel-foot">
+        <span class="parcel-stat"><span class="k">Lage</span><span class="v">geprüft</span></span>
+        <span class="parcel-stat"><span class="k">Bebaubarkeit</span><span class="v">geklärt</span></span>
+        <span class="parcel-stat"><span class="k">Marktwert</span><span class="v q">ermitteln →</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VORTEILE STRIP ============ -->
+<section class="strip">
+  <div class="wrap">
+    <div class="strip-head">
+      <h2>Ihre Vorteile auf einen Blick</h2>
+      <span class="eyebrow">mit Regionalimmobilien24</span>
+    </div>
+    <ul class="vorteile">
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Ansprechpartner mit regionaler Marktkenntnis</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Einschätzung der möglichen Käufergruppen</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Unterstützung bei Bewertung und Unterlagen</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Zielgerichtete Vermarktungsstrategie</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Professionelle Bearbeitung von Anfragen</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Begleitung bei Verhandlungen und Notartermin</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Freie Entscheidung über Beauftragung und Käufer</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Erste Anfrage kostenlos und unverbindlich</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ ABLAUF / STEPS ============ -->
+<section class="section" id="ablauf">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">In 5 Schritten</span>
+      <h2>So funktioniert die Anfrage</h2>
+      <p>Von den ersten Eckdaten bis zum Notartermin – klar strukturiert und mit einem Experten an Ihrer Seite. Über jeden Schritt entscheiden Sie selbst.</p>
+    </div>
+    <div class="steps">
+      <article class="step reveal">
+        <div class="step-num">01</div>
+        <div><h3>Angaben zum Grundstück übermitteln</h3><p>Lage, Größe, Flurstücksnummer, Nutzung, Erschließung und Bebaubarkeit – so weit bekannt. Fehlende Angaben ergänzen Sie später.</p></div>
+      </article>
+      <article class="step reveal d1">
+        <div class="step-num">02</div>
+        <div><h3>Immobilienexperten aus der Region kennenlernen</h3><p>Ein Makler mit örtlicher Marktkenntnis beurteilt Käufergruppen, Nachfrage und vergleichbare Flächen. Ob Sie ihn beauftragen, entscheiden Sie.</p></div>
+      </article>
+      <article class="step reveal">
+        <div class="step-num">03</div>
+        <div><h3>Grundstück prüfen und bewerten lassen</h3><p>Lage, Zuschnitt, Bebaubarkeit, Erschließung, Rechte und Belastungen fließen ein – statt nur Fläche × Quadratmeterpreis.</p></div>
+      </article>
+      <article class="step reveal d1">
+        <div class="step-num">04</div>
+        <div><h3>Grundstück gezielt vermarkten</h3><p>Zielgruppe bestimmen, Exposé erstellen, Inserate veröffentlichen, Besichtigungen organisieren – Sie behalten die Entscheidungshoheit.</p></div>
+      </article>
+      <article class="step reveal" style="grid-column:1/-1">
+        <div class="step-num">05</div>
+        <div><h3>Grundstücksverkauf notariell abschließen</h3><p>Steht der passende Käufer fest, wird der notarielle Kaufvertrag vorbereitet. Erst die Beurkundung beim Notar macht den Verkauf verbindlich.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WERTFAKTOREN ============ -->
+<section class="section bg-paper">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Was zählt</span>
+      <h2>Welche Faktoren bestimmen den Grundstückswert?</h2>
+      <p>Der Marktwert ergibt sich aus mehreren miteinander verbundenen Merkmalen. Erst zusammen ergeben sie ein belastbares Bild.</p>
+    </div>
+    <div class="fac-grid">
+      <div class="fac reveal"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/01</span></div><h3>Lage</h3><p>Region, Umfeld, Anbindung, Nachfrage und künftige Entwicklung – der wichtigste Wertfaktor überhaupt.</p></div>
+      <div class="fac reveal d1"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1.5" stroke="currentColor" stroke-width="2"/><path d="M4 9h16M9 4v16" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/02</span></div><h3>Größe &amp; Zuschnitt</h3><p>Mehr Fläche heißt nicht automatisch mehr Wert. Rechteckige Grundstücke lassen sich meist leichter bebauen.</p></div>
+      <div class="fac reveal d2"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18l5-7 4 4 5-8 4 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="fn">/03</span></div><h3>Topografie &amp; Ausrichtung</h3><p>Ebene Flächen sind einfacher zu bebauen. Sonnige Garten- und Wohnlagen werden stärker nachgefragt.</p></div>
+      <div class="fac reveal"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20h16M6 20V9l6-4 6 4v11" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="fn">/04</span></div><h3>Bebaubarkeit</h3><p>Je klarer das Baurecht, desto leichter lässt sich das Potenzial darstellen. Unklarheiten führen zu Sicherheitsabschlägen.</p></div>
+      <div class="fac reveal d1"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M5 12a3 3 0 100-6 3 3 0 000 6zm14 0a3 3 0 100 6 3 3 0 000-6z" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/05</span></div><h3>Erschließung</h3><p>Straße, Wasser, Abwasser, Strom, Telekommunikation – offene Beiträge gehören transparent dargestellt.</p></div>
+      <div class="fac reveal d2"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l8 4v6c0 4.5-3.4 7-8 8-4.6-1-8-3.5-8-8V7l8-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="fn">/06</span></div><h3>Rechte &amp; Belastungen</h3><p>Wege- und Leitungsrechte, Baulasten, Grundschulden oder Pacht. Entscheidend ist, wie sehr sie die Nutzung einschränken.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GRUNDSTÜCKSARTEN ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Jede Fläche ist anders</span>
+      <h2>Welche Grundstücksarten gibt es?</h2>
+      <p>Die Grundstücksart bestimmt Nutzungsmöglichkeiten, Zielgruppe und erzielbaren Preis maßgeblich mit.</p>
+    </div>
+    <div class="arten">
+      <article class="art reveal" data-idx="01"><span class="pill">Bebaubar</span><h3>Bauland</h3><p>Für eine Bebauung vorgesehen und nach den Vorschriften bebaubar. Entscheidend bleibt, in welchem Umfang gebaut werden darf.</p></article>
+      <article class="art reveal d1" data-idx="02"><span class="pill">In Vorbereitung</span><h3>Rohbauland</h3><p>Grundsätzlich für Bebauung vorgesehen, aber noch nicht voll erschlossen oder baureif. Offene Kosten wirken auf den Wert.</p></article>
+      <article class="art reveal d2" data-idx="03"><span class="pill">Aussicht</span><h3>Bauerwartungsland</h3><p>Aussicht auf spätere Bebauung, jedoch keine verbindliche Bebaubarkeit. Der Wert hängt von Wahrscheinlichkeit und Zeitraum ab.</p></article>
+      <article class="art reveal" data-idx="04"><span class="pill">Land &amp; Forst</span><h3>Acker-, Grün- &amp; Waldflächen</h3><p>Besondere Nutzungsbedingungen. Käufer sind oft Landwirte, Nachbarn, Anleger oder öffentliche Stellen – teils mit Vorkaufsrechten.</p></article>
+      <article class="art reveal d1" data-idx="05"><span class="pill">Freizeit</span><h3>Freizeit- &amp; Gartengrundstücke</h3><p>Nicht automatisch dauerhaft bewohnbar oder mit Wohnhaus bebaubar. Die zulässige Nutzung muss klar kommuniziert werden.</p></article>
+      <article class="art reveal d2" data-idx="06"><span class="pill">Gewerbe / Bestand</span><h3>Gewerbe &amp; Altbestand</h3><p>Bei Gewerbe zählen Anbindung und Emissionen. Bei Altbestand: Erhalt, Sanierung oder Abriss – inklusive möglicher Abrisskosten.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BODENRICHTWERT CALLOUT ============ -->
+<section class="section bg-paper">
+  <div class="wrap">
+    <div class="callout reveal">
+      <div>
+        <span class="eyebrow">Orientierung, kein Verkaufspreis</span>
+        <h2>Den Bodenrichtwert richtig einordnen</h2>
+        <p>Der Bodenrichtwert liefert eine erste Orientierung – er ist aber kein verbindlicher Preis für Ihr konkretes Grundstück. Größe, Zuschnitt, Erschließung, Lage, Altlasten und bestehende Rechte können erheblich abweichen.</p>
+        <p>Deshalb sollte der Bodenrichtwert nie ungeprüft mit der Fläche multipliziert werden.</p>
+        <a class="btn btn--primary" href="https://www.regionalimmobilien24.de/maklersuche/">Grundstückswert einschätzen lassen <span class="arr" aria-hidden="true">→</span></a>
+      </div>
+      <div class="callout-box">
+        <div class="big">Richtwert ≠ Marktwert</div>
+        <ul>
+          <li>Abweichende Größe &amp; Zuschnitt</li>
+          <li>Unterschiedliche Bebaubarkeit</li>
+          <li>Erschließungsmängel oder offene Beiträge</li>
+          <li>Altlasten, Rechte und Belastungen</li>
+          <li>Vorhandener Altbestand</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRIVAT VS MAKLER ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Ihre Entscheidung</span>
+      <h2>Grundstück privat oder mit Makler verkaufen?</h2>
+      <p>Beides ist möglich. Grundstücksverkäufe sind oft komplex, weil baurechtliche, wirtschaftliche und tatsächliche Fragen zusammenkommen.</p>
+    </div>
+    <div class="compare">
+      <article class="cmp reveal">
+        <h3>Privat verkaufen</h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Direkte Kommunikation, volle Kontrolle</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Keine Maklerprovision beim reinen Privatverkauf</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Wertermittlung &amp; Bebaubarkeit selbst klären</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Unterlagen beschaffen, Interessenten prüfen</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Hoher zeitlicher Aufwand</li>
+        </ul>
+      </article>
+      <article class="cmp is-prim reveal d1">
+        <h3>Mit Immobilienmakler <span class="badge">empfohlen</span></h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Sinnvoll bei unklarer Bebaubarkeit</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Wenn mehrere Käufergruppen infrage kommen</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Bei Teilung, Altbestand oder Erbengemeinschaft</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Bei Wunsch nach diskreter Vermarktung</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Wenn Sie nicht selbst vor Ort wohnen</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- Unterlagen details -->
+    <div class="docs">
+      <details>
+        <summary>Welche Unterlagen werden beim Grundstücksverkauf benötigt?
+          <svg class="chev" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="docs-body">
+          <p style="color:var(--muted);margin-bottom:1.1rem">Welche Dokumente nötig sind, hängt von Grundstücksart und Verkaufssituation ab. Vollständige Unterlagen erleichtern Bewertung, Finanzierung und Kaufentscheidung.</p>
+          <div class="chips">
+            <span class="chip">Grundbuchauszug</span><span class="chip">Flurkarte / Liegenschaftskarte</span><span class="chip">Flurstücksnachweis</span><span class="chip">Bebauungsplan</span><span class="chip">Flächennutzungsplan</span><span class="chip">Baulastenverzeichnis</span><span class="chip">Altlastenauskunft</span><span class="chip">Erschließungsnachweise</span><span class="chip">offene Erschließungsbeiträge</span><span class="chip">Grundsteuerunterlagen</span><span class="chip">Vermessungsunterlagen</span><span class="chip">Bauvorbescheid</span><span class="chip">Bodengutachten</span><span class="chip">Leitungspläne</span><span class="chip">Wegerechte</span><span class="chip">Pacht- / Mietverträge</span><span class="chip">Abrissangebote</span><span class="chip">Denkmal- / Naturschutz</span><span class="chip">Hochwasserkarten</span><span class="chip">Grundschulden</span>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section bg-paper" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Gut zu wissen</span>
+      <h2>Häufige Fragen zum Grundstücksverkauf</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Muss ich mich nach einer Anfrage sofort für einen Makler entscheiden?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Nein. Die Anfrage dient zunächst dazu, Ihre Verkaufssituation einzuordnen und einen möglichen Ansprechpartner kennenzulernen. Eine Beauftragung erfolgt erst, wenn Sie sich bewusst dafür entscheiden.</div></details>
+      <details><summary>Kann ich ein nicht erschlossenes Grundstück verkaufen?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Grundsätzlich kann auch eine nicht oder nur teilweise erschlossene Fläche verkauft werden. Der Erschließungszustand und mögliche zukünftige Kosten sollten dabei klar dargestellt werden.</div></details>
+      <details><summary>Benötige ich für ein unbebautes Grundstück einen Energieausweis?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Für ein reines unbebautes Grundstück ist grundsätzlich kein Energieausweis erforderlich. Befinden sich Gebäude auf der Fläche, muss die konkrete Situation geprüft werden.</div></details>
+      <details><summary>Muss ich vor dem Verkauf ein Bodengutachten erstellen lassen?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Ein Bodengutachten ist nicht bei jedem Verkauf zwingend erforderlich. Bei bekannten Risiken, schwierigen Bodenverhältnissen oder einer geplanten Bebauung kann es jedoch sinnvoll sein.</div></details>
+      <details><summary>Ist ein Kaufangebot bereits verbindlich?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Ein einfaches Kaufangebot oder Gebot führt bei einem Grundstück grundsätzlich noch nicht zu einem wirksamen Kaufvertrag. Dafür ist die notarielle Beurkundung erforderlich.</div></details>
+      <details><summary>Wer wählt den Käufer aus?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Die Entscheidung trifft der Eigentümer. Neben dem Preis können auch Finanzierungssicherheit, Übergabezeitpunkt und weitere Vertragsbedingungen berücksichtigt werden.</div></details>
+      <details><summary>Kann ich das Grundstück trotz Grundschuld verkaufen?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Ein Verkauf ist grundsätzlich möglich. Es muss jedoch geklärt werden, ob die Grundschuld gelöscht, abgelöst oder anders behandelt wird. Das Notariat stimmt die notwendigen Schritte mit den beteiligten Banken ab.</div></details>
+      <details><summary>Wie lange dauert ein Grundstücksverkauf?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Die Dauer hängt von Grundstücksart, Bebaubarkeit, Nachfrage, Angebotspreis und der Vollständigkeit der Unterlagen ab. Unklare Nutzungsmöglichkeiten oder fehlende Dokumente können den Prozess deutlich verlängern.</div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FINAL CTA / FUNNEL ============ -->
+<section class="final" id="funnel">
+  <div class="wrap">
+    <span class="eyebrow">Jetzt starten</span>
+    <h2>Grundstück jetzt unverbindlich bewerten lassen</h2>
+    <p>Übermitteln Sie die wichtigsten Angaben zu Ihrem Grundstück und nehmen Sie Kontakt zu einem Immobilienexperten auf, der den regionalen Markt kennt. Sie entscheiden anschließend selbst, ob und mit wem Sie verkaufen.</p>
+    <a class="btn btn--primary btn--lg" href="https://www.regionalimmobilien24.de/maklersuche/">Makler für mein Grundstück finden <span class="arr" aria-hidden="true">→</span></a>
+    <p class="final-mini">Kostenlos · unverbindlich · regional</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<section class="final" id="">
+  <div class="wrap">
+    <div class="hinweis">
+      <h4>Wichtiger Hinweis</h4>
+      <p style="font-size:12px;max-width:150ch">Die Inhalte dieser Seite dienen der allgemeinen Information und ersetzen keine individuelle Rechts-, Steuer-, Finanzierungs- oder Bauberatung. Insbesondere Fragen zur Bebaubarkeit, zu Steuern, Altlasten, Teilungen und bestehenden Rechten sollten von den jeweils zuständigen Behörden oder entsprechend qualifizierten Fachleuten geprüft werden.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JSON-LD: FAQ + Service + Breadcrumb ============ -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Muss ich mich nach einer Anfrage sofort für einen Makler entscheiden?","acceptedAnswer":{"@type":"Answer","text":"Nein. Die Anfrage dient zunächst dazu, Ihre Verkaufssituation einzuordnen und einen möglichen Ansprechpartner kennenzulernen. Eine Beauftragung erfolgt erst, wenn Sie sich bewusst dafür entscheiden."}},
+        {"@type":"Question","name":"Kann ich ein nicht erschlossenes Grundstück verkaufen?","acceptedAnswer":{"@type":"Answer","text":"Grundsätzlich kann auch eine nicht oder nur teilweise erschlossene Fläche verkauft werden. Der Erschließungszustand und mögliche zukünftige Kosten sollten dabei klar dargestellt werden."}},
+        {"@type":"Question","name":"Benötige ich für ein unbebautes Grundstück einen Energieausweis?","acceptedAnswer":{"@type":"Answer","text":"Für ein reines unbebautes Grundstück ist grundsätzlich kein Energieausweis erforderlich. Befinden sich Gebäude auf der Fläche, muss die konkrete Situation geprüft werden."}},
+        {"@type":"Question","name":"Muss ich vor dem Verkauf ein Bodengutachten erstellen lassen?","acceptedAnswer":{"@type":"Answer","text":"Ein Bodengutachten ist nicht bei jedem Verkauf zwingend erforderlich. Bei bekannten Risiken, schwierigen Bodenverhältnissen oder einer geplanten Bebauung kann es jedoch sinnvoll sein."}},
+        {"@type":"Question","name":"Ist ein Kaufangebot bereits verbindlich?","acceptedAnswer":{"@type":"Answer","text":"Ein einfaches Kaufangebot oder Gebot führt bei einem Grundstück grundsätzlich noch nicht zu einem wirksamen Kaufvertrag. Dafür ist die notarielle Beurkundung erforderlich."}},
+        {"@type":"Question","name":"Wer wählt den Käufer aus?","acceptedAnswer":{"@type":"Answer","text":"Die Entscheidung trifft der Eigentümer. Neben dem Preis können auch Finanzierungssicherheit, Übergabezeitpunkt und weitere Vertragsbedingungen berücksichtigt werden."}},
+        {"@type":"Question","name":"Kann ich das Grundstück trotz Grundschuld verkaufen?","acceptedAnswer":{"@type":"Answer","text":"Ein Verkauf ist grundsätzlich möglich. Es muss jedoch geklärt werden, ob die Grundschuld gelöscht, abgelöst oder anders behandelt wird. Das Notariat stimmt die notwendigen Schritte mit den beteiligten Banken ab."}},
+        {"@type":"Question","name":"Wie lange dauert ein Grundstücksverkauf?","acceptedAnswer":{"@type":"Answer","text":"Die Dauer hängt von Grundstücksart, Bebaubarkeit, Nachfrage, Angebotspreis und der Vollständigkeit der Unterlagen ab. Unklare Nutzungsmöglichkeiten oder fehlende Dokumente können den Prozess deutlich verlängern."}}
+      ]
+    },
+    {
+      "@type":"Service",
+      "name":"Grundstück verkaufen & bewerten lassen",
+      "serviceType":"Grundstücksbewertung und Maklervermittlung",
+      "areaServed":"DE",
+      "provider":{"@type":"Organization","name":"Regionalimmobilien24","url":"https://www.regionalimmobilien24.de/"},
+      "url":"https://www.regionalimmobilien24.de/maklersuche/",
+      "description":"Grundstück verkaufen oder den Wert ermitteln lassen – unverbindlich und mit regionaler Marktkenntnis."
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Startseite","item":"https://www.regionalimmobilien24.de/"},
+        {"@type":"ListItem","position":2,"name":"Grundstück verkaufen","item":"https://www.regionalimmobilien24.de/grundstueck-verkaufen/"}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+    // reveal on scroll — only when motion is welcome
+  var allowMotion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+  if(allowMotion && 'IntersectionObserver' in window){
+    document.body.classList.add('reveal-ready');
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1579 @@
+{
+  "total_real_rows": 105,
+  "rows": [
+    {
+      "is_vatermodell": true,
+      "code": "",
+      "verzeichnis": "",
+      "name": "Seiten des Vatermodells",
+      "aktiv": null,
+      "individuell": null,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=NULL",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=NULL",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=NULL",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=NULL"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "aai24",
+      "verzeichnis": "/aachen-eifel/",
+      "name": "Aachen-Eifelimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=aai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=aai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=aai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=aai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=aai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ami24",
+      "verzeichnis": "/altmark/",
+      "name": "Altmarkimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ami24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ami24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ami24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ami24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ami24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ai24",
+      "verzeichnis": "/anhalt/",
+      "name": "Anhaltimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "abi24",
+      "verzeichnis": "/augsburg/",
+      "name": "Augsburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=abi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=abi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=abi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=abi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=abi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "bsi24",
+      "verzeichnis": "/bayerisch-schwaben/",
+      "name": "Bayerisch-schwabenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=bsi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=bsi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=bsi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=bsi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=bsi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "bdi24",
+      "verzeichnis": "/bergisches-dreieck/",
+      "name": "Bergisches-Dreieckimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=bdi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=bdi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=bdi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=bdi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=bdi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "bgli24",
+      "verzeichnis": "/bergisches-land/",
+      "name": "Bergischeslandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=bgli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=bgli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=bgli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=bgli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=bgli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "bi24",
+      "verzeichnis": "/berlin/",
+      "name": "Berlinimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=bi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=bi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=bi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=bi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=bi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "bosi24",
+      "verzeichnis": "/bodensee/",
+      "name": "Bodenseeimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=bosi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=bosi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=bosi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=bosi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=bosi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "brai24",
+      "verzeichnis": "/braunschweig/",
+      "name": "Braunschweigimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=brai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=brai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=brai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=brai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=brai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "brei24",
+      "verzeichnis": "/bremen/",
+      "name": "Bremenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=brei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=brei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=brei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=brei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=brei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ci24",
+      "verzeichnis": "/chemnitz/",
+      "name": "Chemnitzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ci24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ci24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ci24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ci24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ci24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "di24",
+      "verzeichnis": "/dortmund/",
+      "name": "Dortmundimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=di24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=di24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=di24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=di24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=di24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ddi24",
+      "verzeichnis": "/dresden/",
+      "name": "Dresdenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ddi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ddi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ddi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ddi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ddi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "dui24",
+      "verzeichnis": "/duisburg/",
+      "name": "Duisburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=dui24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=dui24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=dui24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=dui24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=dui24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "duei24",
+      "verzeichnis": "/duesseldorf/",
+      "name": "Düsseldorfimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=duei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=duei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=duei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=duei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=duei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "eli24",
+      "verzeichnis": "/elbeland/",
+      "name": "Elbelandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=eli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=eli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=eli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=eli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=eli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "emsi24",
+      "verzeichnis": "/emsland/",
+      "name": "Emslandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=emsi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=emsi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=emsi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=emsi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=emsi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "efi24",
+      "verzeichnis": "/erfurt/",
+      "name": "Erfurtimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=efi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=efi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=efi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=efi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=efi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "erzi24",
+      "verzeichnis": "/erzgebirge/",
+      "name": "Erzgebirgeimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=erzi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=erzi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=erzi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=erzi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=erzi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "eei24",
+      "verzeichnis": "/essen/",
+      "name": "Essenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=eei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=eei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=eei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=eei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=eei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "fi24",
+      "verzeichnis": "/frankfurt/",
+      "name": "Frankfurtimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=fi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=fi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=fi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=fi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=fi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "gii24",
+      "verzeichnis": "/mittelhessen/",
+      "name": "Giessenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=gii24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=gii24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=gii24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=gii24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=gii24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "goti24",
+      "verzeichnis": "/goettingen/",
+      "name": "Göttingenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=goti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=goti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=goti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=goti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=goti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hai24",
+      "verzeichnis": "/halle/",
+      "name": "Halleimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hhi24",
+      "verzeichnis": "/hamburg/",
+      "name": "Hamburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hhi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hhi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hhi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hhi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hhi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hani24",
+      "verzeichnis": "/hannover/",
+      "name": "Hannoverimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hani24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hani24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hani24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hani24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hani24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hi24",
+      "verzeichnis": "/harz/",
+      "name": "Harzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hli24",
+      "verzeichnis": "/havelland/",
+      "name": "Havellandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hbi24",
+      "verzeichnis": "/heilbronn/",
+      "name": "Heilbronnimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "hoi24",
+      "verzeichnis": "/holstein/",
+      "name": "Holsteinimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=hoi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=hoi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=hoi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=hoi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=hoi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "jei24",
+      "verzeichnis": "/jerichow/",
+      "name": "Jerichowimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=jei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=jei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=jei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=jei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=jei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ki24",
+      "verzeichnis": "/karlsruhe/",
+      "name": "Karlsruheimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ki24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ki24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ki24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ki24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ki24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "kai24",
+      "verzeichnis": "/kassel/",
+      "name": "Kasselimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=kai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=kai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=kai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=kai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=kai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "kiei24",
+      "verzeichnis": "/kiel/",
+      "name": "Kielimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=kiei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=kiei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=kiei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=kiei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=kiei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "koei24",
+      "verzeichnis": "/koeln/",
+      "name": "Kölnimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=koei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=koei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=koei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=koei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=koei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "lwi24",
+      "verzeichnis": "/leineweser/",
+      "name": "Leineweserimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=lwi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=lwi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=lwi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=lwi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=lwi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "li24",
+      "verzeichnis": "/leipzig/",
+      "name": "Leipzigimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=li24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=li24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=li24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=li24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=li24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "luei24",
+      "verzeichnis": "/luebeck/",
+      "name": "Lübeckimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=luei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=luei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=luei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=luei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=luei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "lli24",
+      "verzeichnis": "/ludwigslust/",
+      "name": "Ludwigslustimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=lli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=lli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=lli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=lli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=lli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "lbi24",
+      "verzeichnis": "/lueneburg/",
+      "name": "Lüneburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=lbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=lbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=lbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=lbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=lbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mbi24",
+      "verzeichnis": "/magdeburg/",
+      "name": "Magdeburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "maii24",
+      "verzeichnis": "/mainz/",
+      "name": "Mainzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=maii24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=maii24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=maii24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=maii24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=maii24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mani24",
+      "verzeichnis": "/mannheim/",
+      "name": "Mannheimimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mani24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mani24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mani24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mani24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mani24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mfi24",
+      "verzeichnis": "/mittelfranken/",
+      "name": "Mittelfrankenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mfi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mfi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mfi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mfi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mfi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mri24",
+      "verzeichnis": "/mittelrhein/",
+      "name": "Mittelrheinimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mri24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mri24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mri24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mri24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mri24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "msi24",
+      "verzeichnis": "/mittelsachsen/",
+      "name": "Mittelsachsenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=msi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=msi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=msi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=msi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=msi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mthi24",
+      "verzeichnis": "/mittelthueringen/",
+      "name": "Mittelthüringenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mthi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mthi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mthi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mthi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mthi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mi24",
+      "verzeichnis": "/muenchen/",
+      "name": "Münchenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "mli24",
+      "verzeichnis": "/muensterland/",
+      "name": "Münsterlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=mli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=mli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=mli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=mli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=mli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nbi24",
+      "verzeichnis": "/niederbayern/",
+      "name": "Niederbayernimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nri24",
+      "verzeichnis": "/niederrhein/",
+      "name": "Niederrheinimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nri24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nri24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nri24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nri24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nri24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nsai24",
+      "verzeichnis": "/nordsaarland/",
+      "name": "Nordsaarlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nsai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nsai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nsai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nsai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nsai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nsi24",
+      "verzeichnis": "/nordsachsen/",
+      "name": "Nordsachsenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nsi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nsi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nsi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nsi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nsi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nti24",
+      "verzeichnis": "/nordthueringen/",
+      "name": "Nordthueringenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "nwmi24",
+      "verzeichnis": "/nordwestmecklenburg/",
+      "name": "Nordwestmecklenburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=nwmi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=nwmi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=nwmi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=nwmi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=nwmi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "obi24",
+      "verzeichnis": "/oberbayern/",
+      "name": "Oberbayernimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=obi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=obi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=obi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=obi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=obi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ofi24",
+      "verzeichnis": "/oberfranken/",
+      "name": "Oberfrankenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ofi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ofi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ofi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ofi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ofi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ohi24",
+      "verzeichnis": "/oberhavel/",
+      "name": "Oberhavelimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ohi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ohi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ohi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ohi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ohi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "oli24",
+      "verzeichnis": "/oberlausitz/",
+      "name": "Oberlausitzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=oli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=oli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=oli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=oli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=oli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "opi24",
+      "verzeichnis": "/oberpfalz/",
+      "name": "Oberpfalzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=opi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=opi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=opi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=opi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=opi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "osi24",
+      "verzeichnis": "/oberschwaben/",
+      "name": "Oberschwabenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=osi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=osi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=osi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=osi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=osi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "obli24",
+      "verzeichnis": "/oderland/",
+      "name": "Oderlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=obli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=obli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=obli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=obli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=obli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "osni24",
+      "verzeichnis": "/osnabrueck/",
+      "name": "Osnabrückimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=osni24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=osni24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=osni24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=osni24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=osni24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "osai24",
+      "verzeichnis": "/ostsaarland/",
+      "name": "Ostsaarlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=osai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=osai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=osai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=osai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=osai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "othi24",
+      "verzeichnis": "/ostthueringen/",
+      "name": "Ostthüringenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=othi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=othi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=othi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=othi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=othi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "reki24",
+      "verzeichnis": "/rhein-erft-kreis/",
+      "name": "Rhein-Erft-Kreisimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=reki24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=reki24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=reki24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=reki24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=reki24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rski24",
+      "verzeichnis": "/rhein-siegkreis/",
+      "name": "Rhein-Siegkreisimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rski24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rski24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rski24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rski24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rski24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rhhi24",
+      "verzeichnis": "/rheinhessen/",
+      "name": "Rheinhessenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rhhi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rhhi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rhhi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rhhi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rhhi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rni24",
+      "verzeichnis": "/rheinneckar/",
+      "name": "Rheinneckarimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rni24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rni24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rni24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rni24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rni24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rpi24",
+      "verzeichnis": "/rheinpfalz/",
+      "name": "Rheinpfalzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rpi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rpi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rpi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rpi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rpi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rhti24",
+      "verzeichnis": "/rheintal/",
+      "name": "Rheintalimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rhti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rhti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rhti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rhti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rhti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "roi24",
+      "verzeichnis": "/rostock/",
+      "name": "Rostockimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=roi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=roi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=roi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=roi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=roi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "rgi24",
+      "verzeichnis": "/ruhrgebiet/",
+      "name": "Ruhrgebietimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=rgi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=rgi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=rgi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=rgi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=rgi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sui24",
+      "verzeichnis": "/saaleunstrut/",
+      "name": "Saaleunstrutimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sui24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sui24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sui24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sui24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sui24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sbi24",
+      "verzeichnis": "/saarbruecken/",
+      "name": "Saarbrückenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sosi24",
+      "verzeichnis": "/saechsische-schweiz-osterzgebirge/",
+      "name": "Sächsische-Schweiz-Osterzgebirgeimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sosi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sosi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sosi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sosi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sosi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sli24",
+      "verzeichnis": "/salzland/",
+      "name": "Salzlandimmobilien",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sli24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sli24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sli24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sli24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sli24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "saui24",
+      "verzeichnis": "/sauerland/",
+      "name": "Sauerlandimmobilien",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=saui24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=saui24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=saui24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=saui24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=saui24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "slwi24",
+      "verzeichnis": "/schleswig/",
+      "name": "Schleswigimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=slwi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=slwi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=slwi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=slwi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=slwi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sai24",
+      "verzeichnis": "/schwaebische-alb/",
+      "name": "Schwäbischealbimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "swwi24",
+      "verzeichnis": "/schwarzwald/",
+      "name": "Schwarzwaldimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=swwi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=swwi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=swwi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=swwi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=swwi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "si24",
+      "verzeichnis": "/schwerin/",
+      "name": "Schwerinimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=si24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=si24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=si24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=si24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=si24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sigi24",
+      "verzeichnis": "/siegerland/",
+      "name": "Siegerlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sigi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sigi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sigi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sigi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sigi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "swi24",
+      "verzeichnis": "/spreewald/",
+      "name": "Spreewaldimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=swi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=swi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=swi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=swi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=swi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "sti24",
+      "verzeichnis": "/stuttgart/",
+      "name": "Stuttgartimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=sti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=sti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=sti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=sti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=sti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "dai24",
+      "verzeichnis": "/suedhessen/",
+      "name": "Südhessenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=dai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=dai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=dai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=dai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=dai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "smbi24",
+      "verzeichnis": "/suedmecklenburg/",
+      "name": "Südmecklenburgimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=smbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=smbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=smbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=smbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=smbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "swti24",
+      "verzeichnis": "/suedwestthueringen/",
+      "name": "Südwestthüringenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=swti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=swti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=swti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=swti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=swti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wii24",
+      "verzeichnis": "/taunus/",
+      "name": "Taunusimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wii24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wii24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wii24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wii24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wii24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "tbi24",
+      "verzeichnis": "/teutoburger-wald/",
+      "name": "Teutoburger-Wald-Imobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=tbi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=tbi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=tbi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=tbi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=tbi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ti24",
+      "verzeichnis": "/trier/",
+      "name": "Trierimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "umi24",
+      "verzeichnis": "/uckermark/",
+      "name": "Uckermarkimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=umi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=umi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=umi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=umi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=umi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ufi24",
+      "verzeichnis": "/unterfranken/",
+      "name": "Unterfrankenimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ufi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ufi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ufi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ufi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ufi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "vi24",
+      "verzeichnis": "/vogtland/",
+      "name": "Vogtlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=vi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=vi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=vi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=vi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=vi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "vpi24",
+      "verzeichnis": "/vorpommern/",
+      "name": "Vorpommernimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=vpi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=vpi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=vpi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=vpi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=vpi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wei24",
+      "verzeichnis": "/weserems/",
+      "name": "Weseremsimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wei24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wei24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wei24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wei24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wei24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wesi24",
+      "verzeichnis": "/westeifel/",
+      "name": "Westeifelimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wesi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wesi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wesi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wesi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wesi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wwi24",
+      "verzeichnis": "/westerwald/",
+      "name": "Westerwaldimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wwi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wwi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wwi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wwi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wwi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wpfi24",
+      "verzeichnis": "/westpfalz/",
+      "name": "Westpfalzimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wpfi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wpfi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wpfi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wpfi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wpfi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "wsai24",
+      "verzeichnis": "/westsaarland/",
+      "name": "Westsaarlandimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=wsai24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=wsai24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=wsai24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=wsai24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=wsai24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "weti24",
+      "verzeichnis": "/wetterau/",
+      "name": "Wetterauimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=weti24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=weti24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=weti24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=weti24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=weti24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "zi24",
+      "verzeichnis": "/zwickau/",
+      "name": "Zwickauimmobilien24",
+      "aktiv": true,
+      "individuell": true,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=zi24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=zi24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=zi24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=zi24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=zi24"
+      }
+    },
+    {
+      "is_vatermodell": false,
+      "code": "ni24",
+      "verzeichnis": "/mittelfranken/",
+      "name": "Nürnbergimmobilien24",
+      "aktiv": false,
+      "individuell": false,
+      "links": {
+        "params": "../../../../adm/individuell/regionen/edit/params/&regio=ni24",
+        "geodaten": "../../../../adm/individuell/regionen/config/geodaten/&regio=ni24",
+        "mailings": "../../../../adm/individuell/regionen/edit/mailings/&regio=ni24",
+        "werbebanner": "../../../../adm/individuell/regionen/edit/immo-werbebanner/&regio=ni24",
+        "seiten": "../../../../adm/individuell/regionen/edit_region_sites.php&regio=ni24"
+      }
+    }
+  ]
+}

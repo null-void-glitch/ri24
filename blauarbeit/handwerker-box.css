@@ -1,0 +1,163 @@
+.blauarbeit summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.blauarbeit summary h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.blauarbeit-box {
+    padding: 1em 0;
+}
+
+.blauarbeit-form {
+    display: flex;
+    gap: 0.75em;
+    margin-bottom: 1em;
+    /* matches 3 craftsman cards (260px) plus the 2 gaps (1em) between them,
+       so the "Suchen" button lines up with the right edge of the 3rd card */
+    max-width: calc(3 * 260px + 2 * 1em);
+}
+
+.blauarbeit-form-category,
+.blauarbeit-form-zipcode {
+    flex: 1 1 auto;
+    padding: 0.6em 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+.blauarbeit-form-zipcode {
+    flex: 0 0 100px;
+}
+
+.blauarbeit-form-category:focus,
+.blauarbeit-form-zipcode:focus {
+    outline: none;
+    border-color: #6EC959;
+}
+
+.blauarbeit-form-submit {
+    flex: 0 0 auto;
+    border: none;
+    border-radius: 6px;
+    background: #6EC959;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+}
+
+.blauarbeit-form-submit:hover {
+    background: #5fb84a;
+}
+
+.blauarbeit-slider-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.blauarbeit-data {
+    display: flex;
+    gap: 1em;
+    flex: 1 1 auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 0.25em;
+    scrollbar-width: none;
+}
+
+.blauarbeit-data::-webkit-scrollbar {
+    display: none;
+}
+
+.blauarbeit-nav {
+    flex: 0 0 auto;
+    border: none;
+    background: none;
+    color: #6EC959;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 0 0.25em;
+    cursor: pointer;
+}
+
+.blauarbeit-nav:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.blauarbeit-data-craftsman {
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 260px;
+    max-width: 260px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.blauarbeit-data-craftsman-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.blauarbeit-data-craftsman-logo img {
+    max-width: 80%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+.blauarbeit-data-craftsman-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 1em;
+}
+
+.blauarbeit-data-craftsman-body h4 {
+    margin: 0 0 0.4em;
+    font-size: 1em;
+}
+
+.blauarbeit-data-craftsman-body p {
+    margin: 0 0 1.1em;
+    color: #555;
+    font-size: 0.85em;
+}
+
+.blauarbeit-data-craftsman-body .cmd {
+    margin-top: auto;
+    display: block;
+    text-align: center;
+    background: #6EC959;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6em 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blauarbeit-data-craftsman-body .cmd:hover {
+    background: #5fb84a;
+}
+
+.blauarbeit-status {
+    color: #777;
+    font-style: italic;
+}

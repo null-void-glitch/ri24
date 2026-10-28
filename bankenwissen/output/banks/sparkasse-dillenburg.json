@@ -1,0 +1,368 @@
+{
+  "bank": "Sparkasse Dillenburg",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "pro Auszahlung mind. 10 TEUR"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Eigennutzer & Kapitalanleger: 100 gesonderte Prüfung: 90"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "75.000 - 10.000.000\nÜberschreitung: Rotscore"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 10"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": ""
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40090035"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart\nVerkehrswert zur Konditionsberechnung wird durch die Sparkasse vorgegeben, bitte die Funktion Darlehensdatenanfrage benutzen"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,5"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Sicherungsobjekt muss im PLZ-Gebiet der Sparkasse liegen"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Modulbauweise"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Objektbesichtigung muss jederzeit möglich sein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "33"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begrenzung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, RH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional (rund um den Landkreis Dillenburg)\nMind. 1 Antragsteller oder mind. 1 Objekt im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "In voller Höhe mit Einreichung des Elterngeldbescheids, befristet bis zum Ende der Zahlung"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja\nDie Bearbeitungszeit kann sich unter Umständen aufgrund von weiteren Ratingverfahren verlängern\nDer im Angebot aufgeführte Zinssatz kann sich im Laufe der Prüfung der Anfrage verändern \nfolgende Unterlagen sind zur Bearbeitung grundsätzlich notwendig: \n2 endgültige Jahresabschlüsse bzw. Einnahmen-/Überschussrechnungen\nAktuelle Unterlagen zum wirtschaftlichen Erfolg des Unternehmens (BWA und Summen- und Saldenlisten)\nInformationen zum aktuellen Kapitaldienst des Unternehmens\nIm Bearbeitungsprozess kann es zu Rückfragen kommen"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "100"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Ansatz in voller Höhe mit Einreichung des Gehaltsnachweises"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja\nDie Bearbeitungszeit kann sich unter Umständen aufgrund von weiteren Ratingverfahren verlängern\nDer im Angebot aufgeführte Zinssatz kann sich im Laufe der Prüfung der Anfrage verändern \nfolgende Unterlagen sind zur Bearbeitung grundsätzlich notwendig: \n2 endgültige Jahresabschlüsse bzw. Einnahmen-/Überschussrechnungen\nAktuelle Unterlagen zum wirtschaftlichen Erfolg des Unternehmens (BWA und Summen- und Saldenlisten)\nInformationen zum aktuellen Kapitaldienst des Unternehmens\nIm Bearbeitungsprozess kann es zu Rückfragen kommen"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopien der Vermittler-VVI und des DVV"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "im Hause der Sparkasse; Video-Legitimation\n\nVertrag wird per Post an den Kunden versandt"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  },
+  "company_id": "2f606123f6f55ab7b71b5c49f9908d05",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/2f606123f6f55ab7b71b5c49f9908d05",
+  "bank_category": "Sparkassen",
+  "last_modified": "05.05.26",
+  "recent_news": [
+    {
+      "date": "12.03.21",
+      "title": "Sparkasse Dillenburg - Frühjahrssonderkreditaktion"
+    },
+    {
+      "date": "18.05.17",
+      "title": "Sparkasse Dillenburg - Start News"
+    },
+    {
+      "date": "18.05.17",
+      "title": "Sparkasse Dillenburg - Start Kondimeldungen"
+    }
+  ]
+}

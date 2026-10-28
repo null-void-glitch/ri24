@@ -1,0 +1,435 @@
+{
+  "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15\nMindestabruf liegt bei 5.000 EUR"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "TopZins Produkt:\n\nmaximaler Beleihungsauslauf:  100%\n\nKlassisches Produkt Teilhaberbank:\n\nmaximaler Beleihungsauslauf: 110 %"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "112,00%"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "125,00%"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "112,00%"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "125,00%"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "In Verbindung mit Kombinatorik reduziert sich die Kondition des Bankdarlehens um 0,30%. Dies ist systemseitig bereits hinterlegt – eine manuelle Änderung des Zinssatzes ist nicht erforderlich"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "vorübergehende Einschränkung ab 19.03.2025\n\nTopZins Produkt:\n\nMindestdarlehenssumme neu: 150.000 Euro (bisher 100.000 Euro)\nmaximaler Beleihungsauslauf neu: 95% (bisher 100%)\n\nNormales Produkt VR Bank Metropolregion:\n\nMindestdarlehenssumme neu: 100.000 Euro\nmaximaler Beleihungsauslauf neu: 112% (bisher 125%)\n \nSonst:\nmind. 50.000 - max. 1.000.000\nÜberschreitung - Einzelfallentscheidung"
+    },
+    "entry": {
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nEin Kontocheck ist erforderlich, sobald der Beleihungsauslauf 100 % überschreitet."
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mit wohnwirtschaftlichem Hintergrund,\nZur freien Verwendung\nAufschlag in der Kondition von 0,25%\nNur bis 80% Beleihungsauslauf möglich"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, 10% der Darlehenssumme, max. 30.000 Euro. Ggf. erhöht sich durch den Puffer der Beleihungsauslauf und damit die Kundenkondition. Sollte der vereinbarte Puffer nicht benötigt werden, fällt keine Nichtabnahmeentschädigung an"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 %"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird in Ausnahmefällen angeboten. Bitte auf Zwischenfinanzierung ausweichen"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 10\nsedit 18.08.2025 Zinsbindungen > 10 Jahre ausschließlich über Verbundfinanzierung"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten. Bitte Absprache, ob Festzins oder Variabler-Zins. Wenn variabel, dann Aufschlag 1% in der Kondition"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36; >36 Monate nur im Verbund möglich"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5 - 10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "50%"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40160017"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 358, 359"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "möglich"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Individuell über BaufiSmart anzufragen"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10 \nnicht bei Volltilgern"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "max. 40 Jahre Gesamtlaufzeit, >100 Beleihungsauslauf 3 %"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Antrag definiertes Datum ,spätestens ab 25. Monat"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "3 kostenfreie Tilgungssatzwechsel während der Zinsbindungsperiode zwischen 2-5%\nkeine Unterschreitung des ursprünglichen Tilgungssatzes\nfrühestens nach 12 Monate möglich (gelten nicht für TA-Darlehen)"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Beim GrünKredit finanziert die VR-Bank deutschlandweit, weil das Objekt nicht eingewertet werden muss. \nDer DL-Nehmer MUSS sich jedoch im PLZ-Bereich befinden, weil wir hiermit Kunden in der Region gefördern werden sollen.\n \nBei den anderen Produkten ist es anders herum.\nHier muss zwingend das Objekt im PLZ-Bereich sein (weil die VR-Bank es einwerten muss) und der DL-Nehmer kann auch außerhalb sein"
+    },
+    "blankoauszahlung": {
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "value": "Bei Neubau / Renovierungen Blankoauszahlungen bis 75 TEUR möglich \nVor der nächsten Auszahlung müssen entsprechende Nachweise erbracht werden."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - Nur zur Eigennutzung\nEinwertung nach Ertragswertverfahren, Beleihungsauslauf maximal 80%"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "max. 33% Gewerbefläche: Einzelfallentscheidung\nmax. 33,33% Mieterträge aus Gewerbefläche"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Überschuss HHR min. 250 EUR"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, RH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Value, vdp\nWertermittlung: Gestehungskosten"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, ggf. muss eine Zusatzsicherheit gestellt werden. Keine Vollfinanzierungen. Max. 60% BLA. Mindestwohnfläche 40 qm. Bewertung nach Ertragswertverfahren; Grundbuch Abt. II darf nichts stehen"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional, alle PLZ in Baufismart hinterlegt\nAlle Objekte im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, deutlich wertmindernde Rechte müssen im Rang nach Grundschuld der Bank\nggfs Bewilligungsurkunde notwendig"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, wenn Neuausreichung > 80 % BLA"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "EK muss mindestens in Höhe der Nebenkosten und bei Versteigerung zu leistenden 10% Anzahlung vorhanden sein\nObjekt muss leer bzw. nicht mehr vom Eigentümer bewohnt sein\nGerichtsgutachten erforderlich\nKunde muss bankbestätigten Scheck für Versteigerungstermin haben \nAbwicklung über VR-Bank nur bei Bestandskunden"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja zu 100 %, wenn Elterngeldbescheid und Nachweis, dass nach der Elternzeit wieder beim alten Arbeitgeber gearbeitet wird vorliegen und das zukünftige Nettogehalt mindestens der Höhe des Elterngeldes entspricht"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: nein\nKindesunterhalt: \n\nja, max. bis zum 14. Lebensjahr des Kindes\nprivate Vereinbarung werden nicht akzeptiert"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Privatiers, Rentner, Kapitalanleger"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4\nEigentümer und Darlehensnehmer müssen nicht identisch sein"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? Nein \nWohnsitz & Gehaltsbezug im Ausland? Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "250"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max.  67 Jahre, wenn älter dann Einzelfallentscheidung"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften\nEinzelfallentscheidung"
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "max. Jahre 67, wenn älter dann Einzelfallentscheidung, je nach Verwendung und Beleihung\nAnrechnung 60% des Nettoeinkommens. \nRenteninformation / Rentenbescheid erforderlich. Lebensphasenplanung bitte beachten."
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "möglich, die Vermögenslage muss positiv sein\nBeleihungsauslauf darf nicht > 125% sein\nRate muss nicht weiterhin in HH-Rechnung berücksichtig werden"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Vorrangiger EK-Einsatz\nEinzureichendes Auszahlungsformular wird mit den Vertragsunterlagen übermittelt\nBei Neubau / Renovierungen Blankoauszahlungen bis 75 TEUR möglich \nVor der nächsten Auszahlung müssen entsprechende Nachweise erbracht werden.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein, sobald ein Dolmetscher z.B. beim Notar benötigt wird, ist eine Finanzierung nicht möglich"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "7 Tage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Legitimation: Post- und Video-Ident möglich; Legitimation auch in der Filiale möglich\nVertragsunterschrift: Per Post"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "über die Plattform"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Online Banking:\nOnlineBanking standardmäßig, da Wegfall des papierhaften Darlehenskontoauszuges (bitte mit Kreditantrag Nachricht an Bank, welcher Darlehensnehmer den OnlineBanking-Zugang erhalten soll)."
+    }
+  }
+}

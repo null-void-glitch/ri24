@@ -1,0 +1,130 @@
+{
+  "bank": "Sparkasse Schweinfurt-Haßberge",
+  "criteria": {
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Zinsbindungen über 10 Jahren werden nur bis 60% BLA begleitet. Eine Splittung in mehrere Bausteine ist möglich."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40060004"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart\nDer Verkehrswert zur Konditionsberechnung wird durch die Sparkasse vorgegeben, bitte die Funktion Darlehensdatenanfrage benutzen"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "-/10"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "keine Einschränkung"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "In der Filiale"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  },
+  "company_id": "fe679c7c-008c-421f-b476-ef77920cc0c6",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/fe679c7c-008c-421f-b476-ef77920cc0c6",
+  "bank_category": "Sparkassen",
+  "last_modified": "30.04.26",
+  "recent_news": [
+    {
+      "date": "29.01.25",
+      "title": "Sparkasse Schweinfurt-Haßberge - Neuer regionaler Bankpartner auf BaufiSmart"
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RI24 Baufinanzierungs-Assistent – Demo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f7f8f9; color: #111; }
+    header { background: #BDE04F; color: #333; padding: 16px 24px; }
+    header h1 { margin: 0; font-size: 1.15rem; }
+    .wrap { display: flex; gap: 24px; padding: 24px; flex-wrap: wrap; }
+    .info { flex: 1; min-width: 280px; max-width: 520px; }
+    .info code { background: #eef1f0; padding: 1px 5px; border-radius: 4px; }
+    label { display:block; font-size:.85rem; margin:12px 0 4px; font-weight:600; }
+    input { width:100%; padding:8px 10px; border:1px solid #ccd2cf; border-radius:8px; box-sizing:border-box; }
+
+    .chat-calc-col { flex: 1; min-width: 300px; max-width: 420px; }
+    .variant-switch { display: flex; gap: 8px; margin-bottom: 12px; }
+    .variant-btn {
+      flex: 1; padding: 7px 10px; font-size: .78rem; font-weight: 600; border-radius: 8px;
+      border: 1px solid #ccd2cf; background: #fff; color: #555; cursor: pointer;
+    }
+    .variant-btn.active { background: #BDE04F; color: #333; border-color: #BDE04F; }
+    /* order:0 = oben, order:1 = unten — Variante 1 (Rechner oben) ist der Default,
+       Variante 2 tauscht die Reihenfolge per Klasse auf dem Stack-Container. */
+    .chat-calc-stack { display: flex; flex-direction: column; gap: 16px; }
+    .chat-calc-stack .calc-panel { order: 0; }
+    .chat-calc-stack .chat-col { order: 1; }
+    .chat-calc-stack.variant-2 .calc-panel { order: 1; }
+    .chat-calc-stack.variant-2 .chat-col { order: 0; }
+    /* Variante 3: nur Chat, Rechner-Panel komplett ausgeblendet. */
+    .chat-calc-stack.variant-3 .calc-panel { display: none; }
+
+    .calc-panel {
+      width: 100%; box-sizing: border-box; height: fit-content;
+      background: #fff; border: 1px solid #e2e5ea; border-radius: 14px;
+      padding: 18px 20px;
+    }
+    .calc-panel h2 { margin: 0 0 4px; font-size: 1rem; color: #333; }
+    .calc-placeholder { font-size: .85rem; color: #667; margin-top: 8px; }
+    .calc-section { margin-top: 16px; }
+    .calc-section h3 {
+      margin: 0 0 8px; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em;
+      color: #667; font-weight: 700;
+    }
+    /* Platzsparend: Ergebnis-Block bleibt eingeklappt, bis markCalcLive() ihn
+       aufklappt (erster "Neu berechnen"-Klick ODER erste Chat-Berechnung). */
+    #calc-result-section.calc-result-collapsed { display: none; }
+    .calc-row {
+      display: flex; justify-content: space-between; gap: 12px;
+      padding: 6px 0; border-bottom: 1px solid #eef1f0; font-size: .88rem;
+    }
+    .calc-row:last-child { border-bottom: none; }
+    .calc-row .calc-label { margin: 0; font-size: inherit; font-weight: 400; color: #555; }
+    .calc-row .calc-value { font-weight: 700; color: #111; text-align: right; }
+    .calc-row .calc-input-field {
+      width: 55%; padding: 3px 6px; border: 1px solid #ccd2cf; border-radius: 6px;
+      font-size: inherit; font-weight: 700; color: #111; text-align: right;
+    }
+    .calc-input-field:focus { outline: 2px solid #A1BE43; outline-offset: 1px; }
+    .calc-recalc-btn {
+      margin-top: 10px; width: 100%; padding: 8px 10px; border: none; border-radius: 8px;
+      background: #BDE04F; color: #333; font-size: .85rem; font-weight: 600; cursor: pointer;
+    }
+    .calc-recalc-btn:hover { background: #A1BE43; }
+    .calc-status { font-size: .78rem; color: #946200; margin: 8px 0 0; }
+  </style>
+</head>
+<body>
+  <header><h1>💰 RI24 Baufinanzierungs-Assistent – lokale Demo</h1></header>
+
+  <div class="wrap">
+    <div class="info">
+      <p>Diese Seite testet die DeepChat-Einbindung gegen den eigenständigen
+         Baufinanzierungs-Proxy (<code>chat.php</code> in diesem Ordner). Anders als
+         der Exposé-Assistent bekommt dieser Chat <strong>keine</strong> Exposé-URL —
+         Kaufpreis, PLZ und Objektart erfragt der Assistent direkt im Gespräch.</p>
+
+      <label for="endpoint">Endpoint (chat.php)</label>
+      <input id="endpoint" value="http://localhost:8001/chat.php">
+
+      <label for="beraterUrl">Berater-Seiten-URL (berater_url)</label>
+      <input id="beraterUrl" value="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/">
+
+      <p style="font-size:.85rem;color:#555;margin-top:16px">
+        Ändere die Felder und lade neu, um gegen einen anderen Endpoint bzw.
+        eine andere Berater-Seite zu testen. Die Berater-URL wird live über den
+        MCP-Server ausgelesen (siehe advisor-resolver.php).
+      </p>
+    </div>
+
+    <div class="chat-calc-col">
+      <div class="variant-switch">
+        <button type="button" class="variant-btn active" data-variant="variant-1">Variante 1: Rechner oben</button>
+        <button type="button" class="variant-btn" data-variant="variant-2">Variante 2: Rechner unten</button>
+        <button type="button" class="variant-btn" data-variant="variant-3">Variante 3: Nur Chat</button>
+      </div>
+
+      <div class="chat-calc-stack variant-1" id="chat-calc-stack">
+        <div class="calc-panel" id="calc-panel">
+          <h2>💰 Finanzierungsrechner</h2>
+          <p class="calc-placeholder" id="calc-placeholder">
+            Beispielrechnung – aktualisiert sich automatisch, sobald du dem Assistenten deine Daten nennst.
+          </p>
+          <div class="calc-section" id="calc-input-section">
+            <h3>Deine Eingaben</h3>
+            <div id="calc-input-rows"></div>
+            <button type="button" class="calc-recalc-btn" id="calc-recalc-btn">Neu berechnen ↻</button>
+            <p class="calc-status" id="calc-status" style="display:none"></p>
+          </div>
+          <div class="calc-section calc-result-collapsed" id="calc-result-section">
+            <h3>Ergebnis</h3>
+            <div id="calc-result-rows"></div>
+          </div>
+        </div>
+
+        <div class="chat-col">
+          <script type="module" src="https://cdn.jsdelivr.net/npm/deep-chat@2/dist/deepChat.bundle.js"></script>
+          <!-- EU AI Act Art. 50: dauerhaft sichtbarer Hinweis, dass hier eine KI statt
+               eines Menschen antwortet — sitzt außerhalb des Nachrichten-Scrollbereichs,
+               bleibt also unabhängig vom Chatverlauf sichtbar. -->
+          <div style="box-sizing:border-box;width:420px;background:#f1f4f2;color:#333;
+            border:1px solid #e2e5ea;border-bottom:none;border-radius:14px 14px 0 0;padding:7px 14px;
+            font-size:.76rem;line-height:1.3;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;">
+            🤖 KI-generierter Inhalt
+          </div>
+          <deep-chat id="ri24-baufi-assistent"></deep-chat>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ─── Rechner-Panel: Feld-Beschriftungen + Render-Funktion ────────────────────────
+    var CALC_INPUT_LABELS = {
+      kaufpreis: 'Kaufpreis', kaufnebenkosten: 'Kaufnebenkosten', eigenKapital: 'Eigenkapital',
+      plz: 'PLZ', objektArt: 'Objektart', wunschRate: 'Wunschrate', wunschZinsbindung: 'Zinsbindung'
+    };
+    var CALC_RESULT_LABELS = {
+      darlehenssumme: 'Darlehenssumme', rate: 'Monatliche Rate', sollzins: 'Sollzins',
+      effektivzins: 'Effektivzins', zinsbindung: 'Zinsbindung', machbarkeit: 'Machbarkeit'
+    };
+    // Exakte objektArt-Enum-Werte der Europace Vorschläge-API
+    // (baufi-passende-vorschlaege-api.yaml, Finanzierungsobjekt.objektArt) — freie
+    // Texteingabe würde sonst Werte erzeugen, die createVorschlaege 1:1 unverändert
+    // an Europace weiterreicht (kein Mapping/Normalisierung im MCP-Server). GRUNDSTUECK
+    // bewusst weggelassen, da in der API-Doku als "deprecated, use BAUGRUNDSTUECK" markiert.
+    var OBJEKT_ART_OPTIONS = [
+      { value: 'EINFAMILIENHAUS', label: 'Einfamilienhaus' },
+      { value: 'ZWEIFAMILIENHAUS', label: 'Zweifamilienhaus' },
+      { value: 'MEHRFAMILIENHAUS', label: 'Mehrfamilienhaus' },
+      { value: 'REIHENHAUS', label: 'Reihenhaus' },
+      { value: 'DOPPELHAUSHAELFTE', label: 'Doppelhaushälfte' },
+      { value: 'EIGENTUMSWOHNUNG', label: 'Eigentumswohnung' },
+      { value: 'BAUGRUNDSTUECK', label: 'Baugrundstück' }
+    ];
+    // Parst einen de-DE-formatierten Geldbetrag ("44.000 €", "44.000,50") zurück
+    // in eine Zahl — Punkt = Tausendertrennzeichen, Komma = Dezimaltrennzeichen.
+    function parseGermanNumber(str) {
+      if (!str) return NaN;
+      return parseFloat(String(str).replace(/[€\s]/g, '').replace(/\./g, '').replace(',', '.'));
+    }
+    // Grobe Kaufnebenkosten-Schätzung (~11% vom Kaufpreis, analog zur nativen
+    // Exposé-Seiten-Berechnung aus Grunderwerbsteuer+Notar+Maklerprovision),
+    // auf 100 € gerundet. Nur ein Startpunkt — der Nutzer kann den Betrag im
+    // Rechner-Panel jederzeit überschreiben (siehe calcInputTouched unten),
+    // da die tatsächliche Höhe je nach Maklervertrag/Region stark abweichen kann.
+    function estimateKaufnebenkosten(kaufpreisStr) {
+      var kp = parseGermanNumber(kaufpreisStr);
+      if (!kp || isNaN(kp) || kp <= 0) return '';
+      return (Math.round(kp * 0.11 / 100) * 100).toLocaleString('de-DE') + ' €';
+    }
+    // Beispielrechnung, mit der das Panel startet (dieselben "universellen"
+    // Demo-Eckdaten, mit denen RI24 den Baukredit-Rechner auf
+    // regionalimmobilien24.de vorbefüllt: Kaufpreis 400.000 €, PLZ 10115),
+    // damit der Rechner nie leer ist, sondern immer eine plausible
+    // Berechnung zeigt, bis der Assistent echte Nutzerdaten liefert.
+    var DEFAULT_CALC_INPUT = {
+      kaufpreis: '400.000 €', kaufnebenkosten: estimateKaufnebenkosten('400.000 €'), eigenKapital: '80.000 €',
+      plz: '10115', objektArt: 'EINFAMILIENHAUS', wunschRate: '1.500 €', wunschZinsbindung: '10 Jahre'
+    };
+    var DEFAULT_CALC_RESULT = {
+      darlehenssumme: '320.000 €', rate: '1.465 €', sollzins: '3,49 %',
+      effektivzins: '3,55 %', zinsbindung: '10 Jahre', machbarkeit: '✅ Machbar (100/100)'
+    };
+    var calcState = {
+      input: Object.assign({}, DEFAULT_CALC_INPUT),
+      result: Object.assign({}, DEFAULT_CALC_RESULT)
+    };
+    var calcIsLive = false;
+    // Merkt sich pro Feld, ob der Nutzer es manuell bearbeitet hat — nur so lange
+    // NICHT gesetzt, wird "kaufnebenkosten" bei neuen Kaufpreis-Werten aus dem Chat
+    // automatisch neu geschätzt (siehe updateCalcInput). Nach der ersten manuellen
+    // Änderung hat der Nutzer-Wert immer Vorrang.
+    var calcInputTouched = {};
+    // Wird gesetzt, sobald DeepChat initialisiert ist (siehe IIFE unten) — der
+    // "Neu berechnen"-Button im Rechner-Panel braucht die Chat-Instanz, um
+    // Eingaben (Rechner → Chat) als Nutzer-Nachricht einzuspeisen.
+    var chatRef = null;
+
+    function renderCalcRows(containerId, labels, values) {
+      var container = document.getElementById(containerId);
+      container.innerHTML = '';
+      Object.keys(labels).forEach(function (key) {
+        if (!values[key]) return;
+        var row = document.createElement('div');
+        row.className = 'calc-row';
+        row.innerHTML =
+          '<span class="calc-label">' + labels[key] + '</span>' +
+          '<span class="calc-value"></span>';
+        row.querySelector('.calc-value').textContent = values[key];
+        container.appendChild(row);
+      });
+    }
+
+    // Eigene Render-Funktion für die Eingaben (statt renderCalcRows): die
+    // Felder sind editierbar, damit Änderungen am Rechner per "Neu berechnen"
+    // zurück an den Chat gehen (Rechner → Chat, analog zur bereits bestehenden
+    // Chat → Rechner-Richtung über calc_input/calc_result).
+    function renderCalcInputRows() {
+      var container = document.getElementById('calc-input-rows');
+      container.innerHTML = '';
+      Object.keys(CALC_INPUT_LABELS).forEach(function (key) {
+        var row = document.createElement('div');
+        row.className = 'calc-row';
+        var field;
+        if (key === 'objektArt') {
+          var optionsHtml = OBJEKT_ART_OPTIONS.map(function (opt) {
+            return '<option value="' + opt.value + '">' + opt.label + '</option>';
+          }).join('');
+          row.innerHTML =
+            '<span class="calc-label">' + CALC_INPUT_LABELS[key] + '</span>' +
+            '<select class="calc-input-field" data-key="objektArt">' + optionsHtml + '</select>';
+          field = row.querySelector('.calc-input-field');
+        } else {
+          row.innerHTML =
+            '<span class="calc-label">' + CALC_INPUT_LABELS[key] + '</span>' +
+            '<input type="text" class="calc-input-field" data-key="' + key + '">';
+          field = row.querySelector('.calc-input-field');
+          field.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') { e.preventDefault(); submitCalcToChat(); }
+          });
+          field.addEventListener('input', function () { calcInputTouched[key] = true; });
+        }
+        field.value = calcState.input[key] || '';
+        container.appendChild(row);
+      });
+    }
+
+    // Aktualisiert nur die .value der bestehenden Input-Felder (statt sie neu
+    // zu erzeugen) — sonst würde ein Chat-Update mitten in der Eingabe den
+    // Fokus und die Cursor-Position im Feld zerstören.
+    function updateCalcInputFields() {
+      Object.keys(CALC_INPUT_LABELS).forEach(function (key) {
+        var field = document.querySelector('#calc-input-rows .calc-input-field[data-key="' + key + '"]');
+        // calcInputTouched-Check verhindert insbesondere, dass ein manuell editiertes
+        // Eigenkapital-Feld nach einer Kaufnebenkosten-Verrechnung durch den bereits
+        // verrechneten (Netto-)Wert aus dem Tool-Aufruf überschrieben wird — das würde
+        // bei einem zweiten "Neu berechnen"-Klick sonst zu einer doppelten Abzugsrechnung
+        // führen (siehe system-prompt-baufinanzierung.md, Abschnitt "Kaufnebenkosten").
+        if (!field || document.activeElement === field || calcInputTouched[key]) return;
+        var value = calcState.input[key] || '';
+        // Falls der Assistent (Chat → Rechner) einen objektArt-Wert liefert, der nicht
+        // im Europace-Enum steckt (z.B. Modell hat frei formuliert), Wert trotzdem
+        // sichtbar machen statt ihn stillschweigend auf die erste Option zu verwerfen.
+        if (key === 'objektArt' && value && !OBJEKT_ART_OPTIONS.some(function (opt) { return opt.value === value; })) {
+          var extra = document.createElement('option');
+          extra.value = value;
+          extra.textContent = value;
+          field.appendChild(extra);
+        }
+        field.value = value;
+      });
+    }
+
+    function markCalcLive() {
+      if (calcIsLive) return;
+      calcIsLive = true;
+      document.getElementById('calc-placeholder').textContent = 'Deine aktuelle Berechnung:';
+      // Ergebnis-Block bleibt bis hierhin eingeklappt (Platzersparnis) — klappt beim
+      // ersten "Neu berechnen"-Klick ODER der ersten Chat-Berechnung auf (beide Wege
+      // laufen durch markCalcLive, siehe updateCalcResult/submitCalcToChat).
+      document.getElementById('calc-result-section').classList.remove('calc-result-collapsed');
+    }
+
+    function updateCalcInput(data) {
+      markCalcLive();
+      Object.assign(calcState.input, data);
+      // Kaufnebenkosten-Schätzung nur nachziehen, solange der Nutzer das Feld noch
+      // nicht selbst angefasst hat — danach hat sein manueller Wert Vorrang.
+      if (data.kaufpreis && !calcInputTouched.kaufnebenkosten) {
+        calcState.input.kaufnebenkosten = estimateKaufnebenkosten(data.kaufpreis);
+      }
+      updateCalcInputFields();
+    }
+
+    function updateCalcResult(data) {
+      // Bestätigtes Ergebnis eingetroffen — ein evtl. laufender "wartet-auf-
+      // Ergebnis"-Zustand aus submitCalcToChat ist damit erledigt.
+      pendingCalcSubmit = null;
+      document.getElementById('calc-status').style.display = 'none';
+      markCalcLive();
+      Object.assign(calcState.result, data);
+      renderCalcRows('calc-result-rows', CALC_RESULT_LABELS, calcState.result);
+    }
+
+    // Gesetzt zwischen einem "Neu berechnen"-Klick und dem Ende der Chat-Antwort
+    // (siehe pump()-Funktion unten) — hält fest, was vor dem Versuch galt, damit
+    // handleAssistantTurnWithoutCalc() zurückrollen kann, falls der Assistent
+    // statt zu rechnen eine Rückfrage stellt (z.B. fehlende Pflichtangaben wie
+    // Geburtsdatum/Einkommen) und daher NIE ein calc_result-Event eintrifft —
+    // ohne dieses Tracking blieben die "…"-Platzhalter sonst für immer stehen.
+    var pendingCalcSubmit = null;
+
+    // Liest die aktuellen Eingabefelder aus und schickt sie als normale
+    // Nutzer-Nachricht an den Chat (Rechner → Chat) — der Assistent berechnet
+    // darüber via createVorschlaege/getVorschlaege neu, das Ergebnis kommt wie
+    // gewohnt per SSE (calc_result) zurück in dieses Panel.
+    function submitCalcToChat() {
+      if (!chatRef) return;
+      Object.keys(CALC_INPUT_LABELS).forEach(function (key) {
+        var input = document.querySelector('#calc-input-rows .calc-input-field[data-key="' + key + '"]');
+        if (input) calcState.input[key] = input.value.trim();
+      });
+      pendingCalcSubmit = { wasLiveBefore: calcIsLive, previousResult: Object.assign({}, calcState.result) };
+      document.getElementById('calc-status').style.display = 'none';
+      markCalcLive();
+      // Ergebnis-Felder sofort auf "wird berechnet…" zurücksetzen, statt das
+      // alte (jetzt nicht mehr zu den neuen Eingaben passende) Ergebnis stehen
+      // zu lassen, bis die Antwort (calc_result per SSE) eintrifft.
+      Object.keys(CALC_RESULT_LABELS).forEach(function (key) { calcState.result[key] = '…'; });
+      renderCalcRows('calc-result-rows', CALC_RESULT_LABELS, calcState.result);
+      var parts = Object.keys(CALC_INPUT_LABELS)
+        .filter(function (key) { return calcState.input[key]; })
+        .map(function (key) { return CALC_INPUT_LABELS[key] + ': ' + calcState.input[key]; });
+      chatRef.submitUserMessage({
+        text: 'Bitte neu berechnen mit diesen Angaben — ' + parts.join(', ') + '.'
+      });
+    }
+
+    // Wird aufgerufen, wenn die Chat-Antwort komplett durchgelaufen ist, OHNE dass
+    // dabei ein calc_result-Event kam (siehe pump() unten) — z.B. weil der
+    // Assistent stattdessen nach fehlenden Pflichtangaben gefragt hat. Rollt die
+    // "wird berechnet…"-Platzhalter zurück, statt sie dauerhaft stehen zu lassen.
+    function handleAssistantTurnWithoutCalc() {
+      if (!pendingCalcSubmit) return;
+      var pending = pendingCalcSubmit;
+      pendingCalcSubmit = null;
+      if (!pending.wasLiveBefore) {
+        // Allererster Versuch war verfrüht — Aufklapp-Zustand wieder zurücknehmen,
+        // statt Beispielwerte als "Deine aktuelle Berechnung" auszugeben.
+        calcIsLive = false;
+        document.getElementById('calc-placeholder').textContent =
+          'Beispielrechnung – aktualisiert sich automatisch, sobald du dem Assistenten deine Daten nennst.';
+        document.getElementById('calc-result-section').classList.add('calc-result-collapsed');
+      }
+      calcState.result = pending.previousResult;
+      renderCalcRows('calc-result-rows', CALC_RESULT_LABELS, calcState.result);
+      var status = document.getElementById('calc-status');
+      status.textContent = 'ℹ️ Der Assistent hat noch eine Rückfrage — bitte im Chat antworten.';
+      status.style.display = '';
+    }
+
+    document.getElementById('calc-recalc-btn').addEventListener('click', submitCalcToChat);
+
+    // Setzt die Chat-Höhe (identischer Stilstring wie bei der Erstinitialisierung
+    // unten, siehe customElements.whenDefined) — als eigene Funktion, damit der
+    // Layout-Umschalter sie beim Wechsel zu/von Variante 3 erneut aufrufen kann.
+    function applyChatHeight(px) {
+      if (!chatRef) return;
+      chatRef.style =
+        'border-radius:0 0 14px 14px;border:1px solid #e2e5ea;border-top:none;width:420px;height:' + px + 'px;';
+    }
+
+    // Layout-Umschalter: Variante 1 (Rechner oben) / Variante 2 (Rechner unten) /
+    // Variante 3 (nur Chat) — tauscht per CSS-Klasse nur Reihenfolge/Sichtbarkeit,
+    // DOM/State bleiben unverändert. Bei Variante 3 fällt die Chat-Höhe auf die
+    // ursprüngliche Standardhöhe zurück (kein Rechner-Panel mehr zum Angleichen).
+    var chatCalcStack = document.getElementById('chat-calc-stack');
+    document.querySelectorAll('.variant-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.variant-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var variant = btn.getAttribute('data-variant');
+        chatCalcStack.classList.remove('variant-1', 'variant-2', 'variant-3');
+        chatCalcStack.classList.add(variant);
+        applyChatHeight(variant === 'variant-3' ? 600 : calcPanelCollapsedHeight);
+      });
+    });
+
+    renderCalcInputRows();
+    renderCalcRows('calc-result-rows', CALC_RESULT_LABELS, calcState.result);
+
+    // Höhe des Rechner-Panels im eingeklappten Zustand (nur "Deine Eingaben",
+    // "Ergebnis" noch per .calc-result-collapsed versteckt) einmalig messen —
+    // wird unten als feste Chat-Höhe verwendet, damit beide Elemente in beiden
+    // Layout-Varianten gleich hoch wirken, auch nachdem der Rechner nach der
+    // ersten Berechnung aufklappt (Chat-Höhe bleibt dabei unverändert).
+    var calcPanelCollapsedHeight = document.getElementById('calc-panel').getBoundingClientRect().height;
+
+    (function () {
+      var chat = document.getElementById('ri24-baufi-assistent');
+      chatRef = chat;
+
+      var ENDPOINT = document.getElementById('endpoint').value;
+      var beraterUrl = document.getElementById('beraterUrl').value;
+
+      var conversationId = (window.crypto && crypto.randomUUID)
+        ? crypto.randomUUID()
+        : 'c' + Date.now() + Math.random().toString(36).slice(2);
+
+      // DeepChat erst konfigurieren, wenn das Custom-Element definiert ist –
+      // sonst startet es im Demo-Modus (deferred Modul-Bundle).
+      customElements.whenDefined('deep-chat').then(function () {
+      // Eigener Stream-Handler statt chat.connect = {url,...} + requestInterceptor:
+      // Nur so lassen sich neben dem Chat-Text auch unsere zusätzlichen SSE-Felder
+      // (calc_input/calc_result) aus chat.php auswerten, siehe Doku zu connect#Handler.
+      chat.connect = {
+        stream: true,
+        handler: function (body, signals) {
+          body.conversation_id = conversationId;
+          body.berater_url = beraterUrl;
+
+          var controller = new AbortController();
+          signals.stopClicked.listener = function () { controller.abort(); };
+
+          fetch(ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+            signal: controller.signal
+          }).then(function (res) {
+            if (!res.ok || !res.body) {
+              handleAssistantTurnWithoutCalc();
+              signals.onResponse({ error: 'Der Assistent ist momentan nicht erreichbar.' });
+              signals.onClose();
+              return;
+            }
+            signals.onOpen();
+            var reader = res.body.getReader();
+            var decoder = new TextDecoder();
+            var buffer = '';
+
+            function pump() {
+              return reader.read().then(function (chunk) {
+                if (chunk.done) { handleAssistantTurnWithoutCalc(); signals.onClose(); return; }
+                buffer += decoder.decode(chunk.value, { stream: true });
+                var lines = buffer.split('\n');
+                buffer = lines.pop();
+                lines.forEach(function (line) {
+                  if (line.indexOf('data:') !== 0) return;
+                  var raw = line.slice(5).trim();
+                  if (raw === '' || raw === '[DONE]') return;
+                  var payload;
+                  try { payload = JSON.parse(raw); } catch (e) { return; }
+                  if (payload.text) signals.onResponse({ text: payload.text });
+                  else if (payload.calc_input) updateCalcInput(payload.calc_input);
+                  else if (payload.calc_result) updateCalcResult(payload.calc_result);
+                });
+                return pump();
+              });
+            }
+            return pump();
+          }).catch(function (err) {
+            if (err && err.name === 'AbortError') { handleAssistantTurnWithoutCalc(); signals.onClose(); return; }
+            handleAssistantTurnWithoutCalc();
+            signals.onResponse({ error: 'Verbindung zum Assistenten fehlgeschlagen.' });
+            signals.onClose();
+          });
+        }
+      };
+
+      applyChatHeight(calcPanelCollapsedHeight);
+      // DeepChat positioniert den Sendebutton per festem inset-block-end (kein
+      // echtes vertikales Zentrieren) und vererbt .input-button { margin-bottom }
+      // auch an absolut positionierte Buttons — beides zusammen lässt ihn optisch
+      // zu hoch sitzen. Bottom:50%+translateY(50%) zentriert ihn exakt unabhängig
+      // von Button-/Zeilenhöhe; margin:0 entfernt den zusätzlichen Versatz.
+      var submitCenterFix = document.createElement('style');
+      submitCenterFix.textContent =
+        // .ri24-starter-Divs (width:100% + border) sind 1px breiter als ihr
+        // Container — reicht auf Linux/GTK mit klassischen (nicht-Overlay)
+        // Scrollbalken, damit #messages dauerhaft einen grauen horizontalen
+        // Scrollbalken anzeigt, der optisch wie eine falsch positionierte
+        // Trennlinie mitten im Chat wirkt.
+        '* { overflow-x: hidden !important; } ' +
+        // Der Sendebutton hängt (Position inside-end) absolut positioniert außerhalb
+        // seines eigenen 0px breiten Containers (.input-button-container) — die
+        // obige globale Regel würde ihn sonst unsichtbar clippen.
+        '.input-button-container { overflow: visible !important; } ' +
+        '.inside-end, .inside-start, .outside-end, .outside-start { ' +
+        'inset-block-end: 50% !important; transform: translateY(50%) !important; margin: 0 !important; } ' +
+        // .input-button ist standardmäßig display:block — das Icon-SVG darin
+        // bleibt dadurch oben statt vertikal zu zentrieren.
+        '.input-button { display: flex !important; align-items: center !important; justify-content: center !important; } ' +
+        // Während des Wartens (loading-button) bzw. während die Antwort streamt
+        // (Stop-Button, erkennbar am #stop-icon-Kind) zeigt DeepChat den grünen
+        // Kreis mit grauem Quadrat/Punkt — hier durch die schon vorhandene,
+        // aber unsichtbar positionierte "drei springende Punkte"-Animation
+        // (.loading-submit-button) ersetzt, ohne grünen Hintergrund.
+        '.input-button.loading-button, .input-button:has(#stop-icon) { background-color: transparent !important; } ' +
+        '.loading-submit-button { inset-block-end: 0 !important; } ' +
+        '#stop-icon { position: relative !important; inset-inline-start: calc(-9990px + 0.275em) !important; ' +
+        'inset-block-end: 0 !important; width: 0.22em !important; height: 0.22em !important; border-radius: 5px !important; ' +
+        'background-color: #848484 !important; box-shadow: 9990px 0 0 0 #848484, calc(9990px + 0.44em) 0 0 0 #848484, ' +
+        'calc(9990px + 0.8em) 0 0 0 #848484 !important; animation: loading-submit-button 1.5s infinite linear !important; }';
+      chat.shadowRoot.appendChild(submitCenterFix);
+      chat.textInput = { placeholder: { text: 'Deine Frage zur Baufinanzierung …' } };
+      chat.submitButtonStyles = {
+        submit: {
+          container: { default: { backgroundColor: '#BDE04F', width: '2rem', height: '2rem', borderRadius: '50%' } },
+          svg: { styles: { default: { width: '45%', height: '45%', fill: '#333' } } }
+        }
+      };
+      chat.messageStyles = {
+        default: {
+          ai:   { bubble: { backgroundColor: '#f1f4f2', color: '#111' } },
+          user: { bubble: { backgroundColor: '#BDE04F', color: '#333' } }
+        }
+      };
+      // Mikrofon-Button im Eingabefeld; nach kurzer Sprechpause wird automatisch
+      // abgesendet (hands-free). Sprachbefehle „stopp"/„absenden" möglich. Analog
+      // zum Exposé-Chat (chat/test-expose.html, Expose-Prototyp-P2-Chat.html).
+      chat.speechToText = {
+        webSpeech: { language: 'de-DE' },
+        // Zwischenergebnisse (interim) deaktiviert: auf Android/Chrome werden sie
+        // teils nicht ersetzt, sondern an den bestehenden Text angehängt – das
+        // führt zu vervielfachtem/wiederholtem Text ("Ichichich möchteich…").
+        // Nur finale Segmente einfügen vermeidet das zuverlässig.
+        displayInterimResults: false,
+        submitAfterSilence: 2500,
+        commands: { stop: 'stopp', submit: 'absenden' },
+        textColor: { final: '#333333' },
+        button: { active: { container: { default: { backgroundColor: '#BDE04F' } } } }
+      };
+      chat.htmlClassUtilities = {
+        'ri24-starter': {
+          events: { click: function (e) { chat.submitUserMessage({ text: e.target.textContent.trim() }); } },
+          styles: {
+            default: { display:'block', width:'100%', textAlign:'left', cursor:'pointer',
+              margin:'6px 0', padding:'10px 12px', borderRadius:'10px',
+              border:'1px solid #d7ddd9', backgroundColor:'#fff', color:'#333', fontSize:'0.9rem' },
+            hover: { backgroundColor: '#f1f4f2' }
+          }
+        }
+      };
+      chat.introMessage = {
+        html:
+          '<div style="line-height:1.5"><b>👋 Willkommen!</b><br>' +
+          'Ich bin dein Baufinanzierungs-Assistent — unabhängig von einem konkreten Exposé.' +
+          '<div style="margin-top:10px">' +
+            '<div class="ri24-starter">Ich möchte eine Immobilienfinanzierung berechnen 🧮</div>' +
+            '<div class="ri24-starter">Wie kann ich meine Finanzierung optimieren? 📈</div>' +
+            '<div class="ri24-starter">Was ist eine Anschlussfinanzierung? ❓</div>' +
+            '<div class="ri24-starter">Ich möchte einen Beratungstermin buchen 📅</div>' +
+          '</div></div>'
+      };
+      });  // customElements.whenDefined('deep-chat')
+    })();
+  </script>
+</body>
+</html>

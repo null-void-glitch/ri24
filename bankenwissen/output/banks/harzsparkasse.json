@@ -1,0 +1,375 @@
+{
+  "bank": "Harzsparkasse",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nach MaBV oder max. 5 \nAuszahlung bei Modernisierungen auch ohne Rechnungsnachweis\nErstauszahlung kann unter 50 T€ erfolgen, alle weiteren Auszahlungen mind. 50 T€"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 112 % vom Kaufpreis + Modernisierung"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "25.000 - 750.000 \nÜberschreitung: Anfrage erforderlich"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "25"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5-15 unter Berücksichtigung der Forwardmonate)"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40130029"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angebot über BaufiSmart"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 5"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Beschränkung"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Keine Beschränkung"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistungen bis max. 20 TEUR möglich"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "99"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begrenzung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "regional\nMind. 1 Antragsteller oder mind. 1 Objekt im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, Nachweis Elterngeldbescheid"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Können mit entsprechendem Nachweis zu 100% angesetzt werden"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt:  Nein\nKindesunterhalt: Ja\n\nbis zur Vollendung des 25 Lj"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "250,00 EUR Pauschale je Kfz für LHK\n \nMitverpflichtung Ehepartner nicht erforderlich, wenn Antragsteller die finanzielle Belastung alleine tragen kann"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Ja, auf Anfrage wenn Wohnsitz nicht in Deutschland"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "18-70"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Ja, mit Lohnnachweis"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Hause der Sparkasse"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DV per Post an Filiale"
+    }
+  },
+  "company_id": "528a990af5dabf8aed4115fc15d50487",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/528a990af5dabf8aed4115fc15d50487",
+  "bank_category": "Sparkassen",
+  "last_modified": "02.01.26",
+  "recent_news": [
+    {
+      "date": "04.03.21",
+      "title": "Harzsparkasse - Erweiterung der Zinsbindungen bei Forward-Darlehen"
+    }
+  ]
+}

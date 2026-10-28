@@ -1,0 +1,396 @@
+{
+  "bank": "Sparkasse Bodensee",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Begrenzung"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "115"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "115"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "18/24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6/12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 1.000.000\nÜberschreitung: Einzelfallentscheidung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 -  30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1-15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40150003"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 308"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "l-bank-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "L-Bank Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "50%"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "WmK, WmZ, Kombi-Darlehen"
+    },
+    "l-bank-stand-alone": {
+      "name": "L-Bank Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Zinsbindung 1-12 Jahre: 1%\nZinsbindung >12 Jahre: 3%"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, mit Sicherheit im Beleihungsgebiet der Sparkasse Bodensee"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung in Abhängigkeit von Bonität und Objekt"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora \nWertermittung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional\nMind. 1 Antragsteller oder mind. 1 Objekt im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "25"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100 % mit Elterngeldbescheid"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? - ja\nAkzeptierte Währung? - EUR, CHF\nWohnsitz & Gehaltsbezug im Ausland? - ja\nAkzeptierte Währung? - EUR, CHF\nHinweis - Voraussetzungen: Beleihungsobjekt oder Zusatzsicherheit im Geschäftsgebiet / Darlehen in EUR / Umrechnung des Gehalts in EUR / Zusätzliche Unterlagen: – letzten zwei Steuerbescheide- und Erklärungen – Nachweis private Krankenversicherung"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung anhand Lohnabrechnung und sonstigen Informationen"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Hause der Sparkasse, PostIdent, Video-Legitimation\n\nVertrag wird per Post an den Darlehensnehmer versandt oder individuelle Absprache"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per E-Mail"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  },
+  "company_id": "3ecaa575182f0cfdfbfee433f51e6d50",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/3ecaa575182f0cfdfbfee433f51e6d50",
+  "bank_category": "Sparkassen",
+  "last_modified": "02.07.25",
+  "recent_news": [
+    {
+      "date": "02.02.23",
+      "title": "Sparkasse Bodensee - Einreichungsfrist BEG 261"
+    },
+    {
+      "date": "03.11.21",
+      "title": "Spk Bodensee - Jahresendfristen"
+    },
+    {
+      "date": "21.01.21",
+      "title": "Spk Bodensee - ab sofort Zinsbindungen 21-30 Jahre möglich"
+    },
+    {
+      "date": "05.09.18",
+      "title": "Spk Bodensee - Erhöhung der Grundmarge per sofort"
+    },
+    {
+      "date": "04.07.18",
+      "title": "Spk Bodensee - Erhöhung der Grundmarge per sofort"
+    }
+  ]
+}

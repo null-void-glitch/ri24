@@ -1,0 +1,431 @@
+{
+  "bank": "Sparda-Bank München eG",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine Begrenzung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Sparda Bank München bietet in berechtigten Ausnahmefällen die Möglichkeit der Verlängerung des Widerrufsrechts auf 3 Monate an. Hierfür wird (stand Oktober/24) ein Zinsaufschlag von 0,1 %-Punkt berechnet und die Nichtabnahmeentschädigung im Gegenzug mit lediglich pauschal 0,5 % des Darlehensbetrags vereinbart.  \nBerechtigte Ausnahmefälle sind z. B.: \nFinanzierungen im Verbindung mit Nachrangdarlehen der Landesförderbank (Bayern LaBo), bei deren Ablehnung\nFinanzierungen von Objektverkäufen betreuter Personen oder minderjähriger Verkäufer aufgrund der in diesen Fällen erforderlichen Zustimmungserfordernis durch die Familien-/Betreuungsgerichte\nAnnahmefrist aufgrund der dynamischen Situation an den Kapitalmärkten mit vollständigen Mindestunterlagen 3 Tage.\nEine Rückdatierung des Kalkulationsdatums ist ebenfalls aus diesen Gründen nicht mehr möglich"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 /24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "150.000 - 10.000.000\nBei Baufinanzierungsbestandskunden Privat- sowie Selbständige und Freiberufler 50.000 € Mindestdarlehenssumme\nBei Neukunden (Selbstständig/Freiberufler) 200.000 € Mindestdarlehenssumme\nÜberschreitung nicht darstellbar\nÄnderung der Mindestdarlehenssumme seit 02.03.2026: 150.000 € (vorher 100.000)"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Zur freien Verfügung möglich (bis 100.000€ Verwendungszweck notwendig;\nüber 100.000€ bei Immobilienkäufen im In- und Ausland ist immer ein Verwendungsnachweis nötig)"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "In Vorbereitung"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, im Nachrang"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 bis 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, es muss aber ein langfristiges Darlehen von mind. TEUR 300 mit dabei sein"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 8, 10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41280008"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 358, 359"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart\nAnalog Neugeschäft"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "0-10% gegen Zinsaufschlag"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1% \nIn Einzelfällen kann aufgrund des Blankoanteils eine höhere Tilgung zur Auflage gemacht werden."
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "In begründeten Ausnahmefällen kann mit der Tilgung später als nach Vollauszahlung begonnen werden, also eine tilgungsfreie Zeit nutzen. Bitte den gewünschten Tilgungsbeginn (maximal 24 Monate nach hinten verschoben) deutlich gekennzeichnet inklusive Begründung bei der Antragsübergabe als Hinweistext angeben."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Ja, gegen Zinsaufschlag. 3 x zwischen 1-5% Tilg."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Einzelgewerkvergabe: möglich \nVoraussetzung: Betreuung durch z.B. Bausachverständiger \n10-20% EK Reserve sollte eingeplant werden"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "1"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begleitung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\nkeine landwirtschaftlichen Objekte\nkein Tiny-Haus\nkein betreutes Wohnen bzw. Seniorenwohnungen\nkein Boardinghaus\nkeine Studentenappartements\nkeine Gewerbeobjekte"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora, on geo\nWertermittlung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Ja, für Darlehen > 600.000 € inkl. Vorlasten im Grundbuch"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Geschäftsgebiet der Bank\nAlle Objekte müssen im definierten PLZ-Gebiet liegen"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja (Grundstücksfinanzierungen werden nur mit konkretem Bauvorhaben begleitet)"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, zu 100%, wenn Bestätigung des Arbeitgebers über Wiedereintritt vorliegt. Aus der Bestätigung muss der Zeitpunkt der Wiederbeschäftigung und Umfang der Wochenarbeitsstunden erkennbar sein."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: zu 100%, max. 400 EUR pro Kind\n\nprivate Vereinbarungen sind möglich"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Ab sofort finanziert die Sparda-Bank München auch Nicht-EU-Bürger mit befristetem Aufenthaltstitel (Blaue Karte EU).\nDazu müssen folgende Voraussetzungen erfüllt sein:\n\nErwerb einer Immobilie zur Eigennutzung\nFinanzierungsauslauf bis 80 %\nEigenkapitalnachweis in Form von Guthaben auf Konten deutscher Banken."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "- Kundenzustimmung zur Objektbesichtigung notwendig\n - Objektbesichtigung zu der 1. Auszahlung notwendig (nicht zum Zeitpunkt der Vertragsunterschrift)"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 2\nEigentümer rund Darlehensnehmer müssen nicht identisch sein"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Ansatz Mieteinnahmen 75% der Nettokaltmiete (Ausnahme: Nießbrauchrecht)"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Ja, (Österreicher*innen wenn Gehalt in Deutschland bezogen wird)\nWohnsitz & Gehaltsbezug im Ausland: Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "150"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Ja, Voranfrage empfohlen"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "3 Gehaltsabrechnungen (wenn der Kunde vom neuen AG schon drei Abrechnungen hat, reichen diese aus)\nArbeitsvertrag \nAuszahlung erfolgt auch innerhalb der  Probezeit"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Auszahlungsaufträge inkl. auszahlungsrelevanten Unterlagen: Per Mail oder Post"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "5 Werktage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Präsenzgeschäft: In der Filiale vor Ort\nLegitimation: PostIdent, in der Filiale vor Ort"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Es findet grundsätzlich für jedes Beleihungsobjekt eine Innen- und Außenbesichtigung statt. # Bei Antragstellung ist IMMER das Formular \"Objektbesichtigung\" vollständig ausgefüllt und unterschrieben einzureichen."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Originalvertrag geht an den Kunden"
+    }
+  },
+  "company_id": "d0d8414e7a65c50b1d17d0425cb5eb64",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/d0d8414e7a65c50b1d17d0425cb5eb64",
+  "bank_category": "Sparda - Banken",
+  "last_modified": "16.04.26",
+  "recent_news": [
+    {
+      "date": "04.05.26",
+      "title": "Sparda-Bank München - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "21.04.26",
+      "title": "Sparda-Bank München - Eingeschränkte Erreichbarkeit am 22.04.2026 ab 12 Uhr"
+    },
+    {
+      "date": "10.04.26",
+      "title": "Sparda-Bank München - Konditionssenkung zum 13.04.2026"
+    },
+    {
+      "date": "30.03.26",
+      "title": "Sparda-Bank München - Konditionsänderung per sofort"
+    },
+    {
+      "date": "13.03.26",
+      "title": "Sparda-Bank München - Konditionserhöhung zum 16.03.2026"
+    }
+  ]
+}

@@ -1,0 +1,1689 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/sicherheitsabschlag-auf-gestehungskosten-percent",
+  "category": "vAllgemeine Kriterien Baufinanzierung",
+  "criterion_name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+  "criterion_id": "sicherheitsabschlag-auf-gestehungskosten-percent",
+  "scraped_at": "2026-05-07T12:13:21.459Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "0"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "0"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "Individuell je nach Beleihungswertermittlung"
+    },
+    {
+      "bank": "AXA",
+      "value": "0"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "10"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "17% bei der INDIKATION in BaufiSmart"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "-"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "-"
+    },
+    {
+      "bank": "Berliner Volksbank eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "BHW",
+      "value": "0"
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "0"
+    },
+    {
+      "bank": "Bordesholmer Sparkasse",
+      "value": "0 %"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "10"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "in Abhängigkeit von Objektart:\n10 = Grundstücke, EFH, 2FH, ETW\n10 = Fertig- & Holzhäuser, ab Baujahr 1990\n30 = Fertig- & Holzhäuser, vor Baujahr 1990\n\n\nin Abhängigkeit vom Verwendungszweck:\n10 = Kauf, Neubau\n15 = Umschuldung, Modernisierung\n\n\nbei MFH in Abhängigkeit von Prognosklassen:\n10 = Prognosklassen 1-5\n20 = Prognosklassen 6-8\n30 = Prognosklassen 6-8 und Fertighaus, vor Baujahr 1990\n\n\nMachbarkeit bei Prognosklassen 6-8 in Abhängigkeit von Anzahl der Wohneinheiten:\nbei 1-4 WE = Scoringergebnis grün\nbei >=5 WE = Scoringergebnis gelb, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "0"
+    },
+    {
+      "bank": "DKB",
+      "value": "0"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "10"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": ""
+    },
+    {
+      "bank": "ERGO",
+      "value": "5"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "0"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "10"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "10% (EFH, auf EUROPACE hinterlegt), 10% ETW; 10% auf den vdp-Wert"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "25"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "0"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "value": "0"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "10"
+    },
+    {
+      "bank": "ING",
+      "value": "10% (Bei Anschlussfinanzierung zusätzlich Altersabschlag von 10%)"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "0"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "20"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "10"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "25"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "20%"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "20"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Döbeln",
+      "value": "20"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "0%"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Esslingen-Nürtingen",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Göppingen",
+      "value": "30%"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Heidenheim",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Herzogtum Lauenburg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Limburg",
+      "value": "25"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Mayen",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "0"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Nordhausen",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "20"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "20"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Stendal",
+      "value": "10"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Tübingen",
+      "value": "0"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "-"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "10"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "0"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "0"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "10 auf Gestehungskosten (vgl. VDP Marktwert ohne Abschlag)"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "10"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "• Grundsätzlich: 15,00 % \n• Bei vollständig vermieteten Beleihungsobjekten wird ein zusätzlicher Sicherheitsabschlag von \n5,00 % berücksichtigt."
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "20"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "0"
+    },
+    {
+      "bank": "Nord-Ostsee-Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "keine, da vdp-Wert"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "10"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "0"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "20"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "10"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "0"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "10"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Sicherheitsabschlag findet nur bei der bankinternen Beleihungswertermittlung Anwendung, nicht für die Konditionierung"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "VDP - 5%"
+    },
+    {
+      "bank": "PSD München",
+      "value": "0"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "0"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "0"
+    },
+    {
+      "bank": "PSD West",
+      "value": "0"
+    },
+    {
+      "bank": "Raiffeisenbank Augsburger Land West eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "0"
+    },
+    {
+      "bank": "Raiffeisenbank Hohenloher Land eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "10 %"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "100%"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Haßberge eG",
+      "value": "10"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Oder-Spree eG",
+      "value": "0"
+    },
+    {
+      "bank": "Rheingauer Volksbank eG",
+      "value": "10%"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "0"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "20"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "15 %"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "-"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "10"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "0"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Altmark West",
+      "value": "15"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "0,00 %"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse an Ennepe und Ruhr",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Bensheim",
+      "value": "0 %"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Donnersberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "20 %"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "0 %"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Gießen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Herford",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Kaiserslautern",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Kinzigtal",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Landshut",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse MagdeBurg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mainfranken-Würzburg",
+      "value": "15"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Nordwest",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Schwerin",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Minden-Lübbecke",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mittelholstein",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "0%"
+    },
+    {
+      "bank": "Sparkasse Neubrandenburg-Demmin",
+      "value": "30"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "15"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Kein Abschlag"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "-"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "0 %"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Passau",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Rhein-Haardt",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Saarbrücken",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Salem-Heiligenberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Schwarzwald-Baar",
+      "value": "25"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "40%"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "0 %"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Vogtland",
+      "value": "20"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "nein"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Westmünsterland",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Wittgenstein",
+      "value": "0"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "20"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "10%"
+    },
+    {
+      "bank": "Spreewaldbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "-"
+    },
+    {
+      "bank": "Stadtsparkasse Rahden",
+      "value": "0 %"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Wedel",
+      "value": "0"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "0"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "0"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "10/0"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "10"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "10"
+    },
+    {
+      "bank": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "value": "0"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Brakel",
+      "value": "10"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "0"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "10/20"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "10/0"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "10"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Allgäu-Oberschwaben",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "0"
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "value": "-"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "0"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "-"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Dreiländereck eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Dresden-Bautzen eG",
+      "value": "20 %"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "10 / 20 (regional unterschiedlich, in den Produkten auf EP gesteuert)"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "10%"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Gronau-Ahaus eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Heinsberg eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "0"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "0"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "15"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "10%"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "-"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "10%"
+    },
+    {
+      "bank": "Volksbank Rhein-Lippe eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "10 / 15"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "10%"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "10 % \nVDP Marktwertindikation 17,50 %"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Vogtland-Saale-Orla eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "10 %"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "10"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "10"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "10"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "10\nBei einem Bodenrichtwert unter 50,00 EUR/qm ist ein Sicherheitsabschlag von 25 % vorzunehmen (Bodenrichtwert unter 20,00 EUR = Finanzierung ausgeschlossen)"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "15"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "10 %"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "0"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Fläming-Elsterland eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "10%"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Lahn-Dill eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Lausitz",
+      "value": "0"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "0"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Meißen-Großenhain",
+      "value": "-"
+    },
+    {
+      "bank": "VR-Bank Memmingen",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "10 / 10"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR-Bank Neuburg-Rain",
+      "value": "10 (VDP-Marktwertindikation mit Vergleich Gestehungskosten)"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "0"
+    },
+    {
+      "bank": "VR Bank Ostalb",
+      "value": "10%"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "20"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "10%"
+    },
+    {
+      "bank": "VR Bank Ried-Überwald eG (ehemals Raiffeisenbank Ried eG)",
+      "value": "0"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Starnberg-Zugspitze eG (vormals VR-Bank Starnberg-Herrsching-Landsberg)",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "10 / 20"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "0"
+    },
+    {
+      "bank": "VR-Bank Würzburg",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "10 %"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "10"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "10 Gestehungskosten / 30 % auf den VDP-Marktwert"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "10 %"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "0"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "10"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "20%"
+    },
+    {
+      "bank": "Waldeck-Frankenberger Bank eG (zuvor Waldecker Bank eG)",
+      "value": "keiner"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "keiner"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "20"
+    }
+  ]
+}

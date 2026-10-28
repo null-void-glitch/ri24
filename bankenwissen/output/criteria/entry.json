@@ -1,0 +1,345 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/entry",
+  "category": "vAllgemeine Kriterien Baufinanzierung",
+  "criterion_name": "Entry (digitaler Kontocheck von Europace)",
+  "criterion_id": "entry",
+  "scraped_at": "2026-05-07T12:12:26.349Z",
+  "banks": [
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Ja"
+    },
+    {
+      "bank": "DKB",
+      "value": "Ja\nKund:innen können im Standardgeschäft den DKB Kontocheck durchführen und auf die Einreichung von Bonitätsunterlagen (Gehaltsabrechnungen und Kontoauszüge bzw. Einzelnachweise) verzichten.\n\nVoraussetzungen:\n\nKunde(n) haben ausschließlich Einkünfte aus Angestelltenverhältnis\nFinanzierung einer komplett selbstgenutzten Immobilie, kein Kontocheck bei teilweise Vermietung \nes ist kein weiteres Immobilienvermögen vorhanden\n13./14. Gehalt ist für die Haushaltsrechnung nicht notwendig\n\nVorteile:\n\nschnellere Antragsbearbeitung\nVerzicht auf Bonitätsunterlagen während der Antragsprüfung\nbessere Machbarkeiten\n \nHinweise:\nWenn Du den Kontocheck über Europace vor dem Einbuchen nutzt, werden die Kontoumsätze der letzten 12 Monate ausgelesen.\nBeim direkten DKB-Kontocheck nach dem Einbuchen werden hingegen nur die letzten 3 Monate geprüft (hier bekommen die Kunden automatisch von der DKB eine Email mit einem Link die Möglichkeit, den Kontocheck durchzuführen, welcher 48 Stunden gültig ist).\nAchtung: Das kann relevant sein, wenn es Negativinformationen gibt, die länger als 3 Monate zurückliegen (z. B. Rücklastschrift vor 10 Monaten oder Inkasso vor 11 Monaten). Diese können im Entry-Check sichtbar werden und so ggf. zu einer Ablehnung führen."
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "Ja, verpflichtend"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Ja\nPrüfung und Kreditentscheidung\nBeim digitalen Kontocheck erfolgt die Prüfung der letzten 12 Monate auf Negativmerkmale\nZum aktuellsten Zeitpunkt (Datum Auslesen der Kontodaten)wird der Kontosaldo geprüft\nBei einem negativen Saldo größer 100 Euro erfolgt eine Ablehnung"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Ja\nbei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "value": "Nein"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Ja > grundsätzlich durchzuführen!"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Ja\nSofern der Kontocheck aktiv genutzt wird  (und das Validierungsprotokoll vom Kunden vorliegt) garantiert die KSK Diepholz eine Bearbeitungszeit innerhalb von 36 Stunden bis zur Entscheidung."
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "Nein"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Ja\nVerzicht auf Kontoauszüge der Gehaltskonten bei Kunden im Angestelltenverhältnis"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Ja"
+    },
+    {
+      "bank": "Nord-Ostsee-Sparkasse",
+      "value": "ja"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "Raiffeisenbank Kreis Kelheim eG",
+      "value": "Bei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet."
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "Ja\nVorteil bei Nutzung Entry: Verzicht auf Unterlagen zur Bonität"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "Ja > bevorzugte Bearbeitung!"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Saarbrücken",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "Ja"
+    },
+    {
+      "bank": "Spreewaldbank eG",
+      "value": "Ja\nVerzicht auf Kontoauszüge der Gehaltskonten bei Kunden im Angestelltenverhältnis"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Ja, diese Anträge werden vorgezogen und beschleunigt bearbeitet."
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "Ja\nVerzicht auf Kontoauszüge"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Ja\n0,1% Konditionsvorteil auf den Bankbaustein bei Nutzung der Europace Kontoübersicht mit gleichzeitigem Verzicht auf beide Kontoauszugsseiten, auf denen der angegebene Gehaltseingang ersichtlich ist"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet. Der Antrag wird bevorzugt bearbeitet. Bei Antragstellern mit Online Banking wird der Antrag mit Kontocheck vorausgesetzt, sofern keine trifftigen Gründe gegen die Nutzung sprechen."
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "Ja > Bei Nutzung Verzicht auf Kontoauszüge"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet."
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "Ja > Verzicht auf Kontoauszüge der Gehaltskonten bei Kund:innen im Angestelltenverhältnis"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Ja \nBei Nutzung der Europace Kontoübersicht gewährt die Bank einen Zinsvorteil von -0,1%. Ebenfalls garantiert sie bei Nutzung eine bevorzugte Bearbeitung. Zusätzlich gibt es Vereinfachungen bei der Unterlageneinreichung (siehe Unterlagen-Checkliste)."
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Ja\nDann verzichtet die Bank auf Kontoauszüge der Gehaltskonten bei Kunden im Angestelltenverhältnis"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Ja\nBei Nutzung des Kontochecks gestattet dieVolksbank einen Zinsabschlag von 0,05 % und verzichtet auf die Kontoauszüge"
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "Ja\n Bei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Ja \nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet."
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Ja\nIn begründeten Ausnahmefällen dennoch Kontoauszüge aller Gehaltskonten der letzten 3 Monate mit Bankbestätigung."
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Ja\n0,05% Konditionsvorteil auf den Bankbaustein bei Nutzung der Europace Kontoübersicht mit gleichzeitigem Verzicht auf Kontoauszüge.\nEbenso ist nur ein aktueller Gehaltsnachweis erforderlich."
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR-Bank Lausitz",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet.\nBevorzugte Bearbeitung"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "Ja, bei Nutzung des Kontochecks wird auf die Übermittlung der Kontoauszüge verzichtet."
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "Ja\n0,1 % Konditionsvorteil auf den Bankbaustein bei Nutzung der Europace Kontoübersicht mit gleichzeitigem Verzicht auf Kontoauszüge."
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "Bei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Ja\nBei Nutzung des Kontochecks wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Ja\nEin Kontocheck ist erforderlich, sobald der Beleihungsauslauf 100 % überschreitet."
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "Ja\nBei Nutzung wird auf die Übermittlung von Kontoauszügen verzichtet"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "Ja"
+    }
+  ]
+}

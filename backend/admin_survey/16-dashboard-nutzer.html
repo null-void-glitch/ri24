@@ -1,0 +1,756 @@
+<!DOCTYPE html><html lang="de"><head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    <style>hr {
+            margin: 10px 0;
+        }
+
+        .flot-chart-content {
+            width: 100%;
+            height: 100%;
+        }</style>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=a3qamean1e"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=a3qamean1e">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=a3qamean1e"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=a3qamean1e"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu active open">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=a3qamean1e"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=a3qamean1e"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=a3qamean1e"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=a3qamean1e"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=a3qamean1e"> <span>Terminvereinbarungen</span> </a></li><li class="active"><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=a3qamean1e"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=a3qamean1e"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=a3qamean1e"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=a3qamean1e"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=a3qamean1e"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=a3qamean1e"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=a3qamean1e"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=a3qamean1e"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=a3qamean1e"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=a3qamean1e"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=a3qamean1e"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=a3qamean1e"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=a3qamean1e"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=a3qamean1e"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=a3qamean1e"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=a3qamean1e"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=a3qamean1e"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=a3qamean1e"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=a3qamean1e"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=a3qamean1e"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=a3qamean1e"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=a3qamean1e"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=a3qamean1e"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=a3qamean1e"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=a3qamean1e"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=a3qamean1e"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=a3qamean1e"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=a3qamean1e"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=a3qamean1e"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=a3qamean1e"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=a3qamean1e"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=a3qamean1e">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=a3qamean1e">.</li>
+    </ul>
+</div>        <div id="content">
+            <div id="content-header">
+                <h1>Dashboard - RI24 SEO</h1>
+            </div>
+            <div id="breadcrumb">
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=a3qamean1e" title="Home"><span class="icon"></span> Home</a>
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=a3qamean1e" title="Dashboard">Dashboard</a>
+                <a href="../../../../../adm/individuell/master/dashboard/user/index.php?admsess=a3qamean1e" class="current" title="Nutzer">Nutzer</a>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl Nutzerkonten</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <form id="dashboard-user-account" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/" method="post">
+                                        <!--                                        <div class="span2">-->
+                                        <!--                                            <p>Anzahl: <span-->
+                                        <!--                                                        class="label counter">--><!--?//= array_sum($statisticUserAccount) ?--><!--</span>-->
+                                        <!--                                            </p>-->
+                                        <!--                                        </div>-->
+                                        <div class="span5">
+                                            <label>
+                                                <select name="regioncode">
+                                                    <option value="">Alle Regionen</option>
+                                                                                                            <option value="aai24">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24">Essenimmobilien24</option>
+                                                                                                            <option value="fi24">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24">Harzimmobilien24</option>
+                                                                                                            <option value="hli24">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24">Kielimmobilien24</option>
+                                                                                                            <option value="koei24">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24">Trierimmobilien24</option>
+                                                                                                            <option value="umi24">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__user_account" style="">
+                                        <input type="hidden" name="label" value="user-account" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-user-account" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 8px; text-align: center;">10.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 113px; text-align: center;">13.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 218px; text-align: center;">16.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 323px; text-align: center;">19.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 428px; text-align: center;">22.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 533px; text-align: center;">25.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 639px; text-align: center;">28.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 744px; text-align: center;">31.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 849px; text-align: center;">03.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 954px; text-align: center;">06.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1059px; text-align: center;">09.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 22px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 221px; left: 6px; text-align: right;">5000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 177px; left: 0px; text-align: right;">10000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">15000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 88px; left: 0px; text-align: right;">20000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 44px; left: 0px; text-align: right;">25000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">30000</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl eingeloggter / aktiver Nutzer am Tag</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <form id="dashboard-user-login" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/" method="post">
+                                        <div class="span2">
+                                            <p>Anzahl: <span class="label counter">4512</span>
+                                            </p>
+                                        </div>
+                                        <div class="span5">
+                                            <label>
+                                                <select name="regioncode">
+                                                    <option value="">Alle Regionen</option>
+                                                                                                            <option value="aai24">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24">Essenimmobilien24</option>
+                                                                                                            <option value="fi24">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24">Harzimmobilien24</option>
+                                                                                                            <option value="hli24">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24">Kielimmobilien24</option>
+                                                                                                            <option value="koei24">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24">Trierimmobilien24</option>
+                                                                                                            <option value="umi24">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__user_login" style="">
+                                        <input type="hidden" name="label" value="user-login" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-user-login" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 0px; text-align: center;">10.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 106px; text-align: center;">13.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 212px; text-align: center;">16.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 318px; text-align: center;">19.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 423px; text-align: center;">22.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 529px; text-align: center;">25.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 635px; text-align: center;">28.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 741px; text-align: center;">31.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 847px; text-align: center;">03.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 953px; text-align: center;">06.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1059px; text-align: center;">09.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 11px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 221px; left: 6px; text-align: right;">50</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 177px; left: 0px; text-align: right;">100</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">150</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 88px; left: 0px; text-align: right;">200</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 44px; left: 0px; text-align: right;">250</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">300</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                <div class="row-fluid">-->
+                <!--                    <div class="span12">-->
+                <!--                        <div class="widget-box">-->
+                <!--                            <div class="widget-title">-->
+                <!--                                <h5>Anzahl aktiver Nutzer (Login innerhalb der letzten 14 Tage)</h5>-->
+                <!--                            </div>-->
+                <!--                            <div class="widget-content">-->
+                <!--                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px">-->
+                <!--                                    <form id="dashboard-user-active"-->
+                <!--                                          action="--><!--?//= BACKENDHOST . '/adm/helper/ajax/dashboard/' ?--><!--" method="post">-->
+                <!--                                        <div class="span2">-->
+                <!--                                            <p>Anzahl: <span-->
+                <!--                                                        class="label counter">--><!--?//= array_sum($statisticUserActive) ?--><!--</span>-->
+                <!--                                            </p>-->
+                <!--                                        </div>-->
+                <!--                                        <div class="span5">-->
+                <!--                                            <select name="regioncode">-->
+                <!--                                                <option value="">Alle Regionen</option>-->
+                <!--                                                -->                <!--                                                    <option value="--><!--?//= $filter['code'] ?--><!--">--><!--?//= $filter['name'] ?--><!--</option>-->
+                <!--                                                -->                <!--                                            </select>-->
+                <!--                                        </div>-->
+                <!--                                        <div class="span5">-->
+                <!--                                            von <input type="text" name="from" value="--><!--?//= $dateStart ?--><!--"-->
+                <!--                                                       class="datepicker form-control input-sm"-->
+                <!--                                                       data-date-format="dd.mm.yyyy"/> bis <input type="text" name="to"-->
+                <!--                                                                                                  value="--><!--?//= $dateEnd ?--><!--"-->
+                <!--                                                                                                  class="datepicker form-control input-sm"-->
+                <!--                                                                                                  data-date-format="dd.mm.yyyy"/>-->
+                <!--                                        </div>-->
+                <!--                                        <input type="hidden" name="table" value="statdashboard__user_active"/>-->
+                <!--                                        <input type="hidden" name="label" value="user-active"/>-->
+                <!--                                    </form>-->
+                <!--                                </div>-->
+                <!--                                <div class="row-fluid">-->
+                <!--                                    <div class="flot-chart">-->
+                <!--                                        <div class="flot-chart-content" id="flot-dashboard-user-active"-->
+                <!--                                             style="height:300px;"></div>-->
+                <!--                                    </div>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl aktiver Suchaufträge</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <form id="dashboard-searchagent" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/" method="post">
+                                        <!--                                        <div class="span2">-->
+                                        <!--                                            <p>Anzahl: <span-->
+                                        <!--                                                        class="label counter">--><!--?//= array_sum($statisticSearchagent) ?--><!--</span>-->
+                                        <!--                                            </p>-->
+                                        <!--                                        </div>-->
+                                        <div class="span5">
+                                            <label>
+                                                <select name="regioncode">
+                                                    <option value="">Alle Regionen</option>
+                                                                                                            <option value="aai24">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24">Essenimmobilien24</option>
+                                                                                                            <option value="fi24">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24">Harzimmobilien24</option>
+                                                                                                            <option value="hli24">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24">Kielimmobilien24</option>
+                                                                                                            <option value="koei24">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24">Trierimmobilien24</option>
+                                                                                                            <option value="umi24">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__user_searchagent" style="">
+                                        <input type="hidden" name="label" value="searchagent" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-searchagent" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 2px; text-align: center;">10.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 108px; text-align: center;">13.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 213px; text-align: center;">16.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 319px; text-align: center;">19.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 425px; text-align: center;">22.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 530px; text-align: center;">25.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 636px; text-align: center;">28.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 742px; text-align: center;">31.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 847px; text-align: center;">03.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 953px; text-align: center;">06.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1059px; text-align: center;">09.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 16px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 221px; left: 0px; text-align: right;">1000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 177px; left: 0px; text-align: right;">2000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">3000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 88px; left: 0px; text-align: right;">4000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 44px; left: 0px; text-align: right;">5000</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">6000</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>            </div>
+        </div>
+        
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script><script>
+    $(document).ready(function () {
+
+        // Datepicker
+        $('.datepicker').datepicker({
+            // defaultDate: "+1w",
+            // viewMode: 'years'
+        }).on('changeDate', function (e) {
+            $(this).change();
+            $(this).datepicker('hide');
+        });
+        $.datepicker.setDefaults($.datepicker.regional["de"]);
+        // if ($('.datepicker').length) {
+        //     $.datepicker.regional['de'] = {
+        //         timeOnlyTitle: 'Uhrzeit auswaehlen',
+        //         timeText: 'Zeit',
+        //         hourText: 'Stunde',
+        //         minuteText: 'Minute',
+        //         secondText: 'Sekunde',
+        //         currentText: 'Jetzt',
+        //         closeText: 'Auswaehlen',
+        //         ampm: false,
+        //         monthNames: ['Januar', 'Februar', 'Maerz', 'April', 'Mai', 'Juni',
+        //             'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        //         monthNamesShort: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun',
+        //             'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']
+        //     };
+        //     $.datepicker.setDefaults($.timepicker.regional['de']);
+        // }
+    });
+
+    $('select[name="regioncode"],input[name="source"],input[name="from"],input[name="to"]').on('change', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        let form = $(this).closest('form'),
+            url = form.attr('action');
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: form.serialize(),
+            dataType: "json",
+            success: function (data) {
+                form.find('.counter').html(data.data1.count)
+                generateMultipleCharts(data.data1, data.data2);
+            }
+        });
+        return false;
+    }).trigger('change')
+
+
+    function generateMultipleCharts(data1, data2) {
+        let id = "#flot-dashboard-" + data1.label;
+
+        let datas = [{
+            label: data1.label,
+            data: data1.data,
+
+            lines: {
+                show: true
+            },
+            points: {
+                show: true
+            }
+        }, {
+            label: data2.label,
+            data: data2.data,
+
+            bars: {
+                show: true,
+                barWidth: 10 * 10 * 10 * 1000 * 10
+            }
+        }];
+
+        let options = {
+            xaxis: {
+                mode: "time",
+                timeBase: "milliseconds",
+                timeformat: "%d.%m.%Y",
+                minTickSize: [1, 'day'],
+                // tickSize: [Math.round(data.length / 5), 'day'],
+                timezone: "browser"
+            },
+            yaxis: {
+                minTickSize: 1,
+                tickDecimals: 0
+            },
+            colors: ["#1ab394", "#FF0000"],
+            grid: {
+                color: "#999999",
+                hoverable: true,
+                clickable: true,
+                tickColor: "#D4D4D4",
+                borderWidth: 0
+            },
+            legend: {
+                show: false
+            },
+            tooltip: true,
+            tooltipOpts: {
+                content: "Datum: %x | Anzahl: %y"
+            }
+        };
+        $.plot($(id), datas, options);
+    }
+</script>
+
+<div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div id="flotTip" style="display: none; position: absolute; background: rgb(255, 255, 255); z-index: 100; padding: 0.4em 0.6em; border-radius: 0.5em; font-size: 0.8em; border: 1px solid rgb(17, 17, 17); white-space: nowrap;"></div></body></html>

@@ -1,0 +1,419 @@
+{
+  "bank": "Sparkasse Lemgo",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "99"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "113"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10% Finanzierungsreserve bei Neubauten/Modernisierung"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0 / 6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 5.000.000\nÜberschreitung - Anfrage stellen"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mit wohnwirtschaftlichem Hintergrund"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10% der vereinbarten Darlehenssumme wird als Finanzierungsreserve betrachtet. Der Darlehensnehmer ist bis zum Ende der bereithaltungszinsfreien Zeit berechtigt, kostenfrei auf diese Finanzierungsreserve zu verzichten."
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1-15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41800079"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Beantragung über BaufiSmart\nVerkehrswert zur Konditionsberechnung wird durch die Sparkasse vorgegeben, bitte die Funktion Darlehensdatenanfrage benutzen"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Einwilligungserklärung und aktuellen Legitimationsdaten"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgungsaussetzung gegen Bausparvertrag oder Kapitallebensversicherung möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Der Tilgungswechsel ist fester Bestandteil in jedem Baukredit. Dabei hat der Kunde die Möglichkeit die Tilgung um 2% zu erhöhen. Basis hierfür ist die im Darlehen vereinbarte Tilgung. Das bedeutet z.B bei einem Vertragsabschluss mit Tilgung 1,5% kann der Kunde diese auf maximal 3,5% erhöhen oder bei Bedarf auch auf 1,5% wieder reduzieren. Ein solcher Tilgungswechsel ist einmal pro Kalenderjahr möglich."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, möglich als Kapitalbeschaffung über eine Immobilie in Deutschland - Rotscore mit Voranfrage, Nachweise sind erforderlich"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja\nPrivate Erbbaurechtsgeber per Einzelfallprüfung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Mieteinnahmen kann nur zu max. 25% angesetzt werden"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Ab 33% Gewerbefläche Einzelfallprüfung"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora - \nWertermittlung: Gestehungskosten\n \nBitte nutze bei Familienkäufen, Anschlussfinanzierungen oder Modernisierungen von Bestandsimmobilien die Dienstleistung von Europace Wertermittlung zur Marktwertbestimmung des Objektes"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "In der Regel werden keine Wertgutachten erstellt."
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional (Lemgo und Umgebung)\nMind. 1 Darlehensnehmer ODER Mind. 1 Objekt  im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Gelbscore (Einzelfallentscheidung)\nRangrücktritt erforderlich"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Gelbscore (Einzelfallentscheidung)"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100%; Kundenbestätigung der Folgebeschäftigung mit Einkommen mind. in gleicher Höhe wie Elterngeld"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Ja\n\nMaximale Laufzeit analog Kindergeld für die Kapitaldienstberechnung\nKeine privatschriftlichen Vereinbarungen"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn der/die Antragsteller im Geschäftsgebiet der Sparkasse wohnen und das Finanzierungsobjekt muss ebenfalls im Geschäftsgebiet liegen"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl: max. 2\nDarlehensnehmer und Eigentümer müssen nicht identisch sein"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 60"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Voranfrage erforderlich mit anschließender Einzelfallprüfung"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: Nein"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Max. Antragsalter: 60\nFallbezogene Entscheidung\nKeine Besonderheiten bei Renteneintritt"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: nicht möglich"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "im Hause der Sparkasse\nVideoIdent"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DV per Post an Kund:in und Vermittler:in"
+    }
+  },
+  "company_id": "cf29827d-8283-4745-80e9-407f14fc0112",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/cf29827d-8283-4745-80e9-407f14fc0112",
+  "bank_category": "Sparkassen",
+  "last_modified": "10.07.25",
+  "recent_news": [
+    {
+      "date": "10.10.24",
+      "title": "Sparkasse Lemgo - Vollmacht des Grundstückeigentümers"
+    },
+    {
+      "date": "28.06.23",
+      "title": "Sparkasse Lemgo - Neuer Bankpartner auf BaufiSmart"
+    }
+  ]
+}

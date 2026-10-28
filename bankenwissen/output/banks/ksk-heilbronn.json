@@ -1,0 +1,416 @@
+{
+  "bank": "KSK Heilbronn",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Begrenzung"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "115"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "115"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kaufnebenkosten sollen grundsätzlich aus EK erbracht werden. Bei guter Bonität und/oder jungen Kunden ohne lange Berufserfahrung mit Gehaltspotenzial auch > 100 % Finanzierung im Einzelfall möglich\nKein Privatkredit für NK!"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "9 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - keine Begrenzung\nModernisierungskredit ab 12.500€ bis max. 50.000€ blanko möglich."
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wohnwirtschaftlich (Nachweis erforderlich)"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ohne grundbuchliche Absicherung Modernisierungskredit ab 12.500 € bis 50.000 € möglich"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "möglich"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1 - 30"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Beantragung: über die Plattform (keine Laufzeitverlängerung möglich)\nKonditionen und Produktdetails analog Neufinanzierung\nZinsbindung bis 30 Jahre möglich\nUnterlagen: \n\nEinwilligungserklärung\naktuelle Selbstauskunft\nletzten drei Lohnabrechnungen\naktuelle Ausweisdokumente\nDie KSK versendet keine eigenen automatisierten Angebote"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Keine Angabe"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261 (nur wenn Antragsteller Eigentümer ist), 262"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "l-bank-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "L-Bank Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "WmK, WmZ, Kombi-Darlehen"
+    },
+    "l-bank-stand-alone": {
+      "name": "L-Bank Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1\n(auch bei Kapitalanleger)"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Antrag definiertes Datum"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "wird nicht angeboten"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Absicherung über freie GS innerhalb Geschäftsgebiet"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Tiny Häuser: Privatkredit bis 50.000€ möglich, darüber hinaus ist eine GS erforderlich."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "auf Anfrage"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - in reinen Feriengebieten und bei Ferienvermietung > individuelle Fallprüfung\nbei Immobilien im Ausland nur mit Besicherung auf Objekt in Deutschland"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "33%\n100% für Firmenkundengeschäft"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "eigenes internes Tool\nObjektbesichtigung nach Kauf (bis zu 1 Jahr nach Kauf)"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - individuelle Fallprüfung"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "regional und überregional gemäß Plattformabbildung\nDas Finanzierungsobjekt muss in einem der folgenden Landkreise liegen:\nStand- / Landkreis Heilbronn\nLandkreis Ludwigsburg\nEnzkreis\nStadt- / Landkreis Karlsruhe\nRhein-Neckar-Kreis\nNeckar-Odenwald-Kreis\nHohenlohekreis\nLandkreis Schwäbisch Hall\nMain-Tauber-Kreis\nStuttgart\nRems-Murr-Kreis\n\nMind. ein Darlehensnehmer oder mind. 1 Objekt im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja > individuelle Fallprüfung"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100%, bei Vorlage des Elterngeldbescheides, befristet auf die im Bescheid angegebene Laufzeit."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "ohne vorhandene Renteninformation und Rentenbescheid werden 52% des Gehaltes als Grundlage angesetzt\nWitwen- und Waisenrente: Ja"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Ja > individuelle Prüfung; auch private Vereinbarungen\n \nKindesunterhalt: Ja > individuelle Prüfung; auch private Vereinbarungen"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "NEU: Blue Card grundsätzlich möglich > immer Einzelfallentscheidung > 90 % Beleihungsauslauf\nBefristete Aufenthaltsgenehmigung eines Kreditnehmers möglich, wenn bereits dauerhaft in D und/oder Kinder in D geboren\nUnbefristete Aufenthaltsgenehmigung gewünscht"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner, Pensionär"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja, bei selbständigen Kunden muss das Finanzierungsobjekt im Stadt-/Landkreis Heilbronn liegen\n \nFinanziert werden Wohnimmobilien, gemischt genutzte Objekte, Gewerbeobjekte sowie für die Unternehmen zusätzlich Maschinen und Fahrzeuge"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "bei nicht plausiblen Gründen führt dies in der Regel zu Fallablehnungen"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja, bei selbständigen Kunden muss das Finanzierungsobjekt im Stadt-/Landkreis Heilbronn liegen\n \nFinanziert werden Wohnimmobilien, gemischt genutzte Objekte, Gewerbeobjekte sowie für die Unternehmen zusätzlich Maschinen und Fahrzeuge."
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, ist möglich"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "papierlose, elektronische Einreichung über Dokumente-Upload auf der Plattform"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Vertragsunterschrift: im Hause der Sparkasse\nLegitimation: VideoIdent, in der Filiale vor Ort"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Upload"
+    }
+  },
+  "company_id": "dc4f1e9eaceb470ef005149663560a24",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/dc4f1e9eaceb470ef005149663560a24",
+  "bank_category": "Sparkassen",
+  "last_modified": "13.11.25",
+  "recent_news": [
+    {
+      "date": "29.04.26",
+      "title": "KSK Heilbronn - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "22.04.26",
+      "title": "KSK Heilbronn - Konditionssenkung per sofort"
+    },
+    {
+      "date": "15.04.26",
+      "title": "KSK Heilbronn - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "08.04.26",
+      "title": "KSK Heilbronn - Konditionssenkung per sofort"
+    },
+    {
+      "date": "01.04.26",
+      "title": "KSK Heilbronn - Konditionserhöhung per sofort"
+    }
+  ]
+}

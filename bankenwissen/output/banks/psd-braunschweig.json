@@ -1,0 +1,426 @@
+{
+  "bank": "PSD Braunschweig",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkungen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mehrwertpaket:\nUm den Vorteil einer 12-monatigen bereitstellungszinsfreien Zeit zu erhalten benötigt Dein Kunde 10 Genossenschaftsanteile (= 1.000,-€ Genossenschaftsguthaben).\nUm den Vorteil einer 10%igen Sondertilgungsoption zu erhalten benötigt Dein Kunde 10 Genossenschaftsanteile (= 1.000,-€ Genossenschaftsguthaben). \n\nFür beide Vorteile benötigt der Kreditnehmer somit 2.000,-€ Genossenschaftsguthaben (bzw. 20 Anteile). Beide Optionen können wie bisher aber auch weiterhin gegen einen Zinsaufschlag von je 0,10 % eingepreist werden."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85.000 - 10.000.000\nÜberschreitung  - Einzelfallentscheidung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Freie Verwendung: Individuelle Absprache\nwohnwirtschaftlich möglich"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "In geringem Umfang möglich - Einzelfallentscheidung"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5-15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "über BaufiSmart (Darlehensdatenabfrage)"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Sind möglich, sofern die PSD  final die komplette GS (bzw den ersten Rang) erhält. Die Mindestdarlehenstranchen sind zu beachten."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41280008"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 297, 298, 300"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "manuelle Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Die Abwicklung erfolgt ausschließlich über BaufiSmart und wird wie Neugeschäft bepreist und verprovisioniert\nKonditionen aus BaufiSmart entnehmen und Hinweis auf eine Prolongation geben\nEs wird eine neue Wertermittlung vorgenommen"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Bonitätsunterlagen\naktueller Grundbuchauszug\naktuelle Selbstauskunft"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "Analog Neugeschäft"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Mehrwertpaket:\nHöhere Sondertilgung und mehr BZ-freie Zeit."
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,5\nbei Ausläufen unter 100% 1 %, größer 100 % 1,5"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Teileigentumsgrundbuch:\ngrundsätzlich ja, aber Einzelfallentscheidung"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\n \nBei einem Objekt mit höherem Gewerbeanteil als Wohnanteil, muss die Bank ein besonderes Gutachten erstellen lassen. Daher ist bei diesen Objekten eine Finanzierung erst ab 400T Euro möglich"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "unbegrenzt"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter - Wertermittlung: überwiegend Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Wertgutachten ab einer Finanzierungssumme von 400.000 EUR (Die Kosten trägt grundsätzlich die Bank, es sei denn, der Kunde springt ab)"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "regional gemäß Plattform \nAntragsteller und Objekt müssen im PLZ Gebiet liegen"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nWohnrecht und Nießbrauch müssen im Rang zurücktreten"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja - Bewertung nach Niederstwertprinzip"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100%, Nachweis über die Wiederaufnahme der Tätigkeit nach Elternzeitende erforderlich"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Ja\n\nEinschränkungen: möglich, wenn Kinder älter sind und der Unterhalt zeitnah wegfällt\nprivate Vereinbarungen: werden nicht akzeptiert"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max. 4 (max. 2 Haushalte)\nDarlehensnehmer und Eigentümer müssen NICHT identisch sein"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? Ja \nAkzeptierte Währung: EUR, CHF\nWohnsitz & Gehaltsbezug im Ausland? Ja\nAkzeptierte Währung?: EUR, CHF"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "200"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "max. 75"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: grundsätzlicher Ablehnungsgrund"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage - möglich\n\nFür weitere Auszahlungen sind Verwendungsnachweise der ersten Auszahlung erforderlich.\nVerpfändung Auflassungvormerkung oder Abtretung KV-Ansprüche: nicht möglich"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "VideoIdent, PostIdent, in der Filiale"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Email oder Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Objektbesichtigung: Nach Vertragsschluss"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Über die Plattform"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Verträge werden in BaufSmart hochgeladen und nicht an den Kunden versendet. Ausdruck durch erfolgt durch den Vertrieb."
+    }
+  },
+  "company_id": "f7fdba3cc2d6e6c81d7d5c8fde56eb2c",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/f7fdba3cc2d6e6c81d7d5c8fde56eb2c",
+  "bank_category": "PSD - Banken",
+  "last_modified": "27.02.26",
+  "recent_news": [
+    {
+      "date": "24.04.23",
+      "title": "PSD Braunschweig - Technische Umstellung am 25./26.04.2023"
+    },
+    {
+      "date": "11.04.22",
+      "title": "PSD Braunschweig - Mehrwertpaket bei Zeichnung von Genossenschaftsanteilen"
+    },
+    {
+      "date": "02.08.18",
+      "title": "PSD Braunschweig - Konditionserhöhung per 06.08.2018"
+    },
+    {
+      "date": "21.06.18",
+      "title": "PSD Braunschweig - Konditionssenkung per 25.06.2018"
+    },
+    {
+      "date": "11.05.18",
+      "title": "PSD Bank Braunschweig: Erhöhung der beleihungsabhängigen Margen ab 80 % BLA um 20 BP ab dem 14.05.20218"
+    }
+  ]
+}

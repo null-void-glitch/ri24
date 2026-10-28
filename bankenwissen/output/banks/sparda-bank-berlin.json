@@ -1,0 +1,526 @@
+{
+  "bank": "Sparda-Bank Berlin",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "75"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nachfinanzierung: Bei eigener Baufinanzierung ab 20 TEUR\nMitgliedschaft aller Kreditnehmer erforderlich\nNach Ablauf der Sollzinsbindung muss der Kunde eine fiktive Annuität in Höhe von\n7% der ursprünglichen Darlehenssumme tragen können\nGrundsätzlich sind die Rentenvorausberechnungen zur Prüfung einzureichen, bei Antragstellern ab einem vollendeten Lebensalter von 40 Jahren wird ein Rentenszenario, anhand der nachgewiesenen Renteneinkünfte (gesetzliche und private Vorsorge) berechnet"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Darlehen ab 50.000 € für Neubau, Kauf und Kauf (Neubau vom Bauträger)\nDarlehen ab 100.000 € für Modernisierung, Anschlussfinanzierung und Kapitalbeschaffung\nNachfinanzierungen eigener Baufinanzierungen ab 20.000 €\nkeine Obergrenze"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "mit wohnwirtschaftlichem Hintergrund\nzur freien Verwendung\nggf. kommt es zu einer Anpassung des Zinssatzes, da die Konditionierung auf den durch die Bank ermittelten Marktwert abgestellt ist"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Haushaltspauschalen > Folgende Mindestbeträge sind anzusetzen:\nMindestmietansatz/ BWK EUR 500,-- / Monat\nHaushaltskosten:\n1. Person EUR 1.300, -- / Monat\n2. Jede weitere im Haushalt lebende erwachsene Person EUR 450,-- / Monat\n(kein Ansatz der Haushaltspauschale für im\nHaushalt lebenden Kinder dafür gleichzeitig kein Ansatz vonKindergeld und Kindesunterhalt)\n \nBei einem Zweitwohnsitz sind die Warmmiete bzw. die Bewirtschaftungskosten in Höhe von EUR 500,-- pauschal anzusetzen. Eine zusätzliche Haushaltspauschale ist nicht anzusetzen.\n \nLiegen die Kundenangaben gemäß Selbstauskunft über den o.g. Pauschalen, so sind die Kundenangaben anzusetzen."
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Modernisierungskosten werden zu 50% auf den Verkehrswert angerechnet und dürfen den Kaufpreis bzw. den Verkehrswert vor Modernisierung nicht übersteigen"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei eigener Baufinanzierung ab 20 TEUR"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja > bei einer Finanzierung mit einer Förderbank im Nachrang kann ein Tilgungssatzwechsel nur gewährt werden, sofern die anfängliche Tilgung der Mindesttilgung von 1,5% entspricht"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5-15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "möglich"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41280008"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "aktuell nicht"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Fallanlage in BaufiSmart als Anschlussfinanzierung wie Neugeschäft, aber mit reduzierten Daten (keine aktuellen Bonitätsdaten erforderlich, nur Kundenname und -anschrift, beim Objekt bitte die zu prolongierenden Darlehen mit aktueller Darlehensnummer erfassen und im Vorhaben die Wünsche zur Darlehensausgestaltung vermerken)\nDarlehensdatenanfrage und Ermittlung des Prolongationsangebotes über BaufiSmart (Anleitung im Europace-Helpcenter)"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Wandlung KfW Darlehen in ein Sparda Darlehen als Prolongation möglich, wenn Darlehensvolumen gesamt (Sparda und KfW) zum Prolozeitpunkt größer als 50 T€ ist und die ursprünglich genehmigte Laufzeit nicht überschritten wird. Die ursprünglich vereinbarten Rhythmen zum Zins- und Tilgungsabschluss müssen beigehalten werden\nUmgang mit dem Sonderkündigungsrecht nach §489 BGB: Um möglichen Fremdablösungen entgegenzuwirken, gibt es die grundsätzliche Möglichkeit, den Kund:innen eine Prolongation des Darlehens zum Zeitpunkt des gesetzlich zulässigen Kündigungstermins anzubieten."
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nFinanzierungsvorschlag mit unterschriebenem Annahmeschreiben\naktuell gültige Legitimationsdokumente"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "analog Neugeschäft"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10 > darf nicht zu einer vorzeitigen Rückzahlung innerhalb der Zinsbindung führen"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,25 % p.a. bei maximaler Darlehenslaufzeit 40 Jahre\nHöhe der Tilgung muss eine Rückzahlung bis zum 80. Lebensjahr des ältesten\nKreditnehmers gewährleisten"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "zwischen 1,5% und 5,00% möglich, maximal 2-mal innerhalb der Sollzinsbindung, gilt nicht für Tilgungsaussetungs-Darlehen und Volltilger"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Tinyhouse wird nicht finanziert"
+    },
+    "blankoauszahlung": {
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "value": "Ja, muss separat angegeben und begründet werden"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Max. 20 % der Baukosten, ab 10.000 Euro ist ein Eigenleistungsnachweis erforderlich"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Erbbaurechte von kommunalkreditfähigen, juristischen Personen des öffentlichen\nRechts und Kirchen, sofern Vorrang vor Erbbauzinsreallast oder hauseigene\nStillhalteerklärung vereinbart wurden und die Darlehen spätestens 10 Jahre vor\nAblauf des Erbbaurechts getilgt werden\nkeine privaten Erbbaurechtsausgeber"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja\nZulässige Objektarten: EFH, ZFH oder ETW\nDas Objekt muss ganzjährig eigennutzungsfähig sein (d.h. das Ferienobjekt liegt nicht in einer\nFeriensiedlung und die Nutzung des Objektes zu wohnwirtschaftlichen Zwecken unter\nBerücksichtigung der Lage ist jederzeit möglich)"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "50 - Achtung: der Mietertrag aus der anteiligen Gewerbeflähe darf 33% des gesamten Mietertrages nicht überschreiten"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "1"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "20\nDie Finanzierung von Neubauvorhaben für MFH (>3 Wohneinheiten) wird nicht begleitet"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\n \nNicht begleitet werden:\nGewerblich oder gemischt genutzte Immobilien, d.h. für die Sparda-Bank\nBerlin eG: Immobilien deren gewerblicher Ertragsanteil 1/3 der Jahresnettokaltmiete\nerreicht oder überschreitet oder/und deren gewerblicher Flächenanteil 50 % erreicht\noder übersteigt\nwohnwirtschaftlich genutzte Immobilien in überwiegend gewerblich genutzten Gebieten\nObjekte außerhalb des Kerngeschäftsgebietes* der Sparda-Bank Berlin eG > Das Kerngeschäftsgebiet umfasst: Berlin, Brandenburg, Mecklenburg Vorpommern, Sachsen-Anhalt, Thüringen und Sachsen\nnicht sanierte oder in Sanierung/ Modernisierung befindliche Fachwerkhäuser\nBausatz- und Selbstbauhäuser\nMehrfamilienhäuser als Neubauvorhaben\nMehrfamilienhäuser in Plattenbauweise"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "> 600 TEUR grundbuchliche Absicherung inkl. Vorlasten pro Objekt (Kosten trägt die Bank)"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional und überregional gemäß Plattformabbildung\n\nAlle Objekte müssen sich im Gebiet befinden"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja, sofern ein rechtskräftiger Bebauungsplan, ein positiver Bauantragsbescheid oder eine sonstige gesicherte Bebaubarkeit nachgewiesen und die Erschließung gesichert ist"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "es werden keine wertmindernde Vorlasten akzeptiert (auch nicht im Nachrang)"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung nicht darstellbar"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Vorlage des Zuschlagbeschlusses"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, in voller Höhe. Nachweis über das Arbeitsverhältnis nach dem Elterngeldbezug wird benötigt"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn branchenüblich"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Kreditvergabe an Privatkunden, die Mitglieder der Genossenschaft sind bzw. im\nZuge der Finanzierung werden (mindestens der regelmäßige Wohnsitz muss sich in einem Mitgliedsstaat der Europäischen Union befinden)\nVoraussetzung für die Mitgliedschaft:\n> Mitgliedschaft: einmalig 52 € je Kreditnehmer für einen Genossenschaftsanteil\n>Mitgliedschaft aller Kreditnehmer erforderlich"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max.: 3\nmax. 80 Jahre\nEigentümer und DN müssen NICHT identisch sein"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "abzgl. Pauschale von 25% bei wohnwirtschaftlicher bzw. 35% bei gewerblicher Nutzung"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "i.H.v. 25%, wenn der Haushaltsüberschuss < 25% ist bitte Voranfrage bei der Bank stellen"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Kapitalanleger im Sinne der Definition bei der Sparda-Bank Berlin sind Immobilienkunden, die fremdgenutzte Objekte (vermietetes Wohneigentum) besitzen und mehrheitlich Einkünfte aus Vermietung und Verpachtung beziehen.\nAls Kapitalanleger gilt demnach ein Kunde/eine Kundin, wenn die Einkünfte aus Vermietung und Verpachtung 50% des Gesamteinkommens übersteigen.\nZur Vermeidung von Klumpenrisiken sind bei Wohnanlagen max. 20 Wohneinheiten\ndurch die Sparda-Bank Berlin finanzierbar"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 80"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Nicht möglich"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Nach Ablauf der Sollzinsbindung muss der Kunde eine fiktive Annuität in Höhe von\n7% der ursprünglichen Darlehenssumme tragen können\nGrundsätzlich sind die Rentenvorausberechnungen zur Prüfung einzureichen, bei\nAntragstellern ab einem vollendeten Lebensalter von 40 Jahren wird ein\nRentenszenario, anhand der nachgewiesenen Renteneinkünfte (gesetzliche und\nprivate Vorsorge) berechnet"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein, als selbstständig gelten dabei auch Kunden mit einem Nebengewerbe auf selbstständiger Basis."
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein, Vertragssprache ist deutsch > Es ist sicherzustellen, dass sämtliche Vertragsunterlagen und die Kommunikation (schriftlich und fernmündlich) verstanden und in deutscher Sprache geführt werden können"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "max. 4 Werktage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ident: Video, Post und Filiale"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Mit Prüfung des Darlehensantrages erfolgt eine Innen- und Außenbesichtigung der\nals Sicherheit dienenden Objekte auf Kosten der Bank"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nachfinanzierungen:\nsind bei der Bank anzufragen, werden individuell kalkuliert und nicht verprovisioniert\n \nVerzicht auf Forderungsverkauf:\nBei ordnungsgemäßer Darlehensbedienung ist der Forderungsverkauf nur mit Zustimmung des Darlehensnehmer möglich / bei nicht ordnungsgemäßer Darlehensbedienung Verkauf ohne Zustimmung möglich"
+    }
+  },
+  "company_id": "f308e9fe78343289cb549c79ea6d963e",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/f308e9fe78343289cb549c79ea6d963e",
+  "bank_category": "Sparda - Banken",
+  "last_modified": "16.03.26",
+  "recent_news": [
+    {
+      "date": "26.03.26",
+      "title": "Sparda-Bank Berlin - Konditionserhöhung zum 27.03.2026"
+    },
+    {
+      "date": "25.03.26",
+      "title": "Sparda-Bank Berlin - Konditionserhöhung zum 26.03.2026"
+    },
+    {
+      "date": "23.03.26",
+      "title": "Sparda-Bank Berlin - Konditionserhöhung zum 24.03.2026"
+    },
+    {
+      "date": "19.03.26",
+      "title": "Sparda-Bank Berlin - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "16.03.26",
+      "title": "Sparda-Bank Berlin - Hinweise zur Bearbeitung"
+    }
+  ]
+}

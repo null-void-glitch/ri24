@@ -1,0 +1,320 @@
+{
+  "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, bis 130 %\nBitte voranfragen, zwischen 130 und 150%\nab 150% nicht möglich"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Bank stellt den Kunden für 24 Monate ein kostenloses Baukonto inkl. einer ec-Karte zur Verfügung (gilt für Neubau- und Modernisierungvorhaben).\n \nKombinatorik mit der DZ HYP möglich"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000€ - 600.000€ \nAuf Anfrage:  ab 600.000 € bis 1.000.000 €"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "BLA max. 80% und kein gewerblicher Verwendungszweck\nAngabe Verwendungszweck ist notwendig"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden nicht akzeptiert"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Lebenshaltungskostenpauschale bei Kindern: 250 Euro"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden nicht akzeptiert"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja \nBeleihungsgrenzen beachten"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Es wird maximal eine Immobilie als Zusatzsicherheit akzeptiert. Diese muss sich innerhalb unseres Geschäftsgebietes befinden."
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Über die Plattform"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41740025"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 308, 358, 359"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "keine Konditionsanfrage erforderlich \nkeine abweichende Provisionsregelung zu beachten"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "max. 20%"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Antrag definiertes Datum"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "ja, 3-maliger Tilgungssatzwechsel pro Zinsbindung innerhalb von 1% - 10% unter Berücksichtigung der Starttilgung, gilt nicht für Volltilger"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Restnutzungsdauer der Immobilie muss länger als die Gesamtlaufzeit des längst laufenden Darlehens sein."
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "bis 45.000 €\nab 45.000 € bitte voranfragen"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "49"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "> 3 bitte voranfragen"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja, > 3 bitte voranfragen"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "Einfamilienhaus\nEigentumswohnung\nDoppelhaushälfte\nZweifamilienhaus \nGrundstücke\ngemischt genutzte Objekte"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "VDP"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Gutachten bei Darlehen > 750 T€ oder bei spezifischen Objekten (Denkmalschutz,...)\nZustimmung zur Objektbesichtigung muss vorliegen"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Objektlage in Sachsen, Thüringen und Sachsen \nAnhalt"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Bitte voranfragen (gilt für alle eingetragene Rechte)"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Ja, wenn BLA < 80 %\nVoranfrage bei BLA > 80 %"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "zu 100% mit Elterngeldbescheid"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn Dauer > = 6 Monate"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwen/Waisenrente: Ja\nunbefristete Zusatzrenten: Ja"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\n\nKindesunterhalt: Ja, 100%\nKind darf nicht älter als 18 Jahre sein\nEs werden keine privaten Vereinbarungen aktzeptiert"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Wenn branchenüblich > bitte voranfragen"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\n \nin Probezeit nur auf Anfrage"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4\n2 Haushalte möglich"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Auf Voranfrage, Dauer der Selbständigkeit mind. 36 Monate"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in DE, Gehalt im Ausland: Ja - EUR\n \nWohnsitz im Ausland, Gehalt im Ausland: Ja - EUR\n \nEinkommen muss in EUR ausgezahlt werden"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "18 bis 75 Jahre\nAb 75 Jahre bitte anfragen"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: \nsituationsabhängig , Häufungen führen zur Ablehnung"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Ja, mit Niederlassungserlaubnis"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "bitte voranfragen"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Ansatz Renteneinkünfte:\nbis Alter  = 66 zu 100%\nab Alter >= 67 zu 60%"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Auf Voranfrage, Dauer der Selbständigkeit mind. 36 Monate"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Bei fremdgenutzten Immos: Bewirtschaftungskosten 30%"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, wenn die Beleihung es zulässt"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "10 Bankarbeitstage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Legitimation: Personalausweis, Reisepass, Aufenthaltstitel, Meldebescheinigungen\n\nEinreichung und Angaben zu \nLegitimationspapiere erfolgt über BFN\nLegitimierung erfolgt nach Zusage Online oder \nin den Filialen der VR-Bank Glauchau eG\n\nVertragsunterschrift: Bei dem/der Vermittler/in"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Zustimmung zur Objektbesichtigung"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Über die Plattform"
+    }
+  }
+}

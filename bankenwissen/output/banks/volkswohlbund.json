@@ -1,0 +1,446 @@
+{
+  "bank": "VolkswohlBund",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "89"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "89"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "25.000 - 10.000.000\nÜberschreitung: Einzelfallentscheidung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei Anschlussfinanzierungen mit \"Übernahme der Vorfälligkeitsentschädigung“ durch Aufnahme eines zusätzlichen Darlehens möglich, aber nur im Realkreditbereich"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "25.000-100.000 EUR"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "kostenfrei / bis max. 20% der Darlehenssumme \nder tatsächliche Darlehensbetrag darf € 25.000,00 nicht unterschreiten"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10\nBei einem Bodenrichtwert unter 50,00 EUR/qm ist ein Sicherheitsabschlag von 25 % vorzunehmen (Bodenrichtwert unter 20,00 EUR = Finanzierung ausgeschlossen)"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bei Forwarddarlehen mit einem Zeitraum > 1 Jahr muss die vorliegende Bonitäts- und Liquiditätsprüfung überarbeitet werden"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1-20"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "mehrere auch unterschiedliche Termine mit vorläufiger Nachrangabsicherung möglich\n(Abgabe Einmalvalutierungserklärung, Valutenbescheinigung sowie Abtretung der Rückgewährsansprüche)"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Fallanlage in BaufiSmart als Anschlussfinanzierung wie im Neugeschäft"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nFinanzierungsvorschlag mit unterschriebenem Annahmeschreiben"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "analog Neugeschäft"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Pfandtausch möglich, gegen Gebühr i.H.v. 1% d. Darlehenssumme"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "- / 10\n mindestens 2.500 EUR (einmal im Kalenderjahr kostenfrei möglich)"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "nicht im Darlehensvertrag angeboten\nKunde hat im Verlauf des Darlehensverhältnisses die Möglichkeit einen 1 x jährlichen kostenfreien Tilgungssatzwechsel zu beantragen (zwischen 1%-10%). Diese Möglichkeit wird ihm vom Volkswohlbund anschließend schriftlich bestätigt."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Massiv, Holzbau, Fertighaus nur mit Nachweis Gütesiegel; Fachwerkhaus nur bei Neubau und Objektalter max. 10 Jahre möglich, sofern mit Gütesiegel"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Pfandtausch möglich, gegen Gebühr i.H.v. 1% d. Darlehenssumme"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "Bodenrichtwert unter 20,00 EUR = Finanzierung ausgeschlossen"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja, bis 60% BLA"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja,\nprivates, öffentliches und kirchliches Erbbaurecht möglich \nRestlaufzeit 60 Jahre\nStillhalteerklärung und Belastungs- und Verwertungserklärung erforderlich"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, sofern zur Dauernutzung geeignet und Grundriss akzeptabel (u.a. keine gefangenen Räume)"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Holzständerbauweise:\n> Fertigteilhaus mit Gütesiegel: Ja\n> Fertigteilhaus ohne Gütesiegel: Externes Gutachten erforderlich"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Maximaler Gewerbeanteil:  100 % Gewerbefinanzierungen: möglich, insbesondere in städtischen Lagen (z.B. Büros, Praxen, Läden, Verbrauchermärkte) Wichtig: Restlaufzeit des Gewerbemietvertrages muss mind. noch 5 Jahre betragen"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Standard: 4 Vollgeschosse incl. EG; ab 2,5 Zimmer ETW\nBallungsgebiete wie Berlin, Hamburg, München: 6 Vollgeschosse inkl. EG; ab 2 Zimmer ETW"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW (nur als Wohnungseigentum, nicht Teileigentum), MFH\n \nLuxus-/Liebhaberobjekte: möglich, aber Einzelfallentscheidung: landwirtschaftliche Objekte: nicht möglich"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Wertermittlung: Sachwertverfahren (Ertragswert bei MFH ab 3 Einheiten)"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Ja, bei einer Darlehenssumme >=400TEUR und bei Sanierungsobjekten und bei Fertig-/Holzhäusern (ohne Gütesiegel)"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "ab 18.03.2025:\n\nNeu: ab sofort finanziert der Volkswohlbund einzelne Wohneinheiten in Pflegeeinrichtungen/Betreutem Wohnen. Hierfür gelten folgende Kriterien:\n\nEs muss sich um eine autarke, in sich abgeschlossene, Wohneinheit handeln (keine „Pflegezimmer“).\nDie Wohneinheiten müssen grundsätzlich über eine Mindestgröße von 40 qm verfügen.\nSofern der Volkswohlbund bei der Erstprüfung Kenntnis davon erlangen, dass der zuständige Pflege-/Betreuungsdienst über eine schlechte Reputation verfügt, wird die Anfrage abgelehnt.\nDie aktuellen Darlehensbedingungen hinsichtlich Maximal-Alter der Darlehensnehmer bleiben unverändert bestehen."
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung nicht darstellbar"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13 wenn abgesichert, sonst 12"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Nur mit Lohnsteuerkarte"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Nur unbefristete Renten werden angerechnet\nRentenvorausberechnung ab 58 Jahre"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Kindesunterhalt 100 %\nEhegattenunterhalt 50 %"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Möglich bei folgenden Berufsgruppen: u.a. Ärzte, Professoren, Vorstände, Dozenten"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Privatier:\nNein, das Einkommen der Antragsteller darf im Verbraucher-Darlehen nicht ausschließlich aus Mieteinnahmen resultieren"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4\nAlle Eigentümer Darlehensnehmer - ja"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Ja, Einkommen muss in EUR ausbezahlt werden"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "50"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Höchsteintrittsalter 70 Jahre bei einer Mindesttilgung von 5 % > Das Darlehen muss bis zum 85. Lebensjahr - bei mehreren Darlehensnehmer bis zum 85. Lebensjahr des jüngsten DN - zurückgezahlt sein"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Ja, Auszahlung erfolgt aber erst, wenn die Probezeit positiv bestanden wurde"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja,\naußer aus folgenden Branchen:\nSonnen- und Fitnessstudio\nTankstellen\nSpielhallen\nVideotheken\nCafés, Gaststätten, Restaurants\nTrinkhallen\nKiosk"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload, nur die Selbstauskunft/Finanzierungsantrag muss im Original per Post verschickt werden"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Beglaubigte Kopie des Personalausweises (durch das örtliche Rathaus, Hausbank oder Notar, eine Kopie der Bestätigung der Vorlage des Originals ist ausreichend inkl. Stempel, Unterschrift und Vermerk \"Original lag vor\"; kann als Kopie eingereicht werden)"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per E-Mail"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Postalisch"
+    }
+  },
+  "company_id": "003adf2176854e23f2dc5f2029c11520",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/003adf2176854e23f2dc5f2029c11520",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "14.08.25",
+  "recent_news": [
+    {
+      "date": "20.02.26",
+      "title": "VolkswohlBund - Aktionsrabatt bis zu 0,25% ab sofort"
+    },
+    {
+      "date": "19.03.25",
+      "title": "Volkswohlbund - Finanzierungen für betreutes Wohnen/Pflegeimmobilien"
+    },
+    {
+      "date": "11.03.25",
+      "title": "VolkswohlBund - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "04.12.24",
+      "title": "VolkswohlBund - Konditionssenkung per sofort"
+    },
+    {
+      "date": "02.12.24",
+      "title": "VolkswohlBund - Highlights der Zusammenarbeit"
+    }
+  ]
+}

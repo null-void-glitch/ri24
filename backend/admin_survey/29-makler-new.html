@@ -1,0 +1,555 @@
+<!DOCTYPE html><html lang="de"><head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=48bxyvly78"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=48bxyvly78">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=48bxyvly78"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=48bxyvly78"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=48bxyvly78"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=48bxyvly78"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=48bxyvly78"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=48bxyvly78"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=48bxyvly78"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=48bxyvly78"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=48bxyvly78"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=48bxyvly78"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=48bxyvly78"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=48bxyvly78"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=48bxyvly78"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu active open">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=48bxyvly78"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=48bxyvly78"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=48bxyvly78"> <span>Anfragen</span> </a></li><li class="active"><a href="../../../../../adm/individuell/master/makler/new/?admsess=48bxyvly78"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=48bxyvly78"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=48bxyvly78"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=48bxyvly78"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=48bxyvly78"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=48bxyvly78"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=48bxyvly78"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=48bxyvly78"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=48bxyvly78"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=48bxyvly78"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=48bxyvly78"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=48bxyvly78"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=48bxyvly78"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=48bxyvly78"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=48bxyvly78"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=48bxyvly78"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=48bxyvly78"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=48bxyvly78"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=48bxyvly78"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=48bxyvly78"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=48bxyvly78"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=48bxyvly78"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=48bxyvly78">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=48bxyvly78">.</li>
+    </ul>
+</div>    <div id="content">
+                <div id="content-header">
+            <h1>neuen Makler anlegen</h1>
+        </div>
+        <div id="breadcrumb">
+            <a href="../../../../../adm/individuell/master/dashboard.php?admsess=48bxyvly78" title="" class="tip-bottom" data-original-title="zum Dashboard">
+                <span class="icon"></span> Home
+            </a>
+            <a title="" href="../../../../../adm/individuell/master/makler/list/?admsess=48bxyvly78">Konfiguration</a>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span8">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Maklerdaten</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label" for="name">Firmenname</label>
+                                    <div class="controls">
+                                        <input maxlength="100" required="" minlength="3" name="name" id="name" value="" placeholder="Immobilien GmbH" class="form_validation" type="text" data-database="adm__user" style="">
+                                        <span class="help-inline">*</span>
+                                        <span class="help-block pitquestmark" title="Firmenname, wie er auch in der Export-Software steht">
+                                                    <i class="icon-question-sign"></i>
+                                                </span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="regioncode">Region</label>
+                                    <div class="controls">
+                                                                                                                                <select type="select" name="regioncode" id="regioncode" data-database="adm__user" class="form_validation" required="">
+                                                <option>-- bitte wählen --</option>
+
+                                                
+<optgroup label="BB">
+<option value="hli24">Havellandimmobilien24 (hli24)</option>
+<option value="ohi24">Oberhavelimmobilien24 (ohi24)</option>
+<option value="obli24">Oderlandimmobilien24 (obli24)</option>
+<option value="swi24">Spreewaldimmobilien24 (swi24)</option>
+<option value="umi24">Uckermarkimmobilien24 (umi24)</option></optgroup>
+<optgroup label="BE">
+<option value="bi24">Berlinimmobilien24 (bi24)</option></optgroup>
+<optgroup label="BW">
+<option value="bosi24">Bodenseeimmobilien24 (bosi24)</option>
+<option value="hbi24">Heilbronnimmobilien24 (hbi24)</option>
+<option value="ki24">Karlsruheimmobilien24 (ki24)</option>
+<option value="mani24">Mannheimimmobilien24 (mani24)</option>
+<option value="osi24">Oberschwabenimmobilien24 (osi24)</option>
+<option value="rni24">Rheinneckarimmobilien24 (rni24)</option>
+<option value="rhti24">Rheintalimmobilien24 (rhti24)</option>
+<option value="sai24">Schwäbischealbimmobilien24 (sai24)</option>
+<option value="swwi24">Schwarzwaldimmobilien24 (swwi24)</option>
+<option value="sti24">Stuttgartimmobilien24 (sti24)</option></optgroup>
+<optgroup label="BY">
+<option value="abi24">Augsburgimmobilien24 (abi24)</option>
+<option value="bsi24">Bayerisch-schwabenimmobilien24 (bsi24)</option>
+<option value="mfi24">Mittelfrankenimmobilien24 (mfi24)</option>
+<option value="mi24">Münchenimmobilien24 (mi24)</option>
+<option value="nbi24">Niederbayernimmobilien24 (nbi24)</option>
+<option value="obi24">Oberbayernimmobilien24 (obi24)</option>
+<option value="ofi24">Oberfrankenimmobilien24 (ofi24)</option>
+<option value="opi24">Oberpfalzimmobilien24 (opi24)</option>
+<option value="ufi24">Unterfrankenimmobilien24 (ufi24)</option></optgroup>
+<optgroup label="HB">
+<option value="brei24">Bremenimmobilien24 (brei24)</option></optgroup>
+<optgroup label="HE">
+<option value="fi24">Frankfurtimmobilien24 (fi24)</option>
+<option value="gii24">Giessenimmobilien24 (gii24)</option>
+<option value="kai24">Kasselimmobilien24 (kai24)</option>
+<option value="dai24">Südhessenimmobilien24 (dai24)</option>
+<option value="wii24">Taunusimmobilien24 (wii24)</option>
+<option value="weti24">Wetterauimmobilien24 (weti24)</option></optgroup>
+<optgroup label="HH">
+<option value="hhi24">Hamburgimmobilien24 (hhi24)</option></optgroup>
+<optgroup label="MV">
+<option value="lli24">Ludwigslustimmobilien24 (lli24)</option>
+<option value="nwmi24">Nordwestmecklenburgimmobilien24 (nwmi24)</option>
+<option value="roi24">Rostockimmobilien24 (roi24)</option>
+<option value="si24">Schwerinimmobilien24 (si24)</option>
+<option value="smbi24">Südmecklenburgimmobilien24 (smbi24)</option>
+<option value="vpi24">Vorpommernimmobilien24 (vpi24)</option></optgroup>
+<optgroup label="NS">
+<option value="brai24">Braunschweigimmobilien24 (brai24)</option>
+<option value="emsi24">Emslandimmobilien24 (emsi24)</option>
+<option value="goti24">Göttingenimmobilien24 (goti24)</option>
+<option value="hani24">Hannoverimmobilien24 (hani24)</option>
+<option value="lwi24">Leineweserimmobilien24 (lwi24)</option>
+<option value="lbi24">Lüneburgimmobilien24 (lbi24)</option>
+<option value="osni24">Osnabrückimmobilien24 (osni24)</option>
+<option value="wei24">Weseremsimmobilien24 (wei24)</option></optgroup>
+<optgroup label="NW">
+<option value="aai24">Aachen-Eifelimmobilien24 (aai24)</option>
+<option value="bdi24">Bergisches-Dreieckimmobilien24 (bdi24)</option>
+<option value="bgli24">Bergischeslandimmobilien24 (bgli24)</option>
+<option value="di24">Dortmundimmobilien24 (di24)</option>
+<option value="dui24">Duisburgimmobilien24 (dui24)</option>
+<option value="duei24">Düsseldorfimmobilien24 (duei24)</option>
+<option value="eei24">Essenimmobilien24 (eei24)</option>
+<option value="koei24">Kölnimmobilien24 (koei24)</option>
+<option value="mli24">Münsterlandimmobilien24 (mli24)</option>
+<option value="nri24">Niederrheinimmobilien24 (nri24)</option>
+<option value="reki24">Rhein-Erft-Kreisimmobilien24 (reki24)</option>
+<option value="rski24">Rhein-Siegkreisimmobilien24 (rski24)</option>
+<option value="rgi24">Ruhrgebietimmobilien24 (rgi24)</option>
+<option value="saui24">Sauerlandimmobilien (saui24)</option>
+<option value="sigi24">Siegerlandimmobilien24 (sigi24)</option>
+<option value="tbi24">Teutoburger-Wald-Imobilien24 (tbi24)</option></optgroup>
+<optgroup label="RP">
+<option value="maii24">Mainzimmobilien24 (maii24)</option>
+<option value="mri24">Mittelrheinimmobilien24 (mri24)</option>
+<option value="rhhi24">Rheinhessenimmobilien24 (rhhi24)</option>
+<option value="rpi24">Rheinpfalzimmobilien24 (rpi24)</option>
+<option value="ti24">Trierimmobilien24 (ti24)</option>
+<option value="wesi24">Westeifelimmobilien24 (wesi24)</option>
+<option value="wwi24">Westerwaldimmobilien24 (wwi24)</option>
+<option value="wpfi24">Westpfalzimmobilien24 (wpfi24)</option></optgroup>
+<optgroup label="SA">
+<option value="ami24">Altmarkimmobilien24 (ami24)</option>
+<option value="ai24">Anhaltimmobilien24 (ai24)</option>
+<option value="hai24">Halleimmobilien24 (hai24)</option>
+<option value="hi24">Harzimmobilien24 (hi24)</option>
+<option value="jei24">Jerichowimmobilien24 (jei24)</option>
+<option value="mbi24">Magdeburgimmobilien24 (mbi24)</option>
+<option value="sui24">Saaleunstrutimmobilien24 (sui24)</option>
+<option value="sli24">Salzlandimmobilien (sli24)</option></optgroup>
+<optgroup label="SH">
+<option value="hoi24">Holsteinimmobilien24 (hoi24)</option>
+<option value="kiei24">Kielimmobilien24 (kiei24)</option>
+<option value="luei24">Lübeckimmobilien24 (luei24)</option>
+<option value="slwi24">Schleswigimmobilien24 (slwi24)</option></optgroup>
+<optgroup label="SN">
+<option value="ci24">Chemnitzimmobilien24 (ci24)</option>
+<option value="ddi24">Dresdenimmobilien24 (ddi24)</option>
+<option value="eli24">Elbelandimmobilien24 (eli24)</option>
+<option value="erzi24">Erzgebirgeimmobilien24 (erzi24)</option>
+<option value="li24">Leipzigimmobilien24 (li24)</option>
+<option value="msi24">Mittelsachsenimmobilien24 (msi24)</option>
+<option value="nsi24">Nordsachsenimmobilien24 (nsi24)</option>
+<option value="oli24">Oberlausitzimmobilien24 (oli24)</option>
+<option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24 (sosi24)</option>
+<option value="vi24">Vogtlandimmobilien24 (vi24)</option>
+<option value="zi24">Zwickauimmobilien24 (zi24)</option></optgroup>
+<optgroup label="SR">
+<option value="nsai24">Nordsaarlandimmobilien24 (nsai24)</option>
+<option value="osai24">Ostsaarlandimmobilien24 (osai24)</option>
+<option value="sbi24">Saarbrückenimmobilien24 (sbi24)</option>
+<option value="wsai24">Westsaarlandimmobilien24 (wsai24)</option></optgroup>
+<optgroup label="TH">
+<option value="efi24">Erfurtimmobilien24 (efi24)</option>
+<option value="mthi24">Mittelthüringenimmobilien24 (mthi24)</option>
+<option value="nti24">Nordthueringenimmobilien24 (nti24)</option>
+<option value="othi24">Ostthüringenimmobilien24 (othi24)</option>
+<option value="swti24">Südwestthüringenimmobilien24 (swti24)</option>                                                </optgroup>
+                                            </select>
+                                                                            </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="email">E-Mail</label>
+                                    <div class="controls">
+                                        <input maxlength="120" minlength="6" data-val="email" required="" pattern="[a-zA-Z0-9][a-zA-Z0-9\.\-_]*@[a-zA-Z0-9][a-zA-Z0-9\.\-_]*\.[a-zA-Z]{2,}" placeholder="email@domain.xyz" name="email" id="email" value="" class="form_validation" type="text" data-database="makler__new_created" style="">
+                                        <span class="help-inline">*</span>
+                                        <span class="help-block pitquestmark" title="E-Mail des Maklers"><i class="icon-question-sign"></i></span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="makler_id">Makler-ID</label>
+                                    <div class="controls">
+                                        <input maxlength="21" name="makler_id" id="makler_id" value="r24h94haeum" type="text" disabled="disabled" style="">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="makler_stufe">Makler-Stufe/Modell</label>
+                                    <div class="controls">
+                                        <select type="select" name="makler_stufe" id="makler_stufe" data-database="adm__user" class="form_validation">
+                                            <option value="basic">Basic</option>
+                                            <option value="plus" selected="">Plus</option>
+                                            <option value="premium" selected="">Premium</option>
+                                        </select>
+                                        <span class="help-inline">*</span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="paket">Angebotspaket</label>
+                                    <div class="controls">
+                                        <select type="select" name="paket" id="paket" data-database="adm__user" class="form_validation">
+                                            <option value="3">APFlatrate</option>
+                                        </select>
+                                        <span class="help-inline">*</span>
+                                        <span class="help-block pitquestmark" title="Ausgewähltes Anzeigenpaket">
+                                                    <i class="icon-question-sign"></i>
+                                                </span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="edit_objects">neue Objekte im ADM anlegen</label>
+                                    <div class="controls">
+                                        <input type="checkbox" name="edit_objects" id="edit_objects" class="form_validation" checked="" data-database="adm__user" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class'); }" style="">
+                                        <span class="help-block pitquestmark" title="Makler darf neue Objekte im ADM anlegen. Achtung Diskrepanzen ADM-Objekte &lt;-&gt; hochgeladene Objekte. Wird durch Upload überschrieben">
+                                            <i class="icon-question-sign"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="merge_offers">Angebote zusammenfassen</label>
+                                    <div class="controls">
+                                        <input type="checkbox" name="merge_offers" id="merge_offers" data-database="config" onclick="if ($(this).is(':checked')) {$(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class'); }" style="">
+                                        <span class="help-block pitquestmark" title="Hat der Marker mehrere Objekte in der Ergebnisliste, werden diese auf eines zusammengefasst">
+                                                <i class="icon-question-sign"></i>
+                                            </span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="baufi_like_extern">Baufi anhand Immo-Ort</label>
+                                    <div class="controls">
+                                        <input type="checkbox" name="baufi_like_extern" id="baufi_like_extern" data-database="config" onclick="if ($(this).is(':checked')) {$(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class'); }" style="">
+                                        <span class="help-block pitquestmark" title="Wenn die Eigenschaft gesetzt ist, wird der Baufinanzierer anhand des Immobilien-Ortes ermittelt und nicht anhand der Region des Maklers.">
+                                                <i class="icon-question-sign"></i>
+                                            </span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="multimakler">für Gemeinschaftsgeschäft freischalten (Multimakler)</label>
+                                    <div class="controls">
+                                        <input type="checkbox" name="multimakler" id="multimakler" data-database="config" checked="" class="form_validation" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class'); }" style="">
+                                        <span class="help-block pitquestmark" title="Vermarktung von Objekten anderer Makler erlaubt (MultiMakler-System)"><i class="icon-question-sign"></i> (nur Premium)</span>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="kontakt_has_immosolve">Freischaltung Immosolve</label>
+                                    <div class="controls">
+                                        <input type="checkbox" name="kontakt_has_immosolve" id="kontakt_has_immosolve" data-database="config" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); $('.immosolve-box').show(); } else { $(this).removeAttr('class'); $('.immosolve-box').hide(); }" style="">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="widget-box immosolve-box" style="display: none;">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>techn. Einstellungen Immosolve</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label" for="kontakt_use_immosolve">Nutzung von Immosolve</label>
+                                    <div class="controls">
+                                        <select type="select" name="kontakt_use_immosolve" id="kontakt_use_immosolve" data-database="config" class="form_validation">
+                                            <option value="0" selected="">nein</option>
+                                            <option value="1">ja, ausschließlich</option>
+                                            <option value="2">zusätzlich</option>
+                                        </select>
+                                        <span class="help-inline">*</span>
+                                        <span class="help-block pitquestmark" title="Nutzung der Immosolve-API für Kontakt-Anfragen">
+                                                    <i class="icon-question-sign"></i>
+                                                </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Login Backend</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label" for="login">Login-Name</label>
+                                    <div class="controls">
+                                        <input maxlength="21" name="login" id="login" value="r24h94haeum" class="form_validation" type="text" data-database="adm__user" readonly="" style="">
+                                        <span class="help-inline">*</span>
+                                        <span onclick="var length = 8,
+                                                                    charset = 'qwertzupasdfghkyxcvbnm23456789',
+                                                                    retVal = 'r24';
+                                                            for (var i = 0, n = charset.length; i &lt; length; ++i) {
+                                                                retVal += charset.charAt(Math.floor(Math.random() * n));
+                                                            }
+
+                                                            $('input[name=login]').val(retVal);" style="height: 10px; cursor: pointer; float: right; margin-right: 10px;" class="icon"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="pw">Passwort</label>
+                                    <div class="controls">
+                                        <input maxlength="40" name="pw" id="pw" value="6fu4akdv" class="form_validation" type="text" data-database="adm__user" readonly="" style="">
+                                        <span class="help-inline">*</span>
+                                        <span onclick="var length = 8, charset = 'qwertzupasdfghkyxcvbnm23456789', retVal = ''; for (var i = 0, n = charset.length; i &lt; length; ++i) { retVal += charset.charAt(Math.floor(Math.random() * n)); } $('input[name=pw]').val(retVal);" style="height: 10px; cursor: pointer; float: right; margin-right: 10px;" class="icon"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Login FTP</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label" for="ftp_user">Benutzername</label>
+                                    <div class="controls">
+                                        <input maxlength="21" name="ftp_user" id="ftp_user" value="r24h94haeum" class="form_validation" type="text" data-database="ftp" readonly="" style="">
+                                        <span class="help-inline">*</span>
+                                        <span onclick="var length = 8,
+                                                                    charset = 'qwertzupasdfghkyxcvbnm23456789',
+                                                                    retVal = 'r24';
+                                                            for (var i = 0, n = charset.length; i &lt; length; ++i) {
+                                                                retVal += charset.charAt(Math.floor(Math.random() * n));
+                                                            }
+
+                                                            $('input[name=ftp_user]').val(retVal);" style="height: 10px; cursor: pointer; float: right; margin-right: 10px;" class="icon"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="ftp_pw_salt">Passwort</label>
+                                    <div class="controls">
+                                        <input maxlength="40" name="ftp_pw_salt" id="ftp_pw_salt" value="6fu4akdv" class="form_validation" type="text" data-database="ftp" readonly="" style="">
+                                        <span class="help-inline">*</span>
+                                        <span onclick="var length = 8,
+                                                                    charset = 'qwertzupasdfghkyxcvbnm23456789',
+                                                                    retVal = '';
+                                                            for (var i = 0, n = charset.length; i &lt; length; ++i) {
+                                                                retVal += charset.charAt(Math.floor(Math.random() * n));
+                                                            }
+
+                                                            $('input[name=ftp_pw_salt]').val(retVal);" style="height: 10px; cursor: pointer; float: right; margin-right: 10px;" class="icon"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Daten speichern</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="form-actions">
+                                    <span class="btn btn-primary pitsafe">Speichern</span>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">* Pflichtfeld</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <form class="pitsafeform" action="../../../../../adm/individuell/master/makler/create/?admsess=48bxyvly78&amp;maklerid=r24h94haeum&amp;regiocode=&amp;proof=780b4c328c3cf2fb4abab8b72736db8f" method="post" enctype="multipart/form-data"></form>
+        <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>    </div>
+    
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script><script>
+    $(document).ready(function () {
+        let jStufe = $('#makler_stufe');
+        if (jStufe.length) {
+            jStufe.on('change', function () {
+                let jMultimakler = $('#multimakler');
+                let jOption = $('#makler_stufe option:selected');
+                if (jOption.val() === 'premium' && !jMultimakler.is(':checked')) {
+                    jMultimakler.trigger('click');
+                }
+                if (jOption.val() !== 'premium' && jMultimakler.is(':checked')) {
+                    jMultimakler.trigger('click');
+                }
+            });
+        }
+    });
+</script>
+
+</body></html>

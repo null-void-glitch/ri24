@@ -1,0 +1,136 @@
+openapi: "3.1.0"
+info:
+  title: "Kontaktanfrage-API (Chatbot)"
+  description: >
+    Direkte POST-Schnittstelle zum Absenden einer Kontaktanfrage an den Anbieter/Makler
+    eines Exposés. Ersetzt den bisherigen Playwright-basierten Weg und umgeht das
+    ReCaptcha des öffentlichen Kontaktformulars. Die Pflichtfelder sind fix
+    (Objekt-ID, Vorname, Nachname, E-Mail); ein vorheriges Auslesen der Formularfelder
+    ist nicht mehr nötig.
+  version: "1.0.0"
+servers:
+  - url: "https://www.regionalimmobilien24.de"
+    description: "Produktionsserver"
+paths:
+  /api/request/chatbot/contact/immo/:
+    post:
+      operationId: "submitContactInquiry"
+      summary: "Kontaktanfrage an den Anbieter/Makler absenden"
+      description: >
+        Sendet eine Kontaktanfrage (Rückruf, Besichtigungstermin und/oder Informationen)
+        direkt an den Anbieter des Exposés. Die Anfrage wird als
+        application/x-www-form-urlencoded übertragen. Pflicht sind ausschließlich
+        ioi, refritrack, vorname, nachname und email.
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              required:
+                - ioi
+                - refritrack
+                - vorname
+                - nachname
+                - email
+              properties:
+                ioi:
+                  type: string
+                  description: "Objekt-ID (OID) des Exposés, z.B. aus der Exposé-URL (?id=...)."
+                  example: "590793258"
+                refritrack:
+                  type: string
+                  description: "Tracking-Kennzeichen. Für Chatbot-Anfragen IMMER 'expose'."
+                  enum:
+                    - expose
+                  default: "expose"
+                  example: "expose"
+                betreff:
+                  type: string
+                  description: >
+                    Betreff der Anfrage. Empfohlen: 'Objekt-ID: <OID>'.
+                    Erlaubt: Buchstaben, Ziffern, Leerzeichen und : - , . Zeichen.
+                  example: "Objekt-ID: 590793258"
+                vorname:
+                  type: string
+                  description: "Vorname des Nutzers (beginnt mit Großbuchstaben)."
+                  example: "Max"
+                nachname:
+                  type: string
+                  description: "Nachname des Nutzers (beginnt mit Großbuchstaben)."
+                  example: "Mustermann"
+                email:
+                  type: string
+                  description: "Gültige E-Mail-Adresse des Nutzers."
+                  example: "max@example.com"
+                telefon:
+                  type: string
+                  description: >
+                    Telefonnummer des Nutzers (optional). Deutsches Format,
+                    z.B. '+49 176 12345678', '0176 12345678' oder '030 1234567'.
+                  example: "0176 12345678"
+                strasse_name_nr:
+                  type: string
+                  description: "Straße und Hausnummer (optional)."
+                  example: "Musterstraße 12"
+                plz:
+                  type: string
+                  description: "Postleitzahl (optional). Nur deutsche PLZ (genau 5 Ziffern)."
+                  example: "10115"
+                ort:
+                  type: string
+                  description: "Wohnort (optional)."
+                  example: "Berlin"
+                nachricht:
+                  type: string
+                  description: "Freitext-Nachricht des Nutzers an den Anbieter (optional)."
+                  example: "Ich interessiere mich für die Immobilie und bitte um einen Besichtigungstermin."
+                rueckruf:
+                  type: string
+                  description: "Rückrufwunsch: '1' = ja, ansonsten '0'/weglassen."
+                  enum:
+                    - "0"
+                    - "1"
+                  example: "1"
+                besichtigung:
+                  type: string
+                  description: "Besichtigungstermin gewünscht: '1' = ja, ansonsten '0'/weglassen."
+                  enum:
+                    - "0"
+                    - "1"
+                  example: "1"
+                info:
+                  type: string
+                  description: "Weitere Informationen anfordern: '1' = ja, ansonsten '0'/weglassen."
+                  enum:
+                    - "0"
+                    - "1"
+                  example: "0"
+      responses:
+        "200":
+          description: >
+            Antwort der Schnittstelle (immer JSON). Achtung: 'status' ist nicht immer
+            ein zuverlässiger Erfolgsindikator — werte zusätzlich 'msg' aus. Enthält
+            'msg' einen Fehlerhinweis (z.B. 'Objekt wurde nicht korrekt übergeben'),
+            gilt die Anfrage als NICHT erfolgreich.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "Statusflag der Schnittstelle."
+                  msg:
+                    type: string
+                    description: >
+                      Rückmeldung im Klartext. Bei Erfolg eine Bestätigung, bei Problemen
+                      ein Fehlerhinweis (z.B. Validierungs- oder Objektfehler)."
+                  is_finance:
+                    type: boolean
+                    description: "true, wenn es sich um eine Finanzierungsanfrage handelt."
+                  data:
+                    type: array
+                    description: "Optionale Zusatzdaten."
+                    items:
+                      type: object

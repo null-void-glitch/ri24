@@ -1,0 +1,705 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/blankoauszahlung",
+  "category": "Kriterien Objekt",
+  "criterion_name": "Blankoauszahlung",
+  "criterion_id": "blankoauszahlung",
+  "scraped_at": "2026-05-07T12:15:53.430Z",
+  "banks": [
+    {
+      "bank": "AXA",
+      "value": "Nein"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Ja - gem. vorheriger Absprache und Dokumentation"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Ja, mit nachträglicher Rechnungsvorlage \nNachweis innerhalb 6 Wochen"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nnicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \nnicht möglich"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich (Vorabsprache erforderlich)"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Ja, grundsätzlich genereller Verzicht auf Rechnungsvorlage\nnach Fertigstellung Besichtigung durch Gutachter der Sparkasse oder von Sparkasse beauftragte externer Gutachter"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Bei eigenen Bauvorhaben ist nach vorab erbrachtem Eigenkapitaleinsatz eine Vorabauszahlung von max. 20 % der Darlehensvaluta möglich („Kleinbetragsregelung“). Dies gilt jedoch nicht für KfW-Darlehen. • Mindestbetrag pro Auszahlung: EUR 5.000. • Die ordnungsgemäße Kreditmittelverwendung (in Anlehnung an die Objektkalkulation) ist vor Beantragung der nächsten 20-Prozent-Tranche der Bank zu belegen. • Eine Kumulierung von Rechnungen über mehrere Vorabauszahlungen ist nicht möglich. • Der Nachweis erfolgt anhand von Rechnungen und der zugehörigen Zahlungsnachweise. • Für „Kleinstrechnungen“ stellt die HVB ihren Kund:innen ein eigenes Formular zur Verfügung, das keine Belegeinreichung erfordert. • Größere Rechnungen (z. B. für Hauptgewerke) können unabhängig hiervon eingereicht werden. • Bitte beachten: Die Summe aller Auszahlungen ist grundsätzlich auf 8 Vorgänge begrenzt. Eine Ausnahme besteht lediglich bei Rechnungslegung nach MaBV."
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "gegen nachträglicher Rechnungsvorlage: Ja"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Auszahlung in Tranchen möglich"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\nPlausiblen Finanzierungsplan, Baukostenausfstellung Architekt oder Kostenvoranschläge einreichen"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Mit nachtr. Rechnungsvorlage: Möglich - max. 50.000 EUR"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "mit nachträglicher Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "Mit nachträglicher Rechnungsvorlage nach Absprache möglich"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Möglich, mit anschl. Rechnungsvorlage: max. 25.000 Euro"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/Kaufvertrag: nicht möglich"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Ja - Die Grundschuldbestellung sowie etwaige Beschlussauflagen müssen als Mindestvoraussetzungen erfüllt sein."
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja\nMindestauszahlungssumme 10.000 €, ab 500.000€ Finanzierungsvolumen nur gegen Rechnungsvorlage"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Ja, 10,0 TEUR vorab ohne Rechnung - danach mittels Bilder des aktuellen Bautenstands und Rechnungen belegen bevor es weitere Gelder gibt"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "mit nachtr. Rechnungsvorlage: möglich\nEinzelfallabstimmung"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Nein"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "bei Bauvorhaben Auszahlung vorab mind. 50.000€ mit nachträglichem Verwendungsnachweis"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "möglich mit nachträglicher Rechnungsvorlage; Auszahlung erfolgt in Abschnitten"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "möglich in 25 TEUR-Tranchen mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Ja"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "Im Einzelfall auch Auszahlungen ohne Verwendungsnachweis möglich"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nBei Neubau bzw. Modernisierungen in 30-40TEUR Schritten. Nächste Auszahlung erfolgt nach Vorlage Rechnung."
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "mit nachträglicher Rechnungsvorlage - nein"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "Ja, möglich"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "Erste Tranchenzahlung ist ohne Nachweis möglich. Ab der 2. Tranche ist jeweils ein Verwendungsnachweis über die vorangegangene Tranche einzureichen."
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "Nein, auch nicht mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "Blankovorschuss bis zu 25.000 EUR möglich, wenn Nachweise im Nachgang erbracht werden"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "30 TEUR ohne Rechnungsnachweise aber mit entspr. Besicherung"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Ja, muss separat angegeben und begründet werden"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Ja, bis 20TEUR"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "max. 30 TEUR"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "10.000 vorab, Rechnungen im Nachgang"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "mit anschl. Rechnungsvorlage: 25.000 EUR, individuell mit Fotos + Bautenstand"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Ja, max. 30.000 ohne Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Bei Modernisierungen möglich"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\ndem Bautenstand entsprechend werden Finanzierungsmittel zur Verfügung gestellt"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Möglich\nEs werden keine Rechnungen benötigt"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Ja  mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nAuszahlung in Raten gemäß möglichem Baufortschritt"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nAuszahlungswunsch muss plausibel dargelegt werden, ggf. Einreichung Kostenvoranschlag / Materialaufstellung"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich, zeitnahes Nachreichen der Rechnung gemäß Investitionsplan"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Mindestbetrag 20 TEUR (nachträgliche Rechnungsvorlage erforderlich)"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, aber nur im kleinteiligen Bereich TEUR 10"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Möglich mit nachträglicher Rechnungsvorlage, max. 50 T€. Rechnungsnachweis muss dann zur nächsten Valutierung erfolgen"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Ja, mit nachträglicher Rechnungsvorlage\nmax. T€ 30"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Ja > Auszahlungen bis 25.000€ erfordern aktuell keine Rechnungsnachweise"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "möglich, Rechnungen sollen dann nachgereicht werden"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Ja, bis max. 30.000 EUR wird ohne Rechnungsnachweise ausgezahlt"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "Blankoauszahlung gegen nachträgliche Rechnungsvorlage: möglich - bis max. 100 TEUR"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Ja\nBlankoauszahlung mit nachträglicher Rechnungsvorlage möglich (in Tranchen) \nin mind. 15 TEU Schritten - max. 50 TEU"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\n (bis max. 10 % der Darlehenssumme bzw. mind. 25 T€"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Ja mit nachträglicher Rechnungsvorlage möglich\nJedoch muss die Grundschuld eingetragen sein"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage:  Einzelfallentscheidung > spätestens vor der nächsten Valutierung sind die Nachweise zu erbringen"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Möglich, mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, bis 400 TEUR Engagementhöhe"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "mit anschl. Rechnungsvorlage sind möglich, mind. 25 TEUR"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich\nabhängig von Vorhaben und Bonität"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "mit anschl. Rechnungsvorlage: möglich"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Ja, Bonitäts- / Vorhabensabhängig"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Ja, sofern Konto im Hause der Sparkasse"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Ja, in Ausnahmefällen"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Ja > Teilauszahlung vorab 50TEUR"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Ja\nAuszahlung erst nach Beurkundung Grundschuld möglich; Abwicklung der Zahlungen über Baugirokonto (kostenfrei) bei der Sparkasse"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: sind möglich bis max. 50.000 EUR"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Ja > Vor Auszahlung der nächsten Tranche müssen Rechnungsnachweise vorgelegt werden"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Ja, mit nachträglicher Rechnungsvorlage möglich - Einzelfallbetrachtung"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Mit nachträglicher Rechnungsstellung möglich (grundpfandrechtliche Sicherstellung muss gegeben sein)"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "Mit nachtr. Rechnungsvorlage: Nein"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Blankoauszahlung bis max. 25.000 € bei nachträglicher Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "mit nachträglicher Rechnungsvorlage möglich\nmax. 25.000 TEUR\nindividuell Absprache"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja\nbei Renovierungskosten im Einzelfall möglich"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Ja mit nachträglicher Rechnungsvorlage\nTEUR 25,0, max. 7 Teilauszahlungen"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, 50.000 €"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "mit anschl. Rechnungsvorlage - Ja"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Ja, mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Möglich, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich\n\nggflls. in Tranchen mit Baukostenvorschuss"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "Ja, bis zu einer Summe von 10.000 EUR"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Einzelfallprüfung\nfür die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: bis 25.000 EUR"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Ja mit nachträglicher Rechnungsvorlage > Überweisung muss von Baukonto direkt an Rechnungsempfänger erfolgen"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nin Teilauszahlungen, Eigenkapital muss vorrangig eingesetzt werden"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "mit anschl. Rechnungsvorlage möglich\nBauvorhaben und Modernisierungen werden vorab in Tranchen auf das kostenlos geführte Baukonto ausgezahlt. Die Rechnungen / Verfügungen müssen über das Konto erfolgen."
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Ja\nBei Modernisierungsmaßnahmen benötigt die VoBa keine Rechnungskopien, es wird die Besichtigung angestoßen"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Möglich, mit nachträglicher Rechnungsvorlage\nmax. 50.000 €"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Einzelfallentscheidung, bis 25 TEUR"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Ja\nAuszahlung erfolgt i.d.R. in 25 TEUR Tranchen. Die entsprechenden Nachweise sind vor der nächsten Auszahlung einzureichen."
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "Ja - mit nachträglicher Rechnungsvorlage möglich\n \nBesonderheit: 10 % der Darlehenssumme"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Ja, max. 50.000,- €\nAuszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem \nunterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "Blankoauszahlung mit anschließender Rechnungsvorlage ist nicht möglich"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "Ja, gemäß Vertragsgestaltung"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "Blankoauszahlungen mit anschl. Rechnungsvorlage sind möglich"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "Möglich mit anschließender Rechnungsvorlage\nDie Höhe der Blankoauszahlung ist individuell zu klären"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Ja, max. 50.000 € > aber Einzelfallentscheidung"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nBei KfW Rechnungsvorlage in Höhe der KfW-Mittel erforderlich. Bei Neubau Bautenstandskontrolle 50% und bei Fertigstellung, bei Modernisierungen bei Fertigstellung der Modernisierungsarbeiten."
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Einzelfallentscheidung, mit nachträglicher Rechnungsvorlage"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: Ja\n\nnicht bei KfW-Darlehen oder Kaufpreiszahlung"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja (ist abhängig von der jeweiligen Finanzierung (i.d.R. 10 % der Gesamtfinanzierung))"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Ja, Auszahlung blanko bis 30.000 EUR\nSobald diese nachgewiesen sind können wieder bis 30.000 EUR ohne Rechnungsvorlage verfügt werden"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Ja, mit nachträglicher Rechnungsvorlage möglich\nMaximal in Höhe von 25 TEUR"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Bei Neubau / Renovierungen Blankoauszahlungen bis 75 TEUR möglich \nVor der nächsten Auszahlung müssen entsprechende Nachweise erbracht werden."
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Nein"
+    }
+  ]
+}

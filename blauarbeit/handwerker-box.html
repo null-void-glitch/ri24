@@ -1,0 +1,26 @@
+<!--
+    Einbindung analog zu Vorlage.html (Stepstone-Box).
+    data-zipcode muss serverseitig mit der PLZ der Immobilie befüllt werden,
+    z.B. data-zipcode="<?= htmlspecialchars($immobilie['plz']) ?>".
+    data-category ist optional (Blauarbeit Kategorie-ID, siehe /v2/partners/categories).
+-->
+<details class="blauarbeit" open>
+    <summary>
+        <h2>Handwerker in der Nähe <a href="https://www.blauarbeit.de/" target="_blank" title="weiter zu blauarbeit"><img alt="powered by blauarbeit" class="img-dark-white" src="/get-file/img/ressource/img/elements/blauarbeit/logo-blauarbeit.svg"></a></h2>
+    </summary>
+    <div class="blauarbeit-box" data-zipcode="10999" data-category="" data-endpoint="/blauarbeit/craftsmen.php">
+        <form class="blauarbeit-form">
+            <select class="blauarbeit-form-category" name="category" aria-label="Handwerkerart">
+                <option value="">Alle Handwerkerarten</option>
+            </select>
+            <input class="blauarbeit-form-zipcode" name="zipcode" type="text" inputmode="numeric" pattern="\d{5}" maxlength="5" placeholder="PLZ" aria-label="PLZ">
+            <button type="submit" class="cmd cmd-l blauarbeit-form-submit">Suchen</button>
+        </form>
+        <div class="blauarbeit-slider-wrapper">
+            <button type="button" class="blauarbeit-nav blauarbeit-nav-prev" aria-label="Zurück" hidden>&lsaquo;</button>
+            <div class="blauarbeit-data" aria-live="polite"></div>
+            <button type="button" class="blauarbeit-nav blauarbeit-nav-next" aria-label="Weiter" hidden>&rsaquo;</button>
+        </div>
+        <p class="blauarbeit-status" hidden></p>
+    </div>
+</details>

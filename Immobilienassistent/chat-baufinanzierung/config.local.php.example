@@ -1,0 +1,30 @@
+<?php
+/**
+ * Vorlage für die lokale Entwicklungs-Konfiguration.
+ *
+ * Kopieren nach `config.local.php` (wird NICHT eingecheckt) und Werte eintragen.
+ * Diese Datei wird von config.php automatisch geladen und überschreibt die
+ * Umgebungsvariablen-Defaults.
+ */
+
+// OpenAI API-Key (serverseitig, nie im Frontend).
+define('OPENAI_API_KEY', 'sk-...');
+
+// Modell für die Responses API.
+define('OPENAI_MODEL', 'gpt-4.1');
+
+// Dev: ngrok-URL des lokalen MCP-Servers (SSE-Endpoint) — derselbe MCP wie beim Exposé-Chat.
+define('MCP_SERVER_URL', 'https://xxxx.ngrok-free.app/mcp/sse');
+
+// Label des MCP-Servers.
+define('MCP_SERVER_LABEL', 'ri24-baufi');
+
+// Optional: Auth-Header für den MCP (leer lassen, wenn nicht nötig).
+define('MCP_AUTHORIZATION', '');
+
+// Dev: CORS-Origins der Demo-Seite erlauben (oder '*').
+define('ALLOWED_ORIGINS', '*');
+
+// Optional: OpenAI Vector-Store-ID für die custom Knowledge Base (file_search).
+// Leer lassen, solange keine Wissensdatenbank angebunden ist.
+define('FILE_SEARCH_VECTOR_STORE_ID', '');

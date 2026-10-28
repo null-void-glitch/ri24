@@ -1,0 +1,1269 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/pflegeimmobilien",
+  "category": "Kriterien Objekt",
+  "criterion_name": "Pflegeimmobilien",
+  "criterion_id": "pflegeimmobilien",
+  "scraped_at": "2026-05-07T12:17:05.123Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Nein"
+    },
+    {
+      "bank": "AXA",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Ja > Nur, wenn die Immobilie entweder grundsätzlich eine vollständig abgeschlossene Wohneinheit (inkl. Bad, Küche) darstellt; keine Beschränkungen im Grundbuch aufweist und generell wohnwirtschaftlich genutzt werden kann. Oder auch, wenn ein anderes Objekt als Sicherheit eingesetzt wird"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein \nbei Pflegeappartement/ETW mit Belegungsbeschränkung oder nicht vollständiger Ausstattung (z.B. ohne Küche)"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "nein"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Nein"
+    },
+    {
+      "bank": "DKB",
+      "value": "Ja - Voraussetzung: keine Einschränkungen beim Objekt vorhanden (z.B. Vermietung nur an Personen mit Mindestalter X; Bindung an Pflegedienst) und es sich um vollständig ausgestattete Objekte handelt (d.h. ein eigenes Bad, vollständige Küche), kein betreutes Wohnen"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Nein"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Ja, bis zu 50 % Beleihungswert"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Ja \nMieten der Pflegeimmobilie werden nicht mit berücksichtigt\nDie Absicherung muss zwingend über eine Bestandsimmobilie erfolgen\nDie Pflegeimmobilie wird nicht als Sicherheit angenommen"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "Ja - Einzelfallbetrachtung\nPflegeimmobilien werden nur finanziert, wenn die Finanzierung über eine andere Sicherheit abgesichert werden kann, wie z.B. das Einfamilienhaus."
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Nein"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Nein"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "Ja - keine Absicherungen an Pflegeimmobilien, lediglich Absicherung am selbstgenutzten Objekt möglich."
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Ja -\nkeine Vollfinanzierung, mind. 30 % EK vom Kaufpreis sowie EK für Nebenkosten\nMind. 3 % Tilgung\nObjekt muss sich im Ausleihbezirk befinden"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Ja > Einzelfallentscheidung durch Vorstand"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "Ja - nur abgeschlossene Wohneinheiten können finanziert werden"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "Ja - Einzelfallentscheidung"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "Nein - Derzeit nur mit weiteren Sicherheiten machbar - Voranfrage stellen"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "Ja - individuelle Fallprüfung"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Ja:\nDie Eigennutzungsfähigkeit muss gegeben sein (dazu gehört u.a. eine eigene Küche, sowie ein eigenes Bad je Wohneinheit etc.)\nDas Objekt muss nach WEG geteilt sein \nEs müssen mindestens 20% Eigenkapital auf den Kaufpreis zzgl. der Kaufnebenkosten in die Finanzierung eingebracht werden \nDie Besicherung erfolgt vollständig über eine werthaltige, erstrangige Grundschuld \nDas Objekt befindet sich im Geschäftsgebiet der Kreissparkasse Köln (Kreise Rhein-Erft, Rhein-Sieg, Rhein-Berg, Oberberg und Städte Köln und Bonn) \nDie Gesamtlaufzeit der Finanzierung (nicht Zinsbindung!) der Finanzierung entspricht maximal der Mietgarantiezeit \nDie monatliche Darlehensrate entspricht höchstens der Nettokaltmieteinnahme abzüglich 20% Sicherheitsabschlag \nZinsbindung maximal 15 Jahre möglich"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "Nein - Kauf von Objekten in einer Anlage \"betreutes Wohnen\" nicht möglich"
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Ja, die Bonität der Betreibers muss zweifelsfrei gut sein"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "Ja - Die Finanzierung erfolgt nur bei bester Bonität und unter Einsatz von angemessenem Eigenkapital"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Ja\nUnterscheidung Betreutes Wohnen und Pflegeheim, unterschiedliche Nutzungsdauern und Kapitalisierungszinsen, grundsätzlich Ertragswertverfahren"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Möglich - Einzelfallentscheidung"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "nicht möglich"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "Ja - wird individuell geprüft (keine Vollfinanzierung, sondern 80% vom Kaufpreis)"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "Ja - nur im Geschäftsgebiet"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "nein- kein Betreutes Wohnen"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Ja,\nWohnung muss als eigenständige Einheit vollständig nutzbar sein\nEs darf kein verpflichtender Betreuungsvertrag anhängig sein"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD West",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "nein"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "Ja > min. 15 m² Wohnfläche"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "Ja - individuelle Bewertung"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Ja, aber Beleihung der Pflegeimmobilie aufgrund eingeschränkter Nutzungsfähigkeit und Bewertung im Ertragsverfahren ausgeschlossen > Zusatzsicherheit erforderlich"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "Ja"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "Prüfung möglich bei sehr bonitätsstarken Kunden"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Ja, Beleihung muss individuell geprüft werden - bitte per Voranfrage"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "Einzelfallentscheidung, guter Auslauf (80%) und in BaWü"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "nein"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Ja, Grundschuldabsicherung auf eigengenutzten Objekt, Finanzierungsvolumen bis 80 % Verkehrswert, Kapitaldienst ohne Mieterträge positiv"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "Ja - Vorlage Mietvertrag, eigenes Grundbuch gem. WEG"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "Ja, Einwertung nach Ertragswertverfahren\nEK: min. NK + 15%"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Ja > objektabhängig"
+    },
+    {
+      "bank": "Sparkasse Bad Tölz-Wolfratshausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Ja, Voranfrage erforderlich, Vorabbewertung durch Sparkasse mit Angabe bis wohin finanziert werden kann"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Ja - Es muss eine Wohnung im Sinne des Wohneigentumsgesetzes sein"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Ja - Eigenmitteleinsatz sollte i. d. R. 20 % + NK betragen"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Nur nach vorheriger Rücksprache mit der Sparkasse und mit einem manuell zu erfassenden Zinsaufschlag von 0,1% möglich\nausschließlich im Kreis Düren\nbis max. 80% VW, Rest EK\nMindesttilgung 4 %\nKfW max. in Höhe des SPK Darlehens"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Ja - in der Regel Zinsaufschlag"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Ja, keine Betreiberimmobilien"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Ja, nur als Kapitalbeschaffung mit Besicherung auf einem anderen Objekt"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Ja > Einzelfallentscheidung und nur im Geschäftsgebiet"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Ja, mit Zusatzsicherheit auf Wohnimmobilie oder max. 50% BLA"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Ja, möglich, mit 20% Eigenkapitaleinsatz (max. 80% BLA)"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "bis max. 60% vom Verkehrswert"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Ja - Objekteinwertung muss im Vorfeld erfolgen"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Ja - Finanzierung einzelner Wohnungen in einem Pflegeheim"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "Ja - derzeit nur im Geschäftsgebiet (nicht im ganzen Finanzierungsgebiet)"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "Möglich, mit Eigenkapital (mind 30 % auf KP)"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Lörrach-Rheinfelden",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Minden-Lübbecke",
+      "value": "Einzelfallentscheidung > bitte Voranfrage stellen"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Ja - Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "nein"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Ja > Absicherung durch anderweitige Immobilie"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Möglich, Einzelfallprüfung"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Ja, Pflegeappartements (nach vorheriger Bewertung des Gesamtobjekts) möglich"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Ja, aber individuelle Voranfrage"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "Ja nur, wenn es mit anderen lastenfreien Immobilien abgesichert werden kann."
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "Ja - bei Top-Bonität und sehr hohem Eigenkapitaleinsatz (ab ca. 40%)"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Ja - Ausschließlich im Landkreis Göttingen"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "Ja - finanzierendes Objekt im Landkreis"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Ja\nbitte detaillierte Objektunterlagen einreichen > gesonderte Prüfung der Finanzierung"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Rhein-Haardt",
+      "value": "Ja, vertragliche Vereinbarung müssen dabei sein, z.B. Mietvertrag"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "Ja, individuelle Abstimmung der Finanzierungsanfrage\n \n> Spezialimmobilien im Geschäftsgebiet (Stadt und Landkreis Augsburg, Landkreis Unterallgäu, Landkreis Lindau (Bodensee) und Landkreis Günzburg) sind auf Anfrage grundsätzlich finanzierbar.\nIn der Regel begleitet die Spk aber hier keine Vollfinanzierungen sondern besteht auf 10-20% echtes EK – je nach Immobilie"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Ja - Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Ja - Mind. 20% + NK als EK"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "Ja - Erhöhte Tilgung, Einzelfallabstimmung, Wichtig: Betreiber der Pflegeeinrichtung"
+    },
+    {
+      "bank": "Sparkasse Westmünsterland",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Wilhelmshaven",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Wittgenstein",
+      "value": "Ja - Individuelle Abstimmung erforderlich"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Ja, nur im Geschäftsgebiet"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "Ja - Nur im Ausleihbezirk, Einzelfallentscheidung; gute Bonität und Eigenkapitaleinsatz vorausgesetzt"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Einzelfallentscheidung \nDie Finanzierung erfolgt nur bei bester Bonität und unter Einsatz von angemessenem Eigenkapital (mind. 30%)."
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "nein"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Rahden",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Ja, wird wie normale ETW behandelt"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "Pflegeimmobilien nur wenn sie nicht von einem Träger betrieben werden und voll eigennutzungsfähig sind. Hintergrund ist die Verwertbarkeit."
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "Nein, kein betreutetes Wohnen"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "Ja - Max. 80% Beleihungsauslauf."
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Ja, die Bank benötigt immer ausführliche Unterlagen zum Betreiber und es erfolgt ein Konditionsaufschlag, da diese nach Ertragswert bewertet werden müssen. Es ist immer eine Sonderentscheidung."
+    },
+    {
+      "bank": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "Ja - Einzelfallentscheidung, manuelle Voranfrage stellen"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "Ja - gesonderte Anfrage, da Bewertung nach Ertragswertverfahren vorgenommen werden muss."
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Gronau-Ahaus eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Ja - max. BLA 60%"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "Ja - Rentabilitätsvorschau sowie Beleihungswertgutachten (VR-Wert) notwendig, Kosten für Beleihungswertgutachten trägt der Investor"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Einzelfallentscheidung wenn nicht an eine juristische Person verpachtet werden (z.B. ein Pflegeunternehmen). Der Eigentümer muss frei entscheiden können, an wen er die Wohnung vermietet und sie muss eigennutzungsfähig sein."
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Ja\nNur im Kerngeschäftsgebiet (Reutlingen, Göppingen, Rems-Murr, Böblingen, Alb-Donau- Kreis, Tübingen)"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "Ja - Regional machbar (Voranfrage stellen)"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "Nein - muss über weitere Immobilie besichert werden"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "Ja - zur Selbstnutzung"
+    },
+    {
+      "bank": "Volksbank Seesen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Werden im Plattformgeschäft nicht finanziert"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "Möglich, Einzelfallentscheidung >Details im pdf \"Finanzierung von Pflege- und Spezialimmobilien\""
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "ab 18.03.2025:\n\nNeu: ab sofort finanziert der Volkswohlbund einzelne Wohneinheiten in Pflegeeinrichtungen/Betreutem Wohnen. Hierfür gelten folgende Kriterien:\n\nEs muss sich um eine autarke, in sich abgeschlossene, Wohneinheit handeln (keine „Pflegezimmer“).\nDie Wohneinheiten müssen grundsätzlich über eine Mindestgröße von 40 qm verfügen.\nSofern der Volkswohlbund bei der Erstprüfung Kenntnis davon erlangen, dass der zuständige Pflege-/Betreuungsdienst über eine schlechte Reputation verfügt, wird die Anfrage abgelehnt.\nDie aktuellen Darlehensbedingungen hinsichtlich Maximal-Alter der Darlehensnehmer bleiben unverändert bestehen."
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "Ja - Ansatz der Miete gemäß Mietvertrag"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "Ja - Bewertung erfolgt durch VR-Bank, da Verwertung eine Besonderheit darstellt"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Ja - Beleihungswertermittlung nach Ertragswert erforderlich"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Pflegeimmobilien werden nur in Ausnahmefällen bei bonitätsstarken Kunden finanziert. Erheblicher EK-Einsatz erwartet, nach Finanzierung müssen weitere liquide Reserven vorhanden sein und der Kapitaldienst muss ohne die Mieteinnahmen aus der Pflegeimmobilie darstellbar sein.\nZudem darf die Kredithöhe max. 80% des Kaufpreises und die Kreditlaufzeit max. 25-30 Jahre betragen."
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Ja, das Grundbuch und die Einzelheiten sind zu beachten"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Memmingen",
+      "value": "Ja - Finanzierungen zu 100% möglich - Bitte Voranfrage stellen (Pflegeappartements ohne Küche/Bad werden noch nicht finanziert)"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "Ja, es erfolgt eine individuelle Kondionsberechnung"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "nein"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "Ja, aber Einzelfallbetrachtung"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "Ja - Bewertung im Ertragswert u. Abschlag wg. eingeschränkter Nutzbarkeit --> höherer Blankoanteil, ggf. Konditionenaufschlag\n und erhöhter Eigenkapitaleinsatz (mindestens 30%) erforderlich"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Ja, ggf. muss eine Zusatzsicherheit gestellt werden. Keine Vollfinanzierungen. Max. 60% BLA. Mindestwohnfläche 40 qm. Bewertung nach Ertragswertverfahren; Grundbuch Abt. II darf nichts stehen"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Ja - Erfahrungsgemäß kommt es bei der Bewertung von \"Pflegeimmobilien\" häufig zu einem sehr schlechten Beleihungswert, so dass ein deutlich über die Kaufnebenkosten hinaus erhöhter Eigenkapitaleinsatz und eine erhöhte Tilgung erforderlich wird. Die kalkulatorische Laufzeit von Darlehen mit \"Pflegeimmobilien\" als Besicherungsobjekt sollte 15, max. 20 Jahre nicht überschreiten."
+    }
+  ]
+}

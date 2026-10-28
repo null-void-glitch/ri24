@@ -1,0 +1,391 @@
+{
+  "bank": "BKM - Bausparkasse Mainz AG",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine Einschränkung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "KM Service-Paket\n\nGegen Entrichtung eines einmaligen Serviceentgeltes kann sich der Darlehensnehmer ein Servicepaket sichern, das neben der Sicherheit auch die heute erforderliche Flexibilität bietet.\nDas Servicepaket besteht aus folgenden vier Servicevorteilen:\n1. Anspruch auf eine kostenlose Marktwerteinschätzung in einem 5-Jahres-Turnus während der gesamten\nDarlehenslaufzeit. Maximal dreimal, bezogen auf das Beleihungsobjekt. Vorteil: Der Kunde kennt den aktuellen Wert seines Objektes, um z.B. einen Objektverkauf vorzubereiten oder sein Gesamtvermögen einzuschätzen. \n2. Anspruch auf kostenlose Erstellung und Einstellung eines Verkaufsexposés in max. 3 Internet-Immobilienportalen für insgesamt 6 Monate während der Darlehenslaufzeit. Für das Beleihungsobjekt oder ein anderes Objekt des Kunden.\nVorteil: Der Kunde bietet kostenlos seine Immobilie ohne Makler professionell aufbereitet im Internet an, wenn er z.B.unabhängig von einem Makler sein möchte.\n3. Möglichkeiten des Wechsels des Pfandobjektes ohne gesonderte Kosten bei BKM unter Beibehaltung des\nDarlehensvertrages (vorbehaltlich vorheriger beleihungstechnischer Prüfung) Vorteil: Der Kunde übernimmt nach dem Verkauf seine vorhandene BKM-Finanzierung ohne weitere Kosten auf das neue Objekt. \n4. Recht auf eine einmalige Sondertilgung von bis zu 10% der ursprünglichen Darlehenssumme zu einem beliebigen Zeitpunkt bis zur Schlusstilgung des Darlehens. Vorteil: Der Kunde kann flexibel seinen finanziellen Spielraum nutzen und eine Sondertilgung leisten, den er zum Beispiel durch einen freigewordenen Sparvertrag, eine Erbschaft oder eine Schenkung erhalten hat."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 6"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12 (Anschlussfinanzierung)"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "25.000 - 1.000.000\n> 1.000.000 Einzelfallentscheidung\n \nBlankodarlehen: 5.000-50.000 €"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten, Mindestbetrag für das KfW Darlehen: 10.000 Euro"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10, 12, 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "74940007"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, Mindestbetrag für das KfW Darlehen: 10.000 Euro"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angebot über BaufiSmart"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Nein, Ausnahme: BKM Service-Paket wurde abgeschlossen (s. Hinweis Besonderheiten Finanzierungslösung -  Allgemein)"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 % bis max. 10 %"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "kostenloser Tilgungssatzwechsel zwischen 1 % und 5 % im Einzelfall auf Anfrage"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Massiv-, Fertig-, und Fachwerkhäuser"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "Min. 75 €"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - muss dauerhaft bewohnbar sein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Hochhäuser"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Möglich - der gewerbliche Anteil darf 50 % nicht übersteigen"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW\n(keine Finanzierung von ETWs in Zwei- oder Dreifamilienhäusern)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "GSD - Wertermittlungsverfahren auf der Plattform: Gestehungskosten"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit, Bodenrichtwert mind. 75 Euro / qm"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Baugrundstück (nur baureife Grundstücke bis max. 70 %)"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, keine Wohnrechte, Nießbrauch"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, Vorlast Abt. III inkl. Kapitalisierung bis max. 50 % inkl. BKM Darlehen möglich"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Objekte aus Zwangsversteigerung grundsätzlichmöglich, Vorlage einer aktuellen Wertermittlung erforderlich  kein Gewerbe"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Gemäß Nachweis, Weiterbeschäftigung innerhalb 12 Monate"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: nein\nKindesunterhalt: Ja\n\n50% werden angesetzt\nprivate Vereinbarungen: werden nicht akzeptiert"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Kapitalanleger:\nFinanzierung von Kapitalanlegern möglich, Mindesteinkommen 50.000 Euro brutto p.a."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4\n \nIst eine GBR Sicherungsgeber, wünscht die BKM eine Selbstauskunft & Schufa von  allen Sicherungsgebern"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja\nFinanzierungen mit Sondersituation möglich, z. B. seit nur 2 Jahren in der Branche tätig oder mit plausibilisierten negativen Ergebnissen"
+    },
+    "getrennt-lebende-darlehensnehmer": {
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Ja > privatschriftliche Trennungs-/ Unterhaltsvereinbarung erforderlich"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "möglich, Mindesteinkommen 50.000 Euro brutto p.a."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. Alter: 85\nDarlehen muss innerhalb der statistischenLebenserwartung zurückgeführt werden oder Mithaft durch spätere Erben bzw. Nachweis von im Aufbau befindlicher Vermögenswerte"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja\nFinanzierungen mit Sondersituation möglich, z. B. seit nur 2 Jahren in der Branche tätig oder mit plausibilisierten negativen Ergebnissen"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Möglich: Entweder Ablösung durch Bank bei enger Bonität, oder Auszahlung an die Kunden"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, Beratungsdokumentation der Plattform ist bei Antragseinreichung mitzusenden"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload, per EMail"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DV per Post an DN"
+    }
+  },
+  "company_id": "1b87e802cb34da52a3332f54c927fdcc",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/1b87e802cb34da52a3332f54c927fdcc",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "19.03.26",
+  "recent_news": [
+    {
+      "date": "06.06.25",
+      "title": "BKM - Bausparkasse Mainz - Das Mainzer Direkt-Darlehen (MDD) jetzt auch auf BaufiSmart"
+    },
+    {
+      "date": "23.12.24",
+      "title": "BKM - Hinweise zu den einzureichenden Unterlagen"
+    },
+    {
+      "date": "18.01.23",
+      "title": "BKM - Neuigkeiten zum Bausparen"
+    },
+    {
+      "date": "18.01.23",
+      "title": "BKM - Reduzierung der Konditionsaufschläge"
+    },
+    {
+      "date": "22.11.22",
+      "title": "BKM - Änderungen der Finanzierungskriterien"
+    }
+  ]
+}

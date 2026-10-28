@@ -1,0 +1,48 @@
+Login ok (Session rvn3vlaqa3), 4 Worker-Seiten.
+Region: hli24 (Havelland), Slug: /havelland/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+17 Makler gefunden.
+
+  [lesen] ACCESSUS Immobilien: 282 W.  (profil_uri: '{region}/anbieter/accessus-immobilien/')
+  [lesen] Dahnhaus GmbH: leer  (profil_uri: '{region}/anbieter/dahnhaus-gmbh/')
+  [lesen] Ella Immobilien: 270 W.  (profil_uri: '{region}/anbieter/ella-immobilien/')
+  [lesen] EMA IMMOBILIEN GmbH: 304 W.  (profil_uri: '{region}/anbieter/ema-immobilien-gmbh/')
+  [lesen] Freie Handelsvertretung Schwabenhaus GmbH: 308 W.  (profil_uri: '{region}/anbieter/freie-handelsvertretung-schwabenhaus-gmbh/')
+  [lesen] G. Kaster Immobilien-Makler: 303 W.  (profil_uri: '{region}/anbieter/g-kaster-immobilien-makler/')
+  [lesen] GBimmocenter Günther Berthold: 279 W.  (profil_uri: '{region}/anbieter/gbimmocenter-guenther-berthold/')
+  [lesen] Gröschel Immobilien: 289 W.  (profil_uri: '{region}/anbieter/groeschel-immobilien/')
+  [lesen] Kastell Immobilien: 247 W.  (profil_uri: '{region}/anbieter/kastell-immobilien/')
+  [lesen] Land & Raum Immobilien: 299 W.  (profil_uri: '{region}/anbieter/land/')
+  [lesen] MAK Immobilien- und Maklermanagement e.K.: 296 W.  (profil_uri: '{region}/anbieter/mak-immobilien-und-maklermanagement-e-k/')
+  [lesen] Martin Schubert Immobilien: 294 W.  (profil_uri: '{region}/anbieter/martin-schubert-immobilien/')
+  [lesen] MCK Real Estate & Beteiligung GmbH: 280 W.  (profil_uri: '{region}/anbieter/mck-real-estate-und-beteiligung-gmbh/')
+  [lesen] RE/MAX Deluxe Immobilien: 302 W.  (profil_uri: '{region}/anbieter/re-max-deluxe-immobilien/')
+  [lesen] Steinhardt Immobilien: 301 W.  (profil_uri: '{region}/anbieter/steinhardt-immobilien/')
+  [lesen] Tryonadt Immobilien: 278 W.  (profil_uri: '{region}/anbieter/tryonadt-immobilien/')
+  [lesen] Zengeler Stephan Immobilien: 314 W.  (profil_uri: '{region}/anbieter/zengeler-stephan-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   17/17
+Leere Felder:          1
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     0
+Zu löschende Texte:    0
+
+============================================================
+Phase 4: 1 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Dahnhaus GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/dahnhaus-gmbh/')
+  [befüllt 1] Dahnhaus GmbH — 277 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region hli24 (Havelland)
+============================================================
+  Gelesen:        17/17
+  Gelöscht:       0
+  Befüllt:        1
+  Log:            rollout_region_log.csv

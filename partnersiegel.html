@@ -1,0 +1,2220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partnersiegel – BaufiPrime | Regionalimmobilien24</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f6f9;
+    color: #1a1a2e;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #0a2540;
+    color: #fff;
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+  }
+  header img.logo {
+    width: 220px;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin-inline: auto;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -.02em;
+  }
+  header p {
+    margin-top: .5rem;
+    font-size: .95rem;
+    opacity: .75;
+    max-width: 560px;
+    margin-inline: auto;
+    line-height: 1.5;
+  }
+
+  .search-bar {
+    max-width: 680px;
+    margin: 2rem auto 1rem;
+    padding: 0 1rem;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: .75rem 1.1rem;
+    border: 1.5px solid #dde2ec;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background: #fff;
+    transition: border-color .15s;
+  }
+  .search-bar input:focus { border-color: #2563eb; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 0 1rem;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1.5px solid #e5e9f2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .15s;
+  }
+  .card:hover { box-shadow: 0 4px 18px rgba(0,0,0,.08); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9rem 1rem .8rem;
+    border-bottom: 1px solid #f0f2f7;
+    gap: .5rem;
+  }
+  .name {
+    font-weight: 600;
+    font-size: .97rem;
+    display: block;
+  }
+  .region {
+    font-size: .78rem;
+    color: #6b7280;
+    margin-top: .1rem;
+    display: block;
+  }
+
+  .copy-btn {
+    flex-shrink: 0;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: .4rem .85rem;
+    font-size: .82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s, transform .1s;
+    white-space: nowrap;
+  }
+  .copy-btn:hover { background: #1d4ed8; }
+  .copy-btn:active { transform: scale(.95); }
+  .copy-btn.copied { background: #16a34a; }
+
+  .preview {
+    background: #f8fafc;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #f0f2f7;
+  }
+
+  pre.code {
+    font-family: "Fira Mono", "Cascadia Code", "Consolas", monospace;
+    font-size: .72rem;
+    line-height: 1.55;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: .85rem 1rem;
+    overflow-x: auto;
+    white-space: pre;
+    flex: 1;
+  }
+
+  .lp-link {
+    display: block;
+    font-size: .75rem;
+    color: #2563eb;
+    padding: .55rem 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-top: 1px solid #f0f2f7;
+  }
+  .lp-link:hover { text-decoration: underline; }
+
+  .no-results {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 1rem;
+    padding: 3rem 0;
+    display: none;
+    grid-column: 1 / -1;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Kooperationspartner BaufiPrime">
+  <h1>Ihr persönliches Partnersiegel</h1>
+  <p>Finden Sie Ihren Namen in der Liste, kopieren Sie den HTML-Code und fügen Sie ihn auf Ihrer eigenen Website ein. Das Siegel verlinkt direkt auf Ihre persönliche Baufi-Landingpage.</p>
+</header>
+
+<div class="search-bar">
+  <input type="search" id="search" placeholder="Name oder Region suchen …" oninput="filterCards(this.value)">
+</div>
+
+<div class="grid" id="grid">
+
+    <div class="card" id="stefan-palme">
+      <div class="card-header">
+        <div>
+          <span class="name">Stefan Palme</span>
+          <span class="region">Augsburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/augsburg/baufinanzierung/stefan-palme/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/augsburg/baufinanzierung/stefan-palme/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/augsburg/baufinanzierung/stefan-palme/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/augsburg/baufinanzierung/stefan-palme/</a>
+    </div>
+
+    <div class="card" id="daniel-albert">
+      <div class="card-header">
+        <div>
+          <span class="name">Daniel Albert</span>
+          <span class="region">Bayerisch Schwaben</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/daniel-albert/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/daniel-albert/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/daniel-albert/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/daniel-albert/</a>
+    </div>
+
+    <div class="card" id="robert-regler">
+      <div class="card-header">
+        <div>
+          <span class="name">Robert Regler</span>
+          <span class="region">Bayerisch Schwaben</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/robert-regler/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/robert-regler/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/robert-regler/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/bayerisch-schwaben/baufinanzierung/robert-regler/</a>
+    </div>
+
+    <div class="card" id="andreas-schulze">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Schulze</span>
+          <span class="region">Berlin</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/andreas-schulze/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/andreas-schulze/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/andreas-schulze/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/berlin/baufinanzierung/andreas-schulze/</a>
+    </div>
+
+    <div class="card" id="katrin-johst-mandel">
+      <div class="card-header">
+        <div>
+          <span class="name">Katrin Johst Mandel</span>
+          <span class="region">Berlin</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/katrin-johst-mandel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/katrin-johst-mandel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/berlin/baufinanzierung/katrin-johst-mandel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/berlin/baufinanzierung/katrin-johst-mandel/</a>
+    </div>
+
+    <div class="card" id="jasmin-baruschke">
+      <div class="card-header">
+        <div>
+          <span class="name">Jasmin Baruschke</span>
+          <span class="region">Braunschweig</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/braunschweig/baufinanzierung/jasmin-baruschke/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/braunschweig/baufinanzierung/jasmin-baruschke/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/braunschweig/baufinanzierung/jasmin-baruschke/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/braunschweig/baufinanzierung/jasmin-baruschke/</a>
+    </div>
+
+    <div class="card" id="silvia-liebeskind">
+      <div class="card-header">
+        <div>
+          <span class="name">Silvia Liebeskind</span>
+          <span class="region">Chemnitz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/chemnitz/baufinanzierung/silvia-liebeskind/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/chemnitz/baufinanzierung/silvia-liebeskind/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/chemnitz/baufinanzierung/silvia-liebeskind/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/chemnitz/baufinanzierung/silvia-liebeskind/</a>
+    </div>
+
+    <div class="card" id="claudia-volke-herrmann">
+      <div class="card-header">
+        <div>
+          <span class="name">Claudia Volke Herrmann</span>
+          <span class="region">Dresden</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/dresden/baufinanzierung/claudia-volke-herrmann/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/dresden/baufinanzierung/claudia-volke-herrmann/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/dresden/baufinanzierung/claudia-volke-herrmann/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/dresden/baufinanzierung/claudia-volke-herrmann/</a>
+    </div>
+
+    <div class="card" id="bernd-kreie">
+      <div class="card-header">
+        <div>
+          <span class="name">Bernd Kreie</span>
+          <span class="region">Duisburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/duisburg/baufinanzierung/bernd-kreie/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/duisburg/baufinanzierung/bernd-kreie/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/duisburg/baufinanzierung/bernd-kreie/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/duisburg/baufinanzierung/bernd-kreie/</a>
+    </div>
+
+    <div class="card" id="andreas-engelbrecht-eichstaedt">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Engelbrecht Eichstaedt</span>
+          <span class="region">Erfurt</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/erfurt/baufinanzierung/andreas-engelbrecht-eichstaedt/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/erfurt/baufinanzierung/andreas-engelbrecht-eichstaedt/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/erfurt/baufinanzierung/andreas-engelbrecht-eichstaedt/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/erfurt/baufinanzierung/andreas-engelbrecht-eichstaedt/</a>
+    </div>
+
+    <div class="card" id="rainer-veigel">
+      <div class="card-header">
+        <div>
+          <span class="name">Rainer Veigel</span>
+          <span class="region">Erzgebirge</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/rainer-veigel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/rainer-veigel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/rainer-veigel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/rainer-veigel/</a>
+    </div>
+
+    <div class="card" id="soeren-uhlig">
+      <div class="card-header">
+        <div>
+          <span class="name">Soeren Uhlig</span>
+          <span class="region">Erzgebirge</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/soeren-uhlig/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/soeren-uhlig/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/soeren-uhlig/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/erzgebirge/baufinanzierung/soeren-uhlig/</a>
+    </div>
+
+    <div class="card" id="dirk-schwarz">
+      <div class="card-header">
+        <div>
+          <span class="name">Dirk Schwarz</span>
+          <span class="region">Frankfurt</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/frankfurt/baufinanzierung/dirk-schwarz/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/frankfurt/baufinanzierung/dirk-schwarz/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/frankfurt/baufinanzierung/dirk-schwarz/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/frankfurt/baufinanzierung/dirk-schwarz/</a>
+    </div>
+
+    <div class="card" id="nancy-radde">
+      <div class="card-header">
+        <div>
+          <span class="name">Nancy Radde</span>
+          <span class="region">Halle</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/halle/baufinanzierung/nancy-radde/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/halle/baufinanzierung/nancy-radde/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/halle/baufinanzierung/nancy-radde/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/halle/baufinanzierung/nancy-radde/</a>
+    </div>
+
+    <div class="card" id="oliver-thier">
+      <div class="card-header">
+        <div>
+          <span class="name">Oliver Thier</span>
+          <span class="region">Hamburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/hamburg/baufinanzierung/oliver-thier/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/hamburg/baufinanzierung/oliver-thier/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/hamburg/baufinanzierung/oliver-thier/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/hamburg/baufinanzierung/oliver-thier/</a>
+    </div>
+
+    <div class="card" id="dana-reibe">
+      <div class="card-header">
+        <div>
+          <span class="name">Dana Reibe</span>
+          <span class="region">Harz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/harz/baufinanzierung/dana-reibe/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/harz/baufinanzierung/dana-reibe/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/harz/baufinanzierung/dana-reibe/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/harz/baufinanzierung/dana-reibe/</a>
+    </div>
+
+    <div class="card" id="joerg-kintzel">
+      <div class="card-header">
+        <div>
+          <span class="name">Joerg Kintzel</span>
+          <span class="region">Havelland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/joerg-kintzel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/joerg-kintzel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/joerg-kintzel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/havelland/baufinanzierung/joerg-kintzel/</a>
+    </div>
+
+    <div class="card" id="uwe-madeja">
+      <div class="card-header">
+        <div>
+          <span class="name">Uwe Madeja</span>
+          <span class="region">Havelland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/uwe-madeja/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/uwe-madeja/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/havelland/baufinanzierung/uwe-madeja/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/havelland/baufinanzierung/uwe-madeja/</a>
+    </div>
+
+    <div class="card" id="lambert-adams">
+      <div class="card-header">
+        <div>
+          <span class="name">Lambert Adams</span>
+          <span class="region">Holstein</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/lambert-adams/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/lambert-adams/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/lambert-adams/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/holstein/baufinanzierung/lambert-adams/</a>
+    </div>
+
+    <div class="card" id="ron-westphal">
+      <div class="card-header">
+        <div>
+          <span class="name">Ron Westphal</span>
+          <span class="region">Holstein</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/ron-westphal/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/ron-westphal/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/ron-westphal/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/holstein/baufinanzierung/ron-westphal/</a>
+    </div>
+
+    <div class="card" id="willi-schikora">
+      <div class="card-header">
+        <div>
+          <span class="name">Willi Schikora</span>
+          <span class="region">Holstein</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/willi-schikora/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/willi-schikora/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/holstein/baufinanzierung/willi-schikora/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/holstein/baufinanzierung/willi-schikora/</a>
+    </div>
+
+    <div class="card" id="oliver-gehrk">
+      <div class="card-header">
+        <div>
+          <span class="name">Oliver Gehrk</span>
+          <span class="region">Kiel</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/kiel/baufinanzierung/oliver-gehrk/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/kiel/baufinanzierung/oliver-gehrk/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/kiel/baufinanzierung/oliver-gehrk/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/kiel/baufinanzierung/oliver-gehrk/</a>
+    </div>
+
+    <div class="card" id="andreas-beitzen">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Beitzen</span>
+          <span class="region">Koeln</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/koeln/baufinanzierung/andreas-beitzen/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/koeln/baufinanzierung/andreas-beitzen/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/koeln/baufinanzierung/andreas-beitzen/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/koeln/baufinanzierung/andreas-beitzen/</a>
+    </div>
+
+    <div class="card" id="mike-schmidt">
+      <div class="card-header">
+        <div>
+          <span class="name">Mike Schmidt</span>
+          <span class="region">Leipzig</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/mike-schmidt/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/mike-schmidt/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/mike-schmidt/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/leipzig/baufinanzierung/mike-schmidt/</a>
+    </div>
+
+    <div class="card" id="peggy-rodewald">
+      <div class="card-header">
+        <div>
+          <span class="name">Peggy Rodewald</span>
+          <span class="region">Leipzig</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/peggy-rodewald/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/peggy-rodewald/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/leipzig/baufinanzierung/peggy-rodewald/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/leipzig/baufinanzierung/peggy-rodewald/</a>
+    </div>
+
+    <div class="card" id="christoph-soetebeer">
+      <div class="card-header">
+        <div>
+          <span class="name">Christoph Soetebeer</span>
+          <span class="region">Lueneburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/christoph-soetebeer/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/christoph-soetebeer/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/christoph-soetebeer/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/christoph-soetebeer/</a>
+    </div>
+
+    <div class="card" id="marcus-brinkwirth">
+      <div class="card-header">
+        <div>
+          <span class="name">Marcus Brinkwirth</span>
+          <span class="region">Lueneburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/marcus-brinkwirth/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/marcus-brinkwirth/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/marcus-brinkwirth/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/lueneburg/baufinanzierung/marcus-brinkwirth/</a>
+    </div>
+
+    <div class="card" id="nicole-hartig">
+      <div class="card-header">
+        <div>
+          <span class="name">Nicole Hartig</span>
+          <span class="region">Magdeburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/nicole-hartig/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/nicole-hartig/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/nicole-hartig/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/nicole-hartig/</a>
+    </div>
+
+    <div class="card" id="thomas-zenker">
+      <div class="card-header">
+        <div>
+          <span class="name">Thomas Zenker</span>
+          <span class="region">Magdeburg</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/thomas-zenker/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/thomas-zenker/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/thomas-zenker/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/magdeburg/baufinanzierung/thomas-zenker/</a>
+    </div>
+
+    <div class="card" id="patrick-funke">
+      <div class="card-header">
+        <div>
+          <span class="name">Patrick Funke</span>
+          <span class="region">Mainz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mainz/baufinanzierung/patrick-funke/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mainz/baufinanzierung/patrick-funke/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mainz/baufinanzierung/patrick-funke/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mainz/baufinanzierung/patrick-funke/</a>
+    </div>
+
+    <div class="card" id="christine-delamotte">
+      <div class="card-header">
+        <div>
+          <span class="name">Christine Delamotte</span>
+          <span class="region">Mittelfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/christine-delamotte/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/christine-delamotte/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/christine-delamotte/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/christine-delamotte/</a>
+    </div>
+
+    <div class="card" id="jean-claude-kuehne">
+      <div class="card-header">
+        <div>
+          <span class="name">Jean Claude Kuehne</span>
+          <span class="region">Mittelfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/jean-claude-kuehne/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/jean-claude-kuehne/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/jean-claude-kuehne/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/jean-claude-kuehne/</a>
+    </div>
+
+    <div class="card" id="niklas-lechner">
+      <div class="card-header">
+        <div>
+          <span class="name">Niklas Lechner</span>
+          <span class="region">Mittelfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/niklas-lechner/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/niklas-lechner/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/niklas-lechner/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/niklas-lechner/</a>
+    </div>
+
+    <div class="card" id="peter-reuter">
+      <div class="card-header">
+        <div>
+          <span class="name">Peter Reuter</span>
+          <span class="region">Mittelfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/peter-reuter/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/peter-reuter/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/peter-reuter/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/peter-reuter/</a>
+    </div>
+
+    <div class="card" id="philip-delamotte">
+      <div class="card-header">
+        <div>
+          <span class="name">Philip Delamotte</span>
+          <span class="region">Mittelfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/philip-delamotte/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/philip-delamotte/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/philip-delamotte/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelfranken/baufinanzierung/philip-delamotte/</a>
+    </div>
+
+    <div class="card" id="daniel-schwan">
+      <div class="card-header">
+        <div>
+          <span class="name">Daniel Schwan</span>
+          <span class="region">Mittelhessen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelhessen/baufinanzierung/daniel-schwan/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelhessen/baufinanzierung/daniel-schwan/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelhessen/baufinanzierung/daniel-schwan/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelhessen/baufinanzierung/daniel-schwan/</a>
+    </div>
+
+    <div class="card" id="jan-doberenz">
+      <div class="card-header">
+        <div>
+          <span class="name">Jan Doberenz</span>
+          <span class="region">Mittelsachsen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/mittelsachsen/baufinanzierung/jan-doberenz/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/mittelsachsen/baufinanzierung/jan-doberenz/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/mittelsachsen/baufinanzierung/jan-doberenz/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/mittelsachsen/baufinanzierung/jan-doberenz/</a>
+    </div>
+
+    <div class="card" id="anton-neumeier">
+      <div class="card-header">
+        <div>
+          <span class="name">Anton Neumeier</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/anton-neumeier/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/anton-neumeier/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/anton-neumeier/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/anton-neumeier/</a>
+    </div>
+
+    <div class="card" id="christiana-kurczyk">
+      <div class="card-header">
+        <div>
+          <span class="name">Christiana Kurczyk</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/christiana-kurczyk/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/christiana-kurczyk/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/christiana-kurczyk/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/christiana-kurczyk/</a>
+    </div>
+
+    <div class="card" id="guido-allmich">
+      <div class="card-header">
+        <div>
+          <span class="name">Guido Allmich</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/guido-allmich/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/guido-allmich/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/guido-allmich/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/guido-allmich/</a>
+    </div>
+
+    <div class="card" id="hubert-ebertseder">
+      <div class="card-header">
+        <div>
+          <span class="name">Hubert Ebertseder</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/hubert-ebertseder/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/hubert-ebertseder/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/hubert-ebertseder/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/hubert-ebertseder/</a>
+    </div>
+
+    <div class="card" id="melanie-gmeiner">
+      <div class="card-header">
+        <div>
+          <span class="name">Melanie Gmeiner</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/melanie-gmeiner/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/melanie-gmeiner/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/melanie-gmeiner/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/melanie-gmeiner/</a>
+    </div>
+
+    <div class="card" id="miroslav-papac">
+      <div class="card-header">
+        <div>
+          <span class="name">Miroslav Papac</span>
+          <span class="region">Muenchen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/miroslav-papac/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/miroslav-papac/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muenchen/baufinanzierung/miroslav-papac/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muenchen/baufinanzierung/miroslav-papac/</a>
+    </div>
+
+    <div class="card" id="joerg-edelbrock">
+      <div class="card-header">
+        <div>
+          <span class="name">Joerg Edelbrock</span>
+          <span class="region">Muensterland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/joerg-edelbrock/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/joerg-edelbrock/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/joerg-edelbrock/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muensterland/baufinanzierung/joerg-edelbrock/</a>
+    </div>
+
+    <div class="card" id="marc-stoll">
+      <div class="card-header">
+        <div>
+          <span class="name">Marc Stoll</span>
+          <span class="region">Muensterland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/marc-stoll/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/marc-stoll/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/muensterland/baufinanzierung/marc-stoll/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/muensterland/baufinanzierung/marc-stoll/</a>
+    </div>
+
+    <div class="card" id="andre-stempel">
+      <div class="card-header">
+        <div>
+          <span class="name">Andre Stempel</span>
+          <span class="region">Niederrhein</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/andre-stempel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/andre-stempel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/andre-stempel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/andre-stempel/</a>
+    </div>
+
+    <div class="card" id="michael-branetzki">
+      <div class="card-header">
+        <div>
+          <span class="name">Michael Branetzki</span>
+          <span class="region">Niederrhein</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/michael-branetzki/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/michael-branetzki/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/michael-branetzki/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/niederrhein/baufinanzierung/michael-branetzki/</a>
+    </div>
+
+    <div class="card" id="diana-helm">
+      <div class="card-header">
+        <div>
+          <span class="name">Diana Helm</span>
+          <span class="region">Nordsachsen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/diana-helm/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/diana-helm/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/diana-helm/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/diana-helm/</a>
+    </div>
+
+    <div class="card" id="frank-lohse">
+      <div class="card-header">
+        <div>
+          <span class="name">Frank Lohse</span>
+          <span class="region">Nordsachsen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/frank-lohse/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/frank-lohse/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/frank-lohse/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/frank-lohse/</a>
+    </div>
+
+    <div class="card" id="matthias-dickes">
+      <div class="card-header">
+        <div>
+          <span class="name">Matthias Dickes</span>
+          <span class="region">Nordsachsen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/matthias-dickes/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/matthias-dickes/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/matthias-dickes/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/matthias-dickes/</a>
+    </div>
+
+    <div class="card" id="max-riesenberg">
+      <div class="card-header">
+        <div>
+          <span class="name">Max Riesenberg</span>
+          <span class="region">Nordsachsen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/max-riesenberg/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/max-riesenberg/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/max-riesenberg/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/nordsachsen/baufinanzierung/max-riesenberg/</a>
+    </div>
+
+    <div class="card" id="andreas-berndt">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Berndt</span>
+          <span class="region">Oberbayern</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/andreas-berndt/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/andreas-berndt/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/andreas-berndt/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/andreas-berndt/</a>
+    </div>
+
+    <div class="card" id="florian-gleissner">
+      <div class="card-header">
+        <div>
+          <span class="name">Florian Gleissner</span>
+          <span class="region">Oberbayern</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/florian-gleissner/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/florian-gleissner/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/florian-gleissner/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/florian-gleissner/</a>
+    </div>
+
+    <div class="card" id="mariana-wehrhahn">
+      <div class="card-header">
+        <div>
+          <span class="name">Mariana Wehrhahn</span>
+          <span class="region">Oberbayern</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/mariana-wehrhahn/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/mariana-wehrhahn/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/mariana-wehrhahn/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/mariana-wehrhahn/</a>
+    </div>
+
+    <div class="card" id="thorsten-stehmann">
+      <div class="card-header">
+        <div>
+          <span class="name">Thorsten Stehmann</span>
+          <span class="region">Oberbayern</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/thorsten-stehmann/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/thorsten-stehmann/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/thorsten-stehmann/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/thorsten-stehmann/</a>
+    </div>
+
+    <div class="card" id="william-schwass">
+      <div class="card-header">
+        <div>
+          <span class="name">William Schwass</span>
+          <span class="region">Oberbayern</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/william-schwass/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/william-schwass/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/william-schwass/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberbayern/baufinanzierung/william-schwass/</a>
+    </div>
+
+    <div class="card" id="joerg-luebben">
+      <div class="card-header">
+        <div>
+          <span class="name">Joerg Luebben</span>
+          <span class="region">Oberlausitz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberlausitz/baufinanzierung/joerg-luebben/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberlausitz/baufinanzierung/joerg-luebben/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberlausitz/baufinanzierung/joerg-luebben/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberlausitz/baufinanzierung/joerg-luebben/</a>
+    </div>
+
+    <div class="card" id="ewald-madl">
+      <div class="card-header">
+        <div>
+          <span class="name">Ewald Madl</span>
+          <span class="region">Oberpfalz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/ewald-madl/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/ewald-madl/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/ewald-madl/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/ewald-madl/</a>
+    </div>
+
+    <div class="card" id="juergen-schott">
+      <div class="card-header">
+        <div>
+          <span class="name">Juergen Schott</span>
+          <span class="region">Oberpfalz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/juergen-schott/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/juergen-schott/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/juergen-schott/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oberpfalz/baufinanzierung/juergen-schott/</a>
+    </div>
+
+    <div class="card" id="karl-heinz-schuh">
+      <div class="card-header">
+        <div>
+          <span class="name">Karl Heinz Schuh</span>
+          <span class="region">Oderland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/oderland/baufinanzierung/karl-heinz-schuh/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/oderland/baufinanzierung/karl-heinz-schuh/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/oderland/baufinanzierung/karl-heinz-schuh/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/oderland/baufinanzierung/karl-heinz-schuh/</a>
+    </div>
+
+    <div class="card" id="horst-grueger">
+      <div class="card-header">
+        <div>
+          <span class="name">Horst Grueger</span>
+          <span class="region">Rhein Erft Kreis</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/horst-grueger/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/horst-grueger/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/horst-grueger/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/horst-grueger/</a>
+    </div>
+
+    <div class="card" id="thomas-nicolas">
+      <div class="card-header">
+        <div>
+          <span class="name">Thomas Nicolas</span>
+          <span class="region">Rhein Erft Kreis</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/thomas-nicolas/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/thomas-nicolas/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/thomas-nicolas/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rhein-erft-kreis/baufinanzierung/thomas-nicolas/</a>
+    </div>
+
+    <div class="card" id="andreas-coutandin">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Coutandin</span>
+          <span class="region">Rheinhessen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/andreas-coutandin/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/andreas-coutandin/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/andreas-coutandin/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/andreas-coutandin/</a>
+    </div>
+
+    <div class="card" id="jan-bollenbach">
+      <div class="card-header">
+        <div>
+          <span class="name">Jan Bollenbach</span>
+          <span class="region">Rheinhessen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/jan-bollenbach/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/jan-bollenbach/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/jan-bollenbach/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheinhessen/baufinanzierung/jan-bollenbach/</a>
+    </div>
+
+    <div class="card" id="juergen-loesch">
+      <div class="card-header">
+        <div>
+          <span class="name">Juergen Loesch</span>
+          <span class="region">Rheinneckar</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheinneckar/baufinanzierung/juergen-loesch/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheinneckar/baufinanzierung/juergen-loesch/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheinneckar/baufinanzierung/juergen-loesch/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheinneckar/baufinanzierung/juergen-loesch/</a>
+    </div>
+
+    <div class="card" id="harald-strobel">
+      <div class="card-header">
+        <div>
+          <span class="name">Harald Strobel</span>
+          <span class="region">Rheinpfalz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheinpfalz/baufinanzierung/harald-strobel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheinpfalz/baufinanzierung/harald-strobel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheinpfalz/baufinanzierung/harald-strobel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheinpfalz/baufinanzierung/harald-strobel/</a>
+    </div>
+
+    <div class="card" id="tobias-erler">
+      <div class="card-header">
+        <div>
+          <span class="name">Tobias Erler</span>
+          <span class="region">Rhein Siegkreis</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rhein-siegkreis/baufinanzierung/tobias-erler/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rhein-siegkreis/baufinanzierung/tobias-erler/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rhein-siegkreis/baufinanzierung/tobias-erler/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rhein-siegkreis/baufinanzierung/tobias-erler/</a>
+    </div>
+
+    <div class="card" id="hans-dieter-doell">
+      <div class="card-header">
+        <div>
+          <span class="name">Hans Dieter Doell</span>
+          <span class="region">Rheintal</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/hans-dieter-doell/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/hans-dieter-doell/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/hans-dieter-doell/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheintal/baufinanzierung/hans-dieter-doell/</a>
+    </div>
+
+    <div class="card" id="stephan-klammt">
+      <div class="card-header">
+        <div>
+          <span class="name">Stephan Klammt</span>
+          <span class="region">Rheintal</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/stephan-klammt/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/stephan-klammt/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rheintal/baufinanzierung/stephan-klammt/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rheintal/baufinanzierung/stephan-klammt/</a>
+    </div>
+
+    <div class="card" id="michael-christ">
+      <div class="card-header">
+        <div>
+          <span class="name">Michael Christ</span>
+          <span class="region">Rostock</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/rostock/baufinanzierung/michael-christ/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/rostock/baufinanzierung/michael-christ/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/rostock/baufinanzierung/michael-christ/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/rostock/baufinanzierung/michael-christ/</a>
+    </div>
+
+    <div class="card" id="lars-nitsche">
+      <div class="card-header">
+        <div>
+          <span class="name">Lars Nitsche</span>
+          <span class="region">Ruhrgebiet</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/lars-nitsche/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/lars-nitsche/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/lars-nitsche/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/lars-nitsche/</a>
+    </div>
+
+    <div class="card" id="oliver-wewering">
+      <div class="card-header">
+        <div>
+          <span class="name">Oliver Wewering</span>
+          <span class="region">Ruhrgebiet</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/oliver-wewering/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/oliver-wewering/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/oliver-wewering/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/oliver-wewering/</a>
+    </div>
+
+    <div class="card" id="peter-klima">
+      <div class="card-header">
+        <div>
+          <span class="name">Peter Klima</span>
+          <span class="region">Ruhrgebiet</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/peter-klima/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/peter-klima/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/peter-klima/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/ruhrgebiet/baufinanzierung/peter-klima/</a>
+    </div>
+
+    <div class="card" id="regioman">
+      <div class="card-header">
+        <div>
+          <span class="name">Regioman</span>
+          <span class="region">Saarbruecken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/saarbruecken/baufinanzierung/regioman/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/saarbruecken/baufinanzierung/regioman/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/saarbruecken/baufinanzierung/regioman/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/saarbruecken/baufinanzierung/regioman/</a>
+    </div>
+
+    <div class="card" id="murat-gueneser">
+      <div class="card-header">
+        <div>
+          <span class="name">Murat Gueneser</span>
+          <span class="region">Sauerland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/sauerland/baufinanzierung/murat-gueneser/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/sauerland/baufinanzierung/murat-gueneser/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/sauerland/baufinanzierung/murat-gueneser/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/sauerland/baufinanzierung/murat-gueneser/</a>
+    </div>
+
+    <div class="card" id="juergen-stengel">
+      <div class="card-header">
+        <div>
+          <span class="name">Juergen Stengel</span>
+          <span class="region">Schwaebische Alb</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/schwaebische-alb/baufinanzierung/juergen-stengel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/schwaebische-alb/baufinanzierung/juergen-stengel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/schwaebische-alb/baufinanzierung/juergen-stengel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/schwaebische-alb/baufinanzierung/juergen-stengel/</a>
+    </div>
+
+    <div class="card" id="andreas-janz">
+      <div class="card-header">
+        <div>
+          <span class="name">Andreas Janz</span>
+          <span class="region">Schwarzwald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/andreas-janz/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/andreas-janz/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/andreas-janz/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/andreas-janz/</a>
+    </div>
+
+    <div class="card" id="christian-schmid">
+      <div class="card-header">
+        <div>
+          <span class="name">Christian Schmid</span>
+          <span class="region">Schwarzwald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/christian-schmid/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/christian-schmid/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/christian-schmid/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/christian-schmid/</a>
+    </div>
+
+    <div class="card" id="thomas-grosshans">
+      <div class="card-header">
+        <div>
+          <span class="name">Thomas Grosshans</span>
+          <span class="region">Schwarzwald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/thomas-grosshans/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/thomas-grosshans/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/thomas-grosshans/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/schwarzwald/baufinanzierung/thomas-grosshans/</a>
+    </div>
+
+    <div class="card" id="tom-sander">
+      <div class="card-header">
+        <div>
+          <span class="name">Tom Sander</span>
+          <span class="region">Spreewald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/spreewald/baufinanzierung/tom-sander/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/spreewald/baufinanzierung/tom-sander/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/spreewald/baufinanzierung/tom-sander/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/spreewald/baufinanzierung/tom-sander/</a>
+    </div>
+
+    <div class="card" id="johannes-friedt">
+      <div class="card-header">
+        <div>
+          <span class="name">Johannes Friedt</span>
+          <span class="region">Stuttgart</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/johannes-friedt/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/johannes-friedt/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/johannes-friedt/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/johannes-friedt/</a>
+    </div>
+
+    <div class="card" id="ralph-schneider">
+      <div class="card-header">
+        <div>
+          <span class="name">Ralph Schneider</span>
+          <span class="region">Stuttgart</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/ralph-schneider/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/ralph-schneider/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/ralph-schneider/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/stuttgart/baufinanzierung/ralph-schneider/</a>
+    </div>
+
+    <div class="card" id="dominic-hoffmann">
+      <div class="card-header">
+        <div>
+          <span class="name">Dominic Hoffmann</span>
+          <span class="region">Suedhessen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/suedhessen/baufinanzierung/dominic-hoffmann/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/suedhessen/baufinanzierung/dominic-hoffmann/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/suedhessen/baufinanzierung/dominic-hoffmann/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/suedhessen/baufinanzierung/dominic-hoffmann/</a>
+    </div>
+
+    <div class="card" id="axel-scholz">
+      <div class="card-header">
+        <div>
+          <span class="name">Axel Scholz</span>
+          <span class="region">Suedwestthueringen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/axel-scholz/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/axel-scholz/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/axel-scholz/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/axel-scholz/</a>
+    </div>
+
+    <div class="card" id="steffen-simon">
+      <div class="card-header">
+        <div>
+          <span class="name">Steffen Simon</span>
+          <span class="region">Suedwestthueringen</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/steffen-simon/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/steffen-simon/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/steffen-simon/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/suedwestthueringen/baufinanzierung/steffen-simon/</a>
+    </div>
+
+    <div class="card" id="kevin-helms">
+      <div class="card-header">
+        <div>
+          <span class="name">Kevin Helms</span>
+          <span class="region">Teutoburger Wald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/teutoburger-wald/baufinanzierung/kevin-helms/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/teutoburger-wald/baufinanzierung/kevin-helms/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/teutoburger-wald/baufinanzierung/kevin-helms/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/teutoburger-wald/baufinanzierung/kevin-helms/</a>
+    </div>
+
+    <div class="card" id="ronni-swatek">
+      <div class="card-header">
+        <div>
+          <span class="name">Ronni Swatek</span>
+          <span class="region">Uckermark</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/uckermark/baufinanzierung/ronni-swatek/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/uckermark/baufinanzierung/ronni-swatek/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/uckermark/baufinanzierung/ronni-swatek/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/uckermark/baufinanzierung/ronni-swatek/</a>
+    </div>
+
+    <div class="card" id="christian-appel">
+      <div class="card-header">
+        <div>
+          <span class="name">Christian Appel</span>
+          <span class="region">Unterfranken</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/unterfranken/baufinanzierung/christian-appel/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/unterfranken/baufinanzierung/christian-appel/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/unterfranken/baufinanzierung/christian-appel/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/unterfranken/baufinanzierung/christian-appel/</a>
+    </div>
+
+    <div class="card" id="lars-rupprecht">
+      <div class="card-header">
+        <div>
+          <span class="name">Lars Rupprecht</span>
+          <span class="region">Vogtland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/lars-rupprecht/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/lars-rupprecht/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/lars-rupprecht/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/vogtland/baufinanzierung/lars-rupprecht/</a>
+    </div>
+
+    <div class="card" id="patrick-thier">
+      <div class="card-header">
+        <div>
+          <span class="name">Patrick Thier</span>
+          <span class="region">Vogtland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/patrick-thier/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/patrick-thier/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/patrick-thier/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/vogtland/baufinanzierung/patrick-thier/</a>
+    </div>
+
+    <div class="card" id="philipp-steppohn">
+      <div class="card-header">
+        <div>
+          <span class="name">Philipp Steppohn</span>
+          <span class="region">Vogtland</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/</a>
+    </div>
+
+    <div class="card" id="kilian-de-vries">
+      <div class="card-header">
+        <div>
+          <span class="name">Kilian De Vries</span>
+          <span class="region">Weserems</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/weserems/baufinanzierung/kilian-de-vries/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/weserems/baufinanzierung/kilian-de-vries/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/weserems/baufinanzierung/kilian-de-vries/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/weserems/baufinanzierung/kilian-de-vries/</a>
+    </div>
+
+    <div class="card" id="wolfram-aller">
+      <div class="card-header">
+        <div>
+          <span class="name">Wolfram Aller</span>
+          <span class="region">Westerwald</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/westerwald/baufinanzierung/wolfram-aller/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/westerwald/baufinanzierung/wolfram-aller/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/westerwald/baufinanzierung/wolfram-aller/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/westerwald/baufinanzierung/wolfram-aller/</a>
+    </div>
+
+    <div class="card" id="sven-harth">
+      <div class="card-header">
+        <div>
+          <span class="name">Sven Harth</span>
+          <span class="region">Westpfalz</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/westpfalz/baufinanzierung/sven-harth/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/westpfalz/baufinanzierung/sven-harth/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/westpfalz/baufinanzierung/sven-harth/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/westpfalz/baufinanzierung/sven-harth/</a>
+    </div>
+
+    <div class="card" id="gert-holdschick">
+      <div class="card-header">
+        <div>
+          <span class="name">Gert Holdschick</span>
+          <span class="region">Zwickau</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/gert-holdschick/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/gert-holdschick/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/gert-holdschick/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/zwickau/baufinanzierung/gert-holdschick/</a>
+    </div>
+
+    <div class="card" id="wilfried-hoh">
+      <div class="card-header">
+        <div>
+          <span class="name">Wilfried Hoh</span>
+          <span class="region">Zwickau</span>
+        </div>
+        <button class="copy-btn" onclick="copySnippet(this)">Kopieren</button>
+      </div>
+      <div class="preview">
+        <a href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/wilfried-hoh/" target="_blank" rel="noreferrer noopener">
+          <img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png" alt="Siegel" style="width:160px;border:none;display:block;">
+        </a>
+      </div>
+      <pre class="code"><code>&lt;a href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/wilfried-hoh/" target="_blank" rel="noreferrer noopener"&gt;
+  &lt;img src="https://backend.regionalimmobilien24.de/get/download-file/ressource/partnerbereich/b7d727fc_kooperationspartnerbaufiprime.png"
+       alt="Kooperationspartner BaufiPrime – Regionalimmobilien24"
+       style="width:220px;border:none;display:block;"&gt;
+&lt;/a&gt;</code></pre>
+      <a class="lp-link" href="https://www.regionalimmobilien24.de/zwickau/baufinanzierung/wilfried-hoh/" target="_blank" rel="noreferrer noopener">https://www.regionalimmobilien24.de/zwickau/baufinanzierung/wilfried-hoh/</a>
+    </div>
+  <div class="no-results" id="no-results">Keine Einträge gefunden.</div>
+</div>
+
+<script>
+function copySnippet(btn) {
+  const pre = btn.closest('.card').querySelector('pre.code');
+  navigator.clipboard.writeText(pre.innerText).then(() => {
+    btn.textContent = 'Kopiert ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Kopieren';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+function filterCards(q) {
+  q = q.toLowerCase();
+  const cards = document.querySelectorAll('.card[id]');
+  let visible = 0;
+  cards.forEach(c => {
+    const text = c.querySelector('.name').textContent.toLowerCase()
+               + ' ' + c.querySelector('.region').textContent.toLowerCase();
+    const show = text.includes(q);
+    c.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+}
+</script>
+</body>
+</html>

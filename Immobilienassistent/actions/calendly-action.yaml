@@ -1,0 +1,229 @@
+openapi: "3.1.0"
+info:
+  title: "Calendly Terminbuchungs-API"
+  description: "Proxy-Service für Calendly-Terminbuchungen. Ermöglicht das Abrufen verfügbarer Termine und das Buchen von Beratungsterminen beim Finanzierungsberater."
+  version: "1.0.0"
+servers:
+  - url: "https://www.regionalimmobilien24.de"
+    description: "Produktionsserver (Proxy)"
+paths:
+  /ressource/get/calendly/availability.json:
+    get:
+      operationId: "getCalendlyAvailability"
+      summary: "Verfügbare Calendly-Termine abrufen"
+      description: >
+        Ruft die verfügbaren Tage und optional die Zeitslots eines bestimmten Tages
+        von der Calendly-Seite des Beraters ab. Nutze diese Funktion, um dem Nutzer
+        verfügbare Termine anzuzeigen oder Ausweichtermine vorzuschlagen.
+      parameters:
+        - name: url
+          in: query
+          required: true
+          description: "Die vollständige Calendly-Buchungs-URL des Beraters (z.B. https://calendly.com/berater-name/beratung)"
+          schema:
+            type: string
+            example: "https://calendly.com/berater-name/beratung"
+        - name: date
+          in: query
+          required: false
+          description: >
+            Optionales Datum im Format YYYY-MM-DD. Wenn angegeben, werden zusätzlich
+            die verfügbaren Zeitslots für diesen Tag abgerufen. Wenn nicht angegeben,
+            werden nur die verfügbaren Tage des aktuellen Monats zurückgegeben.
+          schema:
+            type: string
+            example: "2026-05-15"
+      responses:
+        "200":
+          description: "Verfügbare Termine erfolgreich abgerufen."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "true wenn erfolgreich"
+                  data:
+                    type: object
+                    properties:
+                      month:
+                        type: string
+                        description: "Aktuell angezeigter Monat (z.B. 'Mai 2026')"
+                      available_days:
+                        type: array
+                        description: "Liste der verfügbaren Tage im Monat"
+                        items:
+                          type: object
+                          properties:
+                            day:
+                              type: integer
+                              description: "Tag des Monats (z.B. 5, 12, 15)"
+                            label:
+                              type: string
+                              description: "Vollständiges aria-label des Tages"
+                      requested_date:
+                        type: string
+                        description: "Das angefragte Datum (nur wenn 'date' Parameter gesetzt)"
+                      time_slots:
+                        type: array
+                        description: "Verfügbare Zeitslots (nur wenn 'date' Parameter gesetzt und Tag verfügbar)"
+                        items:
+                          type: object
+                          properties:
+                            time:
+                              type: string
+                              description: "Uhrzeit im Format HH:MM (z.B. '09:00', '09:30')"
+                            display:
+                              type: string
+                              description: "Anzeige-Text der Uhrzeit"
+                      message:
+                        type: string
+                        description: "Hinweistext, z.B. wenn der angefragte Tag nicht verfügbar ist"
+                      alternative_days:
+                        type: array
+                        description: "Ausweichtermine, falls der gewünschte Tag nicht verfügbar ist"
+                        items:
+                          type: object
+                          properties:
+                            day:
+                              type: integer
+                            label:
+                              type: string
+        "400":
+          description: "Fehlende oder ungültige Parameter."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                  error:
+                    type: string
+        "500":
+          description: "Serverfehler beim Abrufen der Verfügbarkeit."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                  error:
+                    type: string
+
+  /ressource/set/calendly/booking.json:
+    post:
+      operationId: "createCalendlyBooking"
+      summary: "Calendly-Termin buchen"
+      description: >
+        Bucht einen Beratungstermin beim Finanzierungsberater über dessen Calendly-Seite.
+        Alle Pflichtfelder müssen ausgefüllt sein. Der Agent muss vorher die Verfügbarkeit
+        geprüft haben (via getCalendlyAvailability).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - calendly_url
+                - date
+                - time
+                - location
+                - first_name
+                - last_name
+                - email
+              properties:
+                calendly_url:
+                  type: string
+                  description: "Die vollständige Calendly-Buchungs-URL des Beraters."
+                  example: "https://calendly.com/berater-name/beratung"
+                date:
+                  type: string
+                  description: "Gewünschtes Datum im Format YYYY-MM-DD."
+                  example: "2026-05-15"
+                time:
+                  type: string
+                  description: "Gewünschte Uhrzeit im Format HH:MM (24h)."
+                  example: "09:30"
+                location:
+                  type: string
+                  description: >
+                    Art/Ort des Termins. Mögliche Werte:
+                    - "outbound_call" = Telefonisch (Anruf)
+                    - "physical" = Vor Ort beim Berater
+                    - "google_conference" = Online per Google Meet
+                  enum:
+                    - outbound_call
+                    - physical
+                    - google_conference
+                  example: "physical"
+                first_name:
+                  type: string
+                  description: "Vorname des Nutzers."
+                  example: "Max"
+                last_name:
+                  type: string
+                  description: "Nachname des Nutzers."
+                  example: "Mustermann"
+                email:
+                  type: string
+                  description: "E-Mail-Adresse des Nutzers."
+                  example: "max@example.com"
+                phone:
+                  type: string
+                  description: "Telefonnummer des Nutzers (optional, aber empfohlen bei telefonischen Terminen)."
+                  example: "+4917612345678"
+      responses:
+        "200":
+          description: "Termin erfolgreich gebucht."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "true wenn Buchung erfolgreich"
+                  data:
+                    type: object
+                    properties:
+                      success:
+                        type: boolean
+                        description: "true bei erfolgreicher Buchung"
+                      message:
+                        type: string
+                        description: "Bestätigungsnachricht"
+                      booked_date:
+                        type: string
+                        description: "Gebuchtes Datum"
+                      booked_time:
+                        type: string
+                        description: "Gebuchte Uhrzeit"
+                      booked_location:
+                        type: string
+                        description: "Gebuchter Terminort (lesbar, z.B. 'Vor Ort beim Berater')"
+        "400":
+          description: "Fehlende Pflichtfelder oder ungültiger Ort."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                  error:
+                    type: string
+        "500":
+          description: "Buchung fehlgeschlagen (z.B. Termin nicht mehr verfügbar)."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                  error:
+                    type: string

@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-05-07T13:23:01.396Z",
+  "bank_count": 4,
+  "banks": {
+    "Förderbank NRW.Bank": {
+      "company_id": "0cdb5432-65a9-476c-9673-ff60f6659e12",
+      "last_modified": "24.04.26",
+      "recent_news": [],
+      "criteria": {
+        "kundenschutz": {
+          "name": "Kundenschutz",
+          "category": "Kriterien weitere Hinweise",
+          "value": "Es gilt die Kundenschutz-Stufe des jeweiligen durchleitenden Instituts."
+        }
+      }
+    },
+    "Förderbank L-Bank": {
+      "company_id": "5e9ad443f99c30dce57fa987c3360561",
+      "last_modified": "23.12.25",
+      "recent_news": [
+        {
+          "date": "01.07.21",
+          "title": "L-Bank: Konditionsanpassungen per 01.07.2021 in den wohnwirtschaftlichen Förderprogrammen"
+        },
+        {
+          "date": "25.06.21",
+          "title": "L-Bank- Anpassung Förderprogramme"
+        },
+        {
+          "date": "04.08.20",
+          "title": "L-Bank- Bankenrundschreiben 06/2020"
+        },
+        {
+          "date": "21.07.20",
+          "title": "L-Bank als regionale Förderbank neu auf Europace"
+        },
+        {
+          "date": "26.06.20",
+          "title": "L-Bank: Konditionssenkung per 25.06.2020 in den wohnwirtschaftlichen Förderprogrammen"
+        }
+      ],
+      "note": "Produktspezifische Kriterien sind im Partnerportal abrufbar."
+    },
+    "KfW": {
+      "company_id": "6fb4a48e6db2f323c4672f3a086997d5",
+      "last_modified": "04.05.26",
+      "recent_news": [
+        {
+          "date": "06.05.26",
+          "title": "KfW - Konditionsanpassung zum 07.05.2026"
+        },
+        {
+          "date": "14.04.26",
+          "title": "KfW - Konditionserhöhung zum 15.04.2026"
+        },
+        {
+          "date": "09.04.26",
+          "title": "KfW - Konditionssenkung zum 10.04.2026"
+        },
+        {
+          "date": "30.03.26",
+          "title": "KfW - Konditionserhöhung zum 31.03.2026"
+        },
+        {
+          "date": "25.03.26",
+          "title": "KfW - Konditionserhöhung zum 26.03.2026"
+        }
+      ],
+      "note": "Produktspezifische Kriterien sind im Partnerportal abrufbar."
+    },
+    "Förderbank Sächsische Aufbaubank": {
+      "company_id": "a133d1a2-d59e-4992-9811-c4a5b7d2533a",
+      "last_modified": "17.10.25",
+      "recent_news": [
+        {
+          "date": "02.10.25",
+          "title": "Sächsische Aufbaubank - Förderrichtlinie \"Familienwohnen\" ab 10.10.2025 in angepasster Form wieder bei der SAB verfügbar"
+        },
+        {
+          "date": "31.07.25",
+          "title": "Sächsische Aufbaubank - Neuer SAB Sachsenkredit \"Klimafreundlicher Wohnen\" mit Zinsvergünstigung von 0,8 %"
+        },
+        {
+          "date": "09.05.25",
+          "title": "Sächsische Aufbaubank - Wichtige Änderungen rund um die Antragstellung und Auszahlung"
+        },
+        {
+          "date": "10.12.24",
+          "title": "Sächsische Aufbaubank - Förderprogramm Familienwohnen Antragstopp"
+        },
+        {
+          "date": "29.11.24",
+          "title": "Sächsische Aufbaubank - Rekordsumme für Eigenheime – jetzt noch schnell Förderung sichern"
+        }
+      ],
+      "note": "Produktspezifische Kriterien sind im Partnerportal abrufbar."
+    }
+  }
+}

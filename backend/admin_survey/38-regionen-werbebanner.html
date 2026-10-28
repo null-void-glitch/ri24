@@ -1,0 +1,919 @@
+<!DOCTYPE html><html lang="de"><head>
+    <script src="../../../../../adm/layout/js/jquery.min.js"></script>
+    <script src="../../../../../../ressource/js/ImageTools.js"></script>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+</head>
+<body>
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=md2c1xa9cz"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=md2c1xa9cz">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=md2c1xa9cz"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=md2c1xa9cz"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=md2c1xa9cz"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=md2c1xa9cz"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=md2c1xa9cz"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=md2c1xa9cz"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=md2c1xa9cz"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=md2c1xa9cz"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=md2c1xa9cz"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=md2c1xa9cz"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=md2c1xa9cz"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=md2c1xa9cz"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=md2c1xa9cz"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=md2c1xa9cz"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=md2c1xa9cz"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=md2c1xa9cz"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=md2c1xa9cz"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=md2c1xa9cz"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=md2c1xa9cz"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=md2c1xa9cz"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=md2c1xa9cz"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=md2c1xa9cz"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=md2c1xa9cz"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=md2c1xa9cz"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=md2c1xa9cz"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=md2c1xa9cz"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=md2c1xa9cz"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=md2c1xa9cz"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz">.</li>
+    </ul>
+</div>        <div id="content">
+            <div id="content-header">
+                <h1>Werbebanner und PopUps für AAI24</h1>
+            </div>
+            <div id="breadcrumb">
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=md2c1xa9cz" title="" class="tip-bottom" data-original-title="zum Dashboard"><span class="icon"></span> Home</a>
+                <a href="../../../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz" title="alle Regionen">alle Regionen</a>
+                <a href="../../../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz" title="alle Regionen">Immobilien Werbebanner</a>
+                <a href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/?admsess=md2c1xa9cz&amp;regio=aai24" title="Region AAI24" class="current">AAI24</a>
+            </div>
+            <div class="container-fluid">
+
+                <div class="row-fluid">
+                    <div class="span6">
+
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <span class="icon"></span>
+                                <h5>Pop-Up Kontaktanfrage</h5>
+                            </div>
+                            <div class="widget-content" style="background-color: rgba(252, 175, 75, .3);">
+                                                                <!-- ENTRY: START-->
+                                <div class="row-fluid">
+                                                                                                                    <!-- PopUp -->
+
+                                        <div class="span6">
+                                            <div class="widget-box">
+                                                <div class="widget-title">
+                                                    <span class="icon"></span>
+                                                    <h5>Wohnen / Kaufen</h5>
+                                                    <div class="buttons">
+                                                                                                                                                                            <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/popup-create/?banner=1&amp;type=wohnen-kaufen-popup&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                    </div>
+                                                </div>
+                                                <div class="widget-content nopadding">
+                                                    <table class="table table-bordered table-striped">
+                                                        <tbody><tr>
+                                                            <td><strong>Darstellungstyp</strong></td>
+                                                            <td style="text-align: center;">
+                                                                <span class="label label-success">Baufi-Ansprechpartner</span>                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                    <!-- PopUp -->
+
+                                        <div class="span6">
+                                            <div class="widget-box">
+                                                <div class="widget-title">
+                                                    <span class="icon"></span>
+                                                    <h5>Gewerbe / Kaufen</h5>
+                                                    <div class="buttons">
+                                                                                                                                                                            <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/popup-create/?banner=1&amp;type=gewerbe-kaufen-popup&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                    </div>
+                                                </div>
+                                                <div class="widget-content nopadding">
+                                                    <table class="table table-bordered table-striped">
+                                                        <tbody><tr>
+                                                            <td><strong>Darstellungstyp</strong></td>
+                                                            <td style="text-align: center;">
+                                                                <span class="label label-success">Baufi-Ansprechpartner</span>                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                <!-- ENTRY: END -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                </div>
+                                                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Wohnen / Mieten</h5>
+                                </div>
+                                <div class="widget-content" style="background-color: rgba(197, 244, 46, .3);">
+
+                                    <!-- ENTRY: START-->
+                                    <div class="row-fluid">
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title" style="background-color: #faa732;">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 1</h5>
+                                                        <div class="buttons">
+                                                                                                                            <a title="Banner bearbeiten" class="btn btn-mini btn-success " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/edit/?banner=1&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-pencil icon-white"></i></a>
+                                                                                                                                                                                                                                                    <a title="Banner löschen und zentralen Stand wieder herstellen" class="btn btn-mini btn-danger" href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/delete/?banner=1&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-trash icon-white"></i></a>
+                                                                                                                    </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/aai24//v/377x140/crop/wohnen-mieten-1_1661873480.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 2</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=2&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Suchauftrag als Kachel</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title" style="background-color: #faa732;">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 3</h5>
+                                                        <div class="buttons">
+                                                                                                                            <a title="Banner bearbeiten" class="btn btn-mini btn-success " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/edit/?banner=3&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-pencil icon-white"></i></a>
+                                                                                                                                                                                                                                                    <a title="Banner löschen und zentralen Stand wieder herstellen" class="btn btn-mini btn-danger" href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/delete/?banner=3&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-trash icon-white"></i></a>
+                                                                                                                    </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-mieten-3_1636984208.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 4</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=4&amp;type=wohnen-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Suchauftrag als Kachel</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                    <!-- ENTRY: END -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Wohnen / Kaufen</h5>
+                                </div>
+                                <div class="widget-content" style="background-color: rgba(197, 244, 46, .3);">
+
+                                    <!-- ENTRY: START-->
+                                    <div class="row-fluid">
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 1</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=1&amp;type=wohnen-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-kaufen-1_1755256197.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Baufi-Ansprechpartner</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 2</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=2&amp;type=wohnen-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Baufi-Funnel</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 3</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=3&amp;type=wohnen-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Suchauftrag als Kachel</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 4</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=4&amp;type=wohnen-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-kaufen-4_1668761432.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Finanzierungszertifikat</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                    <!-- ENTRY: END -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Gewerbe / Mieten</h5>
+                                </div>
+                                <div class="widget-content" style="background-color: rgba(197, 244, 46, .3);">
+
+                                    <!-- ENTRY: START-->
+                                    <div class="row-fluid">
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 1</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=1&amp;type=gewerbe-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-1_1612341957.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 2</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=2&amp;type=gewerbe-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-2_1612341966.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 3</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=3&amp;type=gewerbe-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-3_1612341976.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 4</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=4&amp;type=gewerbe-mieten&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-4_1612341987.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">1 Link</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                    <!-- ENTRY: END -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Gewerbe / Kaufen</h5>
+                                </div>
+                                <div class="widget-content" style="background-color: rgba(197, 244, 46, .3);">
+
+                                    <!-- ENTRY: START-->
+                                    <div class="row-fluid">
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 1</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=1&amp;type=gewerbe-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-1_1755256135.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Baufi-Ansprechpartner</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 2</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=2&amp;type=gewerbe-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Baufi-Funnel</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 3</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=3&amp;type=gewerbe-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-3_1755256229.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Baufi-Ansprechpartner</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <!-- Banner -->
+
+                                            <div class="span3">
+                                                <div class="widget-box">
+                                                    <div class="widget-title">
+                                                        <span class="icon"></span>
+                                                        <h5>Banner 4</h5>
+                                                        <div class="buttons">
+                                                                                                                                                                                        <a title="Banner für Region individualisieren" class="btn btn-mini btn-warning " href="../../../../../adm/individuell/regionen/edit/immo-werbebanner/create/?banner=4&amp;type=gewerbe-kaufen&amp;regio=aai24&amp;admsess=md2c1xa9cz"><i class="icon-download-alt icon-white"></i></a>
+                                                                                                                                                                                </div>
+                                                    </div>
+                                                    <div class="widget-content nopadding">
+                                                                                                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-4_1668761450.png" style="max-width: 100%;">
+
+                                                                                                            </div>
+                                                    <div class="widget-content nopadding">
+                                                        <table class="table table-bordered table-striped table-hover">
+                                                            <tbody><tr>
+                                                                <td><strong>Werbekachel (intern)</strong></td>
+                                                                <td style="text-align: center;">
+                                                                    <span class="label label-success">Finanzierungszertifikat</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Affiliate</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>AdSense</strong></td>
+                                                                <td style="text-align: center;">
+
+                                                                    <span class="label">keine Nutzung</span>                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                    <!-- ENTRY: END -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                <form class="pitsafeform" action="?admsess=md2c1xa9cz&amp;do=safe" method="post" enctype="multipart/form-data"></form>
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>            </div>
+        </div>
+        
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>
+</body></html>

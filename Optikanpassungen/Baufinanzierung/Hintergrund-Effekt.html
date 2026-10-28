@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partikel-Netzwerk-Hintergrund</title>
+<style>
+  html,body{margin:0;padding:0;height:100%;}
+  body{background:linear-gradient(180deg,#fff,#FAFAFA);}
+  .page-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;}
+  .hero-network{position:absolute;inset:0;width:100%;height:100%;display:block;}
+</style>
+</head>
+<body>
+
+<div class="page-bg">
+  <canvas class="hero-network" id="heroNetwork"></canvas>
+</div>
+
+<script>
+(function(){
+  var canvas = document.getElementById('heroNetwork');
+  if(!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var wrap = canvas.parentElement;
+  var dotColor = '#5e7027';
+  var triFill = 'rgba(220,232,182,0.32)';
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var particles = [];
+  var mouse = { x: -9999, y: -9999 };
+  var t = 0;
+
+  function resize(){
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    canvas.width = w * DPR; canvas.height = h * DPR;
+    canvas.style.width = w + 'px'; canvas.style.height = h + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    var count = Math.max(50, Math.round((w * h) / 5500));
+    particles = [];
+    for(var i = 0; i < count; i++){
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.35,
+        r: 1.6 + Math.random() * 1.6,
+        seed: Math.random() * 1000
+      });
+    }
+  }
+
+  wrap.addEventListener('mousemove', function(e){
+    var rect = wrap.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  wrap.addEventListener('mouseleave', function(){
+    mouse.x = -9999; mouse.y = -9999;
+  });
+
+  function frame(){
+    t += 1;
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    ctx.clearRect(0, 0, w, h);
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < 0 || p.x > w){ p.vx *= -1; p.x = Math.max(0, Math.min(w, p.x)); }
+      if(p.y < 0 || p.y > h){ p.vy *= -1; p.y = Math.max(0, Math.min(h, p.y)); }
+
+      var dx = p.x - mouse.x, dy = p.y - mouse.y;
+      var dist = Math.sqrt(dx * dx + dy * dy);
+      if(dist < 70 && dist > 0.01){
+        var push = (70 - dist) / 70 * 1.6;
+        p.x += (dx / dist) * push;
+        p.y += (dy / dist) * push;
+      }
+    }
+
+    var maxDist = 100;
+    var n = particles.length;
+    var neighbors = new Array(n);
+    for(var i = 0; i < n; i++) neighbors[i] = [];
+    var edges = [];
+    for(var i = 0; i < n; i++){
+      for(var j = i + 1; j < n; j++){
+        var a = particles[i], b = particles[j];
+        var dx = a.x - b.x, dy = a.y - b.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if(dist < maxDist){
+          neighbors[i].push(j);
+          neighbors[j].push(i);
+          edges.push([i, j, dist]);
+        }
+      }
+    }
+
+    ctx.fillStyle = triFill;
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1];
+      var ni = neighbors[i];
+      for(var x = 0; x < ni.length; x++){
+        var k = ni[x];
+        if(k > j && neighbors[j].indexOf(k) !== -1){
+          var a = particles[i], b = particles[j], c = particles[k];
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.lineTo(c.x, c.y);
+          ctx.closePath();
+          ctx.fill();
+        }
+      }
+    }
+
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1], dist = edges[e][2];
+      ctx.strokeStyle = 'rgba(51,51,51,' + (0.5 * (1 - dist / maxDist)) + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(particles[i].x, particles[i].y);
+      ctx.lineTo(particles[j].x, particles[j].y);
+      ctx.stroke();
+    }
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      var pulse = 0.75 + 0.25 * Math.sin(t / 45 + p.seed);
+      ctx.beginPath();
+      ctx.fillStyle = dotColor;
+      ctx.globalAlpha = 0.85 * pulse;
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  window.addEventListener('resize', resize);
+  window.addEventListener('load', resize);
+  if('ResizeObserver' in window) new ResizeObserver(resize).observe(wrap);
+  resize();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

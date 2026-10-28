@@ -1,0 +1,531 @@
+{
+  "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Standardgeschäft: ja\nIndividualgeschäft: nein. Auch Ehegatt:innen, Lebenspartner:innen, Eltern oder Großeltern der Antragsteller:innen sind grundsätzlich möglich.\n \nGrundsätzlich gilt: Die Zweckbestimmungserklärung muss von allen Eigentümer:innen unterzeichnet werden."
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkungen, Mindestbetrag pro Auszahlung: EUR 5.000."
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Grünregion: 95% \n80% Gelbregionen\nRotregionen weiterhin 70%\nDie Regionen sind in BaufiSmart hinterlegt"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Grünregion: 95% \n80% Gelbregionen\nRotregionen weiterhin 70%\nDie Regionen sind in BaufiSmart hinterlegt"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Finanzierung mit Förderbanken:\nNeben KfW auch IB.SH und L-Bank möglich (Zusage muss bei Antragsstellung an die HVB vorliegen)\n \nAbweichungen in Bezug auf Vorrangigkeit des Eigenkapitaleinsatzes:\nEin späterer Einsatz von Teilen des Eigenkapitals ist bei Neubauvorhaben und \nModernisierungen grundsätzlich möglich, die HVB behält sich die Einzelfallentscheidung \nnach Darlegung der Gründe im Übergabeprotokoll vor \n \nEntfall der Deckung Baukostenüberschreitungsrisiko mit < 20 % Puffer an liquidem Vermögen:\nEine Beurteilung erfolgt anhand der individuellen Vermögens- und Liquiditätssituation\n \nAutomatische Hinterlegung des Lastschriftkontos im Darlehensvertrag, wenn das gewünschte Rateneinzugskonto direkt vor Vertragserstellung im Darlehensvertrag hinterlegt wird bzw. die HVB bei Einreichung des Antrages informiert wurde."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 / 12\nBei Kauf von Bestandsobjekten: gegen Aufschlag verlängerbar auf maximal 12 Monate (über Schnittstelle kalkulierbar) \nBei Kauf vom Bauträger/ eigenem Bauvorhaben: grundsätzlich 6 Monate – Verlängerung auf bis zu 24 Monate möglich (über Schnittstelle kalkulierbar). \nDie aktuelle Höhes des Bereitstellungszinses beträgt 3% p.a."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 / 12\nBei Kauf von Bestandsobjekten: gegen Aufschlag verlängerbar auf maximal 12 Monate (über Schnittstelle kalkulierbar) \nBei Kauf vom Bauträger/ eigenem Bauvorhaben: grundsätzlich 6 Monate – Verlängerung auf bis zu 24 Monate möglich (über Schnittstelle kalkulierbar). \nDie aktuelle Höhes des Bereitstellungszinses beträgt 3% p.a."
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "mind. 150.000 bei Privatkunden / 250.000 bei Geschäftskunden\nmax. regional unterschiedlich, bitte die Informationen zu den Regionen beachten\nFinanzierungen über 1,5 Mio. EUR bis einschließlich 2,5 Mio. EUR können per Voranfrage an die HVB übermittelt werden, sofern die Rahmendaten dem Standardgeschäft entsprechen (z. B. keine Zusatzsicherheiten)\nDie Möglichkeit zur Voranfrage für Summen über 1,5 Mio. EUR bis einschließlich 2,5 Mio. EUR richtet sich nun sowohl an Privatkunden als auch an Geschäftskunden \n•    Die über die Pricing-Schnittstelle abrufbaren Konditionen für Darlehen >1,5 Mio. EUR sind indikativ\n•    Die finale Kondition wird im Rahmen der Voranfrage individuell ermittelt\n•    Eine erste Rückmeldung zur Voranfrage erfolgt in der Regel innerhalb von 48 Stunden\n•    Die Bearbeitungsdauer nach vollständiger Einreichung der Unterlagen beträgt 7- 10 Bankarbeitstage - Bei Abweichungen informieren wir Sie umgehend\n•    Für Fallkonstellationen außerhalb des Standardgeschäfts sowie für Darlehenssummen über 2,5 Mio. EUR sind weiterhin keine Voranfragen möglich"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "entry": {
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Finanzierung möglich,\nallerdings nur für investive Zwecke. Unter „investiv“ versteht man die Verwendung der Darlehensmittel für Immobilien, z. B. Ferienimmobilie im Ausland, KapitalanlageImmobilie, fremdgenutzte Immobilie, Auszahlung von Familienmitgliedern, Kapitalbeschaffung der Eltern für die Immobilienfinanzierung ihrer Kinder, Erbengemeinschaften zum Erwerb von\nAnteilen an Immobilieneigentum etc.\n \nDie Besicherung der Kapitalbeschaffung erfolgt ausschließlich bei\ninländischen Immobilien im Rahmen der Beleihungs- und Kreditparameter.\n \nNicht finanzierbar bei Kreditverwendung für:\n• Ablösung reiner Konsumkredite.\n• Privatkonsum aller Art (Pkw-Kauf etc.) / freie Verwendung.\n• (Spekulative) Wertpapiergeschäfte.\n• Kurzfristige Börseninvestitionen."
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "NEU ab 16.03.2026 :\nEigennutzer: 1.600 EUR (alt 1.500 EUR)\nKapitalanleger: 2.400 EUR (alt 2.300 EUR)"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Vermittlung einer Nachfinanzierung für die Fertigstellung /Renovierung /Modernisierung / Sanierung eines bereits bei der HVB beliehenen Objektes ist ab 75.000 EUR möglich."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Möglich für Finanzierungen der Förderbanken:\n• BayernLabo\n• IB.SH – hier sind mind. die Nebenkosten, vorrangig als Eigenmittel (keine Eigenleistungen), einzubringen.\n \nDie Beantragung der Fördermittel muss bei Einreichung des Finanzierungsantrages nachgewiesen werden.\nZusätzliches Darlehen für Nebenkosten oder Eigenkapitalverbesserung ist möglich. Die Rate für das Darlehen ist in der Haushaltsrechnung zu berücksichtigen und das Darlehen muss bereits genehmigt sein.\nKeine Kombination von HVB Immobilienfinanzierung und HVB Ratenkredit möglich."
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 bis 30"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Immobilie der Eltern als Zusatzsicherheit möglich: sofern es sich bei den Eigentümer:innen der Zusatzsicherheit um die Eltern Ihrer Kund:innen handelt, ist eine individuelle Prüfung möglich (bisherige Regelung: Darlehensnehmer:in muss Eigentümer:in der Sicherheit sein) > Voranfrage erforderlich"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten\nJedoch keine Zwifi mit einem tilgungsausgesetzten Darlehen gegen BSV,\nZwifi mit einer Vorlast bis max. 20%, keine wertmindernde Rechte\nLaufzeit maximal 5 Jahre.\nZwischenfinanzierung grundsätzlich nur mit gleichzeitiger\n\nLangfristfinanzierung (Mindestdarlehenssumme EUR 250.000) möglich."
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "es werden nur noch Unechte Forward-Darlehen angeboten bis 24 Monate Vorlaufzeit über die Schnittstelle\n \nBei Selbstständigen nur 12 Monate"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1 - 20 (inkl. Forwardperiode)"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Voranfrage erforderlich wg. Kondition\nFür die Voranfrage ist ein durch die:den Kundin:Kunden unterschriebenes Plattform-Angebot einzureichen. Weitere Unterlagen sind nicht notwendig."
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nicht möglich - Es wird nur zu einem Termin umgeschuldet."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40890023"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 262, 297, 298, 300\nWichtige Infos zu KfW 300:\nEs wird nur der Ersterwerb von neu errichteten Gebäuden und Wohneinheiten gefördert.\nEs werden nur Familien mit Kindern unter 18 Jahren gefördert."
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja\nStandardgeschäft: 150 TEUR\nSelbstständige: 250 TEUR"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Bestehende KfW-Darlehen bei der HypoVereinsbank können nicht\ndurch ein HVB-Annuitätendarlehen abgelöst werden. Die Prolongation erfolgt immer über das Verlängerungsangebot der KfW, das erst ca. 5 Wochen vor Ablauf der Zinsbindung von der KfW zur Verfügung gestellt wird.\nFür die Prolongation von KfW-Darlehen besteht kein Provisionsanspruch."
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Max. kann der Kaufpreis als Finanzierung dargestellt werden, auch wenn der Marktwert laut Gutachten höher ist\nDie Kauf-Nebenkosten sind grundsätzlich immer aus Eigenkapital zu erbringen, auch bei Stellung von Zusatzsicherheiten"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "0 - 5% frei wählbar im Vorgang / 10% per Anfrage (mindestens 1.250,00 EUR)\nBei Beantragung sollte bereits ein fester Wunschtermin zum Monatsultimo angegeben werden. Der 31.12. als Sondertilgungstermin ist nicht möglich.\nBei Forward-Darlehen: Bei Vereinbarung einer optionalen Sondertilgung darf die Zinsbindung inkl. Vorlaufzeit 13 Jahre nicht überschreiten."
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Die Mindesttilgung beträgt 1%, sofern sichergestellt ist, dass das Darlehen innerhalb einer maximalen Finanzierungslaufzeit von 40 Jahren vollständig zurückgeführt werden kann. \n\nDas Darlehen innerhalb des vertraglich vereinbarten Zinsbindungszeitraumes durch regelmäßige Tilgung vollständig zurückgeführt wird oder\nDie vollständige Ablösung des restlichen Saldos nach Ablauf des Zinsbindungszeitraumes durch einen an uns abgetretenen Bausparvertrag gewährleistet ist oder\nWenn bei Abschluss des Darlehensvertrages sichergestellt ist, dass das Darlehen innerhalb einer maximalen Finanzierungslaufzeit von 40 Jahren vollständig zurückgeführt wird"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Folgemonat nach Vollauszahlung (Monatsultimo)"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Nicht möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Ein optionaler Tilgungssatzwechsel wird nicht angeboten. \nMöglich ist eine feste Vereinbarung zum Tilgungswechsel gegen Zinsaufschlag.\nDiese Vereinbarung lässt der Kunde bei Abschluss des Darlehensvertrages in den Vertrag aufnehmen.\nBei Einreichung im Begleittext den Tilgungssatzwechselwunsch konkret beschreiben, d. h. Angabe des genauen Datums (muss Monats-Ultimo sein) und des neuen Tilgungssatzes. Die Bank prüft die einzuhaltende maximale Darlehenslaufzeit von 40 Jahren und passt ggf. das Pricing an."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Aktuell NICHT darstellbare Objektarten:\n• Lehmbauweise\n• Plattenbau\n• Fachwerk (ausgenommen Holzständerbauweise)\n• Blockhaus\n• Landwirtschaftliches Objekt\n• Apartmenthaus\n• Sonder- und Spezialobjekte bzw. Speziallagen (Aussiedlerhöfe, Alleinlagen, Lagen unmittelbar an Bahn, Autobahn bzw. in mehrheitlich gewerblichen Mischgebieten etc.)\n• Tiny House\n• Erworbene Objekte, für die bereits eine Kaufpreis-Fälligkeit\nvorliegt."
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Objekt <50% Unterkellerung gilt als teilunterkellert\nab 50% und mehr als vollunterkellert \nes wird eine amtliche Flurkarte benötigte, keine Akzeptanz von Kartenausschnitten/-kopien aus anderweitigen Quellen (z.B. Value)\nZusatzimmobilie - Darlehensnehmer muss Eigentümer sein\n Regeln für Bestandsobjekte\nSämtliche Bestandsimmobilien (nicht als Beleihungsobjekt) sind vollständig zu dokumentieren; bei Darlehen sind Verbindlichkeitsnachweise verpflichtend.  \nBis zu 3 Bestandsobjekte zusätzlich zum Finanzierungsobjekt: weiterhin Standardfall, reguläre Einreichung.  \n4 bis 6 Bestandsobjekte: vor Antragstellung individuelle Voranfrage mit explizitem Verweis auf die Bestandsobjekte; Prüfung durch den zuständigen KAM.  \nAb 7 Bestandsobjekten: keine Bearbeitung und auch keine Voranfrage mehr möglich."
+    },
+    "blankoauszahlung": {
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "value": "Bei eigenen Bauvorhaben ist nach vorab erbrachtem Eigenkapitaleinsatz eine Vorabauszahlung von max. 20 % der Darlehensvaluta möglich („Kleinbetragsregelung“). Dies gilt jedoch nicht für KfW-Darlehen. • Mindestbetrag pro Auszahlung: EUR 5.000. • Die ordnungsgemäße Kreditmittelverwendung (in Anlehnung an die Objektkalkulation) ist vor Beantragung der nächsten 20-Prozent-Tranche der Bank zu belegen. • Eine Kumulierung von Rechnungen über mehrere Vorabauszahlungen ist nicht möglich. • Der Nachweis erfolgt anhand von Rechnungen und der zugehörigen Zahlungsnachweise. • Für „Kleinstrechnungen“ stellt die HVB ihren Kund:innen ein eigenes Formular zur Verfügung, das keine Belegeinreichung erfordert. • Größere Rechnungen (z. B. für Hauptgewerke) können unabhängig hiervon eingereicht werden. • Bitte beachten: Die Summe aller Auszahlungen ist grundsätzlich auf 8 Vorgänge begrenzt. Eine Ausnahme besteht lediglich bei Rechnungslegung nach MaBV."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "ja (möglich bei Kauf „Neubau“ vom Bauträger oder GU (Entwickler) bzw. Kauf Bestandsobjekt ohne verbundene Modernisierungs-/ Sanierungsmaßnahme)"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "• Eigenleistungen sind bis maximal 10 % der Anschaffungs bzw. Herstellungskosten und bis maximal 20.000 EUR zulässig. Als Anschaffungs- und Herstellungskosten gelten: Kaufpreis zzgl. Baukosten / Modernisierungskosten.\n• Keine Ausnahmen, auch nicht bei Vorliegen familiärer, verwandtschaftlicher bzw. beruflicher Möglichkeiten."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung nicht darstellbar"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung nicht möglich, wenn als solche im Grundbuch deklariert.\nAusnahme: Wenn wohnwirtschaftliche Eigennutzung der Immobilie möglich ist oder im Rahmen einer Kapitalbeschaffung auf eine wohnwirtschaftlich genutzte Standardimmobilie in Deutschland."
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "25"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Kondition und Machbarkeit ausschließlich über Voranfrage möglich. Objektwertermittlung auf Basis der objektspezifischen Mindestunterlagen."
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp - Wertgutachten: ab Marktwert 2 Mio. EUR, MHF, unbebauten Wohngrundstücken & Private Banking Finanzierungen - Dauer: ca. 10 AT"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Bei folgenden Immobilien benötigt die HVB vor Kreditgenehmigung ein eigenes internes Gutachten:\n• Wohn- und Geschäftshäuser mit einem gewerblichen Mietertrag > 10 %.\n• Standardimmobilien inkl. Mehrfamilienhäuser mit einem gewerblichen Mietertrag < 10 % und Marktwert > 2,5 Mio. EUR\n• Gewerblich genutzte Immobilien.\nDie Kosten für das Gutachten trägt die Bank. Hierdurch ergibt sich grundsätzlich eine längere Bearbeitungszeit"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Deutschlandweit bei Aufteilung in 6 Regionen\nMind. 1 Antragsteller oder mind. 1 Objekt im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "nur in Verbindung mit Aufbaufinanzierungen\n \nUngeteiltes Grundstück bei Neubauvorhaben:\nBei Feststehen der finalen Grundstücksgröße und korrekten Erfassung im Tool kann auch ein noch ungeteiltes Grundstück inkl. Bauvorhaben finanziert werden.\n\nVoraussetzungen:\nVerpfändung der Auflassungsvormerkung als dingliche Besicherung des Grundstückskaufs\nAuszahlungen für den Bau sind erst nach Teilung und Grundschuldeintrag möglich\nBei Kauf eines Neubaus vom Bauträger ohne Realteilung wird eine Verpfändung der Ansprüche aus der Bürgschaft nach MaBV §3 und §7 akzeptiert."
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, es sind keine aus Sicht der Bank wertmindernden Vorlasten zulässig"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung:\nVorlasten in Abteilung III: bei Grundschuldnominalbetrag der Vorlast ≤ 20 % des von der HVB über VDP ermittelten Objektwertes ist eine Prüfung möglich"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Eigentumswohnung: 35 qm Wohnfläche. \nEinfamilienhaus: 90 qm Wohnfläche \nReihenhaus /Doppelhaushälfte: 80 qm Wohnfläche\n\nAktuell kann beim Scoren nur ein Wert berücksichtigt werden, weswegen die Grenze bei 35 liegt - bitte beachtet hierbei den Hinweistext in BaufiSmart"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Der Ansatz des zukünftigen regelmäßigen Einkommens ist möglich,\n• wenn zwischen Beendigung Elterngeldzahlung und Wiedereinstieg ins Berufsleben max. 3 Monate liegen.\n• sofern kein nahtloser Übergang vorliegt: Nach Eigenmitteleinsatz muss für Überbrückung noch liquides Vermögen \nin Höhe von 6 künftigen Monatsgehältern nachgewiesen sein (Bsp. künftiges Gehalt: 2.000 EUR → nachgewiesenes \nliquides Vermögen von mind. 12.000 EUR vorhanden).\n• wenn während des Elterngeldbezugs zusätzlich eine evtl. Kapitaldienstlücke durch weiteres freies Vermögen geschlossen werden kann.\n \n Folgende Unterlagen sind notwendig:\n• Bestätigung des Arbeitgebers oder, falls nicht eineinholbar: Absichtserklärung der:des Darlehensnehmerin:Darlehensnehmers mit jeweils folgenden Informationen:\n• Letzte Gehaltsabrechnung vor Mutterschutz und Nettogehaltssimulation für künftiges Gehalt (nach Wiedereintritt).\n• Elterngeldbescheid, sofern bereits vorliegend.\n• Informationen zu den voraussichtlichen Kinderbetreuungskosten."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14, muss vertraglich geregelt sein und durch Gehaltsabrechnung belegt werden.\nProvisionszahlungen/Tantieme:\nBei schwankendem Einkommen wird der Schnitt der letzten 3 Jahre und davon werden 75% angesetzt. Überstunden können nicht berücksichtigt werden. Einkünfte müssen nachhaltig und regelmäßig erzielt werden.\nMindesteinkommen: Eigennutzer 1.600 EUR (alt 1.500 EUR), Kapitalanleger: 2.400 EUR (alt 2.300 EUR)"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Das Arbeitsverhältnis muss mindestens 12 Monate bestehen und die Einkünfte hieraus regelmäßig und nachweisbar sein."
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt\n• Standardgeschäft: kein Ansatz möglich.\n• Individualgeschäft: Ansatz möglich, Voraussetzung: Scheidungsvereinbarung und Nachhaltigkeit der Unterhaltszahlungen entsprechen mindestens der Darlehenslaufzeit.\n \nKindesunterhalt\n• Standardgeschäft: kein Ansatz möglich.\n• Individualgeschäft: Ansatz möglich, Voraussetzung: Die Unterhaltszahlungen sind nachhaltig und entsprechen mindestens \nder Darlehenslaufzeit."
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Möglich.\nVoraussetzungen:\n• Wohnsitz muss in Deutschland sein.\n• Es erfolgt ein Abschlag in Höhe von 10 % auf den maximal möglichen Beleihungsauslauf gemäß Risikolandkarte siehe auch\n(→ Maximaler Beleihungsauslauf).\n• Dauerhafter Verbleib in Deutschland sollte in Aussicht gestellt sein.\n• Deutsche Sprachkenntnisse erforderlich. (siehe auch → Sprachkenntnisse).\n• Unbefristetes Arbeitsverhältnis. \n• Diese Regelung gilt, sobald die Kriterien auf eine:n der Darlehensnehmer:innen und / oder Sicherheitengeber:innen zutreffen.\n• FIDEUROP verpflichtend erforderlich bei Kreditnehmer:in mit Staatsangehörigkeit außerhalb der EU (Kosten hierfür sind von der:dem Kundin:Kunden zu tragen)."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Akzeptiert werden aktuell:\nProfessor:innen, Ärzt:innen, Rechtsanwält:innen, Steuerberater:innen, Wirtschaftsprüfer:innen, Apotheker:innen, Zeitsoldat:innen, Beschäftigte im öffentlichen Dienst, IT-Fachkräfte, wissenschaftliche Mitarbeiter:innen in Hochschulen und Forschungseinrichtungen, Erzieher:innen, Vorständ:innen, medizinisches Personal, Profisportler:innen.\n \nEinkünfte aus Ausbildungsverhältnissen sind nicht ansetzbar"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\nBefristung: \n\nkeine Voranfrage nötig und somit die Einreichung über die Schnittstelle möglich:\n\nBefristete Arbeitsverträge in bestimmten Branchen\n \nVoraussetzung: Geht die Kreditlaufzeit über die Befristung hinaus, ist ein Ansatz des Einkommens nur möglich, wenn es sich um eine branchenübliche Befristung handelt und von einer späteren Weiterbeschäftigung/anderweitigen Beschäftigung ausgegangen werden kann (z.B. angestellte Ärzte, wissenschaftliche Mitarbeiter an Hochschulen u. Forschungseinrichtungen, Öffentlicher Dienst, Erzieher, Zeitsoldaten, angestellte Lehrer, Vorstände und oberes Management, IT Projektmitarbeiter) – auf BaufiSmart wird dieses Kriterium grün und es ist zu prüfen, ob der Darlehensnehmer in einer der genannten typischen Branche beschäftigt ist. \nSonstige befristete Arbeitsverträge: Nicht darstellbar, keine Voranfrage möglich\nProbezeit möglich. Voraussetzung: Darlehensnehmer:innen müssen mindestens 36 Monate Berufserfahrung in derselben Berufsgruppe nachweisen und belegen können.\nNICHT DARSTELLBARE BRANCHEN UND BERUFSGRUPPEN\nAngestellte\nDerzeit kein Ausschluss für bestimmte Branchen.\n\nSelbstständige\n• Erotikbranche\n• Sonnenstudios\n• Spielothek / Kasinos\n• Tankstellen\n• Videothek\n• Wettbüro"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Voraussetzung ist verhandlungssichere Deutschkenntnisse aller Darlehensnehmer\n Ansatz Minijob kann nur erfolgen, wenn dieser mindestens 12 Monate besteht. \n2. PKW muss immer mit 250€ unter zusätzlichen Kosten erfasst werden."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max. 2, ausschließlich ein Haushalt"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Finanzierung möglich.\nmindestens 36 Monate Tätigkeit\n \nBei Darlehensvolumen von 250.000 inkl. KfW (max. 2 Darlehenstranchen plus KfW) bis einschließlich 1.000.000\nEUR bitte Direkteinreichung mit Schnittstellenkondition nutzen.\nBei Darlehensvolumen über 1.000.000 EUR immer Voranfrage erforderlich.\n \nErforderliches Mindesthaushaltseinkommen 5.000 EUR p. M. inkl. etwaiger Nettokaltmieten aus Bestandsimmobilien, exkl. Mieten aus Antrags- / Kaufobjekt."
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "• Wohnsitz muss in Deutschland sein.\n• Alle Einnahmen müssen auf Euro lauten und auf ein deutsches Konto eingehen.\n• Einreichdokumente müssen in deutscher Sprache vorliegen\n– akzeptiert wird auch eine übersetzte Version. Kosten trägt der:die Antragsteller:in"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "Bei Eigen-/Selbstnutzung: mindestens 5% (mind. EUR 100) der Nettoeinkünfte /-einnahmen nach Abzug der tatsächlichen Rate /Ist-Rate /Ist-Annuität. \nBei Selbstständigen/ Freiberufler:innen: Mindestnettoeinkommen EUR 5.000 p.M. inkl. etwaiger Nettokaltmieten aus Bestandsimmobilien, exkl. Mieten aus Antrags-/Kaufobjekt. Mindestüberschuss 5% (mind. EUR 100) der Nettoeinkünfte / -einnahmen nach Abzug der tatsächlichen Rate /Ist-Rate /IstAnnuität."
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Sofern die jährlichen Mieteinnahmen (abzüglich Bewirtschaftungskosten) aller Objekte 200.000 EUR überschreiten, gelten besondere Prüfkriterien. Eine Voranfrage ist nur im Individualgeschäft möglich."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 100\nÄltere Darlehensnehmer:innen: Kreditnehmer:innen im fortgeschrittenen Alter sollten solide Einnahmen vorweisen können. Das Finanzierungskonzept sollte zudem auf die durchschnittliche Lebensdauer abgestimmt sein. Von Vorteil sind hier Immobilienvermögen, Barvermögen, Erbfolge, hohe Sondertilgungen."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Ansatz nur des betrieblichen Teils. Kein Ansatz staatlicher Zahlungen."
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Finanzierungen mit negativen Einträgen sind generell nicht möglich. Keine Bagatellgrenze."
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Voranfrage zur Prüfung der Einkommens- und Vermögensverhältnisse ist im Individualgeschäft möglich.\nVoraussetzung: beantragte Darlehenssumme muss mind. 1,5 Mio. EUR betragen (Ausnahmen können mit den regionalen Key Account Managern besprochen werden)."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Möglich. Voraussetzung: Die:Der Darlehensnehmer:in muss mindestens 36 Monate Berufserfahrung in derselben Berufsgruppe\nnachweisen können."
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Dokumentation in den Angaben zur Erwerbssituation und Vermögensverhältnissen \nBei angestellten/nichtselbständige Antragstellern und Beamten: \nSofern bei 75%-Ansatz des aktuellen Nettoeinkommens weiterhin die langfristige Kapitaldienstfähigkeit und der Mindestüberschuss gewährleistet sind und keine anderslautenden Nachweise zur Rentensituation vorliegen -> Keine zusätzlichen Nachweise notwendig und Berücksichtigung von 75% des Nettoeinkommens\nDefinition des aktuellen Nettoeinkommens in diesem Zusammenhang:\n\nRegelmäßiges monatliches Nettoeinkommen aus nichtselbständiger Tätigkeit (Lohn, Gehalt, Pension), plus ggf. vorhandenes 13. Gehalt, plus ggf. regelmäßige Bonuszahlungen (Ansatz siehe => Bonuszahlungen), max. Ansatz als gesetzliche Rente: EUR 6.000,00 (entspricht 75 % aus EUR 8.000,00 Nettoeinkommen).\n\n Nicht ansetzbar für die Ermittlung des Nettoeinkommens: Zusatzeinnahmen aus Minijob oder selbständiger Tätigkeit. Darüber hinaus können nachgewiesene weitere (betriebliche bzw. private) Rentenbausteine in Ansatz gebracht werden."
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ablösung von Ratenkrediten (Umschuldungen von Konsumentenkrediten im Rahmen einer Baufi-Umschuldung) werden nicht begleitet"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Rahmen der Vertragsunterschrift richten sich die Kund:innen einen Onlinebanking-Zugang ein.\nDie Kund:innen erhalten eine ausführliche Anleitung, wie sie sich im Onlinebanking registrieren und wie die Auszahlungsaufträge erfasst werden können.\nDie für die Auszahlung notwendigen oder fehlenden Unterlagen laden Kund:innen in den digitalen Arbeitskorb im Onlinebanking hoch. Für die Dokumentation von noch fehlenden Unterlagen gibt es ein Kommentarfeld.\nSind die Voraussetzungen erfüllt, können die Kund:innen Auszahlungen erfassen."
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Darlehensverträge:\nOriginalverträge erhält der Darlehensnehmer\nVersand erfolgt per Post an den Kunden\nVermittlerkopie auf Wunsch erhältlich\nbis 1 Mio. EUR Darlehensvolumen müssen die Antragsteller:innen nicht in die Filiale gekommen\nbis zu einen Darlehensvolumen von 1 Mio. EUR wird der DV mit dem Kunden per Video durch die HVB besprochen wird und im Termin vom Kunden unterschrieben werden; Vertrag muss danach per Post an die HVB verschickt werden"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Sobald die gewünschte Kondition über die Pricing-Schnittstelle ermittelt und angenommen wurde, muss die komplette und vollständige Akte innerhalb von 3 Arbeitstagen (inkl. Tag der Ermittlung der Pricing-ID) bei der HVB eingehen. Nur so sind die über die Schnittstelle ermittelten Konditionen fixiert und verbindlich."
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Hause der Bank oder per Videoident"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Bei erster Antragseinreichung verlangt die HVB die Legitimation des Beraters.\nDies kann per Videolegitimation oder in der nächstgelegenen HVB Filiale erfolgen."
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kunden profitieren bei Abschluss einer Immobilienfinanzierung im Rahmen des HVB valyou Programms von einer Prämie von bis zu 300 € pro Jahr\nKondition wird erst verbindlich über die Schnittstelle ermittelt. \n\nGültigkeit der geholten Konditionen:\nEs kann mit jeder gültigen Pricing-ID innerhalb der Angebotsfrist (Tag der Erstellung + max. 2 Werktage) eingereicht werden. Erfolgt eine Einreichung eines Finanzierungsantrages an die HypoVereinsbank ohne Verweis auf eine andere, noch innerhalb der Angebotsfrist gültige Pricing-ID, so gelten die mit dem Finanzierungsantrag übermittelten Konditionen. Eine nachträgliche Änderung ist nicht möglich."
+    }
+  },
+  "company_id": "86b0625120bfce16d863147fc7633334",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/86b0625120bfce16d863147fc7633334",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "04.05.26",
+  "recent_news": [
+    {
+      "date": "06.05.26",
+      "title": "HypoVereinsbank - Behoben!: Konditionsschnittstelle nur eingeschränkt verfügbar"
+    },
+    {
+      "date": "05.05.26",
+      "title": "HypoVereinsbank - Konditionsschnittstelle nur eingeschränkt verfügbar"
+    },
+    {
+      "date": "27.04.26",
+      "title": "HypoVereinsbank - Umstellung der Regeln für Bestandsobjekte ab 01.05.2026"
+    },
+    {
+      "date": "17.04.26",
+      "title": "HypoVereinsbank - Turbo-Woche! Kreditentscheidungen innerhalb von 24 Stunden im Standardgeschäft"
+    },
+    {
+      "date": "09.03.26",
+      "title": "HypoVereinsbank - BEHOBEN: Technische Einschränkungen der HypoVereinsbank Schnittstelle"
+    }
+  ]
+}

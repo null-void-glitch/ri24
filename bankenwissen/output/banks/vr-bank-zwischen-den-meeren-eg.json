@@ -1,0 +1,445 @@
+{
+  "bank": "VR Bank zwischen den Meeren eG",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja: 0 – 112% \nAuf Anfrage: 112 – 130% \nNein: > 130%"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130%"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "112%"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130%"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12/12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6/12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "min. 50.000 (Einzelbaustein 50.000)\nmax. 1.000.000\nab 1.000.000 Einzelfallentscheidung"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, Angabe des Verwendungszweckes erforderlich, min. 80% muss wohnwirtschaftlich sein"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\n Modernisierungskosten incl. Eigenleistungen werden zu 70% angesetzt \n Wohnwirtschaftliche Verwendung muss gegeben sein"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, Nachrangdarlehen der Hanseatic Bank"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 % der Darlehenssumme \nSollte der Kunden diesen anschließend nicht benötigen, kann die DS gesenkt werden. Rate bleibt gleich."
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nachrangdarlehen durch regionale Förderbanken, z. B. IB.SH (Bitte Angebot mit Berechnung einreichen) \n Hinweis: Die Beantragung erfolgt nicht durch die VR Bank zwischen den Meeren eG, sondern durch den \n Vermittler direkt bei der Förderbank."
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 %"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, nur als Zwischenfinanzierung"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 20, unter Berücksichtigung des Forward-Zeitraums"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, max. eine Immobilie als Zusatzsicherheit > muss sich innerhalb erweiterten Geschäftsgebiet befinden"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, nur in Kombination mit einem langfristigen Darlehen"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "100%"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40160041"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 308"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angebot über BaufiSmart"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Eigenleistungen werden bis zu € 25 TSD akzeptiert (Bitte Aufstellung der Eigenleistungen mit einreichen - inkl. Freundes-/ Verwandtenhilfeliste)"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "0 % / 10 %"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "< 90%: 1 %\n90 - 100%: 1,00%\n100 - 112%: 1,00%\n> 112%: 2,00%"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Bei fertig zu stellenden Objekten kann der Tilgungsbeginn des Darlehens bis zu drei Jahre verschoben werden – Info bei Einreichung notwendig!"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Massivbau + Fertighaus; alle anderen Bauweisen = Einzelfallentscheidung"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "bis 25.000 €\nab 25.000 € werden Eigenleistungen individuell geprüft"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Bei Ferienimmobilien ist auf eine mögliche Nutzung als Wohnung zu achten (bei eingeschränkter Nutzungsmöglichkeit ist ein manueller Konditionsaufschlag von 1,0% auf der Plattform erforderlich)"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Auf Anfrage"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "49"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begrenzung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "sämtliche Landkreise und kreisfreien Städte Schleswig-Holsteins, das gesamte Stadtgebiet der Freien und Hansestadt Hamburg, die im Bundesland Mecklenburg-Vorpommern gelegenen Landkreise Ludwigslust-Parchim, Mecklenburgische Seenplatte, Nordwestmecklenburg und Rostock sowie die kreisfreien Städte Schwerin und Rostock (Antragssteller und/oder Objekt) \ngem. Darstellung auf Europcace.\nAlle  Darlehensnehmer ODER Alle Objekte im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "akzeptiert werden: Nicht wertmindernde Rechte (z. B. Grunddienstbarkeiten) \nnicht akzeptiert werden: Wohnrechte, Nießbrauch, etc. (vorrangig)"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "individuelle Prüfung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "20"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Erwerb aus Zwangsversteigerung nach Zuschlagsbeschluss, Voranfrage möglich"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja zu 100%\n> mit Elterngeldbescheid, wenn Absichtserklärung vom DN über den Zeitpunkt des Wiedereintritts incl. Angabe der Ausübung (Voll-/ Teilzeit) und eine Bestätigung des AG darüber vorliegt"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn Beschäftigung mehr als 6 Monate besteht"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: folgt\nWaisenrente: folgt"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: voll\nKindesunterhalt: Ja - Einschränkung: max. bis zum 18. LJ des Kindes \nPflegegeld"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein, auch nicht wenn der Ehepartner eine Niederlassungserlaubnis hat"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn branchenüblich"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\n \nMindestbeschäftigungsdauer: Bei Angestellten, auch bei Nebenjobs > 6 Monate"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "bitte im Vorgang/Übergabeschreiben hinterlegen, ob der Kunde bereits jemals eine Immobilienfinanzierung abgeschlossen hat oder es sich um seine erste Immobilienfinanzierung handelt\nBei verheirateten ist die Darlehensvergabe für einen Ehepartner alleine möglich. Bitte zusätzlich Kopie Personalausweis des Ehepartner mit weiterleiten -> wird für die Erstellung der GS-Bestellung benötigt (Zustimmung zur Belastung)"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max. 2, max. 1 Haushalt\nBei verheirateten ist die Darlehensvergabe für einen Ehepartner alleine möglich. Bitte dann zusätzlich Kp. Personalausweis Ehepartner mit weiterleiten -> wird für die Erstellung der GS-Bestellung benötigt (Zustimmung zur Belastung)\nEigentümer und Darlehensnehmer müssen nicht identisch sein"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? Ja \nAkzeptierte Währung: EUR, CHF, DKK\nWohnsitz & Gehaltsbezug im Ausland?  Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "200"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Mindesteinkommen:  2.500,-- € p. M. (ledig)"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "18-99"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Ja, mit Niederlassungserlaubnis. Aufenthaltserlaubnis reicht auch nicht wenn der Ehepartner eine Niederlassungserlaubnis hat\n \nAusschluss bestimmter Staatsangehörigkeiten als Darlehensnehmer u. Miteigentümer: \nRussische Förderration, Weißrussland/ Belarus, Iran, Irak, Nordkorea, Ukraine"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung\nKeine Auszahlung während der Probezeit"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "max. Jahre 99\nÜberschuss muss analog des Haushaltsüberschusses gegeben sein"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Bei Kapitalanlegern mit mehreren Immobilien zur Vermietung im Bestand, bitte eine Voranfrage stellen, \ndamit eine individuelle Betrachtung der Einkünfte u. LHK erfolgen kann (max. 5 Bestandsimmobilien)"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "möglich\nBei umzuschuldenden Ratenkrediten müssen folgende Daten bei Beantragung mit angegeben werden: Name der Bank, monatliche Rate, ursprüngliche Laufzeit in Monaten, individ. RatenkreditNr."
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \n\nZusammen mit der Finanzierung kann ein kostenloses Baukonto (Girokonto) eingerichtet werden.\nAuszahlung auf das Baukonto, die Abbuchungen sind bereits die Mittelverwendungsnachweise."
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "folgt"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Die Legitimation erfolgt über ID Now oder in einer Filiale der VR Bank zwischen den Meeren eG.\nDie Legitimationsunterlagen werden nach Kreditentscheidung mit dem Darlehensvertrag über Europace zur Verfügung gestellt."
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, Rücklauf per Post im Original unterzeichnet"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Darlehensverträge werden über Plattform zur Verfügung gestellt, es erfolgt kein Postversand an den Kunden!"
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "bank": "Deutsche Bank",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "110"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "110"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100% bei entsprechendem Mindesteinkommen (s. unter \"Kapitalanleger\")\n80% bei entsprechendem Mindestvermögen von 30% des Kaufpreises und Nichterfüllung von Mindesteinkommen (s. unter \"Kapitalanleger\")"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Finanzierungsanfragen für den Kaufpreis und die Herstellungskosten zuzüglich Kaufnebenkosten (bis max. 110% des Kaufpreises)\n \nZusatzsicherheiten zur Konditionsverbesserung im Nachrang möglich (Voranfrage notwendig, da Einzelfallentscheidung)\n \nProdukt: \"Grüne Baufinanzierung\"\n(für „grüne“ Neubauten und Modernisierungen)\n\n \nKriterien:\nKunden: Keine besonderen Einschränkungen\nKonditionen: Zinssatz 20 bp niedriger als Standardprodukt\n- Kein Zinsabschlag für variable Bausteine\n- Kein Zinsabschlag für Bausteine mit Zinsbindung < 5 Jahre\n- Kein Zinsabschlag bei (teil-)gewerblich genutzten Objekten\nGeförderte Vorhaben:\n– Neubau und Kauf eines fertiggestellten Neubaus mit Erstbezug innerhalb 18 Monaten, wenn der\nPrimärenergiebedarf den Anforderungswert um mindestens 10% unterschreitet\n– Modernisierungen mit mindestens 30% Ersparnis im Primärenergiebedarf\n– Finanzierungsbausteine, die zusammen mit einem KfW-Darlehen der Programme 297, 298 und 300\nabgeschlossen werden\nErfoderliche Unterlagen: (Zusätzlich zur Unterlagencheckliste)\n- Vorläufiger Energieausweis oder Wärmeschutznachweis oder Sachverständigenbestätigung bei Beantragung\n- Nach Fertigstellung immer Bedarfs-Energieausweis\n- Aufklärungsblatt\n- Ergänzung zum Darlehensvertrag inkl. Datenschutzerklärung EIB und Ausschlusspolitik EIB\nPrimärenergiebedarf: \n- Primärenergiebedarf wird im Energie-Bedarfsausweis angegeben\n- Gemäß Taxonomie muß ein „grüner“ Neubau mindestens 10% weniger Primärenergie verbrauchen, als der Anforderungswert höchstens erlaubt\n- Eine Modernisierung gilt dann als „grün“, wenn der Primärenergiebedarf (Vergleich EA alt zu EA neu) um\nmindestens 30% reduziert wird\n\nWeitere Informationen findest Du unter Produktinformationen in der Präsentation \"Die grüne Baufinanzierung\".\n \nJe Vorhaben ein Antrag! Auch wenn über ein Objekt finanziert wird. Beispiele:   \n- Anschlussfinanzierung + Modernisierung = 2 Anträge\n- Prolongation + Anschlussfinanzierung = 2 Anträge\n- Kapitalbeschaffung + Modernisierung = 2 Anträge\n\nBitte bei Antragstellung auf den jeweils anderen Antrag verweisen, damit die Bearbeitung zusammen erfolgen kann. \n \nEin Antrag ist bei Grundstückskauf und anschließendem Neubau (auch bei Vorfinanzierung durch andere Bank) ausreichend,."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 10.000.000 EUR\nÜberschreitung - >10.000.000, Einzelfallabsprache bzgl. Konditionen und Machbarkeit\nFinanzierung der Kaufnebenkosten bis 10% des Kaufpreises"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "für sonstige, ausschließlich rein private Investitionen möglich. \nBeispiele: \n- Küche/Möbel\n- Ablösung KfW Darlehen oder Konsumentenkredite zusammen mit einer neuen Baufinanzierung\n- Kauf einer Immobilie, die nicht Beleihungsobjekt ist\n \nDer Verwendungszweck muss bekannt, hinreichend beschrieben und nachvollziehbar sein. \n \nNachweis gemäß Unterlagencheckliste: \nz.B. Kaufvertrag bzw. Entwurf der Immobilie, die nicht Beleihungsobjekt ist. Ggf. sind weitere Nachweise notwendig, sofern aus der Investition ein Finanzierungsbedarf, eine weitere Ratenbelastung offensichtlich ist, z.B. bei Kauf einer unrenovierten Immobilie. Id.R. wird hier ein Exposé der Kaufimmobilie wegen Fotos/Baufjahr mit Beschreibung Renovierungsstand nachgefordert. \n \nImmer grundpfandrechtlich zu besichern. \n \nMaximal bis zu 70% des Beleihungswertes (wird durch die Bank final festgelegt)."
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten\n1/4jährlicher Versand der KfW-Kontoauszüge sowie Darlehen anderer Färderinstitute"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ab 04.05.26\nLebenshaltungskosten\nfür das erste Haushaltsmitglied 860 € p.M. (bisher      840 €)\nfür jedes weitere 370 € p.M. (bisher 360 €)\nKfz-Kosten\npro Kfz 290 € p.M. (bisher 270 €)\nWohnnebenkosten\npro qm und Monat 3,95 € (bisher 3,60 €) (z.B. für Strom, Wasser)\nWICHTIG:\nEs sind weiterhin grundsätzlich jeweils die tatsächlichen Ausgaben (über die Mindestansätze hinausgehenden Kosten) im Kundengespräch aufzunehmen und zu dokumentieren. Die Lebenshaltungskosten sind entsprechend in die Selbstauskunft anzugeben."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "(z.B. Hanseatic-Bank) \n\nwird akzeptiert (Einzelfallprüfung)"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1-10, 15, 20, 25, 30, 35\nEndfällige Darlehen gegen BSV max. 20/1 Jahre/Monat\nUmschuldung fremder Darlehen max. 30 Jahre\nMaximale Darlehenslaufzeit 35 Jahre\n \nNach Ablauf der Zinsbindung Ansatz von 9% Annuität bezogen auf Restschuld"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja, sofern keine Prolongation\n\nSicherheit wird auf Werthaltigkeit geprüft\nBonitätsunterlagen werden 2 Monate vor Auszahlung beim Kunden angefordert\nSchufa-Abfrage erfolgt"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "48"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 15; 20; 25; 30"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Über Darlehensdatenabfrage im Vorgang"
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": ""
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": ""
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Reservierung wird automatisch direkt bei Annahme über die Plattform ausgelöst"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 262, 297, 298, 300\nKfW 300 nur mit 10 ZB"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "temporär ja, wenn entsprechende Sonderaktionen gelten"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Aktuell nur über DB direkt möglich\nReservierung wird automatisch direkt bei Annahme über die Plattform ausgelöst"
+    },
+    "l-bank-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "L-Bank Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "L-Bank (Wohnen mit Kind, Wohnen mit Zukunft, Kombi-Darlehen Wohnen)"
+    },
+    "l-bank-stand-alone": {
+      "name": "L-Bank Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über Darlehensdatenabfrage im Vorgang"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Konditionsanfrage erforderlich\nKriterium: für eine bestehende DB Baufinanzierung wird eine neue Zinsvereinbarung getroffen, Auslauf der Zinsbindung in den nächsten 6 Monaten, keine Laufzeitverlängerung, keine Aufstockung, keine Erhöhung der Rate (bzw max. bis 7,5 % Annuität auf den ursprünglichen Kreditbetrag)"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nAktuelle Selbstauskunft"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "1% abzgl. Overhead"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10\nSondertilgungsoption (5% bzw. 10 % der Darlehenssumme pro Jahr, mind. 1.250 €) optional möglich, muss im Darlehensvertrag vereinbart werden\nfrühester Zahlungstermin 12 Monate nach Vollauszahlung\n1 x pro Kalenderjahr, nicht kumulierbar\nZahlungseingänge werden in einer Summe zum Monatsultimo +/- 4 Bankarbeitstage berücksichtigt"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 %, abhängig vom Finanzierungsauslauf bei Kauf/Neubau \nkleiner/gleich 80 %: 1 %\ngrößer 80% und kleiner/gleich 100 %: 1,50 %\ngrößer 100 %: 2,75 %\nVerwendungszweck: Modernisierung / Kapitalbeschaffung\nAnpassung der Tilgung auf Gesamtlaufzeit von max. 35 Jahren\nVerwendungszweck: Anschlussfinanzierung (Umschuldung)\nAnpassung der Tilgung auf Gesamtlaufzeit von max. 35 Jahren\nVerwendungszweck: Anschlussfinanzierung (Prolongation Dt. Bank)\nursprüngliche Laufzeit ist grundsätzlich einzuhalten, bei Laufzeitverlängerung darf eine max. Laufzeit von 40 Jahre unter Anrechnung der vergangenen Jahre nicht überschritten werden"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Nur gegen Bausparverträge möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Der vereinbarte Tilgungssatz kann bis zu 3 mal und bis maximal 5% innerhalb der Sollzinsbindung angepasst werden. Der Minimum-Wert entspricht immer dem ursprünglich vereinbarten Tilgungssatz.\nMindest-Sollzinsbindung 5 Jahre\nMindest-Darlehensbetrag pro Baustein 25 TEUR"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nur mit Besicherung auf Immobilie im Inland"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Massivbauweise und Fertighäuser möglich.\n\nBei Fachwerkäusern und Plattenbauweisen erfolgt eine individuelle Prüfung.\n\nBei Holzfertigbauweisen wird ggf. ein zusätzlicher Risikoabschlag als Abzug vom Objektwert berücksichtigt.\n\nBei Blockbohlenhäusern ist ein Gutachten erforderlich."
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Bitte zwingend die Grundbuchdaten im Fall hinterlegen vor Einreichung. Dies ist derzeit kein Pflichtfeld und wird euch nicht angezeigt. Die Bank benötigt die Daten zur weiteren Bearbeitung"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "ja\nindividuelle Wertermittlung\nmit Dokumentation zum Umfang des Denkmalschutzes"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nDie planmäßige Tilgung (Darlehensrückzahlung) der Darlehen muss spätestens zehn Jahre vor Ablauf des Erbbaurechts enden."
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "sofern als Beleihungsobjekt vorgesehen: individuelle Prüfung.\nmüssen dauerhaft zu Wohnzwecken geeignet sein.\nMieteinnahmen aus Ferienobjeten:\nEine gesonderte Prüfung auf nachhaltige Einnahmen ist erforderlich."
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, Voranfrage erwünscht"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\nAnschrift des Objektes muss immer vollständig sein - auch wenn \"mehrere\" Hausnummern vorhanden sind ( z.B.: zwei Objekte auf einem Flurstück )"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp-Daten in Lora Speed\nWertermittlungsverfahren auf der Plattform: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "anlass- und objektbezogen"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nWichtig:\nBei der Deutschen Bank besteht die Herausforderung, dass - sobald mehr als ein Recht im Grundbuch Abt. II eingetragen ist - diese nicht korrekt in EUROPACE erfassbar sind. \nAkt. Lösung:\nSobald mehr als ein Recht in Abt. II eingetragen ist, muss im Kommentarfeld zum Antrag der Hinweis: \"Achtung: Mehrere Rechte in Abteilung II - bitte Gegenangebot prüfen\"."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "45\n<45 nicht möglich (Rotscore)"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja\nNeben Objekt- und Boni-Unterlagen sollte vor der Entscheidung ein ZV-Gutachten eingereicht werden. Der Zuschlagsbeschluss kann nachgereicht werden."
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Elterngeld kann nur berücksichtigt werden, sofern es nachhaltig ist und der Kunde bestätigt, dass er nach Ablauf des Elterngeldbezugs wieder arbeiten wird.\n\nEntsprechende Nachweise sind der Bewilligungsbescheid sowie eine formlose Erklärung des Berechtigten, dass die Berufstätigkeit. unmittelbar nach Ende der letzten Zahlung wiederaufgenommen wird\n\nSollte das künftige Gehalt nach Elternzeit niedriger sein als das Elterngeld (z. B. wg. Teilzeit), kann nur der niedrigere Betrag für die Bonitätsprüfung berücksichtigt werden."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13\nMehrarbeit und Schichtzulage  z.B. sofern nachhaltig / dauerhaft und branchenüblich"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "ja, gesonderte Prüfung"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "gesonderte Prüfung\ni.d.R. machbar, sofern aufgrund der Qualifikation des Antragstellers eine Weiterbeschäftigung in einem anderen Unternehmen wahrscheinlich ist."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Bestands-Immobiliendarlehen werden mit 9% in Kapitaldienstfähigkeit gerechnet\nRahmenkredite/Dispo´s und Ratenkredite ohne feste Laufzeit werden mit 12% Kapitaldienst berücksichtigt\nbitte im Vorgang immer die LHK und Anzahl der Kfz in den Zusatzangaben der Antragsteller hinterlegen\nHinweis zur Erfassung:\nVornamen und Nachnamen sind vollständig entsprechend Personalausweis etc. zu übernehmen"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. Anzahl 4, bzw. maximal  unterschiedliche Haushalte\nDarlehensnehmer müssen auch Eigentümer werden"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Definition Grenzgänger: \nKunden, die in Deutschland ihren Hauptwohnsitz haben, im benachbarten Ausland arbeiten und (i.d.R.täglich) an ihren Hauptwohnsitz zurückkehren. \n \n\nGrenzgänger ins EU-Ausland mit EUR als Landeswährung (z.B. Österreich, Niederlande): \nFinanzierung ist möglich, auch in der “Grüne Baufinanzierung”\n\nGrenzgänger ins EU-Ausland mit Nicht-EUR als Landeswährung (z.B. Dänemark, Polen):\nFinanzierung ist möglich, wegen des Wechselkursrisikos erfolgt ein Abschlag auf das Einkommen von aktuell 20%\n\n“Grüne Baufinanzierung\" ist hier nicht möglich. \n(Exkurs: Bei Kunden mit Hauptwohnsitz in einem EU-Land ohne EUR ist nach WoKRi eine Vergabe von Verbraucherdarlehen generell ausgeschlossen)\n\n \n\nGrenzgänger ins Nicht-EU-Ausland mit Nicht-EUR als Landeswährung (z.B. Schweiz): \nFinanzierung ist möglich, wegen des Wechselkursrisikos erfolgt ein Abschlag auf das Einkommen von aktuell 20% - “Grüne Baufinanzierung” ist hier nicht möglich."
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Mindesteinkommen:\nT€ 50/T€ 75 brutto bzw. T€ 30/T€ 48,7 netto, Einzelperson/Personenmehrheit \nfreies Mindestnettovermögen mind. 30% des Kaufpreises vor Finanzierung\nNebenkosten sollten aus liquiden Mitteln beglichen werden"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "ja\nEine gesonderte Prüfung auf nachhaltige Kapitaldienstfähigkeit ist erforderlich."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "in der Probezeit befindliche Arbeitsverträge werden gesondert geprüft"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja\nangestellte Geschäftsführer gelten ab einer Beteiligung ≥ 10% als Selbstständige"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DB Formulare werden mit Angebots-Annahme in BaufiSmart generiert"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Post, per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Post, per Upload\nFür die postalische Einreichung von Antragsunterlagen (insbesondere der im Original vom Kunden unterschriebene Darlehensvertrag) ist grundsätzlich das mit den Antragsunterlagen zur Verfügung gestellte Nachreichungsdeckblatt zu verwenden."
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent-Verfahren\nVertragsunterschrift in der Filiale\nVideolegitimation im Rahmen von QES möglich\nPersonen mit Staatsbürgerschaften auf folgenden Ländern können sich über WEB-ID legitimieren: Österreich, Belgien, Kroatien, Zypern, Finnland, Frankreich, Deutschland, Ungarn, Irland, Italien, \nLuxemburg, Malta, Niederlande, Slowakei, Slowenien, Spanien, Schweden, Schweiz"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "wird von der Bank beauftragt/erstellt.\nBitte Kontaktdaten zwecks Terminvereinbarung bei Antragstellung einreichen."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja, bei Vorab-Information an die Bank (Die Darlehensvertragsunterlagen werden dem Kunden digital zur Verfügung gestellt.)"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "BaufiSmart\nper Post an Antragsteller"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    }
+  },
+  "company_id": "f83093e5a46617f71384fb2e6e1cd1cc",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/f83093e5a46617f71384fb2e6e1cd1cc",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "07.05.26",
+      "title": "Deutsche Bank - Wartungsarbeiten heute, 07.05.2026 von 20:30 bis 22:00 Uhr"
+    },
+    {
+      "date": "29.04.26",
+      "title": "Deutsche Bank - BaufiSmart‑Anpassungen ab 06.05.2026"
+    },
+    {
+      "date": "24.04.26",
+      "title": "Deutsche Bank - Anpassungen Lebenshaltungskosten zum 04.05.2026"
+    },
+    {
+      "date": "20.04.26",
+      "title": "Deutsche Bank AG - Neues Formular \"Aufklärung der Voraussetzung KfW Energieeffizienz-Programme\""
+    },
+    {
+      "date": "31.03.26",
+      "title": "Deutsche Bank - Wartungsarbeiten: Einschränkungen HEUTE 23:00 Uhr bis 01.04. 8:00 Uhr"
+    }
+  ]
+}

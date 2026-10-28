@@ -1,0 +1,1031 @@
+<!DOCTYPE html><html lang="de"><head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    <style>hr {
+            margin: 10px 0;
+        }
+
+        .flot-chart-content {
+            width: 100%;
+            height: 100%;
+        }</style>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=gz7o6243ws"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=gz7o6243ws">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=gz7o6243ws"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=gz7o6243ws"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu active open">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=gz7o6243ws"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=gz7o6243ws"> <span>Makler</span> </a></li><li class="active"><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=gz7o6243ws"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=gz7o6243ws"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=gz7o6243ws"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=gz7o6243ws"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=gz7o6243ws"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=gz7o6243ws"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=gz7o6243ws"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=gz7o6243ws"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=gz7o6243ws"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=gz7o6243ws"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=gz7o6243ws"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=gz7o6243ws"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=gz7o6243ws"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=gz7o6243ws"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=gz7o6243ws"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=gz7o6243ws"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=gz7o6243ws"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=gz7o6243ws"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=gz7o6243ws"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=gz7o6243ws"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=gz7o6243ws"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=gz7o6243ws"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=gz7o6243ws"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=gz7o6243ws"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=gz7o6243ws"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=gz7o6243ws"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=gz7o6243ws"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=gz7o6243ws"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=gz7o6243ws"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=gz7o6243ws"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=gz7o6243ws"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=gz7o6243ws"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=gz7o6243ws"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=gz7o6243ws"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=gz7o6243ws">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=gz7o6243ws">.</li>
+    </ul>
+</div>        <div id="content">
+            <div id="content-header">
+                <h1>Dashboard - RI24 SEO</h1>
+            </div>
+            <div id="breadcrumb">
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=gz7o6243ws" title="Home"><span class="icon"></span> Home</a>
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=gz7o6243ws" title="Dashboard">Dashboard</a>
+                <a href="../../../../../adm/individuell/master/dashboard/baufi/index.php?admsess=gz7o6243ws" class="current" title="Baufi">Baufi</a>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl Baufi-Anfragen</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <style>
+                                        #dashboard-baufi p.counterx {
+                                            text-align: right;
+                                            padding-right: 4em;
+                                        }
+
+                                        #dashboard-baufi .label.counterx {
+                                            min-width: 4em;
+                                            text-align: center;
+                                        }
+
+                                        #dashboard-baufi .label.counterx.none {
+                                            background-color: #34A853;
+                                        }
+
+                                        #dashboard-baufi .label.counterx.gads {
+                                            background-color: #EA4335;
+                                        }
+
+                                        #dashboard-baufi .label.counterx.fb {
+                                            background-color: #0866ff;
+                                        }
+
+                                        #dashboard-baufi .label.counterx.referral {
+                                            background-color: #000;
+                                        }
+                                    </style>
+                                    <form id="dashboard-baufi" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/" method="post">
+                                        <div class="span2">
+                                            <p class="counterx">
+                                                Anzahl gesamt: <span class="label counterx counter">101</span><br>
+                                                Organisch: <span class="label counterx none">92</span><br>
+                                                Google Ads: <span class="label counterx gads">5</span><br>
+                                                Facebook: <span class="label counterx fb">---</span><br>
+                                                Referral: <span class="label counterx referral">4</span>
+                                            </p>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">
+                                                <select name="regioncode" style="width: 180px;">
+                                                    <option value="">Alle Regionen</option>
+                                                                                                            <option value="aai24">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24">Essenimmobilien24</option>
+                                                                                                            <option value="fi24">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24">Harzimmobilien24</option>
+                                                                                                            <option value="hli24">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24">Kielimmobilien24</option>
+                                                                                                            <option value="koei24">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24">Trierimmobilien24</option>
+                                                                                                            <option value="umi24">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+
+                                            <label style="display: inline;">
+                                                <select name="source" style="width: 150px;">
+                                                    <option value="">Gesamt</option>
+                                                    <option value="null">unbekannt</option>
+                                                    <option value="finssb">Startseite Suchbox</option>
+                                                    <option value="finlist">Ergebnisliste</option>
+                                                    <option value="finlistprofil">Listeneintrag Makler-Profil</option>
+                                                    <option value="finlistmerk">Merkzettel</option>
+                                                    <option value="finlistsa">neue Treffer aus Suchagent (Liste Kundenkonto)</option>
+                                                    <option value="finexpose">Exposé</option>
+                                                    <option value="finlanding">Landingpage</option>
+                                                    <option value="/baufinanzierung">(alt) baufinanzierung</option>
+                                                    <option value="/landingpage">(alt) landingpage</option>
+                                                    <option value="/immobilienfinanzierung">(alt) immobilienfinanzierung</option>
+                                                    <option value="/kaufen">(alt) kaufen</option>
+                                                    <option value="/anbieter">(alt) anbieter</option>
+                                                </select>
+                                            </label>
+                                            <label style="display: inline;">
+                                                <select name="origin" style="width: 150px;">
+                                                    <option value="all">Quellen/Referrals</option>
+                                                    <option value="null">Organisch</option>
+                                                    <option value="1">Google Ads</option>
+                                                    <option value="10">Facebook</option>
+                                                    <option value="referral">Referral (gruppiert)</option>
+                                                    <optgroup label="einzelne Referral">
+                                                                                                                                                                                                                                                                                                                                                                                    <option value="2">thribee (Mitula/nestoria)</option>
+                                                                                                                                                                                                                                                                <option value="5">classmarkets</option>
+                                                                                                                                                                                                                                                                <option value="9">immobilo</option>
+                                                                                                                                                                                                                                                                <option value="3">trovit</option>
+                                                                                                                                                                                                                                                                <option value="4">immosuchmaschine.de</option>
+                                                                                                                                                                                                                                                                <option value="8">Main-Echo</option>
+                                                                                                                                                                                                                                                                <option value="6">Südwest Presse</option>
+                                                                                                                                                                                                                                                                <option value="7">Süddeutsche</option>
+                                                                                                                                                                                                                                                                                                                                                                                            <option value="11">spotahome</option>
+                                                                                                                                                                                                                                                                <option value="12">Wohnglück</option>
+                                                                                                                                                                                                                                        </optgroup>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__baufi" style="">
+                                        <input type="hidden" name="label" value="baufi" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-baufi" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 0px; text-align: center;">10.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 106px; text-align: center;">13.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 212px; text-align: center;">16.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 318px; text-align: center;">19.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 423px; text-align: center;">22.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 529px; text-align: center;">25.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 635px; text-align: center;">28.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 741px; text-align: center;">31.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 847px; text-align: center;">03.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 953px; text-align: center;">06.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1059px; text-align: center;">09.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 0px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 232px; left: 0px; text-align: right;">1</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 199px; left: 0px; text-align: right;">2</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 166px; left: 0px; text-align: right;">3</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">4</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 99px; left: 0px; text-align: right;">5</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 66px; left: 0px; text-align: right;">6</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 33px; left: 0px; text-align: right;">7</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">8</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-content nopadding">
+                                <div class="row-fluid">
+                                    <div id="mail-table"><div id="DataTables_Table_16_wrapper" class="dataTables_wrapper" role="grid"><div class=""></div><table class="table table-bordered table-striped table-hover data-table dataTable" id="DataTables_Table_16"><thead><tr role="row"><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-sort="descending" aria-label="Zeit: activate to sort column ascending" style="width: 57px;"><div class="DataTables_sort_wrapper">Zeit<span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="ID: activate to sort column ascending" style="width: 66px;"><div class="DataTables_sort_wrapper">ID<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="Name Vorname: activate to sort column ascending" style="width: 86px;"><div class="DataTables_sort_wrapper">Name Vorname<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="Empfänger: activate to sort column ascending" style="width: 245px;"><div class="DataTables_sort_wrapper">Empfänger<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="Sender: activate to sort column ascending" style="width: 159px;"><div class="DataTables_sort_wrapper">Sender<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="Antwort an: activate to sort column ascending" style="width: 231px;"><div class="DataTables_sort_wrapper">Antwort an<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_16" rowspan="1" colspan="1" aria-label="E-Mail-Text: activate to sort column ascending" style="width: 194px;"><div class="DataTables_sort_wrapper">E-Mail-Text<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr></thead><tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1789025076</span>10.09.2026 09:24:36<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=132882427" title="Öffnen" target="_blank">132882427</a></td><td class=" ">Marina Hertel</td><td class=" ">silvia.liebeskind@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: marina.hertel1@gmail.com<br>Tel.: 4917658861545</td><td class=" ">CS6S0J</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1789023549</span>10.09.2026 08:59:09<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Alexander Stumm</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: lxndr.stmm@gmail.com<br>Tel.: 01235211234</td><td class=" ">KJ8MNV</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788942966</span>09.09.2026 10:36:06<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Tester testet</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: alexander.stumm@regionalimmobilien24.de<br>Tel.: 01233532</td><td class=" ">WN7MKLVorgang erstellt auf externer Seite: backend.regionalimmobilien24.de</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788941583</span>09.09.2026 10:13:03<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Test Tester</td><td class=" ">oliver.wewering@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: alexander.stumm@regionalimmobilien24.de<br>Tel.: 017657765817</td><td class=" ">TN2YBU</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788927359</span>09.09.2026 06:15:59<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=645791913" title="Öffnen" target="_blank">645791913</a></td><td class=" ">Thomas Schichtl</td><td class=" ">peggy.rodewald@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: thomas.schichtl@gmx.de<br>Tel.: 017683196997</td><td class=" ">LT2NZH</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788905557</span>09.09.2026 00:12:37<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=559224438" title="Öffnen" target="_blank">559224438</a></td><td class=" ">Mustafa Cambaz</td><td class=" ">andreas.beitzen@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: mustafa.cambaz@web.de<br>Tel.: 49 178 8606601</td><td class=" ">ER4VHT</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788872718</span>08.09.2026 15:05:18<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=430946033" title="Öffnen" target="_blank">430946033</a></td><td class=" ">Miroslav Brabec</td><td class=" ">andreas.berndt@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: info@asphaltprofis-in.de<br>Tel.: 491797579018</td><td class=" ">L78XHN</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788869695</span>08.09.2026 14:14:55<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=588884473" title="Öffnen" target="_blank">588884473</a></td><td class=" ">Christine Körner</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: chris19631@web.de<br>Tel.: 4915167964563</td><td class=" ">BL3FZA</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788861025</span>08.09.2026 11:50:25<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=151575008" title="Öffnen" target="_blank">151575008</a></td><td class=" ">Marion Müller</td><td class=" ">oliver.thier@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: muellermg@uni-trier.de<br>Tel.: 01779631338</td><td class=" ">AY1KP1</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788854139</span>08.09.2026 09:55:39<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=550675027" title="Öffnen" target="_blank">550675027</a></td><td class=" ">Olaf Mischke</td><td class=" ">silvia.liebeskind@regionalimmobilien24.de</td><td class=" ">info@regionalimmobilien24.de</td><td class=" ">Mail: olem1968@googlemail.com<br>Tel.: 0172 9</td><td class=" ">CT0SAS</td></tr></tbody></table><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix"><div class="dataTables_filter" id="DataTables_Table_16_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_16" style=""></label></div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="DataTables_Table_16_paginate"><a tabindex="0" class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_16_first">First</a><a tabindex="0" class="previous fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_16_previous">Previous</a><span><a tabindex="0" class="fg-button ui-button ui-state-default ui-state-disabled">1</a><a tabindex="0" class="fg-button ui-button ui-state-default">2</a><a tabindex="0" class="fg-button ui-button ui-state-default">3</a><a tabindex="0" class="fg-button ui-button ui-state-default">4</a><a tabindex="0" class="fg-button ui-button ui-state-default">5</a></span><a tabindex="0" class="next fg-button ui-button ui-state-default" id="DataTables_Table_16_next">Next</a><a tabindex="0" class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default" id="DataTables_Table_16_last">Last</a></div></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl Baufileads</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <style>
+                                        #dashboard-baufilead p.counterx {
+                                            text-align: right;
+                                            padding-right: 4em;
+                                        }
+
+                                        #dashboard-baufilead .label.counterx {
+                                            min-width: 4em;
+                                            text-align: center;
+                                        }
+
+                                        #dashboard-baufilead .label.counterx.first1 {
+                                            background-color: #0866ff;
+                                        }
+
+                                        #dashboard-baufilead .label.counterx.first0 {
+                                            background-color: #f89406;
+                                        }
+
+                                        #dashboard-baufilead .label.counterx.first0-in {
+                                            background-color: #468847;
+                                        }
+
+                                        #dashboard-baufilead .label.counterx.first0-out {
+                                            background-color: #b94a48;
+                                        }
+                                    </style>
+                                    <form id="dashboard-baufilead" data-table="baufileads" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/baufileads/" method="post">
+                                        <div class="span2">
+                                            <p class="counterx">
+                                                Anzahl gesamt: <span class="label counterx counter">190</span>
+                                                Erstzuw.: <span class="label counterx first1">107</span><br>
+                                                <!--Transfer (ges.): <span class="label counterx first0">--</span><br/>-->
+                                                Transfer (in): <span class="label counterx first0-in">83</span><br>
+                                                Transfer (out): <span class="label counterx first0-out">81</span><br>
+                                            </p>
+                                        </div>
+                                        <div class="span6">
+                                            <label style="display: inline;">
+                                                <select name="blcode" style="width: 180px;">
+                                                    <option value="">Alle Bundesländer</option>
+                                                                                                            <option value="bw">Baden-Württemberg</option>
+                                                                                                            <option value="by">Bayern</option>
+                                                                                                            <option value="be">Berlin</option>
+                                                                                                            <option value="bb">Brandenburg</option>
+                                                                                                            <option value="hb">Bremen</option>
+                                                                                                            <option value="hh">Hamburg</option>
+                                                                                                            <option value="he">Hessen</option>
+                                                                                                            <option value="mv">Mecklenburg-Vorpommern</option>
+                                                                                                            <option value="ns">Niedersachsen</option>
+                                                                                                            <option value="nw">Nordrhein-Westfalen</option>
+                                                                                                            <option value="rp">Rheinland-Pfalz</option>
+                                                                                                            <option value="sr">Saarland</option>
+                                                                                                            <option value="sn">Sachsen</option>
+                                                                                                            <option value="sa">Sachsen-Anhalt</option>
+                                                                                                            <option value="sh">Schleswig-Holstein</option>
+                                                                                                            <option value="th">Thüringen</option>
+                                                                                                    </select>
+                                            </label>
+                                            <label style="display: inline;">
+                                                <select name="regioncode" style="width: 160px;">
+                                                    <option value="" data-blcode="">Alle Regionen</option>
+                                                                                                            <option value="aai24" data-blcode="nw">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24" data-blcode="sa">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24" data-blcode="sa">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24" data-blcode="by">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24" data-blcode="by">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24" data-blcode="nw">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24" data-blcode="nw">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24" data-blcode="be">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24" data-blcode="bw">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24" data-blcode="ns">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24" data-blcode="hb">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24" data-blcode="sn">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24" data-blcode="nw">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24" data-blcode="sn">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24" data-blcode="nw">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24" data-blcode="nw">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24" data-blcode="sn">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24" data-blcode="ns">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24" data-blcode="th">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24" data-blcode="sn">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24" data-blcode="nw">Essenimmobilien24</option>
+                                                                                                            <option value="fi24" data-blcode="he">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24" data-blcode="he">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24" data-blcode="ns">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24" data-blcode="sa">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24" data-blcode="hh">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24" data-blcode="ns">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24" data-blcode="sa">Harzimmobilien24</option>
+                                                                                                            <option value="hli24" data-blcode="bb">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24" data-blcode="bw">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24" data-blcode="sh">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24" data-blcode="sa">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24" data-blcode="bw">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24" data-blcode="he">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24" data-blcode="sh">Kielimmobilien24</option>
+                                                                                                            <option value="koei24" data-blcode="nw">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24" data-blcode="ns">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24" data-blcode="sn">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24" data-blcode="sh">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24" data-blcode="mv">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24" data-blcode="ns">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24" data-blcode="sa">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24" data-blcode="rp">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24" data-blcode="bw">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24" data-blcode="by">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24" data-blcode="rp">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24" data-blcode="sn">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24" data-blcode="th">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24" data-blcode="by">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24" data-blcode="nw">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24" data-blcode="by">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24" data-blcode="nw">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24" data-blcode="sr">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24" data-blcode="sn">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24" data-blcode="th">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24" data-blcode="mv">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24" data-blcode="by">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24" data-blcode="by">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24" data-blcode="bb">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24" data-blcode="sn">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24" data-blcode="by">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24" data-blcode="bw">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24" data-blcode="bb">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24" data-blcode="ns">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24" data-blcode="sr">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24" data-blcode="th">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24" data-blcode="nw">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24" data-blcode="nw">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24" data-blcode="rp">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24" data-blcode="bw">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24" data-blcode="rp">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24" data-blcode="bw">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24" data-blcode="mv">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24" data-blcode="nw">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24" data-blcode="sa">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24" data-blcode="sr">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24" data-blcode="sn">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24" data-blcode="sa">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24" data-blcode="nw">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24" data-blcode="sh">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24" data-blcode="bw">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24" data-blcode="bw">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24" data-blcode="mv">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24" data-blcode="nw">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24" data-blcode="bb">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24" data-blcode="bw">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24" data-blcode="he">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24" data-blcode="mv">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24" data-blcode="th">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24" data-blcode="he">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24" data-blcode="nw">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24" data-blcode="rp">Trierimmobilien24</option>
+                                                                                                            <option value="umi24" data-blcode="bb">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24" data-blcode="by">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24" data-blcode="sn">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24" data-blcode="mv">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24" data-blcode="ns">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24" data-blcode="rp">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24" data-blcode="rp">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24" data-blcode="rp">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24" data-blcode="sr">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24" data-blcode="he">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24" data-blcode="sn">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+                                            <label style="display: inline;">
+                                                <select name="team_id" style="width: 180px;">
+                                                    <option value="" data-blcode="" data-regioncode="">Alle Berater</option>
+                                                                                                            <option value="179" data-blcode="sh" data-regioncode="hoi24">Adams, Lambert</option>
+                                                                                                            <option value="177" data-blcode="by" data-regioncode="bsi24">Albert, Daniel</option>
+                                                                                                            <option value="270" data-blcode="rp" data-regioncode="wwi24">Aller, Wolfram</option>
+                                                                                                            <option value="325" data-blcode="by" data-regioncode="mi24">Allmich, Guido</option>
+                                                                                                            <option value="297" data-blcode="by" data-regioncode="ufi24">Appel, Christian</option>
+                                                                                                            <option value="334" data-blcode="ns" data-regioncode="brai24">Baruschke, Jasmin</option>
+                                                                                                            <option value="295" data-blcode="nw" data-regioncode="koei24">Beitzen, Andreas</option>
+                                                                                                            <option value="88" data-blcode="sr" data-regioncode="sbi24">beraten werden, Heldenhaft</option>
+                                                                                                            <option value="294" data-blcode="by" data-regioncode="obi24">Berndt, Andreas</option>
+                                                                                                            <option value="345" data-blcode="rp" data-regioncode="rhhi24">Bollenbach, Jan</option>
+                                                                                                            <option value="168" data-blcode="nw" data-regioncode="nri24">Branetzki, Michael</option>
+                                                                                                            <option value="320" data-blcode="ns" data-regioncode="lbi24">Brinkwirth, Marcus</option>
+                                                                                                            <option value="231" data-blcode="mv" data-regioncode="roi24">Christ, Michael</option>
+                                                                                                            <option value="344" data-blcode="rp" data-regioncode="rhhi24">Coutandin, Andreas</option>
+                                                                                                            <option value="341" data-blcode="by" data-regioncode="mfi24">de la Motte, Christine</option>
+                                                                                                            <option value="342" data-blcode="by" data-regioncode="mfi24">de la Motte, Jan Philip</option>
+                                                                                                            <option value="305" data-blcode="ns" data-regioncode="wei24">de Vries, Kilian</option>
+                                                                                                            <option value="102" data-blcode="sn" data-regioncode="nsi24">Dickes, Matthias</option>
+                                                                                                            <option value="79" data-blcode="sn" data-regioncode="msi24">Doberenz, Jan</option>
+                                                                                                            <option value="331" data-blcode="bw" data-regioncode="rhti24">Döll, Hans-Dieter</option>
+                                                                                                            <option value="309" data-blcode="by" data-regioncode="mi24">Ebertseder, Hubert</option>
+                                                                                                            <option value="127" data-blcode="nw" data-regioncode="mli24">Edelbrock, Jörg</option>
+                                                                                                            <option value="243" data-blcode="th" data-regioncode="efi24">Engelbrecht-Eichstädt, Andreas</option>
+                                                                                                            <option value="232" data-blcode="nw" data-regioncode="rski24">Erler, Tobias</option>
+                                                                                                            <option value="304" data-blcode="bw" data-regioncode="sti24">Friedt, Johannes</option>
+                                                                                                            <option value="356" data-blcode="nw" data-regioncode="bdi24">Fuhr, Benjamin</option>
+                                                                                                            <option value="343" data-blcode="rp" data-regioncode="maii24">Funke, Patrick</option>
+                                                                                                            <option value="230" data-blcode="sh" data-regioncode="kiei24">Gehrk, Oliver</option>
+                                                                                                            <option value="351" data-blcode="by" data-regioncode="obi24">Gleißner, Florian</option>
+                                                                                                            <option value="350" data-blcode="by" data-regioncode="mi24">Gmeiner, Melanie</option>
+                                                                                                            <option value="302" data-blcode="bw" data-regioncode="swwi24">Grosshans, Thomas</option>
+                                                                                                            <option value="89" data-blcode="nw" data-regioncode="reki24">Grüger, Horst</option>
+                                                                                                            <option value="347" data-blcode="nw" data-regioncode="saui24">Güneser, Murat</option>
+                                                                                                            <option value="116" data-blcode="rp" data-regioncode="wpfi24">Harth, Sven</option>
+                                                                                                            <option value="167" data-blcode="sa" data-regioncode="mbi24">Hartig, Nicole</option>
+                                                                                                            <option value="103" data-blcode="sn" data-regioncode="nsi24">Helm, Diana</option>
+                                                                                                            <option value="338" data-blcode="nw" data-regioncode="tbi24">Helms, Kevin</option>
+                                                                                                            <option value="27" data-blcode="he" data-regioncode="dai24">Hoffmann, Dominic</option>
+                                                                                                            <option value="7" data-blcode="sn" data-regioncode="zi24">Hoh, Wilfried</option>
+                                                                                                            <option value="156" data-blcode="sn" data-regioncode="zi24">Holdschick, Gert</option>
+                                                                                                            <option value="109" data-blcode="bw" data-regioncode="swwi24">Janz, Andreas</option>
+                                                                                                            <option value="328" data-blcode="be" data-regioncode="bi24">Johst-Mandel, Katrin</option>
+                                                                                                            <option value="333" data-blcode="bb" data-regioncode="hli24">Kintzel, Jörg</option>
+                                                                                                            <option value="306" data-blcode="bw" data-regioncode="rhti24">Klammt, Stephan</option>
+                                                                                                            <option value="355" data-blcode="nw" data-regioncode="rgi24">Klima, Peter</option>
+                                                                                                            <option value="329" data-blcode="nw" data-regioncode="dui24">Kreie, Bernd</option>
+                                                                                                            <option value="174" data-blcode="by" data-regioncode="mfi24">Kühne, Jean-Claude</option>
+                                                                                                            <option value="326" data-blcode="by" data-regioncode="mi24">Kurczyk, Christiana</option>
+                                                                                                            <option value="332" data-blcode="by" data-regioncode="mfi24">Lechner, Niklas</option>
+                                                                                                            <option value="307" data-blcode="sn" data-regioncode="ci24">Liebeskind, Silvia</option>
+                                                                                                            <option value="21" data-blcode="sn" data-regioncode="nsi24">Lohse, Frank</option>
+                                                                                                            <option value="271" data-blcode="bw" data-regioncode="rni24">Lösch, Jürgen</option>
+                                                                                                            <option value="155" data-blcode="sn" data-regioncode="oli24">Lübben, Jörg</option>
+                                                                                                            <option value="348" data-blcode="bb" data-regioncode="hli24">Madeja, Uwe</option>
+                                                                                                            <option value="100" data-blcode="by" data-regioncode="opi24">Madl, Ewald</option>
+                                                                                                            <option value="308" data-blcode="by" data-regioncode="mi24">Neumeier, Anton</option>
+                                                                                                            <option value="90" data-blcode="nw" data-regioncode="reki24">Nicolas, Thomas</option>
+                                                                                                            <option value="339" data-blcode="nw" data-regioncode="rgi24">Nitsche, Lars</option>
+                                                                                                            <option value="335" data-blcode="by" data-regioncode="mi24">Papac, Miroslav</option>
+                                                                                                            <option value="172" data-blcode="sa" data-regioncode="hai24">Radde, Nancy</option>
+                                                                                                            <option value="233" data-blcode="sa" data-regioncode="hi24">Reibe, Dana</option>
+                                                                                                            <option value="106" data-blcode="by" data-regioncode="mfi24">Reuter, Peter</option>
+                                                                                                            <option value="352" data-blcode="sn" data-regioncode="nsi24">Riesenberg, Max</option>
+                                                                                                            <option value="17" data-blcode="sn" data-regioncode="li24">Rodewald, Peggy</option>
+                                                                                                            <option value="1" data-blcode="sn" data-regioncode="vi24">Rupprecht, Lars</option>
+                                                                                                            <option value="349" data-blcode="bb" data-regioncode="swi24">Sander, Tom</option>
+                                                                                                            <option value="171" data-blcode="sh" data-regioncode="hoi24">Schikora, Willi</option>
+                                                                                                            <option value="313" data-blcode="bw" data-regioncode="swwi24">Schmid, Christian</option>
+                                                                                                            <option value="16" data-blcode="sn" data-regioncode="li24">Schmidt, Mike</option>
+                                                                                                            <option value="311" data-blcode="th" data-regioncode="swti24">Scholz, Axel</option>
+                                                                                                            <option value="303" data-blcode="by" data-regioncode="opi24">Schott, Jürgen</option>
+                                                                                                            <option value="165" data-blcode="bb" data-regioncode="obli24">Schuh, Karl-Heinz</option>
+                                                                                                            <option value="119" data-blcode="be" data-regioncode="bi24">Schulze, Andreas</option>
+                                                                                                            <option value="340" data-blcode="he" data-regioncode="gii24">Schwan, Daniel</option>
+                                                                                                            <option value="269" data-blcode="he" data-regioncode="fi24">Schwarz, Dirk</option>
+                                                                                                            <option value="323" data-blcode="by" data-regioncode="obi24">Schwaß, William</option>
+                                                                                                            <option value="180" data-blcode="th" data-regioncode="swti24">Simon, Steffen</option>
+                                                                                                            <option value="319" data-blcode="ns" data-regioncode="lbi24">Soetebeer, Christoph</option>
+                                                                                                            <option value="98" data-blcode="by" data-regioncode="obi24">Stehmann, Thorsten</option>
+                                                                                                            <option value="121" data-blcode="nw" data-regioncode="nri24">Stempel, André</option>
+                                                                                                            <option value="318" data-blcode="bw" data-regioncode="sai24">Stengel, Jürgen</option>
+                                                                                                            <option value="4" data-blcode="sn" data-regioncode="vi24">Steppohn, Philipp</option>
+                                                                                                            <option value="299" data-blcode="nw" data-regioncode="mli24">Stoll, Marc</option>
+                                                                                                            <option value="237" data-blcode="rp" data-regioncode="rpi24">Strobel, Harald</option>
+                                                                                                            <option value="346" data-blcode="bb" data-regioncode="umi24">Swatek, Ronni</option>
+                                                                                                            <option value="354" data-blcode="hh" data-regioncode="hhi24">Thier, Oliver</option>
+                                                                                                            <option value="316" data-blcode="sn" data-regioncode="vi24">Thier, Patrick</option>
+                                                                                                            <option value="125" data-blcode="sn" data-regioncode="erzi24">Uhlig, Sören</option>
+                                                                                                            <option value="45" data-blcode="sn" data-regioncode="erzi24">Veigel, Rainer</option>
+                                                                                                            <option value="35" data-blcode="sn" data-regioncode="ddi24">Volke-Herrmann, Claudia</option>
+                                                                                                            <option value="312" data-blcode="by" data-regioncode="obi24">Wehrhahn, Mariana Cecilia</option>
+                                                                                                            <option value="353" data-blcode="sh" data-regioncode="hoi24">Westphal, Ron</option>
+                                                                                                            <option value="272" data-blcode="nw" data-regioncode="rgi24">Wewering, Oliver</option>
+                                                                                                            <option value="170" data-blcode="sa" data-regioncode="mbi24">Zenker, Thomas</option>
+                                                                                                            <option value="298" data-blcode="nw" data-regioncode="nri24">Kaesmacher, Frank</option>
+                                                                                                            <option value="194" data-blcode="sn" data-regioncode="vi24">Muster, Martina</option>
+                                                                                                            <option value="266" data-blcode="th" data-regioncode="othi24">Pabst, Matthias</option>
+                                                                                                            <option value="265" data-blcode="sn" data-regioncode="vi24">Pitcom, Tester Whitelabel</option>
+                                                                                                    </select>
+                                            </label>
+                                            <label style="display: inline;">
+                                                <select name="first" style="width: 130px;">
+                                                    <option value="">Alle Zuweisungen</option>
+                                                    <option value="1">nur Erstzuweisungen</option>
+                                                    <option value="0">nur Transfers</option>
+                                                    <option value="0-in">nur Transfers (in)</option>
+                                                    <option value="0-out">nur Transfers (out)</option>
+                                                </select>
+                                            </label>
+
+
+                                        </div>
+                                        <div class="span4">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" style="width: 150px;" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy"></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" style="width: 150px;" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy"></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__baufi" style="">
+                                        <input type="hidden" name="label" value="baufi" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-baufilead" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 0px; text-align: center;">10.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 106px; text-align: center;">13.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 213px; text-align: center;">16.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 319px; text-align: center;">19.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 425px; text-align: center;">22.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 531px; text-align: center;">25.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 638px; text-align: center;">28.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 744px; text-align: center;">31.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 850px; text-align: center;">03.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 956px; text-align: center;">06.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1063px; text-align: center;">09.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 5px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 199px; left: 5px; text-align: right;">5</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">10</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 66px; left: 0px; text-align: right;">15</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">20</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span7">
+                        <div class="widget-box">
+                            <div class="widget-content nopadding">
+                                <div id="mail-table-leads"><div id="DataTables_Table_10_wrapper" class="dataTables_wrapper" role="grid"><div class=""></div><table class="table table-bordered table-striped table-hover data-table-leads dataTable" id="DataTables_Table_10"><thead> <tr role="row"><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_10" rowspan="1" colspan="1" aria-sort="descending" aria-label="Zeit: activate to sort column ascending" style="width: 131px;"><div class="DataTables_sort_wrapper">Zeit<span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_10" rowspan="1" colspan="1" aria-label="Baufilead-ID: activate to sort column ascending" style="width: 72px;"><div class="DataTables_sort_wrapper">Baufilead-ID<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_10" rowspan="1" colspan="1" aria-label="Art: activate to sort column ascending" style="width: 91px;"><div class="DataTables_sort_wrapper">Art<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_10" rowspan="1" colspan="1" aria-label="Finanzierer: activate to sort column ascending" style="width: 224px;"><div class="DataTables_sort_wrapper">Finanzierer<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_10" rowspan="1" colspan="1" aria-label="Region: activate to sort column ascending" style="width: 55px;"><div class="DataTables_sort_wrapper">Region<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr></thead><tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd"> <td class="  sorting_1">2026-09-10 10:00:00</td> <td class=" ">LT2NZH</td> <td class=" ">Transfer <span class="label label-important">out</span></td> <td class=" ">17: Peggy Rodewald</td> <td class=" ">LI24</td> </tr><tr class="even"> <td class="  sorting_1">2026-09-10 10:00:00</td> <td class=" ">B91V95</td> <td class=" ">Transfer <span class="label label-important">out</span></td> <td class=" ">35: Claudia Volke-Herrmann</td> <td class=" ">DDI24</td> </tr><tr class="odd"> <td class="  sorting_1">2026-09-10 10:00:00</td> <td class=" ">B91V95</td> <td class=" ">Transfer <span class="label label-success">in</span></td> <td class=" ">309: Hubert Ebertseder</td> <td class=" ">MI24</td> </tr><tr class="even"> <td class="  sorting_1">2026-09-10 10:00:00</td> <td class=" ">LT2NZH</td> <td class=" ">Transfer <span class="label label-success">in</span></td> <td class=" ">323: William Schwaß</td> <td class=" ">OBI24</td> </tr><tr class="odd"> <td class="  sorting_1">2026-09-10 09:24:35</td> <td class=" ">CS6S0J</td> <td class=" ">Erstzuweisung</td> <td class=" ">307: Silvia Liebeskind</td> <td class=" ">CI24</td> </tr><tr class="even"> <td class="  sorting_1">2026-09-10 08:59:09</td> <td class=" ">KJ8MNV</td> <td class=" ">Erstzuweisung</td> <td class=" ">4: Philipp Steppohn</td> <td class=" ">VI24</td> </tr><tr class="odd"> <td class="  sorting_1">2026-09-09 12:00:00</td> <td class=" ">YU2YUQ</td> <td class=" ">Transfer <span class="label label-important">out</span></td> <td class=" ">35: Claudia Volke-Herrmann</td> <td class=" ">DDI24</td> </tr><tr class="even"> <td class="  sorting_1">2026-09-09 12:00:00</td> <td class=" ">YU2YUQ</td> <td class=" ">Transfer <span class="label label-success">in</span></td> <td class=" ">231: Michael Christ</td> <td class=" ">ROI24</td> </tr><tr class="odd"> <td class="  sorting_1">2026-09-09 10:41:38</td> <td class=" ">VN0AP3</td> <td class=" ">Erstzuweisung</td> <td class=" ">4: Philipp Steppohn</td> <td class=" ">VI24</td> </tr><tr class="even"> <td class="  sorting_1">2026-09-09 10:37:30</td> <td class=" ">FG5QYE</td> <td class=" ">Erstzuweisung</td> <td class=" ">4: Philipp Steppohn</td> <td class=" ">VI24</td> </tr></tbody></table><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix"><div class="dataTables_filter" id="DataTables_Table_10_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_10" style=""></label></div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="DataTables_Table_10_paginate"><a tabindex="0" class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_10_first">First</a><a tabindex="0" class="previous fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_10_previous">Previous</a><span><a tabindex="0" class="fg-button ui-button ui-state-default ui-state-disabled">1</a><a tabindex="0" class="fg-button ui-button ui-state-default">2</a><a tabindex="0" class="fg-button ui-button ui-state-default">3</a><a tabindex="0" class="fg-button ui-button ui-state-default">4</a><a tabindex="0" class="fg-button ui-button ui-state-default">5</a></span><a tabindex="0" class="next fg-button ui-button ui-state-default" id="DataTables_Table_10_next">Next</a><a tabindex="0" class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default" id="DataTables_Table_10_last">Last</a></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span5">
+                        <div class="widget-box">
+                            <div class="widget-content nopadding">
+                                <div id="stat-table-leads"><div id="DataTables_Table_11_wrapper" class="dataTables_wrapper" role="grid"><div class=""></div><table class="table table-bordered table-striped table-hover data-table-leads-stat dataTable" id="DataTables_Table_11"><thead> <tr role="row"><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_11" rowspan="1" colspan="1" aria-label="Finanzierer: activate to sort column ascending" style="width: 152px;"><div class="DataTables_sort_wrapper">Finanzierer<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_11" rowspan="1" colspan="1" aria-label="Erstzuweisung: activate to sort column ascending" style="width: 71px;"><div class="DataTables_sort_wrapper">Erstzuweisung<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_11" rowspan="1" colspan="1" aria-label="Transfer in: activate to sort column ascending" style="width: 54px;"><div class="DataTables_sort_wrapper">Transfer <span class="label label-success">in</span><span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_11" rowspan="1" colspan="1" aria-sort="descending" aria-label="Transfer out: activate to sort column ascending" style="width: 60px;"><div class="DataTables_sort_wrapper">Transfer <span class="label label-important">out</span><span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_11" rowspan="1" colspan="1" aria-label="gesamt: activate to sort column ascending" style="width: 35px;"><div class="DataTables_sort_wrapper">gesamt<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr></thead><tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd"> <td class=" ">35: Claudia Volke-Herrmann</td> <td class=" "><span style="display:none">000000</span><span class="label label-info">0</span></td> <td class=" "><span style="display:none">000002</span><span class="label label-success">2</span></td> <td class="  sorting_1"><span style="display:none">000004</span><span class="label label-important">4</span></td> <td class=" "><span style="display:none">000006</span><span class="label ">6</span></td> </tr><tr class="even"> <td class=" ">17: Peggy Rodewald</td> <td class=" "><span style="display:none">000002</span><span class="label label-info">2</span></td> <td class=" "><span style="display:none">000001</span><span class="label label-success">1</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000006</span><span class="label ">6</span></td> </tr><tr class="odd"> <td class=" ">307: Silvia Liebeskind</td> <td class=" "><span style="display:none">000005</span><span class="label label-info">5</span></td> <td class=" "><span style="display:none">000000</span><span class="label label-success">0</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000008</span><span class="label ">8</span></td> </tr><tr class="even"> <td class=" ">269: Dirk Schwarz</td> <td class=" "><span style="display:none">000003</span><span class="label label-info">3</span></td> <td class=" "><span style="display:none">000000</span><span class="label label-success">0</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000006</span><span class="label ">6</span></td> </tr><tr class="odd"> <td class=" ">79: Jan Doberenz</td> <td class=" "><span style="display:none">000004</span><span class="label label-info">4</span></td> <td class=" "><span style="display:none">000000</span><span class="label label-success">0</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000007</span><span class="label ">7</span></td> </tr><tr class="even"> <td class=" ">16: Mike Schmidt</td> <td class=" "><span style="display:none">000003</span><span class="label label-info">3</span></td> <td class=" "><span style="display:none">000001</span><span class="label label-success">1</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000007</span><span class="label ">7</span></td> </tr><tr class="odd"> <td class=" ">312: Mariana Cecilia Wehrhahn</td> <td class=" "><span style="display:none">000003</span><span class="label label-info">3</span></td> <td class=" "><span style="display:none">000000</span><span class="label label-success">0</span></td> <td class="  sorting_1"><span style="display:none">000003</span><span class="label label-important">3</span></td> <td class=" "><span style="display:none">000006</span><span class="label ">6</span></td> </tr><tr class="even"> <td class=" ">7: Wilfried Hoh</td> <td class=" "><span style="display:none">000000</span><span class="label label-info">0</span></td> <td class=" "><span style="display:none">000002</span><span class="label label-success">2</span></td> <td class="  sorting_1"><span style="display:none">000002</span><span class="label label-important">2</span></td> <td class=" "><span style="display:none">000004</span><span class="label ">4</span></td> </tr><tr class="odd"> <td class=" ">21: Frank Lohse</td> <td class=" "><span style="display:none">000000</span><span class="label label-info">0</span></td> <td class=" "><span style="display:none">000002</span><span class="label label-success">2</span></td> <td class="  sorting_1"><span style="display:none">000002</span><span class="label label-important">2</span></td> <td class=" "><span style="display:none">000004</span><span class="label ">4</span></td> </tr><tr class="even"> <td class=" ">109: Andreas Janz</td> <td class=" "><span style="display:none">000000</span><span class="label label-info">0</span></td> <td class=" "><span style="display:none">000002</span><span class="label label-success">2</span></td> <td class="  sorting_1"><span style="display:none">000002</span><span class="label label-important">2</span></td> <td class=" "><span style="display:none">000004</span><span class="label ">4</span></td> </tr></tbody></table><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix"><div class="dataTables_filter" id="DataTables_Table_11_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_11" style=""></label></div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="DataTables_Table_11_paginate"><a tabindex="0" class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_11_first">First</a><a tabindex="0" class="previous fg-button ui-button ui-state-default ui-state-disabled" id="DataTables_Table_11_previous">Previous</a><span><a tabindex="0" class="fg-button ui-button ui-state-default ui-state-disabled">1</a><a tabindex="0" class="fg-button ui-button ui-state-default">2</a><a tabindex="0" class="fg-button ui-button ui-state-default">3</a><a tabindex="0" class="fg-button ui-button ui-state-default">4</a><a tabindex="0" class="fg-button ui-button ui-state-default">5</a></span><a tabindex="0" class="next fg-button ui-button ui-state-default" id="DataTables_Table_11_next">Next</a><a tabindex="0" class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default" id="DataTables_Table_11_last">Last</a></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>            </div>
+        </div>
+        
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script><script>
+    $(document).ready(function () {
+
+        // Datepicker
+        $('.datepicker').datepicker({
+            // defaultDate: "+1w",
+            // viewMode: 'years'
+        }).on('changeDate', function () {
+            $(this).change();
+            $(this).datepicker('hide');
+        });
+        $.datepicker.setDefaults($.datepicker.regional["de"]);
+    });
+
+    $('select[name="regioncode"],select[name="source"],select[name="origin"],select[name="blcode"],select[name="team_id"],select[name="first"],input[name="from"],input[name="to"]').on('change', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        let form = $(this).closest('form'),
+            url = form.attr('action'),
+            table = form.data('table'),
+            field = $(this).attr('name');
+
+        if (table === 'baufileads') {
+            if (field === 'blcode') {
+                let blcode = $(this);
+                let region = form.find('select[name="regioncode"]');
+                let team_id = form.find('select[name="team_id"]');
+                if (blcode.val() === '') {
+                    region.find('option').each(function () {
+                        $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                    });
+                    team_id.find('option').each(function () {
+                        $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                    });
+                } else {
+                    let foundFirstOption = false;
+                    region.find('option').each(function () {
+                        let thisDataBlcode = $(this).data('blcode');
+                        if (thisDataBlcode === '' || thisDataBlcode === blcode.val()) {
+                            $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                        } else {
+                            $(this).attr('disabled', 'disabled').attr('hidden', 'hidden').attr('readonly', 'readonly').hide().removeAttr('selected');
+                        }
+                    });
+                    team_id.find('option').each(function () {
+                        let thisDataBlcode = $(this).data('blcode');
+                        if (thisDataBlcode === '' || thisDataBlcode === blcode.val()) {
+                            $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                        } else {
+                            $(this).attr('disabled', 'disabled').attr('hidden', 'hidden').attr('readonly', 'readonly').hide().removeAttr('selected');
+                        }
+                    });
+
+
+                    team_id.find('option').each(function () {
+                        let thisDataBlcode = $(this).data('blcode');
+                        if (thisDataBlcode === '' || thisDataBlcode === blcode.val()) {
+                            if (foundFirstOption) {
+                                $(this).attr('selected', 'selected')
+                                foundFirstOption = false;
+                            }
+                        }
+                    });
+                    region.find('option').each(function () {
+                        let thisDataBlcode = $(this).data('blcode');
+                        if (thisDataBlcode === '' || thisDataBlcode === blcode.val()) {
+                            if (foundFirstOption) {
+                                $(this).attr('selected', 'selected')
+                                foundFirstOption = false;
+                            }
+                        }
+                    });
+                }
+            }
+            if (field === 'regioncode') {
+                let region = $(this);
+                let team_id = form.find('select[name="team_id"]');
+                if (region.val() === '') {
+                    team_id.find('option').each(function () {
+                        $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                    });
+                } else {
+                    let foundFirstOption = false;
+                    team_id.find('option').each(function () {
+                        let thisDataRegioncode = $(this).data('regioncode');
+                        if (thisDataRegioncode === '' || thisDataRegioncode === region.val()) {
+                            $(this).removeAttr('disabled').removeAttr('hidden').removeAttr('readonly').show();
+                        } else {
+                            $(this).attr('disabled', 'disabled').attr('hidden', 'hidden').attr('readonly', 'readonly').hide().removeAttr('selected');
+                        }
+                    });
+
+
+                    team_id.find('option').each(function () {
+                        let thisDataRegioncode = $(this).data('regioncode');
+                        if (thisDataRegioncode === '' || thisDataRegioncode === region.val()) {
+                            if (foundFirstOption) {
+                                $(this).attr('selected', 'selected')
+                                foundFirstOption = false;
+                            }
+                        }
+                    });
+                }
+            }
+        }
+
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: form.serialize(),
+            dataType: "json",
+            success: function (data) {
+                if (table === 'baufileads') {
+                    if (data.status === true) {
+                        form.find('.counter').html(data.counts.all);
+                        form.find('.counterx.first1').html(data.counts.first1 ?? '---');
+                        form.find('.counterx.first0').html(data.counts.first0 ?? '---');
+                        form.find('.counterx.first0-in').html(data.counts['first0-in'] ?? '---');
+                        form.find('.counterx.first0-out').html(data.counts['first0-out'] ?? '---');
+                        generateMultipleChartsBaufileads(data.times, data.data, data.colors);
+                        generateTableBaufileads((data.table.mails ?? ''), (data.table.stat ?? ''));
+                    } else {
+                        form.find('.counter').html('---');
+                        form.find('.counterx.first1').html('---');
+                        form.find('.counterx.first0').html('---');
+                        form.find('.counterx.first0-in').html('---');
+                        form.find('.counterx.first0-out').html('---');
+                    }
+                } else {
+                    form.find('.counter').html(data.data1.count)
+                    generateMultipleCharts(data.data1, data.data2, ((data.data3) ? data.data3 : null));
+                    for (let x in data.data1.counts) {
+                        form.find('.counterx.' + x).html(data.data1.counts[x]);
+                    }
+                }
+            }
+        });
+        return false;
+    }).trigger('change')
+
+    function generateMultipleChartsBaufileads(times, data, colors) {
+
+        let id = "#flot-dashboard-baufilead";
+        let datas = [];
+        let foundData = false;
+        let push;
+
+        for (let iData = 0; iData <= 5; iData++) {
+            if ((data[iData] ?? null) !== null) {
+                foundData = true;
+                push = {
+                    label: data[iData].label,
+                    data: data[iData].data,
+                    lines: {
+                        show: true
+                    },
+                    points: {
+                        show: true
+                    }
+                }
+                datas.push(push)
+            }
+        }
+        if (foundData === true) {
+            let options = {
+                xaxis: {
+                    mode: "time",
+                    timeBase: "milliseconds",
+                    timeformat: "%d.%m.%Y",
+                    minTickSize: [1, 'day'],
+                    timezone: "browser"
+                },
+                yaxis: {
+                    minTickSize: 1,
+                    tickDecimals: 0
+                },
+                colors: colors,
+                grid: {
+                    color: "#999999",
+                    hoverable: true,
+                    clickable: true,
+                    tickColor: "#D4D4D4",
+                    borderWidth: 0
+                },
+                legend: {
+                    show: false
+                },
+                tooltip: true,
+                tooltipOpts: {
+                    content: "Datum: %x | Anzahl: %y"
+                }
+            };
+
+            $.plot($(id), datas, options);
+        } else {
+            $(id).html('');
+        }
+    }
+
+    function generateTableBaufileads(mails, stat) {
+        $('#mail-table-leads').html(mails);
+        $('.data-table-leads').dataTable({
+            "bJQueryUI": true,
+            "sPaginationType": "full_numbers",
+            "sDom": '<"">t<"F"fp>',
+            "aaSorting": [[0, 'desc']],
+            "iDisplayLength": 10,
+            paging: true,
+            "bPaginate": true
+        });
+        $('#stat-table-leads').html(stat);
+        $('.data-table-leads-stat').dataTable({
+            "bJQueryUI": true,
+            "sPaginationType": "full_numbers",
+            "sDom": '<"">t<"F"fp>',
+            "aaSorting": [[3, 'desc']],
+            "iDisplayLength": 10,
+            paging: true,
+            "bPaginate": true
+        });
+    }
+
+    function generateMultipleCharts(data1, data2, data3) {
+        let id = "#flot-dashboard-" + data1.label;
+
+        let datas = [{
+            label: data1.label,
+            data: data1.data,
+
+            lines: {
+                show: true
+            },
+            points: {
+                show: true
+            }
+        }, {
+            label: data2.label,
+            data: data2.data,
+
+            bars: {
+                show: true,
+                barWidth: 10 * 10 * 10 * 1000 * 10
+            }
+        }];
+        let options = {
+            xaxis: {
+                mode: "time",
+                timeBase: "milliseconds",
+                timeformat: "%d.%m.%Y",
+                minTickSize: [1, 'day'],
+                timezone: "browser"
+            },
+            yaxis: {
+                minTickSize: 1,
+                tickDecimals: 0
+            },
+            colors: ["#1ab394", "#FF0000"],
+            grid: {
+                color: "#999999",
+                hoverable: true,
+                clickable: true,
+                tickColor: "#D4D4D4",
+                borderWidth: 0
+            },
+            legend: {
+                show: false
+            },
+            tooltip: true,
+            tooltipOpts: {
+                content: "Datum: %x | Anzahl: %y"
+            }
+        };
+
+        $.plot($(id), datas, options);
+
+        if (data3 !== null) {
+            let string = '<table class="table table-bordered table-striped table-hover data-table dataTable"><thead><tr> <th>Zeit</th><th>ID</th><th>Name Vorname</th><th>Empfänger</th><th>Sender</th><th>Antwort an</th><th>E-Mail-Text</th></tr></thead><tbody>';
+            for (let i = 0; i < data3.data.length; i++) {
+                let obj = data3.data[i];
+                string += '<tr class="gradeX">';
+                for (let j = 0; j < obj.length; j++) {
+                    string += '<td>' + obj[j] + '</td>';
+                }
+                string += '</tr>';
+            }
+            string += '</tbody></table>';
+            $('#mail-table').html(string);
+            $('.data-table').dataTable({
+                "bJQueryUI": true,
+                "sPaginationType": "full_numbers",
+                "sDom": '<"">t<"F"fp>',
+                "aaSorting": [[0, 'desc']],
+                "iDisplayLength": 10,
+                paging: true,
+                "bPaginate": true
+            });
+        } else {
+            $('#mail-table').html('');
+        }
+    }
+</script>
+
+<div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div id="flotTip" style="display: none; position: absolute; background: rgb(255, 255, 255); z-index: 100; padding: 0.4em 0.6em; border-radius: 0.5em; font-size: 0.8em; border: 1px solid rgb(17, 17, 17); white-space: nowrap;"></div></body></html>

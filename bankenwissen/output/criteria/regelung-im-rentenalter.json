@@ -1,0 +1,977 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/regelung-im-rentenalter",
+  "category": "Kriterien Person",
+  "criterion_name": "Regelung im Rentenalter",
+  "criterion_id": "regelung-im-rentenalter",
+  "scraped_at": "2026-05-07T12:19:09.886Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Eine weitestgehende Entschuldung zu Lebzeiten (Männer bis 76 Jahre und Frauen bis 82 Jahre) wird vorausgesetzt\nÜberschreitung der Darlehenslaufzeit 75. Lebensjahr sind Rückzahlungsmodalitäten zu dokumentieren\nbei Darlehensnehmer >= 67 Jahre Ansatz von 52% des Nettoeinkommens\nfallspezifisch kann die max. gesetzliche Rente von 2.809,- Euro angesetzt werden"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "ab 60 Jahre mind. 3% Tilgung und max 90% (80% vermietete Objekte) BLA\nab 65 Jahre mind. 3% Tilgung und max. 80% BLA\nab 70 Jahre mind. 3% Tilgung und max. 50% BLA\nab 75 Jahre mind. 3% Tilgung und max. 40% BLA"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "Bei Renteneintritt muss das Darlehen bis auf 60% des BLW zurückgeführt sein (Maximalauslauf); alternativ sind Ersatzsicherheiten zu stellen"
+    },
+    {
+      "bank": "AXA",
+      "value": "Vorlage aktueller Rentenbescheid und aktueller Einkommensteuerbescheid\nNachweis Übergangsgelder vor Renteneintritt\nRentenbetrachtung erfolgt erst ab 41. Lebensjahr (evtl. Gelbhinweis kann bei jüngerem Alter der/des DN ignoriert werden)"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein\nKlärung Erbfolge, Nachweis Rentenhöhe"
+    },
+    {
+      "bank": "BHW",
+      "value": "max. 70 Jahre bzw. nicht älter als 75 Jahre bei Zuteilungsdarlehen (sonst Beitritt eines jüngeren Darlehensnehmers\nBei Laufzeitende des / der beantragten BHW Darlehen darf das maximale Alter von 78Jahren des jüngsten\nbeteiligten Kreditnehmers (Darlehensnehmer / Gesamtschuldner) nicht überschritten werden"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "max. 65 Jahre\nKreditrückführung zu Lebzeiten oder Nachweis geregelter Erbfolge\nKapitaldienstprüfung wird durchgeführt"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "Einkommenssituation im Renteneintrittsalter wird manuell betrachtet:\nRenteneintritt während der Zinsbindung: HHR bei Renteneintritt muss positiv sein.  Sofern die Haushaltsrechnung bei Eintritt in die Rente nicht mehr aufgeht, dokumentiert bitte gegenüber der Commerzbank, warum der Kunde sich die Finanzierung trotzdem weiterhin leisten kann. \nEintritt ins Rentenalter während Darlehenslaufzeit – Einzelfall (Klärung der Erbfolge z.B.)"
+    },
+    {
+      "bank": "DKB",
+      "value": ""
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "Kapitaldienstfähigkeit: Nachweis durch Rentenbescheid und insgesamt positive Vermögenslage"
+    },
+    {
+      "bank": "ERGO",
+      "value": "18 - max. 75 Jahre  Einbeziehung von älteren Darlehensnehmern als „Mitdarlehensnehmer“ sofern diese Eigentümer der Immobilie sind, möglich\nbis zum 54. Lebensjahr sind keine Rentennachweise erforderlich\nDarlehen darf bei Erreichen des 75. Lebensjahres des ältesten Darlehensnehmers 60 % des Marktwertes nicht überschreiten\nBesonderheiten für ältere Darlehensnehmer\nAb dem 55. Lebensjahr odeer älter wird bezüglich der Kreditwürdigkeitsprüfung eine zweistufige Bonitätsprüfung vorgenommen:  \n• sind keine zukünftigen Renteneinkünfte hinterlegt, werden für das Rentenszenario 65% aller Einnahmen als Renteneinkünfte berücksichtigt\n• sind zukünftige Renteneinkünfte erfasst, werden diese für das Rentenszenario berücksichtigt.\n \nVerbindlichkeiten, wie Ratenkredite werden je nach Enddatum angesetzt oder im Rentenszenario nicht berücksichtigt."
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Ausreichende Überdeckung erforderlich, in Ausnahmefällen mit Begründung WIKR II\nEndalter ausschlaggebend, bonitäts- und objektabhängig"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Weitestgehende Entschuldung zu Lebzeiten (Männer bis 76 Jahre / Frauen bis 82 Jahre) wird vorausgesetzt.\nWeitere freie Vermögenswerte können anteilig angerechnet werden"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Erbfolge muss geklärt sein"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "max. Jahre 67\nÄlter als 67 möglich, wenn die nachhaltige Kapitaldienstfähigkeit gegeben ist.\nKapitaldienstfähigkeit muss mit den Renteneinkünften darstellbar sein."
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "max. 70 Jahre \nVolltilgung bis 80. Lebensjahr"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Max. Antragsalter: 95 Jahre\nWird das Darlehen voraussichtlich nicht bis zum Renteneintrittsdatum getilgt sein, wird das Einkommen wie folgt angesetzt: 45 % des aktuellen Monatseinkommens (Nettoeinkommen) + unverfallbare Ansprüche aus einer Betriebsrente + garantierte Riesterrente + Mieteinnahmen."
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Bei Darlehensnehmern, die bereits 57 Jahre alt sind und während der Kreditlaufzeit das Renteneintrittsalter (67. Lebensjahr) überschreiten, werden 60 % des bisherigen Nettoeinkommens berücksichtigt. \nNebeneinkünfte von Rentnern werden nicht angesetzt."
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Prüfung der Kapitaldienstfähigkeit bei Renteneintritt"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Max. 60 % des Beleihungswertes, Tilgungssatz min. 3 %"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Dokumentation in den Angaben zur Erwerbssituation und Vermögensverhältnissen \nBei angestellten/nichtselbständige Antragstellern und Beamten: \nSofern bei 75%-Ansatz des aktuellen Nettoeinkommens weiterhin die langfristige Kapitaldienstfähigkeit und der Mindestüberschuss gewährleistet sind und keine anderslautenden Nachweise zur Rentensituation vorliegen -> Keine zusätzlichen Nachweise notwendig und Berücksichtigung von 75% des Nettoeinkommens\nDefinition des aktuellen Nettoeinkommens in diesem Zusammenhang:\n\nRegelmäßiges monatliches Nettoeinkommen aus nichtselbständiger Tätigkeit (Lohn, Gehalt, Pension), plus ggf. vorhandenes 13. Gehalt, plus ggf. regelmäßige Bonuszahlungen (Ansatz siehe => Bonuszahlungen), max. Ansatz als gesetzliche Rente: EUR 6.000,00 (entspricht 75 % aus EUR 8.000,00 Nettoeinkommen).\n\n Nicht ansetzbar für die Ermittlung des Nettoeinkommens: Zusatzeinnahmen aus Minijob oder selbständiger Tätigkeit. Darüber hinaus können nachgewiesene weitere (betriebliche bzw. private) Rentenbausteine in Ansatz gebracht werden."
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Antragsalter max. 65, keine Besonderheiten nach Renteneintritt"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "max. Antragsalter: 99"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "max. 67 Jahre \n52% Anrechnung des Nettoeinkommens, Anrechnung auf Alterseinkünfte (gesetzlich& privat) wenn Eingabe durch Vertrieb vorliegt 69%, ausländische Renteneinnahmen sind ausgenommen\nBei Renteneintritt muss ein Rentenbescheid vorgelegt werden"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "max. Jahre 75\nauch älter wenn durchgehende Kapitaldienstfähigkeit im Rentenalter gegeben ist"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "max. Jahre 75\nRenteninformation (Krankenkasse beachten) oder Rentenbescheid müssen vorliegen"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "max. 70 Jahre  \nRückzahlung sollte zu Lebzeiten realistisch umsetzbar sein\nKunden mit entsprechendem Alter müssen immer individuell geprüft werden"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "max. Antragsalter: 60\nBesonderheiten: \n\nKeine Umschuldungen, Prolongationen und Kapitalbeschaffungsmaßnahmen\nEinkommensminderung gemäß WIKR beachten"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "max. Antragsalter: 70 Jahre\nAb Alter 60 muss der Beleihungsauslauf unter 80% liegen\nBesonderheit bei Renteneintritt:  Anrechnung Nettoeinkommen zu 52%"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Haushaltsrechnung sollte weiterhin tragbar sein oder es sollte ein plausibler Plan für die Rückzahlung der Finanzierung vorliegen"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Rentenansatz nur zu 75 % \nRückzahlung bis 85. Lebensjahr"
+    },
+    {
+      "bank": "KSK Döbeln",
+      "value": "ab 68 Jahre bis max. 80 % Beleihungsauslauf machbar unter Vorbehalt"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "Bei höherem Alter bitte Voranfrage stellen / Sind Vermögensüberhang und Erbfolge nachvollziehbar und geregelt, ist im Regelfall eine Kreditvergabe möglich"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "max. Antragsalter: 65 Jahre\n\nhöheres Eintrittsalter auf besondere Prüfung hin möglich, grundsätzlich muss das Endalter in der Tilgung berücksichtigt werden.\nBei Valutierung im Rentenalter: Rentenbescheid/-info einreichen"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "max. 80 Jahre alt (vollständige Kapitaldienstfähigkeit muss gegeben sein und die Erbfolge nachvollziehbar geregelt, ggfs. sind Nachweise erforderlich)"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Die Kapitaldienstfähigkeit muss mit der vorhanden Rente darstellbar sein"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Reguläres Tilgungsende in der Regel bis maximal 85 Jahre (Einzelfallentscheidungen)\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "max. 80 Jahre\nBelastung muss tragbar sein"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "max. Jahre 99\n ab 65 Jahren bis max. 60% des Verkehrswertes, danach Nachfolgeregelung klären oder erhöhte Tilgung ansetzen"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": ""
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Vorlage von Unterlagen zu den privaten und gesetzlichen Renteneinkommen und in dem Zusammenhang gegebene Kapitaldienstfähigkeit"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Renteninformation einreichen, wenn Darlehen nicht vor Rentenbeginn getilgt sein wird"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "max. Jahre 80\nKD-Fähigkeit muss weiterhin gegeben sein - Nachweis durch Rentenbescheid\nErbfolge muss gesichert sein"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "max. 60 Jahre. Einzelfallentscheidung, abhängig von Beleihungsauslauf, Tilgung, Laufzeit Darlehen, etc.\nSofern Darlehen bis ins Renteneintrittsalter läuft -> aktuelle Renteninformation/-Hochrechnung mit einreichen"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "max. Antragsalter: 85 Jahre\nEs sind sämtliche Alterseinkünfte durch die Vorlage von Rentenberechnungen und Versorgungszusagen nachzuweisen"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Vollständige Rückzahlung im Rahmen der durchschnittlichen Lebenserwartung (gemäß Sterbetafel)\nAusreichende Kapitaldienstfähigkeit"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "zunächst pauschaler Ansatz der Rente in Höhe von 52 % des letzten Nettos. Bei Vorlage Rentenbescheid Ansatz tatsächliche Höhe abzgl. 15 % pauschal für Steuer"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Nachweis Renteneinkünfte (gesetzliche Rente 100 %), ansonsten 52 % (62 % Beamte) des letztes Nettogehalts"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Rentenbescheid, Kontoauszug, KDF muss positiv sein"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Altersregeln ab 55 Jahre und <= 65 werden 75% der Nettoeinkünfte aus nichtselbstständiger und selbstständiger Tätigkeit\n> 65 generell 5% Mindesttilgung\n> 75 Jahre Rückführung innerhalb von 5 Jahren\n \nNegative Rentenphase ist unter folgenden Bedingungen möglich:\nEigennutzer: Kund:innen sind jünger als 45 Jahre\nFremdnutzung: Kund:innen bestätigen schriftlich, dass das Objekt zum Renteneintritt verkauft wird"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Netto gemäß Rentenbescheid abzgl. Abzüge für Steuern und Sozialabgaben (Steuerbescheid einreichen!)\n \nAnsatz Einkommen:\n• Ansatz 52% vom aktuellen Nettoeinkommen\n• Renteninformation: Bruttorente abzgl. Sozialabgaben und Steuern (circa 35%)\nKapitaldienst:\n• Bei Restschuld bis 60% AHK/KP mind. 8 % Annuität, bei höheren Auslauf 11% Annuität auf Restschuld\n• Nutzung Sondertilgungsoption bis Rentenphase, um Restschuld zu verringern oder zurückzuführen (schriftliche Bestätigung Antragsteller für Nutzung Option notwendig, Vordruck vorhanden)"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "70, dann Gelbscore"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "max. Antragsalter: 80"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "max. 70 Jahre \nindividuelle Betrachtung der Gesamtumstände, Beleihungsauslauf, Schreiben der möglichen Erben erforderlich\nindividuelle Betrachtung Finanzierungsbausteine\n\nSondertilgungsoption\nÄnderung Tilgungssatz\nzusätzlich Nachweise private Vorsorge\nObjektbetrachtung\nVerkauf möglich"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "ab 65 Jahre mind. 3% Tilgung\n> 60% Beleihungsauslauf Einzelfallentscheidung\nRückzahlung innerhalb der statistischen Lebenserwartung (keine Abbildung auf der Plattform)"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "max. Antragsalter: 67\nBesonderheit bei Renteneintritt: Nachweis der bezogenen Renten"
+    },
+    {
+      "bank": "PSD München",
+      "value": "max. Antragsalter: 75 Jahre\nBei BauGeld Kompakt: Tilgung bis zur Vollendung des 80. Lebensjahres\nRentenszenario wird betrachtet\nKapitaldienstfähigkeit muss gegeben sein oder plausible Erklärung, wie die Restdarlehenssumme zurückgeführt werden soll"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "max. Jahre 65\nBesonderheiten sind im Einzelfall zu prüfen\npassender Kapitaldienst auch zu Rentenbeginn"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "max. Antragsalter: 75\nKapitaldienst bei Renteneintritt muss gegeben sein"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "bei Renteneintritt: KDF muss mit der künftigen Regelaltersrente ohne Berücksichtigung von Rentenanpassungen gegeben sein.\nmaximale Laufzeit der Finanzierung bei Männern bis zum 80. und bei Frauen bis zum 83. Lebensjahr"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "Min. 50% Vermögensüberhang, positiver Kapitaldienst, Nachweise gesetzlicher und ggf. privater Renten"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "Keine Grenze - ab 61: Gelbfall\nKapitaldienst muss tragbar sein (z.B. auch durch Entschuldung durch Verkauf fremdgenutzter Immobilie, fällige Lebensversicherung, usw.)"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "max. Antragsalter: 60\n\nHaushaltsrechnung muss auf Grundlage der Renteneinkünfte (abzüglich Steuern und Krankenversicherung) weiterhin gegeben sein."
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "max. Jahre 67\n\nKreditlaufzeit muss i.d.R. innerhalb Lebenserwartung liegen\nErbringung Kapitaldienstfähigkeit muss gewährleistet sein"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "Verschuldungsgrad max. 80%\nBei Finanzierungen ins Rentenalter müssen Renten-Infos eingereicht werden"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "Bei Renteneintritt muss die Kapitaldienstfähigkeit gegeben sein"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "ganzheitliche Betrachtung unter Einbeziehung von Abkömmlingen\nBesonderheiten bei Renteneintritt: HH-Rechnung weiterhin gegeben"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Bei DN über 60 Jahre bitte Voranfrage stellen"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein\nAlternativ: Es kann eine Stellungnahme des Kunden eingereicht werden, dass er über KDF aufgeklärt wurde und auf Objektverkauf im Bedarfsfall hingewiesen wurde und sich damit einverstanden erklärt\nErbfolge sollte geklärt und informiert sein"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "max. Antragsalter: 70 Jahre\nNachhaltige Rückführung des beantragten Darlehens muss durch den Kreditnehmer möglich sein\nfalls keine Rentenprognose vorliegt, muss das Darlehen rechnerisch zum Renteneintritt getilgt sein\nBei Beamten ohne Versorgungsauskunft: Ansatz 71,75% des Nettogehalts"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Nach Ablauf der Sollzinsbindung muss der Kunde eine fiktive Annuität in Höhe von\n7% der ursprünglichen Darlehenssumme tragen können\nGrundsätzlich sind die Rentenvorausberechnungen zur Prüfung einzureichen, bei\nAntragstellern ab einem vollendeten Lebensalter von 40 Jahren wird ein\nRentenszenario, anhand der nachgewiesenen Renteneinkünfte (gesetzliche und\nprivate Vorsorge) berechnet"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": ""
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "ja, bei der Berücksichtigung von Renteneinkünften ist es wichtig, die flexible Besteuerung mit dem Kunden zu klären und entsprechend zu berücksichtigen.\n\nDies umfasst die Information über den Besteuerungs-anteil, die Ermittlung des zu versteuernden Einkommens sowie die möglichen Steuersätze.\nBitte kommentiere dies im Übergabeprotokoll."
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Bei Renteneintritt innerhalb der Zinsbindung, Nachweis der Renteneinkünfte erforderlich"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "max. Antragsalter: 80\nBesonderheit: individuelle Prüfung - dauerhafte Tragbarkeit muss vorhanden sein"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "max. 99 Jahre \nDer Kapitaldienst muss gegeben sein, oder es muss erklärt werden wie dieser dann gegeben sein soll"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "max  Jahre 60\nder Kapitaldienstverlauf muss weiterhin positiv sein"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "max. Jahre 60\nRückzahlung bis zum 70. Lebensjahr oder geregelte Erbfolge\nKapitaldienstfähigkeit muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "max. Jahre 60\nHaushaltsrechnung muss mit Renteneinkünften positiv sein"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "max. Antragsalter: 65\n\ndarüber hinaus: max. Beleihungsauslauf 80%\nAnsatz 85% der ausgewiesenen Rentenberechnung"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "max. 60 Jahre, Einzelfallentscheidung, ggf. abhängig von Gesamtlaufzeit des Darlehens\nRenteninformationen sind einzureichen. Rente wird i.d.R. nur mit 75 % angesetzt"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "Lebensphasenplanung: Es darf keine HH- Unterdeckung während der gesamten Lebensphasenplanung sein bis zum Renteneintritt und ab Renteneintritt ggf. HH-Unterdeckung mgl., mit EXIT/Verkaufserklärung der Kd. des Objektes"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "geordnete wirtschaftliche Verhältnisse und Angaben zur Erbfolge\nwird gesondert geprüft\nRenteninformation ist als Pflichtunterlage einzureichen (+ eventuelle Zusatzrenten)"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "max. Jahre 99\nDokumentation der Finanzierung mit Bezugnahme auf Alter\nBerechnung bitte mit einem Rentenrechner durchführen"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "die Altersgrenze ist nicht fixiert - Einzelfallentscheidung / erstrangige Sicherstellung"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Einreichung Rentenunterlagen\n(Rentenbescheid und private Vorsorge)"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "max. 70 Jahre\nRückzahlung bis max. 80 Jahre\nKapitaldienstfähigkeit muss vorhanden sein\nbei Kapitalanlegern ist eine Verkaufsklausel notwendig"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Kapitaldienst muss positiv sein"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "max. Jahre 60\nKapitaldienst muss auch bei Renteneintritt tragbar sein"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Bei Antragstellung kurz vor Rentenbeginn ist der gegebene Kapitaldienst nach Renteneintritt selbstverständlich Voraussetzung.\nWeiterhin ist bei Antragstellern kurz vor Rentenbeginn oder bereits bei Rentenbezug der BL-Auslauf gesondert zu prüfen (max. 70%) Vorherige Rücksprache gewünscht"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "max. 95 Jahre \nRaten müssen tragbar sein\nKeine generelle Obergrenze, ab 65 Jahren bis max. 70 % des Verkehrswertes"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "max. 65 Jahre\nbei Überschreitung bitte Voranfrage stellen"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "max. 65 Jahre\nKapitaldienst muss weiterhin gegeben sein\nRückzahlung der Darlehen sollte bis zum 75. Lebensjahr erfolgt sein"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "max. 65 Jahre\nKapitaldienstfähigkeit muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "max. Jahre 60\nKapitaldienst muss auch da tragbar sein\nohne Rentenbescheid Ansatz 52 % des letzten Nettogehalts"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "max. 75 Jahre \nDarlehens sollte zu Lebzeiten zurückgezahlt sein\nNachweis der Rente ist Pflicht"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Nachvollziehbarkeit, evtl. Einbindung bzw. Abspreche mit den Erben\nKapitaldienst muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "max. Jahre 70\nTilgung innerhalb der durchschnittlichen Lebenserwartung oder Klärung der Erbsituation\nab 67 kein Gehaltsansatz bzw. kein Ansatz von Einkommen aus selbständiger Tätigkeit"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "max. 75 Jahre \nRückzahlung bis zum Endalter 75. Lebensjahr des jüngsten Kreditnehmers\nAktuelle Renteninformation muss vorliegen"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "max. 95 Jahre allerdings Einzelfallentscheidung\nPositive Haushaltsrechnung, Vermögensüberschuss"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Keine Unterdeckung im KapDienst bzw. Rückführung der Finanzierung unterhalb 80% AHK bspw. durch Objektverkauf möglich\nFalls die Finanzierung voraussichtlich nicht zu Lebzeiten beendet ist, müssen Erben bei Antragstellung feststehen"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Vorgaben der Wohnimmobilienkreditrichtlinie sind einzuhalten\nHH-Rechnung sollte grundsätzlich positiv sein"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "max. 70 Jahre (bis zum 75. Lebensjahr muss das Darlehen zurück gezahlt sein)\nKapitaldienstfähigkeit muss durchgehend gegeben sein (auch bei Renteneintritt und Zinsbindungsende)"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "Die Finanzierung muss bis zum 78. Lebensjahr aus den laufenden Raten komplett getilgt sein. Sondertilgungen werden dabei nicht berücksichtigt.\nDer langfristige Kapitaldienst darf nicht negativ werden. Von der Renteninformation werden max. 67% angesetzt . Liegt keine Renteninformation vor, werden 52% des aktuellen Nettoeinkommens angesetzt"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Das Darlehen muss bis zum 85. Lebensjahr zurückgeführt werden\nDer Kapitaldienst muss bis zum Vertragende positiv verlaufen"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "max. Antragsalter: 80 Jahre\nBesonderheiten: \n\nNachfolgeregelung klären \nerhöhte Tilgung > 3%\nEinkommensansatz bei Renteneintritt:\nOhne Rentennachweis: Ansatz max. 52% oder 2.557 EUR"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "max. Jahre 70\nRückzahlung bis 75 LJ. muss gewährleistet sein, gute KD-Fähigkeit\nKD-Fähigkeit muss erhalten bleiben"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "max. Jahre 100positive KDF muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Nachweis der Rentenhöhen erforderlich"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "es ist kein max. Antragsalter festgelegt\nErbfolge/fam. Situation ist von Interesse\nKapitaldienstfähigkeit muss auch über das Renteneintrittsalter gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Positiver Kapitaldienst im Rentenalter"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "ab dem 70. Lebensjahr muss die Erbfolge dargelegt werden"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "max. 99 Jahre \nggfs. müssen potenzielle Erben eingebunden werden"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Auch nach Renteneintritt muss die Kapitaldienstfähigkeit gegeben sein, Vorlage Renteninformation"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "max. 70 Jahre \nSofern die statistische Lebenserwartung eines Kreditnehmers bei einer Finanzierung mit einem Immobiliar-Verbraucherdarlehen überschritten wird, ist eine nachvollziehbare Begründung im Antrag zu dokumentieren, warum dennoch von einer nachhaltigen Finanzierung ausgegangen wird (beispielsweise aufgrund werthaltiger Kreditsicherheiten).\nEntweder pauschaler Ansatz von 52 % des derzeitigen Nettoeinkommens je Antragsteller (beschränkt auf die Beitragsbemessungsgrenze Rentenversicherung) oder Nachweis der Renteneinkünfte anhand Renteninformation gesetzlicher und/oder privater Versicherungen. Damit kann auch ein höherer Rentensansatz möglich sein. Bei der Nachweisvariante müssen jedoch evtl. Steuern und Krankenversicherungsbeiträge berechnet und mit abgezogen werden. Bei der Pauschalvariante sind die Positionen schon berücksichtigt."
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Max. Antragsalter: 60\nFallbezogene Entscheidung\nKeine Besonderheiten bei Renteneintritt"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "max. 80 Jahre alt (Nachfolge muss geregelt sein, Tragfähigkeit nach Warnzinsberechnung)"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "max. 70 Jahre \n> 70 Jahre Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "max. Jahre 69\nRückzahlung an statistische Lebenserwartung anpassen."
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "max. Antragsalter: 65 Jahre\nBesonderheiten: Darlehenslaufzeit sollte mit dem 75. Lebensjahr enden oder Erbregelung getroffen sein"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "max. Jahre 65\nmit Rentennachweis"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Geklärte Erbfolge/ Mögliche Erben müssen informiert sein."
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Endalter für Darlehen 75\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "70; darüber Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Berücksichtigung korrekter Ansatz Rente im Kapitaldienst"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "max. 99 Jahre\nDarlehen muss zu Lebzeiten (statistische Lebenserwartung) planmäßig getilgt sein - sonst Sonderregelung \"Objektverkauf\" erforderlich\nBelastung muss noch im Rentenalter tragbar sein"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "max. 70 Jahre \nBelastung muss tragbar sein aus den nachgewiesenen Einkünften"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "max. 70 Jahre \nKapitaldienst über den Renteneinritt hinaus darstellbar"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "Ansatz Rente aus Renteninformation mit 2 % Steigerung und Abzug von 25 % für Steuer und Sozialversicherung\nRückführung möglichst bis Endalter 85 Jahre, bei guter Bonität und Sicherstellung nicht notwendig"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "max. 75 Jahre \nKeine Vollfinanzierungen bei Finanzierungsdauer > Lebenserwartung (Sterbetabelle)"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Eingereichte Vorgänge, die in der Lebensphasenplanung negativ sind, werden abgelehnt. Eine Veräußerung / Abstoß der Immobilie zum Eintritt wird von der Sparkasse nicht akzeptiert. Kapitaldienst muss gegeben sein\nindividuelle Prüfung jeder Anfrage\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "max. Antragsalter: 60 Jahre\nBesonderheiten: keine\nNachweise für Renteneinkünfte sind erforderlich"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "keine Begrenzung Antragsalter\nggfs. Erbfolge und Übernahme der Verbindlichkeit muss geklärt sein"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Finanzierungen mit Laufzeit über den Renteneintritt hinaus werden genauer geprüft"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "max. Jahre 65\nAuch im Rentenalter muss ein Kapitaldienstüberschuss von 200€ bestehen"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Kapitaldienstfähigkeit muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "WIKR ist zu berücksichtigen\nKapitaldienst muss über gesamte Laufzeit gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Max. Antragsalter 60 Jahre\npositiver Kapitaldienst muss auch im Rentenalter gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Kapitaldienst: Ansatz 52% vom letzten Nettogehalt oder Wert gem. aktueller Renteninformation abzgl. Steuer 25% pauschal \nFinanzierungsdauer bzw. Tilgung muss im passenden Verhätlnis zum Alter stehen\nFinanzierung sollte bis dahin erledigt sein. Ausnahmen möglich. Kapitaldienst sollte auch danach noch tragbar sein."
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "Max. Antragsalter: 75\nBesonderheit: Erbfolge muss vollständig geregelt und nachgewiesen werden\nRentennachweis muss erbracht werden"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "max. Antragsalter: 60 Jahre\nBesonderheit bei Renteneintritt: Bei Kunden, die älter als 67 Jahre sind, werden nur 44 % des Netto-Einkommens berücksichtigt"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "max. Jahre 75\nRückzahlungsabsicht muss gegeben sein (höhere Tilgung) Kapitaldienst muss tragbar sein\nohne Nachweis erfolgt ein Anschlag vom Nettogehalt"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "max. Antragsalter: 65 Jahre bei Überschreitung - Einzelfallentscheidung\npauschal max. 52% Nettolohn oder Nachweis Rentenbescheide\nHHR muss nach Renteneintritt positiv sein"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "max. Jahre 100\nKinder / Erben müssen vorhanden sein\nKapitaldienst muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "zum Renteneintritt BLA < 60%"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Einreichung des Rentenbescheides"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "max. Antragsalter: 60\nbei Renteneintritt Kapitaldienst weiter positiv; Steuern und KV sind zu berücksichtigen"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "max. Jahre: 70 (Gelbfall)\nAnsatz lt. Renteninfo -29%"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "max. Antragsalter: 95 Jahre\nBei kalkulatorischer Darlehenslaufzeit über das 80. Lebensjahr hinaus ist eine Darstellung der Nachfolgeregelung erforderlich\nRenteneintritt: Kapitaldienst muss gegeben sein"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "max. Antragsalter: 67\nBesonderheiten: Nachweise über Renteneinkünfte sind einzureichen"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "max. 85 Jahre \nLaufzeit des Darlehens muss berücksichtig werden"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "max. 68 Jahre alt \nKapitaldienstfähigkeit muss im Rentenalter gegeben sein"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Der Belastungsplan muss positiv bleiben oder es muss eine plausible Erläuterung geben, warum es nicht zu Liquiditätsproblemen kommen wird."
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Einzelfallprüfung bei Finanzierungen über das 75. Lebensjahr hinaus\nAnsatz Rente mit 52% des letzten Nettoeinkommens, höhere Ansätze nur mit entsprechenden Nachweisen"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "nachvollziehbares Rentenszenario bei Eigennutzung und nachvollziehbare Nachfolgeregelung (Erbsituation)"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Lebensphasenplanung bei Renteneintritt muss immer positiv sein"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "max. Jahre 80\nDer Nachlass muss geregelt sein oder weitere Darlehensnehmer vorhanden\nAnsatz Rente abzüglich Sozialversicherungen laut Renteninformation"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "max. 70 Jahre \nKapitaldienstfähigkeit muss nachhaltig gegeben sein"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "max. Antragsalter: 65 Jahre\nBesonderheit: Kapitaldienst im Rentenalter muss gegeben sein, eventuelle Entschuldung bis ca 80 % des Beleihungswertes bis zum 80 Lebensjahr"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Lebensphasenbetrachtung muss durchweg positiv oder durch freies Vermögen gedeckt sein."
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Rentenansatz zu 80% gem. Renteninfo, kein Ansatz der prozentualen Erhöhungen. \nDie Rückzahlung muss in der statistischen Lebenserwartung erfolgen oder eine nachvollziehbare Nachfolgeregelung bzw. Lösung zum möglichen Eintritt muss dargestellt werden."
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Darlehensrückführung muss vollständig im statistischen Lebenserwartungsalter erfolgen\nvollständiger Kapitaldienst muss mit der Rentenzahlung darstellbar sein, Unterdeckung kann nicht mit dem Argument \"Objektverkauf\" geheilt werden."
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "maximales Antragsalter 68 Jahre\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "max. Jahre 99\nPlausible Darstellung \ngegebene KDF nach Rentenbeginn unter Anrechnung der Nettorente (Abzug KV und PV ggf. Steuer)"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "max. Antragsalter: 65 Jahre\nPositive Haushaltsrechnung, Vermögensüberschuss"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "max. 74 Jahre, Restvaluta zum statistischen Lebensende maximal 80% vom echten Beleihungswert\nKapitaldienstfähigkeit muss gewährleistet sein"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "max. 80 Jahre \nkalk. Laufzeit muss so gewählt werden, dass das Darlehen bis zum 85. Lebensjahr zurückgezahlt ist\nDie Tragfähigkeit der Darlehen muss bei Renteneintritt, insbesondere bei selbstgenutzten Immobilien, gegeben sein, bei Renditeobjekten Einzelfallentscheidung (Entschuldung durch Verkauf möglich)"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Neue Berechnung des Kapitaldienstes (s. Lebensphasenplanung Europace - 80% der Bruttorente wird angesetzt)"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "max. Antragsalter: 99\nEinzelfallentscheidung\nKapitaldienstfähigkeit bei Renteneintritt muss gegeben sein"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "max. 85 Jahre (max. 60% Beleihung)\nnachhaltige KDF muss trotzdem gegeben sein\nRestdarlehen muss der Kunde tragen können, Rate wird mit 6% Annuität gerechnet"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "max. Antragsalter: 65\n\nFinanzierung für Antragsteller über 65 Jahre ggf. bei vollständiger Absicherung möglich.\nHaushaltsrechnung muss auch nach Renteneintritt einen Überschuss von 250 EUR p.M. ausweisen"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "max. : 99 Jahre \n6,5 % Annuität auch mit Renteneinkünften tragbar\nErbensituation muss geklärt sein\nfreie Vermögenswerte müssen vorhanden sein"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "max 85 Jahre\nZum 85. Lebensjahr des ältesten Antragsstellers darf der BLA auf Basis der Restschuld nur 50,00 % betragen"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "max.  60 Jahre \nRente sollte im Inland bezogen werden"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "Max. Antragsalter: 60 Jahre\nKapitaldienstfähigkeit muss gegeben sein\n\nAbzug von 20% für Steuern auf Rentenbetrag"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Bei Finanzierungen, die über den Renteneintritt hinaus laufen, erfolgt eine Einzelfallentscheidung"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "max. Antragsalter: keine Altersbeschränkung für Darlehensnehmer, jedoch Einzelfallprüfung ab 65 Jahren hinsichtlich Erbfolge, Höhe der Beleihung etc.\nKapitaldienstfähigkeit, Beleihungsauslauf, freie Vermögenswerte müssen berücksichtigt werden\nFür den Renteneintritt erfolgt eine neue Kapitaldienstberechnung"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "max. 75 Jahre (statistische Lebenserwartung und Renteneinkünfte (WIKR Grundsätze)\nBei Rentenreintritt muss Kapitaldienst langfristig tragbar sein (WIKR)"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Erbfolge muss geklärt sein oder die objektbezogene KDF\nKDF bei Renteneintritt muss gegeben sein\nBei älteren Antragstellern Rücksprache zu Tilgungsvorgaben halten. Wird individuell nach Fallkonstellation entschieden und ist nicht auf der Plattform abgebildet."
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "max. 70 Jahre \nKDF muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Kunde muss mit 80 entschuldet sein.\nRentennachweise müssen vorliegen\nKDF muss gegeben sein mit 6,5% Annuität"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "max. 60 Jahre\ndie Finanzierung muss auch mit Eintritt ins Rentenalter tragfähig sein\nbei Erreichung der statistischen Lebenserwartung muss sich die Finanzierung im  80 %-igen Beleihungsrahmen befinden"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Restschuld muss im Rahmen sein / Konsum wird nicht finanziert / Erbsituation ist zu beleuchten\nBelastung muss weiter getragen werden können"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Keine pauschale Einschränkung im Rentenalter.\n \nIst die Kapitaldienstfähigkeit zum Renteneintritt nicht gegeben, gibt es grundsätzlich folgende \nArgumentationsmöglichkeiten: \nWenn die Restschuld zum Renteneintritt bei eigengenutzten Immobilien weniger als 20% des Beleihungswertes der eigengenutzten Immobilie beträgt, kann die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt wegen der im Verhältnis geringen Restschuld außer Acht gelassen werden. Hierbei zählt \nallerdings der von der Bank ermittelte Beleihungswert.\n\nWenn es sich bei dem Objekt um eine Kapitalanlage handelt, kann seitens des Kunden bestätigt werden, dass er plant die Kapitalanlage zur Entschuldung vor Renteneintritt wieder zu veräußern. Wenn die Restschuld zu diesem Zeitpunkt gering genug ist, um gem. der Banken-Bewertung bei einem Verkauf definitiv zurückgeführt zu werden, kann die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt außer Acht gelassen werden.\n \nWenn es Lebens- oder Rentenversicherungen gibt, die vor Renteneintritt garantierte Ablaufleistungen auszahlen, welche zur Rückführung des Darlehens vor Renteneintritt ausreichen, kann auch hier mit einer Rückführung vor Renteneintritt argumentiert und die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt außer Acht gelassen werden."
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Mindestannuität i.H. von 6% aus der Restschuld muss bei Renteneintritt darstellbar sein."
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "Kapitaldienstfähigkeit bei Renteneintritt und die entsprechenden Nachweise werden geprüft und angefordert"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "max. Antragsalter: 75 Jahre\nBesonderheit: \n\nAb 75. Lebensjahr immer gelb-Scoring\ngegebene Kapitaldienstfähigkeit mit Rentennachweisen"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "-"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "Ansatz Renteneinkünfte:\nbis Alter  = 66 zu 100%\nab Alter >= 67 zu 60%"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "max. Jahre 65\nKreditrückzahlung bis zur statistischen Lebenserwartung, durchgängige Kapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein\nRentenbescheide sind hochzuladen"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Zukünftige Renteneinkünfte müssen nachgewiesen werden, sofern der Renteneintritt innerhalb der nächsten 10 Jahre erfolgt\nDie statistische Restlebenserwartung sollte die Darlehenslaufzeit nicht unterschreiten\nZukünftige Renteneinkünfte müssen nachgewiesen werden, sofern die Darlehensnehmer >= 50 Jahre alt sind. Das zukünftige Renteneinkommen wird dann mit 80% angesetzt."
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Max. Antragsalter: 85\nKapitaldienst muss bei Renteneintritt gegeben sein (6% Annuität)"
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "Rückzahlung bis zum 80. Lebensjahr"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "max. 99 Jahre\nBeleihbarkeit max. 80 % vom bankeigenen Immobilienwert\nKDF muss gegeben sein"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "max. Jahre 80\nDie KDF muss gegeben sein, Beleihungsauslauf  max. 60%"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "max. 100 Jahre\nVollbesicherung ist Voraussetzung\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "max. Antragsalter: 80\nangemessene Tilgung bzw. Vermögenswerte müssen vorhanden sein"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "keine Blankoanteile ab Überschreitung Lebenserwartung\nAnsatz 85% der letzten Renteninformation, alternativ 100% des Rentenbescheids\nvolle Besicherung erforderlich"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "max. Antragsalter: Fallabhängig.  Auslauf muss bei 60 % sein wenn ältester Darlehensnehmer 60 Jahre alt wird/ist.\nRückzahlung bis zum 76. Lebensjahr\nAnsatz Rente zu 90 % wegen KV / Est"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "max. Jahre 70\nFinanzierung nur bis 80 % des BLW und Rückführung innerhalb der Lebenserwartung oder alternativ Erläuterung wie es nach Todesfall weiter gehen soll\nWenn keine weitere Immobilie im Bestand ist, muss die Rente bei Renteneintritt nachgewiesen sein und der Kapitaldienst auch bei Renteneintritt gegeben sein"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "max. Antragsalter: 80\nHaushaltsrechnung muss stimmen"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "max. Jahre 67\nbei Anfragen ist auch ein höheres Eintrittsalter möglich (separate Prüfung)\nBerechnung anhand der Rentenhochrechnung, Vermögenswerte > Gesamtverschuldung"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "max. 65 Jahre \nKeine Besonderheiten, werden zuvor in Lebensphasenplanung berücksichtigt"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "max. 60 Jahre \nAntragsteller > 60 Jahre ist eine Mindesttilgung von 3% verpflichtend\nKDF muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "max. Antragsalter: 60\nBei längeren Laufzeiten muss die Erbfolge/Nachfolgeregelung o.ä. geklärt sein\nBesonderheit bei Renteneintritt: Nachweis über voraussichtliche Rente muss erbracht werden"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "max. 70 Jahre \nDarlehen muss mit Erreichen der statistischen Lebenserwartung getilgt sein"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "max. 70 Jahre \nRenteninformation einreichen, wenn Darlehen nicht vor Rentenbeginn getilgt sein wird\nKunde kann 75 Jahre oder älter sein, wenn Beleihung unter 70%"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "Keine Altersgrenze"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "max. Jahre 0\nKDF sollte gegeben sein"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "die Darlehensrate muss dauerhaft getragen werden können, Nachweis Renteninformation und Zusatzrenten (Überschuss sollte positiv sein)\nBLA max. 80% zum 67ten Lebensjahr; für den Todesfall sollte ein Ansprechpartner hinterlegt werden"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "max. Jahre 99\nKapitaldienstfähigkeit zu Rentenbeginn muss gegeben sein."
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Kapitaldiesntfähigkeit muss erbracht werden"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Beim Erreichen des 80. Lebensjahres darf der Beleihungsauslauf maximal 60 % betragen"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "max. Jahre 80\nAb 67 Jahren ist eine Voranfrage erforderlich\nFinanzierung muss in der Rente noch tragbar sein"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "max. 70 Jahre dann Einzelfallentscheidung"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Renteneinkünfte in voller Höhe"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "max. Jahre 100\nKDF muss gegeben sein aus der Rente\nAuslauf max. 80%"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "max.: Antragsalter: 75 Jahre\nBeleihung der Immobilie vor Lebensende max. 80% BLW\nBesonderheit bei Renteneintritt: Kapitaldienstfähigkeit mit 5,5% Annuität"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": ""
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "max. 75 Jahre \nBis 80 % Beleihungsauslauf\nHaushaltsrechnung muss auch im Rentenalter tragbar sein."
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "max. Jahre 75\nDas Darlehen muss bei gegebener Zins- und Kapitaldienstfähigkeit während der zu erwarteten Lebenserwartung abbezahlt werden können."
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "max. 50 Jahre\nKDF muss weiterhin gegeben sein"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "max. Jahre 80\nab 64 Jahre Voranfrage erforderlich"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "max. 99 Jahre \nRestnutzungsdauer der Immobilie beachten\nKapitaldienst muss darstellbar sein oder freies Vermögen vorhanden sein"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "max. Jahre: 70\nFinanzierung innerhalb der Beleihungsgrenze der Bank und nachhaltig leistbar"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "bis max. 80 Jahre muss das Darlehen zurückgezahlt sein\nUnterdeckung in der Haushaltsrechnung bei Renteneintritt muss begründet sein"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "max. Antragsalter: unbegrenzt\nbei Renteneintritt: gesonderte Prüfung aufgrund der Lebensphasenplanung"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "max. 75 Jahre, älter 75 Einzelfallentscheidung\nGesamtsituation Eigenkapital und Gesamtvermögen\nKDF muss gegeben sein"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "max. Jahre 67\nnach Renteneintritt möglich, sofern ZKD gegeben u. Laufzeit bis Endalter max. 82 oder mithaftende Erben mit ausreichender Bonität"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Bei Antragsstellern ab 60 Jahren erfolgt die KDF Berechnung direkt mit den zukünftigen Renteneinnahmen"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "max. Jahre 99\nÜberschuss muss analog des Haushaltsüberschusses gegeben sein"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Renteninformation muss eingereicht werden, wenn die Laufzeit über den Renteneintritt hinaus geht"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "max. Jahre 67, wenn älter dann Einzelfallentscheidung, je nach Verwendung und Beleihung\nAnrechnung 60% des Nettoeinkommens. \nRenteninformation / Rentenbescheid erforderlich. Lebensphasenplanung bitte beachten."
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "max. Antragsalter: 67\nAnsatz nur Nettorente\nRückzahlung innerhalb Frist gemäß WIKR"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "max. 60 Jahre\nder Kapitaldienst nach Renteneintritt muss durch die voraussichtliche Rente (abzgl. Sozialversicherungsbeiträgen und Einkommensteuer) sichergestellt sein.\ndie Finanzierung muss spätestens zum 75. Lebensjahr des ältesten Darlehensnehmer zurückbezahlt werden."
+    }
+  ]
+}

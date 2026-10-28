@@ -1,0 +1,516 @@
+{
+  "bank": "Commerzbank",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Höchstanzahl der Eigentümer eines Finanzierungsobjekts ist auf vier Personen begrenzt"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-    BLA  ≥ 95%: Mindesttilgung 3%.\n-    BLA  ≥ 115%: Finanzierung nicht möglich.\nAusnahme: Bei einer Finanzierungssumme  ≥1Mio EUR kann der Fall bei Kunden mit sehr guten Vermögens- oder Einkommensverhältnissen zur Prüfung eingereicht werden."
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Familienverkauf\nDer \"Kaufpreisvorteil\" im Familienverkauf darf nicht bei der Erfassung als Eigenkapital oder bereits geleistete Anzahlung berücksichtigt werden. Es ist der Kaufpreis gem. Kaufvertrag zu erfassen.\nSchenkung:\nEigenmittel Dritter i.R.v. Schenkungen können berücksichtigt werden, wenn folgende Voraussetzungen erfüllt sind:\n• Vorliegen eines schriftlichen Schenkungsversprechens zu Gunsten des Darlehensnehmers / Antragstellers\n• Aus dem (formlosen) Schenkungsversprechen geht eindeutig hervor\n➔ Name des Schenkenden und Verhältnis zum Darlehensnehmer\n➔ Schenkungssumme\n➔ Empfänger der Schenkung\n➔ Spezifizierter Verwendungszweck der Schenkung (z.B. Immobilienerwerb, Baufinanzierung, etc.)\n• Nachweis, dass Schenkungsbetrag eingegangen (Kontoauszug Darlehensnehmer / Antragsteller) oder beim Schenkenden vorhanden und frei verfügbar (Kontoauszug / Vermögensübersicht des Schenkenden)\n• Falls vorhanden (optional): Notarielle Schenkungsurkunde\n \nSchuldhaftentlassung, Schuldnerwechsel und Pfandtausch\nFür Bestandskunden möglich\nVerzicht Forderungsverkauf\nnein\n\nFinanzierungen, die mehr als 3 Commerzbankbausteine beinhalten (inkl. KFW) werden nicht begleitet"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mindestfinanzierungssumme 50TEUR (Gesamt-Finanzierungvolumen), Mindestsumme je Baustein 25TEUR\nAb einer Gesamtfinanzierungssumme von 2 Mio EUR kann eine Voranfrage bei der Commerzbank gestellt werden\nDie Voranfrage wird im Wealth Management bearbeitet und bei positiver Rückmeldung kann auch direkt dorthin eingereicht werden. Die Anfragen sende bitte an „Kreditgeschäft-Individuell“. Die in BaufiSmart angezeigten Zinssätze dienen lediglich als Platzhalter. Die Commerzbank erstellt ein individuelles Angebot; eine erste Rückmeldung erfolgt innerhalb von 2 – 3 Bankarbeitstagen.\nKonstellationen bis 3 Mio EUR, die in der Zinssuche grün angezeigt werden, können weiterhin selbst verbindlich konditionieren und einreichen."
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Freie Verwendung im Rahmen einer Finanzierung:\n\nmax. 20% der Darlehenssumme\nbis zu max. 50.000 EUR (manuell prüfen)\nFinanzierungsobjekt muss Sicherungsobjekt sein, sonst individuelle Konditionsabsprache\nFreie Verwendung ohne weitere Baufinanzierung:\n\nKeine Baufinanzierung sondern Commerzbank Universaldarlehen\nWICHTIG: Bitte die Konditionen und die erforderlichen Unterlagen dafür immer mit der jeweiligen Commerzbank Filiale abstimmen.\nNICHT MÖGLICH ist die Finanzierung von Vorfälligkeitsentschädigungen"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten\nKfW an Gebietsfremde ist nicht möglich"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Alleinstehende: 720 €\nPaare:  1.295 €\nPaare mit 1 Kind: 1.840 €\nPaare mit 2 Kindern: 2.385 €\nJede weitere Person: 545 €\n \nFür die (Mindest-)Lebenshaltungskosten oberhalb der Untergrenze ergeben sich keine Anpassungen (unverändert 30 % des Einkommens),ebenso keine Änderung hinsichtlich der Obergrenze (3.900 Euro)."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Beantragung über Commerzbank möglich\n\nBerücksichtigung ist möglich, Kreditantrag oder Kreditvertrag des Nachrangdarlehens ist eine Mindestunterlage"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden nicht angeboten, keine Vorfinanzierungen von öffentlichen Förderdarlehen"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "in Abhängigkeit von Objektart:\n10 = Grundstücke, EFH, 2FH, ETW\n10 = Fertig- & Holzhäuser, ab Baujahr 1990\n30 = Fertig- & Holzhäuser, vor Baujahr 1990\n\n\nin Abhängigkeit vom Verwendungszweck:\n10 = Kauf, Neubau\n15 = Umschuldung, Modernisierung\n\n\nbei MFH in Abhängigkeit von Prognosklassen:\n10 = Prognosklassen 1-5\n20 = Prognosklassen 6-8\n30 = Prognosklassen 6-8 und Fertighaus, vor Baujahr 1990\n\n\nMachbarkeit bei Prognosklassen 6-8 in Abhängigkeit von Anzahl der Wohneinheiten:\nbei 1-4 WE = Scoringergebnis grün\nbei >=5 WE = Scoringergebnis gelb, Einzelfallentscheidung"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Variable Finanzierungen benötigen immer ein Tilgungssurrogat (Kontoguthaben, LV/RV, BSV oder Grundschuldeintragung, auf einem zu veräußernden Objekt"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 20 Jahre, durchgängig"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird akzeptiert\nKeine Voranfrage bei Einbringung einer Zusatzimmobilie notwendig.\n\nBitte beachte: Für das 2. Beleihungsobjekt muss zwingend ein valider Marktwert sowie alle notwendigen Objektangaben erfasst werden.\n\nHilfestellung zur Erfassung in BaufiSmart bietet dir das Dokument \"Erfassungshilfe_2.BLO\"\n\nBitte beachte, dass Vorlasten voll erfasst werden müssen, sonst ist eine Teillöschung vor Antragstellung notwendig.\n\nWichtige Hinweise zu Fallkonstellationen mit einem 2. Beleihungsobjekt:\n\n--> Zulässige Konstellationen für das 2. BLO sind:\nEigentümer des 2. BLO= Antragsteller\nEigentümer des 2. BLO = Dritter\nEigentümer des 2. BLO = Antragsteller und Dritter (Miteigentum)"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei Zwischenfinanzierungen mit einem 2. BLO sind die Kauf-Nebenkosten zwingend aus Barvermögen/ \"echtem Eigenkapital\" zu finanzieren."
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "12 Monate aufschlagfrei\n36 ohne Einschränkung auf EUROPACE, \ngenerell bis 60 möglich (Vorabsprache zur Kondition in Filiale)"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1 - 20 Jahre, durchgängig"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ermittlung über BaufiSmart möglich:\nBei Aufstockung des Darlehensbetrags (mind. 100 TEUR) muss die Finanzierung als Neugeschäft eingestellt werden."
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Forward-Vereinbarungen sind nur zum 30. eines Montas (bzw. 28. oder 29. Februar) möglich. Dies ggf. beim Auszahlungsdatum berücksichtigen."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "63070006"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 151, 152, 153, 159, 167, 297, 298, 300, 358, 359\n \nKfW an Gebietsfremde ist nicht möglich"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Anträge werden gestellt bei:\nBaden-Württemberg: Landesbank Baden-Württemberg (L-Bank)\nHamburg: Investitions- und Förderbank Hamburg (IFB-HH)\nBeantragung durch Vermittler: Schleswig Holstein: Investitionsbank Schleswig-Holstein (IB-SH) wird von allen Banken im Nachrang akzeptiert"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Die Prolongation von Bestandsdarlehen wird von der Abteilung Zinsprolongation im KBC Rüsselsheim (ohne Einschaltung der Filialen) bearbeitet.\nDas Prolongationsprodukt wird in der Ergebnisliste mit einem Gelb-Scoring angezeigt. Der Grund dafür ist, dass die Commerzbank kundenindividuelle Konditionen kalkuliert. \nBitte nutzt die Funktion \"Darlehensdaten anfragen\" und fügt eine unterzeichnete Einwilligungserklärung aller Kunden bei. Teilt die Wünsche zum Angebot der Commerzbank im Kommentarfeld mit. Die Commerzbank bittet um Informationen zu folgenden Punkten: \n- Zinsbindung (1 – 20 Jahre)\n- Sondertilgungsoption (5, 10, 100%)\n- Höhe der Leistungsrate (kleinstmöglich, alte Rate, Wunschrate, Vollrückzahlung)\n- Weitere Kundenwünsche (z.B. einmalige Teilrückzahlungen)\nDie Commerzbank übermittelt daraufhin sowohl das kundenindividuelle Zinsangebot als auch die Darlehensdaten in BaufiSmart. \nNun kann das Prolongationsangebot der Commerzbank in der Ergebnisliste direkt angenommen oder verglichen werden.\nDie Commerzbank erteilt ein verbindliches Angebot, wenn vorher über automatisierte und standardisierte Prozesse dem Kunden ein Angebot unterbreitet wurde, aber noch kein Rücklauf vom Kunden bei der CoBa festzustellen ist\nSpätestens bei der Einreichung der unterschriebenen Prolongationsvereinbarung muss zwingend ein Antrag in BaufiSmart angelegt werden. Andernfalls kann die Buchung der Provision nicht ordnungsgemäß erfolgen!\nAuskünfte durch die Commerzbank werden nur erteilt, wenn die unterschriebene Einwilligungserklärung des Kunden vorliegt - Bitte über den Dokumentenupload in BaufiSmart bereitstellen."
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": ""
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nVom Kunden unterzeichnete Einwilligungserklärung"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "1 % abzgl. Overhead bei mindestens 5 Jahren Zinsbindung"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "0 / 10%\nAusübung Sondertilgungsoption nur zum 30.06.\nfrühestens 1 Jahr nach Vollauszahlung möglich\nMindestbetrag T€ 1"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Mind. 1 %, das Darlehen muss innerhalb von 40 Jahren zurückgezahlt sein (Ausnahme Renditeobjekte müssen innerhalb von 30 Jahren zurückgezahlt werden)\n3 % bei BLA > 95%\nVerlängerung der tilgungsfreien Zeit auf bis zu 3 Jahren zu Beginn der Darlehenslaufzeit auf Anfrage bei der Commerzbank möglich.\nDie Rückzahlung muss dann in 37 Jahren erfolgen\nTilgungsausgesetzte Darlehen mit einen Tilgungssurrogat LV/RV werden nur angeboten, wenn die LV/RV regelmäßig gespart wird. Die Abbildung bei Einmalzahlung der LV/RV kann als Baufinanzierung nicht abgebildet werden."
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgungsaussetzung gegen Bausparen:\n\nWICHTIG! : Bei Zinsbindungen größer 15 Jahren im endfälligen Baustein ist die Darstellung aktuell nur über Bausparer von Wüstenrot, Signal Iduna und Alte Leipziger gewährleistet.\n\nBei anderen Bausparkassen muss eine Bestätigung erbracht werden, dass nicht vom Sonderkündigungsrecht gemäß AGB Gebrauch gemacht wird."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "möglich, Auswahl über Präferenzen in BaufiSmart!\nWICHTIG: TSW als Option kostet einen Aufschlag (Kondition). Die Ausübung ist dann aber 2x kostenfrei, danach kann kein weiterer TSW durchgeführt werden.\nDie maximale Gesamtlaufzeit ist einzuhalten: MFH max. 30 Jahre, EFH max. 40 Jahre.\nDer Tilgungssatz kann während der Sollzinsbindung zwischen 1% und 5% gewechselt werden (unabhängig von der Anfangstilgung).\nDer Tilgungssatz kann frühestens 12 Monate nach Vollauszahlung des Darlehens und maximal einmal pro Monat gewechselt werden.\nAusgeschlossen für endfällig Darlehen und Volltilger, sowie Finanzierungen mit einem BLA > 111,12 % (auf Basis AHK)\nWeitere Voraussetzungen für die Inanspruchnahme des Rechts auf Tilgungssatzwechsel ist, dass\nkeine Leistungsstörung (z.B. Verzug mit fälligen Zahlungen oder der Erfüllung sonstiger vertraglicher Pflichten bestehen und\nkein Insolvenzverfahren beantragt oder eröffnet worden ist und keine Zwangsvollstreckungsmaßnahmen gegen den Darlehensnehmer seitens der Bank oder Dritter durchgeführt werden"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "wird nicht akzeptiert"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Lehmbauweise: nein\nHolzbau: nein\nPlattenbauweise: Einzelfallentscheidung. Es wird die grüne Konditionskalkulation akzeptiert. Bei nicht drittverwendungsfähigen Objekten kann es zu Ablehnungen kommen.\nBlockhaus: Keine Einschränkungen\nFachwerkhaus: Keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Grundrisszeichnungen: bei alten Originaldokumenten wie bspw. Grundrissen, Ansichten etc. benötigt die Commerzbank zwingend einen (aktuellen) Stempel eines Architekten/Sachverständigen\nKeine Finanzierung möglich bei Objekten, die durch eine notarielle Vorsorgevollmacht oder gerichtlich bestellten Betreuer veräußert werden\nPfandtausch/Objektwechsel ist nicht möglich\nMehrfachbebauung nicht möglich\nDie Pflicht zur Vorlage der Flurkarte, in allen Finanzierungskonstellationen mit einer Finanzierungssumme unter 1,5 Mio EUR entfällt.\nMobiliar: Falls im Kaufvertrag Mobiliar ausgewiesen ist, erfasse dies bitte als „sonstige Kosten“ und reduziere den Kaufpreis entsprechend.\nSolar-/Photovoltaikanlagen: Kosten hierfür sind ebenfalls als „sonstige Kosten“ zu erfassen, mit entsprechender Anpassung der Baukosten.\nFehleingaben führen dazu, dass der eingereichte Zinssatz nicht bzw. nur mit Provisionsverzicht gehalten werden kann und sich die Bearbeitungszeit aufgrund notwendiger Rückfragen verlängert. \n \nDie Finanzierung von 2 miteinander verbundenen WE ist nur möglich, wenn die Zusammenlegung auch in der Teilungserklärung und im Grundbuch vollzogen worden ist.\n \nFamilienverkauf\nDer \"Kaufpreisvorteil\" im Familienverkauf darf nicht bei der Erfassung als Eigenkapital oder bereits geleistete Anzahlung berücksichtigt werden. Es ist der Kaufpreis gem. Kaufvertrag zu erfassen.\nBei vollständiger Schenkung ist das anders. Dann wäre wieder der Marktwert maßgeblich"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter:\nTen2klick // Wertermittlung auf der Plattform: Gestehungskosten // Innen- & Außenbesichtigung bei Darlehen <400 TEUR // Wertgutachten ab 400 TEUR Darlehenssumme nach Auszahlung"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "möglich\nBaugenehmigung bei Vollsanierung erforderlich\nkein Energieausweis notwendig"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Keine Beschränkungen: Angabe muss realistisch sein\nAb 30.000 muss Marktfolge zustimmen\nHelferliste und Qualifizierungsnachweis (Gesellenbrief) bei Antragstellung (bei Statik, Gebäudehülle, Dach …)"
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "Objekte mit der Energieeffizienzklasse A+ und A erhalten künftig einen Rabatt von -0,15%, Objekte in Klasse B von -0,10% und C von -0,05%.\nObjekte in den Klassen G und H erhalten künftig einen Zins-Aufschlag von +0,07%.\nWICHTIG:\nBitte achte darauf, die korrekte Energieeffizienzklasse gemäß dem Energieausweis zu erfassen.\nFehleingaben führen dazu, dass der eingereichte Zinssatz nicht bzw. nur mit Provisionsverzicht gehalten werden kann und sich die Bearbeitungszeit aufgrund notwendiger Rückfragen verlängert."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "nicht möglich"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "20 (bei mehr ETW = Einzelfallentscheidung)"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja. Ab 5 WE Konditionsabsprache erforderlich"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, 2FH, DHH, ETW, MFH\nFinanzierung von Grundstücken mit noch zu vermessender Teilfläche: \n-Möglich, sofern es eine Zahlung nach MaBV ist.\n-Bei einem Kauf von einer Privatperson, nur möglich, wenn wir eine Besicherung im ersten Rang erhalten.\nNICHT MÖGLICH:\nBetreiberimmobilien\nBruchteilseigentum an Immobilien\nLandwirtschaftliche Objekte, Tinyhäuser\nFinanzierung unbebauter Grundstücke (auch Grundstücke, die als Bauland ausgewiesen sind) \nFinanzierung von 2 Objekten auf einem Grundstück\nFinanzierung von teilvermieteten ETWs"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "ja, wenn über 600 T€ Finanzierungsvolumen inkl. bestehende Vorlasten"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung unbebauter Grundstücke (auch Grundstücke, die als Bauland ausgewiesen sind) werden nicht begleitet\nZusatz s. unter \"Objektart\""
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Vorlasten in Abt. II:\n\n1. Rechte, welche als Vorlast akzeptiert / geduldet werden können und nicht kapitalisiert werden müssen.\n\nDie Kalkulation mit Grün-score kann genutzt werden.\nTransformatorenrecht\nBrandmauerrecht\nKabelrecht\nFernsehantennenrecht\nLeitungsrechte\nHochspannungs-/Freileitungsrecht\nWegerechte\nGrenzabstandsrecht\nGemeinschaftsflächen – und Spielplatzmitbenutzungsrechte\nDuldung der Grenzbebauung\nFensterrecht\nGewerbeverbotsrecht (bei Wohnnutzung)\nWärmeversorgungsanlagenrecht (Contracting) \nBei diesen Rechten/Vorlasten, kann es in sehr wenigen besonders gelagerten Einzelfällen zu Wertabschlägen kommen, sodass die Commerzbank falls notwendig auf Dich zukommt, um bspw. die Bewilligungsurkunde anzufordern.\n\n2. Rechten, welche als Vorlast akzeptiert / geduldet werden können aber kapitalisiert (Berücksichtigung im Pricing) werden müssen.\n\nDie Kalkulation mit Grün-score kann genutzt werden, die Bewilligungsurkunde ist zwingend mit einzureichen\nPhotovoltaikanlagenrechte mit beschränkter persönlicher Dienstbarkeit\nFür eine verbindliche Ermittlung der Konditionen bei Finanzierungskonstellationen, die diese Rechte umfassen, ist es erforderlich, wie folgt zu verfahren:\nFiktive Vorlast erfassen: Bitte erfasse 3 % des in BaufiSmart ausgewiesenen Beleihungswertes als fiktive Vorlast in Abteilung III.\nHinweis anbringen: Füge einen klaren Vermerk in die Einreichung ein, der darauf hinweist, dass es sich um einen Korrekturposten handelt.\nEinreichungen, bei denen die oben genannten Rechte im Pricing nicht berücksichtigt wurden, können von der Commerzbank nicht bearbeitet und werden zurückgestellt.\n \n\n3. Rechte, bei denen ein Rangrücktritt zwingend erforderlich ist, um die Finanzierung zu begleiten. \nIst dies sichergestellt, kann die Kalkulation mit Grün-Score genutzt werden und eine Bestätigung des Rangrücktritts ist der Einreichung zwingend beizulegen.\nWiederkaufsrecht (Ausnahme: Grundstückserwerb von Kommunen)\nAltenteil, Leibgedinge\nNießbrauch\nNacherbenvermerk\nMieterdienstbarkeit\nWohnrechte\nVormerkung (Auflassungs- oder Rückauflassungsvormerkung, Vormerkung wegen Vorkaufsrecht)\n \n4. Folgende Rechte in Abt. II des Grundbuchs werden durch die Commerzbank nicht akzeptiert:\nBohr- und Schürfrechte\nBergschadenverzichte\nErbbaurecht\nVorkaufsrecht\nTankstellenrecht\nReallasten\nWohnrecht (falls kein Rangrücktritt erfolgt)\n \n5. Bei folgenden Rechten ist eine Löschung notwendig, damit die Commerzbank die Finanzierung begleitet\nEnteignungsvermerk\nInsolvenzvermerk\nNachlassverwaltungsvermerk\nZwangsversteigerungsvermerk\nZwangsverwaltungsvermerk\nZwangssicherungshypothek"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Verbindliche (grüne) Kalkulation auch bei „fremden“ Vorlasten möglich\nKeine Einzelfallentscheidung mehr nötig\nBLA: max. 100% inklusive Vorlast\nWichtig: die bestehende Grundschuld muss in voller Höhe als Vorlast angesetzt werden – unabhängig von der aktuellen Valuta\nTeilabtretung sind für den Verwendungszweck \"Umschuldung\" möglich. Dies ist besonders relevant, wenn unter einer Grundschuld mehrere Darlehensbausteine zusammengefasst sind und nicht vollständig abgelöst werden können. \n\nDaher ist es unerlässlich, bereits im Vorfeld zu klären, ob die abzulösende Bank Teilabtretungen ihrer eingetragenen Grundschulden akzeptiert. Ziel ist es, für die Kund:innen kostenintensive Änderungen der Sicherheiten im Nachgang zu vermeiden. Ebenso müssen eindeutig ermittelt werden: \n\nwelche Grundschuldanteile bei der abzulösenden Bank verbleiben und\nwelche Anteile abgetreten werden\n\nDiese Angaben sind erforderlich, um die Konditionen korrekt festzulegen. Ist geplant, lediglich einen Mittelrang (vor und nach fremder Grundschuld) abzutreten, ist eine Finanzierung in dieser Konstellation im Hause der Commerzbank nicht umsetzbar. \n\nBitte übermittle die folgenden Informationen bei der Einbuchung des Antrags über BaufiSmart im Bereich „Hinweise“: \n\nbestehende Grundschulden,\ndavon abzulösender Anteil,\nGesamtsumme der Vorlasten, und\nAbstimmung der Teilabtretung mit dem Vorranggläubiger"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Wohnfläche < 30 m2 bzw. fehlende Eigennutzungsfähigkeit des Objekts werden nicht begleitet\nKüche + Bad müssen vorhanden sein\nKeine nicht eigennutzungsfähigen Mikroapartments oder Zimmer in Studentenwohnheimen."
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "möglich\nnur wenn Zuschlag bereits erteilt ist, keine Teilungsversteigerung"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Wird angerechnet, wenn Nachweis vorliegt (Elterngeldbescheid oder Kontoauszug). Kein Nachweis der Wiederbeschäftigung notwendig, aber Ausblick der Nachhaltigkeit im Übergabeprotokoll würdigen."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "Es wird der niedrigere Auszahlungsbetrag der letzten zwei Gehaltseingänge berücksichtigt \nSchichtzulagen, Spesen und Überstunden müssen idR. somit nicht mehr gesondert nachgewiesen werden, wenn sie in der Gehaltsabrechnung enthalten sind\nVorgehen gilt auch für Einkünfte aus Nebentätigkeit im Angestelltenverhältnis\n13./14. Gehalt, Urlaubsgeld oder Weihnachtsgeld wird nicht mehr in der Haushaltsrechnung berücksichtigt (auch wenn es vertraglich zugesichert ist)\nNotwendige Nachweise: Die letzten 2 Gehaltsabrechnungen in Textform oder alternativ Kontoauszüge der letzten 90 Tage sowie eine Gehaltsabrechnung in Textform \nVertraglich vereinbarte Bonuszahlungen, Tantieme und auch Provisionszahlungen können ab einer Finanzierungssumme von TEU 500 berücksichtigt (Ansatz: 50% des Durchschnitts der letzten drei lückenlos aufeinander folgenden Jahre) werden, wenn diese lückenlos nachweisbar sind."
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "Keine Ansatz"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Kindesunterhalt:\nMuss nachhaltig fließen. \nAnsatz bis zum 18. Lebensjahr. \nZinsbindung muss abgedeckt sein\nAnsatz 100% zum aktuellen Beantragungstermin\nNachweis: Kontoauszüge, max. Wert aus Düsseldorfer Tabelle \nEhegattenunterhalt: nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "ja, Einzelfallentscheidung\nErfolgsaussichten bei Kunden mit guter Bonität und niedrigem Beleihungsauslauf.\nKreditlaufzeit darf die Dauer des Aufenthaltstitel nicht übersteigen."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung\nBerücksichtigung durch Commerzbank bei der Kreditprüfung. Vorliegende Informationen zur Befristung müssen mit eingereicht bzw. vermerkt werden."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\nBeschäftigung < 6 Monate nebst Probezeit und / oder einer Befristung sind möglich"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "bei einem zweiten PkW wird eine Pauschale i.H.v. 250 EUR angesetzt\nbei \"mietfreiem\" Wohnen wird eine pauschale Mietausgabe von 570 EUR für eine Person angesetzt, bei 2 Personene 790, 3 Personen 920, 4 Personen 1050 und jede weitere 130 Euro\nPauschale für Lebenshaltungskosten wird mit 30% des Einkommens festgelegt, Obergrenze liegt bei 3.900 EURO, ansonsten gelten die Mindestpauschalen aus den News vom 13.03.2025.\nAls Antragsteller 1 (Hauptantragssteller) ist der Darlehensnehmer zu erfassen, der die höheren Einkünfte erzielt. \nDaneben gilt: Ist einer der Darlehensnehmer Selbstständig, dann ist dieser immer als Hauptantragsteller (Antragsteller 1) zu erfassen. Hier geht Selbstständig vor Angestellt und schlägt die Regel Höheres Einkommen vor niedrigerem Einkommen. \n\nBonuszahlungen/ Tantieme:\n\nVertraglich vereinbarte Bonuszahlungen/Tantiemen können ab einer Finanzierungssumme von \nTEU 500 berücksichtigt werden:\nBerechnung des Durchschnitts der Netto Bonus-/Tantiemezahlungen der letzten 3 lückenlos aufeinander folgenden Jahre (nachhaltige Zahlung der Tantiemen) Ansatz: 50 % des berechneten Durchschnitts\n \nNachweise: z.B. Dezember-Abrechnungen der letzten 3 lückenlos aufeinander folgenden Jahre, Arbeitsverträge etc.\n\nArbeitslose:\n\nArbeitslose werden nicht finanziert. Das gilt auch, wenn das Einkommen des 1. DN ausreichend ist. \n\nHausfrauen/ Hausmänner: werden finanziert, wenn das Einkommen des 1. DN ausreichend ist.\n\nDie Commerzbank finanziert keine GbRs."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl: max. 2 (und nur bei einem zukünftigen gemeinsamen Haushalt) \nMithaft des Ehepartners ist nicht zwingend erforderlich\nMind. 1 Darlehensnehmer muss im Standardgeschäft auch Eigentümer sein. \nIst das Besicherungsobjekt nicht Eigentum der Antragsteller, (Beispiel: Eltern Eigentümer und Kinder Darlehensnehmer) dann ist es als Kapitalbeschaffung einzustellen und ist seit 05.09.25 im Plattformgeschäft nicht mehr umsetzbar.\nBei mehreren Antragstellern ist zwingend eine eigene E-Mailadresse sowie Handynummer pro Person im Antrag sowie in der Einwilligungserklärung zu erfassen. \nErbengemeinschaft: nicht möglich; weder als Darlehensnehmernoch als Sicherungsgeber.\nMaximale Anzahl von Eigentümern und Sicherungsgeber: 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja (Automatische Berücksichtigung einer Vorsorgepauschale in EP)"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Als Grenzgänger werden Personen definiert, die ihren ständigen Wohnsitz zwar in der Bundesrepublik Deutschland haben, bei denen der Arbeitgeber aber nicht in der Bundesrepublik Deutschland sitzt.\n \n• Diese Grenzgänger können verbindlich konditioniert werden, sofern Sie kein Wandlungsrecht besitzen und die\n \nWährung ihres Einkommens € (Euro) ist. \n \n• alle weiteren Grenzgänger werden nicht akzeptiert."
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0\nFinanzierungen mit negativer langfristiger Haushaltsrechnung unter einer Finanzierungssumme von 1 Mio EUR sind nicht möglich.\nÜber 1 Mio EUR Finanzierungssumme können diese Fälle, sollte eine nachgewiesene, überzeugende und fundierte Lösung zur Behebung der Unterdeckung aufzeigt werden der Marktfolge vorgestellt werden.  \nOhne eine klare Darstellung, wie die finanzielle Lücke zeitnah ausgeglichen wird, ist keine Genehmigung möglich und eine Einreichung nicht zielführend."
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Schwärzung von Mietnachweisen:  \nIst der Mieter eine natürliche Person mit rein privater Nutzung, müssen dessen Personen bezogene Daten sowie die Unterschrift (auf Mietaufstellungen/Mietverträge/Konto-Umsätze) immer unkenntlich gemacht sein/werden (z.B. geschwärzt). Sollte in Einzelfällen eine Mietzession als Sicherheit notwendig sein, ist eine Neueinreichung der Mietverträge mit Unkenntlichmachen der Personen bezogenen Daten vorzunehmen.\n \nDie Daten des Vermieters müssen immer ersichtlich sein.\n \nNicht betroffen sind 1) juristische Personen sowie 2) natürliche Personen, wenn diese das Miet-Objekt gewerblich nutzen. Deren personenbezogene Daten dürfen NICHT unkenntlich sein. \n \nBei gewerblicher Vermietung müssen der Commerzbank die vollen Mieter-Daten für die Kredit-Entscheidung bekannt sein."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Die Darlehenslaufzeit bei Finanzierungen von privaten Immobilen sollte sich an der statistischen Lebenserwartung des/der ältesten Kreditnehmer(s) orientieren. Zugrunde gelegt werden die aktuellen Daten des statistischen Bundesamtes (Quelle: DESTATIS Stichtag 12.2024): Männer: 79 Jahre / Frauen 83 Jahre.\nFür Konstellationen, bei denen zum Zeitpunkt der vollständigen Rückzahlung des Darlehens das Alter des / der ältesten Kreditnehmer(s) über der durchschnittlichen Lebenserwartung liegt, sind die detaillierten Umstände (z.B. nachgewiesene Vermögenswerte, jüngerer Mitantragsteller,) im Rahmen der Einreichung mit zu übermitteln und zu erläutern – die Entscheidung erfolgt jeweils einzelfallbezogen."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "K.O: Saldenfälligstellung, Konten in Abwicklung, Haftbefehl, Rücklastschriften auf Giro- & Darlehenskonto etc.\nKeine Scoregrenze – Commerzbank internes Scoring (wird auch erst nach Prüfung angestoßen)\nNachweis der Unverschuldung – muss in die Marktfolge zur Einzelfallprüfung"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Probezeit bei Nachhaltigkeit Einkommen möglich"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Einkommenssituation im Renteneintrittsalter wird manuell betrachtet:\nRenteneintritt während der Zinsbindung: HHR bei Renteneintritt muss positiv sein.  Sofern die Haushaltsrechnung bei Eintritt in die Rente nicht mehr aufgeht, dokumentiert bitte gegenüber der Commerzbank, warum der Kunde sich die Finanzierung trotzdem weiterhin leisten kann. \nEintritt ins Rentenalter während Darlehenslaufzeit – Einzelfall (Klärung der Erbfolge z.B.)"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja (Automatische Berücksichtigung einer Vorsorgepauschale in EP)\nBehandlung von geschäftsführenden Gesellschaftern einer GmbH als Selbständige, wenn sie folgende Bedingungen erfüllen:\n\n-          Halten von mind. 50 % der Gesellschaftsanteile oder\n\n-          Besitz einer Sperrminorität oder\n\n-          Unabhängigkeit in ihrer Geschäftsausübung von den Weisungen der GmbH-Gesellschafter (Regelungen können Gesellschafter-, Arbeitsvertrag oder Handelsregisterauszug entnommen werden)\n\nNeben den Bonitätsunterlagen für Angestellte wie z.B. 2 Gehaltsabrechnungen und ggf. den EStB werden als Mindestunterlagen zusätzlich die aktuellen Zahlen der GmbH benötigt.\n\nwenn Darlehensnehmer selbstständig, dann ist dieser immer als Hauptantragsteller (Antragsteller 1) zu erfassen"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Rahmen freie Kapitalbeschaffungsregel\nRaten werden nicht mehr angesetzt"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Anzahl Auszahlungen max: 5 bzw. Zahlungen nach MaBV lt. Vereinbarung\ndarüber hinaus Einzelfallentscheidung\nMindestauszahlung: 50 TEUR\nVerzicht auf genehmigte Darlehensanteile:\n\nNeubau: nicht möglich\nBestand: ggfs. als Sondertilgung - 1 Jahr nach Vollauszahlung möglich\nPuffer: Freie Mittelverwendung i.H.v. 20% des Finanzierungsvolumens / max. 50.000 EUR möglich"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "VVI und DVV müssen für 6 Jahre archiviert (papierhaft oder elektronisch), aber nicht mit eingereicht werden"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein, aber hauseigenes Formular \"Fragebogen für die Kreditgenehmigung\" als Pflichtunterlage"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Es muss sichergestellt sein, dass die Darlehensnehmer den Inhalt des Kredit- bzw. Kaufvertrages oder sonst. Formulare ohne Zuhilfenahme eines Dolmetschers verstehen. Wird im Rahmen der Beurkundung des Kaufvertrags ein Dolmetscher hinzugezogen und dies im KV vermerkt, ist keine Finanzierung möglich."
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "4 Bankarbeitstage inkl. des Kalkulationstages"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Post / Mail / Fax/ Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja > Individualvereinbarung\n \nDie Commerzbank wird nicht aktiv auf einen Kunden zugehen; \nwenn dieser aber mit einem entsprechenden Wunsch in eine Filiale kommt, wird ein Angebot herausgegeben.\n \nVermittlerschutz:  greift bei Eingang der vollständigen Kundenunterlagen und Erfassung der Grunddaten im System der Commerzbank.\nDer Kunde entscheidet somit, über welchen Vertrieb er betreut werden möchte.\nWer zuerst kommt, dem wird die Finanzierung zugeordnet, außer der Kunde bestätigt schriftlich, dass er von einem bestimmten Vermittler betreut werden will (Gleichbehandlung Vermittler und Commerzbank Filialen)\n \nBesonderheit (wenn Kunde bereits in Filiale war):\nGrün-Fall über EUROPACE, dann greift die Regelung von oben.\nGelb-Fall und damit Rücksprache mit der Commerzbank: hier erhält der Berater eine Information, dass der Kunde bereits angefragt hat und er ist raus\nSollte ein Fall von der Commerzbank abgelehnt worden sein und wird jetzt in neuer Fallkonstellation eingereicht, so greift der Vermittlerschutz nicht."
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent\nVideolegitimation\nLegitimation in der Filiale: in Ausnahmefälle, verzögert den Zusageprozess"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja, nach Zusage"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja, in BaufiSmart\nper Post an Antragsteller"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    }
+  },
+  "company_id": "ebab11bf98aac731329d5f2e34bbd9b0",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/ebab11bf98aac731329d5f2e34bbd9b0",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "30.04.26",
+  "recent_news": [
+    {
+      "date": "30.04.26",
+      "title": "Commerzbank - Prozessvereinfachung bei Antragseinreichung"
+    },
+    {
+      "date": "30.04.26",
+      "title": "Commerzbank - Eingeschränkte Erreichbarkeit am 05.05.2026"
+    },
+    {
+      "date": "20.04.26",
+      "title": "Commerzbank - Konditionserhöhung zum 22.04.2026"
+    },
+    {
+      "date": "08.04.26",
+      "title": "Commerzbank - Konditionssenkung zum 09.04.2026"
+    },
+    {
+      "date": "26.03.26",
+      "title": "Commerzbank - Reminder: Rabattaktion Anschlussfinanzierung/ Umschuldung"
+    }
+  ]
+}

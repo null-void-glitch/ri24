@@ -1,0 +1,223 @@
+{
+  "inspect": {
+    "inputs": [
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "regioncode",
+        "id": "regioncode",
+        "value": "Regionalimmobilien24 - Vogtland (vi24)",
+        "label": "Region\n--- keine Region ---\nRegionaliimmobilien24 - Leineweser (lwi24)\nRegionali"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "whitelabel_mid",
+        "id": "whitelabel_mid",
+        "value": "Finanzierungsassistent24 (activ)",
+        "label": "Whitelabel-Mandant\n--- bitte wählen ---\nQualitypool (activ)\nFinanzierungsassiste"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "email",
+        "id": "email",
+        "value": "66d30a28@pitcom.de",
+        "label": "E-Mail\n(Login-Benutzername)"
+      },
+      {
+        "tag": "input",
+        "type": "number",
+        "name": "sorting",
+        "id": "sorting",
+        "value": "0",
+        "label": "Sortierung"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "firstname",
+        "id": "firstname",
+        "value": "Tester Whitelabel",
+        "label": "Vorname"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "lastname",
+        "id": "lastname",
+        "value": "Pitcom",
+        "label": "Nachname"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "title",
+        "id": "title",
+        "value": "",
+        "label": "Titel"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "position",
+        "id": "position",
+        "value": "Finanzierungsberater",
+        "label": "Position"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "phone",
+        "id": "phone",
+        "value": "",
+        "label": "Telefon"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "fax",
+        "id": "fax",
+        "value": "",
+        "label": "Fax"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "mobile",
+        "id": "mobile",
+        "value": "",
+        "label": "Mobiltelefon"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "whatsapp",
+        "id": "whatsapp",
+        "value": "",
+        "label": "Whatsapp"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "website",
+        "id": "website",
+        "value": "https://www.regionalimmobilien24.de",
+        "label": "Website"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "firmenbezeichnung",
+        "id": "firmenbezeichnung",
+        "value": "Regionalimmobilien24 GmbH",
+        "label": "Firmenbezeichnung"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "street",
+        "id": "street",
+        "value": "Test-Straße",
+        "label": "Straße, Nr"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "zip",
+        "id": "zip",
+        "value": "08523",
+        "label": "Postleitzahl"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "city",
+        "id": "city",
+        "value": "Plauen",
+        "label": "Ort"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "baufi_dir",
+        "id": "europace_partner_id",
+        "value": "",
+        "label": "EUROPACE Partner ID"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "login",
+        "id": "login",
+        "value": "66d30a28@pitcom.de",
+        "label": "Login"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "pw",
+        "id": "pw",
+        "value": "ErtragKaufenMitEigentum5427",
+        "label": "Passwort"
+      }
+    ],
+    "headings": [
+      "Whitelabel-Lizenz für Tester Whitelabel Pitcom bearbeiten",
+      "persönliche Daten",
+      "Unternehmensdaten",
+      "Europace",
+      "Backend-Login Whitelabel",
+      "Whitelabel-Lizenz löschen"
+    ],
+    "tables": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "index",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nDashboard\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nMakler\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nKontaktanfragen\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nWhitelabel-Lizenzen",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "\nSchnittstellen\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nImmobilienassitent\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "\nHife\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265#"
+      },
+      {
+        "text": "Whitelabel",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Stammdaten bearbeiten",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265"
+      }
+    ],
+    "btns": []
+  },
+  "edit_url": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265"
+}

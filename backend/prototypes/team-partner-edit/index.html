@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner-Status bearbeiten - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<style>
+  .ibox .form-group { margin-bottom: 10px; }
+  .ibox .col-form-label { font-weight: 600; font-size: 12px; padding-top: 7px; }
+  .ibox .form-control { font-size: 13px; }
+  .ibox-footer { padding: 10px 15px; background: #f7f7f7; border-top: 1px solid #e7eaec; }
+  .zentral-badge { color: #aaa; font-size: 11px; font-style: italic; }
+  table.partner-table thead th { background: #333 !important; color: #fff; font-size: 12px; }
+  table.partner-table td { vertical-align: middle; font-size: 13px; }
+</style>
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Partner-Status (/adm/.../master/team/edit/partner/?id=123) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Reached via Partner-Status › bearbeiten on the team-edit page. Login password replaced with placeholder (real credential masked). Table rows marked (zentral) are centrally managed; add-rows allow new entries.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li class="active"><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Partner-Status bearbeiten</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Team</a></li><li class="breadcrumb-item"><a href="#">bearbeiten</a></li><li class="breadcrumb-item active"><strong>Partner-Status</strong></li></ol>
+    </div>
+</div>
+<div style="margin:-10px 0 10px 20px;"><a href="../team-edit/index.html" class="btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Zurück</a></div>
+<div class="wrapper wrapper-content animated fadeInRight">
+
+  <!-- Row 1 -->
+  <div class="row">
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>Partner-Bereich</h5></div><div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row"><label class="col-sm-4 col-form-label">Partner-Stufe</label><div class="col-sm-8"><div class="d-flex align-items-center gap-2"><select name="partnerstufe" class="form-control form-control-sm"><option value="">--- bitte wählen ---</option><option value="2" selected>Bronze</option><option value="3">Silber</option><option value="4">Gold</option><option value="5">Platin</option><option value="6">Platin+</option></select><img src="https://www.regionalimmobilien24.de/get-file/img/ressource/img/elements/franchise/v/h60/max/bronze.png.webp" alt="Bronze" title="Status: bronze" style="height:40px;margin-left:8px;"></div></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Login</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="email" value="" placeholder="E-Mail Adresse"></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Passwort</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="pw" value="••••••••••" placeholder=""></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Login-Status</label><div class="col-sm-8"><select name="is_status" class="form-control form-control-sm"><option value="1" selected>aktiv</option><option value="2">blockiert (zu viele falsche Logins)</option><option value="0">inaktiv / gesperrt</option></select></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Provision</label><div class="col-sm-8"><select name="show_provision" class="form-control form-control-sm"><option value="1" selected>anzeigen</option><option value="0">nicht anzeigen</option></select></div></div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div></div></div>
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>zugeordnete Ansprechpartner</h5></div><div class="ibox-content">
+<div class="table-responsive"><table class="table table-bordered table-hover partner-table"><thead><tr><th>Ansprechpartner</th><th></th></tr></thead><tbody></tbody></table></div>
+<form class="form-horizontal m-t-sm">
+<div class="form-group row"><label class="col-sm-4 col-form-label">Ansprechpartner hinzufügen</label><div class="col-sm-8"><select name="aid" class="form-control form-control-sm"><option value="" selected>--- bitte wählen ---</option><option value="63">Technikhotline</option><option value="62">Vertragshotline</option><option value="93">Stefanie Rupprecht</option><option value="1">Lars Rupprecht (VI24)</option><option value="56">Stefanie Rupprecht</option><option value="64">Alexander Stumm</option><option value="94">Sindy Popp</option><option value="4">Philipp Steppohn (VI24)</option></select></div></div>
+<div class="ibox-footer">
+  <button type="button" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Hinzufügen</button>
+</div>
+</form></div></div></div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="row">
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>Logos</h5></div><div class="ibox-content"><div class="table-responsive"><table class="table table-bordered table-hover partner-table"><thead><tr><th>Sort.</th><th>Datei</th><th></th></tr></thead><tbody><tr><td>0</td><td>Doppellogo vom Header der Region</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Baufilogo</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>a6005d8d_prime-einzeln.png</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Finanzierungspartner Siegel</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr class="warning"><td style="width:70px;"><input type="number" class="form-control input-sm" name="sorting_logo" value="0" style="width:60px;"></td><td><input type="file" name="image" class="form-control-file"></td><td style="width:100px;"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-upload"></i> Hochladen</button></td></tr></tbody></table></div></div></div></div>
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>Dokumente</h5></div><div class="ibox-content"><div class="table-responsive"><table class="table table-bordered table-hover partner-table"><thead><tr><th>Sort.</th><th>Datei</th><th></th></tr></thead><tbody><tr><td>0</td><td>Beilagenblatt zum Immobilienkauf</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>1</td><td>Finanzierungszertifikat</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>2</td><td>Objektzertifikat</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>3</td><td>Auftrag Immobilienanbieter</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>4</td><td>Anleitung Kalenderverbindung</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>5</td><td>Einrichtung Mail Account</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>6</td><td>Anleitung Europace einrichten</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>7</td><td>Anleitung Finanzierungs-Widgets</td><td><span class="zentral-badge">(zentral)</span></td></tr><tr class="warning"><td style="width:70px;"><input type="number" class="form-control input-sm" name="sorting_doc" value="0" style="width:60px;"></td><td><input type="file" name="docfile" class="form-control-file"></td><td style="width:100px;"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-upload"></i> Hochladen</button></td></tr></tbody></table></div></div></div></div>
+  </div>
+
+  <!-- Row 3 -->
+  <div class="row">
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>Videos</h5></div><div class="ibox-content"><div class="table-responsive"><table class="table table-bordered table-hover partner-table"><thead><tr><th>Sort.</th><th>URL</th><th></th></tr></thead><tbody><tr><td>0</td><td>Vorstellung Baufinanzierung<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/RI24-Baufi-cut.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Forwarddarlehen / Umschuldung<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Ri24-Forwarddarlehen-cut.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Immobilienbewertung<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Immobilienbewertung-cut.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Vorstellung Finanzierungsassistent<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Screencast-Finanzierungsassistent-Makler-komprimiert.m4v</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Vorteile für Sichtbarkeitspartner<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Vorteile-Sichtbarkeitspartner.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Portalvorstellung für Makler<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Portalvorstellung-Makler.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>0</td><td>Erklärvideo Empfehlungsmanagement<br><small class="text-muted">https://blog.regionalimmobilien24.de/dateien/Empfehlungsmanagment.mp4</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr class="warning"><td style="width:70px;"><input type="number" class="form-control input-sm" name="sorting_doc_videos" value="0" style="width:60px;"></td><td><input type="text" class="form-control input-sm" name="label_doc_videos" placeholder="Bezeichnung"><input type="text" class="form-control input-sm m-t-xs" name="file_doc_videos" placeholder="URL"></td><td style="width:100px;"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Hinzufügen</button></td></tr></tbody></table></div></div></div></div>
+    <div class="col-md-6"><div class="ibox"><div class="ibox-title"><h5>Landingpages</h5></div><div class="ibox-content"><div class="table-responsive"><table class="table table-bordered table-hover partner-table"><thead><tr><th>Sort.</th><th>URL</th><th></th></tr></thead><tbody><tr><td>10</td><td>Beraterlandingpage<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>20</td><td>Beraterlandingpage "Klickstrecke"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/angebot/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>30</td><td>Beraterlandingpage "Suchauftrag"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/suchauftrag/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>40</td><td>Beraterlandingpage "Unterlagenupload"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/unterlagen/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>50</td><td>Beraterlandingpage "Umschuldung"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/umschuldung/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>60</td><td>Beraterlandingpage "Immobilie bewerten"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/immobilienbewertung/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>70</td><td>Beraterlandingpage "energetische Sanierung"<br><small class="text-muted">https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/energetische-sanierung/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr><td>80</td><td>Makleranbindung<br><small class="text-muted">http://www.regionalimmobilien24.de/immobilienportal-partner-werden/</small></td><td><span class="zentral-badge">(zentral)</span></td></tr><tr class="warning"><td style="width:70px;"><input type="number" class="form-control input-sm" name="sorting_doc_links" value="0" style="width:60px;"></td><td><input type="text" class="form-control input-sm" name="label_doc_links" placeholder="Bezeichnung"><input type="text" class="form-control input-sm m-t-xs" name="file_doc_links" placeholder="URL"></td><td style="width:100px;"><button type="button" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Hinzufügen</button></td></tr></tbody></table></div></div></div></div>
+  </div>
+
+</div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

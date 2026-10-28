@@ -1,0 +1,292 @@
+[
+  {
+    "name": "authenticated",
+    "value": "true",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1779723187,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "referrer_user_id",
+    "value": "11728951",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1779203525.617094,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "login_email",
+    "value": "diana.helm%40regionalimmobilien24.de",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1808560960,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "calendly_idd_id_FCHHX7G3AOG4IFDC",
+    "value": "SxcAlESRGRKvjbt%2FYEaaIWY4Jqx9oVE0HvGUcuo6wNgf0Istbzvgg8TGgqHs7utioy%2B9%2BwMTy%2BXgOgsa0%2F%2FEmGfVN1mAbMFwmehRZCKk2lmEawEMJCTbXwwsQSo4sLXEeOlO3dFktrkCgonjE75M9Qsh5XLyAY3z2Poh7ra%2FC5m0f6gu%2F5oFRU9957sf1f%2Bx2DNioj9Wm4uMvVZkdixYiJYLGRRdJLYv9Xs%3D--zPaoUeR69KVK0hI9--ENS461bs1T%2BFwbTJ6mZHLg%3D%3D",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1785683030,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "gdpr_trackable",
+    "value": "true",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1811584956,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ketch_consent_v1_",
+    "value": "eyJlc3NlbnRpYWxfc2VydmljZXMiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImVzc2VudGlhbF9zZXJ2aWNlcyJdfX0%3D",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1811584874,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "OptanonAlertBoxClosed",
+    "value": "2025-09-22T10:45:58.318Z",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1790073958,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_swb",
+    "value": "d17ec5a2-c0ee-4e23-9d3f-5ce29dae8dc6",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1793097929,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gd_svisitor",
+    "value": "18173317bc260100de054069c4000000f4d61700",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1800363489,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gd_visitor",
+    "value": "d63eea1f-0961-4307-8654-c10a35966e2a",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1793173334,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ajs_anonymous_id",
+    "value": "4f68a9d7-e9e0-4825-a8d5-17d1c28f1c60",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809529929,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ajs_user_id",
+    "value": "51127471",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809529929,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ajs_group_id",
+    "value": "51094626",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809444785,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "fs_uid",
+    "value": "#rPp#0daf3227-9f75-4c77-8481-2a9804059c2d:9f2401aa-ac39-4156-bfd9-ea6238e8a5a7:1777908777783::1#f8b5d40b##/1808560974",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1808560974,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "intercom-id-exkcomf1",
+    "value": "356bb7c7-77a2-4efb-842d-53f988cebfc3",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1801238784,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "intercom-device-id-exkcomf1",
+    "value": "b08735e3-be82-405b-af87-6ecf2679ce77",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1801238787,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "claydar_device_id",
+    "value": "09a2c4be-331e-4694-9ed6-e97634bc1aab",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1792825120,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cal_anonymous_id",
+    "value": "24561bef-c53c-4c2a-b1a6-ec9754ca7e98",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1809447917.764443,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "__stripe_mid",
+    "value": "384ff71b-6b0c-4ff3-bc12-4f5d2da15c497517fa",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809529930,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "analytics_session_id",
+    "value": "1777912112903",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809448112,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "analytics_session_id.last_access",
+    "value": "1777912112903",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809448112,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__cf_bm",
+    "value": "EG1ofB.wiuSC4sLYSwhZQCCJvpUN5Y7zGlSsYlJzZV0-1777993924.0327556-1.0.1.1-h2..FhkvU7hL0gFZM6LMFFVXORXlZUnTbPqPnV.7UuV4V8QNVM5RpstP3E0UhsiC6PCTGhd3ZGaFiznwlPpFLRe4S3kS6tIKILZZUbnrDxATMU7KRFOw1JrhKGeshr3L",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1777995724.750029,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_cfuvid",
+    "value": "vHsNiHyxYpjDk2zykbxyT8pPxOYjklacw25ko.6g9xo-1777993924.0327556-1.0.1.1-.4n_zyiO4fJf5oDAevm19kSzegTITrP.75fgqk8lFkE",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__stripe_sid",
+    "value": "b12692ae-4ab1-4dd9-9d9b-6ad8673a458b8370b2",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1777995730,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "OptanonConsent",
+    "value": "isGpcEnabled=0&datestamp=Tue+May+05+2026+17%3A12%3A08+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ca255ff5-fcc5-465b-a83c-81a422483fad&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=DE%3BSN&AwaitingReconsent=false",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1809529928,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ab.storage.sessionId.d8b6254e-ff0c-4fd2-bf14-0987558ada4a",
+    "value": "g%3A996d5fe4-961f-f728-4e95-77e35c38d968%7Ce%3A1777995729039%7Cc%3A1777993929039%7Cl%3A1777993929039",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1812553929,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ab.storage.deviceId.d8b6254e-ff0c-4fd2-bf14-0987558ada4a",
+    "value": "g%3Aea94c884-0904-33a1-3574-ea120c60ee40%7Ce%3Aundefined%7Cc%3A1777911925226%7Cl%3A1777993929039",
+    "domain": ".calendly.com",
+    "path": "/",
+    "expires": 1812553929,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_dd_s",
+    "value": "logs=1&id=d79deba6-fd69-47af-905a-1a822c96b4bf&created=1777993925224&expire=1777994832878",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1777994832,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "_calendly_session",
+    "value": "Dsn%2FKn3CKidO%2BNFMfFdsumd04OVwMZuWg9VxlX9zKs8L7vrF2WeQGHpkDjfi3XD%2FD8jZ0DJzpl2I6ZEA2%2Fg%2F6EwhobPHDaMOL2KPjh1uRvnoOgSx0eXTKOE%2Fr1xzofT4Tv6TjzvQTYii%2Fn%2BKaSBSKTtj8XNwy5VcZvMJzDn0E2DXgpmKWZdpyxF23OI%2FMKljuiN3525WmpJCsKKEi3NgcD2BbeVxwFCDT94y24CaaE%2BUE9l6R3dwPDkqmRr793FqHjzc7o36B1iv5naUZYOYjcI4D0zp52ArNqmpXb3VSujpOb%2B4%2BxkDC%2BfHS2RKUPOhP7TulsSD%2BlW2Sfqo41BqB1ekFwZAMzXrR%2BmsQvAvKsDZ5Loheqxb5cc1QZ%2F2YzGs40YfCnGEQAfvEhY%2FDXSw9cx4tZfQcA6RQGv5N%2FYgZ%2BAMUfxkspOwbO8rIMVtKCYgmuqMfI%2BwSbI4dcoIpBwCctP4hH%2F3v3o3BHrIEmRts5MdLDv5Wrr%2FYVcn38bRYp0ISHZ3a7t%2BUoWIM8vrIPH5c1CBrGkRZN4v56UyCrI9AjfYVF6z6IRSWWZZLGT6a44XLoEJKdVqPdEhU64DsbwIYB19b1yDhhMweor%2B1W2u67wrQyZqDWYRW0Q1N5uoszbRCvFQFdvCCbS9JcG40KVi3MGlKowypnJT5A%2F2fnJ6PlQMU1d08gtkNO8zKzo%2Fl9ZY3HUjJAUPq9exHjDT9e5VWb7%2FfahYo2gbJ0Dr8sz59ikzssdiab4pMxKGNNR0S1md9NhenvFuhrgIfXmVpSJTjUKs05N5JLTj00HqUJISxmbmnCewiCO0j5GWGm%2BOtucXzDaQeb9dikeWUj6tecshl5sMnlFXW6GV5VR3zpi%2Bou5g37TAT%2BE%2F6J8sYzFFtBmNOwOrWdrh6Eh8ScxAdnvCMj2ufBaJkVGAYm9zk34K6dOhoI22cp%2BYJRk8e%2BQwhCY77FczdqM5q6sYuggsK1lIaITqTz%2F8pXDMWxalTfMxlm3FYdvfkOXIfGrjU8KzIDNq0bfAp%2F6TFl4XHDoKWsTHXLOUP%2FyFrRi3ccE0V8P4W9qHhH9UMbSoWRPSNaKSaUobwYUBllQGoRR5%2FE82tB5p%2BWFn9de8Sgt%2FsDApSZ3274vBnUQX%2BawjwYGo8mmu9%2Fg1mMPecJUK4b4KFBDtm7T1NWFMDSCOcWJInzv5JJTXm8f%2FWyIxw8hXp29n7%2BQQHOnsPjJu4gpA4%2Fl0ChQZkJHeBrck%2BGJs6WXGseTp3NAPlGTXpvS%2BpDztycs84r%2FBym4XeCTh0dmouR5%2BNbFxXqjzW7oWTb3EQVM2qbzz%2BHVtrmn1ddQwIs9NXLzgRXp6i9zRepAr17ThERsm%2FfmlcgD0ButU97Owff%2BVGD9cxPLSVj0VKqD%2FnyoH1tBfsP%2BzWk%2Byg1IYMNtoOn3iPIlAmOYMVDldxqpkKUX%2BKnePwy7VN5Zg80kgcfSt9GhoIeMXSXvdLKCGj0KZpU2VcSs%3D--%2Fiodq%2FS2L4MqKhTZ--YMYdXmxfQJ5wuFLWHQM4FA%3D%3D",
+    "domain": "calendly.com",
+    "path": "/",
+    "expires": 1779808333.239001,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

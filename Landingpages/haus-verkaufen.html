@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#BDE04F">
+<title>Haus verkaufen &amp; bewerten lassen | Regionalimmobilien24</title>
+<meta name="description" content="Haus verkaufen oder den Wert ermitteln lassen – unverbindlich und mit regionaler Marktkenntnis. Finden Sie den passenden Immobilienexperten für Ihren Hausverkauf.">
+<link rel="canonical" href="https://www.regionalimmobilien24.de/haus-verkaufen/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Haus verkaufen &amp; bewerten lassen | Regionalimmobilien24">
+<meta property="og:description" content="Hauswert ermitteln und sicher zum passenden Käufer – unverbindlich, mit regionaler Marktkenntnis.">
+<meta property="og:url" content="https://www.regionalimmobilien24.de/haus-verkaufen/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   Regionalimmobilien24 — Landingpage "Grundstück verkaufen"
+   Signature: Liegenschaftskarte / cadastral parcel motif
+   ============================================================ */
+:root{
+  --brand:#BDE04F;          /* main brand: lime green — FILLS + dark accents only */
+  --brand-deep:#a6cf33;     /* darker shade: hover, visible green lines on light */
+  --brand-dark:#5f7d12;     /* dark green: legible green text/icons on light */
+  --brand-tint:#eef6d6;     /* light green wash */
+  --ink:#333333;            /* darkgray — headings & body */
+  --ink-strong:#1f1f1f;     /* near-black — strong headings, on-green text */
+  --muted:#565656;          /* gray — secondary text */
+  --paper:#f5f6f0;          /* light neutral section tint */
+  --paper-2:#ecede2;
+  --line:#e4e4dd;           /* hairline */
+  --line-soft:#eeeee8;
+  --dark:#2e2e2e;           /* dark section background */
+  --dark-2:#1c1c1c;         /* near-black */
+  --white:#ffffff;
+  --ink-90:#2b2b2b;
+  --radius:14px;
+  --radius-sm:9px;
+  --wrap:1140px;
+  --shadow:0 1px 2px rgba(40,40,40,.05), 0 14px 40px -22px rgba(40,40,40,.26);
+  --shadow-sm:0 1px 2px rgba(40,40,40,.06), 0 6px 22px -16px rgba(40,40,40,.28);
+  --fs-display:clamp(2.45rem,1.4rem + 4.6vw,4.1rem);
+  --fs-h2:clamp(1.7rem,1.2rem + 2vw,2.55rem);
+  --fs-h3:1.16rem;
+  --sp-section:clamp(4rem,2rem + 8vw,7rem);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  overflow-x:hidden;
+  font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  color:var(--ink);
+  background:var(--white);
+  font-size:1.0625rem;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--ink);line-height:1.08;letter-spacing:-.01em;margin:0}
+p{margin:0}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+ul{margin:0;padding:0;list-style:none}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:1.5rem}
+.section{padding-block:var(--sp-section);scroll-margin-top:84px}
+
+/* mono utility / cadastral-readout voice */
+.label{
+  font-family:"Space Mono",ui-monospace,monospace;
+  font-size:.74rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  font-weight:700;
+  display:inline-flex;align-items:center;gap:.55rem;flex-wrap:wrap;
+}
+.label::before{
+  content:"";width:22px;height:3px;border-radius:2px;background:var(--brand-deep);display:inline-block;
+}
+.label--plain::before{display:none}
+
+.eyebrow{
+  font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted);font-weight:700;
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  --bg:var(--brand-deep);
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.02rem;
+  line-height:1;padding:1rem 1.45rem;border-radius:10px;
+  text-decoration:none;border:1px solid transparent;cursor:pointer;
+  transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
+  white-space:nowrap;
+}
+.btn--primary{background:var(--brand);color:var(--ink-strong);box-shadow:0 10px 24px -12px rgba(166,207,51,.75)}
+.btn--primary:hover{background:var(--brand-deep);transform:translateY(-2px);box-shadow:0 16px 30px -14px rgba(166,207,51,.85)}
+.btn--dark{background:var(--ink-strong);color:#fff}
+.btn--dark:hover{background:#000;transform:translateY(-2px)}
+.btn--ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn--ghost:hover{border-color:var(--brand-deep);color:var(--ink-strong)}
+.btn--lg{padding:1.15rem 1.8rem;font-size:1.08rem;white-space:normal;text-align:center}
+.btn .arr{transition:transform .2s ease}
+.btn:hover .arr{transform:translateX(3px)}
+
+/* ---------- Header (logo row + dark nav bar) ---------- */
+.site-header{background:#fff}
+.logo-bar{display:flex;justify-content:center;align-items:center;padding:18px 1.5rem}
+.logo-link{display:inline-flex}
+.logo-img{height:56px;width:auto}
+.nav-toggle,.login-icon{display:none}
+.main-nav{position:sticky;top:0;z-index:50;background:#565656;box-shadow:0 2px 12px -5px rgba(0,0,0,.45)}
+.main-nav ul{display:flex;justify-content:center;align-items:center;flex-wrap:wrap}
+.main-nav a{display:inline-block;color:#fff;text-decoration:none;
+  font-family:"Inter",sans-serif;font-weight:600;font-size:1rem;letter-spacing:.005em;
+  padding:1.05rem 1.05rem;transition:color .15s ease, background .15s ease}
+.main-nav a:hover,.main-nav a:focus-visible{color:var(--brand)}
+/* burger + login icon (shown on mobile) */
+.nav-toggle{width:42px;height:42px;border:0;background:transparent;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger,.burger::before,.burger::after{content:"";display:block;width:24px;height:2.5px;background:var(--ink);border-radius:3px;transition:transform .28s ease, opacity .2s ease}
+.burger{position:relative}
+.burger::before{position:absolute;left:0;top:-7px}
+.burger::after{position:absolute;left:0;top:7px}
+.site-header.nav-open .burger{background:transparent}
+.site-header.nav-open .burger::before{transform:translateY(7px) rotate(45deg)}
+.site-header.nav-open .burger::after{transform:translateY(-7px) rotate(-45deg)}
+.login-icon{width:42px;height:42px;align-items:center;justify-content:center;color:var(--ink);text-decoration:none}
+.login-icon svg{width:27px;height:27px}
+.login-icon:hover{color:var(--brand-dark)}
+/* footer wordmark (text) */
+.brand{display:inline-flex;align-items:center;gap:.6rem;text-decoration:none;font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.18rem;color:var(--ink);letter-spacing:-.02em}
+.brand b{color:var(--brand-dark)}
+@media(max-width:760px){
+  .logo-bar{position:sticky;top:0;z-index:60;background:#fff;display:grid;
+    grid-template-columns:44px 1fr 44px;align-items:center;gap:.4rem;padding:10px 1rem;
+    box-shadow:0 2px 10px -6px rgba(0,0,0,.35)}
+  .logo-img{height:auto;max-height:36px;max-width:100%;width:auto}
+  .logo-link{justify-self:center;min-width:0}
+  .nav-toggle{display:inline-flex;justify-self:start}
+  .login-icon{display:inline-flex;justify-self:end}
+  .main-nav{position:static;z-index:40;box-shadow:none;max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .site-header.nav-open .main-nav{max-height:30rem;box-shadow:0 12px 22px -12px rgba(0,0,0,.55)}
+  .main-nav ul{flex-direction:column;align-items:stretch;padding-inline:0}
+  .main-nav a{display:block;padding:.95rem 1.3rem;font-size:1.02rem;border-top:1px solid rgba(255,255,255,.1)}
+  .main-nav li:first-child a{border-top:0}
+  .main-nav .nav-login{display:none}
+}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;background:
+  linear-gradient(180deg,#fff 0%, #faf9f3 60%, var(--paper) 100%);}
+.hero::before{ /* faint cadastral grid backdrop */
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:
+   linear-gradient(var(--line-soft) 1px,transparent 1px),
+   linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+  background-size:46px 46px;
+  -webkit-mask-image:radial-gradient(120% 90% at 80% 10%, #000 0%, transparent 65%);
+          mask-image:radial-gradient(120% 90% at 80% 10%, #000 0%, transparent 65%);
+}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,4vw,4.5rem);align-items:center;
+  padding-block:clamp(3rem,2rem + 5vw,6rem) clamp(3.5rem,2rem + 5vw,6rem)}
+.hero-copy{min-width:0}
+.hero h1{font-size:var(--fs-display);font-weight:700;margin:.85rem 0 0;overflow-wrap:break-word}
+.hero h1 em{font-style:normal;color:var(--ink-strong);background:linear-gradient(transparent 58%, var(--brand) 58%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hero-lead{font-size:1.16rem;color:var(--muted);max-width:33ch;margin-top:1.25rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:1.9rem;align-items:center}
+.hero-note{display:flex;align-items:center;gap:.5rem;margin-top:1.3rem;font-size:.92rem;color:var(--muted)}
+.hero-note svg{flex:none;color:var(--brand-dark)}
+
+/* parcel card (signature) */
+.parcel-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:1.1rem 1.1rem 1.25rem}
+.parcel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem;gap:1rem}
+.parcel-head .tag{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.parcel-head .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px var(--brand-tint)}
+.parcel-svg{width:100%;height:auto;display:block;border-radius:var(--radius-sm);background:
+  linear-gradient(#fdfdfa,#f4f5ee);}
+.parcel-foot{display:flex;justify-content:space-between;gap:1rem;margin-top:.7rem;flex-wrap:wrap}
+.parcel-stat{font-family:"Space Mono",monospace}
+.parcel-stat .k{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block}
+.parcel-stat .v{font-size:1rem;color:var(--ink);font-weight:700}
+.parcel-stat .v.q{color:var(--brand-dark)}
+
+/* svg drawing */
+.pl-stroke{fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linejoin:round}
+.pl-fill{fill:rgba(189,224,79,.28)}
+.pl-div{fill:none;stroke:var(--muted);stroke-width:1.4;stroke-dasharray:5 5;opacity:.6}
+.pl-neighbor{fill:none;stroke:var(--line);stroke-width:1.4;stroke-dasharray:3 4}
+.pl-pt{fill:var(--brand);stroke:var(--ink);stroke-width:2}
+.pl-label{font-family:"Space Mono",monospace;font-size:13px;fill:var(--ink-90);font-weight:700}
+.pl-anno{font-family:"Space Mono",monospace;font-size:11px;fill:var(--ink);font-weight:700}
+.pl-anno-line{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:2 3}
+.pl-pin{fill:var(--ink-strong)}
+
+/* ---------- generic section heading ---------- */
+.section-head{max-width:62ch}
+.section-head h2{font-size:var(--fs-h2);font-weight:700;margin:.7rem 0 0}
+.section-head p{color:var(--muted);margin-top:.9rem;font-size:1.08rem}
+.center{text-align:center;margin-inline:auto}
+
+/* ---------- Vorteile strip ---------- */
+.strip{background:var(--dark);color:#fff}
+.strip .wrap{padding-block:clamp(2.2rem,4vw,3.2rem)}
+.vorteile{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem 1.25rem}
+.vorteil{display:flex;gap:.7rem;align-items:flex-start;font-size:.98rem;line-height:1.4}
+.vorteil svg{flex:none;color:var(--brand);margin-top:2px}
+.strip .eyebrow{color:var(--brand)}
+.strip-head{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:1.8rem;flex-wrap:wrap}
+.strip-head h2{color:#fff;font-size:clamp(1.4rem,1rem + 1.4vw,1.9rem);max-width:20ch}
+
+/* ---------- Steps (numbered sequence) ---------- */
+.steps{display:grid;gap:1rem;margin-top:2.6rem}
+.step{display:grid;grid-template-columns:auto 1fr;gap:1.4rem;align-items:start;
+  padding:1.5rem 1.6rem;border:1px solid var(--line);border-radius:var(--radius);background:#fff;
+  transition:border-color .2s, box-shadow .2s, transform .2s}
+.step:hover{border-color:var(--brand-deep);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
+.step-num{font-family:"Space Mono",monospace;font-weight:700;font-size:1.5rem;color:var(--ink-strong);
+  line-height:1;border:1.5px solid var(--brand);border-radius:9px;width:54px;height:54px;
+  display:grid;place-items:center;background:var(--brand-tint)}
+.step h3{font-size:var(--fs-h3);margin-bottom:.35rem}
+.step p{color:var(--muted);font-size:1rem}
+@media(min-width:760px){
+  .steps{grid-template-columns:1fr 1fr}
+}
+
+/* ---------- Wertfaktoren grid ---------- */
+.bg-paper{background:var(--paper)}
+.fac-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:2.6rem}
+.fac{background:var(--paper);padding:1.5rem 1.45rem;transition:background .2s}
+.fac:hover{background:#fff}
+.fac .fi{display:flex;align-items:center;gap:.6rem;color:var(--ink-strong);margin-bottom:.6rem}
+.fac .fi svg{width:22px;height:22px}
+.fac .fn{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.1em;color:var(--muted)}
+.fac h3{font-size:1.08rem;margin-bottom:.3rem}
+.fac p{font-size:.94rem;color:var(--muted);line-height:1.55}
+
+/* ---------- Grundstücksarten cards ---------- */
+.arten{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-top:2.6rem}
+.art{border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;background:#fff;position:relative;overflow:hidden;
+  transition:border-color .2s, transform .2s, box-shadow .2s}
+.art::after{content:attr(data-idx);position:absolute;right:.9rem;top:.55rem;font-family:"Space Mono",monospace;
+  font-size:.7rem;color:var(--line);font-weight:700}
+.art:hover{border-color:var(--brand-deep);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.art h3{font-size:1.12rem;margin-bottom:.45rem}
+.art p{font-size:.93rem;color:var(--muted);line-height:1.55}
+.art .pill{display:inline-block;font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-strong);background:var(--brand);padding:.25rem .55rem;border-radius:6px;margin-bottom:.8rem}
+
+/* ---------- Bodenrichtwert callout ---------- */
+.callout{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(1.5rem,3vw,3rem);align-items:center;
+  background:linear-gradient(135deg,#c7e85f,#b0d840);color:var(--ink-strong);border-radius:18px;
+  padding:clamp(2rem,3vw,3.2rem);overflow:hidden;position:relative}
+.callout::before{content:"";position:absolute;inset:0;opacity:.10;pointer-events:none;
+  background-image:linear-gradient(#1f1f1f 1px,transparent 1px),linear-gradient(90deg,#1f1f1f 1px,transparent 1px);
+  background-size:34px 34px;-webkit-mask-image:radial-gradient(80% 120% at 90% 10%,#000,transparent 70%);
+  mask-image:radial-gradient(80% 120% at 90% 10%,#000,transparent 70%)}
+.callout h2{color:var(--ink-strong);font-size:clamp(1.5rem,1.1rem + 1.6vw,2.1rem);position:relative}
+.callout p{position:relative;margin-top:1rem;color:var(--ink)}
+.callout .eyebrow{color:#46570f}
+.callout-box{position:relative;background:#fff;border:1px solid rgba(31,31,31,.12);border-radius:12px;padding:1.4rem 1.5rem}
+.callout-box .big{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.5rem;color:var(--ink-strong);line-height:1.2}
+.callout-box ul{margin-top:.9rem;display:grid;gap:.5rem}
+.callout-box li{font-size:.92rem;color:var(--ink);display:flex;gap:.55rem;align-items:flex-start}
+.callout-box li::before{content:"–";color:var(--brand-dark)}
+.callout>*{min-width:0}
+.callout .btn{margin-top:1.4rem;white-space:normal;text-align:center}
+.callout .btn--primary{background:var(--ink-strong);color:#fff;box-shadow:0 10px 24px -12px rgba(31,31,31,.6)}
+.callout .btn--primary:hover{background:#000}
+
+/* ---------- Compare privat vs makler ---------- */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:2.6rem}
+.cmp{border:1px solid var(--line);border-radius:var(--radius);padding:1.7rem;background:#fff}
+.cmp.is-prim{border-color:var(--brand-deep);box-shadow:var(--shadow-sm);background:var(--brand-tint)}
+.cmp h3{font-size:1.2rem;display:flex;align-items:center;gap:.6rem;margin-bottom:1.1rem}
+.cmp h3 .badge{font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--brand);color:var(--ink-strong);padding:.2rem .45rem;border-radius:5px}
+.cmp li{display:flex;gap:.6rem;align-items:flex-start;padding:.5rem 0;font-size:.96rem;color:var(--ink-90);border-top:1px solid var(--line-soft)}
+.cmp li:first-of-type{border-top:none}
+.cmp li svg{flex:none;margin-top:3px}
+.cmp .neg{color:#9a9a9a}
+
+/* ---------- Unterlagen chips (details) ---------- */
+.docs details{border:1px solid var(--line);border-radius:var(--radius);background:#fff;margin-top:2rem;overflow:hidden}
+.docs summary{cursor:pointer;list-style:none;padding:1.3rem 1.6rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.1rem}
+.docs summary::-webkit-details-marker{display:none}
+.docs summary .chev{transition:transform .25s;color:var(--ink)}
+.docs details[open] summary .chev{transform:rotate(180deg)}
+.docs .docs-body{padding:0 1.6rem 1.6rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{font-family:"Space Mono",monospace;font-size:.78rem;background:var(--paper);border:1px solid var(--line);
+  color:var(--ink-90);padding:.4rem .7rem;border-radius:7px}
+
+/* ---------- FAQ ---------- */
+.faq{display:grid;gap:.75rem;margin-top:2.6rem}
+.faq details{border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;transition:border-color .2s}
+.faq details[open]{border-color:var(--brand-deep)}
+.faq summary{cursor:pointer;list-style:none;padding:1.15rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:1.05rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .q-plus{flex:none;width:22px;height:22px;position:relative}
+.faq summary .q-plus::before,.faq summary .q-plus::after{content:"";position:absolute;background:var(--brand-dark);border-radius:2px;transition:transform .25s,opacity .2s}
+.faq summary .q-plus::before{top:10px;left:2px;width:18px;height:2px}
+.faq summary .q-plus::after{top:2px;left:10px;width:2px;height:18px}
+.faq details[open] summary .q-plus::after{transform:rotate(90deg);opacity:0}
+.faq .faq-a{padding:0 1.4rem 1.25rem;color:var(--muted);font-size:1rem;max-width:72ch}
+
+/* ---------- Final CTA ---------- */
+.final{position:relative;background:var(--dark);color:#fff;border-radius:0;overflow:hidden}
+.final::before{content:"";position:absolute;inset:0;opacity:.13;pointer-events:none;
+  background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);
+  background-size:40px 40px;-webkit-mask-image:radial-gradient(70% 130% at 15% 50%,#000,transparent 70%);
+  mask-image:radial-gradient(70% 130% at 15% 50%,#000,transparent 70%)}
+.final .wrap{position:relative;text-align:center;padding-block:clamp(3.5rem,3vw,5.5rem)}
+.final h2{color:#fff;font-size:var(--fs-h2);max-width:20ch;margin:.8rem auto 0}
+.final p{color:#ccccc6;max-width:54ch;margin:1.1rem auto 0;font-size:1.1rem}
+.final .eyebrow{color:var(--brand)}
+.final .btn{margin-top:2rem}
+.final .btn--primary{background:var(--brand);color:var(--ink-strong);box-shadow:0 14px 30px -14px rgba(189,224,79,.85)}
+.final .btn--primary:hover{background:var(--brand-deep)}
+.final-mini{margin-top:1.2rem;font-family:"Space Mono",monospace;font-size:.78rem;letter-spacing:.05em;color:#b3b3ac}
+
+/* ---------- Footer / Hinweis ---------- */
+.site-footer{background:#161616;color:#a8a8a2;font-size:.92rem}
+.site-footer .wrap{padding-block:3rem 2.5rem}
+.hinweis{border:1px solid #2c2c2c;border-radius:var(--radius);padding:1.4rem 1.6rem;background:#1c1c1c}
+.hinweis h4{color:#d8d8d2;font-size:.95rem;font-family:"Space Mono",monospace;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.6rem}
+.hinweis p{line-height:1.6}
+#footer-head{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.2rem;color:#fff;
+  margin-top:2.4rem;padding-top:2rem;border-top:1px solid #2c2c2c}
+#footer-nav ul{display:flex;flex-wrap:wrap;gap:.55rem 1.6rem;margin-top:1rem}
+#footer-nav a{color:#a8a8a2;text-decoration:none;transition:color .15s}
+#footer-nav a:hover{color:var(--brand)}
+#footer-nav-social ul{display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin-top:1.9rem}
+#footer-nav-social a{display:inline-flex;align-items:center}
+#footer-nav-social img{display:block}
+.footer-nav-social-instagram img,.footer-nav-social-facebook img,.footer-nav-social-pinterest img{opacity:.8;transition:opacity .15s}
+.footer-nav-social-instagram a:hover img,.footer-nav-social-facebook a:hover img,.footer-nav-social-pinterest a:hover img{opacity:1}
+.footer-nav-social-google img{height:54px;width:auto;border-radius:6px;background:#fff;padding:2px}
+.footer-nav-eu img{height:46px;width:auto;border-radius:4px}
+#ri24_pwa_install_cmd{display:inline-flex;align-items:center;gap:.45rem;color:#a8a8a2;cursor:pointer;
+  font-size:.9rem;font-weight:600;transition:color .15s}
+#ri24_pwa_install_cmd:hover{color:var(--brand)}
+.footer-copy{margin-top:1.9rem;color:#7d7d77;font-size:.85rem;font-family:"Space Mono",monospace;letter-spacing:.03em}
+
+/* ---------- reveal animation (opt-in, reduced-motion safe) ---------- */
+.reveal-ready .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal-ready .reveal.in{opacity:1;transform:none}
+.reveal-ready .reveal.d1{transition-delay:.08s}
+.reveal-ready .reveal.d2{transition-delay:.16s}
+.reveal-ready .reveal.d3{transition-delay:.24s}
+
+/* parcel draw-on: default = drawn (visible) for reduced motion */
+@media (prefers-reduced-motion:no-preference){
+  .anim .pl-stroke{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.6s .25s ease forwards}
+  .anim .pl-div{stroke-dasharray:5 5;opacity:0;animation:fade .6s 1.5s ease forwards}
+  .anim .pl-pt{opacity:0;animation:pop .4s ease forwards}
+  .anim .pl-pt:nth-of-type(1){animation-delay:1.0s}
+  .anim .pl-pt:nth-of-type(2){animation-delay:1.15s}
+  .anim .pl-pt:nth-of-type(3){animation-delay:1.3s}
+  .anim .pl-pt:nth-of-type(4){animation-delay:1.45s}
+  .anim .pl-pt:nth-of-type(5){animation-delay:1.6s}
+  .anim .pl-anno-g{opacity:0;animation:fade .6s 1.9s ease forwards}
+}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fade{to{opacity:.6}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+
+/* focus visibility */
+a:focus-visible,button:focus-visible,summary:focus-visible,.btn:focus-visible{
+  outline:3px solid var(--ink-strong);outline-offset:2px;border-radius:6px;
+  box-shadow:0 0 0 6px rgba(189,224,79,.55)}
+
+.skip{position:absolute;left:-999px;top:0;background:#fff;color:var(--ink-strong);padding:.6rem 1rem;z-index:100;border-radius:0 0 8px 0}
+.skip:focus{left:0}
+
+/* ---------- responsive ---------- */
+@media(max-width:920px){
+  .hero-grid{grid-template-columns:1fr;gap:2.5rem}
+  .parcel-card{max-width:460px}
+  .vorteile{grid-template-columns:repeat(2,1fr)}
+  .fac-grid{grid-template-columns:repeat(2,1fr)}
+  .arten{grid-template-columns:repeat(2,1fr)}
+  .callout{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  body{font-size:1rem}
+  .vorteile{grid-template-columns:1fr}
+  .fac-grid{grid-template-columns:1fr}
+  .arten{grid-template-columns:1fr}
+  .hero-cta .btn{flex:1 1 auto;justify-content:center}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#funnel">Direkt zur Hausbewertung</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="logo-bar">
+    <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
+      <span class="burger" aria-hidden="true"></span>
+    </button>
+    <a class="logo-link" href="https://www.regionalimmobilien24.de/" aria-label="Regionalimmobilien24 – Startseite">
+      <picture>
+        <source srcset="assets/doppellogo.webp" type="image/webp">
+        <img class="logo-img" src="assets/doppellogo.png" alt="Regionalimmobilien24 · Baufinanzierung prime" width="1062" height="120" fetchpriority="high" decoding="async">
+      </picture>
+    </a>
+    <a class="login-icon" href="https://www.regionalimmobilien24.de/login/" aria-label="Login">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="3.2" stroke="currentColor" stroke-width="1.8"/><path d="M5.8 19.2a6.8 6.8 0 0 1 12.4 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </a>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+    <ul class="wrap">
+      <li><a href="https://www.regionalimmobilien24.de/immobilien/">Immobilien</a></li>
+      <li><a href="https://www.regionalimmobilien24.de/baufinanzierung/">Baufinanzierung</a></li>
+      <li><a href="https://www.regionalimmobilien24.de/immobilie-inserieren/">Immobilien inserieren</a></li>
+      <li><a href="https://www.regionalimmobilien24.de/unser-team/">Unser Team</a></li>
+      <li><a href="https://www.regionalimmobilien24.de/blog/">Blog</a></li>
+      <li class="nav-login"><a href="https://www.regionalimmobilien24.de/login/">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="label reveal">Hausverkauf · regional begleitet</span>
+      <h1 class="reveal d1">Haus verkaufen oder <em>bewerten lassen</em></h1>
+      <p class="hero-lead reveal d2">Privat anbieten oder mit Makler? Welcher Preis ist realistisch und wer ist der passende Käufer? Lassen Sie Ihr Haus von einem Immobilienexperten aus Ihrer Region einschätzen – unverbindlich.</p>
+      <div class="hero-cta reveal d3">
+        <a class="btn btn--primary btn--lg" href="https://www.regionalimmobilien24.de/maklersuche/">Hausverkauf unverbindlich starten <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="#ablauf">So funktioniert's</a>
+      </div>
+      <p class="hero-note reveal d3">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg>
+        Ihre Anfrage ist kostenlos &amp; unverbindlich – Sie entscheiden, ob und mit wem Sie verkaufen möchten.
+      </p>
+    </div>
+
+    <!-- SIGNATURE: house elevation card -->
+    <div class="parcel-card reveal d2" aria-hidden="true">
+      <div class="parcel-head">
+        <span class="tag">Objekt-Exposé</span>
+        <span class="dot"></span>
+      </div>
+      <svg class="parcel-svg anim" viewBox="0 0 440 360" role="img">
+        <!-- ground -->
+        <line class="pl-neighbor" x1="40" y1="300" x2="400" y2="300"/>
+        <!-- house silhouette fill -->
+        <polygon class="pl-fill" points="80,182 220,74 360,182 360,300 80,300"/>
+        <!-- roof -->
+        <path class="pl-stroke" pathLength="1" d="M68 188 L220 70 L372 188"/>
+        <!-- body -->
+        <path class="pl-stroke" pathLength="1" d="M88 182 L88 300 L352 300 L352 182"/>
+        <!-- door -->
+        <path class="pl-stroke" pathLength="1" d="M198 300 L198 236 L250 236 L250 300"/>
+        <!-- windows -->
+        <rect class="pl-stroke" pathLength="1" x="118" y="208" width="48" height="42"/>
+        <rect class="pl-stroke" pathLength="1" x="272" y="208" width="48" height="42"/>
+        <!-- labels -->
+        <text class="pl-label" x="110" y="286">ca. 142 m²</text>
+        <text class="pl-label" x="268" y="286">Bj. 1998</text>
+        <!-- annotation -->
+        <g class="pl-anno-g">
+          <line class="pl-anno-line" x1="362" y1="150" x2="344" y2="176"/>
+          <circle class="pl-pin" cx="362" cy="150" r="4"/>
+          <text class="pl-anno" x="300" y="142">Hauswert?</text>
+        </g>
+        <!-- accent points -->
+        <circle class="pl-pt" cx="220" cy="70" r="5"/>
+        <circle class="pl-pt" cx="88" cy="182" r="5"/>
+        <circle class="pl-pt" cx="352" cy="182" r="5"/>
+      </svg>
+      <div class="parcel-foot">
+        <span class="parcel-stat"><span class="k">Lage</span><span class="v">geprüft</span></span>
+        <span class="parcel-stat"><span class="k">Zustand</span><span class="v">bewertet</span></span>
+        <span class="parcel-stat"><span class="k">Marktwert</span><span class="v q">ermitteln →</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VORTEILE STRIP ============ -->
+<section class="strip">
+  <div class="wrap">
+    <div class="strip-head">
+      <h2>Ihre Vorteile auf einen Blick</h2>
+      <span class="eyebrow">mit Regionalimmobilien24</span>
+    </div>
+    <ul class="vorteile">
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Ansprechpartner mit regionaler Immobilienkenntnis</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Unverbindliche erste Kontaktaufnahme</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Unterstützung bei Bewertung und Verkaufsstrategie</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Professionelle Vorbereitung der Vermarktung</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Begleitung von der ersten Einschätzung bis zum Abschluss</li>
+      <li class="vorteil reveal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Sie behalten jederzeit die Entscheidungshoheit</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ ABLAUF / STEPS ============ -->
+<section class="section" id="ablauf">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">In 5 Schritten</span>
+      <h2>So funktioniert die Anfrage</h2>
+      <p>Von den ersten Eckdaten bis zur Übergabe – klar strukturiert und mit einem Experten an Ihrer Seite. Über jeden Schritt entscheiden Sie selbst.</p>
+    </div>
+    <div class="steps">
+      <article class="step reveal">
+        <div class="step-num">01</div>
+        <div><h3>Eckdaten zur Immobilie übermitteln</h3><p>Standort, Wohn- und Grundstücksfläche, Baujahr, Zimmer, Zustand und Ausstattung – so weit bekannt. So lässt sich Ihr Anliegen einordnen.</p></div>
+      </article>
+      <article class="step reveal d1">
+        <div class="step-num">02</div>
+        <div><h3>Passenden Immobilienmakler kennenlernen</h3><p>Ein Makler mit Marktkenntnis vor Ort klärt Leistungen, Strategie, realistischen Preis und Verkaufsdauer. Beauftragt wird erst, wenn Sie überzeugt sind.</p></div>
+      </article>
+      <article class="step reveal">
+        <div class="step-num">03</div>
+        <div><h3>Immobilie besichtigen und Wert einschätzen</h3><p>Erst vor Ort zählen Zustand, Ausstattung, Modernisierungen und Grundstück – nicht nur ein allgemeiner Quadratmeterpreis.</p></div>
+      </article>
+      <article class="step reveal d1">
+        <div class="step-num">04</div>
+        <div><h3>Verkauf professionell vorbereiten</h3><p>Unterlagen, Strategie, Exposé, Fotos, Inserate, Anfragen und Besichtigungen – Sie behalten dabei die Entscheidungshoheit.</p></div>
+      </article>
+      <article class="step reveal" style="grid-column:1/-1">
+        <div class="step-num">05</div>
+        <div><h3>Verkauf sicher abschließen</h3><p>Vor dem Notartermin werden Angaben, Vereinbarungen und Finanzierung geprüft. Danach folgen Kaufpreiszahlung, Eigentumsumschreibung und die Übergabe – am besten mit Protokoll.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WERTFAKTOREN ============ -->
+<section class="section bg-paper">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Was zählt</span>
+      <h2>Was beeinflusst den Hauswert?</h2>
+      <p>Der Verkaufspreis ergibt sich aus mehreren Merkmalen – nicht aus den Angebotspreisen ähnlicher Online-Inserate. Erst zusammen ergeben sie ein belastbares Bild.</p>
+    </div>
+    <div class="fac-grid">
+      <div class="fac reveal"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/01</span></div><h3>Lage</h3><p>Stadtteil, Anbindung, Einkaufen, Schulen, Lärm und die Entwicklung des Umfelds – der wichtigste Wertfaktor.</p></div>
+      <div class="fac reveal d1"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="1.5" stroke="currentColor" stroke-width="2"/><path d="M4 9h16M9 4v16" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/02</span></div><h3>Grundstück</h3><p>Größe, Zuschnitt, Ausrichtung und Erschließung wirken sich spürbar auf den erzielbaren Preis aus.</p></div>
+      <div class="fac reveal d2"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20h16M6 20V9l6-4 6 4v11" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="fn">/03</span></div><h3>Gebäudezustand</h3><p>Dach, Fenster, Heizung, Leitungen und Sanierungsbedarf beeinflussen die Zahlungsbereitschaft direkt.</p></div>
+      <div class="fac reveal"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 2L4 14h7l-2 8 11-13h-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="fn">/04</span></div><h3>Energetischer Zustand</h3><p>Dämmung, Alter der Heizung und Energiekennwerte rücken bei Käufern zunehmend in den Mittelpunkt.</p></div>
+      <div class="fac reveal d1"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.4 5.6L20 9l-4.4 3.8L17 19l-5-3-5 3 1.4-6.2L4 9l5.6-.4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="fn">/05</span></div><h3>Ausstattung</h3><p>Bäder, Böden, Garage, Keller, Terrasse oder Garten erhöhen die Attraktivität – nicht jede teure Ausstattung zahlt sich 1:1 aus.</p></div>
+      <div class="fac reveal d2"><div class="fi"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M5 12a3 3 0 100-6 3 3 0 000 6zm14 0a3 3 0 100 6 3 3 0 000-6z" stroke="currentColor" stroke-width="2"/></svg><span class="fn">/06</span></div><h3>Regionale Nachfrage</h3><p>In gefragter Lage erzielt ein vergleichbares Haus deutlich höhere Preise als in einer Region mit wenig Nachfrage.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GRUNDSTÜCKSARTEN ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Jeder Haustyp ist anders</span>
+      <h2>Welche Rolle spielt die Hausart?</h2>
+      <p>Je nach Immobilientyp unterscheiden sich Nachfrage, Zielgruppe und die Argumente, die bei der Vermarktung zählen.</p>
+    </div>
+    <div class="arten">
+      <article class="art reveal" data-idx="01"><span class="pill">Familienliebling</span><h3>Einfamilienhaus</h3><p>Freistehend und besonders für Familien gefragt. Grundstück, Privatsphäre, Aufteilung und Energiekosten zählen.</p></article>
+      <article class="art reveal d1" data-idx="02"><span class="pill">Günstiger Einstieg</span><h3>Reihenhaus &amp; Doppelhaushälfte</h3><p>Oft erschwinglicher Einstieg ins Eigentum. Käufer achten auf Grundstück, Nachbarschaft und Stellplätze.</p></article>
+      <article class="art reveal d2" data-idx="03"><span class="pill">Zwei Generationen</span><h3>Zweifamilienhaus</h3><p>Für mehrere Generationen, teilweise Vermietung oder die Kombination aus Eigennutzung und Kapitalanlage.</p></article>
+      <article class="art reveal" data-idx="04"><span class="pill">Kapitalanlage</span><h3>Mehrfamilienhaus</h3><p>Für Investoren zählen Mieteinnahmen, Leerstand, Zustand, Mietverträge und künftiger Sanierungsbedarf.</p></article>
+      <article class="art reveal d1" data-idx="05"><span class="pill">Potenzial</span><h3>Sanierungsbedürftiges Haus</h3><p>Spricht Handwerker und Projektentwickler an. Eine realistische Darstellung der Maßnahmen ist entscheidend.</p></article>
+      <article class="art reveal d2" data-idx="06"><span class="pill">Vermietet</span><h3>Haus als Kapitalanlage</h3><p>Bestehende Mietverhältnisse laufen weiter („Kauf bricht nicht Miete"). Vor allem für Kapitalanleger interessant.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BODENRICHTWERT CALLOUT ============ -->
+<section class="section bg-paper">
+  <div class="wrap">
+    <div class="callout reveal">
+      <div>
+        <span class="eyebrow">Bevor Sie sich festlegen</span>
+        <h2>Verkaufen oder vermieten?</h2>
+        <p>Nicht immer ist der Verkauf automatisch die beste Lösung. Eine Vermietung kann langfristige Einnahmen bringen – bedeutet aber auch Verwaltung, Instandhaltung und Risiken.</p>
+        <p>Eine belastbare Entscheidung braucht beide Zahlen: den aktuellen Verkaufswert und die realistisch erzielbare Miete.</p>
+        <a class="btn btn--primary" href="https://www.regionalimmobilien24.de/maklersuche/">Hauswert einschätzen lassen <span class="arr" aria-hidden="true">→</span></a>
+      </div>
+      <div class="callout-box">
+        <div class="big">Für eine Vermietung spricht</div>
+        <ul>
+          <li>Langfristige Mieteinnahmen</li>
+          <li>Erhalt der Immobilie als Vermögenswert</li>
+          <li>Mögliche Nutzung als Altersvorsorge</li>
+          <li>Aussicht auf langfristige Wertentwicklung</li>
+          <li>Spätere Eigennutzung bleibt möglich</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRIVAT VS MAKLER ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Ihre Entscheidung</span>
+      <h2>Haus privat oder mit Makler verkaufen?</h2>
+      <p>Beide Varianten haben Vor- und Nachteile. Was besser passt, hängt von Ihrer Erfahrung, Ihrer Zeit und der konkreten Verkaufssituation ab.</p>
+    </div>
+    <div class="compare">
+      <article class="cmp reveal">
+        <h3>Privat verkaufen</h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Direkter Kontakt, volle Kontrolle über jeden Schritt</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Keine Maklerprovision auf Verkäuferseite</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Marktgerechten Preis selbst einschätzen</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Unterlagen beschaffen, Interessenten prüfen</li>
+          <li class="neg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="#9a9a9a" stroke-width="2.2" stroke-linecap="round"/></svg>Hoher zeitlicher und organisatorischer Aufwand</li>
+        </ul>
+      </article>
+      <article class="cmp is-prim reveal d1">
+        <h3>Mit Immobilienmakler <span class="badge">empfohlen</span></h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Fundierte Einschätzung des Immobilienwertes</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Professionelle Vermarktung und Exposé</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Gezielte Ansprache geeigneter Käufer</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Koordination von Anfragen und Besichtigungen</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12l5 5L19 7" stroke="#5f7d12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Begleitung bis zum Notartermin und zur Übergabe</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- Unterlagen details -->
+    <div class="docs">
+      <details>
+        <summary>Welche Unterlagen werden beim Hausverkauf benötigt?
+          <svg class="chev" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="docs-body">
+          <p style="color:var(--muted);margin-bottom:1.1rem">Fehlende Dokumente sind eine der häufigsten Ursachen für Verzögerungen. Vollständige Unterlagen erleichtern Bewertung, Finanzierung und Kaufentscheidung.</p>
+          <div class="chips">
+            <span class="chip">Grundbuchauszug</span><span class="chip">Flurkarte / Liegenschaftskarte</span><span class="chip">Grundrisse &amp; Bauzeichnungen</span><span class="chip">Wohnflächenberechnung</span><span class="chip">Baubeschreibung</span><span class="chip">Energieausweis</span><span class="chip">Modernisierungsnachweise</span><span class="chip">Rechnungen &amp; Garantien</span><span class="chip">Grundsteuerunterlagen</span><span class="chip">Darlehensunterlagen</span><span class="chip">Grundschulden</span><span class="chip">Versicherungsunterlagen</span><span class="chip">Betriebskostenaufstellung</span><span class="chip">Mietverträge</span><span class="chip">Teilungserklärung</span><span class="chip">Erbschein / Testament</span>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section bg-paper" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">Gut zu wissen</span>
+      <h2>Häufige Fragen zum Hausverkauf</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Muss ich mich nach einer Anfrage sofort für einen Makler entscheiden?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Nein. Ein erstes Gespräch dient dazu, Leistungen, Vorgehensweise und mögliche Konditionen kennenzulernen. Eine Beauftragung sollte erst erfolgen, wenn alle wichtigen Fragen geklärt sind.</div></details>
+      <details><summary>Kann ich mein Haus trotz laufender Finanzierung verkaufen?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Grundsätzlich kann auch eine finanzierte Immobilie verkauft werden. Vorab sollte mit der Bank geklärt werden, wie das bestehende Darlehen abgelöst wird und ob zusätzliche Kosten entstehen.</div></details>
+      <details><summary>Sollte ich vor dem Verkauf noch renovieren?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Nicht jede Renovierung rechnet sich. Kleine Reparaturen und ein gepflegter Gesamteindruck sind häufig sinnvoll. Größere Maßnahmen lohnen nur, wenn der zu erwartende Mehrerlös die Kosten voraussichtlich rechtfertigt.</div></details>
+      <details><summary>Kann ich ein vermietetes Haus verkaufen?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Ja. Bestehende Mietverhältnisse gehen durch den Verkauf grundsätzlich nicht verloren („Kauf bricht nicht Miete"). Für Vermarktung und Zielgruppenansprache gelten dann besondere Voraussetzungen.</div></details>
+      <details><summary>Ist ein Energieausweis erforderlich?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Bei vielen Verkäufen müssen energetische Angaben bereits in der Vermarktung gemacht werden. Spätestens im weiteren Verlauf ist regelmäßig ein gültiger Energieausweis vorzulegen. Welche Art genau benötigt wird, hängt vom Gebäude ab.</div></details>
+      <details><summary>Wie lange dauert ein Hausverkauf?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Das hängt von Marktlage, Immobilienart, Zustand, Angebotspreis, Präsentation und der Vollständigkeit der Unterlagen ab. Ein marktgerechter Preis und eine gute Vorbereitung beschleunigen den Prozess deutlich.</div></details>
+      <details><summary>Wer bestimmt, an wen das Haus verkauft wird?<span class="q-plus" aria-hidden="true"></span></summary><div class="faq-a">Die Entscheidung liegt beim Eigentümer. Ein Makler kann Interessenten prüfen und Empfehlungen aussprechen, die endgültige Auswahl treffen jedoch Sie.</div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FINAL CTA / FUNNEL ============ -->
+<section class="final" id="funnel">
+  <div class="wrap">
+    <span class="eyebrow">Jetzt starten</span>
+    <h2>Hausverkauf jetzt unverbindlich starten</h2>
+    <p>Übermitteln Sie die wichtigsten Angaben zu Ihrem Haus und finden Sie heraus, welche Möglichkeiten für Ihren Verkauf bestehen. Die Anfrage verpflichtet Sie zu nichts.</p>
+    <a class="btn btn--primary btn--lg" href="https://www.regionalimmobilien24.de/maklersuche/">Passenden Immobilienexperten finden <span class="arr" aria-hidden="true">→</span></a>
+    <p class="final-mini">Kostenlos · unverbindlich · regional</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="footer">
+  <div class="wrap">
+    <div class="hinweis">
+      <h4>Wichtiger Hinweis</h4>
+      <p>Die Inhalte dieser Seite dienen der allgemeinen Information und ersetzen keine individuelle Rechts-, Steuer- oder Finanzberatung. Insbesondere steuerliche Fragen, Wohnrechte, vermietete Objekte und Verkäufe innerhalb möglicher Fristen sollten mit einer entsprechend qualifizierten Fachperson geklärt werden.</p>
+    </div>
+
+    <p id="footer-head">Regionalimmobilien24</p>
+    <nav aria-label="rechtliche Informationen" id="footer-nav">
+      <ul>
+        <li><a href="https://www.regionalimmobilien24.de/agb-und-rechtliche-hinweise/" title="weiter zu: AGB und Rechtliche Hinweise">AGB und Rechtliche Hinweise</a></li>
+        <li><a href="https://www.regionalimmobilien24.de/impressum/" title="weiter zu: Impressum">Impressum</a></li>
+        <li><a href="https://www.regionalimmobilien24.de/datenschutz/" title="weiter zu: Datenschutz">Datenschutz</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="SocialMedia und App-Stores" id="footer-nav-social">
+      <ul>
+        <li class="footer-nav-social-google">
+          <a href="https://www.google.com/partners/agency?id=9783911207" rel="noopener noreferrer" target="_blank" title="weiter zur Google Partner-Auszeichnung">
+            <img loading="lazy" alt="Logo Google Partner" height="60" src="assets/google-partner.svg" width="63">
+          </a>
+        </li>
+        <li class="footer-nav-social-instagram">
+          <a href="https://www.instagram.com/Regionalimmobilien24/" rel="noopener noreferrer" target="_blank" title="folgt uns auf Instagram">
+            <img loading="lazy" alt="Icon von Instagram" height="25" src="assets/instagram.webp" width="25">
+          </a>
+        </li>
+        <li class="footer-nav-social-facebook">
+          <a href="https://www.facebook.com/Regionalimmobilien24/" rel="noopener noreferrer" target="_blank" title="folgt uns auf Facebook">
+            <img loading="lazy" alt="Icon von Facebook" height="25" src="assets/facebook.webp" width="25">
+          </a>
+        </li>
+        <li class="footer-nav-social-pinterest">
+          <a href="https://www.pinterest.de/regionalimmobilien24/" rel="noopener noreferrer" target="_blank" title="folgt uns auf Pinterest">
+            <img loading="lazy" alt="Icon von Pinterest" height="25" src="assets/pinterest.webp" width="25">
+          </a>
+        </li>
+        <li class="footer-nav-social-android">
+          <span class="cmd cmd-l no-shadow" id="ri24_pwa_install_cmd" title="Jetzt als Webapp Installieren"><img loading="lazy" alt="Webapp-Icon" height="11" src="assets/app.webp" width="9"> App herunterladen</span>
+        </li>
+        <li class="footer-nav-eu">
+          <img loading="lazy" alt="Logo der Europäischen Union - Kofinanziert von der Europäischen Union" height="60" src="assets/eu-kofinanziert.webp" width="300">
+        </li>
+      </ul>
+    </nav>
+    <p class="footer-copy">© 2017–2026 Regionalimmobilien24 GmbH</p>
+  </div>
+</footer>
+
+<!-- ============ JSON-LD: FAQ + Service + Breadcrumb ============ -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Muss ich mich nach einer Anfrage sofort für einen Makler entscheiden?","acceptedAnswer":{"@type":"Answer","text":"Nein. Ein erstes Gespräch dient dazu, Leistungen, Vorgehensweise und mögliche Konditionen kennenzulernen. Eine Beauftragung sollte erst erfolgen, wenn alle wichtigen Fragen geklärt sind."}},
+        {"@type":"Question","name":"Kann ich mein Haus trotz laufender Finanzierung verkaufen?","acceptedAnswer":{"@type":"Answer","text":"Grundsätzlich kann auch eine finanzierte Immobilie verkauft werden. Vorab sollte mit der Bank geklärt werden, wie das bestehende Darlehen abgelöst wird und ob zusätzliche Kosten entstehen."}},
+        {"@type":"Question","name":"Sollte ich vor dem Verkauf noch renovieren?","acceptedAnswer":{"@type":"Answer","text":"Nicht jede Renovierung rechnet sich. Kleine Reparaturen und ein gepflegter Gesamteindruck sind häufig sinnvoll. Größere Maßnahmen lohnen nur, wenn der zu erwartende Mehrerlös die Kosten voraussichtlich rechtfertigt."}},
+        {"@type":"Question","name":"Kann ich ein vermietetes Haus verkaufen?","acceptedAnswer":{"@type":"Answer","text":"Ja. Bestehende Mietverhältnisse gehen durch den Verkauf grundsätzlich nicht verloren (Kauf bricht nicht Miete). Für Vermarktung und Zielgruppenansprache gelten dann besondere Voraussetzungen."}},
+        {"@type":"Question","name":"Ist ein Energieausweis erforderlich?","acceptedAnswer":{"@type":"Answer","text":"Bei vielen Verkäufen müssen energetische Angaben bereits in der Vermarktung gemacht werden. Spätestens im weiteren Verlauf ist regelmäßig ein gültiger Energieausweis vorzulegen."}},
+        {"@type":"Question","name":"Wie lange dauert ein Hausverkauf?","acceptedAnswer":{"@type":"Answer","text":"Das hängt von Marktlage, Immobilienart, Zustand, Angebotspreis, Präsentation und der Vollständigkeit der Unterlagen ab. Ein marktgerechter Preis und eine gute Vorbereitung beschleunigen den Prozess deutlich."}},
+        {"@type":"Question","name":"Wer bestimmt, an wen das Haus verkauft wird?","acceptedAnswer":{"@type":"Answer","text":"Die Entscheidung liegt beim Eigentümer. Ein Makler kann Interessenten prüfen und Empfehlungen aussprechen, die endgültige Auswahl treffen jedoch Sie."}}
+      ]
+    },
+    {
+      "@type":"Service",
+      "name":"Haus verkaufen & bewerten lassen",
+      "serviceType":"Immobilienbewertung und Maklervermittlung",
+      "areaServed":"DE",
+      "provider":{"@type":"Organization","name":"Regionalimmobilien24","url":"https://www.regionalimmobilien24.de/"},
+      "url":"https://www.regionalimmobilien24.de/maklersuche/",
+      "description":"Haus verkaufen oder den Wert ermitteln lassen – unverbindlich und mit regionaler Marktkenntnis."
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Startseite","item":"https://www.regionalimmobilien24.de/"},
+        {"@type":"ListItem","position":2,"name":"Haus verkaufen","item":"https://www.regionalimmobilien24.de/haus-verkaufen/"}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  // mobile burger menu
+  var header=document.querySelector('.site-header');
+  var toggle=header.querySelector('.nav-toggle');
+  if(toggle){
+    var setOpen=function(open){
+      header.classList.toggle('nav-open', open);
+      toggle.setAttribute('aria-expanded', open?'true':'false');
+      toggle.setAttribute('aria-label', open?'Menü schließen':'Menü öffnen');
+    };
+    toggle.addEventListener('click',function(){ setOpen(!header.classList.contains('nav-open')); });
+    header.querySelectorAll('.main-nav a').forEach(function(a){
+      a.addEventListener('click',function(){ setOpen(false); });
+    });
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape' && header.classList.contains('nav-open')){ setOpen(false); toggle.focus(); }
+    });
+  }
+
+  // reveal on scroll — only when motion is welcome
+  var allowMotion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+  if(allowMotion && 'IntersectionObserver' in window){
+    document.body.classList.add('reveal-ready');
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>

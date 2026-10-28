@@ -1,0 +1,466 @@
+{
+  "bank": "Hannoversche Leben",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15\nHöhe Auszahlungen mind. 5000 €"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90 / Keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden nicht finanziert"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kalkulatorische Annuität: grundsätzlich 6% (nicht bei Volltilgerdarlehen)\nmax. 2 unterschiedliche Termine bei einem Gläubiger, wenn die\nTermine nicht länger als 6 Monate auseinanderliegen\nAblösung von mehr als einem Gläubiger werden nicht finanziert\nObjekttausch grundsätzlich möglich, wenn neues Objekt Beleihungsgrundsätzen entspricht. \nDarlehensbetrag > 400 TEUR - 500 TEUR\t\nmax. 72 % des sprengnetter Verkehrswerts\nErstellung eines Wertgutachtens durch Sprengnetter\nKosten für Wertgutachten im Zinssatz inkludiert"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100.000 (darunter über Zusatzhypothek) - 500.000 (Überschreitung nicht möglich)"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 10 TEUR machbar"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nicht machbar"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten - Verhältnis maximal 50 % / 50 % Hannoversche zu KfW, Beleihungsüberhänge und andere Programme über Förderbanken oder Alte Leipziger"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "kostenfrei / bei Neubauten und Sanierungen bis max. € 20.000,00"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10% (EFH, auf EUROPACE hinterlegt), 10% ETW; 10% auf den vdp-Wert"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 - 40"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden nicht berücksichtigt"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bonität:\n\nIn Einzelfällen bei Selbstständigen eines Einkommensteuerbescheides\nAnforderung der letzten 3 Jahreskontoauszüge des Darlehens vor Auszahlung"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Forward-Darlehen bis 15 Monate Vorlaufzeit ohne Forward-Aufschlag\nAb dem 16. Monat: 0,01% Aufschlag pro Monat"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "10-40"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "nur 1 Umschuldungstermin, Aufvalutierung max. um 5.000,-€, Abtretung von max. 1 Grundschuld"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "47492937"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "-35 BP bei KfW 124 Programm"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Ablösung von mehr als einem Gläubiger werden nicht finanziert"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 x im Kalenderjahr, max. 10 %  (mind. 2.500 EUR), max. 10 %\nVolltilgung vor Ende der Zinsbindung möglich"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,0% Mindesttilgung bei Antrag (2,0% bei Prolongationen)"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "kostenfrei, 3-mal während Zinsbindung zwischen 1%-8% möglich, 1,0% Mindesttilgung bei Antrag (2,0% bei Prolongationen)"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nicht machbar"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "machbar:\nMassivbauweise\nFertighaus\nFertighaus in Holständerbauweise\nHolzhäuser \nnicht machbar:\nAusbau-/Bausaatzhäuser\nBlockhäuser\nPlattenbauweise\nLehmbauweise"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Verkäufer muss grundsätzlich als Eigentümer im Grundbuch eingetragen sein. Das gilt speziell für Käufe von Bauunternehmen. Die Baugesellschaft muss als Eigentümer eingetragen sein."
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "Bodenrichtwert muss mindestens 45,- EURO/qm betragen"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Maximal 20 % der Baukosten (ohne Grundstück u. NK), max. 40 TEUR\nHelferliste ab 10 TEUR unterschrieben vom Architekten·"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "nicht machbar:\nMehrfamilienhaus\nMischobjekt\nBaugrundstücke, die nicht abschließend vermessen sind und bei denen noch kein eigenes Grundbuchblatt vorliegt\nGrundstücke ohne Baugenehmigung\nGewerbeobjekte\nlandwirtschaftliche Immobilien\nTotalsanierungsobjekte\nbetreutes Wohnen, Seniorenresidenzen\nEinzellage"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter - vdp (auf der Plattform) - Auf Europace wird mit der vdp-Marktwertermittlung gerechnet / Objektbesichtigung nach Vertragsabschluss und vor Auszahlung erforderlich // Eine Voreinwertung anhand eines Sprengnetter-Tools ist zu empfehlen.\n> Auswirkungen auf die Konditionierung"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "> 400 TEUR, Erstellung eines Wertgutachtens durch Sprengnetter, Kosten für Wertgutachten im Zinssatz inkludiert"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Baugrundstücke, die nicht abschließend vermessen sind und bei denen noch kein eigenes Grundbuchblatt vorliegt werden nicht finanziert\nnur Grundstücke: Nein"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "nicht wertmindernde Vorlasten sind erlaubt; z.B. Leitungsrechte von Energieversorger; Vorkaufsrechte der Stadt/Gemeinde; Mastenrechte\nEine Löschung des Rechts wird erforderlich z. B. bei Wohnrechten, Nießbräuche, Wohnungsbesetzungsrechte."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "50 (ETW), 90 (EFH)"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, wird anerkannt, wenn eine Bestätigung des Arbeitgebers vorliegt, aus der der Zeitpunkt der Wiederaufnahme der Tätigkeit und die Höhe der zukünftigen Bezüge hervorgeht und zwischen dem Ende der Elterngeldzahlung und der Wiederaufnahme der Tätigkeit kein Zeitraum größer als 3 Monate liegt.\nÜbersteigt das Elterngeld das zukünftige Nettoeinkommen, ist das Nettoeinkommen anzusetzen.\nDer Elterngeldbescheid muss bei Antragstellung vorliegen.\nWird die erste Auszahlung des Darlehens nach der Wiederaufnahme der Tätigkeit getätigt, kann auch das künftige Einkommen berücksichtigt werden."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "machbar bei besonderen Berufsgruppen (Ärzte, wissenschaftliche Mitarbeiter, Zeitsoldaten etc.)"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4\nDarlehensnehmer und Eigentümer müssen identisch sein"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "max. 95"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Individualentscheidung: Wie lange läuft die Kurzarbeit? Branche? Arbeitgeber?"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: Einzelfallprüfung\nKein Negativmerkmal in der Schufa"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "machbar, wenn 1. Auszahlung nach der Probezeit"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Max. Antragsalter: 95 Jahre\nWird das Darlehen voraussichtlich nicht bis zum Renteneintrittsdatum getilgt sein, wird das Einkommen wie folgt angesetzt: 45 % des aktuellen Monatseinkommens (Nettoeinkommen) + unverfallbare Ansprüche aus einer Betriebsrente + garantierte Riesterrente + Mieteinnahmen."
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "Ja > Anfrage erforderlich"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Nein"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Keine"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Digitale Unterlagenakte"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per E-Mail an hypotheken@hannoversche.de"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "VideoIdent (Versand Merkblatt mit Darlehensvertrag)\nPostIdent (Versand Merkblatt mit Darlehensvertrag)"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per E-Mail an hypotheken@hannoversche.de"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "E-Signing Verfahren"
+    },
+    "umschuldung": {
+      "name": "Umschuldung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "max. 2 unterschiedliche Termine bei einem Gläubiger, wenn die Termine nicht länger als 6 Monate auseinanderliegen"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Finanzierung - Produktfeatures (tlw. miteinander kombinierbar):\n\nFamilienhypothek (Produktblatt mit Details): Zinsabschlag für mind. 1 Kind -5 BP wird automatisch in der Plattform berücksichtigt\nHinweis zur Einreichung: Konditionsauf/-abschläge werden automatisch erfasst"
+    }
+  },
+  "company_id": "aed78ea02dfaf586b2ed872096063858",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/aed78ea02dfaf586b2ed872096063858",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "12.01.26",
+  "recent_news": [
+    {
+      "date": "04.10.24",
+      "title": "Hannoversche Leben - Konditionssenkung ab 200.000 € ab sofort um 0,15 %"
+    },
+    {
+      "date": "17.01.24",
+      "title": "Hannoversche - Baufinanzierung / Annahme von Neugeschäft"
+    },
+    {
+      "date": "12.09.22",
+      "title": "Hannoversche - Konditionserhöhung im Produkt Zusatzhypothek zum 13.09.2022"
+    },
+    {
+      "date": "11.07.22",
+      "title": "Hannoversche Leben - Anpassung der Lebenshaltungskosten seit 18.07.2022"
+    },
+    {
+      "date": "16.06.22",
+      "title": "Hannoversche - Konditionserhöhung zum 17.06.2022 bei allen Sollzinsbindungen"
+    }
+  ]
+}

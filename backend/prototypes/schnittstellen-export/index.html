@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statischer Immobilien Export - Schnittstellen - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<style>
+  #static-export-table thead th { background-color: #333333 !important; font-size: 12px; }
+  #static-export-table td { vertical-align: middle; font-size: 13px; }
+  #static-export-table tr.warning td { background: #fcf8e3; }
+</style>
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Schnittstellen › Statischer Immobilien Export (/adm/.../master/interface/immo/static/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. 28 real API accounts. Passwords replaced with placeholders (real credentials masked). Login names are HTTP basic-auth usernames for the static XML export endpoint.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li class="active"><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Statischer Immobilien Export</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Schnittstellen</a></li><li class="breadcrumb-item active"><strong>Statischer Immobilien Export</strong></li></ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Export-Endpunkte</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="alert alert-info" style="margin-bottom:8px;"><strong>JSON:</strong> <a href="https://zbv.regionalimmobilien24.de/webapi/json/export.json" target="_blank" style="color:#31708f;">https://zbv.regionalimmobilien24.de/webapi/json/export.json</a></div><div class="alert alert-info" style="margin-bottom:8px;"><strong>XML:</strong> <a href="https://zbv.regionalimmobilien24.de/webapi/xml/export.xml" target="_blank" style="color:#31708f;">https://zbv.regionalimmobilien24.de/webapi/xml/export.xml</a></div><div class="alert alert-info" style="margin-bottom:8px;"><strong>OpenImmo-XML (v1.2.7b):</strong> <a href="https://zbv.regionalimmobilien24.de/webapi/openimmo/export.xml" target="_blank" style="color:#31708f;">https://zbv.regionalimmobilien24.de/webapi/openimmo/export.xml</a></div>
+            </div>
+        </div>
+            
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Accounts &nbsp;<span class="badge" style="background:#5b9bd5">28</span></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+<div class="table-responsive">
+    <table id="static-export-table" class="table table-striped table-bordered table-hover">
+        <thead><tr>
+    <th>Name</th>
+    <th>Login</th>
+    <th>Passwort</th>
+    <th style="width:60px;"></th>
+</tr></thead>
+        <tbody><tr><td>pitcom Test</td><td><code>pitcom</code></td><td><code class="text-muted">•••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>ri24 test</td><td><code>ri24</code></td><td><code class="text-muted">••••••••••</code></td><td></td></tr><tr><td>Immosuchmaschine</td><td><code>immosuchmaschine</code></td><td><code class="text-muted">••••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Immobilo.de</td><td><code>immobilode</code></td><td><code class="text-muted">••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Thinkimmo.com</td><td><code>thinkimmocom</code></td><td><code class="text-muted">••••••••</code></td><td></td></tr><tr><td>propfox.io</td><td><code>propfoxio</code></td><td><code class="text-muted">•••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Fokus Kleinanzeigen</td><td><code>fokuskleinanzeigen</code></td><td><code class="text-muted">•••••••••</code></td><td></td></tr><tr><td>AllesKralle</td><td><code>alleskralle</code></td><td><code class="text-muted">•••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>thribee-trovit</td><td><code>thribeetrovit</code></td><td><code class="text-muted">•••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Locanto.com</td><td><code>locantocom</code></td><td><code class="text-muted">•••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>wohnungjetzt</td><td><code>wohnungjetzt</code></td><td><code class="text-muted">••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>traum-immo</td><td><code>traumimmo</code></td><td><code class="text-muted">•••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>ImmoMetrica</td><td><code>immometrica</code></td><td><code class="text-muted">••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>immotags.de</td><td><code>immotagsde</code></td><td><code class="text-muted">••••••••••</code></td><td></td></tr><tr><td>Matchmyhome</td><td><code>matchmyhome</code></td><td><code class="text-muted">••••••••••</code></td><td></td></tr><tr><td>Immopool.de</td><td><code>immopoolde</code></td><td><code class="text-muted">•••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Versteigerungspool.de</td><td><code>versteigerungspoolde</code></td><td><code class="text-muted">••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>classmarkets</td><td><code>classmarkets</code></td><td><code class="text-muted">••••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>GoogleDataFeed</td><td><code>googledatafeed</code></td><td><code class="text-muted">••••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Matchmyhome</td><td><code>matchmyhome</code></td><td><code class="text-muted">••••••••••</code></td><td></td></tr><tr><td>Kallang_Feed</td><td><code>kallangfeed</code></td><td><code class="text-muted">•••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Hypoport-Feed</td><td><code>hypoportfeed</code></td><td><code class="text-muted">•••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Impleco Feed</td><td><code>implecofeed</code></td><td><code class="text-muted">••••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>yep_code_cron</td><td><code>yepcodecron</code></td><td><code class="text-muted">••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>Mietz.app Feed</td><td><code>mietzappfeed</code></td><td><code class="text-muted">••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>ThinkImmo</td><td><code>thinkimmo</code></td><td><code class="text-muted">••••••••••••</code></td><td></td></tr><tr><td>ThinkImmo-Portal</td><td><code>thinkimmoportal</code></td><td><code class="text-muted">•••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr><tr><td>think-immo</td><td><code>thinkimmo</code></td><td><code class="text-muted">••••••••••••</code></td><td><button type="button" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-times"></i></button></td></tr>
+<tr class="warning" id="add-row">
+    <td colspan="3">
+        <input type="text" class="form-control input-sm" name="bez"
+               placeholder="Bezeichnung (Name des neuen Accounts)" style="width:100%;">
+    </td>
+    <td class="text-center" style="vertical-align:middle;">
+        <button type="button" class="btn btn-success btn-sm" title="hinzufügen">
+            <i class="fa fa-plus"></i> hinzufügen
+        </button>
+    </td>
+</tr></tbody>
+    </table>
+</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

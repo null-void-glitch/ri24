@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Blauarbeit Handwerker-Box Preview</title>
+    <link rel="stylesheet" href="handwerker-box.css">
+</head>
+<body style="font-family: sans-serif; max-width: 900px; margin: 2em auto;">
+    <details class="blauarbeit" open>
+        <summary>
+            <h2>Handwerker in der Nähe</h2>
+        </summary>
+        <div class="blauarbeit-box" data-zipcode="10999" data-category="" data-endpoint="/blauarbeit/craftsmen.php">
+            <form class="blauarbeit-form">
+                <select class="blauarbeit-form-category" name="category" aria-label="Handwerkerart">
+                    <option value="">Alle Handwerkerarten</option>
+                </select>
+                <input class="blauarbeit-form-zipcode" name="zipcode" type="text" inputmode="numeric" pattern="\d{5}" maxlength="5" placeholder="PLZ" aria-label="PLZ">
+                <button type="submit" class="cmd cmd-l blauarbeit-form-submit">Suchen</button>
+            </form>
+            <div class="blauarbeit-slider-wrapper">
+                <button type="button" class="blauarbeit-nav blauarbeit-nav-prev" aria-label="Zurück" hidden>&lsaquo;</button>
+                <div class="blauarbeit-data" aria-live="polite"></div>
+                <button type="button" class="blauarbeit-nav blauarbeit-nav-next" aria-label="Weiter" hidden>&rsaquo;</button>
+            </div>
+            <p class="blauarbeit-status" hidden></p>
+        </div>
+    </details>
+
+    <script src="handwerker-box.js"></script>
+</body>
+</html>

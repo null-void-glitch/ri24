@@ -1,0 +1,577 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/weitere-hinweise",
+  "category": "Kriterien weitere Hinweise",
+  "criterion_name": "Weitere Hinweise",
+  "criterion_id": "weitere-hinweise",
+  "scraped_at": "2026-05-07T12:20:46.224Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Verträge werden dem Kunden per Post zugesandt. Die Rücksendung erfolgt durch den Kunden nach Unterschrift an die 1822direkt"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "KEINE Mehrfachannahme (Fall annehmen, zurückziehen und neu annehmen - über Schnittstelle wird jedes mal ein Kunde im Allianz-System neu angelegt und scorerelevante Schufaanfrage getätigt)\nWenn Kunde die Angabe eines Ratenkredites vergisst, wird der Fall unwiderruflich abgelehnt\nDoppelteinreichungen (über 2 Vermittler) führen zur sofortigen Ablehnung"
+    },
+    {
+      "bank": "AXA",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "BBBank",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "BHW",
+      "value": "Einreichung:\n\nBitte unbedingt die BHW Zusatzangaben befüllen. Diese werden dann automatisch in die EUROPACE Selbstauskunft übernommen.\nEine RLV-GVV - wird automatisch zur Risikoabsicherung im Darlehensvertrag vorgesehen. Der Kunde hat ein 14-tägiges Widerrufsrecht.\nBei Neubauvorhaben in Kombination mit der DSL Bank wird der Sparbeginn automatisch auf 12 Monate nach Vertragsbeginn gesetzt."
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Versand DV an DN"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": ""
+    },
+    {
+      "bank": "DKB",
+      "value": ""
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "Einreichungshinweis - Die Einreichung und Abwicklung erfolgt immer über die nachrangig beteiligte Geno-Bank"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Nach erfolgter Genehmigung des Darlehensantrages stellt die ERGO plattformseitig den Status des Antrags entsprechend um.\nDV per Post an Darlehensnehmer:in\nNach Eintreffen des gesamten Vertragspaketes auf dem Postweg mit der originalen Kundenunterschrift, aktualisiert die ERGO den Plattformstatus entsprechend.\nDie ERGO akzeptiert keinen Rückversand des Darlehensvertrages als pdf per E-Mail, oder Upload in die Plattform.\nUm ggf. den Unterschriftsvorgang zu beschleunigen, kann auch das hochgeladene plattformseitige Vertragspaket ausgedruckt und unterschrieben im Original vollständig auf dem Postweg zurückgesendet werden."
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Finanzierung - Produktfeatures (tlw. miteinander kombinierbar):\n\nFamilienhypothek (Produktblatt mit Details): Zinsabschlag für mind. 1 Kind -5 BP wird automatisch in der Plattform berücksichtigt\nHinweis zur Einreichung: Konditionsauf/-abschläge werden automatisch erfasst"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "DV per Post an Filiale"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Sofern alle Antragsteller eine ausländische Staatsangehörigkeit besitzen, verlangt die HUK eine privatschriftliche Zustellungsvollmacht.\nZustellungsbevollmächtigt werden kann jede volljährige natürliche Person mit deutscher Staatsangehörigkeit und Wohnsitz in Deutschland"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Kunden profitieren bei Abschluss einer Immobilienfinanzierung im Rahmen des HVB valyou Programms von einer Prämie von bis zu 300 € pro Jahr\nKondition wird erst verbindlich über die Schnittstelle ermittelt. \n\nGültigkeit der geholten Konditionen:\nEs kann mit jeder gültigen Pricing-ID innerhalb der Angebotsfrist (Tag der Erstellung + max. 2 Werktage) eingereicht werden. Erfolgt eine Einreichung eines Finanzierungsantrages an die HypoVereinsbank ohne Verweis auf eine andere, noch innerhalb der Angebotsfrist gültige Pricing-ID, so gelten die mit dem Finanzierungsantrag übermittelten Konditionen. Eine nachträgliche Änderung ist nicht möglich."
+    },
+    {
+      "bank": "ING",
+      "value": "Beratungsgebühr:\nHöchstens 2 % der Gesamtsumme der ING-DiBa Darlehen pro Kundenfinanzierung (exklusive KfW-Darlehen und Zwischenfinanzierung)\nWichtig: Wenn Du dem Antragsteller eine Beratungsgebühr berechnest, dokumentiere das bitte im Antrag im Feld „Beratungsgebühr“. \nDiese Angabe ist für die Ermittlung des effektiven Jahreszinses erforderlich.\nWeise die Beratungsgebühr gemäß Verbraucherkreditrichtlinie ebenfalls im Darlehensvermittlungsvertrag aus."
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Darlehensvertrag wird in der Sparkasse ausgehändigt"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "DV per Post an Filiale"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "Darlehensvertrag per Post an Kd. und Filiale"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "Darlehensvertrag per Post an DN"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "Darlehensauszahlungen erfolgen ausschließlich auf ein Girokonto bei der Sparkasse.\nSofern kein Girokonto vom Darlehensnehmer bei der Sparkasse vorhanden ist, kann das Baugirokonto zur Abwicklung eröffnet werden. Dafür gelten besondere Bedingungen zusätzlich zu den Bedingungen der Giro-Produktvariante „Classic“ – weitere Einzelheiten auf Nachfrage."
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "Erstellte Kreditverträge werden ausschließlich den Darlehensnehmern zur Verfügung gestellt."
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": ""
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "DV per Post an Kunden"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": ""
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "KSK Tübingen",
+      "value": ""
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "Darlehensvertrag per Post an Filiale"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "DV per Post an Filiale"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "keine  Abtretung der Rückgewährsansprüche möglich\nkeine Einmalvalutierungserklärung möglich"
+    },
+    {
+      "bank": "LBS NordOst (vormals LBS Ost)",
+      "value": "DV per Post an Antragsteller"
+    },
+    {
+      "bank": "LBS Süd",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Highlights der Zusammenarbeit:\n\n100%-Finanzierung möglich, sobald Haushaltsrechnung +/-0\nnegative Rentenphase ist unter folgenden Bedingungen möglich:\nEigennutzer: Kund:innen sind jünger als 45 Jahre\nFremdnutzung: Kund:innen bestätigen schriftlich, dass das Objekt zum Renteneintritt verkauft wird\nkein Ratenansatz bei Ratenkrediten < 12Monaten Restlaufzeit oder Nachweis EK in Höhe der Verbindlichkeiten\nGehaltsansatz möglich bei:\nBeamten auf Probe und Widerruf\nAuszubildenden (mind. drei Abrechnungen nötig; es gelten die Regeln wie bei Befristungen)\nStudenten (mind. 6 Abrechnungen nötig)\nnur ein Darlehensnehmer - auch bei Ehepartnern - möglich"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "Darlehensvertrag per Post an Kund:in, Filiale und per Email/Upload an Vermittler"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "Verträge werden in BaufSmart hochgeladen und nicht an den Kunden versendet. Ausdruck durch erfolgt durch den Vertrieb."
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "PSD München",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "PSD West",
+      "value": "Blankoanteile ab T€ 50 sind mit einer Risiko-LV je Darlehensnehmer zu unterlegen"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "DV per Post an Antragsteller"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Girokonto:\nSofern der Kunde noch kein Girokonto bei der Salzlandsparkasse hat, ist hier die Einrichtung eines Girokontos erforderlich, das ausschließlich dem Zweck dient, Kapital anzusammeln, um Verbindlichkeiten aus dem Darlehen zu erfüllen."
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "DV per Post an Antragsteller"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "Gelb-Hinweise:\nGelbhinweis im Vorgang zum einzubringenden Eigenkapital unbedingt beachten, eine Abweichung prüft die Sparda bei jedem Vorgang im Rahmen einer Einzelfallentscheidung \nDer Genossenschaftsanteil wird bei der Sparda BW technisch erst angelegt, wenn die Widerrufsfrist verstrichen ist. Eure Kund:innen haben keinen Nachteil, wenn der Darlehensvertrag nicht zur Stande gekommen ist."
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Nachfinanzierungen:\nsind bei der Bank anzufragen, werden individuell kalkuliert und nicht verprovisioniert\n \nVerzicht auf Forderungsverkauf:\nBei ordnungsgemäßer Darlehensbedienung ist der Forderungsverkauf nur mit Zustimmung des Darlehensnehmer möglich / bei nicht ordnungsgemäßer Darlehensbedienung Verkauf ohne Zustimmung möglich"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "DV per Post an Kund:innen"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "DV per Post an Kund:innen"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Originalvertrag geht an den Kunden"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "DV per Post an Kund:innen"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Girokonto:\nSparda-Giro Konto (Onlinekonto - gebührenfrei) wird benötigt (vorausgefüllter Kontoeröffnungsantrag wird in jedem Fall über Dokumente generiert)\nAuszahlung und Rateneinzug erfolgt über Sparda-Giro Konto (zum 30. eines Monats Einzug der Darlehensrate(n))"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "Vertragserstellung durch die Sparkasse"
+    },
+    {
+      "bank": "Sparkasse Altmark West",
+      "value": "Vertrag:\n\nwird dem Kunden in der Sparkasse überreicht\nVertragserstellung durch die Sparkasse"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "DV kommen per Post an DN - KfW nur nach Absprache"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Zur Erstellung der Darlehensverträge benötigt die Sparkasse Bayreuth das Datum mit dem gewünschten Tilgungsbeginn"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "Vertragsdruck durch die Sparkasse"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Verträge ohne KfW per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "DV per Post an DN und Filiale"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Bestätigung auf eingereichten Unterlagen, dass Originale vorgelegen haben, erforderlich"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Gladbeck",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Gebühr Jahreskontoauszug 12,50 EUR p.a. (Auszug kann auf Kundenwunsch abgewählt werden)"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Kinzigtal",
+      "value": "Darlehensverträge:\nper Post an Antragsteller:in, Vermittler:in und Filiale\nper Email an VP"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "DV per Post an Antragsteller"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Per Post an Antragsteller und Filiale"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "DV per Post an Kund:in und Vermittler:in"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "DV per Post an Darlehensnehmer:in und Vermittler:in"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "Vertrag geht per Post an Filile, nicht an Kund:innen"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche:\nNein"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Zur Erstellung der Darlehensverträge wird die Angabe des gewünschten Tilgungsbeginns benötigt. \nBitte beachtet, dass eine Innen- und Außenbesichtigung des Sicherungsobjektes der Sparkasse Neu-Ulm - Illertissen nach Kaufpreiszahlung bzw. Fertigstellung erfolgt."
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "Abtretung der Ansprüche aus unterschrieben KV:\nNicht möglich"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "DV per Post an Kund:innen"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "DV per Post an Kund:in"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Bestätigung, dass Originale vorgelegen haben, auf eingereichten Unterlagen notwendig"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche:\nNein"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "DV per Post an DN auf Anfrage"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Vertrag - wird dem Kunden im Hause der Sparkasse überreicht oder per Post zugestellt"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "Sparkasse Wilhelmshaven",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "DV per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "Vertrag per Post an Antragsteller:in und in Filiale"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Vertragserstellung durch SSK Remscheid\nFinanzierung von Investoren, die selbst zur Miete wohnen, werden nicht begleitet"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Objektinformationen - Anlage zum Beleihungswertermittlungsauftrag ist Pflichtunterlage"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "DV per Post an DN und Vermittler:in"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "Hohe Flexibilität und schnelle Entscheidungen.\nIndividuelle Lösungssuche z.B. auch bei Scheidung oder Änderung der persönlichen Situation."
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Kostenfreies Gehaltskonto für Baukunden möglich"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Verpfändung der Auflassungvormerkung bzw. Abtretung der Ansprüche - nicht möglich"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "Das Abwicklungskonto für die Baufinanzierung sollte bei der Volksbank in der Region eG als 12 Monate kostenfreies Baugirokonto geführt werden. (Ausnahme bei Darlehensablösungen)"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "Vertragsunterlagen per Post an Darlehensnehmer:in"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "DV per Post an Antragsteller:in"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Versand Vertragsunterlagen an den Kunden\t\nSpätestens eine Woche nach Kreditentscheidung gehen die Verträge in die Post.\nDer Kunde bekommt eine Mail, sobald die VB die Verträge versendet hat."
+    },
+    {
+      "bank": "Versand Vertragsunterlagen an den Kunden",
+      "value": "Spätestens eine Woche nach Kreditentscheidung gehen die Verträge in die Post.\nDer Kunde bekommt eine Mail, sobald die VB die Verträge versendet hat."
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "Versand Bank: Ja, digital \nUnterschrift erfolgt digital"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Der Abschluss einer Mitgliedschaft (50,- EUR Einmalbetrag je KN)"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "Darlehensverzicht bis zu 10% der Darlehenssumme sind bei Neubauvorhaben und Modernisierungen kostenfrei möglich. (außer bei KfW-Darlehen)"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Vertragsversand direkt an den Kunden/die Kundin"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Forderungsverkauf:\nKein Forderungsverkauf bei ordnungsgemäß bedienten Darlehen"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "DV per Post an DN"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "Formular \"Zusatzinformationen zum Antrag Mein Baugeld\" muss bei Beantragung eingereicht werden.\nDer Erwerb von mind. 1 Anteils à 100 EUR pro Person ist Pflicht."
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "Kostenloses Bauabwicklungskonto im Haus der VR Bank RheinAhrEifel während der Bauphase erforderlich."
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Grundschuld:\nAchtung: Es ist IMMER eine Neueintragung erforderlich. Abtretungen sind nicht möglich."
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Online Banking:\nOnlineBanking standardmäßig, da Wegfall des papierhaften Darlehenskontoauszuges (bitte mit Kreditantrag Nachricht an Bank, welcher Darlehensnehmer den OnlineBanking-Zugang erhalten soll)."
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "DV per Post an DN, in Ausnahmefällen auch an Vermittler"
+    }
+  ]
+}

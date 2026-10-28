@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "ri24_pwa_notification_id",
+      "value": "9si9l7plqwkwykbmoh0z",
+      "domain": ".regionalimmobilien24.de",
+      "path": "/",
+      "expires": 1794040029,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ri24spc2g6b1a0",
+      "value": "ri24-e5ee4841-5dde4e6c-c684ff27-7d4b1464-1791448629e360ec99c04445c0feba863b3b22df54",
+      "domain": ".regionalimmobilien24.de",
+      "path": "/",
+      "expires": 1791448629.755517,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.regionalimmobilien24.de",
+      "localStorage": [
+        {
+          "name": "cookiefirst-id",
+          "value": "null"
+        }
+      ]
+    }
+  ]
+}

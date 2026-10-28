@@ -1,0 +1,496 @@
+{
+  "bank": "Mittelbrandenburgische Sparkasse",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nAntragsteller muss Eigentümer oder Miteigentümer der Immobilie sein oder werden (keine „Bonitätsleihe“) (50/50)"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ohne Beschränkung"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Darlehensnehmer muss sich 8% Annuität leisten können"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100.000 - 999.900\nMaximaler Finanzierungsbetrag inklusive bereits bestehender Immobilienfinanzierungen bei der MBS"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bis 80% Auslauf des ermittelten Wertes\nauch im 2. Rang (Voranfrage erforderlich)\nVerwendungszweck muss belegt werden\nSollte eine andere Immobilie damit erworben werden, sind die Unterlagen hierzu einzureichen (Exposé / Grundbuch/ Kostenaufstellung)"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Modernisierungskosten werden in einer Summe, ab 50.000€ in Teilbeträgen ausgezahlt"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "kostenfrei / bis zu 10% der Darlehenssumme / innerhalb von 12 Monaten nach Darlehensannahme"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "In Berlin ist nachrangige Einbindung der Förderdarlehen der IBB möglich"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nur für den Kauf von Baugrundstücken möglich - diese Ausnahme ist nicht administrierbar auf der Plattform"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 - 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60 - derzeit wird kein Forwardaufschlag genommen"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bei mehreren Darlehen mit Teilabtretung Grundschulden,wenn Ablösungstermine mehr als 6 Monate voneinander abweichen\nBei Ablöseterminen innerhalb 6 Monate erfolgt Gesamtablösung zu einem Termin"
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bei Forward/Anschlussfinanzierung auf volle 100 € anpassen\n \nErstattung bis zu 500 € bei Umschuldung/Ablösung von Fremdbanken(Grundbuchkosten,..)"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "86852876"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme außer 298"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "keine"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart > Fallanlage als Anschlussfinanzierung wie Neugeschäft\nVerkehrswert zur Konditionsberechnung wird durch die Sparkasse vorgegeben, bitte die Funktion Darlehensdatenanfrage benutzen"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nFinanzierungsvorschlag mit unterschriebenem Annahmeschreiben"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "Analog Neugeschäft"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "8% Mindestannuität für die Tragbarkeitsrechnung der Kapitaldienstrechnung berechnet.\nTilgungsaussetzungen bis zu 2 Jahren sind möglich"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5% /10% gegen Aufschlag von 10 BP"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "mindestens 1% Tilgung zzgl. ersparter Zinsen bis 80%,\n1,5% bis 95%,\nab 95% Finanzierungsauslauf mindestens 2,5% zzgl. ersparter Zinsen"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "auf Antrag kostenfreie Tilgungsaussetzung bis zu 24 Monate während der gesamten Darlehenslaufzeit"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Ja, zweimal kostenfrei innerhalb Tilgungskorridor zwischen 2 und 6% während der Zinsbindung  (Korridor kann individuell gestaltet werden – max. 4 Prozentpunkte), der Mindesttilgungssatz darf nicht unterschritten werden, (nur für Eigennutzer)"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Die MBS gewährt einen Abschlag von 0,10%-Punkten auf die ermittelte Kundenkondition, wenn\na) die Immobilie bis Ende 2020 fertiggestellt und ggf. nach den Sanierungsmaßnahmen mindestens die Energieeffizienzstufe A oder\nb) die Immobilie ab 2021 fertiggestellt (Neubau) wurde und ggf. nach Sanierungsmaßnahmen die Energieeffizienzstufe A+ erreicht"
+    },
+    "blankoauszahlung": {
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "value": "bei Bauvorhaben Auszahlung vorab mind. 50.000€ mit nachträglichem Verwendungsnachweis"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Bis max. 25.000€, ab 10.000€ inkl. Nachweis über Qualifikation der ausführenden Personen, akzeptiert, jedoch dürfen diese nur 25% der Mod.-Kosten ausmachen"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "nicht möglich"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja, bis 90% BLA"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Voranfrage möglich wenn Mieteinnahmen daraus nicht für KDF benötigt werden"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, RH, ETW, MFH (bis max. 90%)\nETW-Finanzierung, wenn Wohnungsgrundbuch vorhanden\n(keine Finanzierung bei offener Umwandlung von Teileigentum in Wohneigentum"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional (Lkr. LDS, TFL, PM, HVL, OHV und Brandenburg, Potsdam und Berlin)\nAlle Objekte im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Bauland (Nachweis muss bei Antragstellung vorliegen)\nBebauungsplan\nBauvoranfrage\nSchreiben Gemeinde/ Stadt, dass GS bebaut werden darf"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, Elterngeldbescheid zzgl. Schreiben Antragsteller, zu welchen Bedingungen die Arbeiten weitergeführt wird nach Elternzeit (Kein Schreiben vom AG erforderlich)"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14\n• Schichtzulage 100% - ø 12 Monate\n• Provision 80% des Vorjahres, wenn branchenüblich\n• Keine Ansatz Tantiemen oder Bonifikationen"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "100%, wenn mind. 6 Monate Beschäftigung"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Nein, nur als Ausgabe zu berücksichtigen"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "nur branchenübliche Zeitverträge > dann mit Nachweis mehrmalige Verträge"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Weiteres Vermögen:\nmax. 3 weitere Bestandsobjekte"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4, bis zu 2 Haushalte (bei Rotscore bitte anfragen)"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Nur Wohnimmobilien (kein Ansatz Gewerbemieten)\ngemäß Mietspiegel oder (geringere) Ist-Miete\nBerlin: Mietspiegel Senatsverwaltung Berlin\nMieteinnahmen dürfen die Einkünfte aus Angestelltentätigkeit nicht übersteigen"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0,00"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Unbefristeter Aufenthaltstitel erforderlich"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Netto gemäß Rentenbescheid abzgl. Abzüge für Steuern und Sozialabgaben (Steuerbescheid einreichen!)\n \nAnsatz Einkommen:\n• Ansatz 52% vom aktuellen Nettoeinkommen\n• Renteninformation: Bruttorente abzgl. Sozialabgaben und Steuern (circa 35%)\nKapitaldienst:\n• Bei Restschuld bis 60% AHK/KP mind. 8 % Annuität, bei höheren Auslauf 11% Annuität auf Restschuld\n• Nutzung Sondertilgungsoption bis Rentenphase, um Restschuld zu verringern oder zurückzuführen (schriftliche Bestätigung Antragsteller für Nutzung Option notwendig, Vordruck vorhanden)"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Max. 3 weitere Bestandsobjekte"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DVV / Vermittler-VVI"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Im Hause der Sparkasse, S-Ident. Vertrag wird auch per Post an den Kunden versandt"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "• durch externen Dienstleister ongeo GmbH\n• Besichtigung durch Dienstleister nach Darlehensauszahlung\n• Zwischenbesichtigungen während Bauphase nach individueller Vereinbarung"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  },
+  "company_id": "10e2d3453b9489697a0c44e903e55098",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/10e2d3453b9489697a0c44e903e55098",
+  "bank_category": "Sparkassen",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "02.08.24",
+      "title": "Mittelbrandenburgische Sparkasse - Sonderaktion 12 Monate BRZ-freie Zeit für Neubauvorhaben"
+    },
+    {
+      "date": "06.02.24",
+      "title": "Mittelbrandenburgische Sparkasse - Sonderaktion 12 Monate BZ-freie Zeit für Neubauvorhaben wieder bis 12.06.2024"
+    },
+    {
+      "date": "28.07.23",
+      "title": "Mittelbrandenburgische Sparkasse - Update zur Sonderaktion 12 Monate BRZ-freie Zeit für Neubauvorhaben vom 01.08.2023 bis zum 30.11.2023"
+    },
+    {
+      "date": "17.02.23",
+      "title": "Mittelbrandenburgische Sparkasse - Anpassungen Lebenshaltungskosten"
+    },
+    {
+      "date": "02.02.23",
+      "title": "Mittelbrandenburgische Sparkasse - Sonderaktion 12 Monate BZ-freie Zeit vom 01.02.-31.05.2023"
+    }
+  ]
+}

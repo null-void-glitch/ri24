@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teammitglied bearbeiten - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<style>
+  .ibox .form-group { margin-bottom: 10px; }
+  .ibox .col-form-label { font-weight: 600; font-size: 12px; padding-top: 7px; }
+  .ibox .form-control { font-size: 13px; }
+  .ibox-footer { padding: 10px 15px; background: #f7f7f7; border-top: 1px solid #e7eaec; }
+  .upload-preview { border: 1px solid #e7eaec; padding: 8px; border-radius: 4px; background: #fafafa; text-align: center; }
+  .upload-preview img { max-width: 100%; max-height: 180px; object-fit: contain; }
+  .checkrow { padding: 4px 0; }
+</style>
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Team › bearbeiten (/adm/.../master/team/edit/?id=123) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Edit form for team member id=123. Each section has its own Speichern button (original uses per-section AJAX saves). File uploads are separate POST forms. Photo hotlinked from public RI24 CDN (200×200 max).
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li class="active"><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Teammitglied bearbeiten</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Team</a></li><li class="breadcrumb-item active"><strong>bearbeiten</strong></li></ol>
+    </div>
+</div>
+<div style="margin:-10px 0 10px 20px;"><a href="../team/index.html" class="btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Zurück zur Liste</a></div>
+<div class="wrapper wrapper-content animated fadeInRight">
+
+  <!-- Row 1 -->
+  <div class="row">
+    <div class="col-md-6">
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>persönliche Daten</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Region</label>
+  <div class="col-sm-8"><select name="regioncode" class="form-control form-control-sm"><option value="">--- keine Region ---</option></select></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Vorname</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="firstname" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Nachname</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="lastname" value="Immobilienanfragen" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Titel</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="title" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Position</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="position" value="bei Fragen zu Immobilien wende Dich bitte direkt an den entsprechenden Anbieter aus dem Exposé." placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Bezeichnung im<br>Partner-Login-Bereich</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="partnerlogin_label" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Telefon</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="phone" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Fax</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="fax" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Mobiltelefon</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="mobile" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Whatsapp</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="whatsapp" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">E-Mail</label>
+  <div class="col-sm-8"><input type="email" class="form-control form-control-sm" name="email" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Calendly-Link</label>
+  <div class="col-sm-8"><div class="input-group input-group-sm"><div class="input-group-prepend"><span class="input-group-text">https://calendly.com/</span></div><input type="text" class="form-control form-control-sm" name="calendly" placeholder="ihr-name"><input type="text" class="form-control form-control-sm" name="calendly_zusatz" value="/60min" style="max-width:80px;"></div></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Website</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="website" value="" placeholder="" ></div>
+</div>
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Sortierung</label>
+  <div class="col-sm-8"><input type="number" class="form-control form-control-sm" name="sorting" value="-31" placeholder="" style="max-width:100px;"></div>
+</div><hr class="m-t-xs m-b-xs">
+<div class="checkrow">
+  <label class="font-normal">
+    <input type="checkbox" name="is_baufi" value="1"> Teammitglied ist ein Baufinanzierer
+  </label>
+</div>
+<div class="checkrow">
+  <label class="font-normal">
+    <input type="checkbox" name="is_finpartner" value="1"> Finanzierungspartner
+  </label>
+</div>
+<div class="checkrow">
+  <label class="font-normal">
+    <input type="checkbox" name="show_on_mlp" value="1"> auf der Landingpage <em>/immobilienportal-partner-werden/</em> (MLP) anzeigen
+  </label>
+</div><div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div></form></div>
+</div>
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>EUROPACE Partner IDs</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Qualitypool (Haupt-ID)</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="europace_partner_id" value="" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Forum</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="europace_partner_id_forum" value="" placeholder="" ></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div>
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>Partner-Status: nicht gesetzt</h5></div>
+  <div class="ibox-content">
+<div class="form-actions">
+  <span class="badge badge-secondary m-r-sm">nicht gesetzt</span>
+  <a href="../team-partner-edit/index.html" class="btn btn-success btn-sm"><i class="fa fa-pencil"></i> bearbeiten</a>
+</div></div>
+</div>
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>Partner Links</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">finCrm</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="link_uri_fincrm" value="https://www.fincrm.de/login" placeholder="" ></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div>
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>MobiBox Login</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Login</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="texte_mobibox_login" value="" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Passwort</label>
+  <div class="col-sm-8"><input type="password" class="form-control form-control-sm" name="texte_mobibox_pw"></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div>
+    </div>
+    <div class="col-md-6">
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>Unternehmensdaten</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Firmenbezeichnung</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="firmenbezeichnung" value="" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Straße, Nr</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="street" value="" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">PLZ / Ort</label>
+  <div class="col-sm-8"><div class="row"><div class="col-4"><input type="text" class="form-control form-control-sm" name="zip" placeholder="PLZ"></div><div class="col-8"><input type="text" class="form-control form-control-sm" name="city" placeholder="Ort"></div></div></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Öffnungszeiten</label>
+  <div class="col-sm-8"><textarea name="opening_hours" class="form-control form-control-sm" rows="4"></textarea><small class="text-muted">HTML erlaubt</small></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div>
+      
+<div class="ibox ">
+  <div class="ibox-title"><h5>SMS Erinnerung</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="checkrow">
+  <label class="font-normal">
+    <input type="checkbox" name="use_sms" value="1"> SMS bei BaufiLead versenden
+  </label>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Nummer für SMS</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="phonenumber" value="" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">BaufiLead SMS</label>
+  <div class="col-sm-8"><textarea name="sms_baufilead" class="form-control form-control-sm" rows="4">Ein neuer Finanzierungsinteressent wartet auf Dich. Nimm den Lead innerhalb von 30 Minuten an.</textarea></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div>
+    </div>
+  </div>
+
+  <!-- Row 2: Foto uploads -->
+  <div class="row">
+    <div class="col-md-3">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Foto</h5></div>
+  <div class="ibox-content">
+<div class="upload-preview"><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png" alt="" class="m-b-sm"></div>
+<div class="m-t-sm">
+  <input type="file" name="image" class="form-control-file m-b-xs">
+  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-upload"></i> Hochladen</button> <button type="button" id="delimage" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i> Löschen</button>
+</div></div>
+</div></div>
+    <div class="col-md-3">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Foto Widget Pose</h5></div>
+  <div class="ibox-content">
+<div class="upload-preview"><p class="text-muted small">Kein Bild vorhanden</p></div>
+<div class="m-t-sm">
+  <input type="file" name="image_widget_pose" class="form-control-file m-b-xs">
+  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-upload"></i> Hochladen</button>
+</div></div>
+</div></div>
+    <div class="col-md-3">
+<div class="ibox ">
+  <div class="ibox-title"><h5>QR-Code</h5></div>
+  <div class="ibox-content">
+<div class="upload-preview"><p class="text-muted small">Kein Bild vorhanden</p></div>
+<div class="m-t-sm">
+  <input type="file" name="qrcode" class="form-control-file m-b-xs">
+  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-upload"></i> Hochladen</button>
+</div></div>
+</div></div>
+    <div class="col-md-3">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Logo Baufi</h5></div>
+  <div class="ibox-content">
+<div class="upload-preview"><p class="text-muted small">Kein Bild vorhanden</p></div>
+<div class="m-t-sm">
+  <input type="file" name="logo_baufi" class="form-control-file m-b-xs">
+  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-upload"></i> Hochladen</button>
+</div></div>
+</div></div>
+  </div>
+
+  <!-- Row 3: Webapp -->
+  <div class="row">
+    <div class="col-md-9">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Webapp-Einstellungen</h5></div>
+  <div class="ibox-content"><form class="form-horizontal">
+
+<div class="checkrow">
+  <label class="font-normal">
+    <input type="checkbox" name="use_webapp" value="1"> persönliche Webapp-Nutzung für Finanzierer aktivieren
+  </label>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Titel</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="webapp_titel" value="Immobilienanfragen - Baufinanzierung" placeholder="" ></div>
+</div>
+
+<div class="form-group row">
+  <label class="col-sm-4 col-form-label">Untertitel</label>
+  <div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="webapp_description" value="BaufinanzierungPrime" placeholder="" ></div>
+</div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div>
+</div></div>
+    <div class="col-md-3">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Logo Webapp</h5></div>
+  <div class="ibox-content">
+<div class="upload-preview"><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png" alt="" class="m-b-sm"></div>
+<div class="m-t-sm">
+  <input type="file" name="webapp_logo" class="form-control-file m-b-xs">
+  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-upload"></i> Hochladen</button> <button type="button" id="delwebapp_logo" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i> Löschen</button>
+</div></div>
+</div></div>
+  </div>
+
+  <!-- Row 4: Löschen -->
+  <div class="row">
+    <div class="col-md-4">
+<div class="ibox ">
+  <div class="ibox-title"><h5>Teammitglied löschen</h5></div>
+  <div class="ibox-content">
+<p class="text-muted">Dieses Teammitglied und alle zugehörigen Daten unwiderruflich löschen.</p>
+<a href="#" class="btn btn-danger"><i class="fa fa-trash-o"></i> Löschen</a></div>
+</div></div>
+  </div>
+
+  <!-- Row 5: Makler -->
+  <div class="row">
+    <div class="col-md-12">
+<div class="ibox ">
+  <div class="ibox-title"><h5>zugeordnete Makler (0)</h5></div>
+  <div class="ibox-content"><p class="text-muted">Aktuell sind keine Makler diesem Berater zugeordnet.</p></div>
+</div></div>
+  </div>
+
+</div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

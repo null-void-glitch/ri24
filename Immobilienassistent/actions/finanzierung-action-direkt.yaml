@@ -1,0 +1,279 @@
+openapi: "3.1.0"
+info:
+  title: "Europace Finanzierungsangebote (Direkt)"
+  description: "Berechnet Finanzierungsangebote über die Europace API v2 im caseless Modus. Nur bei Kaufobjekten verwenden."
+  version: "2.0.0"
+servers:
+  - url: "https://baufinanzierung.api.europace.de"
+    description: "Europace Produktionsserver"
+security:
+  - europaceOAuth: []
+paths:
+  /v2/ergebnisliste/ermittlung:
+    post:
+      operationId: "getFinanzierung"
+      summary: "Finanzierungsangebote ohne Vorgang berechnen"
+      description: "Berechnet Finanzierungsangebote basierend auf Kaufpreis, Darlehenssumme, Zinsbindung und Tilgung. Kein Vorgang wird angelegt (caseless). Siehe Request-Schema für die Feldstruktur."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ErmittlungsRequest"
+      responses:
+        "200":
+          description: "Erfolgreiche Berechnung mit Finanzierungsangeboten."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErmittlungsResponse"
+        "400":
+          description: "Ungültige Anfrage"
+        "401":
+          description: "Nicht authentifiziert – OAuth2 Token ungültig oder abgelaufen"
+        "429":
+          description: "Rate Limit erreicht – bitte später erneut versuchen"
+components:
+  securitySchemes:
+    europaceOAuth:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: "https://api.europace.de/auth/token"
+          scopes:
+            "baufinanzierung:angebot:ermitteln": "Finanzierungsangebote ermitteln"
+  schemas:
+    ErmittlungsRequest:
+      type: object
+      description: "Request-Body mit Kaufpreis und Darlehenswunsch. Siehe Beispiel unten."
+      required:
+        - vorhaben
+      properties:
+        vorhaben:
+          type: object
+          required:
+            - finanzbedarf
+            - finanzierungswunsch
+          properties:
+            finanzbedarf:
+              type: object
+              required:
+                - kaufpreis
+              properties:
+                kaufpreis:
+                  type: number
+                  description: >
+                    Kaufpreis der Immobilie in Euro.
+                    Entnimm diesen Wert aus den Exposé-Daten.
+                  example: 350000
+            finanzierungswunsch:
+              type: object
+              required:
+                - darlehensWuensche
+              properties:
+                darlehensWuensche:
+                  type: array
+                  description: "Liste der gewünschten Darlehen. In der Regel ein einzelnes Annuitätendarlehen."
+                  minItems: 1
+                  maxItems: 1
+                  items:
+                    type: object
+                    required:
+                      - annuitaetenDarlehen
+                    properties:
+                      annuitaetenDarlehen:
+                        type: object
+                        required:
+                          - darlehensBetrag
+                        properties:
+                          darlehensBetrag:
+                            type: number
+                            description: >
+                              Gewünschte Darlehenssumme in Euro.
+                              Berechne: Kaufpreis minus Eigenkapital des Nutzers.
+                            example: 280000
+                          zinsBindungInJahren:
+                            type: integer
+                            description: >
+                              Gewünschte Zinsbindungsdauer in Jahren.
+                              Erfrage vom Nutzer oder verwende Standard: 10.
+                            default: 10
+                            enum: [5, 10, 15, 20, 25, 30]
+                          tilgungsWunsch:
+                            type: object
+                            properties:
+                              anfaenglicheTilgung:
+                                type: number
+                                description: >
+                                  Anfängliche Tilgung in Prozent pro Jahr.
+                                  Erfrage vom Nutzer oder verwende Standard: 2.
+                                default: 2
+                                minimum: 1
+                                maximum: 10
+                              volltilgerWennAnnuitaetenOderForward:
+                                type: boolean
+                                description: "Auf false setzen."
+                                default: false
+                          sondertilgungOptionalJaehrlich:
+                            type: number
+                            description: >
+                              Jährliche Sondertilgungsmöglichkeit in Prozent.
+                              Standard: 5.
+                            default: 5
+                          bereitstellungsZinsFreieZeitInMonaten:
+                            type: integer
+                            description: "Bereitstellungszinsfreie Zeit in Monaten. Standard: 3."
+                            default: 3
+                          provision:
+                            type: number
+                            description: "Provision in Prozent. Standard: 1."
+                            default: 1
+      example:
+        vorhaben:
+          finanzbedarf:
+            kaufpreis: 350000
+          finanzierungswunsch:
+            darlehensWuensche:
+              - annuitaetenDarlehen:
+                  darlehensBetrag: 280000
+                  zinsBindungInJahren: 10
+                  tilgungsWunsch:
+                    anfaenglicheTilgung: 2
+                    volltilgerWennAnnuitaetenOderForward: false
+                  sondertilgungOptionalJaehrlich: 5
+                  bereitstellungsZinsFreieZeitInMonaten: 3
+
+    ErmittlungsResponse:
+      type: object
+      description: "Antwort mit Finanzierungsangeboten im Array 'ergebnisse'. Zeige nur MACHBAR-Angebote, sortiert nach Rate."
+      properties:
+        ermittlungsId:
+          type: string
+          description: "Eindeutige ID dieser Ergebnisermittlung"
+        ergebnisse:
+          type: array
+          description: "Liste der berechneten Finanzierungsangebote"
+          items:
+            type: object
+            properties:
+              darlehensSumme:
+                type: number
+                description: "Gesamte Darlehenssumme in Euro"
+              sollZins:
+                type: number
+                description: "Gebundener Sollzinssatz p.a. in Prozent (z.B. 3.45)"
+              effektivZins:
+                type: number
+                description: "Effektiver Jahreszins in Prozent (z.B. 3.58)"
+              machbarkeit:
+                type: string
+                description: >
+                  MACHBAR = Bank würde Darlehen voraussichtlich gewähren.
+                  NICHT_MACHBAR = In dieser Form nicht möglich.
+                  Zeige dem Nutzer nur MACHBAR-Angebote.
+                enum:
+                  - "MACHBAR"
+                  - "NICHT_MACHBAR"
+              anpassungsStatus:
+                type: string
+                description: "Ob das Angebot angepasst wurde"
+                enum:
+                  - "ANGEPASST"
+                  - "NICHT_ANGEPASST"
+              annahmeFrist:
+                type: string
+                description: "Frist bis zu der das Angebot angenommen werden kann"
+              erzeugtAm:
+                type: string
+                description: "Zeitpunkt der Berechnung"
+              rateMonatlich:
+                type: number
+                description: "Monatliche Gesamtrate in Euro (Zusammenfassung)"
+              darlehen:
+                type: array
+                description: "Details zu den einzelnen Darlehen (meist 1 Stück)"
+                items:
+                  type: object
+                  properties:
+                    typ:
+                      type: string
+                      description: "Darlehenstyp, z.B. ANNUITAETEN_DARLEHEN"
+                    sollZins:
+                      type: number
+                      description: "Sollzins des Darlehens in Prozent"
+                    effektivZins:
+                      type: number
+                      description: "Effektivzins des Darlehens in Prozent"
+                    rateMonatlich:
+                      type: number
+                      description: "Monatliche Rate dieses Darlehens in Euro"
+                    darlehensBetrag:
+                      type: number
+                      description: "Darlehenssumme in Euro"
+                    produktAnbieter:
+                      type: object
+                      description: "Informationen zur finanzierenden Bank"
+                      properties:
+                        name:
+                          type: string
+                          description: "Name der Bank"
+                        produktAnbieterId:
+                          type: string
+                    finanzierenderProduktAnbieter:
+                      type: object
+                      description: "Tatsächlich finanzierende Bank (kann abweichen)"
+                      properties:
+                        name:
+                          type: string
+                          description: "Name der finanzierenden Bank"
+                    zinsBindung:
+                      type: object
+                      properties:
+                        jahre:
+                          type: integer
+                          description: "Zinsbindung in Jahren"
+                        restschuldNachZinsBindungsEnde:
+                          type: number
+                          description: "Restschuld nach Ablauf der Zinsbindung in Euro"
+                        summeZinsenInZinsBindung:
+                          type: number
+                          description: "Gezahlte Zinsen während der Zinsbindung in Euro"
+                    tilgung:
+                      type: object
+                      properties:
+                        anfaenglicheTilgung:
+                          type: number
+                          description: "Anfängliche Tilgung in Prozent"
+                        sonderTilgungJaehrlich:
+                          type: number
+                          description: "Jährliche Sondertilgungsmöglichkeit in Prozent"
+                    gesamtlaufzeitInMonaten:
+                      type: integer
+                      description: "Geschätzte Gesamtlaufzeit bis Volltilgung in Monaten"
+                    gesamtkosten:
+                      type: number
+                      description: "Summe aller Zahlungen über die Gesamtlaufzeit in Euro"
+                    bereitstellung:
+                      type: object
+                      properties:
+                        bereitstellungsZinsfreieZeitInMonaten:
+                          type: integer
+                        bereitstellungsZins:
+                          type: number
+              beleihung:
+                type: array
+                description: "Beleihungswerte der Bank"
+                items:
+                  type: object
+                  properties:
+                    summe:
+                      type: number
+                      description: "Beleihungswert in Euro"
+                    auslauf:
+                      type: number
+                      description: "Beleihungsauslauf in Prozent"
+              bausparAngebote:
+                type: array
+                description: "Ggf. enthaltene Bausparangebote"
+                items:
+                  type: object

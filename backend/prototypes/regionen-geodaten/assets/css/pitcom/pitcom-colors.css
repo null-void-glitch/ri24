@@ -1,0 +1,1159 @@
+/**
+Farbschema pitcom
+
+HAUSFARBE
+
+grün: #A4C735
+
+SCHMUCKFARBEN
+
+grün (success): #A4AE00
+gelb: #FDC400
+blaugrün: #008495
+Magenta: #B5007C
+pink: E3006A
+ */
+
+/*
+ *
+ *   SKIN 1 - INSPINIA - Responsive Admin Theme
+ *   NAME - Lime dark (reference colorscheme)
+ *
+*/
+.pitcom .page-item.active .page-link {
+    background-color: #A4C735;
+    border-color: #A4C735;
+    color: white
+}
+
+.pitcom .form-control:focus, .pitcom .single-line:focus {
+    border-color: #A4C735;
+}
+
+.pitcom .has-success .form-control,
+.pitcom .has-success .form-control:focus {
+    border-color: #A4AE00;
+}
+
+.pitcom .has-success .control-label {
+    color: #A4AE00;
+}
+
+.pitcom .noUi-connect {
+    background: none repeat scroll 0 0 #A4C735;
+}
+
+.pitcom [class*="alert-"] {
+    border-radius: 0 !important;
+}
+
+.pitcom [class*="alert-"] a {
+    color: white;
+    text-decoration: underline !important;
+}
+
+.pitcom .alert-success {
+
+    border-radius: 0 !important;
+    color: white;
+    background-color: #a4ae00;
+    border-color: #a4ae00;
+}
+
+.last.center.options .green {
+    color: #a4ae00;
+}
+
+.pitcom .alert-danger {
+    color: white;
+    background-color: #ed5565;
+    border-color: #ed5565;
+}
+
+.pitcom .alert-info {
+    color: white;
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.pitcom .inspinia-notify.alert-info {
+    border-left: 6px solid #A4C735;
+}
+
+.pitcom .alert-warning {
+    background-color: #FDC400;
+    border-color: #FDC400;
+}
+
+.pitcom .pagination .footable-page.active a {
+    background-color: #A4C735;
+    border-color: #A4C735;
+    color: white;
+}
+
+.pitcom .forum-item.active .fa {
+    color: #A4C735;
+}
+
+.pitcom .forum-item.active a.forum-item-title {
+    color: #A4C735;
+}
+
+.pitcom .vertical-date small {
+    color: #A4C735;
+}
+
+.pitcom .login-logo-container {
+    background: #A4C735;
+    padding: 2em;
+    border-radius: 3px;
+}
+
+.pitcom .login-logo-container > svg > path, .pitcom .login-logo-container > svg > rect {
+    fill: #fff;
+}
+
+.pitcom .minimalize-styl-2 {
+    margin: 14px 5px 5px 30px;
+}
+
+.pitcom .navbar-top-links li:last-child {
+    margin-right: 30px;
+}
+
+.pitcom.fixed-nav .minimalize-styl-2 {
+    margin: 14px 5px 5px 15px;
+}
+
+.pitcom .spin-icon {
+    background: #A4C735 !important;
+}
+
+.pitcom .dropdown-menu > .active > a,
+.pitcom .dropdown-menu > .active > a:focus,
+.pitcom .dropdown-menu > .active > a:hover {
+    background-color: #A4C735;
+}
+
+body.mini-navbar .nav-header {
+    background-color: #A4C735;
+}
+
+.pitcom .nav > li.active {
+    border-color: #A4C735;
+    /*background: #293846;*/
+}
+
+.pitcom .nav-header {
+    background-color: #333333;
+    background-image: none;
+}
+
+.pitcom.mini-navbar .nav-second-level {
+    background: #333333;
+}
+
+.pitcom .top-navigation .navbar-nav .dropdown-menu > .active > a {
+    color: #A4C735;
+}
+
+.pitcom .top-navigation .nav > li a:hover,
+.pitcom .top-navigation .nav > li a:focus {
+    color: #A4C735;
+}
+
+.pitcom .top-navigation .nav > li.active > a {
+    color: #A4C735;
+}
+
+.pitcom .top-navigation .navbar-brand {
+    background: #A4C735;
+}
+
+.pitcom .navbar-toggler {
+    background-color: #A4C735;
+}
+
+.pitcom .breadcrumb {
+    background: transparent;
+}
+
+.pitcom .page-heading {
+    border: none;
+}
+
+.pitcom #side-menu > li.active {
+    background: #333333;
+}
+
+.pitcom #side-menu > li > a {
+    /*color: #d4d8df;*/
+}
+
+.pitcom ul.nav-second-level {
+    background-color: inherit;
+}
+
+.pitcom #side-menu > li.active > a {
+    color: #fff;
+}
+
+.pitcom .navbar-minimalize {
+    background: #A4C735;
+    border-color: #A4C735;
+}
+
+.nav.navbar-right > li > a {
+    color: #444444;
+}
+
+/*.pitcom .ibox-tools a {*/
+/*    color: #444444 !important;*/
+/*}*/
+
+body.pitcom {
+    background: #333333;
+    color: #333333;
+}
+
+body.pitcom.gray-bg {
+    background: #f3f3f4;
+}
+
+.pitcom .dashboard-header {
+    background: transparent;
+    border-bottom: none !important;
+    border-top: none;
+    padding: 20px 30px 10px 30px;
+}
+
+.fixed-nav.pitcom .navbar-fixed-top {
+    background: #fff;
+}
+
+.pitcom .wrapper-content {
+    padding: 30px 15px;
+}
+
+.pitcom #page-wrapper {
+    background: #f4f6fa;
+}
+
+.pitcom .ibox-title,
+.pitcom .ibox-content {
+    border-width: 1px;
+}
+
+.pitcom .ibox-title {
+    background-color: #f3f3f4;
+    color: #333;
+}
+
+.pitcom .ibox-content:last-child {
+    border-style: solid solid solid solid;
+}
+
+.pitcom .nav-header {
+    padding: 35px 25px 25px 25px;
+}
+
+.pitcom .nav-header a.dropdown-toggle {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.pitcom .nav-header a.dropdown-toggle .text-muted {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.pitcom .profile-element {
+    text-align: center;
+}
+
+.pitcom .profile-element > svg {
+    max-width: 100%;
+}
+
+.pitcom .profile-element > svg > path, .pitcom .profile-element > svg > rect {
+    fill: #fff;
+}
+
+.pitcom .rounded-circle {
+    border-radius: 0px;
+}
+
+.pitcom .navbar-default .nav > li > a {
+    color: #d4d8df;
+}
+
+.pitcom .navbar-default .nav > li > a:hover,
+.pitcom .navbar-default .nav > li > a:focus {
+    background: #3d3d3d;
+    color: #fff;
+}
+
+.pitcom .navbar-default .special_link a {
+    background: #A4C735;
+}
+
+.pitcom .navbar-default .special_link a:hover {
+    background: #A4C735 !important;
+}
+
+.pitcom .navbar-default .special_link a span.label {
+    color: #A4C735;
+}
+
+.pitcom .navbar-default .landing_link a {
+    background: #0b7fbd;
+}
+
+.pitcom .navbar-default .landing_link a:hover {
+    background: #A4C735 !important;
+}
+
+.pitcom .nav.nav-tabs > li.active > a {
+    color: #555;
+}
+
+.pitcom .nav.nav-tabs > li.active {
+    background: transparent;
+}
+
+.pitcom .btn-outline {
+    color: inherit;
+    background-color: transparent;
+}
+
+.pitcom .btn-default {
+    color: #333;
+}
+
+.pitcom .btn-primary.btn-outline {
+    color: #A4C735;
+}
+
+.pitcom .btn-success.btn-outline {
+    color: #A4AE00;
+}
+
+.pitcom .btn-info.btn-outline {
+    color: #008495;
+}
+
+.pitcom .btn-warning.btn-outline {
+    color: #f8ac59;
+}
+
+.pitcom .btn-danger.btn-outline {
+    color: #ed5565;
+}
+
+.pitcom .btn-primary.btn-outline:hover,
+.pitcom .btn-success.btn-outline:hover,
+.pitcom .btn-info.btn-outline:hover,
+.pitcom .btn-warning.btn-outline:hover,
+.pitcom .btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.pitcom .label-primary,
+.pitcom .badge-primary {
+    background-color: #A4C735;
+    color: #FFFFFF;
+}
+
+.pitcom .label-success,
+.pitcom .badge-success {
+    background-color: #A4AE00;
+    color: #FFFFFF;
+}
+
+.pitcom .label-warning,
+.pitcom .badge-warning {
+    background-color: #f8ac59;
+    color: #FFFFFF;
+}
+
+.pitcom .label-warning-light,
+.pitcom .badge-warning-light {
+    background-color: #f8ac59;
+    color: #ffffff;
+}
+
+.pitcom .label-danger,
+.pitcom .badge-danger {
+    background-color: #ed5565;
+    color: #FFFFFF;
+}
+
+.pitcom .label-info,
+.pitcom .badge-info {
+    background-color: #008495;
+    color: #FFFFFF;
+}
+
+.pitcom .toast {
+    background-color: #A4C735;
+}
+
+.pitcom .toast-success {
+    background-color: #A4AE00;
+}
+
+.pitcom .toast-error {
+    background-color: #ed5565;
+}
+
+.pitcom .toast-info {
+    background-color: #008495;
+}
+
+.pitcom .toast-warning {
+    background-color: #f8ac59;
+}
+
+.pitcom .stream .stream-badge i.bg-success {
+    color: #ffffff;
+    background-color: #A4AE00;
+    border-color: #A4AE00;
+}
+
+.pitcom .stream .stream-badge i.bg-primary {
+    color: #ffffff;
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.pitcom .stream .stream-badge i.bg-warning {
+    color: #ffffff;
+    background-color: #f8ac59;
+    border-color: #f8ac59;
+}
+
+.pitcom .stream .stream-badge i.bg-info {
+    color: #ffffff;
+    background-color: #008495;
+    border-color: #008495;
+}
+
+.pitcom .stream .stream-badge i.bg-danger {
+    color: #ffffff;
+    background-color: #ed5565;
+    border-color: #ed5565;
+}
+
+.pitcom .gray-bg,
+.pitcom .bg-muted {
+    background-color: #f3f3f4;
+}
+
+.pitcom .blue-bg,
+.pitcom .bg-success {
+    background-color: #A4AE00 !important;
+    color: #ffffff;
+}
+
+.pitcom .navy-bg,
+.pitcom .bg-primary {
+    background-color: #A4C735 !important;
+    color: #ffffff;
+}
+
+.pitcom .lazur-bg,
+.pitcom .bg-info {
+    background-color: #008495 !important;
+    color: #ffffff;
+}
+
+.pitcom .yellow-bg,
+.pitcom .bg-warning {
+    background-color: #f8ac59 !important;
+    color: #ffffff;
+}
+
+.pitcom .red-bg,
+.pitcom .bg-danger {
+    background-color: #ed5565 !important;
+    color: #ffffff;
+}
+
+.pitcom .panel-primary {
+    border-color: #A4C735;
+}
+
+.pitcom .panel-primary > .panel-heading {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.pitcom .panel-success {
+    border-color: #A4AE00;
+}
+
+.pitcom .panel-success > .panel-heading {
+    background-color: #A4AE00;
+    border-color: #A4AE00;
+    color: #ffffff;
+}
+
+.pitcom .panel-info {
+    border-color: #008495;
+}
+
+.pitcom .panel-info > .panel-heading {
+    background-color: #008495;
+    border-color: #008495;
+    color: #ffffff;
+}
+
+.pitcom .panel-warning {
+    border-color: #f8ac59;
+}
+
+.pitcom .panel-warning > .panel-heading {
+    background-color: #f8ac59;
+    border-color: #f8ac59;
+    color: #ffffff;
+}
+
+.pitcom .panel-danger {
+    border-color: #ed5565;
+}
+
+.pitcom .panel-danger > .panel-heading {
+    background-color: #ed5565;
+    border-color: #ed5565;
+    color: #ffffff;
+}
+
+.pitcom .onoffswitch-label {
+    border: 2px solid #A4C735;
+}
+
+.pitcom .onoffswitch-inner:before {
+    background-color: #A4C735;
+}
+
+.pitcom .onoffswitch-switch {
+    border: 2px solid #A4C735;
+}
+
+.pitcom .progress-bar {
+    background-color: #A4C735;
+}
+
+.pitcom .progress-bar-navy-light {
+    background-color: #3dc7ab;
+}
+
+.pitcom .progress-bar-success {
+    background-color: #A4AE00;
+}
+
+.pitcom .progress-bar-info {
+    background-color: #008495;
+}
+
+.pitcom .progress-bar-warning {
+    background-color: #f8ac59;
+}
+
+.pitcom .progress-bar-danger {
+    background-color: #ed5565;
+}
+
+/* COLORS */
+.pitcom .text-navy {
+    color: #A4C735 !important;
+}
+
+.pitcom .category-list li a .text-navy {
+    color: #A4C735;
+}
+
+.file-list li a:hover {
+    color: #A4C735;
+}
+
+.pitcom .text-success {
+    color: #A4AE00 !important;
+}
+
+.pitcom .text-info {
+    color: #008495 !important;
+}
+
+.pitcom .text-warning {
+    color: #f8ac59 !important;
+}
+
+.pitcom .text-danger {
+    color: #ed5565 !important;
+}
+
+.btn-primary {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: #0077b9;
+    border-color: #0077b9;
+    color: #FFFFFF;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #A4AE00;
+    border-color: #A4AE00;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus {
+    color: #fff;
+    background-color: #909900;
+    border-color: #909900;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+    color: #fff;
+    background-color: #939911;
+    border-color: #939911;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #909900;
+    border-color: #909900;
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #008495;
+    border-color: #008495;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus {
+    color: #fff;
+    background-color: #006e7c;
+    border-color: #006e7c;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+    color: #fff;
+    background-color: #006e7c;
+    border-color: #006e7c;
+}
+
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #006e7c;
+    border-color: #006e7c;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active,
+.btn-link.active,
+.open .dropdown-toggle.btn-link {
+    color: #A4C735;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus {
+    color: #fff;
+    background-color: #f8ac59;
+    border-color: #f8ac59;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus {
+    color: #fff;
+    background-color: #ed5565;
+    border-color: #ed5565;
+}
+
+.pitcom .dataTable .icon.red, .pitcom .dataTable tr:hover .icon.red, .pitcom .gallery-masonry .icon.red {
+    color: red;
+}
+
+.pitcom .success {
+    background-color: #A4AE00
+}
+
+.pitcom .info {
+    background-color: #d9edf7
+}
+
+.pitcom .warning {
+    background-color: #fcf8e3
+}
+
+.pitcom .error {
+    background-color: #f2dede
+}
+
+.pitcom .feedback {
+    background-color: #f2def2
+}
+
+.pitcom .rejected {
+    background-color: #f2dede
+}
+
+.pitcom .table > thead > tr > .active,
+.pitcom .table > tbody > tr > .active,
+.pitcom .table > tfoot > tr > .active,
+.pitcom .table > thead > .active > td,
+.pitcom .table > tbody > .active > td,
+.pitcom .table > tfoot > .active > td,
+.pitcom .table > thead > .active > th,
+.pitcom .table > tbody > .active > th,
+.pitcom .table > tfoot > .active > th {
+    background-color: #f5f5f5
+}
+
+.pitcom .table-hover > tbody > tr > .active:hover,
+.pitcom .table-hover > tbody > .active:hover > td,
+.pitcom .table-hover > tbody > .active:hover > th {
+    background-color: #e8e8e8
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,133,205,.2);
+}
+
+.pitcom .table > thead > tr > .success,
+.pitcom .table > tbody > tr > .success,
+.pitcom .table > tfoot > tr > .success,
+.pitcom .table > thead > .success > td,
+.pitcom .table > tbody > .success > td,
+.pitcom .table > tfoot > .success > td,
+.pitcom .table > thead > .success > th,
+.pitcom .table > tbody > .success > th,
+.pitcom .table > tfoot > .success > th {
+    background-color: #dff0d8
+}
+
+.pitcom .table-hover > tbody > tr > .success:hover,
+.pitcom .table-hover > tbody > .success:hover > td,
+.pitcom .table-hover > tbody > .success:hover > th {
+    background-color: #d0e9c6
+}
+
+.pitcom .table > thead > tr > .danger,
+.pitcom .table > tbody > tr > .danger,
+.pitcom .table > tfoot > tr > .danger,
+.pitcom .table > thead > .danger > td,
+.pitcom .table > tbody > .danger > td,
+.pitcom .table > tfoot > .danger > td,
+.pitcom .table > thead > .danger > th,
+.pitcom .table > tbody > .danger > th,
+.pitcom .table > tfoot > .danger > th {
+    background-color: #f2dede
+}
+
+.pitcom .table-hover > tbody > tr > .danger:hover,
+.pitcom .table-hover > tbody > .danger:hover > td,
+.pitcom .table-hover > tbody > .danger:hover > th {
+    background-color: #ebcccc
+}
+
+.pitcom .table > thead > tr > .warning,
+.pitcom .table > tbody > tr > .warning,
+.pitcom .table > tfoot > tr > .warning,
+.pitcom .table > thead > .warning > td,
+.pitcom .table > tbody > .warning > td,
+.pitcom .table > tfoot > .warning > td,
+.pitcom .table > thead > .warning > th,
+.pitcom .table > tbody > .warning > th,
+.pitcom .table > tfoot > .warning > th {
+    background-color: #fcf8e3
+}
+
+.pitcom .table-hover > tbody > tr > .warning:hover,
+.pitcom .table-hover > tbody > .warning:hover > td,
+.pitcom .table-hover > tbody > .warning:hover > th {
+    background-color: #faf2cc
+}
+
+.pitcom .progress.progress-toolbar {
+    margin: 1em 0;
+    height: 2em;
+}
+
+.pitcom .progress.progress-xs {
+    height: 7px
+}
+
+.pitcom .progress.progress-sm {
+    height: 12px
+}
+
+.pitcom .progress-bar {
+    background-color: #34495e
+}
+
+.pitcom .progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-danger {
+    background-color: #e74c3c
+}
+
+.pitcom .progress-striped .progress-bar-danger {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-success {
+    background-color: #A4AE00
+}
+
+.pitcom .progress-striped .progress-bar-success {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-info {
+    background-color: #3498db
+}
+
+.pitcom .progress-striped .progress-bar-info {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-warning {
+    background-color: #f39c12
+}
+
+.pitcom .progress-striped .progress-bar-warning {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-pink {
+    background-color: #f09ff2
+}
+
+.pitcom .progress-striped .progress-bar-pink {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-purple {
+    background-color: #9b59b6
+}
+
+.pitcom .progress-striped .progress-bar-purple {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-dark-green {
+    background-color: #27ae60
+}
+
+.pitcom .progress-striped .progress-bar-dark-green {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-dark-blue {
+    background-color: #2980b9
+}
+
+.pitcom .progress-striped .progress-bar-dark-blue {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-dark-red {
+    background-color: #c0392b
+}
+
+.pitcom .progress-striped .progress-bar-dark-red {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-yellow {
+    background-color: #dab10d
+}
+
+.pitcom .progress-striped .progress-bar-yellow {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.pitcom .progress-bar-inverse {
+    background-color: #555
+}
+
+.pitcom .progress-striped .progress-bar-inverse {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+/* FULLCALENDAR */
+.pitcom .fc-state-active {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+.pitcom .fc-event,
+.pitcom .fc-agenda .fc-event-time,
+.pitcom .fc-event a {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+/* LIST GROUP */
+.pitcom a.list-group-item.active,
+.pitcom a.list-group-item.active:hover,
+.pitcom a.list-group-item.active:focus {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+/* PEACE */
+.pitcom .pace .pace-progress {
+    background: #A4C735;
+}
+
+/* jsvectormap */
+.pitcom .jvectormap-zoomin,
+.pitcom .jvectormap-zoomout,
+.pitcom .jvectormap-goback {
+    background: #A4C735;
+}
+
+/*Slick Carousel */
+.pitcom .slick-prev:before,
+.pitcom .slick-next:before {
+    color: #A4C735 !important;
+}
+
+/* Select2 custom styles */
+.pitcom .select2-container--default.select2-container--focus .select2-selection--single,
+.pitcom .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #A4C735;
+}
+
+.pitcom .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #A4C735;
+}
+
+.pitcom .ui-select-container.ui-select-bootstrap .ui-select-choices-row.active > a {
+    background-color: #A4C735;
+}
+
+/* Dropzone */
+.pitcom .dropzone {
+    border: 1px dashed #A4C735;
+}
+
+/* Activity stream */
+.pitcom .stream .stream-badge i.bg-primary {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+/* TABLES */
+.pitcom .table-bordered > thead > tr > th,
+.pitcom .table-bordered > thead > tr > td,
+.pitcom .table thead th {
+    background-color: #495977;
+    color: #ffffff;
+}
+
+.pitcom .table thead th .dropdown-toggle {
+    padding: 0 .4rem;
+}
+
+.pitcom .branding {
+    background-color: #A4C735;
+}
+
+/* FAQ */
+.pitcom .faq-question {
+    color: #A4C735;
+}
+
+/* ISSUE TRACKER */
+.pitcom .issue-tracker .btn-link {
+    color: #A4C735;
+}
+
+/* AGILE BOARD */
+.pitcom .agile-list li.success-element {
+    border-left: 3px solid #A4AE00;
+}
+
+.pitcom .product-name:hover,
+.pitcom .product-name:focus {
+    color: #A4C735;
+}
+
+.pitcom .product-price {
+    background-color: #A4C735;
+}
+
+/* Vote list */
+.pitcom .vote-actions a {
+    color: #A4C735;
+    font-weight: 600;
+}
+
+.pitcom .vote-info a:hover {
+    color: #A4C735;
+}
+
+.pitcom .vote-icon.active {
+    color: #A4C735;
+}
+
+.pitcom .open-small-chat {
+    background: #A4C735;
+}
+
+.pitcom .open-small-chat:hover {
+    background: #A4C735;
+}
+
+.pitcom .small-chat-box .content .chat-message.active {
+    background: #A4C735;
+}
+
+/* Spinner */
+.pitcom .sk-spinner-rotating-plane.sk-spinner {
+    background-color: #A4C735;
+}
+
+.pitcom .sk-spinner-double-bounce .sk-double-bounce1,
+.pitcom .sk-spinner-double-bounce .sk-double-bounce2 {
+    background-color: #A4C735;
+}
+
+.pitcom .sk-spinner-wave div {
+    background-color: #A4C735;
+}
+
+.pitcom .sk-spinner-wandering-cubes .sk-cube1,
+.pitcom .sk-spinner-wandering-cubes .sk-cube2,
+.pitcom .sk-spinner-pulse.sk-spinner,
+.pitcom .sk-spinner-chasing-dots .sk-dot1,
+.pitcom .sk-spinner-chasing-dots .sk-dot2,
+.pitcom .sk-spinner-three-bounce div,
+.pitcom .sk-spinner-circle .sk-circle:before,
+.pitcom .sk-spinner-cube-grid .sk-cube,
+.pitcom .sk-spinner-wordpress.sk-spinner,
+.pitcom .sk-spinner-fading-circle .sk-circle:before {
+    background-color: #A4C735;
+}
+
+/*Landing Page*/
+.pitcom .landing-page span.navy,
+.pitcom .landing-page a.navy-link,
+.pitcom .landing-page .navbar-default .navbar-nav > li > a:hover,
+.pitcom .landing-page .navbar-default .navbar-nav > li > a:focus,
+.pitcom .landing-page .navbar-scroll.navbar-default .nav li a:hover,
+.pitcom .landing-page .features small,
+.pitcom .landing-page .features-icon,
+.pitcom .landing-page .pricing-plan .pricing-price span {
+    color: #A4C735;
+}
+
+.pitcom .landing-page .navy-line {
+    border-bottom: 2px solid #A4C735;
+}
+
+.pitcom .landing-page .navbar-default .navbar-nav > .active > a,
+.pitcom .landing-page .navbar-default .navbar-nav > .active > a:hover,
+.pitcom .landing-page .navbar-default .navbar-nav > li .nav-link.active,
+.pitcom .landing-page .navbar-default .navbar-nav > li .nav-link.active:hover {
+    border-top: 6px solid #A4C735;
+}
+
+.pitcom .landing-page .navbar-default .navbar-brand,
+.pitcom .landing-page .navy-section,
+.pitcom .landing-page .social-icon a,
+.pitcom .landing-page li.pricing-title,
+.pitcom .landing-page .testimonials {
+    background: #A4C735;
+}
+
+.pitcom .landing-page .features .big-icon {
+    color: #A4C735 !important;
+}
+
+.pitcom .landing-page .btn-primary {
+    background-color: #A4C735;
+    border-color: #A4C735;
+}
+
+@media (max-width: 768px) {
+    .pitcom .landing-page .navbar-default .nav li a:hover {
+        color: #A4C735;
+    }
+}
+
+/*Datatables*/
+.pitcom table.dataTable thead .sorting::after {
+    opacity: 0.5;
+}
+/* Reference colorscheme override: flatten sidebar to a single dark tone,
+   green (#A4C735) as the sole accent — see prototypes/_common.py and the
+   colorscheme reference screenshot this was matched against. */
+.pitcom .nav > li.active {
+    background: #333333;
+}
+.pitcom ul.nav-second-level {
+    background: #333333;
+}

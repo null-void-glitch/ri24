@@ -1,0 +1,526 @@
+{
+  "bank": "ING",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei Verheirateten sind immer beide Ehepartner Antragsteller und somit Darlehensnehmer (gesamtschuldnerische Haftung).\nDie gesamtschuldnerische Haftung kann entfallen, wenn bei einer Umschuldung der Antragsteller alleiniger Darlehensnehmer und Eigentümer im Grundbuch ist."
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkungen, Auszahlung gem. MaBV oder nach Rechnungslegung"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "95%-Finanzierung des Kaufpreises bzw. der Herstellungskosten"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "140\nZu beachten gilt: Berechnung der Konditionen über Konditionsausläufe. Finanzierung bis zu 95 % des Kaufpreises/ der Herstellungskosten."
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "140\nZu beachten gilt: Berechnung der Konditionen über Konditionsausläufe. Finanzierung bis zu 95 % des Kaufpreises/ der Herstellungskosten."
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ablauf Umwandlung KfW-Darlehen in ein ING-Darlehen:\n \n-    Bei gleichzeitiger Prolongation von Annuitätendarlehen und eines oder mehrerer KfW-Darlehen(s) muss für die KfW-Darlehen ein separater Vorgang angelegt werden (Tipp: nutzt die Funktion „Vorgang kopieren“. D.h. bei derartigen Konstellationen sind max. zwei Vorgänge erforderlich.\n-    Erfassung im Reiter „Immobilie“ als Förderdarlehen (mehrere KfW-Darlehen können in einem Vorgang mit je einem neuen Baustein prolongiert werden).\n-    Die Darlehensdatenabfrage ist hier nicht möglich. Sollte dein Kunde die aktuelle Restschuld zum Ablösetermin dir nicht mitteilen können, ist alternativ auch die Einreichung des Jahreskontoauszug des letzten Jahres möglich.\n-    Nach der Angebotsermittlung erscheint „KfW-Prolongation“ in der Ergebnisleiste. Achtung: Die finale Kondition der ING kann von dieser abweichen. Auch wenn es zu KfW-Umwandlung keine Schnittstelle gibt, kann man sich immer an der Konditionsfindung bei der Prolongation orientieren. Ist die gleiche Berechnungsgrundlage, es kann aber trotzdem laut Auskunft der ING zu Differenzen kommen. \n-    Angebot annehmen und im Anschluss das generierte Formular „Anforderung eines Angebotes zur Umwandlung eines KfW-Darlehens“ vervollständigen, unterschreiben und an die ING senden.\n-    Wichtig: Es wird zwingend die alte Vorgangsnummer der ING benötigt.\n \nDas Darlehen muss vor dem Zinsbindungsende umgewandelt und bis zur Mitte des Folgemonats umgeschrieben sein. Da der Kunde 14 Tage Widerrufsrecht hat, muss der Antrag zur Umwandlung bei der ING am 15ten des Monats eingegangen sein, nur so kann die ING die buchhalterischen Fristen halten.\nIst die Zinsbindung abgelaufen, ist eine Umwandlung nicht mehr möglich. Es gibt dann nur noch die Option der Prolongation oder den Weg über das Neugeschäft mit entsprechender Antragstellung.\nPassiert nichts davon, bekommt der Kunde eine Zwangsabrechnung und das Darlehen muss zurückgezahlt werden, es ist sofort fällig. Wird nicht reagiert, kann es sogar zu einer Zwangsversteigerung kommen."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "75.000 (Neufinanzierung/Kapitalbeschaffung/Schuldhaftentlassung)\n25.000 (Anschlussfinanzierung)\n30.000  (Modernisierungen)\nKeine Höchstgrenzen - Bitte beachte aber die Abhängigkeit zum 108-fachen des Monatsnettoeinkommens"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Disagio ist für Zinsbindungen bis max. 10 Jahre und max. 1% pro Zinsbindungsjahr auf Anfrage in verschiedenen Varianten möglich."
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "auslaufabhängig, aber möglich"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 85% BLW auf einer lastenfreien Immobilie - Freie Verwendung"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten;\n\nEin KfW-Darlehen kann nur in Verbindung mit einem ING-DiBa Darlehen beantragt werden.\nDie Gesamtfinanzierungssumme aus ING-DiBa- und KfW-Anteil muss mindestens 75.000 Euro betragen.\nDabei ist der Mindestbetrag pro Konto für das ING-DiBa Darlehen 25.000 Euro und für das KfW-Darlehen 10.000 Euro. Ausgenommen ist eine Finanzierung in Zusammenhang mit Baufi Energy, hier muss die Mindestdarlehenssumme des ING-Darlehens mind. 100.000 EURO betragen."
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "min. 750 €, max. 2.870 €"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ING Baufi Energy inkl. Flexi Budget:\nMehr Spielraum, wenn man ihn braucht: Damit Deine Kundinnen und Kunden bei der Modernisierung flexibel sind, kannst Du für diese Eventualitäten erstmal etwas mehr Geld aufnehmen.\nMehr Sicherheit, wenn man das Geld dann doch nicht braucht: Fallen die Modernisierungsmaßnahmen am Ende dann doch günstiger aus oder die Pläne ändern sich, reicht eine kurze E-Mail, und die ING reduziert das Darlehen um bis zu 30 % der angegebenen Modernisierungskosten – das ist innerhalb der bereitstellungszinsfreien Zeit von 18 Monaten sogar kostenlos. Vorausgesetzt, dass sich die Energieeffizienzklasse auch nach der Darlehensreduzierung um mindestens 1 Stufe auf mindestens F verbessert und die Mindestdarlehenssumme von 100.000 Euro nicht unterschritten wird.\nKein Einfluss auf Deine Vergütung, wenn die geplanten Gewerke dann doch günstiger umgesetzt werden und die Kundinnen und Kunden das Flexi-Budget reduzieren. Die ING behält sich vor, Vorgänge regelmäßig auf Plausibilität zu überprüfen.\nEs können auch Kernsanierungen mit Flexi-Budget beantragt werden.\nAusführliche Informationen zum Produkt ING Baufi Energy findest du in den aktuellen Herauslagekriterien unter Punkt 6 ff."
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bitte Eingabehinweise beachten\nZur Prüfung benötigt die ING: ING-Antrag, letzte 3 Gehaltsabrechnungen, Formular Fertigstellung Nachfinanzierungsbedarf. Die ING geht über die Auszahlungsvoraussetzungen und fordert im Nachgang einen Bautenstandsbericht mit Unterschrift und Stempel des Architekten oder Bauleiters, Rechnungsvorlage Gewerke-/Handwerkerrechnungen in Kopie in Höhe des Nachfinanzierungsbedarfs, Grundbuchauszug mit rangrichtiger Eintragung (in der Regel bei mehr als 50 TEUR) an."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Bank finanziert Nachrangdarlehen mit fremder Vorlast,\nwenn die eingetragene fremde vorrangige Grundschuld\nmaximal 20% des aktuellen Verkehrswerts beträgt und das\nING-Darlehen inklusive Vorlast innerhalb des 70%igen Verkehrswerts liegt. Der Verkehrswert wird von der Bank festgelegt.\nBitte beachte, dass in diesem Fall ein Nachrangaufschlag von\n0,25% auf die jeweilige Kondition anfällt. Eine bereits eingetragene Grundschuld der ING wird nicht als Vorlast angesehen."
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Nichtabnahme von Darlehensteilen ist bis zu einem Betrag von 25.000 Euro gegen eine Gebühr von 1 % des nicht abgenommenen Betrags möglich.\nDer Betrag von 25.000 Euro ist nicht konto-, sondern auf die Gesamtfinanzierung bezogen.\nDie Mindestdarlehenssumme muss weiterhin eingehalten werden \nBei höheren Beträgen wird seitens der ING für die  gesamte Summe, die nicht abgenommen wurde, eine Nichtabnahmeentschädigung berechnet."
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10% (Bei Anschlussfinanzierung zusätzlich Altersabschlag von 10%)"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1 - 30 Jahre\nDabei sind Zinsbindungen unter 5 Jahren nur in Verbindung mit einer langfristigen Finanzierung möglich."
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten:\nMindestdarlehenssumme: 75.000 €\nIn Verbindung mit einem langfristigen Darlehen für die Vorfinanzierung des Verkaufs einer Bestandsimmobilie (inkl. Baugrundstücke) \nDie Vorfinanzierung von öffentlichen Mitteln wird nicht angeboten.\nSoll- und effektiver Jahreszins: Gemäß Konditionstableau\nLaufzeit höchstens 24 Monate. Eine Verlängerung der Zwischenfinanzierung ist nicht möglich.\nWenn kein Kaufvertrag vorliegt, setzt die ING für nicht vermietete Objekte keine fiktive Miete an. \nDie bestehende Rate auf dem Verkaufsobjekt wird noch angesetzt, sofern noch kein Kaufvertrag vorliegt\nDie Zwifi- Rate wird nicht in der HHR berücksichtigt\nDie Abgabe einer Finanzierungsbestätigung oder Bürgschaft ist ausgeschlossen"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60\nACHTUNG: bis zu 66 Monate vor einer Umschuldung, wenn die erste Umschuldung innerhalb der nächsten 6 Monate ansteht\nund mit dem Forward-Darlehen ein weiteres, später abzulösendes Darlehen umgeschuldet werden soll.\nBei der Berechnung der Forward-Monate wird der Monat der Antragstellung nicht berücksichtigt."
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "ja\n5 Monate und erneut ca. 6 Wochen vor dem Zinsanpassungstermin erhält der Kunde automatisch ein Angebot  der Bank.\nBitte setze dich rechtzeitig mit deinem Kunden in Verbindung.\nÜber BaufiSmart abschließbar. Weitere Infos findest Du im Helpcenter von Europace."
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "max. 3 Darlehensgeber zu 3 unterschiedlichen Ablöseterminen (Darlehen bei gleichem Gläubiger mit identischem Umschuldungstermin können zusammengefasst werden)"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "wird nicht angeboten"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "73260002"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261\nEndfällige Laufzeitvarianten werden nicht angeboten\n\nEin KfW-Darlehen kann nur in Verbindung mit einem ING Darlehen beantragt werden. Die Finanzierungssumme aus ING- und KfW-Anteil muss mind. 75.000 Euro betragen. Dabei ist der Mindestbetrag pro Konto für das ING-Darlehen 25.000 Euro und für das KfW Darlehen 10.000 Euro.\n\nKFW-Programme, die nicht begleitet werden:\n\nErneuerbare Energien 270\nAltersgerecht Umbauen 159\nKfW 261 bei Neubau von ETW mit einer BzA-Nr. für das Gesamtvorhaben und nicht für die Einzelwohnung\nWohneigentum für Familien 300\nKlimafreundlicher Neubau 297/298"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Einzelfallentscheidung\n\nMöglichkeit 1: Singuläres KfW-Darlehen ist Nachfinanzierung und steht in unmittelbarem Zusammenhang mit Ursprungsfinanzierung\nMöglichkeit 2: Lohn- & Gehaltskonto besteht bei der ING, dann fungiert ING als Hausbank. Darüber hinaus darf keine Finanzierung einer Fremdbank für das Objekt vorliegen und der ING Erstrang muss sichergesellt werden\nBestandskunde und Mindestdarlehenssumme 75TEURO"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ggf. siehe Konditionstableau"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "keine automatische KfW-Reservierung \nReservierungsdetails aus den Ereignissen im Vorgang müssen extra auf dem ING-KfW Beiblatt unten eingetragen werden"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Fallanlage in BaufiSmart als Anschlussfinanzierung wie im Neugeschäft, aber mit reduzierten Daten\nkeine aktuellen Bonitätsdaten erforderlich, nur Kundenname und -anschrift, beim Objekt bitte die zu prolongierenden Darlehen mit aktueller Darlehensnummer erfassen und im Vorhaben die Wünsche zur Darlehensausgestaltung vermerken\nDarlehensdatenanfrage und Ermittlung des Prolongationsangebotes über BaufiSmart > Hilfe findest Du dazu im Help-Center von Europace, auch speziell für die ING\nSollte die Schnittstelle keine korrekte Rückmeldung geben, übergebe den Vorgang bitte mit den nebenstehenden Unterlagen an Deinen Kreditspezialisten\nDas ING Angebot bitte im Original unterzeichnet vom Kunden an die ING schicken\nSondertilgungen und Tilgungssatzwechsel sind weiterhin bis zur Ablösung möglich. Überschüssige Darlehenssummen werden von der ING kostenfrei zurückgenommen, Fehlbeträge muss der Kunde zum Ablösetermin ausgleichen"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Immer erforderliche Unterlagen bei Einreichung: \nÜbergabeschreiben\nING - Formular Einwilligungsformular\nING - Formular Bankenvollmacht \nNur, wenn die Schnittstelle keine Daten zurückspielt zusätzlich:\nNennung alte ING-Vorgangsnr.\nalter DiBa Darlehensvertrag\nletzter Jahreskontoauszug\nbei Kündigungen nach §489 BGB Nachweis über Vollauszahlung\nbei Annuitätendarlehen:\nFormular \"Anforderung eines Angebots zur Darlehensverlängerung\"(Unterschrift Vermittler ausreichend) > unter Formulare und Medien in MYQ\nbei KfW Darlehen:\nProlongationsanforderung KfW-Umwandlung > unter Formulare und Medien in MYQ"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "0,1% pro Zinsbindungsjahr / maximal jedoch 0,75%"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "■ Jederzeit zum Monatsende kostenfrei möglich\n■ Höchstens 5 % der ursprünglichen Darlehenssumme\n■ Mindestens 1.000 Euro"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "BLA ≤ 85 % mind. 1,25 %\nBLA > 85 % bis ≤ 90 % mind. 1,5 % \nBLA > 90 % mind. 1,75 %\nBis 10% in Teilschritten von 0,25% möglich"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Die Mindestdarlehenssumme beträgt 75.000 Euro.\n\nDer Antragsteller kann das Darlehen unter bestimmten Voraussetzungen über eine Lebens-/Rentenversicherung oder einen Bausparvertrag tilgen. Näheres dazu findest du in den Herauslagekriterien.\n \nPro Darlehenskonto kann nur ein Tilgungsersatzprodukt (LV oder BSV) hinterlegt werden. Insgesamt können für eine Finanzierung max. 2 Lebensversicherungen oder max. 3 Bausparverträge abgetreten werden. Bei Austausch der Tilgungsersatzprodukte muss der neu abzutretende Tilgungsersatz den geltenden Anforderungen entsprechen und Werte in Höhe des bisherigen Tilgungs-\nersatzes enthalten oder die bereits angesparte Summe wird auf das Darlehenskonto eingezahlt. \n \nDie Abtretung von riestergeförderten Lebensversicherungen und Bausparverträgen ist nicht möglich. Während der Zinsbindung ist ein Wechsel von einer direkten Tilgung zu einem Tilgungsersatzprodukt ausgeschlossen."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "2-mal innerhalb der Zinsbindung kostenfrei möglich"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Ein Kauf-/Bauträger-/Werkvertrag muss immer auf Euro ausgestellt sein. \nMax. 1 Objekt pro Grundstück. Wenn zwei Objekte auf einem Grundstück muss eine Teilung vorgenommen werden.\nEs werden keine Bürgschaften an Baufirmen ausgestellt. Stattdessen wird eine Finanzierungsbestätigung zur Verfügung gestellt."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistungen sind bis maximal 20 % der Baukosten zulässig und sind anhand einer Kostenaufstellung nachzuweisen. Bei einem Eigenleistungsanteil bis 10 % der Baukosten kann auf die Einreichung der Kosten-\naufstellung verzichtet werden. \n \nEin Eigenleistungsanteil > 20 % kann nur in plausibel begründeten Einzelfällen akzeptiert werden (z.B. ein Antragsteller übt einen entsprechenden handwerklichen Beruf aus). \n \nEigenleistungen werden in der Haushaltsrechnung als monatliche Belastung mit der 10-Jahres-Kondition zzgl. \n1 % Tilgung berücksichtigt."
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "Bei der Antragstellung ist ein gültiger Energieausweis (Bedarfs oder Verbrauchsausweis) gem. Energieeinsparverodnung (EnEV) bzw. ab 11/2020 gem. §§79 ff. Gebäudeenergiegesetz (GEG) einzureichen. Sofern das Objekt noch nicht fertiggestellt ist, kann alternativ das ING-Formular \"Vorabbestätigung Energieeffiezienzklasse\" oder ein Vorabzug des Energieausweises, mit denen die geplante Energieeffizenzklasse bestätigt wird, eingereicht werden.\n \nDer Energieausweis muss mit Antragseinreichung vollständig (alle Seiten) vorliegen, auch bei ETWs < 30m².\nAusnahme: Steht das Objekt unter Denkmalschutz, wird kein Energieausweis benötigt.\nSollte jedoch das Produkt Baufinanzierung Green oder Baufi Energy beantragt werden, dann muss auch bei einem denkmalbeschützten Gebäuden ein gültiger Energieausweis bei Einreichung vorgelegt werden."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Privat und öffentlich/kirchlich möglich \nDie Berechnung eines Nachrangaufschlags auf den Zins entfällt.\nDie Restlaufzeit des Erbbaurechts muss 10 Jahre über der Gesamtlaufzeit des Darlehens liegen\nDie Bank unterstellt eine Gesamtlaufzeit des Darlehens von 35 Jahren. Das Erbbaurecht muss somit noch mindestens 45 Jahre laufen. \nBei sehr guter Bonität mit erhöhter Tilgung als Einzelfallentscheidung (Voranfrage) 10 Jahre über kürzere Laufzeit möglich\nDer Erbbaurechtsvertrag/Erbbaurechtsvertragsentwurf muss bei Antragstellung vorliegen\nDie Stillhalteerklärung und Belastungsgenehmigung des Erbbaurechtsgebers ist zur Auszahlung zwingend erforderlich.\nBewertung des Vorkaufrechtes nicht erforderlich"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - Nur wenn die Objekte auch zu dauerhaften Wohnzwecken genutzt werden können. Finanzierung bis zu 95% des Kaufpreises / der Herstellungskosten. Es werden keine Objekte in Feriensiedlungen/-anlagen/-parks finanziert. Oder Finanzierung auf lastenfreie Immobilie (oder mit ING Vorlast) bis max. 85%"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "max. 50%\n\nGemischt genutzte Objekte mit überwiegend wohnwirtschaftlicher Fläche in Ballungsgebieten und ausgesprochen guten Lagen.\nDer gewerbliche Anteil muss auch wohnwirtschaftlich nutzbar/umgestaltbar sein (z. B. Zweifamilienhaus mit Arztpraxis)."
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "Kapitalanlagen finanziert die Bank, wenn:\nsich Eigentumswohnungen nicht in Großwohnanlagen befinden (max. 30 WE pro Hauseingang) und\neigengenutzter Immobilienbesitz vorhanden oder Vermögenswerte in Höhe von 20 % der Darlehenssumme nachgewiesen werden. Der Nachweis von Vermögenswerten entfällt, wenn bereits Eigenkapital in Höhe von 20 % der Darlehenssumme für die Finanzierung eingesetzt wird.\nKapitalanlegeraufschlag entfällt, da im Rahmen der Sensitivitätsanalyse das Mietausfallrisiko im Scoring geprüft wird\nHinweis:\nBitte beachte, dass es vermehrt zu RotScorings kommen kann, wenn der Kunde Kapitalanleger ist und selbst eine Wohnung mietet und der BLA über 80% ist."
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Mehrfamilienhäuser bis 3 Wohneinheiten; \nGrundsätzlich gilt MFH mit mehr als 4 Wohneinheiten oder gemischt genutzten Objekten:\nFinanzierung bis zum 10-Fachen der Jahreskaltmiete: Gemischt genutzte Objekte und Mehrfamilienhäuser ab 4 Wohneinheiten\nFinanzierung bis zum 16-Fachen der Jahreskaltmiete: Mehrfamilienhäuser ab 4 Wohneinheiten in den Städten (reines Stadtgebiet):\nBonn, Darmstadt, Düsseldorf, Frankfurt, Hamburg, Heidelberg, Karlsruhe, Köln, München, Stuttgart, Wiesbaden\n\nAchtung: Miteigentumsanteile nur bis 9999.99 möglich"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung bis zu 95 % ( mit öffentlichen Förderinstituten 100 % möglich) \ndes Kaufpreises/der Herstellungskosten:\n■ unbebaute Grundstücke (Baugrundstücke)\n■ Ein-/Zweifamilienhäuser, Mehrfamilienhäuser bis 3 Wohneinheiten, Doppelhaushälften, Reihenhäuser\n■ Holz-/Block-/Fertig-/Selbstbau-/Ausbauhäuser\n■ Eigentumswohnungen mind. 40 qm\n■ Ferienimmobilien im Inland, die auch dauerhaft zu Wohnzwecken vermietet  werden können\n■ Finanzierung von ETWs und nach WEG geteilte RH mit Photovoltaikanlagen möglich (selbst wenn das Recht im Grundbuch eingetragen ist). Nähere Infos hierzu unter \"Vorlasten Abtl. II\"\n\nKeine Finanzierung von:\n■ Neubau von Mehrfamilienhäusern ab 4 Wohneinheiten\n■ Wohnungen mit weniger als 40 qm\n■ Objekte in Feriensiedlungen/-parks/-anlagen\n■ Betreutes wohnen\n■ Aussiedlerhöfe\n■ Landwirtschaftliche Objekte\n■ Liebhaberobjekte (Schlösser, Burgen usw.)\n■ Gewerbeobjekte und Auslandsimmobilien\n■ Produktionsstätten, Lagerhallen, Gastronomie und Ähnliches\n■ Bauerwartungsland\n■ Garten- und Ackerland\n■ Objekte, bei denen die Zwangsversteigerung durch die ING-DiBa betrieben wird\n■ Erwerb aus der Zwangsversteigerung ohne Zuschlagsbeschluss (freihändiger Verkauf)\n■ Objekte, bei denen im Grundbuch ein Bergschadensverzicht eingetragen ist.\n■ Häuser, die von ausländischen Bauträgern gefertigt werden mit Firmensitz und Bankverbindung im Ausland \n■ Objekte, mit sonstigen wertmindernden Belastungen in Abteilung II des Grundbuchs (betrifft nicht Wege-, \nFahr- und Leitungsrechte oder vergleichbare Grunddienstbarkeiten). Der Rangrücktritt, z. B. bei Wohnrecht reicht nicht aus."
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Seit Nov 2022 ist der „ING Immo-Check” die neue Objektbewertung der ING und Sprengnetter. Der ING Immo-Check ersetzt den Service Five2Click.\nDer ING Immo-Check wird automatisch bei jedem Vorscoring, d.h. bei Annahme oder Anfrage eines ING-Finanzierungsvorschlags ermittelt.\nJeder Abruf des ING Immo-Checks wird als Europace-Ereignis dokumentiert und automatisch an die ING weitergeleitet. \n \nGrundrisserstellung und Wohnflächenberechnung:\nDie ING erkennt auch die von 1000hands AG erstellten Unterlagen an. Es werden ausschließlich die nach einer Vermessung vor Ort erfolgten Grundrisserstellungen und Wohnflächenberechnungen anerkannt."
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "In der Regel wird auf ein Wertgutachten verzichtet bis TEUR 600. Ab diesem Betrag ist ein Gutachten notwendig."
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit\nKeine Regelungen"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Folgende Lasten und Beschränkungen dürfen vorgehen:\n\nLeitungsrechte\nWegerecht/Überfahrtsrecht/Fahrrecht \nImmissionsduldungsverpflichtung (z.B. Fluglärm)\nBohr-/Schürfrecht\nWohnungsbesetzungsrecht \n\nObjekte mit wertmindernden Belastungen z.B. Wohnrecht, Vorkaufsrecht für alle Fälle an Verwandte  werden nicht mehr finanziert bzw. reicht ein Rangrücktritt nicht mehr aus und müssen gelöscht werden.\n\nHinweis: Bislang musste ein Nießbrauchrecht bereits mit Antragsstellung gelöscht sein. Ab sofort wird es auch akzeptiert, wenn die Löschung im Kaufvertrag vereinbart wird. Die erfolgte Löschung wird dann als Auszahlungsvoraussetzung beauflagt.\n\nFinanzierung von ETWs und nach WEG geteilte RH mit Photovoltaikanlagen möglich (selbst wenn das Recht im Grundbuch eingetragen ist).\n\nDie ING wird dann den Kauf und Neubau eines Objekts auch dann (anschluss-) finanzieren, wenn für die Photovoltaikanlage in Abteilung II des Grundbuchs eine beschränkte persönliche Dienstbarkeit vorrangig zur ING-Grundschuld eingetragen ist. Und das ohne Nachrangaufschlag.\n\nFür Eigentumswohnungen und nach WEG geteilten Reihenhäusern mit eingetragener Dienstbarkeit musst Du mit dem Antrag nur diese Unterlagen (on top zu den üblichen Mindestunterlagen) mit einreichen:\n\nFür Kredite unter 600.000 Euro\n\nGrundbuchauszug\n\nFür Individualkredite ab 600.000 Euro\n\nBetreiberverträge der PV-Anlagen\nGrundbuchauszug\n\nVon dieser Regelung ausgeschlossen sind nicht nach WEG geteilte Reihenhäuser sowie Ein- und Zweifamilienwohnhäuser mit einer Photovoltaikanlage als vorrangige Grunddienstbarkeit, es sei denn der ING liegt bei Antragstellung ein Kaufvertrag mit einem entsprechenden Rangrücktritt vor."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Die Bank finanziert Nachrangdarlehen mit fremder Vorlast, wenn die eingetragene fremde vorrangige Grundschuld maximal 20 % des ursprünglichen Kaufpreises/der Herstellungskosten beträgt und das ING-DiBa Darlehen inklusive Vorlast innerhalb des 70 %igen Verkehrswerts liegt.\nDer Verkehrswert wird von der Bank festgelegt. Bitte beachten Sie, dass in diesem Fall ein Nachrangaufschlag von 0,25 % auf die jeweilige Kondition anfällt.\nEine bereits eingetragene Grundschuld der ING-DiBa wird nicht als Vorlast angesehen."
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Eigentumswohnungen mit einer Mindestgröße der Wohnfläche von 30 qm\nbei eigengenutzten Objekten mind. 20m² pro Person, auch bei Zwifi-Objekten (jedoch mindestens 30m² pro Objekt)"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Eine Finanzierung ist bis maximal 95 % des Zuschlags-\nbetrags möglich. Der Zuschlagsbeschluss muss bei \nAntragstellung vorliegen."
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "ja\nAls Nachweis ist der Elterngeldbescheid in Kopie einzureichen. \nMuss im Antrag im Feld „Gehalt/Rente“ eingetragen werden bzw. muss mit dem monatlichen Gehalt addiert werden."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "Max. 13 Monatsgehälter (Auszahlungsbetrag)\nBerücksichtigt wird jeweils der niedrigste Einkommensnachweis bzw. die niedrigste Abrechnung (Niederstwertprinzip).\nGehalt von Schwangeren im Beschäftigungsverbot werden nicht als Einkommen angerechnet."
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Unterdeckung in der Haushaltsberechnung bei Renteneintritt wird angezeigt \nHintergrund: Zur Ermittlung des Einkommens bei Renteneintritt setzt die ING 75% des aktuellen Einkommens an. Falls der aktuelle Rentenbescheid von der Rentenstelle höher ausfällt hilft dieser hier nicht weiter, um die Unterdeckung zu heilen - bitte die Lücke durch private/betriebliche RV schließen und Nachweise beilegen\nSeit Nov. 2024 hat die ING im Pre-Scoring eine neue Prüfung implementiert, ob das Darlehen im Zeitraum einer durchschnittlichen Lebenserwartung abbezahlt werden kann. Sieht es eher nicht danach aus, öffnet sich ein Hinweisfenster - und der Antrag wird vorerst gelb gescored."
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Befristungen nur noch bei Ärzten und Ärztinnen und bei wissenschaftlichen Mitarbeiter:innen. Bitte bei anderen Konstellation insbesondere auch bei Bestandskunden den Punkt vorher abstimmen, sofern die sonstigen Eckdaten passen."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Arbeiter, Angestellte, Rentner/ Pensionäre, Privatiers, Beamte (u. a. auch verbeamtete Berufssoldaten und Zeitsoldaten mit mit mind. 8 Jahren Verpflichtungzeit (Nachweis erforderlich)\nSoldaten (u.a.auch verbeamtete Berufssoldaten sowie Zeitensoldaten mit mind. 8 Verpflichtungszeit (wichtige Infos unter \"Zeitsoldaten\" beachten)\nWenn ein Arbeitsverhältnis kurz vor der Beendigung steht, muss die Folgebeschäftigung bzw. auch die Begründung für eine nicht anstehende Folgebeschäftigung im Darlehensantrag unter Punkt 6. „Einschätzung zur Darlehensrückführung bei unerwartet eintretenden Ereignissen“ bei Frage 1 eingetragen werden. \nDer Arbeitgeber des Antragstellers muss in Deutschland ansässig sein. \nDas Gehalt wird auf eine deutsche Bankverbindung gezahlt.\nDas Einkommen wird in Deutschland versteuert.\nDeutsche Botschaftsangehörige im Ausland, Europäische Beamte oder Abgeordnete aus Deutschland mit Auslandseinsatz können nicht mehr finanziert werden."
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Bei der ING-DiBa können folgende Berufsgruppen nicht Allein- bzw. Hauptantragssteller sein:\n■ Personen ohne Beschäftigung\n■ Hausfrauen/-männer\n■ Personen, die unter Betreuung stehen\n■ Auszubildende\n■ Schüler/Studenten\n■ ausländische Soldaten\n■ Wehr oder Bundesfreiwilligendienstleistender (ehem. Zivildienst)\n■ Saisonarbeiter\n■ GbRs und Existenzgründer\nAusnahme: Eine Finanzierung ist möglich, wenn der zweite Antragsteller zu einer der akzeptierten Berufsgruppen gehört und die Finanzierung allein tragen kann.\n \nDer Antragsteller muss seinen Wohnsitz in Deutschland haben und sein Einkommen in Deutschland beziehen.\nAus Drittstaaten stammende Familienangehörige von EU-Bürgern benötigen zur Antragsstellung eine unbefristete Aufenthaltsberechtigung. \n \nEigenkapitalnachweis: Anlagen in Kryptowährungen werden nicht akzeptiert."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 2\nEigentümer und Darlehensnehmer müssen nicht identisch sein"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Wenn noch kein Mietvertrag vorliegt:\nAnrechnung der realistischen Kaltmiete, jedoch\nmaximal 9 EURO/m²\nAnrechnung der realistischen Kaltmiete, jedoch maximal 11 Euro/qm in den Städten (reines Stadtgebiet)\nBonn, Darmstadt, Düsseldorf, Frankfurt, Hamburg,\nHeidelberg, Karlsruhe, Köln, München, Stuttgart und\nWiesbaden\nWenn ein Mietvertrag vorliegt:\nAnrechnung der im Mietvertrag vereinbarten realistischen Kaltmiete"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Freiberufler und Selbstständige (dazu zählen auch geschäftsführende Gesellschafter) der in den Herauslagekriterien (s. unter \"Formulare & Medien\" aufgeführten akzeptierten Berufsgruppen werden finanziert, wenn eine Neufinanzierung, Anschlussfinanzierung (Umschuldung) oder weitere Finanzierung beantragt wird und der Antragsteller seit 2 vollen Kalenderjahren nachweislich dieselbe freiberufliche oder selbstständige Tätigkeit ausübt. \n \nAlle anderen Freiberufler und Selbstständigen werden finanziert, wenn es sich bei dem Darlehen um eine Anschlussfinanzierung (Umschuldung) von Ein- bzw. Zweifamilienhäusern, Doppelhaushälften, Reihenhäusern (Eigentumswohnungen und Mehrfamilienhäuser sind ausgeschlossen) handelt und seit mindestens 3 Jahren nachweislich dieselbe freiberufliche oder selbstständige Tätigkeit ausgeübt wird.\n \nAusnahme: Eine Finanzierung ist möglich, wenn ein Freiberufler oder Selbstständiger gemeinsam mit einem zweiten Antragsteller, der zu einer akzeptierten Berufsgruppe gehört, eine Finanzierung beantragt und das Einkommen des zweiten\nAntragstellers die Finanzierung allein tragen kann. In diesem Fall wird ebenfalls das Einkommen des Selbstständigen\ngeprüft. Ist das Jahreseinkommen des Selbstständigen negativ, wird der Fehlbetrag auf 12 Monate umgerechnet. Dieser Betrag muss von dem Hauptantragsteller mitgetragen werden."
+    },
+    "getrennt-lebende-darlehensnehmer": {
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Unterhaltsverpflichtungen an Kinder, getrennt lebende oder frühere Ehegatten sind anzugeben.\n \nBei geschiedenen oder getrennt lebenden Antragstellenden sowie bei Unterhaltsverpflichtungen an Kinder sind keine Unterlagen (notarielle Scheidungsvereinbarung oder Scheidungsfolge-vereinbarung bzw. Unterhaltsbeschluss, Kontoauszüge der letzten 3 Monate) mehr einzureichen. Ausnahme: Bei Schuldnerwechsel verzichtet die ING „nur“ auf die Nachweise von Unterhaltsverpflichtungen. Bitte erfasse die Unterhaltspauschale wie in den Herauslagekriterien beschrieben als Ausgabe. \n\nLiegt eine Vereinbarung nicht vor,\nsetzt die Bank 20 % des Basiseinkommens als Pauschale für mögliche künftige Unterhaltszahlungen an\nzusätzlich 480 Euro pro Kind, das nicht im Haushalt lebt\nWichtig: Privatschriftliche Vereinbarungen werden nicht \nakzeptiert."
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "Der Haushaltsüberschuss darf nicht negativ sein."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Es gibt keine Altersgrenze. Das Mindestalter beträgt 18 Jahre.\n \nBei Gelbscore “Endalter bei Laufzeitende zu hoch“ gibt es folgende Lösungsansätze, die dann dokumentiert an die ING gegeben werden können:\n \no    es gibt Erben, die  Rate und Tilgung übernehmen können.\no    es gibt eine (Risiko-)Lebensversicherung.\no    die Gesamtlaufzeit der Finanzierung kann reduziert werden z.B. durch Erhöhung des Tilgungssatzes oder den Einsatz von mehr Eigenkapital.\no    es gibt andere Möglichkeiten, die sicherstellen, dass die Darlehenssumme zurückgezahlt werden kann, zum Beispiel …"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Nicht EU-Bürger brauchen eine unbefristete Aufenthaltserlaubnis und müssen der ING dies anhand folgender Dokumente nachweisen:\nunbefristete Niederlassungserlaubnis oder\nErlaubnis zum Daueraufenthalt EU (früher EG) oder\nunbefristete Aufenthaltserlaubnis oder\nAufenthaltsberechtigung (wurde bis 31.12.2004 erteilt) oder\nunbefristete Aufenthaltskarte für aus Drittstaaten stammende Familienangehörige von EU-Bürgern\nEine Arbeitserlaubnis ist nicht erforderlich."
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Mieteinnahmen sowie Zins- und Dividendenzahlungen werden als Einkünfte akzeptiert.\n \nNachweise\n• Letzte Einkommensteuererklärung (komplett) mit den\nAnlagen V+V sowie bei ggfls. bestehenden Grundstücksgemeinschaften die dazugehörige Steuererklärung mit Anlagen und Feststellung und – sofern vorhanden – dazugehöriger Einkommensteuerbescheid\n• Einkommensteuerbescheid vom Vorjahr/zuletzt ergangener Einkommensbescheid\n• Aktuelle Vermögensaufstellung gem. ING-Vordruck\n \nSofern die Zins- und Dividendeneinkünfte aufgrund der Abgeltungsteuer nicht durch die Einkommensteuererklärung/den -bescheid nachgewiesen werden können, sind diese Einkünfte durch die jeweiligen Kontoauszüge nachzuweisen."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Freiberufler und Selbstständige (dazu zählen auch geschäftsführende Gesellschafter) der in den Herauslagekriterien (s. unter \"Formulare & Medien\" aufgeführten akzeptierten Berufsgruppen werden finanziert, wenn eine Neufinanzierung, Anschlussfinanzierung (Umschuldung) oder weitere Finanzierung beantragt wird und der Antragsteller seit\n2 vollen Kalenderjahren nachweislich dieselbe freiberufliche oder selbstständige Tätigkeit ausübt. \n \nAlle anderen Freiberufler und Selbstständigen werden finanziert, wenn es sich bei dem Darlehen um eine Anschlussfinanzierung (Umschuldung) von Ein- bzw. Zweifamilienhäusern, Doppelhaushälften, Reihenhäusern (Eigentumswohnungen und Mehrfamilienhäuser sind ausgeschlossen) handelt und seit mindestens 3 Jahren nachweislich dieselbe freiberufliche oder selbstständige Tätigkeit ausgeübt wird.\n \nAusnahme: Eine Finanzierung ist möglich, wenn ein Freiberufler oder Selbstständiger gemeinsam mit einem zweiten Antragsteller, der zu einer akzeptierten Berufsgruppe gehört, eine Finanzierung beantragt und das Einkommen des zweiten\nAntragstellers die Finanzierung allein tragen kann. In diesem Fall wird ebenfalls das Einkommen des Selbstständigen\ngeprüft. Ist das Jahreseinkommen des Selbstständigen negativ, wird der Fehlbetrag auf 12 Monate umgerechnet. Dieser Betrag muss von dem Hauptantragsteller mitgetragen werden."
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "Ja > verbeamtete Berufssoldaten und Zeitsoldaten mit mit mind. 8 Jahren Verpflichtungseit (Nachweis anhand des Besolgungsnachweises mit Angabe der Verpflichtungszeit oder separate Bestätigung)\n!Soldaten bitte immer in der Berufsgruppe \"Soldaten\" erfassen, unabhängig von der Verpflichtungszeit!"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ausschließlich über das Online-Banking. Siehe Handout.\nVerpfändung der Auflassungsvormerkung:\nGrundsätzlich werden Finanzierungen bei denen die Auflassungsvormerkung verpfändet werden soll nicht begleitet.\nIn Einzelfällen können im Standardgeschäft Ausnahmen gemacht werden. Diese dann am Besten vorab mit den Key-Accountern absprechen"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "vorerst nein, eventuell wird dies aber stichprobenartig angefordert\nPrüfung erfolgt nicht inhaltlich, sondern nur ob ein Beratungsprotokoll existiert"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ist der Darlehensnehmer der deutschen Sprache nicht oder nicht ausreichend mächtig, fordert die ING vor der ersten Auszahlung die Bestätigung eines vereidigten Dolmetschers an. Dieser bestätigt unter Angabe der Kontonummer, dass der Darlehensvertrag nebst allen Anlagen in die Muttersprache des Darlehensnehmers übersetzt wurde."
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload\nHinweise zur Einreichung:\nNeben der Selbstauskunft ist künftig auch der ING Antrag von den Kund:innen zu unterschreiben\nDie ING benötigt als Upload nur den ING-Antrag."
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\nErläuterung:\nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Post-Ident (ggf. Video-Legitimation)"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Die Bank behält sich bei allen Objekten neben der internen Wertermittlung auch eine externe Objektprüfung vor Genehmigung vor."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Upload in BaufiSmart, per Schnittstelle in der Postbox\nper Post an Antragsteller\n \nKundinnen und Kunden können den Kreditvertrag inklusive Zweckerklärung, den sie vorab per E-Mail erhalten, selbst ausdrucken, unterschreiben und per Post an die ING zurücksenden. Wichtig ist hierbei: Die Regelung gilt, wenn das Original nicht innerhalb von fünf Werktagen nach E-Mail-Eingang im Briefkasten zu Hause ist.\nWichtig:\nDie Rücksendung muss per Post erfolgen.\nDie Vertragsunterlagen müssen vollständig zurückgesendet werden"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Beratungsgebühr:\nHöchstens 2 % der Gesamtsumme der ING-DiBa Darlehen pro Kundenfinanzierung (exklusive KfW-Darlehen und Zwischenfinanzierung)\nWichtig: Wenn Du dem Antragsteller eine Beratungsgebühr berechnest, dokumentiere das bitte im Antrag im Feld „Beratungsgebühr“. \nDiese Angabe ist für die Ermittlung des effektiven Jahreszinses erforderlich.\nWeise die Beratungsgebühr gemäß Verbraucherkreditrichtlinie ebenfalls im Darlehensvermittlungsvertrag aus."
+    }
+  },
+  "company_id": "76d2c39ceefa0a5a4e184c73d0d69fd9",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/76d2c39ceefa0a5a4e184c73d0d69fd9",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "06.05.26",
+      "title": "ING - Konditionssenkung zum 07.05.2026"
+    },
+    {
+      "date": "29.04.26",
+      "title": "ING - Konditionserhöhung zum 30.04.2026"
+    },
+    {
+      "date": "20.04.26",
+      "title": "ING - Konditionssenkung zum 21.04.2026"
+    },
+    {
+      "date": "16.04.26",
+      "title": "ING - Senkung der Forward-Aufschläge zum 17.04.2026"
+    },
+    {
+      "date": "14.04.26",
+      "title": "ING - Prolongations-Rabatt -0,1% ab 15.04.2026"
+    }
+  ]
+}

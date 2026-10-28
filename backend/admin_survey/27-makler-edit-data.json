@@ -1,0 +1,646 @@
+{
+  "inputs": {
+    "name": {
+      "type": "text",
+      "value": "1980 Real Estate GmbH",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "makler_id": {
+      "type": "text",
+      "value": "r24srn74skk",
+      "checked": false,
+      "placeholder": "",
+      "disabled": true
+    },
+    "profil_uri_name": {
+      "type": "text",
+      "value": "{region}/anbieter/--real-estate-gmbh/",
+      "checked": false,
+      "placeholder": "",
+      "disabled": true
+    },
+    "edit_objects": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": true,
+      "placeholder": "",
+      "disabled": false
+    },
+    "merge_offers": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "baufi_like_extern": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "multimakler": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "kontakt_has_immosolve": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "maklerprofil_email": {
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "name@domain.tld",
+      "disabled": false
+    },
+    "maklerprofil_homepage": {
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "https://www.domain.tld",
+      "disabled": false
+    },
+    "login": {
+      "type": "text",
+      "value": "r24srn74skk",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "pw": {
+      "type": "text",
+      "value": "5ndt2kf8",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "ftp_user": {
+      "type": "text",
+      "value": "r24srn74skk",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "ftp_pw_salt": {
+      "type": "text",
+      "value": "5ndt2kf8",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "use_webapp": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "webapp_titel": {
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "1980 Real Estate GmbH",
+      "disabled": false
+    }
+  },
+  "selects": {
+    "info_no_immo": [
+      {
+        "value": "-1",
+        "text": "nein, keine Benachrichtigung",
+        "selected": false
+      },
+      {
+        "value": "1",
+        "text": "ja",
+        "selected": true
+      }
+    ],
+    "makler_stufe": [
+      {
+        "value": "basic",
+        "text": "Basic",
+        "selected": true
+      },
+      {
+        "value": "plus",
+        "text": "Plus",
+        "selected": false
+      },
+      {
+        "value": "premium",
+        "text": "Premium",
+        "selected": false
+      }
+    ],
+    "kontakt_use_immosolve": [
+      {
+        "value": "0",
+        "text": "nein",
+        "selected": true
+      },
+      {
+        "value": "1",
+        "text": "ja, ausschließlich",
+        "selected": false
+      },
+      {
+        "value": "2",
+        "text": "zusätzlich",
+        "selected": false
+      }
+    ],
+    "ansprechpartner_baufi": [
+      {
+        "value": "",
+        "text": "--- keinen Ansprechpartner ---",
+        "selected": true
+      },
+      {
+        "value": "356",
+        "text": "Benjamin Fuhr (bdi24)",
+        "selected": false
+      },
+      {
+        "value": "328",
+        "text": "Katrin Johst-Mandel (bi24)",
+        "selected": false
+      },
+      {
+        "value": "119",
+        "text": "Andreas Schulze (bi24)",
+        "selected": false
+      },
+      {
+        "value": "334",
+        "text": "Jasmin Baruschke (brai24)",
+        "selected": false
+      },
+      {
+        "value": "177",
+        "text": "Daniel Albert (bsi24)",
+        "selected": false
+      },
+      {
+        "value": "307",
+        "text": "Silvia Liebeskind (ci24)",
+        "selected": false
+      },
+      {
+        "value": "27",
+        "text": "Dominic Hoffmann (dai24)",
+        "selected": false
+      },
+      {
+        "value": "35",
+        "text": "Claudia Volke-Herrmann (ddi24)",
+        "selected": false
+      },
+      {
+        "value": "329",
+        "text": "Bernd Kreie (dui24)",
+        "selected": false
+      },
+      {
+        "value": "243",
+        "text": "Andreas Engelbrecht-Eichstädt (efi24)",
+        "selected": false
+      },
+      {
+        "value": "125",
+        "text": "Sören Uhlig (erzi24)",
+        "selected": false
+      },
+      {
+        "value": "45",
+        "text": "Rainer Veigel (erzi24)",
+        "selected": false
+      },
+      {
+        "value": "269",
+        "text": "Dirk Schwarz (fi24)",
+        "selected": false
+      },
+      {
+        "value": "340",
+        "text": "Daniel Schwan (gii24)",
+        "selected": false
+      },
+      {
+        "value": "172",
+        "text": "Nancy Radde (hai24)",
+        "selected": false
+      },
+      {
+        "value": "354",
+        "text": "Oliver Thier (hhi24)",
+        "selected": false
+      },
+      {
+        "value": "233",
+        "text": "Dana Reibe (hi24)",
+        "selected": false
+      },
+      {
+        "value": "333",
+        "text": "Jörg Kintzel (hli24)",
+        "selected": false
+      },
+      {
+        "value": "348",
+        "text": "Uwe Madeja (hli24)",
+        "selected": false
+      },
+      {
+        "value": "179",
+        "text": "Lambert Adams (hoi24)",
+        "selected": false
+      },
+      {
+        "value": "171",
+        "text": "Willi Schikora (hoi24)",
+        "selected": false
+      },
+      {
+        "value": "353",
+        "text": "Ron Westphal (hoi24)",
+        "selected": false
+      },
+      {
+        "value": "230",
+        "text": "Oliver Gehrk (kiei24)",
+        "selected": false
+      },
+      {
+        "value": "295",
+        "text": "Andreas Beitzen (koei24)",
+        "selected": false
+      },
+      {
+        "value": "320",
+        "text": "Marcus Brinkwirth (lbi24)",
+        "selected": false
+      },
+      {
+        "value": "319",
+        "text": "Christoph Soetebeer (lbi24)",
+        "selected": false
+      },
+      {
+        "value": "17",
+        "text": "Peggy Rodewald (li24)",
+        "selected": false
+      },
+      {
+        "value": "16",
+        "text": "Mike Schmidt (li24)",
+        "selected": false
+      },
+      {
+        "value": "343",
+        "text": "Patrick Funke (maii24)",
+        "selected": false
+      },
+      {
+        "value": "167",
+        "text": "Nicole Hartig (mbi24)",
+        "selected": false
+      },
+      {
+        "value": "170",
+        "text": "Thomas Zenker (mbi24)",
+        "selected": false
+      },
+      {
+        "value": "341",
+        "text": "Christine de la Motte (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "342",
+        "text": "Jan Philip de la Motte (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "174",
+        "text": "Jean-Claude Kühne (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "332",
+        "text": "Niklas Lechner (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "106",
+        "text": "Peter Reuter (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "325",
+        "text": "Guido Allmich (mi24)",
+        "selected": false
+      },
+      {
+        "value": "309",
+        "text": "Hubert Ebertseder (mi24)",
+        "selected": false
+      },
+      {
+        "value": "350",
+        "text": "Melanie Gmeiner (mi24)",
+        "selected": false
+      },
+      {
+        "value": "326",
+        "text": "Christiana Kurczyk (mi24)",
+        "selected": false
+      },
+      {
+        "value": "308",
+        "text": "Anton Neumeier (mi24)",
+        "selected": false
+      },
+      {
+        "value": "335",
+        "text": "Miroslav Papac (mi24)",
+        "selected": false
+      },
+      {
+        "value": "127",
+        "text": "Jörg Edelbrock (mli24)",
+        "selected": false
+      },
+      {
+        "value": "299",
+        "text": "Marc Stoll (mli24)",
+        "selected": false
+      },
+      {
+        "value": "79",
+        "text": "Jan Doberenz (msi24)",
+        "selected": false
+      },
+      {
+        "value": "168",
+        "text": "Michael Branetzki (nri24)",
+        "selected": false
+      },
+      {
+        "value": "121",
+        "text": "André Stempel (nri24)",
+        "selected": false
+      },
+      {
+        "value": "102",
+        "text": "Matthias Dickes (nsi24)",
+        "selected": false
+      },
+      {
+        "value": "103",
+        "text": "Diana Helm (nsi24)",
+        "selected": false
+      },
+      {
+        "value": "21",
+        "text": "Frank Lohse (nsi24)",
+        "selected": false
+      },
+      {
+        "value": "352",
+        "text": "Max Riesenberg (nsi24)",
+        "selected": false
+      },
+      {
+        "value": "294",
+        "text": "Andreas Berndt (obi24)",
+        "selected": false
+      },
+      {
+        "value": "351",
+        "text": "Florian Gleißner (obi24)",
+        "selected": false
+      },
+      {
+        "value": "323",
+        "text": "William Schwaß (obi24)",
+        "selected": false
+      },
+      {
+        "value": "98",
+        "text": "Thorsten Stehmann (obi24)",
+        "selected": false
+      },
+      {
+        "value": "312",
+        "text": "Mariana Cecilia Wehrhahn (obi24)",
+        "selected": false
+      },
+      {
+        "value": "165",
+        "text": "Karl-Heinz Schuh (obli24)",
+        "selected": false
+      },
+      {
+        "value": "155",
+        "text": "Jörg Lübben (oli24)",
+        "selected": false
+      },
+      {
+        "value": "100",
+        "text": "Ewald Madl (opi24)",
+        "selected": false
+      },
+      {
+        "value": "303",
+        "text": "Jürgen Schott (opi24)",
+        "selected": false
+      },
+      {
+        "value": "89",
+        "text": "Horst Grüger (reki24)",
+        "selected": false
+      },
+      {
+        "value": "90",
+        "text": "Thomas Nicolas (reki24)",
+        "selected": false
+      },
+      {
+        "value": "355",
+        "text": "Peter Klima (rgi24)",
+        "selected": false
+      },
+      {
+        "value": "339",
+        "text": "Lars Nitsche (rgi24)",
+        "selected": false
+      },
+      {
+        "value": "272",
+        "text": "Oliver Wewering (rgi24)",
+        "selected": false
+      },
+      {
+        "value": "345",
+        "text": "Jan Bollenbach (rhhi24)",
+        "selected": false
+      },
+      {
+        "value": "344",
+        "text": "Andreas Coutandin (rhhi24)",
+        "selected": false
+      },
+      {
+        "value": "331",
+        "text": "Hans-Dieter Döll (rhti24)",
+        "selected": false
+      },
+      {
+        "value": "306",
+        "text": "Stephan Klammt (rhti24)",
+        "selected": false
+      },
+      {
+        "value": "271",
+        "text": "Jürgen Lösch (rni24)",
+        "selected": false
+      },
+      {
+        "value": "231",
+        "text": "Michael Christ (roi24)",
+        "selected": false
+      },
+      {
+        "value": "237",
+        "text": "Harald Strobel (rpi24)",
+        "selected": false
+      },
+      {
+        "value": "232",
+        "text": "Tobias Erler (rski24)",
+        "selected": false
+      },
+      {
+        "value": "318",
+        "text": "Jürgen Stengel (sai24)",
+        "selected": false
+      },
+      {
+        "value": "347",
+        "text": "Murat Güneser (saui24)",
+        "selected": false
+      },
+      {
+        "value": "88",
+        "text": "Heldenhaft beraten werden (sbi24)",
+        "selected": false
+      },
+      {
+        "value": "304",
+        "text": "Johannes Friedt (sti24)",
+        "selected": false
+      },
+      {
+        "value": "349",
+        "text": "Tom Sander (swi24)",
+        "selected": false
+      },
+      {
+        "value": "311",
+        "text": "Axel Scholz (swti24)",
+        "selected": false
+      },
+      {
+        "value": "180",
+        "text": "Steffen Simon (swti24)",
+        "selected": false
+      },
+      {
+        "value": "302",
+        "text": "Thomas Grosshans (swwi24)",
+        "selected": false
+      },
+      {
+        "value": "109",
+        "text": "Andreas Janz (swwi24)",
+        "selected": false
+      },
+      {
+        "value": "313",
+        "text": "Christian Schmid (swwi24)",
+        "selected": false
+      },
+      {
+        "value": "338",
+        "text": "Kevin Helms (tbi24)",
+        "selected": false
+      },
+      {
+        "value": "297",
+        "text": "Christian Appel (ufi24)",
+        "selected": false
+      },
+      {
+        "value": "346",
+        "text": "Ronni Swatek (umi24)",
+        "selected": false
+      },
+      {
+        "value": "1",
+        "text": "Lars Rupprecht (vi24)",
+        "selected": false
+      },
+      {
+        "value": "4",
+        "text": "Philipp Steppohn (vi24)",
+        "selected": false
+      },
+      {
+        "value": "316",
+        "text": "Patrick Thier (vi24)",
+        "selected": false
+      },
+      {
+        "value": "305",
+        "text": "Kilian de Vries (wei24)",
+        "selected": false
+      },
+      {
+        "value": "116",
+        "text": "Sven Harth (wpfi24)",
+        "selected": false
+      },
+      {
+        "value": "270",
+        "text": "Wolfram Aller (wwi24)",
+        "selected": false
+      },
+      {
+        "value": "7",
+        "text": "Wilfried Hoh (zi24)",
+        "selected": false
+      },
+      {
+        "value": "156",
+        "text": "Gert Holdschick (zi24)",
+        "selected": false
+      }
+    ]
+  },
+  "textareas": {
+    "maklerprofil_dyn_profil_text": "{mark.start}p{mark.end}Die 1980 Real Estate GmbH ist ein angesehenes Immobilienunternehmen in Bremen, das für seine umfassende Marktkenntnis und sein engagiertes Team bekannt ist. Das Unternehmen bietet eine breite Palette von Dienstleistungen in der Immobilienvermittlung an, darunter den Verkauf, die Vermietung und die Bewertung von Wohn- und Gewerbeimmobilien. Mit einem tiefen Verständnis des Bremer Immobilienmarktes kann die 1980 Real Estate GmbH maßgeschneiderte Lösungen entwickeln, die perfekt auf die individuellen Bedürfnisse und Wünsche ihrer Kunden abgestimmt sind. Ihr erfahrenes Team von Fachleuten begleitet die Kunden bei jedem Schritt des Immobilienprozesses und bietet eine persönliche Betreuung, die das Finden und Veräußern von Immobilien zu einem angenehmen Erlebnis macht. Egal, ob Sie ein neues Zuhause suchen oder Ihre Immobilie zum bestmöglichen Preis verkaufen möchten, die 1980 Real Estate GmbH nutzt ihre umfassenden Marktkenntnisse, um erfolgreiche Abschlüsse zu gewährleisten. Dabei legen sie besonderen Wert auf Transparenz und Ehrlichkeit, um Vertrauen und langfristige Beziehungen zu ihren Kunden aufzubauen. Der Service erstreckt sich von der ersten Beratung über die professionelle Bewertung und Präsentation Ihrer Immobilie bis hin zur Vertragsunterzeichnung und darüber hinaus. Die 1980 Real Estate GmbH nimmt sich die Zeit, den einzigartigen Wert jeder Immobilie zu erkennen und hebt diese professionell hervor, um die maximale Aufmerksamkeit eines breiten Käufer- oder Mieterpublikums zu erzielen. Durch den Einsatz moderner Technologien und ein umfassendes Netzwerk von Kontakten in Bremen und Umgebung können sie schnell und effektiv auf die Bedürfnisse des Marktes reagieren. Diese Stärken machen die 1980 Real Estate GmbH zu einem vertrauenswürdigen Partner in Immobiliengeschäften in Bremen. Das Unternehmen ist stets bereit, den bestmöglichen Service zu bieten und die Erwartungen seiner Kunden zu übertreffen, indem es seine Ressourcen optimal nutzt und innovative Ansätze verfolgt, um immer einen Schritt voraus zu sein.{mark.start}/p{mark.end}",
+    "maklerprofil_dyn_profil_text_tiny": ""
+  },
+  "makler_text_clean": "Die 1980 Real Estate GmbH ist ein angesehenes Immobilienunternehmen in Bremen, das für seine umfassende Marktkenntnis und sein engagiertes Team bekannt ist. Das Unternehmen bietet eine breite Palette von Dienstleistungen in der Immobilienvermittlung an, darunter den Verkauf, die Vermietung und die Bewertung von Wohn- und Gewerbeimmobilien. Mit einem tiefen Verständnis des Bremer Immobilienmarktes kann die 1980 Real Estate GmbH maßgeschneiderte Lösungen entwickeln, die perfekt auf die individuellen Bedürfnisse und Wünsche ihrer Kunden abgestimmt sind. Ihr erfahrenes Team von Fachleuten begleitet die Kunden bei jedem Schritt des Immobilienprozesses und bietet eine persönliche Betreuung, die das Finden und Veräußern von Immobilien zu einem angenehmen Erlebnis macht. Egal, ob Sie ein neues Zuhause suchen oder Ihre Immobilie zum bestmöglichen Preis verkaufen möchten, die 1980 Real Estate GmbH nutzt ihre umfassenden Marktkenntnisse, um erfolgreiche Abschlüsse zu gewährleisten. Dabei legen sie besonderen Wert auf Transparenz und Ehrlichkeit, um Vertrauen und langfristige Beziehungen zu ihren Kunden aufzubauen. Der Service erstreckt sich von der ersten Beratung über die professionelle Bewertung und Präsentation Ihrer Immobilie bis hin zur Vertragsunterzeichnung und darüber hinaus. Die 1980 Real Estate GmbH nimmt sich die Zeit, den einzigartigen Wert jeder Immobilie zu erkennen und hebt diese professionell hervor, um die maximale Aufmerksamkeit eines breiten Käufer- oder Mieterpublikums zu erzielen. Durch den Einsatz moderner Technologien und ein umfassendes Netzwerk von Kontakten in Bremen und Umgebung können sie schnell und effektiv auf die Bedürfnisse des Marktes reagieren. Diese Stärken machen die 1980 Real Estate GmbH zu einem vertrauenswürdigen Partner in Immobiliengeschäften in Bremen. Das Unternehmen ist stets bereit, den bestmöglichen Service zu bieten und die Erwartungen seiner Kunden zu übertreffen, indem es seine Ressourcen optimal nutzt und innovative Ansätze verfolgt, um immer einen Schritt voraus zu sein./p"
+}

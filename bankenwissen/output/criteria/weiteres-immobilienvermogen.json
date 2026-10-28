@@ -1,0 +1,121 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/weiteres-immobilienvermogen",
+  "category": "Kriterien Person",
+  "criterion_name": "Weiteres Immobilienvermögen",
+  "criterion_id": "weiteres-immobilienvermogen",
+  "scraped_at": "2026-05-07T12:19:18.046Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Anträge mit mehr als einer vermieteten Bestandsimmobilie (Wohnungseinheit) werden nicht begleitet"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Bei Immobilienvermögen von mehr als 3 Objekten ist ein Aufschlag in Höhe von 0,40% über die manuelle Konditionsanpassung einzurechnen"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "keine Begrenzung der Anzahl von Immobilien im Bestand\nkeine Unterlageneinreichung bei Bestandsobjekten notwendig\nbei umfangreichen Immobilienportfolio lediglich eine vom Kunden ausgefüllte und unterschriebene Immobilienaufstellung einreichen"
+    },
+    {
+      "bank": "Gabler-Saliter-Bank",
+      "value": "Ja"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Grundbuchauszug und ggf. Mietvertrag und Darlehensvertrag (Hauptseiten) erforderlich"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Keine Einschränkung"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Max. 4 Bestandsimmobilien inkl. des Neuantrags\nBewertung von Bestandsobjekten: 75% der externen Wertermittlung (z.B. vdp oder Sprengnetter)\nBerechnung ist dem Antrag beizufügen"
+    },
+    {
+      "bank": "KSK Döbeln",
+      "value": "Es werden max. 5 Objekte je Finanzierungsanfrage akzeptiert"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "Keine Finanzierung wenn mehr als 3 fremdfinanzierte Immobilien im Bestand sind"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Auch Kunden mit vielen Objekten und komplexen Strukturen"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Max. 3 weitere Bestandsobjekte"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Pro Antrag max. 3 weitere Bestands-Immobilien neben dem zu finanzierenden Objekt"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "Ja"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "Bitte vorab anfragen"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "nicht mehr als 4 Bestandsimmobilien"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Antragsteller dürfen zusätzlich zum Finanzierungsobjekt maximal 3 weitere Bestandsobjekte besitzen"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Max. 2 Objekte"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Antragsteller mit mehr als zwei Bestandsobjekten erhalten einen Rot-Score\nAntragsteller mit bis zu zwei Bestandsobjekten sind ohne Zinsaufschlag finanzierbar. Diese Regelung gilt nicht für das Finanzierungsprodukt \"Sparda-Regio\""
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Bewirtschaftungskosten eigengenutzte Objekte: (Grundsteuer, Wasser inkl. Abwasser, Straßenreinigung, Müllbeseitigung,\nWohngebäudeversicherung)\nBei wohnwirtschaftlicher Nutzung: Ansatz gem. Selbstauskunft, mind. aber\na) Objektalter >=11 Jahre: 3,55 Euro/qm\nb) Objektalter <11 Jahre: 2,6 Euro/qm\nc) Garage: pauschal 8,40 Euro/p.M.\n\nBewirtschaftungskosten fremdgenutzte Objekte: Kein Ansatz, da Bewirtschaftungskosten bereits durch den reduzierten Ansatz der Mieteinnahmen berücksichtigt wurden."
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Max. 3"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "Max. drei Bestandsobjekte – darüber hinaus bitte anfragen (Konditionen weichen ab)"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Eine neue Immobilienfinanzierung ist nicht möglich, wenn der Kreditnehmer bereits 3 oder mehr Objekte im Besitz hat."
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Einzelanfrage bei Immobiliensammler: Immobiliensammler gelten ab 4 Bestandsobjekten"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Es dürfen max. 3 Bestandsobjekte (sonstiges Vermögen) vorhanden sein"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "Bei fremdgenutzten Immos: Bewirtschaftungskosten 30%"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Mieteinnahmen als Nettoeinkommen zu werten: Der Fall ist nicht über EP abwickelbar, da der Kunde als Selbständiger gewertet wird"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Bei Kapitalanlegern mit mehreren Immobilien zur Vermietung im Bestand, bitte eine Voranfrage stellen, \ndamit eine individuelle Betrachtung der Einkünfte u. LHK erfolgen kann (max. 5 Bestandsimmobilien)"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "Bestandsobjekte eines Kunden auf 4 + 1 neues Objekt gedeckelt"
+    }
+  ]
+}

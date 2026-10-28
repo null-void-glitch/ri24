@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finanzierungscheck – Demo</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f7f8f9; color: #111; }
+    header { background: #BDE04F; color: #333; padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+    header h1 { margin: 0; font-size: 1.1rem; }
+    .wrap { max-width: 720px; margin: 32px auto; padding: 0 16px; }
+    .card { background: #fff; border: 1px solid #e2e5ea; border-radius: 14px; padding: 24px; margin-bottom: 24px; }
+    .card-pitcom { border-color: #a8d4f5; background: #f0f8ff; }
+    .card-result { border-color: #c3e6a0; }
+    .card-endpoints { border-color: #e2c68a; background: #fffbf0; }
+    h2 { margin: 0 0 14px; font-size: 1rem; color: #333; }
+    h3 { margin: 14px 0 8px; font-size: .9rem; color: #555; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .full { grid-column: 1 / -1; }
+    label { display: block; font-size: .82rem; font-weight: 600; margin-bottom: 4px; color: #444; }
+    input, select, textarea {
+      width: 100%; padding: 8px 10px; border: 1px solid #ccd2cf;
+      border-radius: 8px; font-size: .9rem; background: #fff;
+    }
+    input:focus, select:focus, textarea:focus { outline: 2px solid #A1BE43; outline-offset: 1px; }
+    .hint { font-size: .78rem; color: #667; margin-top: 4px; }
+    .separator { border: none; border-top: 1px solid #e2e5ea; margin: 14px 0; }
+    .btn {
+      display: inline-block; padding: 10px 22px; background: #BDE04F; color: #333;
+      font-size: .9rem; font-weight: 700; border: none; border-radius: 10px; cursor: pointer;
+    }
+    .btn:hover { background: #A1BE43; }
+    .btn-pitcom {
+      padding: 10px 20px; background: #3a9ad9; color: #fff;
+      font-size: .9rem; font-weight: 700; border: none; border-radius: 10px; cursor: pointer;
+    }
+    .btn-pitcom:hover { background: #2a7ab5; }
+    .btn-sm {
+      padding: 7px 14px; background: #fff; border: 1px solid #ccd2cf;
+      border-radius: 8px; font-size: .82rem; cursor: pointer; white-space: nowrap;
+    }
+    .btn-sm:hover { background: #f1f4f2; }
+    .btn-sm.orange { border-color: #e2a832; background: #fff8ed; }
+    .btn-sm.orange:hover { background: #fff0d0; }
+    .btn-sm.red { border-color: #e07070; background: #fff5f5; }
+    .status { font-size: .82rem; padding: 3px 0; }
+    .ok   { color: #1a6b2a; }
+    .fail { color: #c0392b; }
+    .warn { color: #a07000; }
+    .result-url { font-weight: 700; word-break: break-all; color: #1a6b2a; text-decoration: none; display: block; margin-bottom: 8px; }
+    pre { background: #eef1f0; padding: 10px 14px; border-radius: 8px; font-size: .75rem; overflow: auto; margin: 8px 0 0; white-space: pre-wrap; word-break: break-all; }
+    .badge { display: inline-block; border-radius: 5px; padding: 1px 7px; font-size: .75rem; font-weight: 700; }
+    .badge-green { background: #25D366; color: #fff; }
+    .badge-blue  { background: #3a9ad9; color: #fff; }
+    .ep-row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 10px; flex-wrap: wrap; }
+    .ep-row label { width: 110px; flex-shrink: 0; padding-top: 6px; }
+    .ep-row input { flex: 1; min-width: 0; }
+    .test-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔧 Finanzierungscheck – Demo-Panel</h1>
+    <span style="font-size:.8rem;opacity:.7">Lokaler Testserver</span>
+  </header>
+
+  <div class="wrap">
+
+    <!-- ── Schritt 1: Pitcom-Testtoken ──────────────────────────────────── -->
+    <div class="card card-pitcom">
+      <h2>1. Pitcom-Testtoken holen (optional)</h2>
+      <p style="font-size:.85rem;color:#555;margin:0 0 14px">
+        Ruft <code>backend.regionalimmobilien24.de/api/finanzierungscheck/session/test.php</code> auf
+        und füllt die Session-Felder automatisch vor.
+      </p>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <button class="btn-pitcom" onclick="fetchPitcomToken()">🔁 Pitcom-Testtoken holen</button>
+        <span class="status" id="pitcom-status"></span>
+      </div>
+      <pre id="pitcom-json" class="hidden"></pre>
+    </div>
+
+    <!-- ── Schritt 2: Session anlegen ───────────────────────────────────── -->
+    <div class="card">
+      <h2>2. Kunden-Session anlegen</h2>
+
+      <div class="grid">
+        <div>
+          <label for="vorname">Vorname *</label>
+          <input id="vorname" value="Max" placeholder="Vorname">
+        </div>
+        <div>
+          <label for="nachname">Nachname *</label>
+          <input id="nachname" value="Mustermann" placeholder="Nachname">
+        </div>
+        <div>
+          <label for="telefon">Telefon</label>
+          <input id="telefon" value="+491761234567" placeholder="+49…">
+        </div>
+        <div>
+          <label for="email">E-Mail</label>
+          <input id="email" type="email" value="max.mustermann@example.com">
+        </div>
+        <div>
+          <label for="berater_id">Berater-ID</label>
+          <input id="berater_id" placeholder="z.B. 316">
+        </div>
+        <div>
+          <label for="berater_url">Berater-URL</label>
+          <input id="berater_url" value="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/">
+        </div>
+        <div class="full">
+          <label for="expose_url">Exposé-URL (optional)</label>
+          <input id="expose_url" placeholder="https://www.regionalimmobilien24.de/expose/…">
+        </div>
+        <div class="full">
+          <label for="case_id">
+            Europace / Pitcom case_id
+            <span class="badge badge-blue" style="font-size:.7rem;margin-left:4px">NEU — Pitcom-Callback-Schlüssel</span>
+          </label>
+          <input id="case_id" placeholder="z.B. A23WYC — 6-stellige Europace-ID, wird durch Pitcom-Testtoken befüllt" maxlength="10">
+          <div class="hint">Wird für add-files und add-notice Callbacks gebraucht. Bearer = strtoupper(md5($case_id))</div>
+        </div>
+        <div class="full">
+          <label for="secret">API-Secret (CREATE_SESSION_SECRET)</label>
+          <input id="secret" type="password" placeholder="Leer lassen wenn kein Secret gesetzt">
+        </div>
+      </div>
+
+      <hr class="separator">
+      <button class="btn" onclick="createSession()">Session anlegen →</button>
+    </div>
+
+    <!-- ── Schritt 3: Ergebnis & Tests ─────────────────────────────────── -->
+    <div class="card card-result hidden" id="result-card">
+      <h2>3. Session angelegt</h2>
+      <a id="result-url" class="result-url" href="#" target="_blank"></a>
+      <div style="font-size:.82rem;color:#555;margin-bottom:10px" id="result-meta"></div>
+
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+        <button class="btn-sm" onclick="sendLink('whatsapp')">📱 WhatsApp senden</button>
+        <button class="btn-sm" onclick="sendLink('email')">📧 E-Mail senden</button>
+        <span class="status" id="send-status"></span>
+      </div>
+
+      <pre id="result-json"></pre>
+    </div>
+
+    <!-- ── Schritt 4: Pitcom-Endpunkte testen ──────────────────────────── -->
+    <div class="card card-endpoints hidden" id="endpoints-card">
+      <h2>4. Pitcom-Endpunkte testen
+        <span class="badge badge-blue" style="margin-left:8px">NEU</span>
+      </h2>
+
+      <p style="font-size:.82rem;color:#777;margin:0 0 14px">
+        Aktive Session: <strong id="ep-token-display"></strong> |
+        pitcom_session_id: <strong id="ep-pid-display">—</strong>
+      </p>
+
+      <!-- add-notice -->
+      <h3>📝 add-notice (Chatverlauf als CRM-Notiz)</h3>
+      <div class="ep-row">
+        <label style="font-size:.78rem">Endpunkt</label>
+        <input id="ep-notice-url" readonly style="background:#f5f5f5;font-size:.78rem">
+      </div>
+      <div class="ep-row">
+        <label style="font-size:.78rem">Bearer</label>
+        <input id="ep-notice-bearer" readonly style="background:#f5f5f5;font-size:.78rem">
+      </div>
+      <div style="margin-top:8px">
+        <label for="ep-notice-text" style="font-size:.78rem">Inhalt (text/plain)</label>
+        <textarea id="ep-notice-text" rows="4" style="font-size:.78rem">Finanzierungscheck — Max Mustermann — 2026-08-26
+
+OBJEKTDATEN:
+- Kaufpreis: 350.000 €
+- PLZ / Ort: 08056 Zwickau
+- Objektart: Eigentumswohnung
+
+KUNDENDATEN:
+- Geburtsjahr: 1985
+- Nettohaushaltseinkommen: 3.200 €
+- Beschäftigungsart: Angestellter
+- Eigenkapital: 40.000 €
+
+HOCHGELADENE UNTERLAGEN:
+- (keine hochgeladen im Test)
+
+TERMINWUNSCH:
+- Calendly-Link übermittelt</textarea>
+      </div>
+      <div class="test-row">
+        <button class="btn-sm orange" onclick="testNotice('pitcom')">▶ via Pitcom-Proxy senden</button>
+        <button class="btn-sm" onclick="testNotice('transcript')">▶ via transcript.php (MCP-Relay)</button>
+        <span class="status" id="notice-status"></span>
+      </div>
+      <pre id="notice-result" class="hidden"></pre>
+
+      <hr class="separator">
+
+      <!-- add-files -->
+      <h3>📎 add-files (Datei-Upload zu Europace)</h3>
+      <div class="ep-row">
+        <label style="font-size:.78rem">Endpunkt</label>
+        <input id="ep-files-url" readonly style="background:#f5f5f5;font-size:.78rem">
+      </div>
+      <div class="ep-row">
+        <label style="font-size:.78rem">Bearer</label>
+        <input id="ep-files-bearer" readonly style="background:#f5f5f5;font-size:.78rem">
+      </div>
+      <div style="margin-top:8px;font-size:.82rem;color:#777">
+        Datei-Upload via upload.php?action=submit wird durch den Chatbot ausgelöst (nach Dokumenten-Bestätigung).
+        Hier kannst du direkt eine Testdatei ans add-files-Endpunkt schicken:
+      </div>
+      <div class="test-row" style="margin-top:8px">
+        <input type="file" id="test-file-input" style="font-size:.82rem">
+        <button class="btn-sm orange" onclick="testFileUpload()">▶ Testdatei direkt an Pitcom senden</button>
+        <span class="status" id="files-status"></span>
+      </div>
+      <pre id="files-result" class="hidden"></pre>
+    </div>
+
+  </div><!-- /wrap -->
+
+  <script>
+    var state = { token: null, pitcomSessionId: null };
+
+    function val(id) { return document.getElementById(id).value.trim(); }
+    // Nur wenn die Seite vom Python-Staticserver (:8080) geladen wird,
+    // zeigen API-Fetch-Calls auf den PHP-Server (:8002) desselben Hosts.
+    // Bei direktem Zugriff via PHP (:8002) oder ngrok → relative URLs.
+    var API_BASE = (function() {
+      return window.location.port === '8080'
+        ? window.location.protocol + '//' + window.location.hostname + ':8002'
+        : '';
+    })();
+
+    function el(id)  { return document.getElementById(id); }
+    function show(id, v) { el(id).classList.toggle('hidden', !v); }
+
+    // ── 1. Pitcom-Testtoken ──────────────────────────────────────────────
+    async function fetchPitcomToken() {
+      el('pitcom-status').textContent = 'Abrufen …';
+      el('pitcom-status').className = 'status';
+
+      var caseIdVal = val('case_id');
+      if (!caseIdVal) {
+        el('pitcom-status').textContent = '⚠ Bitte zuerst eine Europace case_id eintragen (6-stellig, z.B. A23WYC)';
+        el('pitcom-status').className = 'status warn';
+        return;
+      }
+
+      try {
+        var payload = {
+          vorname:    val('vorname')    || 'Max',
+          nachname:   val('nachname')   || 'Mustermann',
+          email:      val('email')      || 'max@example.com',
+          telefon:    val('telefon')    || '+491761234567',
+          berater_id: val('berater_id') || '',
+          case_id:    caseIdVal,
+        };
+
+        var res  = await fetch(API_BASE + '/pitcom-test.php?action=session', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        var data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        el('pitcom-json').textContent = JSON.stringify(data, null, 2);
+        show('pitcom-json', true);
+
+        // case_id aus den Endpoint-URLs extrahieren (zur Bestätigung)
+        var noticeUrl = data.endpoints?.['add-notice']?.url || '';
+        var match = noticeUrl.match(/\/([^\/]+)\.json$/);
+        var pitcomId = match ? match[1] : caseIdVal;
+
+        el('pitcom-status').textContent = '✓ case_id: ' + pitcomId + (data.token ? ' | token: ' + data.token.substring(0,12) + '…' : '');
+        el('pitcom-status').className = 'status ok';
+
+        // Token-URL aus Pitcom-Response in Ergebnis übernehmen falls vorhanden
+        if (data.url) {
+          el('pitcom-status').textContent += ' | Kunden-URL: ' + data.url;
+        }
+      } catch (e) {
+        el('pitcom-status').textContent = '✗ ' + e.message;
+        el('pitcom-status').className = 'status fail';
+        show('pitcom-json', !!el('pitcom-json').textContent);
+      }
+    }
+
+    // ── 2. Session anlegen ───────────────────────────────────────────────
+    async function createSession() {
+      var body = {
+        vorname:    val('vorname'),
+        nachname:   val('nachname'),
+        telefon:    val('telefon'),
+        email:      val('email'),
+        berater_id: val('berater_id'),
+        berater_url: val('berater_url'),
+        case_id:    val('case_id'),
+      };
+      if (val('expose_url')) body.expose_url = val('expose_url');
+
+      var headers = { 'Content-Type': 'application/json' };
+      if (val('secret')) headers['Authorization'] = 'Bearer ' + val('secret');
+
+      try {
+        var res  = await fetch(API_BASE + '/create-session.php', { method: 'POST', headers, body: JSON.stringify(body) });
+        var data = await res.json();
+        if (data.error) { alert('Fehler: ' + data.error); return; }
+
+        state.token          = data.token;
+        state.pitcomSessionId = val('case_id');
+
+        el('result-url').href        = data.url;
+        el('result-url').textContent = data.url;
+
+        var meta = data.is_mobile ? '📱 Mobilnummer erkannt' : '';
+        if (data.whatsapp_recommended) meta += ' <span class="badge badge-green">WhatsApp empfohlen</span>';
+        el('result-meta').innerHTML = meta;
+
+        el('result-json').textContent = JSON.stringify(data, null, 2);
+        show('result-card', true);
+
+        // Endpunkte befüllen
+        updateEndpoints();
+        show('endpoints-card', true);
+      } catch (e) {
+        alert('Netzwerkfehler: ' + e.message);
+      }
+    }
+
+    function updateEndpoints() {
+      var pid = state.pitcomSessionId || '';
+      var base = 'https://backend.regionalimmobilien24.de/api/finanzierungscheck';
+
+      el('ep-token-display').textContent = state.token ? state.token.substring(0, 12) + '…' : '—';
+      el('ep-pid-display').textContent   = pid || '—';
+
+      if (pid) {
+        var bearer = '(wird serverseitig berechnet: strtoupper(md5("' + pid + '")))';
+        el('ep-notice-url').value    = base + '/add/chatverlauf/' + pid + '.json';
+        el('ep-notice-bearer').value = bearer;
+        el('ep-files-url').value     = base + '/add/files/' + pid + '.json';
+        el('ep-files-bearer').value  = bearer;
+      } else {
+        el('ep-notice-url').value    = '(kein pitcom_session_id)';
+        el('ep-notice-bearer').value = '—';
+        el('ep-files-url').value     = '(kein pitcom_session_id)';
+        el('ep-files-bearer').value  = '—';
+      }
+    }
+
+    // ── 3a. Notiz testen ────────────────────────────────────────────────
+    async function testNotice(via) {
+      var text   = el('ep-notice-text').value.trim();
+      var st     = el('notice-status');
+      var pre    = el('notice-result');
+      st.textContent = 'Sende …'; st.className = 'status';
+      pre.classList.add('hidden');
+
+      try {
+        var res, data;
+        if (via === 'pitcom') {
+          // Direkt via pitcom-test.php PHP-Proxy
+          if (!state.pitcomSessionId) throw new Error('Kein pitcom_session_id gesetzt');
+          res  = await fetch(API_BASE + '/pitcom-test.php?action=notice&session_id=' + encodeURIComponent(state.pitcomSessionId), {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain' },
+            body: text,
+          });
+          data = await res.json();
+        } else {
+          // Via transcript.php (MCP-Relay wie im Produktionsbetrieb)
+          if (!state.token) throw new Error('Zuerst eine Session anlegen');
+          res  = await fetch(API_BASE + '/transcript.php?t=' + encodeURIComponent(state.token), {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain' },
+            body: text,
+          });
+          data = await res.json();
+        }
+
+        pre.textContent = JSON.stringify(data, null, 2);
+        pre.classList.remove('hidden');
+
+        if (data.ok) {
+          st.textContent = '✓ Erfolgreich (HTTP ' + (data.http_code || 200) + ')';
+          st.className = 'status ok';
+        } else {
+          st.textContent = '✗ Fehler: ' + JSON.stringify(data);
+          st.className = 'status fail';
+        }
+      } catch (e) {
+        st.textContent = '✗ ' + e.message;
+        st.className = 'status fail';
+      }
+    }
+
+    // ── 3b. Datei-Upload testen ──────────────────────────────────────────
+    async function testFileUpload() {
+      var fileInput = el('test-file-input');
+      var st  = el('files-status');
+      var pre = el('files-result');
+
+      if (!fileInput.files.length) { alert('Bitte zuerst eine Datei auswählen.'); return; }
+      if (!state.pitcomSessionId) { alert('Kein pitcom_session_id gesetzt.'); return; }
+
+      st.textContent = 'Sende …'; st.className = 'status';
+      pre.classList.add('hidden');
+
+      try {
+        var formData = new FormData();
+        formData.append('file[0]', fileInput.files[0], fileInput.files[0].name);
+
+        var pid     = state.pitcomSessionId;
+        var url     = 'https://backend.regionalimmobilien24.de/api/finanzierungscheck/add/files/' + encodeURIComponent(pid) + '.json';
+
+        // Direct fetch geht nicht (CORS) → via PHP-Proxy
+        // Wir nutzen upload.php?action=submit als Relay (setzt das Bearer intern)
+        // Alternativ: manueller curl-Befehl anzeigen
+        var bearer = '(berechnet von PHP)';
+
+        // Zeige curl-Befehl als Info
+        var curlCmd = 'curl -X POST "' + url + '" \\\n'
+          + '  -H "Authorization: Bearer $(php -r \'echo strtoupper(md5("' + pid + '"));\' )" \\\n'
+          + '  -F "file[0]=@' + fileInput.files[0].name + '"';
+
+        // Tatsächlicher Upload via upload.php simulieren:
+        // Wir schicken die Datei an upload.php (normaler POST → speichert lokal)
+        // und rufen dann action=submit mit dem gespeicherten Dateinamen auf
+        var reader = new FileReader();
+        reader.onload = async function(ev) {
+          var base64 = ev.target.result.split(',')[1];
+          var uploadRes = await fetch(API_BASE + '/upload.php?t=' + encodeURIComponent(state.token), {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ files: [{ name: fileInput.files[0].name, type: fileInput.files[0].type, data: base64 }] }),
+          });
+          var uploadData = await uploadRes.json();
+
+          if (!uploadData.ok) throw new Error('Lokaler Upload fehlgeschlagen: ' + JSON.stringify(uploadData.errors));
+
+          // Jetzt action=submit → Relay zu Pitcom
+          var submitRes = await fetch(API_BASE + '/upload.php?t=' + encodeURIComponent(state.token) + '&action=submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ documents: [{ filename: fileInput.files[0].name, category: 'Sonstige Unterlagen' }] }),
+          });
+          var submitData = await submitRes.json();
+
+          pre.textContent = '--- Lokaler Upload ---\n' + JSON.stringify(uploadData, null, 2)
+            + '\n\n--- Pitcom-Relay (upload.php?action=submit) ---\n' + JSON.stringify(submitData, null, 2)
+            + '\n\n--- curl-Äquivalent (Pitcom direkt) ---\n' + curlCmd;
+          pre.classList.remove('hidden');
+
+          if (submitData.ok || submitData.submitted > 0) {
+            st.textContent = '✓ Relay zu Pitcom erfolgreich (' + (submitData.submitted || 0) + ' Datei(en))';
+            st.className = 'status ok';
+          } else {
+            st.textContent = '⚠ Lokal gespeichert, Pitcom-Relay: ' + JSON.stringify(submitData.errors);
+            st.className = 'status warn';
+          }
+        };
+        reader.onerror = function() { throw new Error('Datei konnte nicht gelesen werden.'); };
+        reader.readAsDataURL(fileInput.files[0]);
+      } catch (e) {
+        st.textContent = '✗ ' + e.message;
+        st.className = 'status fail';
+      }
+    }
+
+    // ── Versand ─────────────────────────────────────────────────────────
+    async function sendLink(channel) {
+      if (!state.token) { alert('Zuerst eine Session anlegen.'); return; }
+      var st = el('send-status');
+      st.textContent = 'Sende …'; st.className = 'status';
+      var headers = { 'Content-Type': 'application/json' };
+      if (val('secret')) headers['Authorization'] = 'Bearer ' + val('secret');
+      try {
+        var res  = await fetch(API_BASE + '/send.php', { method: 'POST', headers, body: JSON.stringify({ token: state.token, channel }) });
+        var data = await res.json();
+        st.textContent = data.ok ? '✓ Versendet (' + channel + ')' : '✗ ' + (data.error || 'Fehler');
+        st.className = 'status ' + (data.ok ? 'ok' : 'fail');
+      } catch (e) {
+        st.textContent = '✗ ' + e.message; st.className = 'status fail';
+      }
+    }
+  </script>
+</body>
+</html>

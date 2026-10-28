@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RI24 Partner-Widget – Demo (Inline)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f7f8f9; color: #111; }
+    header { background: #BDE04F; color: #333; padding: 16px 24px; }
+    header h1 { margin: 0; font-size: 1.15rem; }
+    .info { max-width: 640px; padding: 24px 24px 0; }
+    .info code { background: #eef1f0; padding: 1px 5px; border-radius: 4px; }
+    .info ol { padding-left: 20px; }
+    .chat-slot { padding: 0 24px 24px; }
+  </style>
+</head>
+<body>
+  <header><h1>💬 RI24 Partner-Widget – lokale Demo (Inline)</h1></header>
+
+  <div class="info">
+    <p>Simuliert, wie das Widget auf einer <strong>externen</strong> Berater-Seite aussieht —
+       offen im Seitenfluss, direkt an der Stelle des Snippets (hier unten in der
+       <code>.chat-slot</code>-Section).</p>
+    <p><strong>Wichtig:</strong> diese Datei über <code>http://</code> öffnen, nicht per
+       Doppelklick als <code>file://</code> — Browser blockieren das Nachladen von
+       <code>type="module"</code>-Skripten (DeepChat-Bundle) über <code>file://</code> per
+       CORS-Policy, das Widget bliebe sonst dauerhaft unsichtbar.</p>
+    <ol>
+      <li><code>cd chat-baufinanzierung && php -S localhost:8001</code></li>
+      <li><code>http://localhost:8001/partner-widget-demo-inline.html</code> öffnen</li>
+    </ol>
+  </div>
+
+  <div class="chat-slot">
+    <div id="ri24_baufi_widget"></div>
+    <script>
+      window.RI24_BAUFI_PARTNER_WIDGET = {
+        teamDir: 'philipp-steppohn',
+        elementID: 'ri24_baufi_widget',
+        layout: 'inline',
+        endpoint: 'http://localhost:8001/chat.php',
+        resolveEndpoint: 'http://localhost:8001/resolve-advisor.php'
+      };
+    </script>
+    <script async defer src="./partner-widget.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1881 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/objektbewertung",
+  "category": "Kriterien Objekt",
+  "criterion_name": "Objektbewertung",
+  "criterion_id": "objektbewertung",
+  "scraped_at": "2026-05-07T12:16:55.705Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "Europace Wertermittlung\nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "Sprengnetter - Wertermittlungsverfahren auf der Plattform: Gestehungskosten\n \nSachwertverfahren:\nGrundstücke\nETW\nEFH, ZFH\nErtragswertverfahren:\nDreifamilienhaus und MFH\nWohn- und Geschäftshäuser"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "OnGeo"
+    },
+    {
+      "bank": "AXA",
+      "value": "Sprengnetter"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "vdp -\nEuropace Wertermittlung"
+    },
+    {
+      "bank": "Bankhaus Ellwanger und Geiger AG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Sprengnetter"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Value ongeo"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Berliner Volksbank eG",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "BHW",
+      "value": "vdp"
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "GSD - Wertermittlungsverfahren auf der Plattform: Gestehungskosten"
+    },
+    {
+      "bank": "Bordesholmer Sparkasse",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Hausinternes Bewertungsprogramm mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "vdp\nEuropace Wertermittlung"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "Sprengnetter"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "vdp"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "vdp-Daten in Lora Speed\nWertermittlungsverfahren auf der Plattform: Gestehungskosten"
+    },
+    {
+      "bank": "DKB",
+      "value": "Die Ermittlung des Verkehrswertes erfolgt bankseitig systemunterstützt.\nBei großen Differenzen zwischen den ermittelten Verkehrswerten von Vermittler / Plattform und Bank ist eine neue Konditionierung und / oder weiteres Eigenkapital erforderlich.\nIn diesen Fällen meldet sich die DKB, um eine Lösung zu besprechen.\nBei Käufen innerhalb der Familie kann für die Konditionierung der ermittelte Verkehrswert statt des vereinbarten Kaufpreises berücksichtigt werden."
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "vdp im Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "OneValue und interne Bewertung"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Sachwertverfahren für Einfamilien- und Zweifamilienhäuser\nVergleichswertverfahren für Eigentumswohnungen\nAls Bewertungsquelle wird VDP genutzt.\nEine Marktwertindikation über VDP oder Sprengnetter im Vorfeld wird zwingend empfohlen."
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Gabler-Saliter-Bank",
+      "value": "vdp"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "OneValue im Vergleich: Europace Wertermittlung"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Kauf und Neubau in der Metropolregion Hamburg : Kaufpreis/Gestehungskosten\nKauf außerhalb der Metropolregion Hamburg: vdp Wert mit den Vorgaben \"mittel\" für Ausstattung und Zustand\nZusatzsicherheiten sowie Anschlussfinanzierungen, Kapitalbeschaffungen und Renovierungen: vdp Wert mit den Vorgaben \"mittel\" für Ausstattung und Zustand"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Sprengnetter - vdp (auf der Plattform) - Auf Europace wird mit der vdp-Marktwertermittlung gerechnet / Objektbesichtigung nach Vertragsabschluss und vor Auszahlung erforderlich // Eine Voreinwertung anhand eines Sprengnetter-Tools ist zu empfehlen.\n> Auswirkungen auf die Konditionierung"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "keine Wertermittlung notwendig bei AVD"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "vdp  und Value"
+    },
+    {
+      "bank": "Herner Sparkasse",
+      "value": "Lora Speed\nGestehungskosten"
+    },
+    {
+      "bank": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Lora/ OnGeo"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "vdp - Wertgutachten: ab Marktwert 2 Mio. EUR, MHF, unbebauten Wohngrundstücken & Private Banking Finanzierungen - Dauer: ca. 10 AT"
+    },
+    {
+      "bank": "ING",
+      "value": "Seit Nov 2022 ist der „ING Immo-Check” die neue Objektbewertung der ING und Sprengnetter. Der ING Immo-Check ersetzt den Service Five2Click.\nDer ING Immo-Check wird automatisch bei jedem Vorscoring, d.h. bei Annahme oder Anfrage eines ING-Finanzierungsvorschlags ermittelt.\nJeder Abruf des ING Immo-Checks wird als Europace-Ereignis dokumentiert und automatisch an die ING weitergeleitet. \n \nGrundrisserstellung und Wohnflächenberechnung:\nDie ING erkennt auch die von 1000hands AG erstellten Unterlagen an. Es werden ausschließlich die nach einer Vermessung vor Ort erfolgten Grundrisserstellungen und Wohnflächenberechnungen anerkannt."
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "vdp\nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "Lora"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Sprengnetter - \nWertermittlung: Gestehungskosten, ETW = Vergleichsverfahren"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "vdp und Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Döbeln",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Esslingen-Nürtingen",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Göppingen",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Heidenheim",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "eigenes internes Tool\nObjektbesichtigung nach Kauf (bis zu 1 Jahr nach Kauf)"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "KSK Herzogtum Lauenburg",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Lora"
+    },
+    {
+      "bank": "KSK Limburg",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "Lora - Sparkassen nutzen überwiegend Lora Speed (on-geo) zur Objektbewertung"
+    },
+    {
+      "bank": "KSK Mayen",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Nordhausen",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Lora speed (ongeo)\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "LORA\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Stendal",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "Lora \nWertermittlung: Gestehungskosten; Ertragswertverfahren bei MFH"
+    },
+    {
+      "bank": "KSK Tübingen",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "Lora - Bei Altbauten sollten die Kunden in der Lage sein, in der Vergangenheit durchgeführte Modernisierungsmaßnahmen zu benennen. Gesonderte Formulare gibt es nicht.\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Lora"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "Lora Speed (on geo)\nGestehungskosten"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "Lora \nGestehungskosten"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Lora -\nGestehungskosten"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Lora, vdp\nGestehungskosten"
+    },
+    {
+      "bank": "LBS NordOst (vormals LBS Ost)",
+      "value": "Lora"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "VDP research\nmit Vergleich Gestehungskosten\nab August das zertifizierte Gutachten bei Genopace"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Lora\nGestehungskosten"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "Nord-Ostsee-Sparkasse",
+      "value": "Lora -\nGestehungskosten"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "vdp \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Die finale Plausibilisierung des Objektwertes erfolgt im Rahmen der finalen Detailprüfung auf Basis von Ongeo. Dieser Wert ist entscheidend für die finale Machbarkeit. Eine Überprüfung dieses Wertes ist nicht im Rahmen einer Voranfrage möglich. Eine entsprechende Vorabprüfung ist nicht möglich. Der jeweilige technische Antrag inkl. der erforderlichen Unterlagen muss vorliegen."
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": ""
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "Sprengnetter - Wertermittlung: überwiegend Gestehungskosten"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "vdp"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "LORA\nAb 3 WE im gleichen Objekt wird das Ertragswertverfahren angewendet.\nDer Verkehrswert darf maximal der Kaufpreis sein."
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": ""
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Sprengnetter ONE"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Sprengnetter"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "vdp"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "vdp"
+    },
+    {
+      "bank": "PSD West",
+      "value": "Sprengnetter ONE"
+    },
+    {
+      "bank": "Raiffeisenbank Augsburger Land West eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Raiffeisenbank Hohenloher Land eG",
+      "value": "Vdp mit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "vdpResearch\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "Vdp mit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank Kreis Kelheim eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "OneValue\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "vdp"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "vdp -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Haßberge eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Oder-Spree eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Rheingauer Volksbank eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Lora"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "Spregnetter oder on-geo\nWertermittlungsverfahren auf der Plattform: vdp // nach Erfassung der vollständigen Objektangaben erfolgt über eine Schnittstelle automatisch die hauseigene Objekteinwertung der SIGNAL IDUNA"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "vdp"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "vdp - Es findet grundsätzlich für jedes Beleihungsobjekt eine Außenbesichtigung statt // Grundbuchliche Besicherung ab TEUR 306,7 auf einem Objekt und bei Beleihung von MFH (ab 4 WE) wird ein Objektwertgutachten erstellt. Kosten trägt die Sparda-Bank // Bei Antragstellung ist IMMER das Formular \"Einverständniserklärung im Rahmen der Immobilienbesichtigung\" vollständig ausgefüllt und unterschrieben einzureichen."
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "vdp"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "vdp"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "vdp \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Lora, on geo\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Vorab VDP (mittel/mittel) - Gutachter wird Objekt im Nachgang ggf. besichtigen"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "bankinternes Tool"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Einwertung über Europace Wertermittlung erforderlich. \nHierzu bitte folgende Vorgaben beachten: \n\nAnsatz Ausstattung und Zustand \nbei Energieeffizienzklasse A+ und A = stark gehoben/sehr gut \nbei B und C = gehoben/gut und \nbei D und schlechter = mittel/mittel \n\nBitte die Vorgaben einhalten, da sonst eine Rückgabe des Vorgangs erforderlich sein kann!"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "Lora"
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Altmark West",
+      "value": "Lora -\nGestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "Wertermittlung: Gestehungskosten; Ertragswertverfahren bei MFH"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Lora"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "Lora - Wertgutachten: für Objekte >3 WE\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Lora \nWertermittlung: Gestehungskosten; Ertragswertverfahren bei MFH"
+    },
+    {
+      "bank": "Sparkasse Bensheim",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "Lora \nWertermittung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Donnersberg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Lora, S-Immopreisfinder \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "OnGeo / Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "eigene Gutachter, bzw. Abschlagsverfahren\nGestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Lora - \nWertermittlung: Gestehungskosten, erfolgt in der Regel nachgelagert durch Wertermittler bei der Vor-Ort-Besichtigung"
+    },
+    {
+      "bank": "Sparkasse Gießen",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Gladbeck",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "LORA\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "LORA \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Herford",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "Lora \nWertermittlung: Gestehungskosten, MFH Ertragswert mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Kaiserslautern",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Kinzigtal",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "LORA\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "on geo\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Lora\nWertermittlung: Gestehungskosten, bei MFH Ertragswert mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Landshut",
+      "value": "Lora - \nGestehungskosten, bei MFH Ertragswert"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Lora - \nWertermittlung: Gestehungskosten\n \nBitte nutze bei Familienkäufen, Anschlussfinanzierungen oder Modernisierungen von Bestandsimmobilien die Dienstleistung von Europace Wertermittlung zur Marktwertbestimmung des Objektes"
+    },
+    {
+      "bank": "Sparkasse Leverkusen",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Lörrach-Rheinfelden",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse MagdeBurg",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mainfranken-Würzburg",
+      "value": "Lora - \nWertermittung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "Lora \nWertermittlung:  Gestehungskosten, MFH Ertragswert mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Nordwest",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Schwerin",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Minden-Lübbecke",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mittelholstein",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Neubrandenburg-Demmin",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Lora\nGestehungskosten, MFH Ertragswert"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Lora"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Lora"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "LORA\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten\nMFH: Ertragswert"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Lora"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Passau",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rhein-Haardt",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Lora \nWertermittlung: Gestehungskosten, MFH = Ertragswertverfahren mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "Lora \nWertermittlung: Gestehungskosten\nbei MFH ab 3 WE Ertragswertverfahren"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Lora - Sparkassen nutzen überwiegend Lora Speed (on-geo) zur Objektbewertung."
+    },
+    {
+      "bank": "Sparkasse Saarbrücken",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Salem-Heiligenberg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "Lora\nGestehungskosten, MFH = Ertragswertverfahren"
+    },
+    {
+      "bank": "Sparkasse Schwarzwald-Baar",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Südpfalz",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Lora - Systemgestützte Wertermittlung agree\nGestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Lora - \nWertermittlung: Anschaffungs- und Herstellungskosten"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "Lora  \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Vogtland",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "Lora\nWertermittlung: Gestehungskosten > Ansatz Baukosten: 100 % des Kaufpreises/Anschaffungs- und Herstellungskosten"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Lora speed (ongeo)\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Westmünsterland",
+      "value": "Lora - Ggfs. wird eine kurze Objektbesichtigung durch einen Gutachter durchgeführt\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Wilhelmshaven",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Wittgenstein",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Spreewaldbank eG",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "LORA\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "Lora - Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadt-Sparkasse Haan",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "Lora Speed (on-geo) - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Rahden",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Lora -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Wedel",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "individuelle Einschätzung unter Zuhilfenahme von BoRiS.NRW"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Lora - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "Sprengnetter"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Objekteinwertung erfolgt über das Bankensystem\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Brakel",
+      "value": "vdp- \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Vdp mit Vergleich Gestehungskosten - interne Wertermittlung notwendig\nEuropace Wertermittlung"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Allgäu-Oberschwaben",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "vdp"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "vdp mit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Vdp\nWertermittlung: Gestehungskosten (MFH nach Ertragswert)"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Europace Wertermittlung über Value"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "vdp\nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Dreiländereck eG",
+      "value": "vdp -\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Dresden-Bautzen eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Systemgestützte Wertermittlung über eigene Softwarelösung"
+    },
+    {
+      "bank": "Volksbank eG Oldenburger-Land Delmenhorst (vormals Volksbank Delmenhorst Schierbrok eG)",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "vdp - \nGestehungskosten"
+    },
+    {
+      "bank": "Volksbank Gronau-Ahaus eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "vdp \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Heinsberg eG",
+      "value": "Sachwertverfahren mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Systemgestützte Wertermittlung in Agree, künftig ggf. Europacewertermittlung\nEinwilligung zur Objektbesichtigung, Immobilienauskunft, Auszahlungen erst nach Besichtigung und hierdurch Bestätigung des Zustandes der Immobilie"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "VDP Reasearch\nGestehungskosten"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Objekteinwertungstool: VDP\nmit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "Europace Wertermittlung mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Sprengnetter - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "vdp mit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "vdp \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "Vdp mit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "Value"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "vdp / hauseigenes Tool\nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "VDP"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "Wertermittlungsrichtlinie des BVR"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "vdp, in Planung OneValue\nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "OneValue"
+    },
+    {
+      "bank": "Volksbank Rhein-Lippe eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Lora - Es wird immer ein Wertgutachten erstellt."
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "vdp - zwingend erforderlich, Berechnungsnachweis beifügen\nmit Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "vdp - Volks- & Raiffeisenbanken greifen in verbundeigener Anwendung auf vdp-Daten zu."
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "vpd, Lora"
+    },
+    {
+      "bank": "Volksbank Seesen",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "VDP\nBesichtigung individuell nach Lage des Objektes. //\nWertgutachten ab 400.000 EUR Beleihung"
+    },
+    {
+      "bank": "Volksbank Stendal eG",
+      "value": "vdp - Volks- & Raiffeisenbanken greifen in verbundeigener Anwendung auf vdp-Daten zu."
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Value (Nichts desto trotz erfolgt interne Bewertung die ggf. noch abweichen kann)"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Auf der Plattform ist das Kaufpreisverfahren eingestellt mit Abschlag von 10%. Innerhalb der Bank wird die systemgestützte Wertermittlung genutzt."
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Vogtland-Saale-Orla eG",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "vdp\nim Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volksbank Wilhelmshaven eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "vpd - mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "Wertermittlung: Sachwertverfahren (Ertragswert bei MFH ab 3 Einheiten)"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "vdp - Objekteinwertungstools werden intern nicht genutzt.\nIn BaufiSmart kann die vdp-Marktwertermittlung zur groben Einordnung herangezogen werden."
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "systemgestützte Wertermittlung agree BAP (Fiducia AG)\nHinweis - Besichtigung erfolgt durch die Value AG // Wertgutachten aber 306.000 EUR Darlehenssumme"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "agree21 - bankeigene Anwendung\nvdp auf Plattform als Orientierung > Vergleich Gestehungskosten\n> Achtung bei MFH"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "Sprengnetter - Formular liegt im Vertragsbündel bei"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "OneValue\nWertermittlung: Europace-Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Fläming-Elsterland eG",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "vdp - mit Vergleich Europace Wertermittlung\nErtragswertverfahren ab 3 Wohneinheiten"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank in Holstein eG",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "OneValue\nEuropace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Lahn-Dill eG",
+      "value": "vdp - Volks- & Raiffeisenbanken greifen in verbundeigener Anwendung auf vdp-Daten zu."
+    },
+    {
+      "bank": "VR-Bank Lausitz",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Europace Wertermittlung\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "vdp / systemgestützt\nWertermittlung - vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VR-Bank Meißen-Großenhain",
+      "value": "vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR-Bank Memmingen",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "vdp - \nmit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "OneValue im Vergleich mit Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "vdp\nim Vergleich Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "Objekteinwertung erfolgt über das Bankensystem.\nVergleichswert: Europace Wertermittlung\nDie Besichtigung wird entweder durch MA der Bank oder durch Partner Value AG bzw. On Geo durchgeführt"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "vdp \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "agree21 im Vergleich: Europace Wertermittlung"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "vdp\nBemerkung: Bei Objektbelastung >750.000 EUR ist Gutachten erforderlich (Kosten trägt die Bank)"
+    },
+    {
+      "bank": "VR Bank Ried-Überwald eG (ehemals Raiffeisenbank Ried eG)",
+      "value": "vdp"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "OneValue"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "vdp - Volks- & Raiffeisenbanken greifen in verbundeigener Anwendung auf vdp-Daten zu."
+    },
+    {
+      "bank": "VR-Bank Spangenberg-Morschen eG",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR Bank Starnberg-Zugspitze eG (vormals VR-Bank Starnberg-Herrsching-Landsberg)",
+      "value": "vdp - \nGestehungskosten"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "vdp - bis 400TEUR Grundschuldhöhe Auslagerung der Besichtigung an die Value AG // Ansprechpartner ist hier immer der Vermittler der den Fall eingereicht hat. // Ertragswertverfahren immer ab 3 WE in einem Grundbuchblatt.\nEuropace Wertermittlung:"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "Systemgestützte Wertermittlung agree"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "agree21 - bankeigenes Tool"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Sprengnetter - Generell bei PSD-Banken: Sprengnetter // Wertermittlung auf der Plattform: überwiegend Gestehungskosten // Wertgutachten: Ab Objektwert >300 TEUR"
+    },
+    {
+      "bank": "VR-Bank Würzburg",
+      "value": "vdp - Volks- & Raiffeisenbanken greifen in verbundeigener Anwendung auf vdp-Daten zu."
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "vdp"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "vdp - \nEuropace Wertermittlung\nOberhalb von TEUR 600 (inkl. Vorlasten) ist eine gesonderte Wertermittlung erforderlich. Die Bearbeitungszeit in diesen Fällen erhöht sich deshalb auf 3-5 Wochen."
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Europace Wertermittlung"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Value, vdp\nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "vdp mit Vergleich Gestehungskosten"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "vdp - \nWertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Waldeck-Frankenberger Bank eG (zuvor Waldecker Bank eG)",
+      "value": "Wertermittlung: Gestehungskosten"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Lora"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "Lora - \nGestehungskosten"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Europace Wertermittlung"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+========================================
+STARTE REGION: gii24  (18:54:54)
+========================================
+Login ok (Session p9ae00wjdy), 4 Worker-Seiten.
+Region: gii24 (Mittelhessen), Slug: /mittelhessen/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+16 Makler gefunden.
+
+  [lesen] Annette Münster Immobilien: 287 W.  (profil_uri: '{region}/anbieter/annette-muenster-immobilien/')
+  [lesen] David Puyol Immobilien: 289 W.  (profil_uri: '{region}/anbieter/david-puyol-immobilien/')
+  [lesen] der stadtmakler Immobillien GmbH & Co. KG: 313 W.  (profil_uri: '{region}/anbieter/der-stadtmakler-immobillien-gmbh-und-co-kg/')
+  [lesen] Harald Weber Immobilien-Service - Immobilienmakler Gießen: 311 W.  (profil_uri: '{region}/anbieter/harald-weber-immobilien-service-immobilienmakler-giessen/')
+  [lesen] Home & Living Immobilien: 296 W.  (profil_uri: '{region}/anbieter/home-und-living-immobilien/')
+  [lesen] Immobilien Galerie Böcher: 262 W.  (profil_uri: '{region}/anbieter/immobilien-galerie-boecher-1/')
+  [lesen] Immotrend Immobilien: 313 W.  (profil_uri: '{region}/anbieter/immotrend-immobilien/')
+  [lesen] Krag Immobilien GmbH: 293 W.  (profil_uri: '{region}/anbieter/krag-immobilien-gmbh/')
+  [lesen] Kredithaus24: 270 W.  (profil_uri: '{region}/anbieter/kredithaus/')
+  [lesen] MF Immobilien: 271 W.  (profil_uri: '{region}/anbieter/mf-immobilien/')
+  [lesen] Mike Schneider Immobilien GmbH: 298 W.  (profil_uri: '{region}/anbieter/mike-schneider-immobilien-gmbh/')
+  [lesen] Navilon GmbH: 303 W.  (profil_uri: '{region}/anbieter/navilon-gmbh/')
+  [lesen] Pape Home Immobilien: 312 W.  (profil_uri: '{region}/anbieter/pape-home-immobilien/')
+  [lesen] RE/MAX Ihr Immobilienberater Andreas Baum: 311 W.  (profil_uri: '{region}/anbieter/re-max-ihr-immobilienberater-andreas-baum/')
+  [lesen] Wehner Immobilien: 311 W.  (profil_uri: '{region}/anbieter/wehner-immobilien/')
+  [lesen] WIORA Immobilien: 298 W.  (profil_uri: '{region}/anbieter/wiora-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   16/16
+Leere Felder:          0
+Duplikat-Gruppen:      2
+Zu löschende Texte:    4
+
+  Duplikat ['die krag immobilien gmbh ist']:
+    → Krag Immobilien GmbH
+    → Kredithaus24
+  Duplikat ['vivat immobilien ist seit 1989']:
+    → Navilon GmbH
+    → Wehner Immobilien
+
+============================================================
+Phase 3: 4 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Krag Immobilien GmbH
+  [gelöscht] Kredithaus24
+  [gelöscht] Wehner Immobilien
+  [gelöscht] Navilon GmbH
+
+============================================================
+Phase 4: 4 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Wehner Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wehner-immobilien/')
+  [Warnung] Impressum für 'Kredithaus24' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/kredithaus/')
+  [Warnung] Impressum für 'Navilon GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/navilon-gmbh/')
+  [befüllt 1] Krag Immobilien GmbH — 303 W.
+  [befüllt 2] Navilon GmbH — 298 W. (kein Impressum)
+  [befüllt 3] Wehner Immobilien — 296 W. (kein Impressum)
+  [befüllt 4] Kredithaus24 — 281 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region gii24 (Mittelhessen)
+============================================================
+  Gelesen:        16/16
+  Gelöscht:       4
+  Befüllt:        4
+  Log:            rollout_region_log.csv
+FERTIG: gii24  (18:56:34)
+
+========================================
+STARTE REGION: goti24  (18:56:34)
+========================================
+Login ok (Session u1qn1lg99p), 4 Worker-Seiten.
+Region: goti24 (Göttingen), Slug: /goettingen/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+7 Makler gefunden.
+
+  [lesen] Exner Immobilien: 288 W.  (profil_uri: '{region}/anbieter/exner-immobilien/')
+  [lesen] FALC Immobilien Göttingen Süd: 261 W.  (profil_uri: '{region}/anbieter/falc-immobilien-goettingen-sued/')
+  [lesen] FALC Immobilien Göttingen-Nord: 300 W.  (profil_uri: '{region}/anbieter/falc-immobilien-goettingen-nord/')
+  [lesen] freytag immobilien: leer  (profil_uri: '{region}/anbieter/freytag-immobilien-1/')
+  [lesen] Hepe Immobilien: 290 W.  (profil_uri: '{region}/anbieter/hepe-immobilien/')
+  [lesen] Lauterberg Immobilien: 271 W.  (profil_uri: '{region}/anbieter/lauterberg-immobilien/')
+  [lesen] Michael Pitsch Immobilien: 286 W.  (profil_uri: '{region}/anbieter/michael-pitsch-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   7/7
+Leere Felder:          1
+Duplikat-Gruppen:      1
+Zu löschende Texte:    2
+
+  Duplikat ['von bach immobilien ist ein']:
+    → Exner Immobilien
+    → FALC Immobilien Göttingen Süd
+
+============================================================
+Phase 3: 2 Duplikat-Texte löschen
+============================================================
+  [gelöscht] FALC Immobilien Göttingen Süd
+  [gelöscht] Exner Immobilien
+
+============================================================
+Phase 4: 3 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Exner Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/exner-immobilien/')
+  [Warnung] Impressum für 'FALC Immobilien Göttingen Süd' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/falc-immobilien-goettingen-sued/')
+  [befüllt 1] freytag immobilien — 308 W.
+  [befüllt 2] FALC Immobilien Göttingen Süd — 299 W. (kein Impressum)
+  [befüllt 3] Exner Immobilien — 296 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region goti24 (Göttingen)
+============================================================
+  Gelesen:        7/7
+  Gelöscht:       2
+  Befüllt:        3
+  Log:            rollout_region_log.csv
+FERTIG: goti24  (18:57:44)
+
+========================================
+STARTE REGION: hai24  (18:57:44)
+========================================
+Login ok (Session 2itrdf41z7), 4 Worker-Seiten.
+Region: hai24 (Halle), Slug: /halle/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+2 Makler gefunden.
+
+  [lesen] HS Immobilienberatungs GmbH: 310 W.  (profil_uri: '{region}/anbieter/hs-immobilienberatungs-gmbh/')
+  [lesen] ImmoFinanz Nancy Radde: 295 W.  (profil_uri: '{region}/anbieter/immofinanz-nancy-radde/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   2/2
+Leere Felder:          0
+Duplikat-Gruppen:      0
+Zu löschende Texte:    0
+
+============================================================
+Zusammenfassung  Region hai24 (Halle)
+============================================================
+  Gelesen:        2/2
+  Gelöscht:       0
+  Befüllt:        0
+  Log:            rollout_region_log.csv
+FERTIG: hai24  (18:58:03)
+
+========================================
+STARTE REGION: hani24  (18:58:03)
+========================================
+Login ok (Session p6ycotb4d8), 4 Worker-Seiten.
+Region: hani24 (Hannover), Slug: /hannover/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+17 Makler gefunden.
+
+  [lesen] BESTBA GmbH Immobilienhandel: 248 W.  (profil_uri: '{region}/anbieter/bestba-gmbh-immobilienhandel/')
+  [lesen] Burow & Lutz Immobilien GbR: 282 W.  (profil_uri: '{region}/anbieter/burow-und-lutz-immobilien-gbr/')
+  [lesen] Hannobilien: 297 W.  (profil_uri: '{region}/anbieter/hannobilien/')
+  [lesen] Hannoversche Volksbank Immobilien GmbH: 269 W.  (profil_uri: '{region}/anbieter/hannoversche-volksbank-immobilien-gmbh/')
+  [lesen] HETA-Haus-GmbH: 309 W.  (profil_uri: '{region}/anbieter/heta-haus-gmbh/')
+  [lesen] Immobilien Christina Beyme: 282 W.  (profil_uri: '{region}/anbieter/immobilien-christina-beyme/')
+  [lesen] KaBe Immobilien: 281 W.  (profil_uri: '{region}/anbieter/kabe-immobilien/')
+  [lesen] Karvo Immobilien: 285 W.  (profil_uri: '{region}/anbieter/karvo-immobilien/')
+  [lesen] Kaste Immobilien: 286 W.  (profil_uri: '{region}/anbieter/kaste-immobilien/')
+  [lesen] Landhaus Immobilien Meerregion - Immobilienmakler Wunstorf & Steinhude: 312 W.  (profil_uri: '{region}/anbieter/landhaus-immobilien-meerregion-immobilienmakler-wunstorf-und-steinhude/')
+  [lesen] Lange und Lange Immobilien: 315 W.  (profil_uri: '{region}/anbieter/lange-und-lange-immobilien/')
+  [lesen] Makro Management GmbH: 290 W.  (profil_uri: '{region}/anbieter/makro-management-gmbh/')
+  [lesen] Quadratika Immobilien: 310 W.  (profil_uri: '{region}/anbieter/quadratika-immobilien/')
+  [lesen] Rockhaus Immobilien: 286 W.  (profil_uri: '{region}/anbieter/rockhaus-immobilien/')
+  [lesen] WERNER GURKASCH IMMOBILIEN: 280 W.  (profil_uri: '{region}/anbieter/werner-gurkasch-immobilien/')
+  [lesen] Wohn Konzept Immobilien: 268 W.  (profil_uri: '{region}/anbieter/wohn-konzept-immobilien/')
+  [lesen] YUNIKO Immobilien GmbH: 302 W.  (profil_uri: '{region}/anbieter/yuniko-immobilien-gmbh/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   17/17
+Leere Felder:          0
+Duplikat-Gruppen:      1
+Zu löschende Texte:    2
+
+  Duplikat ['allerkamp immobilien ist ein traditionsreiches']:
+    → HETA-Haus-GmbH
+    → KaBe Immobilien
+
+============================================================
+Phase 3: 2 Duplikat-Texte löschen
+============================================================
+  [gelöscht] HETA-Haus-GmbH
+  [gelöscht] KaBe Immobilien
+
+============================================================
+Phase 4: 2 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'HETA-Haus-GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/heta-haus-gmbh/')
+  [Warnung] Impressum für 'KaBe Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/kabe-immobilien/')
+  [befüllt 1] HETA-Haus-GmbH — 305 W. (kein Impressum)
+  [befüllt 2] KaBe Immobilien — 246 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region hani24 (Hannover)
+============================================================
+  Gelesen:        17/17
+  Gelöscht:       2
+  Befüllt:        2
+  Log:            rollout_region_log.csv
+FERTIG: hani24  (18:59:05)
+
+========================================
+STARTE REGION: hbi24  (18:59:05)
+========================================
+Login ok (Session x1aaand2jp), 4 Worker-Seiten.
+Region: hbi24 (Heilbronn), Slug: /heilbronn/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+11 Makler gefunden.
+
+  [lesen] Axel Muth Immobilien: 262 W.  (profil_uri: '{region}/anbieter/axel-muth-immobilien/')
+  [lesen] DEDDA Immobilien, Wohnbau und Projektentwicklungs GmbH: 294 W.  (profil_uri: '{region}/anbieter/dedda-immobilien-wohnbau-und-projektentwicklungs-gmbh/')
+  [lesen] Gabor Immobilien: 315 W.  (profil_uri: '{region}/anbieter/gabor-immobilien/')
+  [lesen] HAAS-IMMOBILIEN & GRUNDSTÜCKSVERMITTLUNG: 297 W.  (profil_uri: '{region}/anbieter/haas-immobilien-und-grundstuecksvermittlung/')
+  [lesen] HEINRICH IMMOBILIEN: 304 W.  (profil_uri: '{region}/anbieter/heinrich-immobilien/')
+  [lesen] HGH Immobilien: 302 W.  (profil_uri: '{region}/anbieter/hgh-immobilien/')
+  [lesen] Immobilienservice-Scheuermann: 270 W.  (profil_uri: '{region}/anbieter/immobilienservice-scheuermann/')
+  [lesen] KOLL Immobilien - Real Estate International: 310 W.  (profil_uri: '{region}/anbieter/koll-immobilien-real-estate-international/')
+  [lesen] Kollinger Immobilien: 303 W.  (profil_uri: '{region}/anbieter/kollinger-immobilien/')
+  [lesen] Thomas Seebold Immobilien: 307 W.  (profil_uri: '{region}/anbieter/thomas-seebold-immobilien/')
+  [lesen] UrbanSKY Heilbronn GmbH: 303 W.  (profil_uri: '{region}/anbieter/urbansky-heilbronn-gmbh/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   11/11
+Leere Felder:          0
+Duplikat-Gruppen:      1
+Zu löschende Texte:    2
+
+  Duplikat ['die werner wohnimmobilien gmbh ist']:
+    → Immobilienservice-Scheuermann
+    → Kollinger Immobilien
+
+============================================================
+Phase 3: 2 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Kollinger Immobilien
+  [gelöscht] Immobilienservice-Scheuermann
+
+============================================================
+Phase 4: 2 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Immobilienservice-Scheuermann' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienservice-scheuermann/')
+  [Warnung] Impressum für 'Kollinger Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/kollinger-immobilien/')
+  [befüllt 1] Kollinger Immobilien — 280 W. (kein Impressum)
+  [befüllt 2] Immobilienservice-Scheuermann — 312 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region hbi24 (Heilbronn)
+============================================================
+  Gelesen:        11/11
+  Gelöscht:       2
+  Befüllt:        2
+  Log:            rollout_region_log.csv
+FERTIG: hbi24  (19:00:07)
+
+========================================
+STARTE REGION: hhi24  (19:00:07)
+========================================
+Login ok (Session vtq0h5s5rt), 4 Worker-Seiten.
+Region: hhi24 (Hamburg), Slug: /hamburg/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+39 Makler gefunden.
+
+  [lesen] AS Immobilien Tobias Fixson: 315 W.  (profil_uri: '{region}/anbieter/as-immobilien-tobias-fixson/')
+  [lesen] Bothur Immobilien & Hausverwaltung: 276 W.  (profil_uri: '{region}/anbieter/bothur-immobilien-und-hausverwaltung/')
+  [lesen] Buchen & Koob GmbH: 307 W.  (profil_uri: '{region}/anbieter/buchen-und-koob-gmbh/')
+  [lesen] Burchard Immobilien: 302 W.  (profil_uri: '{region}/anbieter/burchard-immobilien/')
+  [lesen] Cabel Immobilien: 239 W.  (profil_uri: '{region}/anbieter/cabel-immobilien/')
+  [lesen] Carlsson Immobilienmakler IVD: 299 W.  (profil_uri: '{region}/anbieter/carlsson-immobilienmakler-ivd/')
+  [lesen] Casini & Görner Immobilien GmbH & Co. KG: 315 W.  (profil_uri: '{region}/anbieter/casini-und-goerner-immobilien-gmbh-und-co-kg/')
+  [lesen] Catasto GmbH & Co. KG: 301 W.  (profil_uri: '{region}/anbieter/catasto-gmbh-und-co-kg/')
+  [lesen] CENTURY 21 Bendfeldt Immobilien: 253 W.  (profil_uri: '{region}/anbieter/century--bendfeldt-immobilien/')
+  [lesen] DR Hausbau + Grund Immobilien GmbH: 291 W.  (profil_uri: '{region}/anbieter/dr-hausbau--grund-immobilien-gmbh/')
+  [lesen] FALC Immobilien Schenefeld: 289 W.  (profil_uri: '{region}/anbieter/falc-immobilien-schenefeld/')
+  [lesen] Falke Immobilien- und Beratungszentrum e.K.: 305 W.  (profil_uri: '{region}/anbieter/falke-immobilien-und-beratungszentrum-e-k/')
+  [lesen] FINEST REAL ESTATE GmbH: 299 W.  (profil_uri: '{region}/anbieter/finest-real-estate-gmbh/')
+  [lesen] Frisch & Company: 283 W.  (profil_uri: '{region}/anbieter/frisch-und-company/')
+  [lesen] GoldEck Immobilien: 272 W.  (profil_uri: '{region}/anbieter/goldeck-immobilien/')
+  [lesen] Grundstücksverwaltung Wittorf e.K.: 282 W.  (profil_uri: '{region}/anbieter/grundstuecksverwaltung-wittorf-e-k/')
+  [lesen] HBF Immobilien GmbH: 299 W.  (profil_uri: '{region}/anbieter/hbf-immobilien-gmbh/')
+  [lesen] Herkules Consulting GmbH: 305 W.  (profil_uri: '{region}/anbieter/herkules-consulting-gmbh/')
+  [lesen] HIM Hanseatischer Immobilienmakler GmbH: 288 W.  (profil_uri: '{region}/anbieter/him-hanseatischer-immobilienmakler-gmbh/')
+  [lesen] IPM IMMOBILIEN PROJEKT MARKETING GMBH: 252 W.  (profil_uri: '{region}/anbieter/ipm-immobilien-projekt-marketing-gmbh/')
+  [lesen] Jan Jaeger Immobilien: leer  (profil_uri: '{region}/anbieter/jan-jaeger-immobilien/')
+  [lesen] K·K ImmoFinanz: 291 W.  (profil_uri: '{region}/anbieter/kk-immofinanz/')
+  [lesen] LAUE & PARTNER GbR: 308 W.  (profil_uri: '{region}/anbieter/laue-und-partner-gbr/')
+  [lesen] Lima Invest: 311 W.  (profil_uri: '{region}/anbieter/lima-invest/')
+  [lesen] LM Immobilien & Consulting: 301 W.  (profil_uri: '{region}/anbieter/lm-immobilien-und-consulting/')
+  [lesen] Maklerhaven: 292 W.  (profil_uri: '{region}/anbieter/maklerhaven/')
+  [lesen] Mandy Korch Immobilien: 296 W.  (profil_uri: '{region}/anbieter/mandy-korch-immobilien/')
+  [lesen] Nina Klein Immobilien: 268 W.  (profil_uri: '{region}/anbieter/nina-klein-immobilien/')
+  [lesen] OKAL Haus Götz Northemann: 286 W.  (profil_uri: '{region}/anbieter/okal-haus-goetz-northemann/')
+  [lesen] Pia Hoppe Immobilien: 252 W.  (profil_uri: '{region}/anbieter/pia-hoppe-immobilien/')
+  [lesen] Ronda Real Estate GmbH: 284 W.  (profil_uri: '{region}/anbieter/ronda-real-estate-gmbh/')
+  [lesen] Sachsenwald Immobilien: 306 W.  (profil_uri: '{region}/anbieter/sachsenwald-immobilien/')
+  [lesen] Sannmann & Collegen GmbH & Co. KG: 311 W.  (profil_uri: '{region}/anbieter/sannmann-und-collegen-gmbh-und-co-kg/')
+  [lesen] SENATOR Consult GmbH: 298 W.  (profil_uri: '{region}/anbieter/senator-consult-gmbh/')
+  [lesen] Stefanie Hinsch Immobilien: 248 W.  (profil_uri: '{region}/anbieter/stefanie-hinsch-immobilien/')
+  [lesen] Steinhaus Immobilien GbR: 306 W.  (profil_uri: '{region}/anbieter/steinhaus-immobilien-gbr/')
+  [lesen] Susann Schlatermund Immobilienkontor GmbH: 311 W.  (profil_uri: '{region}/anbieter/susann-schlatermund-immobilienkontor-gmbh/')
+  [lesen] wohne kaiserlich Gmbh: 270 W.  (profil_uri: '{region}/anbieter/wohne-kaiserlich-gmbh/')
+  [lesen] Wullkopf & Eckelmann Immobilien GmbH & Co. KG: 298 W.  (profil_uri: '{region}/anbieter/wullkopf-und-eckelmann-immobilien-gmbh-und-co-kg/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   39/39
+Leere Felder:          1
+Duplikat-Gruppen:      2
+Zu löschende Texte:    7
+
+  Duplikat ['asmussen immobilien ist ein mittelständisches,']:
+    → Carlsson Immobilienmakler IVD
+    → CENTURY 21 Bendfeldt Immobilien
+    → HBF Immobilien GmbH
+    → Nina Klein Immobilien
+    → Ronda Real Estate GmbH
+  Duplikat ['imken immobilien gmbh & co.']:
+    → IPM IMMOBILIEN PROJEKT MARKETING GMBH
+    → Pia Hoppe Immobilien
+
+============================================================
+Phase 3: 7 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Pia Hoppe Immobilien
+  [gelöscht] Carlsson Immobilienmakler IVD
+  [gelöscht] HBF Immobilien GmbH
+  [gelöscht] CENTURY 21 Bendfeldt Immobilien
+  [gelöscht] Ronda Real Estate GmbH
+  [gelöscht] IPM IMMOBILIEN PROJEKT MARKETING GMBH
+  [gelöscht] Nina Klein Immobilien
+
+============================================================
+Phase 4: 8 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Pia Hoppe Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/pia-hoppe-immobilien/')
+  [Warnung] Impressum für 'IPM IMMOBILIEN PROJEKT MARKETING GMBH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/ipm-immobilien-projekt-marketing-gmbh/')
+  [Warnung] Impressum für 'Nina Klein Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/nina-klein-immobilien/')
+  [Warnung] Impressum für 'Jan Jaeger Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/jan-jaeger-immobilien/')
+  [befüllt 1] IPM IMMOBILIEN PROJEKT MARKETING GMBH — 310 W. (kein Impressum)
+  [Warnung] Impressum für 'Ronda Real Estate GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/ronda-real-estate-gmbh/')
+  [befüllt 2] Nina Klein Immobilien — 279 W. (kein Impressum)
+  [Warnung] Impressum für 'CENTURY 21 Bendfeldt Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/century--bendfeldt-immobilien/')
+  [befüllt 3] Pia Hoppe Immobilien — 314 W. (kein Impressum)
+  [Warnung] Impressum für 'Carlsson Immobilienmakler IVD' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/carlsson-immobilienmakler-ivd/')
+  [befüllt 4] Jan Jaeger Immobilien — 292 W. (kein Impressum)
+  [befüllt 5] Ronda Real Estate GmbH — 279 W. (kein Impressum)
+  [befüllt 6] CENTURY 21 Bendfeldt Immobilien — 312 W. (kein Impressum)
+  [befüllt 7] Carlsson Immobilienmakler IVD — 284 W. (kein Impressum)
+  [befüllt 8] HBF Immobilien GmbH — 293 W.
+
+============================================================
+Zusammenfassung  Region hhi24 (Hamburg)
+============================================================
+  Gelesen:        39/39
+  Gelöscht:       7
+  Befüllt:        8
+  Log:            rollout_region_log.csv
+FERTIG: hhi24  (19:02:37)
+
+========================================
+STARTE REGION: hi24  (19:02:37)
+========================================
+Login ok (Session ylz78az2an), 4 Worker-Seiten.
+Region: hi24 (Harz), Slug: /harz/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+4 Makler gefunden.
+
+  [lesen] Dana Reibe: 278 W.  (profil_uri: '{region}/anbieter/dana-reibe/')
+  [lesen] FALC Immobilien Harz: 280 W.  (profil_uri: '{region}/anbieter/falc-immobilien-harz/')
+  [lesen] Gawantka Immobilien: 274 W.  (profil_uri: '{region}/anbieter/gawantka-immobilien-1/')
+  [lesen] IMMODRESS Immobilien GmbH: 267 W.  (profil_uri: '{region}/anbieter/immodress-immobilien-gmbh/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   4/4
+Leere Felder:          0
+Duplikat-Gruppen:      0
+Zu löschende Texte:    0
+
+============================================================
+Zusammenfassung  Region hi24 (Harz)
+============================================================
+  Gelesen:        4/4
+  Gelöscht:       0
+  Befüllt:        0
+  Log:            rollout_region_log.csv
+FERTIG: hi24  (19:02:58)
+
+========================================
+STARTE REGION: hli24  (19:02:58)
+========================================
+Login ok (Session ywjw7n6bjh), 4 Worker-Seiten.
+Region: hli24 (Havelland), Slug: /havelland/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+17 Makler gefunden.
+
+  [lesen] ACCESSUS Immobilien: 282 W.  (profil_uri: '{region}/anbieter/accessus-immobilien/')
+  [lesen] Dahnhaus GmbH: 282 W.  (profil_uri: '{region}/anbieter/dahnhaus-gmbh/')
+  [lesen] Ella Immobilien: 270 W.  (profil_uri: '{region}/anbieter/ella-immobilien/')
+  [lesen] EMA IMMOBILIEN GmbH: 304 W.  (profil_uri: '{region}/anbieter/ema-immobilien-gmbh/')
+  [lesen] Freie Handelsvertretung Schwabenhaus GmbH: 308 W.  (profil_uri: '{region}/anbieter/freie-handelsvertretung-schwabenhaus-gmbh/')
+  [lesen] G. Kaster Immobilien-Makler: 303 W.  (profil_uri: '{region}/anbieter/g-kaster-immobilien-makler/')
+  [lesen] GBimmocenter Günther Berthold: 279 W.  (profil_uri: '{region}/anbieter/gbimmocenter-guenther-berthold/')
+  [lesen] Gröschel Immobilien: 289 W.  (profil_uri: '{region}/anbieter/groeschel-immobilien/')
+  [lesen] Kastell Immobilien: 247 W.  (profil_uri: '{region}/anbieter/kastell-immobilien/')
+  [ERR lesen] r2469x93khv: Error: Page.goto: net::ERR_NETWORK_CHANGED at https://backend.regionalimmobilien24.de/a
+  [lesen] MAK Immobilien- und Maklermanagement e.K.: 296 W.  (profil_uri: '{region}/anbieter/mak-immobilien-und-maklermanagement-e-k/')
+  [lesen] Martin Schubert Immobilien: 294 W.  (profil_uri: '{region}/anbieter/martin-schubert-immobilien/')
+  [lesen] MCK Real Estate & Beteiligung GmbH: 280 W.  (profil_uri: '{region}/anbieter/mck-real-estate-und-beteiligung-gmbh/')
+  [lesen] RE/MAX Deluxe Immobilien: 302 W.  (profil_uri: '{region}/anbieter/re-max-deluxe-immobilien/')
+  [lesen] Steinhardt Immobilien: 301 W.  (profil_uri: '{region}/anbieter/steinhardt-immobilien/')
+  [lesen] Tryonadt Immobilien: 278 W.  (profil_uri: '{region}/anbieter/tryonadt-immobilien/')
+  [lesen] Zengeler Stephan Immobilien: 314 W.  (profil_uri: '{region}/anbieter/zengeler-stephan-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   16/17  (1 Fehler)
+Leere Felder:          0
+Duplikat-Gruppen:      0
+Zu löschende Texte:    0
+
+============================================================
+Zusammenfassung  Region hli24 (Havelland)
+============================================================
+  Gelesen:        16/17  (1 Lesefehler)
+  Gelöscht:       0
+  Befüllt:        0
+  Log:            rollout_region_log.csv
+FERTIG: hli24  (19:03:34)
+
+========================================
+STARTE REGION: hoi24  (19:03:34)
+========================================
+Login ok (Session 9shvon2fou), 4 Worker-Seiten.
+Region: hoi24 (Holstein), Slug: /holstein/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+34 Makler gefunden.
+
+  [lesen] ASFIM Immobilienmakler: 304 W.  (profil_uri: '{region}/anbieter/asfim-immobilienmakler/')
+  [lesen] Baltic Immobilien e.K.: 312 W.  (profil_uri: '{region}/anbieter/baltic-immobilien-e-k/')
+  [lesen] Borchert Immobilien GmbH: 315 W.  (profil_uri: '{region}/anbieter/borchert-immobilien-gmbh/')
+  [lesen] Ceylan & Partner Immobilien: 309 W.  (profil_uri: '{region}/anbieter/era-ceylan-und-partner/')
+  [lesen] Christian Loock Immobilien: 313 W.  (profil_uri: '{region}/anbieter/christian-loock-immobilien/')
+  [lesen] Christina Ogasa / Homes for Life - Immobilien: 295 W.  (profil_uri: '{region}/anbieter/christina-ogasa-homes-for-life-immobilien/')
+  [lesen] die Maklerei - Rohwedder: 310 W.  (profil_uri: '{region}/anbieter/die-maklerei-rohwedder/')
+  [lesen] Dirk Scheer Immobilien: 304 W.  (profil_uri: '{region}/anbieter/dirk-scheer-immobilien/')
+  [lesen] Drasdo-Immobilien: 293 W.  (profil_uri: '{region}/anbieter/drasdo-immobilien/')
+  [lesen] drave & partner consulting Projekt-Entwicklung Neubau: 273 W.  (profil_uri: '{region}/anbieter/drave-und-partner-consulting/')
+  [lesen] FALC Immobilien Dithmarschen: 302 W.  (profil_uri: '{region}/anbieter/falc-immobilien-dithmarschen/')
+  [lesen] Hamburg-Holstein-Immobilien GmbH: 272 W.  (profil_uri: '{region}/anbieter/hamburg-holstein-immobilien-gmbh/')
+  [lesen] Hentschel & Co. Immobilien: 314 W.  (profil_uri: '{region}/anbieter/hentschel-und-co-immobilien/')
+  [lesen] Hinrichsen Immobilien: leer  (profil_uri: '{region}/anbieter/hinrichsen-immobilien/')
+  [lesen] Immobilien Company Nord GmbH: 298 W.  (profil_uri: '{region}/anbieter/immobilien-company-nord-gmbh/')
+  [lesen] Immobilien Fair & Freundlich: 291 W.  (profil_uri: '{region}/anbieter/immobilien-fair-und-freundlich/')
+  [lesen] Immobilien Monika Olejnik – IMMOFUX-Ratzeburg: 261 W.  (profil_uri: '{region}/anbieter/immobilien-monika-olejnik/')
+  [lesen] Immobilien-Fuxx GmbH: 295 W.  (profil_uri: '{region}/anbieter/immobilien-fuxx-gmbh/')
+  [lesen] Immobilienagentur Sabina Zschunke: 295 W.  (profil_uri: '{region}/anbieter/immobilienagentur-sabina-zschunke/')
+  [lesen] IMMOFUX Ratzeburg: 291 W.  (profil_uri: '{region}/anbieter/immofux-ratzeburg/')
+  [lesen] KRÜGER + KRÜGER IMMOBILIEN: 304 W.  (profil_uri: '{region}/anbieter/krueger-krueger-immobilien/')
+  [lesen] Lafrenz Immobilien: 297 W.  (profil_uri: '{region}/anbieter/lafrenz-immobilien/')
+  [lesen] Lütt Immobilien: 269 W.  (profil_uri: '{region}/anbieter/luett-immobilien/')
+  [lesen] MacImmo.de: 290 W.  (profil_uri: '{region}/anbieter/macimmo-de/')
+  [lesen] Mermann Immobilien Management: 294 W.  (profil_uri: '{region}/anbieter/mermann-immobilien-management/')
+  [lesen] PIPPING Immobilien GmbH: 241 W.  (profil_uri: '{region}/anbieter/pipping-immobilien-gmbh/')
+  [lesen] RE/MAX Neumünster Ihr persönlicher Makler: 306 W.  (profil_uri: '{region}/anbieter/remax-neumuenster-ihr-persoenlicher-makler/')
+  [lesen] Sentio Immobilien GmbH: 276 W.  (profil_uri: '{region}/anbieter/sentio-immobilien-gmbh/')
+  [lesen] SoLe Homes: leer  (profil_uri: '{region}/anbieter/sole-homes/')
+  [lesen] Stefan Hagemann Immobilien: leer  (profil_uri: '{region}/anbieter/stefan-hagemann-immobilien/')
+  [lesen] Sternlage Immobilien GmbH: 312 W.  (profil_uri: '{region}/anbieter/sternlage-immobilien-gmbh/')
+  [lesen] Weimar des Nordens Immobilien GmbH: 290 W.  (profil_uri: '{region}/anbieter/weimar-des-nordens-immobilien-gmbh/')
+  [lesen] WFM Immobilienservice GmbH: 315 W.  (profil_uri: '{region}/anbieter/wfm-immobilienservice-wfm-immo-com/')
+  [lesen] Wohnen & Immobilien Heike David: 298 W.  (profil_uri: '{region}/anbieter/wohnen/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+Erfolgreich gelesen:   34/34
+Leere Felder:          3
+Duplikat-Gruppen:      2
+Zu löschende Texte:    9
+
+  Duplikat ['arnold timm immobilien ist seit']:
+    → FALC Immobilien Dithmarschen
+    → Hamburg-Holstein-Immobilien GmbH
+    → Immobilienagentur Sabina Zschunke
+    → PIPPING Immobilien GmbH
+  Duplikat ['arnold timm immobilien ist ein']:
+    → Immobilien Monika Olejnik – IMMOFUX-Ratzeburg
+    → Lafrenz Immobilien
+    → MacImmo.de
+    → Sentio Immobilien GmbH
+    → WFM Immobilienservice GmbH
+
+============================================================
+Phase 3: 9 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Immobilienagentur Sabina Zschunke
+  [gelöscht] MacImmo.de
+  [gelöscht] Hamburg-Holstein-Immobilien GmbH
+  [gelöscht] Lafrenz Immobilien
+  [gelöscht] WFM Immobilienservice GmbH
+  [gelöscht] PIPPING Immobilien GmbH
+  [gelöscht] FALC Immobilien Dithmarschen
+  [gelöscht] Sentio Immobilien GmbH
+  [gelöscht] Immobilien Monika Olejnik – IMMOFUX-Ratzeburg
+
+============================================================
+Phase 4: 12 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Hinrichsen Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hinrichsen-immobilien/')
+  [Warnung] Impressum für 'Immobilienagentur Sabina Zschunke' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienagentur-sabina-zschunke/')
+  [Warnung] Impressum für 'FALC Immobilien Dithmarschen' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/falc-immobilien-dithmarschen/')
+  [befüllt 1] Immobilienagentur Sabina Zschunke — 291 W. (kein Impressum)
+  [Warnung] Impressum für 'Lafrenz Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lafrenz-immobilien/')
+  [befüllt 2] Hinrichsen Immobilien — 303 W. (kein Impressum)
+  [Warnung] Impressum für 'Hamburg-Holstein-Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hamburg-holstein-immobilien-gmbh/')
+  [befüllt 3] SoLe Homes — 298 W.
+  [Warnung] Impressum für 'MacImmo.de' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/macimmo-de/')
+  [befüllt 4] FALC Immobilien Dithmarschen — 301 W. (kein Impressum)
+  [Warnung] Impressum für 'PIPPING Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/pipping-immobilien-gmbh/')
+  [befüllt 5] Lafrenz Immobilien — 309 W. (kein Impressum)
+  [befüllt 6] Hamburg-Holstein-Immobilien GmbH — 273 W. (kein Impressum)
+  [Warnung] Impressum für 'Sentio Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/sentio-immobilien-gmbh/')
+  [befüllt 7] MacImmo.de — 261 W. (kein Impressum)
+  [Warnung] Impressum für 'WFM Immobilienservice GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wfm-immobilienservice-wfm-immo-com/')
+  [befüllt 8] PIPPING Immobilien GmbH — 252 W. (kein Impressum)
+  [Warnung] Impressum für 'Immobilien Monika Olejnik – IMMOFUX-Ratzeburg' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilien-monika-olejnik/')
+  [befüllt 9] Stefan Hagemann Immobilien — 267 W.
+  [befüllt 10] Sentio Immobilien GmbH — 285 W. (kein Impressum)
+  [befüllt 11] WFM Immobilienservice GmbH — 300 W. (kein Impressum)
+  [befüllt 12] Immobilien Monika Olejnik – IMMOFUX-Ratzeburg — 290 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region hoi24 (Holstein)
+============================================================
+  Gelesen:        34/34
+  Gelöscht:       9
+  Befüllt:        12
+  Log:            rollout_region_log.csv
+FERTIG: hoi24  (19:06:03)
+

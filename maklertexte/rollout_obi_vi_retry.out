@@ -1,0 +1,761 @@
+
+=== Starting obi24 ===
+Login ok (Session lvtklfoes7), 4 Worker-Seiten.
+Region: obi24 (Oberbayern), Slug: /oberbayern/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+102 Makler gefunden.
+
+  [lesen] Agentur Fröhlich Real Estate GmbH: 274 W.  (profil_uri: '{region}/anbieter/agentur-froehlich-real-estate-gmbh/')
+  [lesen] Alfred Huber Immobilien: 275 W.  (profil_uri: '{region}/anbieter/alfred-huber-immobilien/')
+  [lesen] Anderson Immobilien: 308 W.  (profil_uri: '{region}/anbieter/anderson-immobilien/')
+  [lesen] Andrä Grundstücksverwaltungs GbR: 259 W.  (profil_uri: '{region}/anbieter/andrae-grundstuecksverwaltungs-gbr/')
+  [lesen] Auer Immobilienverwaltungs GmbH & Co. KG: 313 W.  (profil_uri: '{region}/anbieter/auer-immobilienverwaltungs-gmbh-und-co-kg/')
+  [lesen] Aulfes-Steinmüller Immobilien GmbH: 280 W.  (profil_uri: '{region}/anbieter/aulfes-steinmueller-immobilien-gmbh/')
+  [lesen] B.I.M. Bertol Immobilien Management e.K.: 299 W.  (profil_uri: '{region}/anbieter/b-i-m-bertol-immobilien-management-e-k/')
+  [lesen] Baier & Partner Immobilien GbR: 267 W.  (profil_uri: '{region}/anbieter/baier/')
+  [lesen] BaumHaus Immobilien: 291 W.  (profil_uri: '{region}/anbieter/baumhaus-immobilien/')
+  [lesen] Beierling Immobilien: 299 W.  (profil_uri: '{region}/anbieter/beierling-immobilien/')
+  [lesen] Bela Immokontor: 283 W.  (profil_uri: '{region}/anbieter/bela-immokontor/')
+  [lesen] Berchtesgadener Immobilienkontor: 280 W.  (profil_uri: '{region}/anbieter/berchtesgadener-immobilienkontor/')
+  [lesen] BHB Servicegesellschaft mbH: 289 W.  (profil_uri: '{region}/anbieter/bhb-servicegesellschaft-mbh/')
+  [lesen] CAMP immobilien: 300 W.  (profil_uri: '{region}/anbieter/camp-immobilien/')
+  [lesen] Cavendish Real Estate Immobilien Vermittlung & Coaching: 314 W.  (profil_uri: '{region}/anbieter/cavendish-real-estate/')
+  [lesen] Chiemsee Villa Immobilien: 311 W.  (profil_uri: '{region}/anbieter/chiemsee-villa-immobilien/')
+  [lesen] Dagmar TANNHÄUSER IMMOBILIEN: 247 W.  (profil_uri: '{region}/anbieter/dagmar-tannhaeuser-immobilien/')
+  [lesen] Denk Immobilien: 260 W.  (profil_uri: '{region}/anbieter/denk-immobilien/')
+  [lesen] DOMIZIL ACHT GmbH & Co. KG: 291 W.  (profil_uri: '{region}/anbieter/domizil-acht-gmbh-und-co-kg/')
+  [lesen] DOMUS FACILITY Immobilien: 281 W.  (profil_uri: '{region}/anbieter/domus-facility-immobilien/')
+  [lesen] Engel & Völkers Dachau: 278 W.  (profil_uri: '{region}/anbieter/engel-und-voelkers-dachau/')
+  [lesen] Engel & Völkers Pfaffenhofen: 295 W.  (profil_uri: '{region}/anbieter/engel-und-voelkers-pfaffenhofen/')
+  [lesen] Estate Angels: 312 W.  (profil_uri: '{region}/anbieter/estate-angels/')
+  [lesen] FALC Immobilien Landsberg am Lech: 285 W.  (profil_uri: '{region}/anbieter/falc-immobilien-landsberg-am-lech/')
+  [lesen] Finanzhaus Sedlmeier: 300 W.  (profil_uri: '{region}/anbieter/finanzhaus-sedlmeier-1/')
+  [lesen] frank immobilien: 304 W.  (profil_uri: '{region}/anbieter/frank-immobilien/')
+  [lesen] FT Immobilien 24 Immobilienmakler München: 297 W.  (profil_uri: '{region}/anbieter/ft-immobilien-immobilienmakler-muenchen/')
+  [lesen] Geiss Immobilien & Hausverwaltung: 276 W.  (profil_uri: '{region}/anbieter/geiss-immobilien-und-hausverwaltung/')
+  [lesen] GG Real Estate e.K.: 306 W.  (profil_uri: '{region}/anbieter/gg-real-estate-e-k/')
+  [lesen] Glanz & Reithmeier Immobilien: 298 W.  (profil_uri: '{region}/anbieter/glanz-und-reithmeier-immobilien/')
+  [lesen] Gossner GmbH & Co. KG: 300 W.  (profil_uri: '{region}/anbieter/gossner-gmbh-und-co-kg/')
+  [lesen] Gottschalk Immobilien GbR: 276 W.  (profil_uri: '{region}/anbieter/gottschalk-immobilien-gbr/')
+  [lesen] H R & F Group: 253 W.  (profil_uri: '{region}/anbieter/h-r-und-f-group/')
+  [lesen] Happy Immo GmbH: 306 W.  (profil_uri: '{region}/anbieter/happy-immo-gmbh/')
+  [lesen] HARINALI Immobiliengruppe: 286 W.  (profil_uri: '{region}/anbieter/harinali-immobiliengruppe/')
+  [lesen] Harput Immobilien: 306 W.  (profil_uri: '{region}/anbieter/harput-immobilien/')
+  [lesen] HCW-Immobilien: 304 W.  (profil_uri: '{region}/anbieter/hcw-immobilien/')
+  [lesen] Heinrichs Immobilien | Immobilienmakler Freising: 286 W.  (profil_uri: '{region}/anbieter/heinrichs-immobilien-immobilienmakler-freising/')
+  [lesen] Hoellinvest: 275 W.  (profil_uri: '{region}/anbieter/hoellinvest/')
+  [lesen] HOUSE & HOME IMMOBILIEN: 313 W.  (profil_uri: '{region}/anbieter/house-und-home-immobilien/')
+  [lesen] Ihr-Chiemseemakler: 300 W.  (profil_uri: '{region}/anbieter/ihr-chiemseemakler/')
+  [lesen] IM PLUS Immobilien GmbH: 303 W.  (profil_uri: '{region}/anbieter/im-plus-immobilien-gmbh/')
+  [lesen] IMMKO IMMOBILIEN e.K.: 305 W.  (profil_uri: '{region}/anbieter/immko-immobilien-e-k/')
+  [lesen] Immo Kreativ Südbayern: 306 W.  (profil_uri: '{region}/anbieter/immo-kreativ-suedbayern/')
+  [lesen] Immobilien & Handwerkerservice Posch UG: 299 W.  (profil_uri: '{region}/anbieter/immobilien/')
+  [lesen] Immobilien & Hausverwaltung Matschke: 306 W.  (profil_uri: '{region}/anbieter/immobilien-und-hausverwaltung-matschke/')
+  [lesen] Immobilien Berger: 314 W.  (profil_uri: '{region}/anbieter/immobilien-berger/')
+  [lesen] Immobilien Reicheneder Michaela Sachverständige: 252 W.  (profil_uri: '{region}/anbieter/immobilien-reicheneder-michaela-sachverstaendige/')
+  [lesen] Immobilien Ruhland: 279 W.  (profil_uri: '{region}/anbieter/immobilien-ruhland/')
+  [lesen] Immobilien Schliersee Eveline Oetzel e.K.: 305 W.  (profil_uri: '{region}/anbieter/immobilien-schliersee-eveline-oetzel-e-k/')
+  [lesen] Immobilien Schmidt München e.K.: 302 W.  (profil_uri: '{region}/anbieter/immobilien-schmidt-muenchen-e-k/')
+  [lesen] Immobilien Spitzauer GmbH: 303 W.  (profil_uri: '{region}/anbieter/immobilien-spitzauer-gmbh/')
+  [lesen] Immobilien und Wohnbauentwicklung Prause: 269 W.  (profil_uri: '{region}/anbieter/immobilien-und-wohnbauentwicklung-prause/')
+  [lesen] Immobilien Valentin Irlbacher: 306 W.  (profil_uri: '{region}/anbieter/immobilien-1/')
+  [lesen] Immobilienbüro Seibold: 310 W.  (profil_uri: '{region}/anbieter/immobilienbuero-seibold/')
+  [lesen] IMMOKoch RKo Immobilien GmbH: 290 W.  (profil_uri: '{region}/anbieter/immokoch/')
+  [lesen] ImmoOffice49: 315 W.  (profil_uri: '{region}/anbieter/immooffice/')
+  [lesen] IN-Immobilien: 313 W.  (profil_uri: '{region}/anbieter/in-immobilien/')
+  [lesen] INDEX IMMOBILIEN GMBH: 268 W.  (profil_uri: '{region}/anbieter/index-immobilien-gmbh/')
+  [lesen] ISP Immobilien Siegfried Pielsticker: 309 W.  (profil_uri: '{region}/anbieter/isp-immobilien-siegfried-pielsticker/')
+  [lesen] Johannes Palm: 294 W.  (profil_uri: '{region}/anbieter/johammes-palm/')
+  [lesen] K & F Immobilien e. K.: 302 W.  (profil_uri: '{region}/anbieter/k-und-f-immobilien-e-k/')
+  [lesen] Kappelmeier Immobilien GmbH: 287 W.  (profil_uri: '{region}/anbieter/kappelmeier-immobilien-gmbh/')
+  [lesen] Klößel GmbH: 312 W.  (profil_uri: '{region}/anbieter/kloessel-gmbh/')
+  [lesen] KM Immobilien UG: 283 W.  (profil_uri: '{region}/anbieter/km-immobilien-ug/')
+  [lesen] KMS immo GmbH: 274 W.  (profil_uri: '{region}/anbieter/kms-immo-gmbh/')
+  [lesen] Lebenstraum-Immobilien GmbH & Co. KG: 301 W.  (profil_uri: '{region}/anbieter/lebenstraum-immobilien-gmbh-und-co-kg/')
+  [lesen] M8 Immobilien & Verwaltungs GmbH & Co. KG: 309 W.  (profil_uri: '{region}/anbieter/m8-immobilien-und-verwaltungs-gmbh-und-co-kg/')
+  [lesen] Maklerfreihaus UG (haftungsbeschränkt): 258 W.  (profil_uri: '{region}/anbieter/maklerfreihaus-ug-haftungsbeschraenkt/')
+  [lesen] Martin Breitschafter Immobilienmakler GmbH: 305 W.  (profil_uri: '{region}/anbieter/martin-breitschafter-immobilienmakler-gmbh/')
+  [lesen] Martina Wesseling Immobilien: 315 W.  (profil_uri: '{region}/anbieter/martina-wesseling-immobilien/')
+  [lesen] Mein München Immobilien Jutta Lang: 286 W.  (profil_uri: '{region}/anbieter/mein-muenchen-immobilien-jutta-lang/')
+  [lesen] Meiser Consult: 302 W.  (profil_uri: '{region}/anbieter/meiser-consult/')
+  [lesen] Monnier Immobilien GmbH: 250 W.  (profil_uri: '{region}/anbieter/monnier-immobilien-gmbh/')
+  [lesen] MY DALMACIA: 297 W.  (profil_uri: '{region}/anbieter/my-dalmacia/')
+  [lesen] NDI - Michael C. Reiserer Beratungs GmbH: 276 W.  (profil_uri: '{region}/anbieter/ndi-michael-c-reiserer-beratungs-gmbh/')
+  [lesen] Nowak Immobilien AG: 313 W.  (profil_uri: '{region}/anbieter/nowak-immobilien-ag/')
+  [lesen] Pegasus24 - Pegasus GmbH: 300 W.  (profil_uri: '{region}/anbieter/pegasus24-pegasus-gmbh/')
+  [lesen] Perkmann Immobilien: 302 W.  (profil_uri: '{region}/anbieter/perkmann-immobilien/')
+  [lesen] Petzendorfer Immobilien: 302 W.  (profil_uri: '{region}/anbieter/petzendorfer-immobilien/')
+  [lesen] Pharao Consulting GmbH: 297 W.  (profil_uri: '{region}/anbieter/pharao-consulting-gmbh/')
+  [lesen] PROFITERRA GmbH: 288 W.  (profil_uri: '{region}/anbieter/profiterra-gmbh/')
+  [lesen] RE/MAX Traumimmobilien Emmering: 303 W.  (profil_uri: '{region}/anbieter/re-max-traumimmobilien-emmering/')
+  [lesen] rewwo Immobilienvermittlung GbR: 312 W.  (profil_uri: '{region}/anbieter/rewwo-immobilienvermittlung-gbr/')
+  [lesen] rimaldi - Die Immobilienprofis: 276 W.  (profil_uri: '{region}/anbieter/rimaldi-die-immobilienprofis/')
+  [lesen] SBM Immobilien®: 302 W.  (profil_uri: '{region}/anbieter/sbm-immobilien/')
+  [lesen] Schwimmer-Immobilien: 298 W.  (profil_uri: '{region}/anbieter/schwimmer-immobilien/')
+  [lesen] SEDLMAYR Immobilien: 293 W.  (profil_uri: '{region}/anbieter/sedlmayr-immobilien/')
+  [lesen] SGV Immobilien GmbH: 310 W.  (profil_uri: '{region}/anbieter/doering-und-pichler-gmbh/')
+  [lesen] SOWA Immobilien & Finanzen - Ihn. Sonja Walter: 300 W.  (profil_uri: '{region}/anbieter/sowa-immobilien-und-finanzen-ihn-sonja-walter/')
+  [lesen] Stadt-Immobilien GmbH: 282 W.  (profil_uri: '{region}/anbieter/stadt-immobilien-gmbh/')
+  [lesen] Stefan Taffermer Immobilien: 296 W.  (profil_uri: '{region}/anbieter/stefan-taffermer-immobilien/')
+  [lesen] Steinkamp & Tessun GmbH: 290 W.  (profil_uri: '{region}/anbieter/steinkamp-und-tessun-gmbh/')
+  [lesen] Stieglmaier Real Estate: 293 W.  (profil_uri: '{region}/anbieter/stieglmaier-real-estate/')
+  [lesen] SWB Immobilien GmbH: 304 W.  (profil_uri: '{region}/anbieter/swb-immobilien-gmbh/')
+  [lesen] Theisinger Immobilien GmbH: 284 W.  (profil_uri: '{region}/anbieter/theisinger-immobilien-gmbh/')
+  [lesen] UM Immobilien: 301 W.  (profil_uri: '{region}/anbieter/um-immobilien/')
+  [lesen] von Quast Immobilien: 291 W.  (profil_uri: '{region}/anbieter/von-quast-immobilien/')
+  [lesen] Windisch Immobilien Gröbenzell: 285 W.  (profil_uri: '{region}/anbieter/windisch-immobilien-groebenzell/')
+  [lesen] Wittich Immobilien: 302 W.  (profil_uri: '{region}/anbieter/wittich-immobilien/')
+  [lesen] Workspace Karlsfeld: 273 W.  (profil_uri: '{region}/anbieter/workspace-karlsfeld/')
+  [lesen] Wüstenrot Immobilien: 303 W.  (profil_uri: '{region}/anbieter/wuestenrot-immobilien-1/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'Agentur Fröhlich Real Estate GmbH' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Alfred Huber Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Anderson Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Andrä Grundstücksverwaltungs GbR' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Auer Immobilienverwaltungs GmbH & Co. KG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Aulfes-Steinmüller Immobilien GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'B.I.M. Bertol Immobilien Management e.K.' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Baier & Partner Immobilien GbR' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('münchen')
+  [Fremdname] 'BaumHaus Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Beierling Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Berchtesgadener Immobilienkontor' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'CAMP immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Cavendish Real Estate Immobilien Vermittlung & Coaching' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Dagmar TANNHÄUSER IMMOBILIEN' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Denk Immobilien' → Text nennt 'rewwo Immobilienvermittlung GbR' ('immobilienvermittlung')
+  [Fremdname] 'DOMIZIL ACHT GmbH & Co. KG' → Text nennt 'Agentur Fröhlich Real Estate GmbH' ('agentur')
+  [Fremdname] 'DOMUS FACILITY Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Engel & Völkers Dachau' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Engel & Völkers Pfaffenhofen' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Estate Angels' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'FALC Immobilien Landsberg am Lech' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Finanzhaus Sedlmeier' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'frank immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'FT Immobilien 24 Immobilienmakler München' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Geiss Immobilien & Hausverwaltung' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Glanz & Reithmeier Immobilien' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Gossner GmbH & Co. KG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'H R & F Group' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Happy Immo GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'HARINALI Immobiliengruppe' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Harput Immobilien' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'HCW-Immobilien' → Text nennt 'rewwo Immobilienvermittlung GbR' ('immobilienvermittlung')
+  [Fremdname] 'Hoellinvest' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'HOUSE & HOME IMMOBILIEN' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Ihr-Chiemseemakler' → Text nennt 'Agentur Fröhlich Real Estate GmbH' ('agentur')
+  [Fremdname] 'IM PLUS Immobilien GmbH' → Text nennt 'Berchtesgadener Immobilienkontor' ('berchtesgadener')
+  [Fremdname] 'Immo Kreativ Südbayern' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien & Handwerkerservice Posch UG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien & Hausverwaltung Matschke' → Text nennt 'Geiss Immobilien & Hausverwaltung' ('hausverwaltung')
+  [Fremdname] 'Immobilien Berger' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien Reicheneder Michaela Sachverständige' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien Schliersee Eveline Oetzel e.K.' → Text nennt 'rewwo Immobilienvermittlung GbR' ('immobilienvermittlung')
+  [Fremdname] 'Immobilien Schmidt München e.K.' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien Spitzauer GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien und Wohnbauentwicklung Prause' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Immobilien Valentin Irlbacher' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Immobilienbüro Seibold' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'IMMOKoch RKo Immobilien GmbH' → Text nennt 'rewwo Immobilienvermittlung GbR' ('immobilienvermittlung')
+  [Fremdname] 'ImmoOffice49' → Text nennt 'Dagmar TANNHÄUSER IMMOBILIEN' ('dagmar')
+  [Fremdname] 'IN-Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'ISP Immobilien Siegfried Pielsticker' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'K & F Immobilien e. K.' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Kappelmeier Immobilien GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Klößel GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'KMS immo GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Lebenstraum-Immobilien GmbH & Co. KG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'M8 Immobilien & Verwaltungs GmbH & Co. KG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Martin Breitschafter Immobilienmakler GmbH' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Martina Wesseling Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Mein München Immobilien Jutta Lang' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('münchen')
+  [Fremdname] 'Meiser Consult' → Text nennt 'rewwo Immobilienvermittlung GbR' ('immobilienvermittlung')
+  [Fremdname] 'Monnier Immobilien GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'MY DALMACIA' → Text nennt 'Agentur Fröhlich Real Estate GmbH' ('agentur')
+  [Fremdname] 'NDI - Michael C. Reiserer Beratungs GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Nowak Immobilien AG' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Pegasus24 - Pegasus GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Perkmann Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Pharao Consulting GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'PROFITERRA GmbH' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'RE/MAX Traumimmobilien Emmering' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'rimaldi - Die Immobilienprofis' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'SBM Immobilien®' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Schwimmer-Immobilien' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'SEDLMAYR Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'SGV Immobilien GmbH' → Text nennt 'Berchtesgadener Immobilienkontor' ('berchtesgadener')
+  [Fremdname] 'SOWA Immobilien & Finanzen - Ihn. Sonja Walter' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Stadt-Immobilien GmbH' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('münchen')
+  [Fremdname] 'Stefan Taffermer Immobilien' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('immobilienmakler')
+  [Fremdname] 'Steinkamp & Tessun GmbH' → Text nennt 'Agentur Fröhlich Real Estate GmbH' ('agentur')
+  [Fremdname] 'Stieglmaier Real Estate' → Text nennt 'FT Immobilien 24 Immobilienmakler München' ('münchen')
+  [Fremdname] 'Theisinger Immobilien GmbH' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'UM Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'von Quast Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Windisch Immobilien Gröbenzell' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Wittich Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Workspace Karlsfeld' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+  [Fremdname] 'Wüstenrot Immobilien' → Text nennt 'Cavendish Real Estate Immobilien Vermittlung & Coaching' ('vermittlung')
+Erfolgreich gelesen:   102/102
+Leere Felder:          0
+Duplikat-Gruppen:      3
+Fremdname-Treffer:     87
+Eigenname fehlt:       0
+Zu löschende Texte:    101
+
+  Duplikat ['adlwarth immobilien ist ein inhabergeführtes']:
+    → Bela Immokontor
+    → BHB Servicegesellschaft mbH
+    → Chiemsee Villa Immobilien
+    → Gottschalk Immobilien GbR
+    → Heinrichs Immobilien | Immobilienmakler Freising
+    → IMMKO IMMOBILIEN e.K.
+    → Immobilien Ruhland
+    → Johannes Palm
+    → Maklerfreihaus UG (haftungsbeschränkt)
+    → SWB Immobilien GmbH
+  Duplikat ['adlwarth immobilien ist ein traditionsreiches,']:
+    → GG Real Estate e.K.
+    → Petzendorfer Immobilien
+  Duplikat ['adlwarth immobilien ist ein renommierter,']:
+    → INDEX IMMOBILIEN GMBH
+    → KM Immobilien UG
+
+============================================================
+Phase 3: 101 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Berchtesgadener Immobilienkontor
+  [gelöscht] Immobilien & Hausverwaltung Matschke
+  [gelöscht] Immobilien Schmidt München e.K.
+  [gelöscht] Happy Immo GmbH
+  [gelöscht] IMMOKoch RKo Immobilien GmbH
+  [gelöscht] Aulfes-Steinmüller Immobilien GmbH
+  [gelöscht] NDI - Michael C. Reiserer Beratungs GmbH
+  [gelöscht] Immobilien Spitzauer GmbH
+  [gelöscht] IMMKO IMMOBILIEN e.K.
+  [gelöscht] Steinkamp & Tessun GmbH
+  [gelöscht] Martin Breitschafter Immobilienmakler GmbH
+  [gelöscht] Engel & Völkers Pfaffenhofen
+  [gelöscht] KMS immo GmbH
+  [gelöscht] GG Real Estate e.K.
+  [gelöscht] HARINALI Immobiliengruppe
+  [gelöscht] K & F Immobilien e. K.
+  [gelöscht] Immobilien Reicheneder Michaela Sachverständige
+  [gelöscht] IN-Immobilien
+  [gelöscht] Meiser Consult
+  [gelöscht] Ihr-Chiemseemakler
+  [gelöscht] B.I.M. Bertol Immobilien Management e.K.
+  [gelöscht] Windisch Immobilien Gröbenzell
+  [gelöscht] Heinrichs Immobilien | Immobilienmakler Freising
+  [gelöscht] M8 Immobilien & Verwaltungs GmbH & Co. KG
+  [gelöscht] HOUSE & HOME IMMOBILIEN
+  [gelöscht] Petzendorfer Immobilien
+  [gelöscht] Immobilienbüro Seibold
+  [gelöscht] Perkmann Immobilien
+  [gelöscht] Nowak Immobilien AG
+  [gelöscht] IM PLUS Immobilien GmbH
+  [gelöscht] Pegasus24 - Pegasus GmbH
+  [gelöscht] Mein München Immobilien Jutta Lang
+  [gelöscht] SOWA Immobilien & Finanzen - Ihn. Sonja Walter
+  [gelöscht] Martina Wesseling Immobilien
+  [gelöscht] Geiss Immobilien & Hausverwaltung
+  [gelöscht] SEDLMAYR Immobilien
+  [gelöscht] Stieglmaier Real Estate
+  [gelöscht] Auer Immobilienverwaltungs GmbH & Co. KG
+  [gelöscht] Engel & Völkers Dachau
+  [gelöscht] BaumHaus Immobilien
+  [gelöscht] H R & F Group
+  [gelöscht] FT Immobilien 24 Immobilienmakler München
+  [gelöscht] CAMP immobilien
+  [gelöscht] Andrä Grundstücksverwaltungs GbR
+  [gelöscht] MY DALMACIA
+  [gelöscht] HCW-Immobilien
+  [gelöscht] rimaldi - Die Immobilienprofis
+  [gelöscht] Harput Immobilien
+  [gelöscht] Bela Immokontor
+  [gelöscht] Immobilien Valentin Irlbacher
+  [gelöscht] SBM Immobilien®
+  [gelöscht] Maklerfreihaus UG (haftungsbeschränkt)
+  [gelöscht] Immo Kreativ Südbayern
+  [gelöscht] Monnier Immobilien GmbH
+  [gelöscht] Wittich Immobilien
+  [gelöscht] Kappelmeier Immobilien GmbH
+  [gelöscht] Beierling Immobilien
+  [gelöscht] KM Immobilien UG
+  [gelöscht] Estate Angels
+  [gelöscht] Stadt-Immobilien GmbH
+  [gelöscht] SGV Immobilien GmbH
+  [gelöscht] Johannes Palm
+  [gelöscht] Immobilien Schliersee Eveline Oetzel e.K.
+  [gelöscht] Wüstenrot Immobilien
+  [gelöscht] Klößel GmbH
+  [gelöscht] Glanz & Reithmeier Immobilien
+  [gelöscht] PROFITERRA GmbH
+  [gelöscht] ImmoOffice49
+  [gelöscht] Gossner GmbH & Co. KG
+  [gelöscht] Immobilien und Wohnbauentwicklung Prause
+  [gelöscht] von Quast Immobilien
+  [gelöscht] Dagmar TANNHÄUSER IMMOBILIEN
+  [gelöscht] DOMIZIL ACHT GmbH & Co. KG
+  [gelöscht] Baier & Partner Immobilien GbR
+  [gelöscht] Finanzhaus Sedlmeier
+  [gelöscht] Chiemsee Villa Immobilien
+  [gelöscht] Gottschalk Immobilien GbR
+  [gelöscht] Alfred Huber Immobilien
+  [gelöscht] Anderson Immobilien
+  [gelöscht] Pharao Consulting GmbH
+  [gelöscht] RE/MAX Traumimmobilien Emmering
+  [gelöscht] Theisinger Immobilien GmbH
+  [gelöscht] FALC Immobilien Landsberg am Lech
+  [gelöscht] Immobilien & Handwerkerservice Posch UG
+  [gelöscht] Cavendish Real Estate Immobilien Vermittlung & Coaching
+  [gelöscht] UM Immobilien
+  [gelöscht] DOMUS FACILITY Immobilien
+  [gelöscht] Stefan Taffermer Immobilien
+  [gelöscht] INDEX IMMOBILIEN GMBH
+  [gelöscht] Schwimmer-Immobilien
+  [gelöscht] Immobilien Ruhland
+  [gelöscht] Workspace Karlsfeld
+  [gelöscht] BHB Servicegesellschaft mbH
+  [gelöscht] frank immobilien
+  [gelöscht] Hoellinvest
+  [gelöscht] Agentur Fröhlich Real Estate GmbH
+  [gelöscht] Lebenstraum-Immobilien GmbH & Co. KG
+  [gelöscht] SWB Immobilien GmbH
+  [gelöscht] Immobilien Berger
+  [gelöscht] ISP Immobilien Siegfried Pielsticker
+  [gelöscht] Denk Immobilien
+
+============================================================
+Phase 4: 101 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'BHB Servicegesellschaft mbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/bhb-servicegesellschaft-mbh/')
+  [befüllt 1] Monnier Immobilien GmbH — 298 W.
+  [befüllt 2] frank immobilien — 292 W.
+  [befüllt 3] Glanz & Reithmeier Immobilien — 303 W.
+  [Warnung] Impressum für 'Dagmar TANNHÄUSER IMMOBILIEN' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/dagmar-tannhaeuser-immobilien/')
+  [befüllt 4] BHB Servicegesellschaft mbH — 287 W. (kein Impressum)
+  [befüllt 5] SGV Immobilien GmbH — 294 W.
+  [befüllt 6] Dagmar TANNHÄUSER IMMOBILIEN — 312 W. (kein Impressum)
+  [befüllt 7] Geiss Immobilien & Hausverwaltung — 302 W.
+  [befüllt 8] SBM Immobilien® — 299 W.
+  [befüllt 9] IN-Immobilien — 274 W.
+  [befüllt 10] M8 Immobilien & Verwaltungs GmbH & Co. KG — 305 W.
+  [befüllt 11] rimaldi - Die Immobilienprofis — 271 W.
+  [Warnung] Impressum für 'Heinrichs Immobilien | Immobilienmakler Freising' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/heinrichs-immobilien-immobilienmakler-freising/')
+  [befüllt 12] Lebenstraum-Immobilien GmbH & Co. KG — 275 W.
+  [befüllt 13] Kappelmeier Immobilien GmbH — 308 W.
+  [Warnung] Impressum für 'Immobilien & Handwerkerservice Posch UG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilien/')
+  [befüllt 14] Mein München Immobilien Jutta Lang — 299 W.
+  [befüllt 15] Heinrichs Immobilien | Immobilienmakler Freising — 294 W. (kein Impressum)
+  [befüllt 16] Martin Breitschafter Immobilienmakler GmbH — 268 W.
+  [befüllt 17] Immobilien & Handwerkerservice Posch UG — 301 W. (kein Impressum)
+  [Warnung] Impressum für 'IMMOKoch RKo Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immokoch/')
+  [befüllt 18] Wittich Immobilien — 314 W.
+  [Warnung] Impressum für 'Chiemsee Villa Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/chiemsee-villa-immobilien/')
+  [befüllt 19] B.I.M. Bertol Immobilien Management e.K. — 274 W.
+  [befüllt 20] Gossner GmbH & Co. KG — 304 W.
+  [befüllt 21] IMMOKoch RKo Immobilien GmbH — 287 W. (kein Impressum)
+  [befüllt 22] Chiemsee Villa Immobilien — 270 W. (kein Impressum)
+  [Warnung] Impressum für 'HARINALI Immobiliengruppe' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/harinali-immobiliengruppe/')
+  [befüllt 23] Aulfes-Steinmüller Immobilien GmbH — 306 W.
+  [befüllt 24] FALC Immobilien Landsberg am Lech — 306 W.
+  [befüllt 25] Windisch Immobilien Gröbenzell — 314 W.
+  [Warnung] Impressum für 'Maklerfreihaus UG (haftungsbeschränkt)' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/maklerfreihaus-ug-haftungsbeschraenkt/')
+  [befüllt 26] HARINALI Immobiliengruppe — 297 W. (kein Impressum)
+  [befüllt 27] UM Immobilien — 307 W.
+  [Warnung] Impressum für 'Bela Immokontor' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/bela-immokontor/')
+  [befüllt 28] Agentur Fröhlich Real Estate GmbH — 297 W.
+  [befüllt 29] Maklerfreihaus UG (haftungsbeschränkt) — 302 W. (kein Impressum)
+  [Warnung] Impressum für 'GG Real Estate e.K.' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/gg-real-estate-e-k/')
+  [befüllt 30] Immobilien & Hausverwaltung Matschke — 278 W.
+  [befüllt 31] Bela Immokontor — 315 W. (kein Impressum)
+  [befüllt 32] Denk Immobilien — 307 W.
+  [befüllt 33] GG Real Estate e.K. — 292 W. (kein Impressum)
+  [befüllt 34] IM PLUS Immobilien GmbH — 291 W.
+  [Warnung] Impressum für 'Engel & Völkers Dachau' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/engel-und-voelkers-dachau/')
+  [befüllt 35] Nowak Immobilien AG — 289 W.
+  [befüllt 36] Immobilien Berger — 305 W.
+  [befüllt 37] Steinkamp & Tessun GmbH — 314 W.
+  [befüllt 38] Engel & Völkers Dachau — 292 W. (kein Impressum)
+  [befüllt 39] ISP Immobilien Siegfried Pielsticker — 308 W.
+  [befüllt 40] Immo Kreativ Südbayern — 305 W.
+  [befüllt 41] Anderson Immobilien — 299 W.
+  [befüllt 42] KM Immobilien UG — 309 W.
+  [befüllt 43] Immobilien Schliersee Eveline Oetzel e.K. — 301 W.
+  [befüllt 44] Perkmann Immobilien — 313 W.
+  [befüllt 45] Alfred Huber Immobilien — 303 W.
+  [befüllt 46] Ihr-Chiemseemakler — 315 W.
+  [Warnung] Impressum für 'INDEX IMMOBILIEN GMBH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/index-immobilien-gmbh/')
+  [befüllt 47] HOUSE & HOME IMMOBILIEN — 308 W.
+  [befüllt 48] Stadt-Immobilien GmbH — 282 W.
+  [befüllt 49] Estate Angels — 265 W.
+  [befüllt 50] INDEX IMMOBILIEN GMBH — 284 W. (kein Impressum)
+  [befüllt 51] FT Immobilien 24 Immobilienmakler München — 285 W.
+  [befüllt 52] DOMIZIL ACHT GmbH & Co. KG — 277 W.
+  [befüllt 53] Happy Immo GmbH — 311 W.
+  [befüllt 54] Martina Wesseling Immobilien — 313 W.
+  [befüllt 55] Immobilien Reicheneder Michaela Sachverständige — 266 W.
+  [befüllt 56] Meiser Consult — 295 W.
+  [befüllt 57] von Quast Immobilien — 274 W.
+  [befüllt 58] Pharao Consulting GmbH — 284 W.
+  [befüllt 59] ImmoOffice49 — 296 W.
+  [befüllt 60] NDI - Michael C. Reiserer Beratungs GmbH — 307 W.
+  [befüllt 61] Klößel GmbH — 277 W.
+  [befüllt 62] Workspace Karlsfeld — 311 W.
+  [befüllt 63] MY DALMACIA — 313 W.
+  [befüllt 64] DOMUS FACILITY Immobilien — 309 W.
+  [befüllt 65] SWB Immobilien GmbH — 255 W.
+  [befüllt 66] Auer Immobilienverwaltungs GmbH & Co. KG — 307 W.
+  [befüllt 67] Stieglmaier Real Estate — 285 W.
+  [befüllt 68] Wüstenrot Immobilien — 301 W.
+  [Warnung] Impressum für 'IMMKO IMMOBILIEN e.K.' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immko-immobilien-e-k/')
+  [befüllt 69] Hoellinvest — 311 W.
+  [befüllt 70] Harput Immobilien — 282 W.
+  [Warnung] Impressum für 'Gottschalk Immobilien GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/gottschalk-immobilien-gbr/')
+  [befüllt 71] Immobilien Spitzauer GmbH — 307 W.
+  [befüllt 72] IMMKO IMMOBILIEN e.K. — 312 W. (kein Impressum)
+  [befüllt 73] Immobilien Schmidt München e.K. — 305 W.
+  [befüllt 74] Gottschalk Immobilien GbR — 260 W. (kein Impressum)
+  [befüllt 75] Beierling Immobilien — 291 W.
+  [Warnung] Impressum für 'Johannes Palm' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/johammes-palm/')
+  [befüllt 76] BaumHaus Immobilien — 315 W.
+  [befüllt 77] SEDLMAYR Immobilien — 296 W.
+  [befüllt 78] Johannes Palm — 260 W. (kein Impressum)
+  [befüllt 79] Baier & Partner Immobilien GbR — 302 W.
+  [befüllt 80] K & F Immobilien e. K. — 310 W.
+  [befüllt 81] Pegasus24 - Pegasus GmbH — 287 W.
+  [befüllt 82] SOWA Immobilien & Finanzen - Ihn. Sonja Walter — 300 W.
+  [Warnung] Impressum für 'Immobilien Valentin Irlbacher' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilien-1/')
+  [befüllt 83] Immobilien und Wohnbauentwicklung Prause — 287 W.
+  [befüllt 84] RE/MAX Traumimmobilien Emmering — 290 W.
+  [befüllt 85] Immobilienbüro Seibold — 310 W.
+  [befüllt 86] Immobilien Valentin Irlbacher — 278 W. (kein Impressum)
+  [befüllt 87] CAMP immobilien — 308 W.
+  [befüllt 88] KMS immo GmbH — 288 W.
+  [befüllt 89] Berchtesgadener Immobilienkontor — 256 W.
+  [Warnung] Impressum für 'Engel & Völkers Pfaffenhofen' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/engel-und-voelkers-pfaffenhofen/')
+  [befüllt 90] Stefan Taffermer Immobilien — 256 W.
+  [Warnung] Impressum für 'H R & F Group' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/h-r-und-f-group/')
+  [befüllt 91] Schwimmer-Immobilien — 315 W.
+  [Warnung] Impressum für 'Petzendorfer Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/petzendorfer-immobilien/')
+  [befüllt 92] HCW-Immobilien — 297 W.
+  [Warnung] Impressum für 'Immobilien Ruhland' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilien-ruhland/')
+  [befüllt 93] H R & F Group — 300 W. (kein Impressum)
+  [befüllt 94] Engel & Völkers Pfaffenhofen — 287 W. (kein Impressum)
+  [Warnung] Impressum für 'Cavendish Real Estate Immobilien Vermittlung & Coaching' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/cavendish-real-estate/')
+  [befüllt 95] Petzendorfer Immobilien — 294 W. (kein Impressum)
+  [Warnung] Impressum für 'Andrä Grundstücksverwaltungs GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/andrae-grundstuecksverwaltungs-gbr/')
+  [befüllt 96] Immobilien Ruhland — 308 W. (kein Impressum)
+  [befüllt 97] PROFITERRA GmbH — 314 W.
+  [befüllt 98] Cavendish Real Estate Immobilien Vermittlung & Coaching — 298 W. (kein Impressum)
+  [befüllt 99] Andrä Grundstücksverwaltungs GbR — 301 W. (kein Impressum)
+  [befüllt 100] Theisinger Immobilien GmbH — 279 W.
+  [befüllt 101] Finanzhaus Sedlmeier — 301 W.
+
+============================================================
+Zusammenfassung  Region obi24 (Oberbayern)
+============================================================
+  Gelesen:        102/102
+  Gelöscht:       101
+  Befüllt:        101
+  Log:            rollout_region_log.csv
+=== Done obi24 ===
+
+=== Starting vi24 ===
+Login ok (Session g9wbqr6rwh), 4 Worker-Seiten.
+Region: vi24 (Vogtland), Slug: /vogtland/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+63 Makler gefunden.
+
+  [lesen] Andreas Fester Immobilienbüro: 303 W.  (profil_uri: '{region}/anbieter/immobilienbuero-fester/')
+  [lesen] AQ-Invest GmbH: 314 W.  (profil_uri: '{region}/anbieter/aq-invest-gmbh/')
+  [lesen] areal 24 Immobilien: 315 W.  (profil_uri: '{region}/anbieter/areal-immobilien/')
+  [lesen] AWG Auerbacher Wohnungsbaugenossenschaft eG: 301 W.  (profil_uri: '{region}/anbieter/awg-auerbacher-wohnungsbaugenossenschaft-eg/')
+  [lesen] AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG: 302 W.  (profil_uri: '{region}/anbieter/awg-wohnungsgenossenschaft-plauen-eg/')
+  [lesen] Barbara Sandner Hausverwaltung: 305 W.  (profil_uri: '{region}/anbieter/barbara-sandner-hausverwaltung/')
+  [lesen] Bau und Immobilien Service Plauen: 280 W.  (profil_uri: '{region}/anbieter/bau-und-immobilien-service-plauen/')
+  [lesen] biri Immobilien GmbH: 297 W.  (profil_uri: '{region}/anbieter/biri-immobilien-gmbh/')
+  [lesen] City Immobilien & Finanzplanung Vogtland GmbH: 278 W.  (profil_uri: '{region}/anbieter/city-immobilien-und-finanzplanung-vogtland-gmbh/')
+  [lesen] Dipl.-Kfm. Frank Müller Hausverwaltung: 295 W.  (profil_uri: '{region}/anbieter/dipl-kfm-frank-mueller-hausverwaltung/')
+  [lesen] ELAN Hausverwaltung GmbH: 307 W.  (profil_uri: '{region}/anbieter/elan-hausverwaltung-gmbh/')
+  [lesen] FGG - GmbH: 306 W.  (profil_uri: '{region}/anbieter/falkensteiner-grundstuecks-und-gebaeudeverwaltungs-gmbh/')
+  [lesen] FIV Falkensteiner Immobilien und Verwaltungs UG: 303 W.  (profil_uri: '{region}/anbieter/fiv-falkensteiner-immobilien-und-verwaltungs-ug/')
+  [lesen] Gebhardt Vermietung Plauen: 301 W.  (profil_uri: '{region}/anbieter/gebhardt-vermietung-plauen/')
+  [lesen] Gebrüder Müller GbR: 296 W.  (profil_uri: '{region}/anbieter/gebrueder-mueller-gbr/')
+  [lesen] HAGER IMMOBILIEN Hager Lutz: 295 W.  (profil_uri: '{region}/anbieter/hager-immobilien-hager-lutz/')
+  [lesen] Hausverwaltung C. Goller GmbH Thomas Klein: 314 W.  (profil_uri: '{region}/anbieter/hausverwaltung-c-goller-gmbh/')
+  [lesen] Heckel-Immobilien GmbH: 312 W.  (profil_uri: '{region}/anbieter/heckel-immobilien-gmbh/')
+  [lesen] IBEV GmbH: 301 W.  (profil_uri: '{region}/anbieter/ibev-gmbh/')
+  [lesen] Immobilien & Bürodienstleistungen Claudia Jäger: 313 W.  (profil_uri: '{region}/anbieter/claudia-jaeger-selbmann/')
+  [lesen] Immobilien Scott GmbH: 259 W.  (profil_uri: '{region}/anbieter/immobilien-scott-gmbh/')
+  [lesen] Immobilien Service Plauen GmbH: 300 W.  (profil_uri: '{region}/anbieter/immobilien-service-plauen-gmbh/')
+  [lesen] Immobilien Todt GmbH: 295 W.  (profil_uri: '{region}/anbieter/immobilien-todt-gmbh/')
+  [lesen] Immobilien Wolf: 269 W.  (profil_uri: '{region}/anbieter/immobilien-wolf/')
+  [lesen] Immobilienbüro Claus Goller: 298 W.  (profil_uri: '{region}/anbieter/claus-goller-immobilienmakler/')
+  [lesen] Immobilienmarkt Plauen: 291 W.  (profil_uri: '{region}/anbieter/immobilienmarkt-plauen/')
+  [lesen] IMMOSPIN® GmbH - Real Estate | Consulting: 309 W.  (profil_uri: '{region}/anbieter/immospin-gmbh-real-estate-consulting/')
+  [lesen] IVD Immobilienbüro Dr. Hegner: 310 W.  (profil_uri: '{region}/anbieter/ivd-immobilienbuero-dr-hegner/')
+  [lesen] Kadner Immobilien: 305 W.  (profil_uri: '{region}/anbieter/kadner-immobilien/')
+  [lesen] Köhler Immobilien: 307 W.  (profil_uri: '{region}/anbieter/koehler-immobilien/')
+  [lesen] Kramer Immo GmbH: 262 W.  (profil_uri: '{region}/anbieter/kramer-immo-gmbh/')
+  [lesen] Maklerbüro Kanig: 308 W.  (profil_uri: '{region}/anbieter/maklerbuero-kanig/')
+  [lesen] Michael Kober Town & Country Haus Franchise-Partner: 309 W.  (profil_uri: '{region}/anbieter/michael-kober-town-und-country-partner/')
+  [lesen] Oelsnitzer Wohnungsbaugesellschaft mbH - OEWOG: 294 W.  (profil_uri: '{region}/anbieter/oelsnitzer-wohnungsbaugesellschaft-mbh-oewog/')
+  [lesen] ohne-makler.net: 315 W.  (profil_uri: '{region}/anbieter/ohne-makler-net/')
+  [lesen] PitcomTest: 300 W.  (profil_uri: '{region}/anbieter/pitcomtest/')
+  [lesen] Prüfaccount inaktiver Makler Nina: 256 W.  (profil_uri: '{region}/anbieter/pruefaccount-inaktiver-makler-nina/')
+  [lesen] Regionalimmobilien24 GmbH: 288 W.  (profil_uri: '{region}/anbieter/regionalimmobilien-gmbh/')
+  [lesen] Roland Schott: 311 W.  (profil_uri: '{region}/anbieter/roland-schott/')
+  [lesen] Schlaufuchs Immobilien: 292 W.  (profil_uri: '{region}/anbieter/schlaufuchs-immobilien/')
+  [ERR lesen] Sparkasse: TimeoutError: Page.input_value: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#
+  [lesen] Stadtverwaltung Oelsnitz: 278 W.  (profil_uri: '{region}/anbieter/stadtverwaltung-oelsnitz/')
+  [ERR lesen] Stark: TimeoutError: Page.input_value: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#
+  [lesen] Steffen Lutz Immobilien: 296 W.  (profil_uri: '{region}/anbieter/steffen-lutz-immobilien/')
+  [lesen] Studinski Immobilien GmbH: 285 W.  (profil_uri: '{region}/anbieter/studinski-immobilien-gmbh/')
+  [lesen] testgmbh: 306 W.  (profil_uri: '{region}/anbieter/testgmbh/')
+  [lesen] Testmakler: 298 W.  (profil_uri: '{region}/anbieter/testmakler-1/')
+  [lesen] TestmaklerLIVE: 304 W.  (profil_uri: '{region}/anbieter/testmaklerlive/')
+  [lesen] Treuener Wohnungsverwaltungsg. mbH: 283 W.  (profil_uri: '{region}/anbieter/treuener-wohnungsverwaltungsg-mbh/')
+  [lesen] Vermietungszentrum Matthias Gräf: 299 W.  (profil_uri: '{region}/anbieter/vermietungszentrum-matthias-graef/')
+  [lesen] Versutus GmbH: 271 W.  (profil_uri: '{region}/anbieter/versutus-gmbh/')
+  [lesen] Verwaltungsbüro Guld: 286 W.  (profil_uri: '{region}/anbieter/verwaltungsbuero-michael-guld/')
+  [lesen] VHD GmbH Netzschkau: 270 W.  (profil_uri: '{region}/anbieter/vhd-gmbh/')
+  [lesen] Vogtland-Immobilien: 278 W.  (profil_uri: '{region}/anbieter/vogtland-immobilien/')
+  [lesen] WbG Plauen: 264 W.  (profil_uri: '{region}/anbieter/wbg-plauen/')
+  [lesen] Wohnungsbaugenossenschaft Musikwinkel eG: 275 W.  (profil_uri: '{region}/anbieter/wohnungsbaugenossenschaft-musikwinkel-eg/')
+  [lesen] Wohnungsbaugenossenschaft Reichenbach eG: 314 W.  (profil_uri: '{region}/anbieter/wohnungsbaugenossenschaft-reichenbach-eg/')
+  [lesen] Wohnungsbaugesellschaft Eibenstock mbH: 282 W.  (profil_uri: '{region}/anbieter/wohnungsbaugesellschaft-eibenstock-mbh/')
+  [lesen] Wohnungsbaugesellschaft mbH Bad Elster: 270 W.  (profil_uri: '{region}/anbieter/wohnungsbaugesellschaft-mbh-bad-elster/')
+  [lesen] Wohnungsbaugesellschaft mbH Plauen Land: 304 W.  (profil_uri: '{region}/anbieter/wohnungsbaugesellschaft-mbh-plauen-land/')
+  [lesen] Wohnungsbaugesellschaft Vogtland mbH: 308 W.  (profil_uri: '{region}/anbieter/wohnungsbaugesellschaft-vogtland-mbh/')
+  [lesen] Wohnungsgesellschaft Adorf mbH: 290 W.  (profil_uri: '{region}/anbieter/wohnungsgesellschaft-adorf-mbh/')
+  [lesen] Ziegler - Immobilienbuero: 259 W.  (profil_uri: '{region}/anbieter/ziegler--immobilienbuero/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'Andreas Fester Immobilienbüro' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'AQ-Invest GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'areal 24 Immobilien' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'AWG Auerbacher Wohnungsbaugenossenschaft eG' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' → Text nennt 'Bau und Immobilien Service Plauen' ('plauen')
+  [Fremdname] 'Barbara Sandner Hausverwaltung' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Bau und Immobilien Service Plauen' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'biri Immobilien GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'City Immobilien & Finanzplanung Vogtland GmbH' → Text nennt 'Vogtland-Immobilien' ('vogtland')
+  [Fremdname] 'Dipl.-Kfm. Frank Müller Hausverwaltung' → Text nennt 'Barbara Sandner Hausverwaltung' ('hausverwaltung')
+  [Fremdname] 'ELAN Hausverwaltung GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'FGG - GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'FIV Falkensteiner Immobilien und Verwaltungs UG' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Gebhardt Vermietung Plauen' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Gebrüder Müller GbR' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'HAGER IMMOBILIEN Hager Lutz' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Hausverwaltung C. Goller GmbH Thomas Klein' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Heckel-Immobilien GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'IBEV GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Immobilien & Bürodienstleistungen Claudia Jäger' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Immobilien Scott GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Immobilien Service Plauen GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Immobilien Todt GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Immobilien Wolf' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Immobilienbüro Claus Goller' → Text nennt 'Andreas Fester Immobilienbüro' ('immobilienbüro')
+  [Fremdname] 'Immobilienmarkt Plauen' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'IMMOSPIN® GmbH - Real Estate | Consulting' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'IVD Immobilienbüro Dr. Hegner' → Text nennt 'Andreas Fester Immobilienbüro' ('immobilienbüro')
+  [Fremdname] 'Kadner Immobilien' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Kramer Immo GmbH' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Maklerbüro Kanig' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Michael Kober Town & Country Haus Franchise-Partner' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('finanzplanung')
+  [Fremdname] 'Oelsnitzer Wohnungsbaugesellschaft mbH - OEWOG' → Text nennt 'Stadtverwaltung Oelsnitz' ('oelsnitz')
+  [Fremdname] 'ohne-makler.net' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'PitcomTest' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Prüfaccount inaktiver Makler Nina' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Regionalimmobilien24 GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Roland Schott' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Schlaufuchs Immobilien' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Stadtverwaltung Oelsnitz' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Steffen Lutz Immobilien' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Studinski Immobilien GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'testgmbh' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Testmakler' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'TestmaklerLIVE' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Treuener Wohnungsverwaltungsg. mbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Vermietungszentrum Matthias Gräf' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Versutus GmbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Verwaltungsbüro Guld' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'VHD GmbH Netzschkau' → Text nennt 'Immobilienmarkt Plauen' ('immobilienmarkt')
+  [Fremdname] 'Vogtland-Immobilien' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'WbG Plauen' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Wohnungsbaugenossenschaft Musikwinkel eG' → Text nennt 'AWG Auerbacher Wohnungsbaugenossenschaft eG' ('wohnungsbaugenossenschaft')
+  [Fremdname] 'Wohnungsbaugenossenschaft Reichenbach eG' → Text nennt 'AWG Auerbacher Wohnungsbaugenossenschaft eG' ('wohnungsbaugenossenschaft')
+  [Fremdname] 'Wohnungsbaugesellschaft Eibenstock mbH' → Text nennt 'Immobilienmarkt Plauen' ('immobilienmarkt')
+  [Fremdname] 'Wohnungsbaugesellschaft mbH Bad Elster' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Wohnungsbaugesellschaft mbH Plauen Land' → Text nennt 'AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG' ('plauen')
+  [Fremdname] 'Wohnungsbaugesellschaft Vogtland mbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Wohnungsgesellschaft Adorf mbH' → Text nennt 'City Immobilien & Finanzplanung Vogtland GmbH' ('vogtland')
+  [Fremdname] 'Ziegler - Immobilienbuero' → Text nennt 'Andreas Fester Immobilienbüro' ('immobilienbüro')
+Erfolgreich gelesen:   61/63  (2 Fehler)
+Leere Felder:          0
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     60
+Eigenname fehlt:       0
+Zu löschende Texte:    60
+
+============================================================
+Phase 3: 60 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Michael Kober Town & Country Haus Franchise-Partner
+  [gelöscht] Andreas Fester Immobilienbüro
+  [gelöscht] Wohnungsbaugenossenschaft Musikwinkel eG
+  [gelöscht] Wohnungsbaugenossenschaft Reichenbach eG
+  [gelöscht] FGG - GmbH
+  [gelöscht] areal 24 Immobilien
+  [gelöscht] biri Immobilien GmbH
+  [gelöscht] Bau und Immobilien Service Plauen
+  [gelöscht] Oelsnitzer Wohnungsbaugesellschaft mbH - OEWOG
+  [gelöscht] Steffen Lutz Immobilien
+  [gelöscht] AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG
+  [gelöscht] Heckel-Immobilien GmbH
+  [gelöscht] Barbara Sandner Hausverwaltung
+  [gelöscht] Treuener Wohnungsverwaltungsg. mbH
+  [gelöscht] Wohnungsbaugesellschaft mbH Plauen Land
+  [gelöscht] Dipl.-Kfm. Frank Müller Hausverwaltung
+  [gelöscht] Immobilienbüro Claus Goller
+  [gelöscht] Vermietungszentrum Matthias Gräf
+  [gelöscht] VHD GmbH Netzschkau
+  [gelöscht] Immobilien Scott GmbH
+  [gelöscht] Immobilienmarkt Plauen
+  [gelöscht] Immobilien Todt GmbH
+  [gelöscht] ELAN Hausverwaltung GmbH
+  [gelöscht] AWG Auerbacher Wohnungsbaugenossenschaft eG
+  [gelöscht] FIV Falkensteiner Immobilien und Verwaltungs UG
+  [gelöscht] Wohnungsbaugesellschaft Vogtland mbH
+  [gelöscht] Verwaltungsbüro Guld
+  [gelöscht] Wohnungsbaugesellschaft mbH Bad Elster
+  [gelöscht] Versutus GmbH
+  [gelöscht] Immobilien Wolf
+  [gelöscht] WbG Plauen
+  [gelöscht] HAGER IMMOBILIEN Hager Lutz
+  [gelöscht] Wohnungsbaugesellschaft Eibenstock mbH
+  [gelöscht] Schlaufuchs Immobilien
+  [gelöscht] IMMOSPIN® GmbH - Real Estate | Consulting
+  [gelöscht] Immobilien Service Plauen GmbH
+  [gelöscht] PitcomTest
+  [gelöscht] Hausverwaltung C. Goller GmbH Thomas Klein
+  [gelöscht] IVD Immobilienbüro Dr. Hegner
+  [gelöscht] City Immobilien & Finanzplanung Vogtland GmbH
+  [gelöscht] Immobilien & Bürodienstleistungen Claudia Jäger
+  [gelöscht] Roland Schott
+  [gelöscht] Kramer Immo GmbH
+  [gelöscht] testgmbh
+  [gelöscht] Gebhardt Vermietung Plauen
+  [gelöscht] Vogtland-Immobilien
+  [gelöscht] Testmakler
+  [gelöscht] ohne-makler.net
+  [gelöscht] Maklerbüro Kanig
+  [gelöscht] Ziegler - Immobilienbuero
+  [gelöscht] Prüfaccount inaktiver Makler Nina
+  [gelöscht] Kadner Immobilien
+  [gelöscht] Stadtverwaltung Oelsnitz
+  [gelöscht] AQ-Invest GmbH
+  [gelöscht] Studinski Immobilien GmbH
+  [gelöscht] Regionalimmobilien24 GmbH
+  [gelöscht] IBEV GmbH
+  [gelöscht] TestmaklerLIVE
+  [gelöscht] Gebrüder Müller GbR
+  [gelöscht] Wohnungsgesellschaft Adorf mbH
+
+============================================================
+Phase 4: 60 Felder befüllen
+============================================================
+  [befüllt 1] City Immobilien & Finanzplanung Vogtland GmbH — 296 W.
+  [befüllt 2] Immobilien Wolf — 269 W.
+  [befüllt 3] Gebrüder Müller GbR — 303 W.
+  [Warnung] Impressum für 'Testmakler' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/testmakler-1/')
+  [befüllt 4] Oelsnitzer Wohnungsbaugesellschaft mbH - OEWOG — 300 W.
+  [befüllt 5] Immobilien & Bürodienstleistungen Claudia Jäger — 277 W.
+  [befüllt 6] Wohnungsbaugesellschaft mbH Plauen Land — 298 W.
+  [befüllt 7] Immobilienmarkt Plauen — 304 W.
+  [befüllt 8] Testmakler — 297 W. (kein Impressum)
+  [befüllt 9] Wohnungsbaugenossenschaft Reichenbach eG — 312 W.
+  [Warnung] Impressum für 'testgmbh' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/testgmbh/')
+  [befüllt 10] HAGER IMMOBILIEN Hager Lutz — 299 W.
+  [befüllt 11] AQ-Invest GmbH — 309 W.
+  [befüllt 12] FGG - GmbH — 293 W.
+  [befüllt 13] testgmbh — 298 W. (kein Impressum)
+  [befüllt 14] FIV Falkensteiner Immobilien und Verwaltungs UG — 290 W.
+  [befüllt 15] Immobilien Service Plauen GmbH — 280 W.
+  [befüllt 16] biri Immobilien GmbH — 277 W.
+  [befüllt 17] AWG WOHNUNGSGENOSSENSCHAFT PLAUEN eG — 241 W.
+  [befüllt 18] Wohnungsbaugesellschaft Eibenstock mbH — 312 W.
+  [befüllt 19] Verwaltungsbüro Guld — 301 W.
+  [befüllt 20] AWG Auerbacher Wohnungsbaugenossenschaft eG — 303 W.
+  [Warnung] Impressum für 'Regionalimmobilien24 GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/regionalimmobilien-gmbh/')
+  [befüllt 21] Kadner Immobilien — 311 W.
+  [befüllt 22] Roland Schott — 286 W.
+  [befüllt 23] Andreas Fester Immobilienbüro — 289 W.
+  [befüllt 24] Regionalimmobilien24 GmbH — 257 W. (kein Impressum)
+  [befüllt 25] Versutus GmbH — 301 W.
+  [Warnung] Impressum für 'ohne-makler.net' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/ohne-makler-net/')
+  [befüllt 26] ELAN Hausverwaltung GmbH — 311 W.
+  [befüllt 27] Immobilien Scott GmbH — 274 W.
+  [befüllt 28] Steffen Lutz Immobilien — 292 W.
+  [befüllt 29] ohne-makler.net — 299 W. (kein Impressum)
+  [befüllt 30] IBEV GmbH — 306 W.
+  [Warnung] Impressum für 'PitcomTest' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/pitcomtest/')
+  [befüllt 31] Heckel-Immobilien GmbH — 310 W.
+  [befüllt 32] areal 24 Immobilien — 260 W.
+  [befüllt 33] PitcomTest — 308 W. (kein Impressum)
+  [befüllt 34] Immobilien Todt GmbH — 294 W.
+  [befüllt 35] Wohnungsbaugesellschaft mbH Bad Elster — 313 W.
+  [befüllt 36] IVD Immobilienbüro Dr. Hegner — 254 W.
+  [befüllt 37] Barbara Sandner Hausverwaltung — 307 W.
+  [befüllt 38] Dipl.-Kfm. Frank Müller Hausverwaltung — 304 W.
+  [befüllt 39] WbG Plauen — 296 W.
+  [Warnung] Impressum für 'Schlaufuchs Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/schlaufuchs-immobilien/')
+  [befüllt 40] Wohnungsbaugesellschaft Vogtland mbH — 266 W.
+  [befüllt 41] Bau und Immobilien Service Plauen — 308 W.
+  [befüllt 42] Wohnungsbaugenossenschaft Musikwinkel eG — 302 W.
+  [befüllt 43] Schlaufuchs Immobilien — 303 W. (kein Impressum)
+  [befüllt 44] Maklerbüro Kanig — 302 W.
+  [befüllt 45] Vogtland-Immobilien — 283 W.
+  [befüllt 46] Studinski Immobilien GmbH — 289 W.
+  [befüllt 47] Michael Kober Town & Country Haus Franchise-Partner — 289 W.
+  [befüllt 48] IMMOSPIN® GmbH - Real Estate | Consulting — 309 W.
+  [befüllt 49] Treuener Wohnungsverwaltungsg. mbH — 300 W.
+  [befüllt 50] Immobilienbüro Claus Goller — 291 W.
+  [befüllt 51] Hausverwaltung C. Goller GmbH Thomas Klein — 298 W.
+  [befüllt 52] Gebhardt Vermietung Plauen — 305 W.
+  [befüllt 53] Prüfaccount inaktiver Makler Nina — 297 W.
+  [Warnung] Impressum für 'Ziegler - Immobilienbuero' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/ziegler--immobilienbuero/')
+  [befüllt 54] Vermietungszentrum Matthias Gräf — 303 W.
+  [Warnung] Impressum für 'VHD GmbH Netzschkau' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/vhd-gmbh/')
+  [befüllt 55] Kramer Immo GmbH — 315 W.
+  [Warnung] Impressum für 'TestmaklerLIVE' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/testmaklerlive/')
+  [befüllt 56] Wohnungsgesellschaft Adorf mbH — 301 W.
+  [befüllt 57] Ziegler - Immobilienbuero — 298 W. (kein Impressum)
+  [befüllt 58] VHD GmbH Netzschkau — 267 W. (kein Impressum)
+  [befüllt 59] Stadtverwaltung Oelsnitz — 289 W.
+  [befüllt 60] TestmaklerLIVE — 277 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region vi24 (Vogtland)
+============================================================
+  Gelesen:        61/63  (2 Lesefehler)
+  Gelöscht:       60
+  Befüllt:        60
+  Log:            rollout_region_log.csv
+=== Done vi24 ===

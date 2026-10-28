@@ -1,0 +1,209 @@
+openapi: "3.1.0"
+info:
+  title: "Europace Vorschläge-API"
+  description: "Erstellt und ruft personalisierte Finanzierungsvorschläge über die Europace Vorschläge-API ab."
+  version: "1.0.0"
+servers:
+  - url: "https://www.regionalimmobilien24.de"
+    description: "Produktionsserver (Proxy)"
+paths:
+  /ressource/set/europace/vorschlaege.json:
+    post:
+      operationId: "createVorschlaege"
+      summary: "Personalisierte Finanzierungsvorschläge starten"
+      description: >
+        Startet eine personalisierte Finanzierungsvorschläge-Berechnung über die Europace Vorschläge-API.
+        Liefert eine anfrageId, die anschließend mit getVorschlaege abgerufen werden muss.
+        Nutze diese Funktion, nachdem der Nutzer seine persönlichen Daten (Einkommen, Eigenkapital etc.) mitgeteilt hat.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - kaufpreis
+                - objektArt
+                - plz
+              properties:
+                geburtsdatum:
+                  type: string
+                  description: "Geburtsdatum des Kunden im Format YYYY-MM-DD (kann pseudonymisiert sein, z.B. 01.01. des Geburtsjahres)."
+                  example: "1990-01-01"
+                einkommenNetto:
+                  type: number
+                  description: "Monatliches Nettoeinkommen in Euro."
+                  example: 3500
+                beschaeftigungsArt:
+                  type: string
+                  description: "Art der Beschäftigung."
+                  enum:
+                    - ANGESTELLTER
+                    - SELBSTSTAENDIGER
+                    - BEAMTER
+                    - RENTNER
+                  example: "ANGESTELLTER"
+                beschaeftigtSeit:
+                  type: string
+                  description: "Seit wann beschäftigt, im Format YYYY-MM-DD."
+                  example: "2015-05-01"
+                arbeitBefristet:
+                  type: boolean
+                  description: "Ist das Arbeitsverhältnis befristet?"
+                  example: false
+                eigenKapital:
+                  type: number
+                  description: "Verfügbares Eigenkapital in Euro."
+                  example: 50000
+                sonstigeEinnahmen:
+                  type: number
+                  description: "Zusätzliche monatliche Einnahmen in Euro (z.B. Mieteinnahmen)."
+                  example: 0
+                ratenKrediteRestschuld:
+                  type: number
+                  description: "Bestehende Ratenkredite oder private Darlehen (Restschuld in Euro)."
+                  example: 0
+                kaufpreis:
+                  type: number
+                  description: "Kaufpreis der Immobilie in Euro. Aus den Exposé-Daten entnehmen."
+                  example: 250000
+                objektArt:
+                  type: string
+                  description: "Art der Immobilie."
+                  enum:
+                    - EINFAMILIENHAUS
+                    - WOHNUNG
+                    - MEHRFAMILIENHAUS
+                    - DOPPELHAUSHAELFTE
+                    - REIHENHAUS
+                    - GRUNDSTUECK
+                  example: "EINFAMILIENHAUS"
+                plz:
+                  type: string
+                  description: "Postleitzahl der Immobilie. Aus den Exposé-Daten entnehmen."
+                  example: "08523"
+                ort:
+                  type: string
+                  description: "Ort der Immobilie. Aus den Exposé-Daten entnehmen."
+                  example: "Plauen"
+                wunschRate:
+                  type: number
+                  description: "Gewünschte monatliche Rate in Euro (optional)."
+                  example: 900
+                wunschLaufzeit:
+                  type: number
+                  description: "Gewünschte Laufzeit in Monaten (optional)."
+                  example: 360
+      responses:
+        "200":
+          description: "Anfrage erfolgreich gestartet. Enthält die anfrageId für den Abruf."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  anfrageId:
+                    type: string
+                    description: "Die ID der gestarteten Anfrage. Muss an getVorschlaege übergeben werden."
+                    example: "passende-vorschlaege-71e2faa9-4094-4f66-8909-02677e5e9d7f"
+        "400":
+          description: "Ungültige Parameter."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "500":
+          description: "Serverfehler."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+  /ressource/get/europace/vorschlaege/{anfrageId}.json:
+    get:
+      operationId: "getVorschlaege"
+      summary: "Personalisierte Finanzierungsvorschläge abrufen"
+      description: >
+        Ruft die personalisierten Finanzierungsvorschläge ab, die mit createVorschlaege
+        gestartet wurden. Bei Status 202 (Berechnung läuft noch) kurz warten und
+        erneut aufrufen, bis Status 200 mit den finalen Ergebnissen zurückkommt.
+      parameters:
+        - name: anfrageId
+          in: path
+          required: true
+          description: "Die anfrageId, die von createVorschlaege zurückgegeben wurde."
+          schema:
+            type: string
+            example: "passende-vorschlaege-71e2faa9-4094-4f66-8909-02677e5e9d7f"
+      responses:
+        "200":
+          description: "Vorschläge erfolgreich berechnet."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  vorschlaege:
+                    type: array
+                    description: "Liste der personalisierten Finanzierungsvorschläge."
+                    items:
+                      type: object
+                      properties:
+                        finanzierungsVorschlagId:
+                          type: string
+                          description: "Eindeutige ID des Vorschlags."
+                        anpieterName:
+                          type: string
+                          description: "Name der Bank/des Anbieters."
+                        darlehensSumme:
+                          type: number
+                          description: "Darlehenssumme in Euro."
+                        sollZins:
+                          type: number
+                          description: "Sollzinssatz in Prozent."
+                        effektivZins:
+                          type: number
+                          description: "Effektiver Jahreszins in Prozent."
+                        monatlicheRate:
+                          type: number
+                          description: "Monatliche Rate in Euro."
+                        zinsbindungInJahren:
+                          type: integer
+                          description: "Zinsbindungsdauer in Jahren."
+                        gesamtlaufzeitInMonaten:
+                          type: integer
+                          description: "Gesamtlaufzeit in Monaten."
+        "202":
+          description: "Berechnung läuft noch. Bitte kurz warten und erneut aufrufen."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Die Berechnung läuft noch. Bitte erneut aufrufen."
+        "404":
+          description: "AnfrageId nicht gefunden."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "500":
+          description: "Serverfehler."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string

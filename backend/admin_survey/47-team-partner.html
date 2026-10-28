@@ -1,0 +1,813 @@
+<!DOCTYPE html><html lang="de"><head>
+        
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../../favicon.ico">
+<link rel="icon" href="../../../../../../favicon.ico">
+
+<link href="../../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    </head>
+    <body>
+
+    <div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../../adm/individuell/config_profil.php?admsess=5plonph5n0"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../../adm/individuell/news-inbox.php?admsess=5plonph5n0">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../../adm/individuell/faq.php?admsess=5plonph5n0"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../../adm/individuell/logout.php?admsess=5plonph5n0"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/master/dashboard/?admsess=5plonph5n0"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/makler/?admsess=5plonph5n0"> <span>Makler</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/baufi/?admsess=5plonph5n0"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=5plonph5n0"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/terminvb/?admsess=5plonph5n0"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/user/?admsess=5plonph5n0"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/mail/?admsess=5plonph5n0"> <span>Mails</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=5plonph5n0"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/dashboard/referrer/?admsess=5plonph5n0"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/tools/oid-recherche/?admsess=5plonph5n0"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=5plonph5n0"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/master/makler/list/?admsess=5plonph5n0"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/makler/list-short/?admsess=5plonph5n0"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/makler/anfragen/?admsess=5plonph5n0"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/makler/new/?admsess=5plonph5n0"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/makler/kooperation/?admsess=5plonph5n0"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=5plonph5n0"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../../adm/individuell/master/tools/kundenlogin/?admsess=5plonph5n0"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/immo/list/?admsess=5plonph5n0"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/privatanzeige/?admsess=5plonph5n0"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/regionen/config/?admsess=5plonph5n0"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/orte/?admsess=5plonph5n0"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../../adm/individuell/static/sites.php?admsess=5plonph5n0"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=5plonph5n0"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/mails/list/?admsess=5plonph5n0"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/mails/blacklist/?admsess=5plonph5n0"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../../adm/individuell/master/team/list/?admsess=5plonph5n0"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/whitelabel/list/?admsess=5plonph5n0"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/suchauftrag/?admsess=5plonph5n0"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/master/interface/mitula/?admsess=5plonph5n0"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../../adm/individuell/master/interface/immo/static/?admsess=5plonph5n0"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../../adm/individuell/master/seo/config/?admsess=5plonph5n0"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=5plonph5n0"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../../adm/individuell/hilfe/software/?admsess=5plonph5n0"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../../adm/individuell/hilfe/baufi-lead/?admsess=5plonph5n0"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../../adm/individuell/hilfe/baufi-contact/?admsess=5plonph5n0"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../../adm/individuell/logout.php?admsess=5plonph5n0">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../../adm/individuell/logout.php?admsess=5plonph5n0">.</li>
+    </ul>
+</div>        <div id="content">
+            
+                
+                                    <span class="badge" style="position: fixed; right: 0;background-color: #FFF;border: 1px solid #ccc;border-radius: 35px 0 0 35px;z-index: 9999999; box-shadow: 0 4px 4px rgba(0,0,0,.25); padding: 5px 5px 5px 15px;">
+                        <img src="https://www.regionalimmobilien24.de/get-file/img/ressource/img/elements/franchise/v/h60/max/bronze.png.webp" alt="bronze" title="Status: bronze">
+                    </span>
+                
+                <div id="content-header">
+                    <h1>Partner   Immobilienanfragen bearbeiten</h1>
+                </div>
+                <div id="breadcrumb">
+                    <a href="../../../../../../adm/individuell/master/dashboard.php?admsess=5plonph5n0" title="" class="tip-bottom" data-original-title="zum Dashboard">
+                        <span class="icon"></span> Home
+                    </a>
+                    <a title="" href="../../../../../../adm/individuell/master/team/list/?admsess=5plonph5n0">
+                        Team
+                    </a>
+                    <a title="" href="../../../../../../adm/individuell/master/team/edit/?admsess=5plonph5n0&amp;id=123">
+                        Stammdaten
+                    </a>
+                    <a title="" href="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123">
+                        Partner bearbeiten
+                    </a>
+                </div>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Partner-Bereich</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="control-group">
+                                            <label class="control-label" for="partnerstufe">Partner-Stufe</label>
+                                            <div class="controls">
+                                                                                                <select aria-label="" name="partnerstufe" id="partnerstufe" class="form_validation" data-database="team" required="">
+                                                    <option value="">--- bitte wählen ---</option>
+                                                                                                            <option value="2" selected="selected">Bronze</option>
+                                                                                                            <option value="3">Silber</option>
+                                                                                                            <option value="4">Gold</option>
+                                                                                                            <option value="5">Platin</option>
+                                                                                                            <option value="6">Platin+</option>
+                                                                                                    </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group">
+                                            <label for="email" class="control-label">Login</label>
+                                            <div class="controls">
+                                                <input maxlength="100" name="email" id="email" value="" disabled="" readonly="" class="form_validation" type="text" data-database="team" pattern="[a-zA-Z0-9][a-zA-Z0-9\.\-_]*@(regionalimmobilien24|pitcom)\.de" placeholder="xyz@regionalimmobilien24.de" required="">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label for="pw" class="control-label">Passwort</label>
+                                            <div class="controls">
+                                                <input maxlength="50" name="pw" id="pw" value="obzfJT4doo" class="form_validation" type="text" data-database="team" pattern="[^&quot;]{10,}" required="">
+                                                <span class="help-inline">*</span>
+                                                <span onclick="let length = 10, charset = '1234567890qwertzuiopasdfghjklyxcvbnmQWERTZUIOPLKJHGFDSAYXCVBNM_-#§+~*$', retVal = '';
+                                                            for (var i = 0, n = charset.length; i &lt; length; ++i) {
+                                                                retVal += charset.charAt(Math.floor(Math.random() * n));
+                                                            }
+                                                            $('input[name=pw]').val(retVal);" style="height: 10px; cursor: pointer; float: right; margin-right: 10px;" class="icon"></span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="control-group">
+                                            <label class="control-label" for="is_status">Login-Status</label>
+                                            <div class="controls">
+                                                <select aria-label="" name="is_status" id="is_status" class="form_validation" data-database="team" required="">
+                                                    <option value="1" selected="selected">aktiv</option>
+                                                    <option value="2">blockiert (zu viele falsche Logins)</option>
+                                                    <option value="0">inaktiv / gesperrt</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="control-group">
+                                            <label class="control-label" for="show_provision">Provision</label>
+                                            <div class="controls">
+                                                <select aria-label="" name="show_provision" id="show_provision" class="form_validation" data-database="team" required="">
+                                                    <option value="1" selected="selected">anzeigen</option>
+                                                    <option value="0">nicht anzeigen</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="form-actions">
+                                            <span class="btn btn-primary pitsafe">Speichern</span>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">* Pflichtfeld</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>zugeordnete Ansprechpartner</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal" action="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123&amp;ansp=add" method="post" enctype="multipart/form-data">
+                                        <div class="control-group">
+                                            <label class="control-label" for="aid">Ansprechpartner</label>
+                                            <div class="controls">
+                                                                                                <style>
+                                                    select option:disabled {
+                                                        color: #CCC;
+                                                        font-style: italic;
+                                                        text-decoration: line-through;
+                                                    }
+                                                </style>
+                                                <select aria-label="" name="aid" id="aid" required="">
+                                                    <option value="">--- bitte wählen ---</option>
+                                                                                                            <option value="123" disabled="">Immobilienanfragen</option>
+                                                                                                            <option value="63">Technikhotline</option>
+                                                                                                            <option value="62">Vertragshotline</option>
+                                                                                                            <option value="93">Stefanie Rupprecht</option>
+                                                                                                            <option value="1">Lars Rupprecht (VI24)</option>
+                                                                                                            <option value="56">Stefanie Rupprecht</option>
+                                                                                                            <option value="64">Alexander Stumm</option>
+                                                                                                            <option value="94">Sindy Popp</option>
+                                                                                                            <option value="57">Sindy Popp</option>
+                                                                                                            <option value="68">Apache PHP</option>
+                                                                                                            <option value="330">Julia</option>
+                                                                                                            <option value="4">Philipp Steppohn (VI24)</option>
+                                                                                                            <option value="316">Patrick Thier (VI24)</option>
+                                                                                                            <option value="88">Heldenhaft beraten werden (SBI24)</option>
+                                                                                                            <option value="17">Peggy Rodewald (LI24)</option>
+                                                                                                            <option value="16">Mike Schmidt (LI24)</option>
+                                                                                                            <option value="18">Claudia Hausdorf (LI24)</option>
+                                                                                                            <option value="19">Daniela May (LI24)</option>
+                                                                                                            <option value="69">Susann Hennig</option>
+                                                                                                            <option value="7">Wilfried Hoh (ZI24)</option>
+                                                                                                            <option value="21">Frank Lohse (NSI24)</option>
+                                                                                                            <option value="230">Oliver Gehrk (KIEI24)</option>
+                                                                                                            <option value="27">Dominic Hoffmann (DAI24)</option>
+                                                                                                            <option value="28">Birgit Keeß (DAI24)</option>
+                                                                                                            <option value="35">Claudia Volke-Herrmann (DDI24)</option>
+                                                                                                            <option value="45">Rainer Veigel (ERZI24)</option>
+                                                                                                            <option value="79">Jan Doberenz (MSI24)</option>
+                                                                                                            <option value="80">Marie Nagel (MSI24)</option>
+                                                                                                            <option value="81">Moritz Doberenz (MSI24)</option>
+                                                                                                            <option value="89">Horst Grüger (REKI24)</option>
+                                                                                                            <option value="90">Thomas Nicolas (REKI24)</option>
+                                                                                                            <option value="162">Daniel Tönges (DI24)</option>
+                                                                                                            <option value="163">Jan Sterzik (DI24)</option>
+                                                                                                            <option value="164">Sven Heinsohn (DI24)</option>
+                                                                                                            <option value="232">Tobias Erler (RSKI24)</option>
+                                                                                                            <option value="238">Zentrale Anfragenummer</option>
+                                                                                                            <option value="296">Provisionsanfragen Qualitypool</option>
+                                                                                                            <option value="239">Yasmin Glombik</option>
+                                                                                                            <option value="336">Philipp Steppohn</option>
+                                                                                                            <option value="152">Marvin Staneck</option>
+                                                                                                            <option value="153">Benjamin Mahlow</option>
+                                                                                                            <option value="324">Clearing Forum</option>
+                                                                                                            <option value="241">Johanna Leu</option>
+                                                                                                            <option value="240">Lukas Weinmann</option>
+                                                                                                            <option value="356">Benjamin Fuhr (BDI24)</option>
+                                                                                                            <option value="119">Andreas Schulze (BI24)</option>
+                                                                                                            <option value="328">Katrin Johst-Mandel (BI24)</option>
+                                                                                                            <option value="334">Jasmin Baruschke (BRAI24)</option>
+                                                                                                            <option value="177">Daniel Albert (BSI24)</option>
+                                                                                                            <option value="307">Silvia Liebeskind (CI24)</option>
+                                                                                                            <option value="329">Bernd Kreie (DUI24)</option>
+                                                                                                            <option value="243">Andreas Engelbrecht-Eichstädt (EFI24)</option>
+                                                                                                            <option value="125">Sören Uhlig (ERZI24)</option>
+                                                                                                            <option value="269">Dirk Schwarz (FI24)</option>
+                                                                                                            <option value="340">Daniel Schwan (GII24)</option>
+                                                                                                            <option value="172">Nancy Radde (HAI24)</option>
+                                                                                                            <option value="354">Oliver Thier (HHI24)</option>
+                                                                                                            <option value="233">Dana Reibe (HI24)</option>
+                                                                                                            <option value="348">Uwe Madeja (HLI24)</option>
+                                                                                                            <option value="333">Jörg Kintzel (HLI24)</option>
+                                                                                                            <option value="353">Ron Westphal (HOI24)</option>
+                                                                                                            <option value="179">Lambert Adams (HOI24)</option>
+                                                                                                            <option value="171">Willi Schikora (HOI24)</option>
+                                                                                                            <option value="295">Andreas Beitzen (KOEI24)</option>
+                                                                                                            <option value="320">Marcus Brinkwirth (LBI24)</option>
+                                                                                                            <option value="319">Christoph Soetebeer (LBI24)</option>
+                                                                                                            <option value="343">Patrick Funke (MAII24)</option>
+                                                                                                            <option value="170">Thomas Zenker (MBI24)</option>
+                                                                                                            <option value="167">Nicole Hartig (MBI24)</option>
+                                                                                                            <option value="106">Peter Reuter (MFI24)</option>
+                                                                                                            <option value="174">Jean-Claude Kühne (MFI24)</option>
+                                                                                                            <option value="332">Niklas Lechner (MFI24)</option>
+                                                                                                            <option value="342">Jan Philip de la Motte (MFI24)</option>
+                                                                                                            <option value="341">Christine de la Motte (MFI24)</option>
+                                                                                                            <option value="309">Hubert Ebertseder (MI24)</option>
+                                                                                                            <option value="325">Guido Allmich (MI24)</option>
+                                                                                                            <option value="326">Christiana Kurczyk (MI24)</option>
+                                                                                                            <option value="335">Miroslav Papac (MI24)</option>
+                                                                                                            <option value="350">Melanie Gmeiner (MI24)</option>
+                                                                                                            <option value="308">Anton Neumeier (MI24)</option>
+                                                                                                            <option value="299">Marc Stoll (MLI24)</option>
+                                                                                                            <option value="127">Jörg Edelbrock (MLI24)</option>
+                                                                                                            <option value="121">André Stempel (NRI24)</option>
+                                                                                                            <option value="168">Michael Branetzki (NRI24)</option>
+                                                                                                            <option value="103">Diana Helm (NSI24)</option>
+                                                                                                            <option value="352">Max Riesenberg (NSI24)</option>
+                                                                                                            <option value="102">Matthias Dickes (NSI24)</option>
+                                                                                                            <option value="312">Mariana Cecilia Wehrhahn (OBI24)</option>
+                                                                                                            <option value="351">Florian Gleißner (OBI24)</option>
+                                                                                                            <option value="323">William Schwaß (OBI24)</option>
+                                                                                                            <option value="294">Andreas Berndt (OBI24)</option>
+                                                                                                            <option value="98">Thorsten Stehmann (OBI24)</option>
+                                                                                                            <option value="165">Karl-Heinz Schuh (OBLI24)</option>
+                                                                                                            <option value="155">Jörg Lübben (OLI24)</option>
+                                                                                                            <option value="100">Ewald Madl (OPI24)</option>
+                                                                                                            <option value="303">Jürgen Schott (OPI24)</option>
+                                                                                                            <option value="355">Peter Klima (RGI24)</option>
+                                                                                                            <option value="272">Oliver Wewering (RGI24)</option>
+                                                                                                            <option value="339">Lars Nitsche (RGI24)</option>
+                                                                                                            <option value="345">Jan Bollenbach (RHHI24)</option>
+                                                                                                            <option value="344">Andreas Coutandin (RHHI24)</option>
+                                                                                                            <option value="306">Stephan Klammt (RHTI24)</option>
+                                                                                                            <option value="331">Hans-Dieter Döll (RHTI24)</option>
+                                                                                                            <option value="271">Jürgen Lösch (RNI24)</option>
+                                                                                                            <option value="231">Michael Christ (ROI24)</option>
+                                                                                                            <option value="237">Harald Strobel (RPI24)</option>
+                                                                                                            <option value="318">Jürgen Stengel (SAI24)</option>
+                                                                                                            <option value="347">Murat Güneser (SAUI24)</option>
+                                                                                                            <option value="304">Johannes Friedt (STI24)</option>
+                                                                                                            <option value="349">Tom Sander (SWI24)</option>
+                                                                                                            <option value="180">Steffen Simon (SWTI24)</option>
+                                                                                                            <option value="311">Axel Scholz (SWTI24)</option>
+                                                                                                            <option value="302">Thomas Grosshans (SWWI24)</option>
+                                                                                                            <option value="109">Andreas Janz (SWWI24)</option>
+                                                                                                            <option value="313">Christian Schmid (SWWI24)</option>
+                                                                                                            <option value="338">Kevin Helms (TBI24)</option>
+                                                                                                            <option value="297">Christian Appel (UFI24)</option>
+                                                                                                            <option value="346">Ronni Swatek (UMI24)</option>
+                                                                                                            <option value="305">Kilian de Vries (WEI24)</option>
+                                                                                                            <option value="116">Sven Harth (WPFI24)</option>
+                                                                                                            <option value="270">Wolfram Aller (WWI24)</option>
+                                                                                                            <option value="156">Gert Holdschick (ZI24)</option>
+                                                                                                    </select>
+                                                <button type="submit" class="btn btn-success" title="hinzufügen"><i class="icon-plus icon-white"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th colspan="2">Ansprechpartner</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                </tbody>
+                                    </table>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="form-actions">
+                                            <span class="btn btn-primary pitsafe">Speichern</span>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">* Pflichtfeld</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <h5>Logos</h5>
+                                </div>
+
+                                <div class="widget-content nopadding">
+                                    
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>Sort.</th>
+                                            <th>Datei</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="form-horizontal">
+
+                                                                                                                                                                                        <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Doppellogo vom Header der Region</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Baufilogo</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>a6005d8d_prime-einzeln.png</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Finanzierungspartner Siegel</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                            </tbody>
+                                    </table>
+                                </div>
+                                <div class="widget-content nopadding">
+
+
+                                    <form class="form-horizontal" action="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123&amp;do=imagesafe" method="post" enctype="multipart/form-data">
+                                        <div class="control-group">
+                                            <div class="controls" style="margin-left: 10px;">
+                                                <input type="file" name="image" id="image" accept="image/jpeg, image/png">
+
+                                                <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <h5>Dokumente</h5>
+                                </div>
+
+                                <div class="widget-content nopadding">
+                                    
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>Sort.</th>
+                                            <th>Datei</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="form-horizontal">
+
+                                                                                                                                                                                        <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Beilagenblatt zum Immobilienkauf</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">1</td>
+                                                        <td>Finanzierungszertifikat</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">2</td>
+                                                        <td>Objektzertifikat</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">3</td>
+                                                        <td>Auftrag Immobilienanbieter</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">4</td>
+                                                        <td>Anleitung Kalenderverbindung</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">5</td>
+                                                        <td>Einrichtung Mail Account</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">6</td>
+                                                        <td>Anleitung Europace einrichten</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">7</td>
+                                                        <td>Anleitung Finanzierungs-Widgets</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                            </tbody>
+                                    </table>
+                                </div>
+                                <div class="widget-content nopadding">
+
+
+                                    <form class="form-horizontal" action="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123&amp;do=docupload" method="post" enctype="multipart/form-data">
+                                        <div class="control-group">
+                                            <div class="controls" style="margin-left: 10px;">
+                                                <input type="file" name="docfile" id="docfile" accept="doc, doc, pdf">
+
+                                                <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row-fluid">
+
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <h5>Videos</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>Sort.</th>
+                                            <th>URL</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="form-horizontal">
+
+                                                                                                                                                                                        <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Vorstellung Baufinanzierung<br>https://blog.regionalimmobilien24.de/dateien/RI24-Baufi-cut.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Forwarddarlehen / Umschuldung<br>https://blog.regionalimmobilien24.de/dateien/Ri24-Forwarddarlehen-cut.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Immobilienbewertung<br>https://blog.regionalimmobilien24.de/dateien/Immobilienbewertung-cut.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Vorstellung FInanzierungsassitstent<br>https://blog.regionalimmobilien24.de/dateien/Screencast-Finanzierungsassistent-Makler-komprimiert.m4v</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Vorteile für Sichtbarkeitspartner<br>https://blog.regionalimmobilien24.de/dateien/Vorteile-Sichtbarkeitspartner.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Portalvorstellung für Makler<br>https://blog.regionalimmobilien24.de/dateien/Portalvorstellung-Makler.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">0</td>
+                                                        <td>Erklärvideo Empfehlungsmanagment<br>https://blog.regionalimmobilien24.de/dateien/Empfehlungsmanagment-Baufi-small.mp4</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                    
+                                        <tr>
+                                            <td style="width: 80px;">
+                                                <input aria-label="Sortierung" required="" size="2" style="width: 60px;" type="number" min="-128" max="128" name="sorting_doc_videos" id="sorting_doc_videos_new" value="0">
+                                            </td>
+                                            <td>
+                                                <input aria-label="Bezeichnung" placeholder="Bezeichnung" required="" type="text" name="label_doc_videos" id="label_doc_videos_new" value="">
+                                                <input aria-label="URL" placeholder="URL https://..." pattern="(#[a-z.]+#)|(https:\/\/[a-zA-Z0-9.-_]{4,}[a-zA-Z0-9.-_\/#&amp;?=]*)" required="" type="text" name="file_doc_videos" id="file_doc_videos_new" value="">
+                                            </td>
+                                            <td style="width: 90px;">
+                                                <button data-id="new" data-type="videos" class="btn btn-success link-add" title="hinzufügen"><i class="icon-plus icon-white"></i></button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <h5>Landingpages</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>Sort.</th>
+                                            <th>URL</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="form-horizontal">
+
+                                                                                                                                                                                        <tr>
+                                                        <td style="width: 80px;">10</td>
+                                                        <td>Beraterlandingpage<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">20</td>
+                                                        <td>Beraterlandingpage “Klickstrecke”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/angebot/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">30</td>
+                                                        <td>Beraterlandingpage “Suchauftrag für Interessenten”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/suchauftrag/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">40</td>
+                                                        <td>Beraterlandingpage “Unterlagenupload für Kunden”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/unterlagen/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">50</td>
+                                                        <td>Beraterlandingpage “Umschuldung”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/umschuldung/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">60</td>
+                                                        <td>Beraterlandingpage “Immobilie bewerten lassen”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/immobilienbewertung/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">70</td>
+                                                        <td>Beraterlandingpage “energetische Sanierung”<br>https://www.regionalimmobilien24.de/#region#/baufinanzierung/#baufidir#/sanierung/</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                                                                                <tr>
+                                                        <td style="width: 80px;">80</td>
+                                                        <td>Makleranbindung<br>http://www.regionalimmobilien24.de/immobilienportal-partner-werden</td>
+                                                        <td style="width: 90px;">(zentral)</td>
+                                                    </tr>
+                                                                                                                                    
+                                        <tr>
+                                            <td style="width: 80px;">
+                                                <input aria-label="Sortierung" required="" size="2" style="width: 60px;" type="number" min="-128" max="128" name="sorting_doc_links" id="sorting_doc_links_new" value="0">
+                                            </td>
+                                            <td>
+                                                <input aria-label="Bezeichnung" placeholder="Bezeichnung" required="" type="text" name="label_doc_links" id="label_doc_links_new" value="">
+                                                <input aria-label="URL" placeholder="URL https://..." pattern="(#[a-z.]+#)|(https:\/\/[a-zA-Z0-9.-_]{4,}[a-zA-Z0-9.-_\/#&amp;?=]*)" required="" type="text" name="file_doc_links" id="file_doc_links_new" value="">
+                                            </td>
+                                            <td style="width: 90px;">
+                                                <button data-id="new" data-type="links" class="btn btn-success link-add" title="hinzufügen"><i class="icon-plus icon-white"></i></button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <form class="pitsafeform" action="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123&amp;x=safe" data-action="../../../../../../adm/individuell/master/team/edit/partner/?admsess=5plonph5n0&amp;id=123" method="post" enctype="multipart/form-data"></form>
+                </div>
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>        </div>
+        
+<script src="../../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>    <script>
+        $('.ansp-refresh').click(function () {
+            let aid = $(this).data('aid');
+            let sort = $('#sorting_' + aid).val();
+            let form = $('form.pitsafeform');
+            form.prop('action', form.data('action') + '&ansp=update&aid=' + aid + '&sort=' + sort).removeAttr('data-action').submit();
+
+        });
+        $('.link-add').click(function () {
+            let type = $(this).data('type');
+            let id = $(this).data('id');
+            let sort = $('#sorting_doc_' + type + '_' + id).val();
+            let label = $('#label_doc_' + type + '_' + id).val();
+            let file = $('#file_doc_' + type + '_' + id).val();
+            let va = '<input type="hidden" name="sort" value="' + window.btoa(encodeURIComponent(sort)) + '" />'
+                + '<input type="hidden" name="label" value="' + window.btoa(encodeURIComponent(label)) + '" />'
+                + '<input type="hidden" name="file" value="' + window.btoa(encodeURIComponent(file)) + '" />'
+                + '<input type="hidden" name="type" value="' + window.btoa(encodeURIComponent(type)) + '" />';
+
+            let form = $('form.pitsafeform');
+            form.prop('action', form.data('action') + '&link=add').removeAttr('data-action').html(va).submit();
+
+        });
+
+
+        $('.link-refresh').click(function () {
+            let type = $(this).data('type');
+            let id = $(this).data('id');
+            let sort = $('#sorting_doc_' + type + '_' + id).val();
+            let label = $('#label_doc_' + type + '_' + id).val();
+            let file = $('#file_doc_' + type + '_' + id).val();
+            let va = '<input type="hidden" name="sort" value="' + window.btoa(encodeURIComponent(sort)) + '" />'
+                + '<input type="hidden" name="label" value="' + window.btoa(encodeURIComponent(label)) + '" />'
+                + '<input type="hidden" name="file" value="' + window.btoa(encodeURIComponent(file)) + '" />'
+                + '<input type="hidden" name="type" value="' + window.btoa(encodeURIComponent(type)) + '" />'
+                + '<input type="hidden" name="aid" value="' + id + '" />';
+
+            let form = $('form.pitsafeform');
+            form.prop('action', form.data('action') + '&link=update').removeAttr('data-action').html(va).submit();
+
+        });
+
+
+        $('.logo-refresh').click(function () {
+            let type = $(this).data('type');
+            let id = $(this).data('id');
+            let sort = $('#sorting_doc_' + type + '_' + id).val();
+            let va = '<input type="hidden" name="sort" value="' + window.btoa(encodeURIComponent(sort)) + '" />'
+                + '<input type="hidden" name="type" value="' + window.btoa(encodeURIComponent(type)) + '" />'
+                + '<input type="hidden" name="aid" value="' + id + '" />';
+
+            let form = $('form.pitsafeform');
+            form.prop('action', form.data('action') + '&logo=update').removeAttr('data-action').html(va).submit();
+
+        });
+
+
+        $('.file-refresh').click(function () {
+            let type = $(this).data('type');
+            let id = $(this).data('id');
+            let sort = $('#sorting_doc_' + type + '_' + id).val();
+            let label = $('#label_doc_' + type + '_' + id).val();
+            let va = '<input type="hidden" name="sort" value="' + window.btoa(encodeURIComponent(sort)) + '" />'
+                + '<input type="hidden" name="label" value="' + window.btoa(encodeURIComponent(label)) + '" />'
+                + '<input type="hidden" name="type" value="' + window.btoa(encodeURIComponent(type)) + '" />'
+                + '<input type="hidden" name="aid" value="' + id + '" />';
+
+            let form = $('form.pitsafeform');
+            form.prop('action', form.data('action') + '&file=update').removeAttr('data-action').html(va).submit();
+
+        });
+
+    </script>
+    
+    
+</body></html>

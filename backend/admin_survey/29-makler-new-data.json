@@ -1,0 +1,653 @@
+{
+  "inputs": {
+    "name": {
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "Immobilien GmbH",
+      "disabled": false
+    },
+    "email": {
+      "type": "text",
+      "value": "",
+      "checked": false,
+      "placeholder": "email@domain.xyz",
+      "disabled": false
+    },
+    "makler_id": {
+      "type": "text",
+      "value": "r24h94haeum",
+      "checked": false,
+      "placeholder": "",
+      "disabled": true
+    },
+    "edit_objects": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": true,
+      "placeholder": "",
+      "disabled": false
+    },
+    "merge_offers": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "baufi_like_extern": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "multimakler": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": true,
+      "placeholder": "",
+      "disabled": false
+    },
+    "kontakt_has_immosolve": {
+      "type": "checkbox",
+      "value": "on",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "login": {
+      "type": "text",
+      "value": "r24h94haeum",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "pw": {
+      "type": "text",
+      "value": "6fu4akdv",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "ftp_user": {
+      "type": "text",
+      "value": "r24h94haeum",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    },
+    "ftp_pw_salt": {
+      "type": "text",
+      "value": "6fu4akdv",
+      "checked": false,
+      "placeholder": "",
+      "disabled": false
+    }
+  },
+  "selects": {
+    "regioncode": [
+      {
+        "value": "-- bitte wählen --",
+        "text": "-- bitte wählen --",
+        "selected": true
+      },
+      {
+        "value": "hli24",
+        "text": "Havellandimmobilien24 (hli24)",
+        "selected": false
+      },
+      {
+        "value": "ohi24",
+        "text": "Oberhavelimmobilien24 (ohi24)",
+        "selected": false
+      },
+      {
+        "value": "obli24",
+        "text": "Oderlandimmobilien24 (obli24)",
+        "selected": false
+      },
+      {
+        "value": "swi24",
+        "text": "Spreewaldimmobilien24 (swi24)",
+        "selected": false
+      },
+      {
+        "value": "umi24",
+        "text": "Uckermarkimmobilien24 (umi24)",
+        "selected": false
+      },
+      {
+        "value": "bi24",
+        "text": "Berlinimmobilien24 (bi24)",
+        "selected": false
+      },
+      {
+        "value": "bosi24",
+        "text": "Bodenseeimmobilien24 (bosi24)",
+        "selected": false
+      },
+      {
+        "value": "hbi24",
+        "text": "Heilbronnimmobilien24 (hbi24)",
+        "selected": false
+      },
+      {
+        "value": "ki24",
+        "text": "Karlsruheimmobilien24 (ki24)",
+        "selected": false
+      },
+      {
+        "value": "mani24",
+        "text": "Mannheimimmobilien24 (mani24)",
+        "selected": false
+      },
+      {
+        "value": "osi24",
+        "text": "Oberschwabenimmobilien24 (osi24)",
+        "selected": false
+      },
+      {
+        "value": "rni24",
+        "text": "Rheinneckarimmobilien24 (rni24)",
+        "selected": false
+      },
+      {
+        "value": "rhti24",
+        "text": "Rheintalimmobilien24 (rhti24)",
+        "selected": false
+      },
+      {
+        "value": "sai24",
+        "text": "Schwäbischealbimmobilien24 (sai24)",
+        "selected": false
+      },
+      {
+        "value": "swwi24",
+        "text": "Schwarzwaldimmobilien24 (swwi24)",
+        "selected": false
+      },
+      {
+        "value": "sti24",
+        "text": "Stuttgartimmobilien24 (sti24)",
+        "selected": false
+      },
+      {
+        "value": "abi24",
+        "text": "Augsburgimmobilien24 (abi24)",
+        "selected": false
+      },
+      {
+        "value": "bsi24",
+        "text": "Bayerisch-schwabenimmobilien24 (bsi24)",
+        "selected": false
+      },
+      {
+        "value": "mfi24",
+        "text": "Mittelfrankenimmobilien24 (mfi24)",
+        "selected": false
+      },
+      {
+        "value": "mi24",
+        "text": "Münchenimmobilien24 (mi24)",
+        "selected": false
+      },
+      {
+        "value": "nbi24",
+        "text": "Niederbayernimmobilien24 (nbi24)",
+        "selected": false
+      },
+      {
+        "value": "obi24",
+        "text": "Oberbayernimmobilien24 (obi24)",
+        "selected": false
+      },
+      {
+        "value": "ofi24",
+        "text": "Oberfrankenimmobilien24 (ofi24)",
+        "selected": false
+      },
+      {
+        "value": "opi24",
+        "text": "Oberpfalzimmobilien24 (opi24)",
+        "selected": false
+      },
+      {
+        "value": "ufi24",
+        "text": "Unterfrankenimmobilien24 (ufi24)",
+        "selected": false
+      },
+      {
+        "value": "brei24",
+        "text": "Bremenimmobilien24 (brei24)",
+        "selected": false
+      },
+      {
+        "value": "fi24",
+        "text": "Frankfurtimmobilien24 (fi24)",
+        "selected": false
+      },
+      {
+        "value": "gii24",
+        "text": "Giessenimmobilien24 (gii24)",
+        "selected": false
+      },
+      {
+        "value": "kai24",
+        "text": "Kasselimmobilien24 (kai24)",
+        "selected": false
+      },
+      {
+        "value": "dai24",
+        "text": "Südhessenimmobilien24 (dai24)",
+        "selected": false
+      },
+      {
+        "value": "wii24",
+        "text": "Taunusimmobilien24 (wii24)",
+        "selected": false
+      },
+      {
+        "value": "weti24",
+        "text": "Wetterauimmobilien24 (weti24)",
+        "selected": false
+      },
+      {
+        "value": "hhi24",
+        "text": "Hamburgimmobilien24 (hhi24)",
+        "selected": false
+      },
+      {
+        "value": "lli24",
+        "text": "Ludwigslustimmobilien24 (lli24)",
+        "selected": false
+      },
+      {
+        "value": "nwmi24",
+        "text": "Nordwestmecklenburgimmobilien24 (nwmi24)",
+        "selected": false
+      },
+      {
+        "value": "roi24",
+        "text": "Rostockimmobilien24 (roi24)",
+        "selected": false
+      },
+      {
+        "value": "si24",
+        "text": "Schwerinimmobilien24 (si24)",
+        "selected": false
+      },
+      {
+        "value": "smbi24",
+        "text": "Südmecklenburgimmobilien24 (smbi24)",
+        "selected": false
+      },
+      {
+        "value": "vpi24",
+        "text": "Vorpommernimmobilien24 (vpi24)",
+        "selected": false
+      },
+      {
+        "value": "brai24",
+        "text": "Braunschweigimmobilien24 (brai24)",
+        "selected": false
+      },
+      {
+        "value": "emsi24",
+        "text": "Emslandimmobilien24 (emsi24)",
+        "selected": false
+      },
+      {
+        "value": "goti24",
+        "text": "Göttingenimmobilien24 (goti24)",
+        "selected": false
+      },
+      {
+        "value": "hani24",
+        "text": "Hannoverimmobilien24 (hani24)",
+        "selected": false
+      },
+      {
+        "value": "lwi24",
+        "text": "Leineweserimmobilien24 (lwi24)",
+        "selected": false
+      },
+      {
+        "value": "lbi24",
+        "text": "Lüneburgimmobilien24 (lbi24)",
+        "selected": false
+      },
+      {
+        "value": "osni24",
+        "text": "Osnabrückimmobilien24 (osni24)",
+        "selected": false
+      },
+      {
+        "value": "wei24",
+        "text": "Weseremsimmobilien24 (wei24)",
+        "selected": false
+      },
+      {
+        "value": "aai24",
+        "text": "Aachen-Eifelimmobilien24 (aai24)",
+        "selected": false
+      },
+      {
+        "value": "bdi24",
+        "text": "Bergisches-Dreieckimmobilien24 (bdi24)",
+        "selected": false
+      },
+      {
+        "value": "bgli24",
+        "text": "Bergischeslandimmobilien24 (bgli24)",
+        "selected": false
+      },
+      {
+        "value": "di24",
+        "text": "Dortmundimmobilien24 (di24)",
+        "selected": false
+      },
+      {
+        "value": "dui24",
+        "text": "Duisburgimmobilien24 (dui24)",
+        "selected": false
+      },
+      {
+        "value": "duei24",
+        "text": "Düsseldorfimmobilien24 (duei24)",
+        "selected": false
+      },
+      {
+        "value": "eei24",
+        "text": "Essenimmobilien24 (eei24)",
+        "selected": false
+      },
+      {
+        "value": "koei24",
+        "text": "Kölnimmobilien24 (koei24)",
+        "selected": false
+      },
+      {
+        "value": "mli24",
+        "text": "Münsterlandimmobilien24 (mli24)",
+        "selected": false
+      },
+      {
+        "value": "nri24",
+        "text": "Niederrheinimmobilien24 (nri24)",
+        "selected": false
+      },
+      {
+        "value": "reki24",
+        "text": "Rhein-Erft-Kreisimmobilien24 (reki24)",
+        "selected": false
+      },
+      {
+        "value": "rski24",
+        "text": "Rhein-Siegkreisimmobilien24 (rski24)",
+        "selected": false
+      },
+      {
+        "value": "rgi24",
+        "text": "Ruhrgebietimmobilien24 (rgi24)",
+        "selected": false
+      },
+      {
+        "value": "saui24",
+        "text": "Sauerlandimmobilien (saui24)",
+        "selected": false
+      },
+      {
+        "value": "sigi24",
+        "text": "Siegerlandimmobilien24 (sigi24)",
+        "selected": false
+      },
+      {
+        "value": "tbi24",
+        "text": "Teutoburger-Wald-Imobilien24 (tbi24)",
+        "selected": false
+      },
+      {
+        "value": "maii24",
+        "text": "Mainzimmobilien24 (maii24)",
+        "selected": false
+      },
+      {
+        "value": "mri24",
+        "text": "Mittelrheinimmobilien24 (mri24)",
+        "selected": false
+      },
+      {
+        "value": "rhhi24",
+        "text": "Rheinhessenimmobilien24 (rhhi24)",
+        "selected": false
+      },
+      {
+        "value": "rpi24",
+        "text": "Rheinpfalzimmobilien24 (rpi24)",
+        "selected": false
+      },
+      {
+        "value": "ti24",
+        "text": "Trierimmobilien24 (ti24)",
+        "selected": false
+      },
+      {
+        "value": "wesi24",
+        "text": "Westeifelimmobilien24 (wesi24)",
+        "selected": false
+      },
+      {
+        "value": "wwi24",
+        "text": "Westerwaldimmobilien24 (wwi24)",
+        "selected": false
+      },
+      {
+        "value": "wpfi24",
+        "text": "Westpfalzimmobilien24 (wpfi24)",
+        "selected": false
+      },
+      {
+        "value": "ami24",
+        "text": "Altmarkimmobilien24 (ami24)",
+        "selected": false
+      },
+      {
+        "value": "ai24",
+        "text": "Anhaltimmobilien24 (ai24)",
+        "selected": false
+      },
+      {
+        "value": "hai24",
+        "text": "Halleimmobilien24 (hai24)",
+        "selected": false
+      },
+      {
+        "value": "hi24",
+        "text": "Harzimmobilien24 (hi24)",
+        "selected": false
+      },
+      {
+        "value": "jei24",
+        "text": "Jerichowimmobilien24 (jei24)",
+        "selected": false
+      },
+      {
+        "value": "mbi24",
+        "text": "Magdeburgimmobilien24 (mbi24)",
+        "selected": false
+      },
+      {
+        "value": "sui24",
+        "text": "Saaleunstrutimmobilien24 (sui24)",
+        "selected": false
+      },
+      {
+        "value": "sli24",
+        "text": "Salzlandimmobilien (sli24)",
+        "selected": false
+      },
+      {
+        "value": "hoi24",
+        "text": "Holsteinimmobilien24 (hoi24)",
+        "selected": false
+      },
+      {
+        "value": "kiei24",
+        "text": "Kielimmobilien24 (kiei24)",
+        "selected": false
+      },
+      {
+        "value": "luei24",
+        "text": "Lübeckimmobilien24 (luei24)",
+        "selected": false
+      },
+      {
+        "value": "slwi24",
+        "text": "Schleswigimmobilien24 (slwi24)",
+        "selected": false
+      },
+      {
+        "value": "ci24",
+        "text": "Chemnitzimmobilien24 (ci24)",
+        "selected": false
+      },
+      {
+        "value": "ddi24",
+        "text": "Dresdenimmobilien24 (ddi24)",
+        "selected": false
+      },
+      {
+        "value": "eli24",
+        "text": "Elbelandimmobilien24 (eli24)",
+        "selected": false
+      },
+      {
+        "value": "erzi24",
+        "text": "Erzgebirgeimmobilien24 (erzi24)",
+        "selected": false
+      },
+      {
+        "value": "li24",
+        "text": "Leipzigimmobilien24 (li24)",
+        "selected": false
+      },
+      {
+        "value": "msi24",
+        "text": "Mittelsachsenimmobilien24 (msi24)",
+        "selected": false
+      },
+      {
+        "value": "nsi24",
+        "text": "Nordsachsenimmobilien24 (nsi24)",
+        "selected": false
+      },
+      {
+        "value": "oli24",
+        "text": "Oberlausitzimmobilien24 (oli24)",
+        "selected": false
+      },
+      {
+        "value": "sosi24",
+        "text": "Sächsische-Schweiz-Osterzgebirgeimmobilien24 (sosi24)",
+        "selected": false
+      },
+      {
+        "value": "vi24",
+        "text": "Vogtlandimmobilien24 (vi24)",
+        "selected": false
+      },
+      {
+        "value": "zi24",
+        "text": "Zwickauimmobilien24 (zi24)",
+        "selected": false
+      },
+      {
+        "value": "nsai24",
+        "text": "Nordsaarlandimmobilien24 (nsai24)",
+        "selected": false
+      },
+      {
+        "value": "osai24",
+        "text": "Ostsaarlandimmobilien24 (osai24)",
+        "selected": false
+      },
+      {
+        "value": "sbi24",
+        "text": "Saarbrückenimmobilien24 (sbi24)",
+        "selected": false
+      },
+      {
+        "value": "wsai24",
+        "text": "Westsaarlandimmobilien24 (wsai24)",
+        "selected": false
+      },
+      {
+        "value": "efi24",
+        "text": "Erfurtimmobilien24 (efi24)",
+        "selected": false
+      },
+      {
+        "value": "mthi24",
+        "text": "Mittelthüringenimmobilien24 (mthi24)",
+        "selected": false
+      },
+      {
+        "value": "nti24",
+        "text": "Nordthueringenimmobilien24 (nti24)",
+        "selected": false
+      },
+      {
+        "value": "othi24",
+        "text": "Ostthüringenimmobilien24 (othi24)",
+        "selected": false
+      },
+      {
+        "value": "swti24",
+        "text": "Südwestthüringenimmobilien24 (swti24)",
+        "selected": false
+      }
+    ],
+    "makler_stufe": [
+      {
+        "value": "basic",
+        "text": "Basic",
+        "selected": false
+      },
+      {
+        "value": "plus",
+        "text": "Plus",
+        "selected": false
+      },
+      {
+        "value": "premium",
+        "text": "Premium",
+        "selected": true
+      }
+    ],
+    "paket": [
+      {
+        "value": "3",
+        "text": "APFlatrate",
+        "selected": true
+      }
+    ],
+    "kontakt_use_immosolve": [
+      {
+        "value": "0",
+        "text": "nein",
+        "selected": true
+      },
+      {
+        "value": "1",
+        "text": "ja, ausschließlich",
+        "selected": false
+      },
+      {
+        "value": "2",
+        "text": "zusätzlich",
+        "selected": false
+      }
+    ]
+  }
+}

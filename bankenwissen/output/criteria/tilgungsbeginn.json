@@ -1,0 +1,957 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/tilgungsbeginn",
+  "category": "Kriterien Tilgung",
+  "criterion_name": "Tilgungsbeginn",
+  "criterion_id": "tilgungsbeginn",
+  "scraped_at": "2026-05-07T12:15:27.422Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "im Monat der Vollauszahlung"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "Ist bei Beantragung immer anzugeben, kann unabhängig von der Auszahlung gewählt werden (spätester Beginn max. 24 Monate nach Genehmigung).\n \nUnabhängig von der Vorgabe des gewünschten Tilgungsbeginns setzt die Tilgung frühestens mit Fälligkeit der ersten Rate nach Vollauszahlung des Darlehens ein."
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "nach Vollauszahlung des Darlehens"
+    },
+    {
+      "bank": "AXA",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Ende des Folgemonats nach Vollauszahlung"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "tilgungsfreie Zeit bis zu 24 Monate möglich"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Nach Vollauszahlung"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Grds. nach Auszahlung"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Im Folgemonat nach Vollauszahlung (Monatsultimo)"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Die Tilgung setzt nach erster Auszahlung ein, sofern im Finanzierungswunsch kein konkretes Tilgungsdatum genannt ist."
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Einen Monat nach Vollauszahlung"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Zeitpunkt der Vollauszahlung, spätestens 18 Monate nach Auszahlung"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Tilgungsbeginn bitte immer mit erfassen. Die Tilgung beginnt zu diesem Tag unabhängig davon, ob das Darlehen voll ausgezahlt ist"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Frühester Tilgungsbeginn: \n • 1 Monat nach Darlehensvollauszahlung \n \nSpätester Tilgungsbeginn: \n • 3 Jahre nach Zusage (gilt nicht für Forwarddarlehen) \n • Prolongationen von zeitweilig tilgungsfrei gestellten Darlehen müssen mindestens 1,00 % Regeltilgung haben."
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Die tatsächliche Tilgung beginnt erst, wenn das Darlehen voll valutiert ist\nSofern eine kurzfristige Vollvalutierung nicht darstellbar ist (z.B. Neubau / Bauträger, ist eine\ntilgungsfreie Zeit zu vereinbaren (max. 24 Monate)"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "Angabe des Tilgungsbeginnes ist erforderlich. Kann bei Neubauten und in speziellen Konstellationen in Absprache mit der SPK individuell auch über 12 Monate hinaus vereinbart werden."
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "Monatsultimo der Erstauszahlung bzw. nach individueller Vereinbarung"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "Nach Vollauszahlung des Darlehens"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Ab Vollauszahlung"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "Unbedingt angeben - Ansonsten wählt die Sparda den im Vorschlag hinterlegten Tilgungsbeginn"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Im Antrag definiertes Datum\n \nDer erste Tilgungstermin ist bitte zwingend anzugeben und im Vorweg mit dem Kunden abzustimmen, sofern Doppelbelastungen vermieden werden sollen. Ein Vorziehen auf einen früheren Termin ist möglich, ein Verschieben ist ausgeschlossen."
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "In begründeten Ausnahmefällen kann mit der Tilgung später als nach Vollauszahlung begonnen werden, also eine tilgungsfreie Zeit nutzen. Bitte den gewünschten Tilgungsbeginn (maximal 24 Monate nach hinten verschoben) deutlich gekennzeichnet inklusive Begründung bei der Antragsübergabe als Hinweistext angeben."
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "muss zwingend in BaufiSmart eingepflegt werden, da dieser ins Vertragswerk aufgenommen wird und zwingend für die Tilgung genutzt wird, unabhängig davon, wann das Darlehen vollständig abgerufen wurde> bei Neubau besser späteres Datum nehmen"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Erste Valutierung oder im Vertrag genannter Zeitpunkt"
+    },
+    {
+      "bank": "Sparkasse Bad Tölz-Wolfratshausen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Einen Monat nach Vollvalutierung"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Tilgungsbeginn muss korrekt im Antrag erfasst sein, keine Änderung im Nachhinein möglich."
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "Tilgungsbeginn grundsätzlich nach Vollvalutierung, auch nach im Antrag vereinbarten Datum,spätestens 18 Monate nach Bewilligung."
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Im Antrag definiertes Datum\nFrühester Tilgungsbeginn: nach erster Teilauszahlung"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "bis 12 Monate nach Antragsstellung, nach vorheriger Rücksprache ggfls. länger möglich"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Zeitpunkt der Vollauszahlung - individuelle Abweichungen sind aber möglich"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "max. 24 Monate nach Darlehensantrag\n(variables Darlehen: max. 12 Monate)"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "1 Monat nach Vollauszahlung\nspätestens 12 Monate nach Genehmigung der Finanzierung"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Im Antrag definiertes Datum / nach Abstimmung"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "i.d.R. mit Teilauszahlung, veränderter Tilgungsbeginn ist möglich wenn er im Antrag klar angegeben ist"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Zeitpunkt der Vollauszahlung und/oder im Antrag definiertes Datum ( wenn später gewählt als Vollauszahlung)"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "Der Tilgungsbeginn ist bei Beauftragung immer anzugeben. Der Tilgungsbeginn kann unabhängig von der Auszahlung (max. 12 Monate) gewählt werden. Ein automatischer Tilgungsbeginn \"nach Vollauszahlung\" kann nicht erfolgen."
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Zeitpunkt des Auszahlungsbeginns eines Darlehens, also ab Teilvalutierung."
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "In der Regel zum Zeitpunkt der Vollvalutierung bzw. gemäß Antrag"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Nach Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "1 Monat nach Vollauszahlung"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Im Monat der Vollauszahlung, Tilgungsverschiebung möglich"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Dieser muss konkret festgelegt werden, unabhängig von Vollvalutierung"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "Standard: 1 Monat nach Vollvalutierung \nbei Beantragung max. 12 Monate nach Antragsstellung"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Sonstiges, grundsätzlich 1 Monat nach Vollauszahlung, tilgungsfreie Anlaufzeit von bis zu 12 Monaten wählbar"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Nach Vollauszahlung, wenn  durch Vermittler ein Datum für den Tilgungbeginn eingegeben wird, wird ab diesem Datum die volle Tilgung verbucht unabhängig ob das Darlehen voll valutiert."
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Der Tilgungsbeginn muss im System korrekt erfasst werden.\nNachträgliche Änderungen bzgl. Tilgungstermin sind nicht möglich"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "Im Antrag definiertes Datum\ninsbesondere bei Neubau bitte individualisiert beantragen, da die volle Rate ab definierten Tilgungsbeginn fällig wird - auch wenn das Darlehen noch nicht voll valutiert"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Im Antrag definiertes Datum, spätester Beginn zum Monatsende der ersten Teilauszahlung, sofern das im Antrag definierte Datum bereits erreicht ist"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "Im Antragdefiniertes Datum"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Im Regelfall nach Vollauszahlung\nSpätestmöglicher Tilgungsbeginn ist nicht genau definiert und kann in begründeten Fällen individuell mit der Bank abgesprochen werden"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Im Monat der Vollauszahlung startet die Tilgungsleistung.  \nSollte das Darlehen noch eine verbleibende offene Zusage haben, verschiebt sich der Tilgungsbeginn auf den nächsten Monat (Bitte beachten bei Neubau etc.)"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "Tilgung beginnt mit der ersten Teilauszahlung. \nSollte ein konkreter Tilgungsbeginn im Darlehensvertrag festgehalten sein, erfolgt die Tilgung wie vereinbart."
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Wird aus Kreditantrag 1:1 in den Kreditvertrag übernommen - sofern keine Änderungen vorgenommen wurde, ist der Tilgungsbeginn der 30. des Folgemonats nach erster Auszahlung. Der Tilgungsbeginn kann max. 2 Jahre in die Zukunft verlegt werden"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "-"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "Eine individuelle Vereinbarung ist möglich."
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "wie beantragt, in der Regel nach Vollauszahlung"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Bei fertig zu stellenden Objekten kann der Tilgungsbeginn des Darlehens bis zu drei Jahre verschoben werden – Info bei Einreichung notwendig!"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Im Antrag definiertes Datum ,spätestens ab 25. Monat"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "Im Antrag definiertes Datum"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Zeitpunkt der Vollauszahlung"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "bank": "BHW",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkungen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine Umschuldung innerhalb der Postbank Gruppe inkl. DSL"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 24\nSparbeginn kann bei TA-Darlehen bis max. 6 Monate nach Vertragsbeginn ausgesetzt werden"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 24\nSparbeginn kann bei TA-Darlehen bis max. 6 Monate nach Vertragsbeginn ausgesetzt werden"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5.000 - 7.500.000\nÜberschreitung - Einzelfallentscheidung\nab 200.000 EUR bei selbständigen Darlehensnehmern (Neukunden)"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ggf. ohne GB-Eintragung bis 50 TEUR"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, Genehmigung muss vor Kreditentscheidung BHW vorliegen"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5, 8, 10, 15, 20"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "2"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 10, 15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Für das Prolongationsangebot wird eine Mail mit den vom Kunden gewünschten Eckdaten der Prolongation und der Provisionshöhe (0-3% analog Neugeschäft) an info@bhw.de gesendet. \nDie BHW versendet das entsprechende Angebot - in EP wird die Prolo über die Abrechnungsbank verbucht\nnutze gerne den Antrag zur Prolongation\nBeachte: Wenn die Kund:innen ursprünglich nicht durch Dich vermittelt wurden, muss die Einwilligung zur Datenübermittlung vom Kunden unterschrieben beigefügt werden"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "72620005"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 297, 298, 300, 261\nKfW Baubegleitungs Zuschuss\naktuell technisch nicht möglich im Finanzierungsvorschlag abzubilden. Gewünschten Zuschuss der Baubegleitung muss in der Kommunikation mit dem DB Center dokumentiert werden"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart als Anschlussfinanzierung wie im Neugeschäft\nFür das Prolongationsangebot wird eine Mail mit den vom Kunden gewünschten Eckdaten der Prolongation und der Provisionshöhe (0-3% analog Neugeschäft) an info@bhw.de gesendet. \nDie BHW versendet das entsprechende Angebot - in EP wird die Prolo über die Abrechnungsbank verbucht\nFinanzierungswunsch:\nBHW Annuitätendarlehen (Tilgungshypothek) mit 8-jähriger Laufzeit und Provision 0%. \nVermerk bei Annahme:\n\"Achtung; nur zur Provisionsabrechnung\"\nnutze gerne den Antrag zur Prolongation\nBeachte: Wenn die Kund:innen ursprünglich nicht durch Dich vermittelt wurden, muss die Einwilligung zur Datenübermittlung vom Kunden unterschrieben beigefügt werden"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Konditionen sind nicht auf BaufiSmart hinterlegt. BHW übermittelt den Kunden nach Falleinreichung ein entsprechendes Prolongationsangebot"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben \nAusgefülltes Formular \"Beantragung vorzeitige Prolo\" (in Qpedia auf der BHW-Seite zu finden)"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "0,25 % der Darlehenssumme"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Sparbeginn kann bei TA-Darlehen bis max. 6 Monate nach Vertragsbeginn ausgesetzt werden"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 5\n5 Sondertilgungen p.a. kostenfrei / max. 5%, Sondertilgungsoption erst ab € 30.000,- DN möglich,\nMindestbetrag € 1.500\nBeim Kombi-Darlehen 5%, muss zwingend vorab erfasst werden, nachträgliche Anpassung nicht möglich"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,5"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "nur gegen BSV der BHW möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Modulhäuser und Tinyhäuser werden von der Bausparkasse nicht beliehen"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "49"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "1"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "ab 600 TEUR und bei folgenden Objekten: Wohnimmobilie: Anteil gewerbliche Nutzfläche > 50%\nFerien oder Wochenendhäuser im Sondergebiet, Häuser in Holzfertigbauweise bei Hausherstellern ohne RAL-Gütesiegel,  Holzfertighäuser in einschaliger Holzblockbohlenbauweise"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nkeine Beleihung zulässig, wenn eines der nachstehenden Rechte vorhanden:\n• Dauerwohnrecht\n• Altenteil*\n• Reallast (die den Eigentümer zu Dienst- und Sachleistungen verpflichtet), Ausnahme möglich, wenn die  Reallast die Unterhaltung gemeinsam genutzter Anlagen, wie z. B. Müllabstellplätze, Heizungsanlagen, Geh- und Fahrwege, Spielplätze etc. sichert\n \nAchtung: Die Rangstelle des Rechts ist unerheblich.\n \n*Abweichend gilt bei Zuteilungsdarlehen und / oder Neuvalutierungen: Altenteil ist zulässig, sofern sie im\nRang nach unserem Grundpfandrecht eingetragen sind. Ein RAL von 80 % des VKW nicht überschritten werden.\n\nBergschadenverzicht:\n• 10 % Minderwertverzicht: Beleihungswert ist um 10 % des lastenfreien Marktwertes zu vermindern\n• Sonstige Verzichte: a) Abbau in den letzten 10 Jahren => keine Beleihung\n                                   b) letzter Abbau > 10 bis 29,99 Jahre => Beleihungswert ist um 50 % des lastenfreien\n                                       Marktwertes zu vermindern\n                                   c) letzter Abbau > 30 Jahre => Beleihungswert ist um 10 % des lastenfreien         \n                                       Marktwertes zu vermindern\nDas Ende des Abbaus ist durch eine Bestätigung des ehemaligen Betreibers (mit Bezug auf das Grundstück)  zu belegen\n \nDiese Rechte in Abt. II dürfen nicht dem BHW-Grundpfandrecht vorgehen:\n• Auflassungsvormerkung\n• dingliches Wohnrecht (bei EFH, ETW und ZFH)\n• Nießbrauchrecht\n• Reallast (in der Regel kein Rangrücktritt, wenn Reallast die Unterhaltung gemeinsam genutzter Anlagen\n   sichert)\n• Wiederkaufsrecht/Rückauflassungsvormerkung\n• Wohnungsbesetzungs-/belegungsrecht (bei EFH, ETW und ZFH)\n\nEin Beleihungsauslauf von 80 % des VKW darf nicht überschritten werden bei:\n• dingliches Wohnrecht (bei EFH, ETW und ZFH)\n• Nießbrauchrecht"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine Einschränkungen bei Vermietung, bei Eigennutzung 45m²"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14 - sofern langfristig nachgewiesen"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn dauerhaft"
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "Kann dem Familiennettoeinkommen der Pflegeeltern zugerechnet werden. Es erfolgt eine Berücksichtigung des Pflegegeldes incl. Kindergeld bis max. 300-- EUR.\nEine Berücksichtigung von Pflegegeld weiterer im Haushalt lebender Personen (z.B. Ehepartner, Eltern des Darlehensnehmers) erfolgt nicht."
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\n\ngem. Rentenbescheid, pauschaler Abzug von 16% auf Brutto-Rentenbezug\nWaisenrente: Ja\n\ngem. Bescheid, pauschaler Abzug von 16% auf Brutto-Rentenabzug"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Ja\n\nEhelicher Kindesunterhalt: Scheidungsurteil mit Regelung\nAußerehelicher Kindesunterhalt: Jugendamtsurkunde für Unterhaltsansprüche und 2 Kontoauszüge wg. Zahlung)\nKindesunterhalt, wird incl. Kindergeld bis max. 300,-- EUR als Einkommen anerkannt\nDas Ende der jeweiligen Kindesunterhaltszahlung (max. bis zum vollendeten 25. Lebensjahr) löst systemseitig eine Bonitätsneuberechnung aus (keine Berücksichtigung des Kindesunterhalts, keine Berücksichtigung des jeweiligen Kindes in der Haushaltsrechnung / BHW Existenzminimum)"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4\nDN muss Miteigentümer sein\nPersonen, die nicht Miteigentümer sind, können nicht als Gesamtschuldner beitreten, und deren Einkünfte können nicht bei der Bonitätsbetrachtung berücksichtigt werden.\nWird/Ist ein Ehe-/Lebenspartner nicht Miteigentümer, ist von dem Darlehensnehmer grundsätzlich eine Schufaeigenauskunft des Ehe-/Lebenspartners vorzulegen"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung\nJahresüberschuss bei bilanzierungspflichtigen Einzelfirmen und nichtbilanzierungspflichtigen\nFreiberuflern und Kleingewerbetreibenden (§4.3 EStG-Rechner) muss sich auf mindestens 50.000 EUR belaufen."
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "1"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "werden nicht akzeptiert"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein, Ausnahme Beamte auf Probe"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "max. 70 Jahre bzw. nicht älter als 75 Jahre bei Zuteilungsdarlehen (sonst Beitritt eines jüngeren Darlehensnehmers\nBei Laufzeitende des / der beantragten BHW Darlehen darf das maximale Alter von 78Jahren des jüngsten\nbeteiligten Kreditnehmers (Darlehensnehmer / Gesamtschuldner) nicht überschritten werden"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung,\nerst ab Darlehensvolumen von 100 TEUR\ndas Firmengeflecht darf maximal zwei Beteiligungen (einschl. der Eigenfirma) umfassen\nJahresüberschuss bei bilanzierungspflichtigen Einzelfirmen und nichtbilanzierungspflichtigen\nFreiberuflern und Kleingewerbetreibenden (§4.3 EStG-Rechner) muss sich auf mindestens 50.000 EUR belaufen. Bei Kapitalgesellschaften muss mindestens ein ausgeglichenes Jahresergebnis verbleiben, wobei ein Geschäftsführergehalt von 50.000 EUR enthalten sein muss (gem. Jahresabschluss, GuV, Bilanz keine ausschließliche Abstellung auf BWA-Daten möglich)"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "es ist immer ein Nachweis über die Verpflichtungsdauer und deren Beginn einzureichen\nBefindet sich ein Zeitsoldat bereits in der Übergangsphase nach seiner Dienstzeit, ist eine Finanzierung nur möglich, wenn ein Nachweis über eine nachhaltige Anschlussbeschäftigung vorliegt (z.B. keine Berufsausbildung während der Übergangsphase zulässig)\nBeträgt die restliche Dienstzeit weniger als 6 Monate, muss ein Nachweis für eine Anschlussbeschäftigung erbacht werden"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopie Vermittler-VVI sowie Darlehensvermittlungsvertrag"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent-Verfahren\nVertragserstellung durch BHW"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Einreichung:\n\nBitte unbedingt die BHW Zusatzangaben befüllen. Diese werden dann automatisch in die EUROPACE Selbstauskunft übernommen.\nEine RLV-GVV - wird automatisch zur Risikoabsicherung im Darlehensvertrag vorgesehen. Der Kunde hat ein 14-tägiges Widerrufsrecht.\nBei Neubauvorhaben in Kombination mit der DSL Bank wird der Sparbeginn automatisch auf 12 Monate nach Vertragsbeginn gesetzt."
+    }
+  },
+  "company_id": "51c6e3e5e9140cb01813ce53b716ba52",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/51c6e3e5e9140cb01813ce53b716ba52",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "12.03.26",
+  "recent_news": [
+    {
+      "date": "24.04.26",
+      "title": "BHW - Anpassungen Lebenshaltungskosten zum 04.05.2026"
+    },
+    {
+      "date": "14.04.26",
+      "title": "BHW - Konditionserhöhung zum 17.04.2026"
+    },
+    {
+      "date": "09.04.26",
+      "title": "BHW - Konditionssenkung zum 10.04.2026"
+    },
+    {
+      "date": "31.03.26",
+      "title": "BHW - UPDATE: Migration der Bestände (ehemals Frankfurt / Deutsche Bank Bauspar AG)"
+    },
+    {
+      "date": "30.03.26",
+      "title": "BHW - Konditionserhöhung zum 02.04.2026"
+    }
+  ]
+}

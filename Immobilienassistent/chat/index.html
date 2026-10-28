@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RI24 Immobilienassistent – Demo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f7f8f9; color: #111; }
+    header { background: #0b6b3a; color: #fff; padding: 16px 24px; }
+    header h1 { margin: 0; font-size: 1.15rem; }
+    .wrap { display: flex; gap: 24px; padding: 24px; flex-wrap: wrap; }
+    .info { flex: 1; min-width: 280px; max-width: 520px; }
+    .info code { background: #eef1f0; padding: 1px 5px; border-radius: 4px; }
+    label { display:block; font-size:.85rem; margin:12px 0 4px; font-weight:600; }
+    input { width:100%; padding:8px 10px; border:1px solid #ccd2cf; border-radius:8px; box-sizing:border-box; }
+  </style>
+</head>
+<body>
+  <header><h1>🏠 RI24 Immobilienassistent – lokale Demo</h1></header>
+
+  <div class="wrap">
+    <div class="info">
+      <p>Diese Seite testet die DeepChat-Einbindung gegen den PHP-Proxy
+         (<code>chat.php</code>). Trage die Exposé-URL ein, die an den Agent
+         übergeben werden soll, und starte den Chat.</p>
+
+      <label for="expose">Exposé-URL (wird versteckt an den Agent gesendet)</label>
+      <input id="expose" value="https://www.regionalimmobilien24.de/immobilien/expose/?id=215541072">
+
+      <label for="beraterUrl">Berater-Seiten-URL (berater_url, optional)</label>
+      <input id="beraterUrl" value="https://www.regionalimmobilien24.de/vogtland/baufinanzierung/philipp-steppohn/">
+
+      <label for="endpoint">Endpoint (chat.php)</label>
+      <input id="endpoint" value="http://localhost:8000/chat.php">
+
+      <p style="font-size:.85rem;color:#555;margin-top:16px">
+        Ändere die Felder und lade neu, um mit anderen Werten zu testen.
+        In Produktion liest das Widget die Exposé-URL automatisch aus
+        <code>window.location.href</code>.
+      </p>
+    </div>
+
+    <div>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/deep-chat@2/dist/deepChat.bundle.js"></script>
+      <deep-chat id="ri24-immobilienassistent"></deep-chat>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var chat = document.getElementById('ri24-immobilienassistent');
+      var params = new URLSearchParams(location.search);
+
+      var ENDPOINT = document.getElementById('endpoint').value;
+      var exposeUrl = document.getElementById('expose').value;
+      var beraterUrl = document.getElementById('beraterUrl').value;
+
+      var conversationId = (window.crypto && crypto.randomUUID)
+        ? crypto.randomUUID()
+        : 'c' + Date.now() + Math.random().toString(36).slice(2);
+
+      // DeepChat erst konfigurieren, wenn das Custom-Element definiert ist –
+      // sonst startet es im Demo-Modus (deferred Modul-Bundle).
+      customElements.whenDefined('deep-chat').then(function () {
+      chat.connect = { url: ENDPOINT, method: 'POST', stream: true };
+      chat.requestInterceptor = function (r) {
+        r.body.expose_url = exposeUrl;
+        r.body.conversation_id = conversationId;
+        r.body.berater_url = beraterUrl;
+        return r;
+      };
+
+      chat.style =
+        'border-radius:14px;border:1px solid #e2e5ea;width:420px;height:600px;';
+      chat.textInput = { placeholder: { text: 'Frag mich etwas zu dieser Immobilie …' } };
+      chat.submitButtonStyles = {
+        submit: {
+          container: { default: { backgroundColor: '#0b6b3a', width: '2.4rem', height: '2.4rem', borderRadius: '50%' } },
+          svg: { styles: { default: { width: '45%', height: '45%' } } }
+        }
+      };
+      chat.messageStyles = {
+        default: {
+          ai:   { bubble: { backgroundColor: '#f1f4f2', color: '#111' } },
+          user: { bubble: { backgroundColor: '#0b6b3a', color: '#fff' } }
+        }
+      };
+      // Mikrofon-Button im Eingabefeld; nach kurzer Sprechpause wird automatisch
+      // abgesendet (hands-free). Sprachbefehle „stopp"/„absenden" möglich. Analog
+      // zu chat/test-expose.html.
+      chat.speechToText = {
+        webSpeech: { language: 'de-DE' },
+        // Zwischenergebnisse (interim) deaktiviert: auf Android/Chrome werden sie
+        // teils nicht ersetzt, sondern an den bestehenden Text angehängt – das
+        // führt zu vervielfachtem/wiederholtem Text ("Ichichich möchteich…").
+        // Nur finale Segmente einfügen vermeidet das zuverlässig.
+        displayInterimResults: false,
+        submitAfterSilence: 2500,
+        commands: { stop: 'stopp', submit: 'absenden' },
+        textColor: { final: '#333333' },
+        button: { active: { container: { default: { backgroundColor: '#0b6b3a' } } } }
+      };
+      chat.htmlClassUtilities = {
+        'ri24-starter': {
+          events: { click: function (e) { chat.submitUserMessage({ text: e.target.textContent.trim() }); } },
+          styles: {
+            default: { display:'block', width:'100%', textAlign:'left', cursor:'pointer',
+              margin:'6px 0', padding:'10px 12px', borderRadius:'10px',
+              border:'1px solid #d7ddd9', backgroundColor:'#fff', color:'#0b6b3a', fontSize:'0.9rem' },
+            hover: { backgroundColor: '#f1f4f2' }
+          }
+        }
+      };
+      chat.introMessage = {
+        html:
+          '<div style="line-height:1.5"><b>👋 Willkommen!</b><br>' +
+          'Ich bin dein Immobilienassistent für dieses Exposé.' +
+          '<div style="margin-top:10px">' +
+            '<div class="ri24-starter">Was kann diese Immobilie mir bieten? 🏠</div>' +
+            '<div class="ri24-starter">Gibt es Schulen oder Supermärkte in der Nähe? 📍</div>' +
+            '<div class="ri24-starter">Wie hoch wäre meine monatliche Rate beim Kauf? 💰</div>' +
+            '<div class="ri24-starter">Wer ist der Ansprechpartner für diese Immobilie?</div>' +
+          '</div></div>'
+      };
+      });  // customElements.whenDefined('deep-chat')
+    })();
+  </script>
+</body>
+</html>

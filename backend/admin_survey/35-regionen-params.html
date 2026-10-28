@@ -1,0 +1,1506 @@
+<!DOCTYPE html><html lang="de"><head>
+        <script src="../../../../../adm/layout/js/jquery.min.js"></script>
+        <script src="../../../../../../ressource/js/ImageTools.js"></script>
+        
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+        <style>
+            .mce-tinymce {
+                margin-right: 10px !important;
+            }
+        </style>
+    <link rel="stylesheet" href="https://backend.regionalimmobilien24.de/adm/individuell/master/js/skins/lightgray/skin.min.css"></head>
+
+    <body>
+        <script>
+    $(document).ready(function() {
+                    // $('tr.form_inline input[type=submit]:not(.display)').css('height', '0');
+        $('tr.form_inline input:not([new]):not([type=submit]), tr.form_inline select:not([new]):not([type=submit]), tr.form_inline option:not([new]):not([type=submit]), tr.form_inline textarea:not([new]):not([type=submit])').each(function() {
+            console.log('changed');
+            // $(this).change(function() {
+            //     $(this).next('input[type=submit]').css('height', '20px');
+            // });
+            $(this).on('change keyup blur', function() {
+                if($(this).val() == $(this).attr('orig_val') || ($(this).attr('type') == 'checkbox' && $(this).prop('checked') == ($(this).attr('orig_val') == 'checked'))) {
+                // if($(this).val() == $(this).attr('orig_val')) {
+                    $(this).parents('td').first().children('input[type=submit]').remove();
+                } else {
+                    if($(this).parents('td').first().children('input[type=submit]').length == 0) {
+                        // $(this).parents('td').children().wrapAll('<form class="inline" action="?admsess=md2c1xa9cz" method="POST"></form>');
+                        // $(this).parents('td').children().wrapAll('<ajax_form class="inline" ajax_action="?admsess=md2c1xa9cz" method="AJAX"></ajax_form>');
+                        $(this).parents('td').first().append($('<input type="submit" value="">'));
+                    }
+                    console.log('SAVE needed');
+                        $(this).parents('td').first().children('input[type=submit]').unbind('click').on('click', function() {
+                            submitForm($(this).parents('td').first(), $(this).parents('td')[0].hasAttribute("reload"));
+                            });
+                        $(this).unbind('keypress').keypress(function(e) {
+                            if(e.which == 13) {
+                            submitForm($(this).parents('td').first(), $(this).parents('td')[0].hasAttribute("reload"));
+                            }
+                        });
+                }
+            });
+        });
+        checkTableSize();
+        // imageInit();
+    $(window).resize(function() {
+        checkTableSize();
+    });
+    $('a[href*=del_id]').click(function(e) {
+       if(!confirm('Wirklich löschen?')) {
+           e.preventDefault();
+           return false;
+       }
+    });
+    uniqueIdClick();
+});
+
+function uniqueIdClick() {
+    $('.unique_key').each(function() {
+         $(this).click(function() {
+             if($(this).attr('unique_output_name')) {
+            var values = {
+                'table' :   $(this).attr('unique_table'),
+                'length':   $(this).attr('unique_length'),
+                'field' :   $(this).attr('unique_field'),
+                'db'    :   $(this).attr('unique_db')
+            };  
+            var target_element = $(this).prev('[name=' + $(this).attr('unique_output_name') + ']');
+            $.ajax({
+                url: '../../../../../adm/individuell/PHP_PARTS/form_unique_key.php?admsess=md2c1xa9cz',
+                data: values,
+                type: 'POST',
+                    success: function(msg) {
+                        console.log(target_element);
+                        target_element.val(msg);
+                    }
+                }
+                );
+            }
+        });
+    });
+}
+
+function submitForm(element, reload) {
+    submitViaAjax(element);
+    element.children('input').each(function() {
+    if($(this).attr('type') == 'checkbox') {
+        if($(this).prop('checked')) {
+            $(this).attr('orig_val', 'checked');
+        } else {
+            $(this).attr('orig_val', '');
+        }
+    } else {
+        $(this).attr('orig_val', $(this).val());
+    }
+    });
+    if(reload) {
+        setTimeout(function(){ window.location = window.location.href; }, 350);
+    }
+}
+
+function submitViaAjax(element) {
+    values = element.children().serializeArray();
+    /* Because serializeArray() ignores unset checkboxes and radio buttons: */
+    values = values.concat(
+            element.find('input[type=checkbox]:not(:checked)').map(
+                function() {
+                    return {"name": this.name, "value": $(this).prop('checked')}
+                }).get()
+    );
+    $.ajax({
+        url: '../../../../../adm/individuell/PHP_PARTS/sites_mysql.php?admsess=md2c1xa9cz&regio=aai24',
+        data: values,
+        // dataType: "json",
+        type: 'POST',
+        success: function(msg) {
+            element.children('input[type=submit]').remove();
+        }
+    }
+    );
+}
+
+function checkTableSize() {
+    $('TR.form_inline').each(function() {
+            console.log($(this).width());
+            if($(this).height() > 45) {
+                $(this).parents('table').first().addClass('toobig');
+            } else {
+                // $(this).parents('table').first().removeClass('toobig');
+            }
+        });
+}
+
+    function replaceStr(str, find, replace) {
+        for (var i = 0; i < find.length; i++) {
+            str = str.replace(new RegExp(find[i], 'gi'), replace[i]);
+        }
+        return str;
+    }
+    </script>
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=md2c1xa9cz"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=md2c1xa9cz">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=md2c1xa9cz"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=md2c1xa9cz"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=md2c1xa9cz"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=md2c1xa9cz"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=md2c1xa9cz"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=md2c1xa9cz"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=md2c1xa9cz"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=md2c1xa9cz"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=md2c1xa9cz"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=md2c1xa9cz"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=md2c1xa9cz"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=md2c1xa9cz"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=md2c1xa9cz"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=md2c1xa9cz"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=md2c1xa9cz"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=md2c1xa9cz"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=md2c1xa9cz"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=md2c1xa9cz"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=md2c1xa9cz"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=md2c1xa9cz"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=md2c1xa9cz"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=md2c1xa9cz"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=md2c1xa9cz"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=md2c1xa9cz"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=md2c1xa9cz"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=md2c1xa9cz"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=md2c1xa9cz"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=md2c1xa9cz"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=md2c1xa9cz">.</li>
+    </ul>
+</div>            <div id="content">
+                <div id="content-header">
+                    <h1>Regionalimmobilien24 - Aachen-Eifel</h1>
+                </div>
+                <div id="breadcrumb">
+                    <a href="../../../../../adm/individuell/dashboard.php?admsess=md2c1xa9cz" title="" class="tip-bottom" data-original-title="zum Dashboard"><span class="icon"></span> Home</a>
+                    <a title="" href="../../../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz" class="current">alle Regionen</a>
+                    <a title="" href="../../../../../adm/individuell/regionen/edit/params/?admsess=md2c1xa9cz&amp;regio=aai24" class="current">Parameter - Regionalimmobilien24 - Aachen-Eifel</a>
+                </div>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <h2>Startseite</h2>
+                    </div>
+                    <div class="row-fluid">
+                        
+        <div class="span4">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Allgemein</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Android App Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="30" name="Region-APP-Android-Link" id="Region-APP-Android-Link" placeholder="https://play.google.com/store/apps/details?id=de.pitcom.ri24&amp;hl=de" value="https://play.google.com/store/apps/details?id=de.pitcom.ri24&amp;hl=de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-APP-Android-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Link zur Android App, z.B. https://bit.ly/VI24App</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Apple App Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="30" name="Region-APP-Apple-Link" id="Region-APP-Apple-Link" placeholder="https://apple.co/2LVzfwn" value="https://apple.co/2LVzfwn" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-APP-Apple-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Link zur Apple App, z.B. https://bit.ly/VI24App</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Facebook Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-APP-Facebook-Link" id="Region-APP-Facebook-Link" placeholder="https://www.facebook.com/Regionalimmobilien24/" value="https://www.facebook.com/Regionalimmobilien24/" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-APP-Facebook-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Link zu Facebook, z.B. https://www.facebook.com/Regionalimmobilien24/</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">"zum SPOT" - Video-ID (YT)</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="60" name="Region-YouTube-Link" id="Region-YouTube-Link" placeholder="45ucxJz7d2g" value="45ucxJz7d2g" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-YouTube-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>YouTube-Video-ID, z.B. https://youtu.be/<b>jIi95vQZWG8</b></small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">BaufiLead Partner-ID</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="30" name="Region-BaufiLead-Link" id="Region-BaufiLead-Link" placeholder="HazXvjrb3KbtVbkezbQJ735SCYNmTD" value="HazXvjrb3KbtVbkezbQJ735SCYNmTD" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-BaufiLead-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Partner-ID im Sinne: HazXvjrb3KbtVbkezbQJ735SCYNmTD</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Calendly-ID</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="30" name="Region-Calendly-Link" id="Region-Calendly-Link" placeholder="regionalimmobilien24/60min" value="regionalimmobilien24/60min" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Calendly-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>ID im Sinne: regionalimmobilien24/60min</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-Immoscout-Ignore">Immoscout-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-Immoscout-Ignore" value="0">
+                                            <input name="Region-Immoscout-Ignore" id="Region-Immoscout-Ignore" value="1" disabled="disabled" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-ImmobilienDe-Ignore">Immobilien.de-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-ImmobilienDe-Ignore" value="0">
+                                            <input name="Region-ImmobilienDe-Ignore" id="Region-ImmobilienDe-Ignore" value="1" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-ImmobilienWj-Ignore">wohnung-jetzt.de-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-ImmobilienWj-Ignore" value="0">
+                                            <input name="Region-ImmobilienWj-Ignore" id="Region-ImmobilienWj-Ignore" value="1" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-ImmobilienCM-Ignore">classmarkets-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-ImmobilienCM-Ignore" value="0">
+                                            <input name="Region-ImmobilienCM-Ignore" id="Region-ImmobilienCM-Ignore" value="1" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-ImmobilienIP-Ignore">Immobilienpool-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-ImmobilienIP-Ignore" value="0">
+                                            <input name="Region-ImmobilienIP-Ignore" id="Region-ImmobilienIP-Ignore" value="1" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-ImmobilienVP-Ignore">Versteigerungspool-Objekte ignorieren</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-ImmobilienVP-Ignore" value="0">
+                                            <input name="Region-ImmobilienVP-Ignore" id="Region-ImmobilienVP-Ignore" value="1" type="checkbox">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-inSitemap">Region in Sitemap aufführen</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-inSitemap" value="0">
+                                            <input name="Region-inSitemap" id="Region-inSitemap" value="1" type="checkbox" checked="checked">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-inSitemap-ImmoCity">ImmoCity-Links in Sitemap aufführen</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-inSitemap-ImmoCity" value="0">
+                                            <input name="Region-inSitemap-ImmoCity" id="Region-inSitemap-ImmoCity" value="1" type="checkbox" checked="checked">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-inBaufiSitemap">Baufiseiten in Sitemap aufführen</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-inBaufiSitemap" value="0">
+                                            <input name="Region-inBaufiSitemap" id="Region-inBaufiSitemap" value="1" type="checkbox" checked="checked">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <td class="control-group" colspan="2"><label class="control-label" for="Region-inSitemap-BaufiCity">BaufiCity-Links in Sitemap aufführen</label>
+                                        <div class="controls">
+                                            <input type="hidden" name="Region-inSitemap-BaufiCity" value="0">
+                                            <input name="Region-inSitemap-BaufiCity" id="Region-inSitemap-BaufiCity" value="1" type="checkbox" checked="checked">
+                                        </div>
+                                    </td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+                        <div class="span8">
+                            <div class="row-fluid" style="margin-top: 0;">
+                                <div class="span12">
+                                    <div class="row-fluid" style="margin-top: 0;">
+                                        
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>wichtige Texte</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Regions-Bezeichnung</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Bezeichnung" id="Region-Bezeichnung" placeholder="Aachen-Eifel" value="Aachen-Eifel" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Bezeichnung#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Bezeichnung der Regions, z.B. Vogtland, Elbeland, ...</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Logo Text</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Logo-Text" id="Region-Logo-Text" placeholder="Regionalimmobilien24 - Aachen-Eifel" value="Regionalimmobilien24 - Aachen-Eifel" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Logo-Text#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Mouseover Text des Logos, z.B. Regionalimmobilien24</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">"in Region"-Text</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="60" name="Region-in-Region-Text" id="Region-in-Region-Text" placeholder="im Raum Aachen-Eifel" value="im Raum Aachen-Eifel" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-in-Region-Text#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>im Regional, z.B. im Regional</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Portal Start Jahr</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="5" name="Region-Start-Jahr-Text" id="Region-Start-Jahr-Text" placeholder="2017" value="2017" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Start-Jahr-Text#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>2017</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Footer Text Portalbezeichnung</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Footer-PortalBezeichnung" id="Region-Footer-PortalBezeichnung" placeholder="Regionalimmobilien24 GmbH" value="Regionalimmobilien24 GmbH" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Footer-PortalBezeichnung#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Regionalimmobilien24 GmbH</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Footer Text "Ihr Portal"</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Footer-Text" id="Region-Footer-Text" placeholder="Dein regionales Immobilienportal" value="Dein regionales Immobilienportal" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Footer-Text#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Ihr regionales Immobilienportal für das Regional</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">E-Mail Absender</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Email-Absender" id="Region-Email-Absender" placeholder="info@regionalimmobilien24.de" value="info@regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Email-Absender#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>info@regionalimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Empfänger allgemeiner E-Mails</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Email-allgEmpfaenger" id="Region-Email-allgEmpfaenger" placeholder="info@regionalimmobilien24.de" value="info@regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Email-allgEmpfaenger#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>info@regionalimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><div class="span6">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Portal-Logo hochladen</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=imagesafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get/system_ri24/regions/aai24/24b9a941_Doppelvorlage-2023-klein.png/200x200">
+                                </div>
+                            </div><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="Region-Logo-Link">
+                                <input type="file" name="Region-Logo-Link" accept="image">
+                                <span class="help-block" for="Region-Logo-Link" generated="true"><small>(Bildhöhe 60px! Nur JPG und PNG)</small><br>Platzhalter: #Region-Logo-Link#</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input class="btn btn-primary pitsafe" type="submit" value="Hochladen">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><div class="span6">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Portal-Logo für Baufinanzierung hochladen</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=imagesafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <img alt="" src="https://bilder.regionalimmobilien24.de/get/system_ri24/regions/aai24/6f5fbb11_Doppellogo-Aachen-Prime.png/200x200">
+                                </div>
+                            </div><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="Region-Logo-Baufi">
+                                <input type="file" name="Region-Logo-Baufi" accept="image">
+                                <span class="help-block" for="Region-Logo-Baufi" generated="true"><small>(Bildhöhe 60px! Nur transparente PNG verwenden!)</small><br>Platzhalter: #Region-Logo-Baufi#</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input class="btn btn-primary pitsafe" type="submit" value="Hochladen">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="span12">
+                                        <div class="widget-box">
+                                            <div class="widget-title">
+                                                <span class="icon"></span>
+                                                <h5>Jobangebote Drittportale</h5>
+                                            </div>
+                                            <div class="widget-content nopadding">
+                                                <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data">
+                                                    <div class="control-group">
+                                                        <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;">
+                                                            <tbody><tr>
+                                                                <th style="width: 120px;">Portal</th>
+                                                                <td>
+                                                                    <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                                                                                                                                <select aria-label="" type="select" name="Region-Jobportal-Dritte" id="Region-Jobportal-Dritte" data-database="region__data" class="form_validation" required="">
+                                                                            <option value="">--- bitte wählten ---</option>
+                                                                                                                                                            <option value="0" selected="selected">keine Dritt-Jobportal</option>
+                                                                                                                                                            <option value="1">VogtlandJob.de</option>
+                                                                                                                                                    </select>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </div>
+                                                    <div class="form-actions">
+                                                        <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <h2>Baufinanzierung, Strom &amp; Gas</h2>
+                    </div>
+                    <div class="row-fluid">
+                        
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Baufi Opener-Box (nur Mail,Share-Link und Tel. wird benutzt)</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Facebook Share-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Baufi-Share-Facebook" id="Region-Baufi-Share-Facebook" placeholder="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" value="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Share-Facebook#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Mail Share-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Baufi-Share-Mail" id="Region-Baufi-Share-Mail" placeholder="mailto:?subject=Regionalimmobilien24.de" value="mailto:?subject=Regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Share-Mail#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>mailto:?subject=Regionalimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">GooglePlus Share-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Baufi-Share-GooglePlus" id="Region-Baufi-Share-GooglePlus" placeholder="https://plus.google.com/share?url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" value="https://plus.google.com/share?url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Share-GooglePlus#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>https://plus.google.com/share?url=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Twitter Share-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Baufi-Share-Twitter" id="Region-Baufi-Share-Twitter" placeholder=" https://twitter.com/intent/tweet?text=Ihre%20Baufinanzierung%20f%C3%BCr%20Plauen%20und%20das%20Vogtland%20-%20Top%20Beratung&amp;url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" value=" https://twitter.com/intent/tweet?text=Ihre%20Baufinanzierung%20f%C3%BCr%20Plauen%20und%20das%20Vogtland%20-%20Top%20Beratung&amp;url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Share-Twitter#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>https://twitter.com/intent/tweet?text=Ihre%20Baufinanzierung%20f%C3%BCr%20Plauen%20und%20das%20Regional%20-%20Top%20Beratung&amp;url=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Telefonnummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Baufi-Telefon" id="Region-Baufi-Telefon" placeholder="03741 164 - 2691" value="03741 164 - 2691" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Telefon#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>03741 164 - 2691</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Strom- und Gas-Links</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Strom Partner-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Strom-Partner-Link" id="Region-Strom-Partner-Link" placeholder="https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/strom.php" value="https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/strom.php" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Strom-Partner-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Link für i-Frame, z.B. https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/strom.php</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Gas Partner-Link</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Gas-Partner-Link" id="Region-Gas-Partner-Link" placeholder="https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/gas.php" value="https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/gas.php" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Gas-Partner-Link#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Link für i-Frame, z.B. https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/fas.php</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Ansprechpartner Baufinanzierung</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data">
+                                        <div class="control-group">
+                                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;">
+                                                <tbody><tr>
+                                                    <th style="width: 120px;">Immobilienfinanzierung</th>
+                                                    <td>
+                                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                                                                                                        <select aria-label="" type="select" name="Region-Baufi-Ansprechpartner" id="Region-Baufi-Ansprechpartner" data-database="region__data" class="form_validation">
+                                                                <option value="">--- keinen Ansprechpartner ---</option>
+                                                                                                                                    <option value="179">Lambert Adams (hoi24)</option>
+                                                                                                                                    <option value="177">Daniel Albert (bsi24)</option>
+                                                                                                                                    <option value="270">Wolfram Aller (wwi24)</option>
+                                                                                                                                    <option value="325">Guido Allmich (mi24)</option>
+                                                                                                                                    <option value="238">Zentrale Anfragenummer</option>
+                                                                                                                                    <option value="297">Christian Appel (ufi24)</option>
+                                                                                                                                    <option value="334">Jasmin Baruschke (brai24)</option>
+                                                                                                                                    <option value="295">Andreas Beitzen (koei24)</option>
+                                                                                                                                    <option value="88">Heldenhaft beraten werden (sbi24)</option>
+                                                                                                                                    <option value="294">Andreas Berndt (obi24)</option>
+                                                                                                                                    <option value="345">Jan Bollenbach (rhhi24)</option>
+                                                                                                                                    <option value="168">Michael Branetzki (nri24)</option>
+                                                                                                                                    <option value="320">Marcus Brinkwirth (lbi24)</option>
+                                                                                                                                    <option value="231">Michael Christ (roi24)</option>
+                                                                                                                                    <option value="344">Andreas Coutandin (rhhi24)</option>
+                                                                                                                                    <option value="342">Jan Philip de la Motte (mfi24)</option>
+                                                                                                                                    <option value="341">Christine de la Motte (mfi24)</option>
+                                                                                                                                    <option value="305">Kilian de Vries (wei24)</option>
+                                                                                                                                    <option value="102">Matthias Dickes (nsi24)</option>
+                                                                                                                                    <option value="79">Jan Doberenz (msi24)</option>
+                                                                                                                                    <option value="81">Moritz Doberenz (msi24)</option>
+                                                                                                                                    <option value="331">Hans-Dieter Döll (rhti24)</option>
+                                                                                                                                    <option value="309">Hubert Ebertseder (mi24)</option>
+                                                                                                                                    <option value="127">Jörg Edelbrock (mli24)</option>
+                                                                                                                                    <option value="243">Andreas Engelbrecht-Eichstädt (efi24)</option>
+                                                                                                                                    <option value="232">Tobias Erler (rski24)</option>
+                                                                                                                                    <option value="216">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="214">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="226">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="225">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="224">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="293">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="292">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="223">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="291">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="290">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="289">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="215">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="288">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="222">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="287">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="286">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="221">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="284">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="283">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="282">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="220">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="281">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="219">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="218">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="280">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="279">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="278">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="277">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="276">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="285">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="217">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="275">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="274">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="208">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="209">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="210">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="211">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="212">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="213">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="227">Demo Finanzierer (vi24)</option>
+                                                                                                                                    <option value="324">Clearing Forum</option>
+                                                                                                                                    <option value="304">Johannes Friedt (sti24)</option>
+                                                                                                                                    <option value="356">Benjamin Fuhr (bdi24)</option>
+                                                                                                                                    <option value="343">Patrick Funke (maii24)</option>
+                                                                                                                                    <option value="230">Oliver Gehrk (kiei24)</option>
+                                                                                                                                    <option value="351">Florian Gleißner (obi24)</option>
+                                                                                                                                    <option value="239">Yasmin Glombik</option>
+                                                                                                                                    <option value="350">Melanie Gmeiner (mi24)</option>
+                                                                                                                                    <option value="302">Thomas Grosshans (swwi24)</option>
+                                                                                                                                    <option value="89">Horst Grüger (reki24)</option>
+                                                                                                                                    <option value="347">Murat Güneser (saui24)</option>
+                                                                                                                                    <option value="116">Sven Harth (wpfi24)</option>
+                                                                                                                                    <option value="167">Nicole Hartig (mbi24)</option>
+                                                                                                                                    <option value="18">Claudia Hausdorf (li24)</option>
+                                                                                                                                    <option value="164">Sven Heinsohn (di24)</option>
+                                                                                                                                    <option value="103">Diana Helm (nsi24)</option>
+                                                                                                                                    <option value="338">Kevin Helms (tbi24)</option>
+                                                                                                                                    <option value="69">Susann Hennig</option>
+                                                                                                                                    <option value="27">Dominic Hoffmann (dai24)</option>
+                                                                                                                                    <option value="7">Wilfried Hoh (zi24)</option>
+                                                                                                                                    <option value="156">Gert Holdschick (zi24)</option>
+                                                                                                                                    <option value="123"> Immobilienanfragen</option>
+                                                                                                                                    <option value="109">Andreas Janz (swwi24)</option>
+                                                                                                                                    <option value="328">Katrin Johst-Mandel (bi24)</option>
+                                                                                                                                    <option value="330"> Julia</option>
+                                                                                                                                    <option value="298">Frank Kaesmacher (nri24)</option>
+                                                                                                                                    <option value="28">Birgit Keeß (dai24)</option>
+                                                                                                                                    <option value="333">Jörg Kintzel (hli24)</option>
+                                                                                                                                    <option value="306">Stephan Klammt (rhti24)</option>
+                                                                                                                                    <option value="355">Peter Klima (rgi24)</option>
+                                                                                                                                    <option value="329">Bernd Kreie (dui24)</option>
+                                                                                                                                    <option value="174">Jean-Claude Kühne (mfi24)</option>
+                                                                                                                                    <option value="326">Christiana Kurczyk (mi24)</option>
+                                                                                                                                    <option value="332">Niklas Lechner (mfi24)</option>
+                                                                                                                                    <option value="241">Johanna Leu</option>
+                                                                                                                                    <option value="307">Silvia Liebeskind (ci24)</option>
+                                                                                                                                    <option value="21">Frank Lohse (nsi24)</option>
+                                                                                                                                    <option value="271">Jürgen Lösch (rni24)</option>
+                                                                                                                                    <option value="155">Jörg Lübben (oli24)</option>
+                                                                                                                                    <option value="348">Uwe Madeja (hli24)</option>
+                                                                                                                                    <option value="100">Ewald Madl (opi24)</option>
+                                                                                                                                    <option value="153">Benjamin Mahlow</option>
+                                                                                                                                    <option value="19">Daniela May (li24)</option>
+                                                                                                                                    <option value="194">Martina Muster (vi24)</option>
+                                                                                                                                    <option value="80">Marie Nagel (msi24)</option>
+                                                                                                                                    <option value="308">Anton Neumeier (mi24)</option>
+                                                                                                                                    <option value="90">Thomas Nicolas (reki24)</option>
+                                                                                                                                    <option value="339">Lars Nitsche (rgi24)</option>
+                                                                                                                                    <option value="266">Matthias Pabst (othi24)</option>
+                                                                                                                                    <option value="335">Miroslav Papac (mi24)</option>
+                                                                                                                                    <option value="169">Pirathiphaan Pathmanathan (nri24)</option>
+                                                                                                                                    <option value="68">Apache PHP</option>
+                                                                                                                                    <option value="265">Tester Whitelabel Pitcom (vi24)</option>
+                                                                                                                                    <option value="57">Sindy Popp</option>
+                                                                                                                                    <option value="94">Sindy Popp</option>
+                                                                                                                                    <option value="296">Provisionsanfragen Qualitypool</option>
+                                                                                                                                    <option value="172">Nancy Radde (hai24)</option>
+                                                                                                                                    <option value="233">Dana Reibe (hi24)</option>
+                                                                                                                                    <option value="106">Peter Reuter (mfi24)</option>
+                                                                                                                                    <option value="352">Max Riesenberg (nsi24)</option>
+                                                                                                                                    <option value="17">Peggy Rodewald (li24)</option>
+                                                                                                                                    <option value="1">Lars Rupprecht (vi24)</option>
+                                                                                                                                    <option value="93">Stefanie Rupprecht</option>
+                                                                                                                                    <option value="56">Stefanie Rupprecht</option>
+                                                                                                                                    <option value="349">Tom Sander (swi24)</option>
+                                                                                                                                    <option value="171">Willi Schikora (hoi24)</option>
+                                                                                                                                    <option value="313">Christian Schmid (swwi24)</option>
+                                                                                                                                    <option value="16">Mike Schmidt (li24)</option>
+                                                                                                                                    <option value="311">Axel Scholz (swti24)</option>
+                                                                                                                                    <option value="303">Jürgen Schott (opi24)</option>
+                                                                                                                                    <option value="165">Karl-Heinz Schuh (obli24)</option>
+                                                                                                                                    <option value="119">Andreas Schulze (bi24)</option>
+                                                                                                                                    <option value="340">Daniel Schwan (gii24)</option>
+                                                                                                                                    <option value="269">Dirk Schwarz (fi24)</option>
+                                                                                                                                    <option value="323">William Schwaß (obi24)</option>
+                                                                                                                                    <option value="67">Java Script</option>
+                                                                                                                                    <option value="180">Steffen Simon (swti24)</option>
+                                                                                                                                    <option value="319">Christoph Soetebeer (lbi24)</option>
+                                                                                                                                    <option value="152">Marvin Staneck</option>
+                                                                                                                                    <option value="98">Thorsten Stehmann (obi24)</option>
+                                                                                                                                    <option value="121">André Stempel (nri24)</option>
+                                                                                                                                    <option value="318">Jürgen Stengel (sai24)</option>
+                                                                                                                                    <option value="336">Philipp Steppohn</option>
+                                                                                                                                    <option value="4">Philipp Steppohn (vi24)</option>
+                                                                                                                                    <option value="163">Jan Sterzik (di24)</option>
+                                                                                                                                    <option value="299">Marc Stoll (mli24)</option>
+                                                                                                                                    <option value="237">Harald Strobel (rpi24)</option>
+                                                                                                                                    <option value="64">Alexander Stumm</option>
+                                                                                                                                    <option value="346">Ronni Swatek (umi24)</option>
+                                                                                                                                    <option value="63"> Technikhotline</option>
+                                                                                                                                    <option value="316">Patrick Thier (vi24)</option>
+                                                                                                                                    <option value="354">Oliver Thier (hhi24)</option>
+                                                                                                                                    <option value="162">Daniel Tönges (di24)</option>
+                                                                                                                                    <option value="125">Sören Uhlig (erzi24)</option>
+                                                                                                                                    <option value="45">Rainer Veigel (erzi24)</option>
+                                                                                                                                    <option value="62"> Vertragshotline</option>
+                                                                                                                                    <option value="35">Claudia Volke-Herrmann (ddi24)</option>
+                                                                                                                                    <option value="312">Mariana Cecilia Wehrhahn (obi24)</option>
+                                                                                                                                    <option value="240">Lukas Weinmann</option>
+                                                                                                                                    <option value="353">Ron Westphal (hoi24)</option>
+                                                                                                                                    <option value="272">Oliver Wewering (rgi24)</option>
+                                                                                                                                    <option value="170">Thomas Zenker (mbi24)</option>
+                                                                                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </div>
+                                        <div class="form-actions">
+                                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Adresse Baufinanzierung (auf Baufi-Seiten)</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Firma</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Baufi-Adresse-Firma" id="Region-Baufi-Adresse-Firma" placeholder="Regionalimmobilien24 powered by AixCuror Finanzdienstleistungen GmbH" value="Regionalimmobilien24 powered by AixCuror Finanzdienstleistungen GmbH" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Firma#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Regionalimmobilien24 GmbH</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Straße und Hausnummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Baufi-Adresse-Strasse_Hausnummer" id="Region-Baufi-Adresse-Strasse_Hausnummer" placeholder="Bobenden 52" value="Bobenden 52" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Strasse_Hausnummer#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Kirchstraße 2</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Postleitzahl und Ort</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Baufi-Adresse-PLZ_Ort" id="Region-Baufi-Adresse-PLZ_Ort" placeholder="53078 Aachen" value="53078 Aachen" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-PLZ_Ort#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>08523 Plauen</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Telefonnummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Baufi-Adresse-Telefon" id="Region-Baufi-Adresse-Telefon" placeholder="0241 - 997 444 45" value="0241 - 997 444 45" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Telefon#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>+49 3741 164 - 2691</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Telefax</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="254" name="Region-Baufi-Adresse-Telefax" id="Region-Baufi-Adresse-Telefax" placeholder="" value="" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Telefax#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>+49 3741 164 - 6065</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">E-Mail unter Kontakt</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="254" name="Region-Baufi-Adresse-Mail" id="Region-Baufi-Adresse-Mail" placeholder="michael.deserno(at)regionalimmobilien24.de" value="michael.deserno(at)regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Mail#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>info(at)vogtlandimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Link zum Portal</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Baufi-Adresse-Web" id="Region-Baufi-Adresse-Web" placeholder="www.regionalimmobilien24.de/aachen-eifel/" value="www.regionalimmobilien24.de/aachen-eifel/" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Baufi-Adresse-Web#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>www.regionalimmobilien24.de/vogtland/</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>                    </div>
+                    <div class="row-fluid">
+                        <h2>Impressum</h2>
+                    </div>
+                    <div class="row-fluid">
+                        
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Adresse</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Firma</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="200" name="Region-Adresse-Firma" id="Region-Adresse-Firma" placeholder="Regionalimmobilien24 GmbH" value="Regionalimmobilien24 GmbH" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Firma#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Regionalimmobilien24 GmbH</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Straße und Hausnummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Adresse-Strasse_Hausnummer" id="Region-Adresse-Strasse_Hausnummer" placeholder="Kirchstraße 2" value="Kirchstraße 2" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Strasse_Hausnummer#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Kirchstraße 2</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Postleitzahl und Ort</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Adresse-PLZ_Ort" id="Region-Adresse-PLZ_Ort" placeholder="08523 Plauen" value="08523 Plauen" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-PLZ_Ort#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>08523 Plauen</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Telefonnummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Adresse-Telefon" id="Region-Adresse-Telefon" placeholder="+49 3741 384 - 7602" value="+49 3741 384 - 7602" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Telefon#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>+49 3741 164 - 2691</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Telefax</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="254" name="Region-Adresse-Telefax" id="Region-Adresse-Telefax" placeholder="+49 3741 164 - 6065" value="+49 3741 164 - 6065" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Telefax#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>+49 3741 164 - 6065</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">E-Mail unter Kontakt</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="254" name="Region-Adresse-Mail" id="Region-Adresse-Mail" placeholder="info(at)regionalimmobilien24.de" value="info(at)regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Mail#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>info(at)vogtlandimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Link zum Portal</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Adresse-Web" id="Region-Adresse-Web" placeholder="www.regionalimmobilien24.de" value="www.regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Adresse-Web#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>www.regionalimmobilien24.de/vogtland/</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="span6">
+        <div class="widget-box">
+        <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Impressum</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Geschäftsführer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Impressum-GF" id="Region-Impressum-GF" placeholder="Lars Rupprecht" value="Lars Rupprecht" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-GF#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Lars Rupprecht</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Steuernummer</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="20" name="Region-Impressum-StNr" id="Region-Impressum-StNr" placeholder="223/117/03793" value="223/117/03793" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-StNr#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>223/117/03793</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Umsatzsteuer-ID</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="20" name="Region-Impressum-UStID" id="Region-Impressum-UStID" placeholder="DE312029492" value="DE312029492" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-UStID#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>DE301361490</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Handelsregistereintrag</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Impressum-HRB" id="Region-Impressum-HRB" placeholder="HRB 31032 Amtsgericht Chemnitz" value="HRB 31032 Amtsgericht Chemnitz" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-HRB#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>HRB 29727 Amtsgericht Chemnitz</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Sitz</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="50" name="Region-Impressum-Sitz" id="Region-Impressum-Sitz" placeholder="Plauen" value="Plauen" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-Sitz#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>Plauen</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">E-Mail im Impressum</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="254" name="Region-Impressum-Mail" id="Region-Impressum-Mail" placeholder="info(at)regionalimmobilien24.de" value="info(at)regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-Mail#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>info(at)vogtlandimmobilien24.de</small></td>
+                                </tr></tbody></table>
+                        </div><div class="control-group">
+                            <table style="border-collapse: separate; border-spacing: 10px 0;width: 100%;"><tbody><tr>
+                                    <th style="width: 120px;">Link zu Firma</th>
+                                    <td>
+                                        <div class="controls" style="width: 100%;margin: 0;padding: 2px;">
+                                            <input maxlength="100" name="Region-Impressum-Web" id="Region-Impressum-Web" placeholder="www.regionalimmobilien24.de" value="www.regionalimmobilien24.de" class="form_validation" type="text" data-database="adm__user" style="width: 98% !important;">
+                                        </div>
+                                    </td>
+                                </tr><tr>
+                                    <th>Platzhalter</th>
+                                    <td>#Region-Impressum-Web#</td>
+                                </tr><tr>
+                                <th>Beispiel / Hinweis</th>
+                                <td><small>www.finanz-concept.net</small></td>
+                                </tr></tbody></table>
+                        </div>    <div class="form-actions">
+                            <input type="submit" value="Speichern" class="btn btn-primary pitsafe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Öffnungszeiten</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" enctype="multipart/form-data" method="post">
+                                        <div class="control-group">
+                                            <label class="control-label" for="Region-Oeffnungszeiten"><strong>Text</strong></label>
+                                            <div class="controls">
+                                                <textarea maxlength="10000" name="Region-Oeffnungszeiten" id="Region-Oeffnungszeiten" class="form_validation" data-val="simplenohtml" data-database="region__data" required="required" style="display: none;"></textarea>
+                                                <div id="mceu_10" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px;"><div id="mceu_10-body" class="mce-container-body mce-stack-layout"><div id="mceu_11" class="mce-toolbar-grp mce-container mce-panel mce-first mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="display: none;"><div id="mceu_11-body" class="mce-container-body mce-stack-layout"><div id="mceu_12" class="mce-container mce-toolbar mce-first mce-last mce-stack-layout-item" role="toolbar"><div id="mceu_12-body" class="mce-container-body mce-flow-layout"><div id="mceu_13" class="mce-container mce-first mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_13-body"><div id="mceu_0" class="mce-widget mce-btn mce-first mce-disabled" tabindex="-1" aria-labelledby="mceu_0" role="button" aria-label="Undo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-undo"></i></button></div><div id="mceu_1" class="mce-widget mce-btn mce-last mce-disabled" tabindex="-1" aria-labelledby="mceu_1" role="button" aria-label="Redo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-redo"></i></button></div></div></div><div id="mceu_14" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_14-body"><div id="mceu_2" class="mce-widget mce-btn mce-first" tabindex="-1" aria-labelledby="mceu_2" role="button" aria-label="Bold"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mceu_3" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_3" role="button" aria-label="Italic"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div><div id="mceu_4" class="mce-widget mce-btn mce-last" tabindex="-1" aria-labelledby="mceu_4" role="button" aria-label="Underline"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-underline"></i></button></div></div></div><div id="mceu_15" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_15-body"><div id="mceu_5" class="mce-widget mce-btn mce-first" tabindex="-1" aria-labelledby="mceu_5" role="button" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_6" class="mce-widget mce-btn mce-last" tabindex="-1" aria-labelledby="mceu_6" role="button" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div></div></div><div id="mceu_16" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_16-body"><div id="mceu_7" class="mce-widget mce-btn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_7" role="button" aria-label="Insert/edit link"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-link"></i></button></div></div></div><div id="mceu_17" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_17-body"><div id="mceu_8" class="mce-widget mce-btn mce-menubtn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_8" role="button" aria-label="Table" aria-haspopup="true"><button id="mceu_8-open" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-table"></i><span></span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_18" class="mce-container mce-last mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_18-body"><div id="mceu_9" class="mce-widget mce-btn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_9" role="button" aria-label="Source code"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-code"></i></button></div></div></div></div></div></div></div><div id="mceu_19" class="mce-edit-area mce-container mce-panel mce-last mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><iframe id="Region-Oeffnungszeiten_tiny_ifr" src="javascript:&quot;&quot;" frameborder="0" allowtransparency="true" title="Rich-Text- Area. Drücken Sie ALT-F9 für das Menü. Drücken Sie ALT-F10 für Symbolleiste. Drücken Sie ALT-0 für Hilfe" style="width: 100%; height: 190px; display: block;"></iframe></div></div></div><textarea aria-label="" rows="10" name="Region-Oeffnungszeiten_tiny" id="Region-Oeffnungszeiten_tiny" class="tiny" aria-hidden="true" style="display: none;"></textarea>
+                                                <div class="form-actions">
+                                                    <span class="btn btn-primary pitsafetiny">Speichern</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="pitsafeformtiny" action="?admsess=md2c1xa9cz&amp;do=inputtsafe&amp;regio=aai24" method="post" enctype="multipart/form-data"></form>
+                    <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>                </div>
+            </div>
+            
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>    <script type="text/javascript" src="../../../../../ressource/js/function4tiny.js"></script>
+    <script type="text/javascript" src="../../../../../adm/individuell/master/js/tinymce.min.js"></script>
+    <script type="text/javascript">
+        let pasttext = 'HALLO';
+        let Region_Oeffnungszeiten = tinymce.init({
+            selector: "#Region-Oeffnungszeiten_tiny",
+            toolbar1: "undo redo | bold italic underline | bullist numlist | link | table | code",
+            language: 'de',
+            plugins: ["code,table,link,paste"],
+            table_toolbar: 'tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+            fullpage_hide_in_source_view: true,
+            menubar: false,
+            statusbar: false,
+            toolbar_item_size: "small",
+
+            theme_advanced_buttons3_add: "pastetext,pasteword,selectall",
+            paste_auto_cleanup_on_paste: true,
+            paste_as_text: true,
+            paste_preprocess: function (pl, o) {
+                pasttext = o.content;
+            },
+            paste_postprocess: function (pl, o) {
+                if (pasttext !== o.node.innerHTML) {
+                    alert('Der einzufügende Content enthält Formatierungen. Diese werden automatisch bereinigt.');
+                }
+            },
+
+
+            setup: function (theEditor) {
+                theEditor.on('focus', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").show();
+                });
+                theEditor.on('blur', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    $('#Region-Oeffnungszeiten').val(transcode4tiny((tinyMCE.get('Region-Oeffnungszeiten_tiny').getContent()), 'out'));
+                });
+                theEditor.on("init", function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    tinyMCE.get('Region-Oeffnungszeiten_tiny').setContent(transcode4tiny($('#Region-Oeffnungszeiten').val(), 'in'));
+                });
+            }
+        });
+    </script>
+    
+
+    
+
+</body></html>

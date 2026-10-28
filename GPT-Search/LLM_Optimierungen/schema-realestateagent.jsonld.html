@@ -1,0 +1,136 @@
+<!--
+  JSON-LD Structured Data fuer regionalimmobilien24.de
+  Einbau: dieses <script>-Tag in den <head> der STARTSEITE einfuegen.
+  Platzhalter <BITTE EINTRAGEN> vor dem Live-Gang ersetzen.
+  Validieren mit: https://validator.schema.org/ und https://search.google.com/test/rich-results
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://www.regionalimmobilien24.de/#organization",
+      "name": "Regionalimmobilien24 GmbH",
+      "alternateName": "Regionalimmobilien24",
+      "url": "https://www.regionalimmobilien24.de",
+      "email": "info@regionalimmobilien24.de",
+      "telephone": "+49 3741 7196696",
+      "description": "Bundesweit taetiges Immobilienportal und Anbieter von Immobilienfinanzierungsberatung mit Sitz in Plauen.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kirchstraße 2",
+        "postalCode": "08523",
+        "addressLocality": "Plauen",
+        "addressRegion": "Sachsen",
+        "addressCountry": "DE"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Deutschland"
+      },
+      "knowsAbout": [
+        "Immobilien",
+        "Immobilienvermittlung",
+        "Immobilienfinanzierung",
+        "Baufinanzierung",
+        "Anschlussfinanzierung"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/Regionalimmobilien24/",
+        "https://www.instagram.com/Regionalimmobilien24/",
+        "https://www.pinterest.de/regionalimmobilien24/"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "HRB",
+        "value": "31032"
+      },
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Immobilienportal",
+            "description": "Onlineportal fuer Immobilienangebote zum Kauf und zur Miete, bundesweit.",
+            "areaServed": { "@type": "Country", "name": "Deutschland" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Immobilienfinanzierungsberatung",
+            "description": "Beratung zur Immobilienfinanzierung (Baufinanzierung, Anschlussfinanzierung, Kapitalanlage), bundesweit.",
+            "areaServed": { "@type": "Country", "name": "Deutschland" }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.regionalimmobilien24.de/#website",
+      "url": "https://www.regionalimmobilien24.de",
+      "name": "Regionalimmobilien24",
+      "publisher": { "@id": "https://www.regionalimmobilien24.de/#organization" },
+      "inLanguage": "de",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.regionalimmobilien24.de/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
+
+<!--
+  ============================================================
+  ZUSATZ: FAQPage-Schema — auf die FAQ-Seite einbauen
+  (nur dort, wo die Fragen auch sichtbar auf der Seite stehen!)
+  ============================================================
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.regionalimmobilien24.de/faq/#faqpage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Was ist Regionalimmobilien24?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Regionalimmobilien24 GmbH ist ein bundesweit taetiges Immobilienportal und ein Anbieter von Immobilienfinanzierungsberatung mit Sitz in Plauen (Kirchstraße 2, 08523 Plauen)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In welchen Regionen ist Regionalimmobilien24 taetig?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sowohl das Immobilienportal als auch die Immobilienfinanzierungsberatung werden deutschlandweit angeboten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Leistungen bietet Regionalimmobilien24 an?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regionalimmobilien24 bietet ein Immobilienportal fuer Angebote zum Kauf und zur Miete sowie eine Immobilienfinanzierungsberatung (u. a. Baufinanzierung, Anschlussfinanzierung, Finanzierung von Kapitalanlagen)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wo hat Regionalimmobilien24 seinen Sitz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der Firmensitz ist Kirchstraße 2, 08523 Plauen, Deutschland."
+      }
+    }
+  ]
+}
+</script>

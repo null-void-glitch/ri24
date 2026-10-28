@@ -1,0 +1,2754 @@
+{
+  "metadata": {
+    "title": "Wissensbasis Baufinanzierung",
+    "description": "Strukturierte Wissensbasis für einen deutschsprachigen Chatbot zu Grundlagen, Planung und Kreditformen der Baufinanzierung.",
+    "language": "de-DE",
+    "version": "1.4",
+    "created_at": "2026-07-27",
+    "source": {
+      "publisher": "Stiftung Warentest",
+      "article_title": "Grundwissen Baufinanzierung: Vom Konzept zum Baukredit",
+      "url": "https://www.test.de/Baufinanzierung-die-wichtigsten-Kredite-5332040-0/",
+      "published_at": "2018-09-10",
+      "content_basis": "Zusammenfassung und Strukturierung des verlinkten Artikels; keine vollständige Wiedergabe."
+    },
+    "validity_notice": [
+      "Zinsen, Förderprogramme, Einkommensgrenzen, Kredithöchstbeträge, steuerliche Regeln und Anbieterbedingungen sind zeitabhängig.",
+      "Der Chatbot darf historische Zahlen aus dem Artikel nicht als aktuelle Konditionen darstellen.",
+      "Vor einer konkreten Finanzierungsentscheidung sind aktuelle Angaben bei Banken, Förderinstituten und offiziellen Stellen zu prüfen.",
+      "Prozentangaben zu Eigenkapital, Tilgung oder maximaler Kreditrate sind nur Orientierungswerte. Entscheidend sind Haushaltsrechnung, Objekt, Zinssatz, Laufzeit, persönliche Risiken und die Kriterien des jeweiligen Kreditgebers.",
+      "Rechtliche Hinweise geben nur den allgemeinen Stand der genannten Norm wieder und ersetzen keine Prüfung des konkreten Vertrags oder Einzelfalls.",
+      "Die praktische Einordnung eines Vorhabens als privat, gewerblich oder teilgewerblich ist nicht automatisch mit der rechtlichen Einordnung als Verbraucher- oder Unternehmergeschäft identisch.",
+      "Bei vermieteten, betrieblich genutzten oder gemischt genutzten Immobilien müssen Rechtsform, Finanzierungszweck, Nutzungsanteile und Umfang der wirtschaftlichen Tätigkeit im Einzelfall geprüft werden.",
+      "Angaben zu typischen Kaufnebenkosten, Sondertilgungsquoten, Zinsbindungen, Tilgungssätzen oder Einkommensquoten sind keine festen Markt- oder Bankstandards.",
+      "Eine Finanzierungsbestätigung kann vorläufig, bedingt oder unverbindlich sein. Nur der konkrete Wortlaut und die erfüllten Bedingungen zeigen, ob eine Bank bereits verbindlich zugesagt hat.",
+      "Nicht jedes im Preisverzeichnis oder Angebot genannte Bankentgelt ist im konkreten Fall automatisch zulässig. Vertragsklauseln und aktuelle Rechtsprechung sind zu prüfen.",
+      "Versicherungen zur Absicherung einer Finanzierung sind nach individuellem Bedarf, bestehendem Schutz, Leistungsausschlüssen und Kosten zu beurteilen; sie sind nicht pauschal Voraussetzung einer Baufinanzierung.",
+      "Online-Rechner liefern Szenarien und Orientierungswerte. Sie ersetzen weder eine Kreditwürdigkeitsprüfung noch ein verbindliches, objektbezogenes Angebot.",
+      "Aktuelle Bau- und Hypothekenzinsen dürfen nur mit Datum, Quelle, Zinsbindung, Beleihungsauslauf und weiteren Annahmen genannt werden.",
+      "Pauschale Nebenkostenquoten sind fehleranfällig. Kauf- und Baunebenkosten sind positionsweise zu erfassen und unterscheiden sich deutlich nach Vorhaben.",
+      "Aussagen zur steuerlichen Absetzbarkeit von Schuldzinsen bei Vermietung sind einzelfallabhängig und ersetzen keine Steuerberatung.",
+      "Die Förderprogramme und Programmbeträge auf kommerziellen Ratgeberseiten können veraltet sein. Maßgeblich sind die aktuellen offiziellen Förderbedingungen."
+    ],
+    "updated_at": "2026-07-28",
+    "additional_sources": [
+      {
+        "publisher": "Baufi24",
+        "article_title": "Baufinanzierung einfach erklärt",
+        "url": "https://www.baufi24.de/baufinanzierung-einfach-erklaert/",
+        "updated_at": "2026-04-30",
+        "source_type": "Kommerzieller Finanzierungsvermittler",
+        "content_basis": "Ergänzende Grundlagen zu Nebenkosten, Grundschuld, Bonitätsprüfung, Vollfinanzierung, variablem Darlehen und dem Ablauf einer Immobilienfinanzierung.",
+        "usage_note": "Anbieterbezogene Aussagen und Faustregeln werden nicht als allgemeingültige Bankanforderungen oder unabhängige Produktempfehlungen dargestellt."
+      },
+      {
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "article_title": "§ 489 BGB – Ordentliches Kündigungsrecht des Darlehensnehmers",
+        "url": "https://www.gesetze-im-internet.de/bgb/__489.html",
+        "source_type": "Amtliche Rechtsquelle",
+        "content_basis": "Präzisierung der gesetzlichen Kündigungsfristen für fest und variabel verzinste Darlehen."
+      },
+      {
+        "publisher": "Verbraucherzentrale",
+        "article_title": "Immobilienfinanzierung: Modelle, Eigenkapital und Risiken",
+        "url": "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/bau-und-immobilienfinanzierung/immobilienfinanzierung-diese-modelle-gibt-es-und-das-sollten-sie-beachten-5801",
+        "source_type": "Unabhängige Verbraucherinformation",
+        "content_basis": "Einordnung von Eigenkapital-Faustregeln und der Bedeutung eines verständlichen Finanzierungsmodells."
+      },
+      {
+        "publisher": "Interhyp",
+        "article_title": "Immobilienfinanzierung privat oder gewerblich",
+        "url": "https://www.interhyp.de/baufinanzierung/privat-oder-gewerblich/",
+        "published_at": "2020-10-01",
+        "source_type": "Kommerzieller Finanzierungsvermittler",
+        "content_basis": "Abgrenzung privater und gewerblicher Immobilienfinanzierungen, gewerblicher Wohnimmobilien, Gewerbeimmobilien und gemischt genutzter Objekte.",
+        "usage_note": "Die Seite beschreibt eine praktische Marktklassifizierung. Die rechtliche Verbraucher- oder Unternehmereigenschaft muss separat geprüft werden."
+      },
+      {
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "article_title": "§§ 13, 14 und 491 BGB",
+        "url": "https://www.gesetze-im-internet.de/bgb/",
+        "source_type": "Amtliche Rechtsquelle",
+        "content_basis": "Rechtliche Begriffe Verbraucher und Unternehmer sowie Definition des Immobiliar-Verbraucherdarlehensvertrags."
+      },
+      {
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "article_title": "§§ 491a, 505a und 505b BGB",
+        "url": "https://www.gesetze-im-internet.de/bgb/",
+        "source_type": "Amtliche Rechtsquelle",
+        "content_basis": "Vorvertragliche Informationen und Grundlagen der Kreditwürdigkeitsprüfung bei Immobiliar-Verbraucherdarlehen."
+      },
+      {
+        "publisher": "Wohnglück.de / Impleco GmbH",
+        "article_title": "Baufinanzierung einfach erklärt – Schritt für Schritt",
+        "url": "https://wohnglueck.de/artikel/baufinanzierung-einfach-erklaert",
+        "accessed_at": "2026-07-27",
+        "publication_date_status": "Auf der ausgelesenen Artikelseite war kein eindeutiges Veröffentlichungs- oder Aktualisierungsdatum ausgewiesen.",
+        "source_type": "Kommerzielles Immobilien- und Finanzierungsportal",
+        "content_basis": "Ergänzende Informationen zu Objektprüfung, Bonitätsvorbereitung, Finanzierungsbestätigung, Kaufpreisfälligkeit, weiteren Finanzierungskosten, Rücklagen und persönlicher Risikoabsicherung.",
+        "usage_note": "Anbieterbezogene Aussagen und Prozentangaben werden nur als unverbindliche Orientierung übernommen. Produktwerbung und Abschlussaufforderungen werden nicht übernommen."
+      },
+      {
+        "publisher": "Bundesnotarkammer / Notar.de",
+        "article_title": "Fälligkeit des Kaufpreises",
+        "url": "https://www.notar.de/themen/immobilien/kaufpreisfaelligkeit",
+        "accessed_at": "2026-07-27",
+        "source_type": "Notarielle Fachinformation",
+        "content_basis": "Präzisierung, dass der Kaufpreis regelmäßig erst nach Eintritt der vertraglichen Fälligkeitsvoraussetzungen und entsprechender Mitteilung zu zahlen ist."
+      },
+      {
+        "publisher": "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit",
+        "article_title": "Häufig gestellte Fragen zu Auskunfteien",
+        "url": "https://www.bfdi.bund.de/DE/Buerger/Inhalte/Allgemein/Auskunfteien/FAQ-Auskunfteien.html",
+        "accessed_at": "2026-07-27",
+        "source_type": "Behördliche Datenschutzinformation",
+        "content_basis": "Rechte auf Auskunft und Berichtigung bei Auskunfteien sowie Empfehlung, gespeicherte Daten bei Zweifeln an ihrer Richtigkeit zu kontrollieren."
+      },
+      {
+        "publisher": "Verbraucherzentrale",
+        "article_title": "Gebühren bei Darlehen: Welche Bankentgelte unzulässig sind",
+        "url": "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/gebuehren-bei-darlehen-welche-bankentgelte-unzulaessig-sind-10382",
+        "accessed_at": "2026-07-27",
+        "source_type": "Unabhängige Verbraucherinformation",
+        "content_basis": "Einordnung möglicher Darlehenskosten und Hinweis, dass nicht jedes verlangte Bankentgelt rechtlich zulässig ist."
+      },
+      {
+        "publisher": "Verbraucherzentrale",
+        "article_title": "Restschuldversicherungen sind teuer und leisten nur wenig",
+        "url": "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/restschuldversicherungen-sind-teuer-und-leisten-nur-wenig-32448",
+        "accessed_at": "2026-07-27",
+        "source_type": "Unabhängige Verbraucherinformation",
+        "content_basis": "Einordnung der Restschuldversicherung und Hinweis auf eine getrennte, bedarfsgerechte Prüfung der Absicherung von Todesfall und Arbeitskraft."
+      },
+      {
+        "publisher": "Finanztip",
+        "article_title": "Finanzierungsbestätigung der Bank für eine Immobilie",
+        "url": "https://www.finanztip.de/baufinanzierung/finanzierungsbestaetigung/",
+        "accessed_at": "2026-07-27",
+        "source_type": "Verbraucherorientierte Finanzinformation",
+        "content_basis": "Unterscheidung zwischen vorläufiger beziehungsweise unverbindlicher Finanzierungsbestätigung und verbindlicher Finanzierungszusage."
+      },
+      {
+        "publisher": "Regionalimmobilien24 GmbH",
+        "article_title": "Themenbereich Baufinanzierung, Rechner und Finanzierungswissen",
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/",
+        "accessed_at": "2026-07-28",
+        "source_type": "Kommerzielles Immobilien- und Baufinanzierungsportal",
+        "urls_reviewed": [
+          "https://www.regionalimmobilien24.de/baufinanzierung/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/baufinanzierung-rechner/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/budgetrechner/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/konditionsrechner/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/annuitaetendarlehen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/mieten-oder-kaufen-rechner/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/nebenkostenrechner/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/zinszahlungsdarlehen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/variables-darlehen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/bauspardarlehen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/baukredit/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/anschlussfinanzierung/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/hauskauf-finanzierung/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/immobilie-finanzieren/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/hausfinanzierung/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/baugeld/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/hauskredit/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/foerderung/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/bauzinsen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/aktuelle-hypothekenzinsen/",
+          "https://www.regionalimmobilien24.de/baufinanzierung/faq-haeufige-fragen/"
+        ],
+        "duplicate_urls_removed": [
+          "https://www.regionalimmobilien24.de/baufinanzierung/baukredit/"
+        ],
+        "content_basis": "Rechnerlogiken, Darlehensarten, Budget- und Nebenkostenplanung, Mieten-oder-Kaufen-Vergleich, Anschlussfinanzierung, Förderworkflow sowie Einflussfaktoren auf Bau- und Hypothekenzinsen.",
+        "retrieval_note": "Einige kanonische Seiten waren technisch nicht direkt abrufbar. Für diese Themen wurden inhaltlich übereinstimmende, indexierte Regionalvarianten derselben Website verwendet. Die zentrale FAQ-Seite war nicht eigenständig abrufbar; FAQ-Inhalte aus den übrigen Seiten wurden berücksichtigt.",
+        "usage_note": "Werbeaussagen, konkrete Anbieterzahlen, Zinsprognosen und zeitabhängige Förderbeträge wurden nicht als neutrales oder dauerhaft gültiges Wissen übernommen."
+      },
+      {
+        "publisher": "Bundesministerium der Justiz / Bundesamt für Justiz",
+        "article_title": "§ 493 BGB – Informationen während des Darlehensvertrags",
+        "url": "https://www.gesetze-im-internet.de/bgb/__493.html",
+        "accessed_at": "2026-07-28",
+        "source_type": "Amtliche Rechtsquelle",
+        "content_basis": "Präzisierung der Informationspflicht des Kreditgebers vor Ende der Sollzinsbindung oder des Verbraucherdarlehensvertrags."
+      },
+      {
+        "publisher": "KfW",
+        "article_title": "KfW-Wohneigentumsprogramm 124 – Antrag und Ablauf",
+        "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/Finanzierungsangebote/Wohneigentumsprogramm-%28124%29/",
+        "accessed_at": "2026-07-28",
+        "source_type": "Offizielle Förderinformation",
+        "content_basis": "Bestätigung des Hausbankprinzips, der Antragstellung vor Vorhabensbeginn und der grundsätzlichen Kombinierbarkeit mit weiteren Förderprodukten."
+      },
+      {
+        "publisher": "Deutsche Bundesbank",
+        "article_title": "Wohnungsbaukredite und Zinsstruktur für Pfandbriefe",
+        "url": "https://www.bundesbank.de/de/statistiken/geld-und-kapitalmaerkte/zinssaetze-und-renditen/wohnungsbaukredite-an-private-haushalte-hypothekarkredite-auf-wohngrundstuecke-615036",
+        "accessed_at": "2026-07-28",
+        "source_type": "Offizielle Statistikquelle",
+        "content_basis": "Aktuelle Zeitreihen für Wohnungsbaukredite; Grundlage für die Regel, aktuelle Zinsangaben nur datiert und aus verlässlichen Quellen auszugeben."
+      }
+    ]
+  },
+  "scope": {
+    "covered_topics": [
+      "Vorbereitung einer Baufinanzierung",
+      "Finanzierungsplanung und langfristige Tragbarkeit",
+      "Eigenkapital und Beleihungsauslauf",
+      "Fördermittel",
+      "Annuitätendarlehen",
+      "Volltilgerdarlehen",
+      "Bauspar-Kombikredite",
+      "KfW- und Länderförderdarlehen",
+      "Riester-Darlehen",
+      "Forward-Darlehen",
+      "Bausparverträge",
+      "Einbindung vorhandener Spar- und Versicherungsverträge",
+      "Unterlagen für die Kreditprüfung",
+      "Prüfung eines Finanzierungsplans",
+      "Kauf- und Finanzierungsnebenkosten",
+      "Grundschuld und Kreditsicherheiten",
+      "Bonitäts- und Kreditwürdigkeitsprüfung",
+      "Vollfinanzierung",
+      "Variables Darlehen",
+      "Ablauf von Finanzierungszusage, Notartermin, Grundschuldbestellung und Auszahlung",
+      "Gesetzliche Kündigungsrechte bei Darlehen",
+      "Private Immobilienfinanzierung",
+      "Gewerbliche Wohnimmobilienfinanzierung",
+      "Finanzierung von Gewerbeimmobilien",
+      "Teil- und gemischt genutzte Immobilien",
+      "Abgrenzung von Verbraucher- und Unternehmerfinanzierung",
+      "Ertragsorientierte Risikoprüfung",
+      "Abgrenzung Baufinanzierung und frei verwendbarer Ratenkredit",
+      "SCHUFA- und Auskunfteiendaten vor Kreditantrag prüfen",
+      "Finanzierungsbestätigung und Finanzierungszusage",
+      "Objektprüfung vor Finanzierungsabschluss",
+      "Fälligkeitsmitteilung beim Immobilienkauf",
+      "Bereitstellungszinsen und weitere mögliche Finanzierungskosten",
+      "Rücklagen nach dem Immobilienerwerb",
+      "Persönliche Risikoabsicherung der Baufinanzierung",
+      "Rechnerlogik für Baufinanzierung, Budget und Konditionen",
+      "Mieten-oder-Kaufen-Vergleich",
+      "Tilgungsdarlehen",
+      "Zinszahlungsdarlehen und endfälliges Darlehen",
+      "Prolongation, Umschuldung und Anschlussfinanzierung",
+      "Einflussfaktoren auf Bau- und Hypothekenzinsen",
+      "Kauf- und Baunebenkosten getrennt erfassen",
+      "Förderanträge nach dem Hausbankprinzip",
+      "Begriffliche Einordnung von Baukredit, Baugeld und Hauskredit"
+    ],
+    "not_covered": [
+      "Aktuelle Bauzinsen oder konkrete Anbieterangebote",
+      "Individuelle Kreditentscheidung",
+      "Rechts-, Steuer- oder Anlageberatung",
+      "Verbindliche Förderfähigkeitsprüfung",
+      "Bewertung einer konkreten Immobilie"
+    ]
+  },
+  "core_principles": [
+    {
+      "id": "financing_concept_before_rate",
+      "title": "Finanzierungskonzept vor Zinssatz",
+      "summary": "Ein tragfähiger Gesamtplan ist wichtiger als ein isoliert niedriger Sollzins.",
+      "details": [
+        "Kreditbedarf, dauerhaft leistbare Monatsrate und gewünschter Entschuldungszeitpunkt müssen vor dem Angebotsvergleich feststehen.",
+        "Alle Kreditbausteine, Nebenkosten und späteren Anschlussrisiken sind gemeinsam zu betrachten.",
+        "Ein günstiger Einzelkredit kann zu einer ungeeigneten Gesamtfinanzierung führen."
+      ]
+    },
+    {
+      "id": "funding_first",
+      "title": "Fördermöglichkeiten früh prüfen",
+      "summary": "Öffentliche Förderdarlehen und Zuschüsse sollten vor Abschluss der Hauptfinanzierung recherchiert werden.",
+      "details": [
+        "Förderungen können von Bund, Ländern, Gemeinden oder Förderbanken stammen.",
+        "Programme können an Eigennutzung, Energieeffizienz, Einkommen, Familienstand oder technische Standards gebunden sein.",
+        "Anträge müssen häufig vor Beginn des Vorhabens oder vor Vertragsabschluss gestellt werden."
+      ]
+    },
+    {
+      "id": "affordability",
+      "title": "Monatsbelastung dauerhaft tragbar planen",
+      "summary": "Die Rate muss nicht nur heute, sondern auch bei veränderten Lebensumständen und nach der Zinsbindung bezahlbar bleiben.",
+      "details": [
+        "Ausreichende Reserven für Instandhaltung, unerwartete Ausgaben und Einkommensschwankungen einplanen.",
+        "Eine zu niedrige Tilgung verlängert die Laufzeit und erhöht die gesamten Zinskosten.",
+        "Die vollständige Entschuldung sollte grundsätzlich spätestens bis zum Renteneintritt realistisch sein."
+      ]
+    },
+    {
+      "id": "interest_risk",
+      "title": "Zinsänderungsrisiko sichtbar machen",
+      "summary": "Finanzierungspläne sollten auch ein deutlich höheres Zinsniveau nach Ende der ersten Zinsbindung simulieren.",
+      "details": [
+        "Kurze Zinsbindungen können bei hoher Restschuld ein erhebliches Anschlussrisiko erzeugen.",
+        "Eine längere Zinsbindung erhöht die Planungssicherheit, kann aber einen höheren Zinssatz oder geringere Flexibilität bedeuten.",
+        "Entscheidend ist die erwartete Restschuld zum Ende der Zinsbindung."
+      ]
+    },
+    {
+      "id": "flexibility",
+      "title": "Flexibilität vertraglich sichern",
+      "summary": "Sondertilgungen und Tilgungssatzwechsel können die Finanzierung an veränderte Einkommen anpassen.",
+      "details": [
+        "Gewünschte Flexibilitätsrechte müssen ausdrücklich im Kreditvertrag stehen.",
+        "Mehr Flexibilität kann mit einem Zinsaufschlag oder anderen Einschränkungen verbunden sein.",
+        "Bei Volltilger- und Kombimodellen ist die Flexibilität häufig geringer."
+      ]
+    },
+    {
+      "id": "total_costs_not_purchase_price",
+      "title": "Gesamtkosten statt nur Kaufpreis betrachten",
+      "summary": "Der Finanzierungsbedarf ergibt sich nicht allein aus dem Kaufpreis, sondern aus Kaufpreis, Nebenkosten und weiteren objektbezogenen Ausgaben.",
+      "details": [
+        "Typische Kaufnebenkosten sind Grunderwerbsteuer, Notar- und Grundbuchkosten sowie gegebenenfalls Maklerkosten.",
+        "Bei Bau- und Modernisierungsvorhaben kommen unter anderem Planung, Genehmigungen, Außenanlagen, Ausstattung und Reserven hinzu.",
+        "Eine Finanzierungslücke entsteht häufig dadurch, dass Nebenkosten oder Zusatzarbeiten zu niedrig angesetzt werden."
+      ]
+    },
+    {
+      "id": "separate_values",
+      "title": "Kaufpreis, Verkehrswert und Beleihungswert unterscheiden",
+      "summary": "Der vereinbarte Kaufpreis, der aktuelle Marktwert und der vorsichtig ermittelte Beleihungswert der Bank können voneinander abweichen.",
+      "details": [
+        "Der Verkehrswert beschreibt den voraussichtlich am Markt erzielbaren Preis.",
+        "Der Beleihungswert dient der Bank als langfristig vorsichtige Sicherheitenbewertung.",
+        "Ein Kaufpreis oberhalb der bankseitigen Bewertung kann den Eigenkapitalbedarf und die Finanzierungskosten erhöhen."
+      ]
+    },
+    {
+      "id": "approval_before_commitment",
+      "title": "Finanzierung vor rechtlich bindenden Verpflichtungen absichern",
+      "summary": "Vor Unterzeichnung eines notariellen Kaufvertrags sollte die Finanzierung belastbar geklärt und die Finanzierungszusage sorgfältig geprüft sein.",
+      "details": [
+        "Eine bloße Vorprüfung oder mündliche Aussage ist nicht mit einer endgültigen Darlehenszusage gleichzusetzen.",
+        "Auszahlungsbedingungen und noch einzureichende Unterlagen müssen bekannt sein.",
+        "Notartermin, Darlehensvertrag, Grundschuldbestellung und Auszahlung sind zeitlich aufeinander abzustimmen."
+      ]
+    },
+    {
+      "id": "classify_financing_context",
+      "title": "Nutzungs- und Finanzierungskontext zuerst klären",
+      "summary": "Vor einem Produktvergleich muss geklärt werden, ob die Immobilie privat, zur Vermietung, betrieblich oder gemischt genutzt wird.",
+      "details": [
+        "Die Nutzung beeinflusst geeignete Kreditgeber, Risikoprüfung, Unterlagen und Konditionen.",
+        "Bei Mischobjekten sind private und gewerbliche Flächenanteile sowie die zugehörigen Einnahmen getrennt zu erfassen.",
+        "Eigentümer, Darlehensnehmer und tatsächlicher wirtschaftlicher Nutzer können unterschiedliche Personen oder Rechtsträger sein."
+      ]
+    },
+    {
+      "id": "commercial_financing_is_cashflow_driven",
+      "title": "Bei gewerblichen Vorhaben zählt die Ertragskraft",
+      "summary": "Neben Bonität und Objektwert rücken bei gewerblichen Finanzierungen die nachhaltig erzielbaren Einnahmen und betrieblichen Risiken in den Mittelpunkt.",
+      "details": [
+        "Miet- oder Betriebserträge müssen Zins, Tilgung, Bewirtschaftung und Risikopuffer tragen können.",
+        "Kurze oder mittlere Mietvertragslaufzeiten können die Prognose zukünftiger Erträge erschweren.",
+        "Leerstand, Mieterbonität, Branchenrisiko und alternative Nutzbarkeit können die Bewertung beeinflussen."
+      ]
+    },
+    {
+      "id": "commercial_terms_are_individual",
+      "title": "Gewerbliche Konditionen sind häufiger Einzelfalllösungen",
+      "summary": "Gewerbliche Finanzierungen betreffen oft höhere Beträge und individuellere Risiken; Konditionen und Sicherheiten werden daher häufiger projektspezifisch vereinbart.",
+      "details": [
+        "Nicht jeder Kreditgeber finanziert jede Nutzungsart oder Unternehmensstruktur.",
+        "Bei komplexen Gewerbeobjekten können spezialisierte Kreditgeber erforderlich sein.",
+        "Ein Konditionsvergleich muss neben dem Zinssatz auch Covenants, Sicherheiten, Laufzeiten und Nachweispflichten berücksichtigen."
+      ]
+    },
+    {
+      "id": "check_property_before_final_financing",
+      "title": "Objekt und Folgekosten vor Abschluss prüfen",
+      "summary": "Die Finanzierung muss nicht nur zum Kaufpreis, sondern auch zum Zustand und zum langfristigen Kostenprofil der Immobilie passen.",
+      "details": [
+        "Lage, Marktwert und Marktgängigkeit beeinflussen die bankseitige Bewertung.",
+        "Zustand, Energieeffizienz und Sanierungsbedarf können erhebliche Zusatzinvestitionen auslösen.",
+        "Erkannte Modernisierungen müssen in Gesamtkosten, Darlehensbedarf und Reserve einfließen.",
+        "Eine günstige Rate gleicht einen zu hohen Kaufpreis oder unterschätzten Sanierungsbedarf nicht aus."
+      ]
+    },
+    {
+      "id": "verify_credit_bureau_data",
+      "title": "Auskunfteiendaten rechtzeitig kontrollieren",
+      "summary": "Vor dem Kreditantrag kann eine Selbstauskunft helfen, unrichtige oder veraltete Angaben frühzeitig zu erkennen und berichtigen zu lassen.",
+      "details": [
+        "Betroffene haben nach Artikel 15 DSGVO grundsätzlich ein Auskunftsrecht.",
+        "Unrichtige personenbezogene Daten können nach Artikel 16 DSGVO berichtigt werden.",
+        "Eine Prüfung verbessert nicht automatisch den Score und garantiert keine Kreditzusage.",
+        "Der Chatbot darf keine Anleitung zur Verschleierung berechtigter Verbindlichkeiten geben."
+      ]
+    },
+    {
+      "id": "distinguish_financing_confirmation",
+      "title": "Finanzierungsbestätigung genau einordnen",
+      "summary": "Eine Bescheinigung über den möglichen Finanzierungsrahmen ist nicht zwingend gleichbedeutend mit einer endgültigen, objektbezogenen Kreditzusage.",
+      "details": [
+        "Vorläufige Bestätigungen stehen häufig unter Bonitäts-, Objekt- oder Unterlagenvorbehalt.",
+        "Zu prüfen sind Betrag, Objektbezug, Gültigkeitsdauer, Bedingungen und ausdrückliche Vorbehalte.",
+        "Vor einem bindenden Kaufvertrag sollte geklärt sein, ob die Bank das konkrete Objekt und alle Unterlagen abschließend akzeptiert hat."
+      ]
+    },
+    {
+      "id": "maintain_reserves_after_purchase",
+      "title": "Rücklagen auch nach dem Kauf fortführen",
+      "summary": "Nach Auszahlung und Übergabe endet die Finanzplanung nicht. Instandhaltung und unerwartete Ausgaben müssen weiter finanziert werden können.",
+      "details": [
+        "Nicht das gesamte liquide Vermögen als Eigenkapital einsetzen.",
+        "Regelmäßig Rücklagen für Reparaturen und Ersatzinvestitionen bilden.",
+        "Sondertilgungen nur leisten, wenn der notwendige Liquiditätspuffer erhalten bleibt.",
+        "Anschlussfinanzierung und Zinsbindungsende frühzeitig überwachen."
+      ]
+    },
+    {
+      "id": "calculators_are_scenarios",
+      "title": "Rechner sind Szenarien, keine Angebote",
+      "summary": "Finanzierungs-, Budget- und Konditionsrechner eignen sich zum Vergleichen von Annahmen, bilden aber die individuelle Bankprüfung nicht vollständig ab.",
+      "details": [
+        "Eingabewerte, Berechnungsmethode und Rundungen müssen transparent sein.",
+        "Ergebnisse sollten stets mit mindestens einem Stressszenario verglichen werden.",
+        "Ein angezeigter Zinssatz ist ohne Objekt- und Bonitätsprüfung nicht verbindlich."
+      ]
+    },
+    {
+      "id": "compare_same_conditions",
+      "title": "Nur Angebote mit gleichen Eckdaten vergleichen",
+      "summary": "Ein sinnvoller Zinsvergleich setzt gleiche Darlehenssumme, Auszahlung, Zinsbindung, Tilgung, Sondertilgung und Objektannahmen voraus.",
+      "details": [
+        "Der effektive Jahreszins ist für den Preisvergleich meist geeigneter als der Sollzins allein.",
+        "Restschuld, Gesamtkosten und Flexibilitätsrechte bleiben zusätzlich zu vergleichen.",
+        "Unterschiedliche Bereitstellungszeiten oder Auszahlungskurse können den Vergleich verzerren."
+      ]
+    },
+    {
+      "id": "itemize_purchase_and_building_costs",
+      "title": "Kaufnebenkosten und Baunebenkosten trennen",
+      "summary": "Beim Kauf entstehen andere Zusatzkosten als beim Neubau. Beide Kostenblöcke dürfen nicht in einer pauschalen Quote verschwinden.",
+      "details": [
+        "Kaufnebenkosten betreffen insbesondere Steuer, Notar, Grundbuch und gegebenenfalls Makler.",
+        "Baunebenkosten betreffen Planung, Genehmigung, Grundstück, Erschließung, Baustelle, Versicherungen und Außenanlagen.",
+        "Baubeschreibung, Architektenvertrag und Leistungsverzeichnis zeigen, welche Positionen bereits enthalten sind."
+      ]
+    },
+    {
+      "id": "plan_follow_on_financing_early",
+      "title": "Anschlussfinanzierung früh als eigenen Prozess planen",
+      "summary": "Das Ende der Sollzinsbindung ist eine Gelegenheit, Zinssatz, Tilgung, Laufzeit und Flexibilität neu zu gestalten.",
+      "details": [
+        "Prolongation, Umschuldung und Teilrückzahlung sind getrennt zu vergleichen.",
+        "Ein Forward-Darlehen tauscht Planungssicherheit gegen einen möglichen Zinsaufschlag und Abnahmebindung.",
+        "Die Hausbank muss bei Verbraucherdarlehen rechtzeitig informieren, aber nicht automatisch das beste Marktangebot liefern."
+      ]
+    }
+  ],
+  "recommended_process": [
+    {
+      "step": 1,
+      "name": "Gesamtkosten bestimmen",
+      "actions": [
+        "Kaufpreis oder Baukosten erfassen.",
+        "Kauf- und Finanzierungsnebenkosten ergänzen.",
+        "Modernisierung, Ausstattung, Außenanlagen und Reserve berücksichtigen."
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Eigenkapital und vorhandene Verträge erfassen",
+      "actions": [
+        "Liquide Mittel und Sicherheitsreserve trennen.",
+        "Sparverträge, Bausparverträge und Versicherungen prüfen.",
+        "Klären, ob Verträge sofort eingesetzt, später zur Teiltilgung genutzt oder als Sicherheit abgetreten werden sollen."
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Fördermittel prüfen",
+      "actions": [
+        "Programme des Bundes, der Länder, der Gemeinden und zuständiger Förderbanken recherchieren.",
+        "Antragsfristen, Einkommensgrenzen, technische Anforderungen und Kombinationsmöglichkeiten prüfen."
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Tragbare Rate festlegen",
+      "actions": [
+        "Haushaltsüberschuss konservativ berechnen.",
+        "Instandhaltung, Rücklagen und Lebenshaltung berücksichtigen.",
+        "Puffer für Zinsanstieg und Einkommensänderungen einplanen."
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Klare Angebotsvorgaben formulieren",
+      "actions": [
+        "Benötigte Kreditsumme nennen.",
+        "Maximale Monatsrate festlegen.",
+        "Gewünschte Zinsbindung und spätesten Entschuldungszeitpunkt angeben.",
+        "Sondertilgungen und Tilgungssatzwechsel anfordern."
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Mehrere Angebote vergleichen",
+      "actions": [
+        "Effektivzins, Gesamtkosten, Restschuld und Flexibilität vergleichen.",
+        "Förderbausteine und Bankdarlehen als Gesamtpaket betrachten.",
+        "Für jeden Baustein ein standardisiertes Informationsblatt verlangen."
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Vollständigen Finanzierungsplan prüfen",
+      "actions": [
+        "Belastung und Restschuld bis zur vollständigen Entschuldung darstellen lassen.",
+        "Anschlussfinanzierung mit einem höheren Zinsszenario simulieren.",
+        "Belastungssprünge und Abweichungen von mündlichen Absprachen identifizieren."
+      ]
+    }
+  ],
+  "loan_types": [
+    {
+      "id": "annuity_loan",
+      "name": "Annuitätendarlehen",
+      "definition": "Langfristiges Darlehen mit während der Zinsbindung grundsätzlich gleichbleibender Rate aus Zins und Tilgung.",
+      "mechanism": [
+        "Mit jeder Rate sinkt die Restschuld.",
+        "Der Zinsanteil nimmt im Zeitverlauf ab.",
+        "Bei gleichbleibender Rate steigt dadurch der Tilgungsanteil."
+      ],
+      "advantages": [
+        "Planbare Monatsrate während der Zinsbindung.",
+        "Kein Zinsänderungsrisiko innerhalb der vereinbarten Zinsbindung.",
+        "Große Auswahl an Laufzeiten, Tilgungssätzen und optionalen Flexibilitätsrechten."
+      ],
+      "disadvantages": [
+        "Bei verbleibender Restschuld ist eine Anschlussfinanzierung erforderlich.",
+        "Kurze Zinsbindung und hohe Restschuld erhöhen das spätere Zinsrisiko.",
+        "Eine geringe Anfangstilgung kann zu einer sehr langen Gesamtlaufzeit führen."
+      ],
+      "suitable_for": [
+        "Kreditnehmende, die eine kalkulierbare Rate und eine individuell gestaltbare Standardfinanzierung suchen."
+      ],
+      "questions_to_ask": [
+        "Wie hoch ist die Restschuld am Ende der Zinsbindung?",
+        "Sind Sondertilgungen möglich?",
+        "Kann der Tilgungssatz geändert werden?",
+        "Welche Rate ergäbe sich bei einem höheren Anschlusszins?"
+      ]
+    },
+    {
+      "id": "full_repayment_loan",
+      "name": "Volltilgerdarlehen",
+      "definition": "Annuitätendarlehen, das innerhalb der vereinbarten Zinsbindung vollständig zurückgezahlt wird.",
+      "advantages": [
+        "Keine Anschlussfinanzierung erforderlich.",
+        "Zins- und Ratenplanung bis zur vollständigen Entschuldung.",
+        "Teilweise bieten Kreditgeber Konditionsvorteile."
+      ],
+      "disadvantages": [
+        "Meist hohe Monatsrate durch schnelle Tilgung.",
+        "Sondertilgungen oder Ratenänderungen können eingeschränkt sein.",
+        "Sehr lange Volltilgerlaufzeiten werden nicht von allen Kreditgebern angeboten."
+      ],
+      "suitable_for": [
+        "Haushalte mit stabil hohem Einkommen, die maximale Planungssicherheit wünschen und die höhere Rate tragen können."
+      ]
+    },
+    {
+      "id": "building_savings_combination_loan",
+      "name": "Bauspar-Kombikredit",
+      "definition": "Kombination aus einem zunächst meist tilgungsfreien Vorausdarlehen und einem parallel besparten Bausparvertrag.",
+      "mechanism": [
+        "Für das Vorausdarlehen werden zunächst Zinsen gezahlt.",
+        "Parallel fließen Sparraten in den Bausparvertrag.",
+        "Nach Zuteilung werden Vorausdarlehen, Bausparguthaben und Bauspardarlehen miteinander verrechnet."
+      ],
+      "advantages": [
+        "Bei durchgängiger Zinsfestschreibung hohe langfristige Planungssicherheit.",
+        "Nach Zuteilung sind beim Bauspardarlehen häufig flexible Sondertilgungen möglich.",
+        "Je nach Ausgestaltung kann eine Förderung eingebunden werden."
+      ],
+      "disadvantages": [
+        "Komplexer als ein klassisches Annuitätendarlehen.",
+        "Abschlussgebühren und niedrige Guthabenverzinsung können die Kosten erhöhen.",
+        "Der Zuteilungszeitpunkt ist grundsätzlich nicht garantiert.",
+        "Endet die Zinsbindung des Vorausdarlehens vor der Zuteilung, entsteht ein erhebliches Zinsrisiko.",
+        "Vor Zuteilung ist die Rückzahlung häufig wenig flexibel."
+      ],
+      "suitable_for": [
+        "Kreditnehmende mit sehr hohem Wunsch nach langfristig festen Belastungen, sofern Zinsbindung und Zuteilungsplanung belastbar zusammenpassen."
+      ]
+    },
+    {
+      "id": "public_development_loan",
+      "name": "Förderdarlehen, zum Beispiel KfW-Darlehen",
+      "definition": "Öffentlich gefördertes Darlehen für Kauf, Bau, Modernisierung oder energiebezogene Maßnahmen.",
+      "advantages": [
+        "Je nach Programm vergünstigte Zinsen.",
+        "Mögliche Tilgungszuschüsse oder weitere Fördervorteile.",
+        "Kann die Bankfinanzierung ergänzen."
+      ],
+      "disadvantages": [
+        "Programme und Konditionen ändern sich.",
+        "Technische, persönliche oder zeitliche Voraussetzungen können gelten.",
+        "Sondertilgungen und Zinsbindungen können eingeschränkt sein.",
+        "Nach Ablauf der Zinsbindung kann eine Anschlussfinanzierung erforderlich werden."
+      ],
+      "suitable_for": [
+        "Vorhaben, die die jeweils aktuellen Förderbedingungen erfüllen."
+      ],
+      "current_data_required": true
+    },
+    {
+      "id": "state_support",
+      "name": "Länder- und kommunale Förderung",
+      "definition": "Zinsgünstige oder zinslose Darlehen und Zuschüsse regionaler Förderstellen.",
+      "advantages": [
+        "Teilweise besonders günstige Konditionen.",
+        "Kann von Banken unter bestimmten Bedingungen als Eigenkapitalersatz anerkannt werden.",
+        "Mehrere Förderbausteine können teilweise kombiniert werden."
+      ],
+      "disadvantages": [
+        "Kein allgemeiner Rechtsanspruch.",
+        "Bedingungen unterscheiden sich regional.",
+        "Häufig gelten Einkommensgrenzen oder familienbezogene Voraussetzungen.",
+        "Bearbeitungszeiten können lang sein."
+      ],
+      "current_data_required": true
+    },
+    {
+      "id": "riester_loan",
+      "name": "Riester-Darlehen beziehungsweise Wohn-Riester",
+      "definition": "Geförderte Finanzierung einer selbst genutzten Immobilie, je nach Produkt als Annuitäten-, Bauspar- oder Kombimodell.",
+      "advantages": [
+        "Zulagen und mögliche steuerliche Vorteile unterstützen die Tilgung.",
+        "Eine schnellere Tilgung kann Zinskosten reduzieren."
+      ],
+      "disadvantages": [
+        "Komplexe Förder- und Besteuerungsregeln.",
+        "Begrenzte Anbieterauswahl.",
+        "Geförderte Beträge können im Alter steuerlich relevant werden.",
+        "Ein gefördertes Angebot ist nicht automatisch günstiger als ein ungefördertes Darlehen."
+      ],
+      "current_data_required": true
+    },
+    {
+      "id": "forward_loan",
+      "name": "Forward-Darlehen",
+      "definition": "Im Voraus vereinbarte Anschlussfinanzierung, deren Auszahlung erst zu einem späteren Zeitpunkt beginnt.",
+      "advantages": [
+        "Frühzeitige Zins- und Planungssicherheit.",
+        "Kann vorteilhaft sein, wenn die Marktzinsen bis zum Anschlusszeitpunkt deutlich steigen."
+      ],
+      "disadvantages": [
+        "Üblicherweise Zinsaufschlag für die Vorlaufzeit.",
+        "Abnahmeverpflichtung auch dann, wenn die Marktzinsen später sinken.",
+        "Kreditsumme und Rate müssen früh festgelegt werden."
+      ],
+      "suitable_for": [
+        "Kreditnehmende, deren Zinsbindung in absehbarer Zeit endet und die ein steigendes Zinsniveau absichern möchten."
+      ]
+    },
+    {
+      "id": "building_savings_contract",
+      "name": "Bausparvertrag",
+      "definition": "Kombination aus Sparvertrag und später möglichem Bauspardarlehen.",
+      "advantages": [
+        "Der Darlehenszins wird grundsätzlich bei Vertragsabschluss festgelegt.",
+        "Kann für kleinere oder nachrangig besicherte Finanzierungsbedarfe interessant sein.",
+        "Je nach persönlicher Situation können Förderungen möglich sein."
+      ],
+      "disadvantages": [
+        "Niedrige Guthabenverzinsung in der Sparphase möglich.",
+        "Abschluss- und Kontogebühren.",
+        "Zuteilungstermin nicht garantiert.",
+        "Das Bauspardarlehen muss gegenüber einem Bankdarlehen auf Gesamtkosten geprüft werden."
+      ],
+      "phases": [
+        "Ansparphase bis zum erforderlichen Mindestguthaben und weiteren Zuteilungsvoraussetzungen",
+        "Zuteilungsphase mit Wahl zwischen Guthabenauszahlung und Darlehensnutzung",
+        "Darlehensphase mit Rückzahlung des Bauspardarlehens"
+      ],
+      "basic_relation": "Bauspardarlehen grundsätzlich = Bausparsumme - angespartes Bausparguthaben",
+      "additional_considerations": [
+        "Bewertungszahl und Zuteilungsbedingungen",
+        "Abschluss- und laufende Vertragskosten",
+        "Wohnwirtschaftliche Zweckbindung",
+        "Hohe Spar- und Tilgungsleistung im Verhältnis zur Bausparsumme",
+        "Mögliche nachrangige Besicherung"
+      ]
+    },
+    {
+      "id": "full_financing",
+      "name": "Vollfinanzierung",
+      "definition": "Finanzierung mit keinem oder nur geringem Eigenkapitaleinsatz. Bei einer 100-Prozent-Finanzierung wird typischerweise der Kaufpreis finanziert; bei einer Finanzierung oberhalb von 100 Prozent zusätzlich ein Teil oder alle Nebenkosten.",
+      "advantages": [
+        "Immobilienerwerb kann trotz geringer liquider Eigenmittel möglich werden.",
+        "Vorhandenes Vermögen kann teilweise als Reserve erhalten bleiben."
+      ],
+      "disadvantages": [
+        "Häufig höherer Sollzins und strengere Kreditprüfung.",
+        "Höhere Darlehenssumme, Rate und Gesamtzinskosten.",
+        "Erhöhtes Risiko, dass bei einem frühen Verkauf der Erlös nicht zur vollständigen Rückzahlung reicht.",
+        "Geringerer Puffer bei Wertverlusten oder unerwarteten Zusatzkosten."
+      ],
+      "suitable_for": [
+        "Einzelfälle mit sehr guter, stabiler Bonität und werthaltiger Immobilie, wenn die höhere Belastung konservativ tragbar ist."
+      ],
+      "chatbot_warning": "Nicht als Standardlösung empfehlen. Sicherheitsreserve, Nebenkosten, Verkaufsrisiko und höhere Finanzierungskosten ausdrücklich thematisieren."
+    },
+    {
+      "id": "variable_rate_loan",
+      "name": "Variables Darlehen",
+      "definition": "Darlehen mit veränderlichem Sollzins, der in vereinbarten Intervallen an einen Referenz- oder Marktzins angepasst wird.",
+      "advantages": [
+        "Kann für kurze Zwischenfinanzierungen flexibel sein.",
+        "Sinkende Marktzinsen können die laufende Verzinsung reduzieren.",
+        "Nach § 489 Absatz 2 BGB kann ein Darlehen mit veränderlichem Zinssatz unter Einhaltung einer Frist von drei Monaten gekündigt werden."
+      ],
+      "disadvantages": [
+        "Steigende Zinsen können die Rate oder Zinsbelastung kurzfristig erhöhen.",
+        "Geringere Planungssicherheit als bei langfristiger Sollzinsbindung.",
+        "Für eine langfristige Hauptfinanzierung entsteht ein erhebliches Zinsänderungsrisiko.",
+        "Referenzzins, Bankmarge und Anpassungsmechanismus müssen im Vertrag nachvollziehbar sein.",
+        "Eine Umwandlung in ein Festzinsdarlehen ist nicht automatisch gesetzlich garantiert."
+      ],
+      "suitable_for": [
+        "Kurzfristige oder klar begrenzte Zwischenfinanzierungen mit ausreichendem finanziellen Puffer."
+      ],
+      "current_data_required": true,
+      "reference_rate_mechanism": "Der Sollzins kann vertraglich an einen Referenzzins wie den EURIBOR zuzüglich einer Bankmarge gekoppelt sein und in festgelegten Intervallen angepasst werden.",
+      "possible_variant": {
+        "name": "Cap-Darlehen",
+        "description": "Variables Darlehen mit vertraglicher Zinsobergrenze. Der Schutz vor stark steigenden Zinsen kann mit einem Aufpreis verbunden sein.",
+        "warning": "Ausgestaltung, Anpassungsrhythmus und Cap-Kosten sind vertragsabhängig."
+      }
+    },
+    {
+      "id": "constant_principal_loan",
+      "name": "Tilgungsdarlehen",
+      "definition": "Darlehen mit konstantem Tilgungsbetrag. Die Zinsen werden auf die sinkende Restschuld berechnet, sodass die Gesamtrate im Zeitverlauf fällt.",
+      "mechanism": [
+        "Tilgungsbetrag bleibt je Zahlungsperiode gleich.",
+        "Zinsanteil sinkt mit der Restschuld.",
+        "Anfangsrate ist höher als die spätere Rate."
+      ],
+      "advantages": [
+        "Planmäßig gleichmäßiger Schuldenabbau.",
+        "Sinkende laufende Rate.",
+        "Geringere Restschuld entsteht frühzeitig."
+      ],
+      "disadvantages": [
+        "Höhere Anfangsbelastung als bei einem vergleichbaren Annuitätendarlehen möglich.",
+        "Am Markt für private Baufinanzierungen weniger verbreitet.",
+        "Flexibilität und Sondertilgung sind vertragsabhängig."
+      ],
+      "suitable_for": [
+        "Haushalte, die eine höhere Anfangsrate tragen können und später sinkende Belastungen wünschen."
+      ]
+    },
+    {
+      "id": "interest_only_bullet_loan",
+      "name": "Zinszahlungsdarlehen beziehungsweise endfälliges Darlehen",
+      "definition": "Darlehen, bei dem während der Laufzeit grundsätzlich nur Zinsen gezahlt und die gesamte Darlehenssumme am Ende zurückgeführt wird.",
+      "mechanism": [
+        "Die Darlehensschuld bleibt bis zur Endfälligkeit grundsätzlich unverändert.",
+        "Die Tilgung wird häufig parallel in einem Bauspar-, Versicherungs- oder Anlageprodukt aufgebaut.",
+        "Das Tilgungsersatzprodukt kann an den Kreditgeber abgetreten oder verpfändet werden."
+      ],
+      "advantages": [
+        "Niedrigere reine Kreditrate während der Laufzeit.",
+        "Kann eine zeitlich klar begrenzte Zwischenfinanzierung überbrücken.",
+        "Kann bei vermieteten Immobilien steuerlich relevant sein, sofern die gesetzlichen Voraussetzungen erfüllt sind."
+      ],
+      "disadvantages": [
+        "Zinsen fallen während der Laufzeit auf die volle Darlehenssumme an.",
+        "Zusätzliche Produktkosten für den Tilgungsersatz möglich.",
+        "Risiko, dass das angesparte Kapital am Fälligkeitstag nicht ausreicht.",
+        "Markt-, Zuteilungs-, Kosten- und Laufzeitrisiken zweier Verträge müssen zusammenpassen."
+      ],
+      "suitable_for": [
+        "Spezielle Zwischenfinanzierungen mit sicherem, terminlich passendem Rückzahlungsbetrag.",
+        "Steuerlich und wirtschaftlich geprüfte Einzelfälle bei Vermietung."
+      ],
+      "chatbot_warning": "Nicht wegen der niedrigen Zinsrate als günstig bezeichnen. Zinszahlung und Sparrate müssen gemeinsam mit dem Endfälligkeitsrisiko bewertet werden."
+    }
+  ],
+  "existing_contracts": [
+    {
+      "type": "Sparbrief oder fest gebundene Geldanlage",
+      "guidance": [
+        "Fälligkeit mit dem Tilgungsplan abstimmen.",
+        "Mögliche spätere Teiltilgung vertraglich einplanen.",
+        "Alternativ kann ein zeitlich passendes, zunächst tilgungsfreies Teildarlehen geprüft werden."
+      ],
+      "warning": "Zinsen, Steuern, Kündigungsbedingungen und Opportunitätskosten individuell vergleichen."
+    },
+    {
+      "type": "Alter Bausparvertrag",
+      "guidance": [
+        "Guthaben, Darlehenszins, Bonusbedingungen und Zuteilungsstatus getrennt bewerten.",
+        "Das Bauspardarlehen nur nutzen, wenn es gegenüber alternativen Krediten wirtschaftlich ist.",
+        "Ein gut verzinster Altvertrag kann gegebenenfalls zunächst als Sparvertrag fortgeführt werden."
+      ],
+      "warning": "Eine vorzeitige Kündigung kann Bonus- oder Zinsvorteile kosten."
+    },
+    {
+      "type": "Alte Kapitallebensversicherung",
+      "guidance": [
+        "Rückkaufswert, garantierte Verzinsung, Ablaufleistung und Todesfallschutz vergleichen.",
+        "Eine erwartete Ablaufleistung kann unter Umständen mit einem tilgungsfreien Darlehen zeitlich überbrückt werden.",
+        "Eine Abtretung an die finanzierende Bank kann als Sicherheit dienen."
+      ],
+      "warning": "Steuerliche Behandlung und Vertragsqualität hängen insbesondere vom Abschlusszeitpunkt und den individuellen Bedingungen ab."
+    }
+  ],
+  "financing_plan_checklist": [
+    {
+      "check": "Auszahlungsbetrag",
+      "question": "Deckt die tatsächlich ausgezahlte Kreditsumme Kaufpreis, Baukosten und alle einbezogenen Nebenkosten?"
+    },
+    {
+      "check": "Gesamtbelastung",
+      "question": "Entspricht die Summe aller monatlichen Raten dem langfristig tragbaren Budget?"
+    },
+    {
+      "check": "Standardisierte Kreditinformationen",
+      "question": "Liegt für jeden Kreditbaustein ein vollständiges standardisiertes Informationsblatt mit allen Konditionen vor?"
+    },
+    {
+      "check": "Vertragliche Absprachen",
+      "question": "Sind Sondertilgungen, Tilgungssatzwechsel und weitere Zusagen schriftlich berücksichtigt?"
+    },
+    {
+      "check": "Vollständige Entschuldung",
+      "question": "Zeigt der Plan die Entwicklung der Restschuld bis zur kompletten Rückzahlung?"
+    },
+    {
+      "check": "Anschlusszins",
+      "question": "Enthält der Plan ein konservatives Szenario für einen deutlich höheren Zinssatz nach Ablauf der Zinsbindung?"
+    },
+    {
+      "check": "Laufzeit",
+      "question": "Ist der geplante Zeitpunkt der Schuldenfreiheit realistisch und mit der Altersvorsorge vereinbar?"
+    },
+    {
+      "check": "Belastungssprünge",
+      "question": "Gibt es Phasen mit stark steigender oder sinkender Monatsbelastung, und sind diese nachvollziehbar sowie tragbar?"
+    }
+  ],
+  "bank_documents": {
+    "personal_and_financial": [
+      "Lohn- oder Gehaltsabrechnungen",
+      "Einkommensteuerbescheide",
+      "Bei Selbstständigen: Jahresabschlüsse, Bilanzen oder Einnahmenüberschussrechnungen",
+      "Selbstauskunft der Bank",
+      "Nachweise über Eigenkapital, Depots oder Schenkungen",
+      "Identitätsnachweis",
+      "Nachweise über bestehende Kredite und sonstige Verbindlichkeiten",
+      "Gegebenenfalls Renteninformation"
+    ],
+    "property": [
+      "Kaufvertrag oder Vertragsentwurf",
+      "Aktueller Grundbuchauszug",
+      "Baupläne und Grundrisse",
+      "Wohn- und Nutzflächenberechnung",
+      "Lageplan oder Flurkarte",
+      "Fotos der Immobilie",
+      "Nachweis der Gebäudeversicherung",
+      "Exposé oder Verkaufsunterlagen",
+      "Bei Eigentumswohnungen: Teilungserklärung",
+      "Bei Bau oder Umbau: Baugenehmigung",
+      "Baukostenberechnung",
+      "Baubeschreibung und Werkvertrag",
+      "Bei Neubau: Nachweis einer Rohbauversicherung",
+      "Aufstellung geplanter Eigenleistungen"
+    ],
+    "note": "Die konkrete Bank kann weitere oder abweichende Unterlagen verlangen."
+  },
+  "glossary": [
+    {
+      "term": "Anfangstilgung",
+      "definition": "Tilgungsanteil zu Beginn eines Annuitätendarlehens. Eine höhere Anfangstilgung verkürzt in der Regel die Laufzeit und senkt die Restschuld."
+    },
+    {
+      "term": "Beleihungsauslauf",
+      "definition": "Verhältnis zwischen Darlehenssumme und dem von der Bank angesetzten Immobilien- beziehungsweise Beleihungswert.",
+      "impact": "Mit steigendem Beleihungsauslauf können Zinsaufschläge und Kreditrisiko zunehmen. Besonders hohe Finanzierungsanteile sind häufig deutlich teurer."
+    },
+    {
+      "term": "Beleihungswert",
+      "definition": "Von der Bank vorsichtig ermittelter, langfristig erwarteter Immobilienwert. Er kann unter dem Kaufpreis oder Marktwert liegen."
+    },
+    {
+      "term": "Effektivzins",
+      "definition": "Jährlicher Preis eines Kredits, der neben dem Sollzins bestimmte weitere preisbestimmende Kosten berücksichtigt und Angebote vergleichbarer macht."
+    },
+    {
+      "term": "Restschuld",
+      "definition": "Noch nicht getilgter Darlehensbetrag zu einem bestimmten Zeitpunkt, insbesondere am Ende der Zinsbindung."
+    },
+    {
+      "term": "Sondertilgung",
+      "definition": "Zusätzliche Rückzahlung außerhalb der regulären Monatsrate, sofern vertraglich erlaubt."
+    },
+    {
+      "term": "Tilgungssatzwechsel",
+      "definition": "Vertraglich vereinbarte Möglichkeit, den laufenden Tilgungsanteil und damit in der Regel die Monatsrate zu verändern."
+    },
+    {
+      "term": "Zinsbindung",
+      "definition": "Zeitraum, in dem der vereinbarte Sollzins des Darlehens nicht verändert wird."
+    },
+    {
+      "term": "Anschlussfinanzierung",
+      "definition": "Neuer Kredit oder neue Zinsvereinbarung für die verbleibende Restschuld nach Ablauf der bisherigen Zinsbindung."
+    },
+    {
+      "term": "Zuteilung",
+      "definition": "Zeitpunkt, zu dem ein Bausparvertrag die vertraglichen Voraussetzungen für die Auszahlung von Guthaben und Bauspardarlehen erfüllt."
+    },
+    {
+      "term": "Kaufnebenkosten",
+      "definition": "Zusätzliche Kosten neben dem Kaufpreis, insbesondere Grunderwerbsteuer, Notar- und Grundbuchkosten sowie gegebenenfalls Maklerprovision."
+    },
+    {
+      "term": "Gesamtkosten",
+      "definition": "Summe aus Kaufpreis oder Baukosten, Nebenkosten, notwendigen Zusatzinvestitionen und einer angemessenen Reserve."
+    },
+    {
+      "term": "Fremdkapital",
+      "definition": "Verzinste Mittel, die insbesondere durch Bank- oder Förderdarlehen bereitgestellt werden."
+    },
+    {
+      "term": "Grundschuld",
+      "definition": "Im Grundbuch eingetragenes Grundpfandrecht, das der Bank regelmäßig als Kreditsicherheit dient."
+    },
+    {
+      "term": "Verkehrswert",
+      "definition": "Der auch Marktwert genannte Preis, der für die Immobilie zum Bewertungszeitpunkt unter gewöhnlichen Marktbedingungen voraussichtlich erzielbar ist."
+    },
+    {
+      "term": "Bonität",
+      "definition": "Einschätzung, ob Kreditnehmende ihre Verpflichtungen voraussichtlich vollständig und fristgerecht erfüllen können."
+    },
+    {
+      "term": "Vollfinanzierung",
+      "definition": "Finanzierung des Kaufpreises mit keinem oder wenig Eigenkapital; bei Finanzierungen über 100 Prozent werden zusätzlich Nebenkosten mitfinanziert."
+    },
+    {
+      "term": "Variables Darlehen",
+      "definition": "Darlehen mit regelmäßig anpassbarem Sollzins und entsprechendem Zinsänderungsrisiko."
+    },
+    {
+      "term": "Vorfälligkeitsentschädigung",
+      "definition": "Möglicher Ausgleichsanspruch des Kreditgebers, wenn ein festverzinsliches Darlehen vorzeitig außerhalb eines kostenfreien Kündigungs- oder Rückzahlungsrechts abgelöst wird."
+    },
+    {
+      "term": "Private Immobilienfinanzierung",
+      "definition": "Praktische Bezeichnung für die Finanzierung eines Immobilienvorhabens durch Privatpersonen, etwa Kauf, Bau oder Umbau."
+    },
+    {
+      "term": "Gewerbliche Immobilienfinanzierung",
+      "definition": "Finanzierung einer betrieblich oder ertragsorientiert genutzten Immobilie, bei der Unternehmens- und Ertragsrisiken häufig eine zentrale Rolle spielen."
+    },
+    {
+      "term": "Gewerbliche Wohnimmobilienfinanzierung",
+      "definition": "Finanzierung von Wohnimmobilien, die Unternehmen, Gesellschaften oder Organisationen zugeordnet sind und Einnahmen erwirtschaften sollen."
+    },
+    {
+      "term": "Mischobjekt",
+      "definition": "Immobilie mit privater Wohnnutzung und gewerblich oder beruflich genutzten Flächen."
+    },
+    {
+      "term": "Kapitaldienstfähigkeit",
+      "definition": "Fähigkeit eines Haushalts, Unternehmens oder Objekts, Zins und Tilgung dauerhaft aus verfügbaren Mitteln zu tragen."
+    },
+    {
+      "term": "Drittverwendungsfähigkeit",
+      "definition": "Möglichkeit, eine Immobilie bei Wegfall der bisherigen Nutzung ohne unverhältnismäßigen Aufwand anderweitig zu nutzen oder zu vermieten."
+    },
+    {
+      "term": "Verbraucher",
+      "definition": "Natürliche Person, die ein Rechtsgeschäft überwiegend außerhalb ihrer gewerblichen oder selbständigen beruflichen Tätigkeit abschließt."
+    },
+    {
+      "term": "Unternehmer",
+      "definition": "Natürliche oder juristische Person beziehungsweise rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handelt."
+    },
+    {
+      "term": "Immobiliar-Verbraucherdarlehensvertrag",
+      "definition": "Entgeltlicher Darlehensvertrag zwischen Unternehmer und Verbraucher, der grundpfandrechtlich besichert ist oder dem Erwerb beziehungsweise Erhalt von Grundstücks- oder Gebäudeeigentum dient."
+    },
+    {
+      "term": "Sollzins",
+      "definition": "Vertraglicher Zinssatz für das Darlehen, ohne sämtliche weiteren preisbestimmenden Kosten einzubeziehen."
+    },
+    {
+      "term": "Darlehenssumme",
+      "definition": "Der vertraglich zugesagte Kreditbetrag."
+    },
+    {
+      "term": "Kreditrate",
+      "definition": "Regelmäßige Zahlung an den Kreditgeber. Beim Annuitätendarlehen besteht sie im Wesentlichen aus Zins und Tilgung."
+    },
+    {
+      "term": "Zweckgebundenes Darlehen",
+      "definition": "Kredit, dessen Mittel nur für den vertraglich vereinbarten Zweck, beispielsweise Kauf, Bau oder Modernisierung einer Immobilie, verwendet werden dürfen."
+    },
+    {
+      "term": "Finanzierungsbestätigung",
+      "definition": "Schriftliche Bestätigung eines möglichen oder zugesagten Finanzierungsrahmens. Sie kann vorläufig, bedingt oder verbindlich sein."
+    },
+    {
+      "term": "Fälligkeitsmitteilung",
+      "definition": "Mitteilung des Notariats, dass die im Kaufvertrag festgelegten Voraussetzungen für die Zahlung des Kaufpreises eingetreten sind."
+    },
+    {
+      "term": "Auflassungsvormerkung",
+      "definition": "Eintragung im Grundbuch, die den Anspruch der Käuferseite auf Eigentumsübertragung absichert."
+    },
+    {
+      "term": "Bereitstellungszinsen",
+      "definition": "Mögliche Zinsen auf zugesagte, aber nach Ablauf der bereitstellungsfreien Zeit noch nicht ausgezahlte Darlehensteile."
+    },
+    {
+      "term": "Auskunftei",
+      "definition": "Unternehmen, das bonitätsrelevante personenbezogene Daten verarbeitet und daraus Auskünfte oder Scorewerte für Vertragspartner bereitstellt."
+    },
+    {
+      "term": "Sanierungsbedarf",
+      "definition": "Technisch oder wirtschaftlich notwendige Maßnahmen zur Erhaltung, Wiederherstellung oder Verbesserung einer Immobilie."
+    },
+    {
+      "term": "Tilgungsdarlehen",
+      "definition": "Darlehen mit gleichbleibendem Tilgungsbetrag und sinkender Gesamtrate."
+    },
+    {
+      "term": "Zinszahlungsdarlehen",
+      "definition": "Endfälliges Darlehen, bei dem während der Laufzeit im Wesentlichen nur Zinsen gezahlt und die Darlehenssumme am Ende zurückgezahlt wird."
+    },
+    {
+      "term": "Tilgungsersatz",
+      "definition": "Separates Spar- oder Anlageprodukt, das zur späteren Rückzahlung eines endfälligen Darlehens aufgebaut wird."
+    },
+    {
+      "term": "Prolongation",
+      "definition": "Fortsetzung beziehungsweise neue Zinsvereinbarung einer Finanzierung beim bisherigen Kreditgeber."
+    },
+    {
+      "term": "Umschuldung",
+      "definition": "Ablösung einer bestehenden Restschuld durch ein neues Darlehen, häufig bei einem anderen Kreditgeber."
+    },
+    {
+      "term": "Referenzzins",
+      "definition": "Vertraglich bestimmter Marktzinssatz, an den ein variabler Darlehenszins gekoppelt sein kann, beispielsweise ein EURIBOR-Satz."
+    },
+    {
+      "term": "Cap-Darlehen",
+      "definition": "Variables Darlehen mit vereinbarter Obergrenze für den Sollzins."
+    },
+    {
+      "term": "Pfandbrief",
+      "definition": "Besicherte Bankschuldverschreibung, die unter anderem zur langfristigen Refinanzierung von Immobilienkrediten eingesetzt werden kann."
+    },
+    {
+      "term": "Bereitstellungsfreie Zeit",
+      "definition": "Vertraglicher Zeitraum, in dem für noch nicht abgerufene Darlehensteile keine Bereitstellungszinsen berechnet werden."
+    },
+    {
+      "term": "Baunebenkosten",
+      "definition": "Zusätzliche Kosten neben Grundstück und eigentlicher Gebäudeerrichtung, etwa für Planung, Genehmigung, Erschließung, Anschlüsse, Versicherungen und Außenanlagen."
+    },
+    {
+      "term": "Hausbankprinzip",
+      "definition": "Förderkredite werden über einen Finanzierungspartner beantragt, der den Antrag an die Förderbank weiterleitet."
+    }
+  ],
+  "decision_guidance": [
+    {
+      "user_goal": "Möglichst planbare Rate bis zur Schuldenfreiheit",
+      "consider": [
+        "Volltilgerdarlehen",
+        "Sehr lange Zinsbindung",
+        "Sorgfältig geprüfter Bauspar-Kombikredit"
+      ],
+      "trade_off": "Häufig höhere Rate, geringere Flexibilität oder höhere Gesamtkosten."
+    },
+    {
+      "user_goal": "Flexible Rückzahlung",
+      "consider": [
+        "Annuitätendarlehen mit Sondertilgungsrecht",
+        "Annuitätendarlehen mit Tilgungssatzwechsel"
+      ],
+      "trade_off": "Flexibilitätsoptionen müssen vertraglich zugesichert sein und können Konditionen beeinflussen."
+    },
+    {
+      "user_goal": "Förderung nutzen",
+      "consider": [
+        "Aktuelle Förderdarlehen",
+        "Regionale Programme",
+        "Gegebenenfalls Wohn-Riester"
+      ],
+      "trade_off": "Förderbedingungen, Fristen, Besteuerung und technische Anforderungen können komplex sein."
+    },
+    {
+      "user_goal": "Kommende Anschlussfinanzierung absichern",
+      "consider": [
+        "Frühzeitiger Angebotsvergleich",
+        "Forward-Darlehen",
+        "Sondertilgung vor dem Anschlusszeitpunkt"
+      ],
+      "trade_off": "Ein Forward-Darlehen kostet einen Aufschlag und bleibt bei später fallenden Zinsen bindend."
+    },
+    {
+      "user_goal": "Finanzierung mit wenig Eigenkapital",
+      "consider": [
+        "Nebenkosten vollständig erfassen",
+        "Beleihungsauslauf und Zinsaufschläge vergleichen",
+        "Fördermittel und zusätzliche Sicherheiten prüfen",
+        "Größeren Liquiditätspuffer einplanen"
+      ],
+      "trade_off": "Hoher Kreditanteil erhöht typischerweise Rate, Zinskosten und Risiko."
+    }
+  ],
+  "faq": [
+    {
+      "intent": "start_baufinanzierung",
+      "question": "Womit sollte ich bei einer Baufinanzierung beginnen?",
+      "answer": "Beginne mit den Gesamtkosten, deinem verfügbaren Eigenkapital, möglichen Fördermitteln und einer konservativ berechneten dauerhaft tragbaren Monatsrate. Erst danach sollten konkrete Kreditangebote verglichen werden."
+    },
+    {
+      "intent": "best_loan",
+      "question": "Welcher Immobilienkredit ist der beste?",
+      "answer": "Es gibt keine allgemein beste Kreditform. Die passende Lösung hängt unter anderem von Einkommen, Eigenkapital, gewünschter Flexibilität, Zinsbindung, Tilgung, Förderfähigkeit und dem gewünschten Zeitpunkt der Schuldenfreiheit ab."
+    },
+    {
+      "intent": "annuity_loan_explanation",
+      "question": "Wie funktioniert ein Annuitätendarlehen?",
+      "answer": "Während der Zinsbindung bleibt die Rate grundsätzlich konstant. Sie besteht aus Zins und Tilgung. Mit sinkender Restschuld fällt der Zinsanteil, während der Tilgungsanteil innerhalb der gleichbleibenden Rate steigt."
+    },
+    {
+      "intent": "fixed_interest_period",
+      "question": "Warum ist die Zinsbindung wichtig?",
+      "answer": "Sie bestimmt, wie lange der Sollzins feststeht. Eine längere Zinsbindung bietet mehr Sicherheit. Eine kurze Bindung kann problematisch sein, wenn am Ende noch eine hohe Restschuld besteht und die Zinsen gestiegen sind."
+    },
+    {
+      "intent": "initial_repayment",
+      "question": "Warum ist eine zu niedrige Tilgung riskant?",
+      "answer": "Eine niedrige Tilgung führt zu einer langsam sinkenden Restschuld, einer längeren Laufzeit und meist höheren gesamten Zinskosten. Zudem bleibt für die Anschlussfinanzierung ein größerer Betrag offen."
+    },
+    {
+      "intent": "equity",
+      "question": "Wie wirkt sich Eigenkapital auf den Zinssatz aus?",
+      "answer": "Mehr Eigenkapital reduziert den Kreditanteil am Immobilienwert. Dadurch sinkt häufig der Beleihungsauslauf und Banken können günstigere Konditionen anbieten. Sehr hohe Finanzierungsanteile sind typischerweise teurer."
+    },
+    {
+      "intent": "funding",
+      "question": "Wann sollte ich Fördermittel beantragen?",
+      "answer": "Fördermöglichkeiten sollten sehr früh geprüft werden. Bei vielen Programmen muss der Antrag vor Beginn des Vorhabens, vor einer Beauftragung oder vor Abschluss bestimmter Verträge gestellt werden. Die aktuellen Regeln der jeweiligen Förderstelle sind maßgeblich."
+    },
+    {
+      "intent": "special_repayment",
+      "question": "Was bringen Sondertilgungen?",
+      "answer": "Sondertilgungen senken die Restschuld zusätzlich, verkürzen die Laufzeit und reduzieren zukünftige Zinskosten. Sie sind nur möglich, wenn sie vertraglich vereinbart oder gesetzlich vorgesehen sind."
+    },
+    {
+      "intent": "financial_plan",
+      "question": "Was muss ein guter Finanzierungsplan zeigen?",
+      "answer": "Er sollte alle Kreditbausteine, Konditionen, Monatsbelastungen und die Restschuldentwicklung bis zur vollständigen Entschuldung enthalten. Zusätzlich sollte ein Szenario mit höherem Anschlusszins dargestellt werden."
+    },
+    {
+      "intent": "forward_loan",
+      "question": "Wann kann ein Forward-Darlehen sinnvoll sein?",
+      "answer": "Es kann sinnvoll sein, wenn die bestehende Zinsbindung in den kommenden Jahren endet und du steigende Zinsen absichern möchtest. Dem stehen ein Zinsaufschlag und die Abnahmeverpflichtung gegenüber."
+    },
+    {
+      "intent": "building_savings_combination",
+      "question": "Ist ein Bauspar-Kombikredit sicherer?",
+      "answer": "Er kann langfristige Zinssicherheit bieten, ist aber komplex. Entscheidend ist, dass die Zinsbindung des Vorausdarlehens bis zur erwarteten Zuteilung reicht und alle Gebühren, Sparraten und Darlehenszinsen in einem Gesamtkostenvergleich berücksichtigt werden."
+    },
+    {
+      "intent": "documents",
+      "question": "Welche Unterlagen verlangt die Bank?",
+      "answer": "Typisch sind Einkommens- und Eigenkapitalnachweise, Angaben zu bestehenden Verpflichtungen sowie Unterlagen zur Immobilie wie Kaufvertragsentwurf, Grundbuchauszug, Grundrisse, Flächenberechnung und bei Bauvorhaben Kosten- und Baubeschreibungen."
+    },
+    {
+      "intent": "purchase_incidental_costs",
+      "question": "Welche Nebenkosten entstehen beim Immobilienkauf?",
+      "answer": "Typisch sind Grunderwerbsteuer, Notar- und Grundbuchkosten sowie gegebenenfalls eine Maklerprovision. Zusätzlich können Finanzierungs-, Modernisierungs- und Umzugskosten entstehen. Die genaue Höhe hängt unter anderem vom Bundesland, Objekt und Vertrag ab."
+    },
+    {
+      "intent": "ground_charge",
+      "question": "Was ist eine Grundschuld?",
+      "answer": "Die Grundschuld ist ein im Grundbuch eingetragenes Sicherungsrecht. Sie dient der Bank regelmäßig als Sicherheit für das Immobiliendarlehen. Die Einzelheiten ergeben sich aus Grundschuldbestellung und Sicherungsvereinbarung."
+    },
+    {
+      "intent": "market_value",
+      "question": "Was ist der Unterschied zwischen Kaufpreis, Verkehrswert und Beleihungswert?",
+      "answer": "Der Kaufpreis ist der vertraglich vereinbarte Preis. Der Verkehrswert ist der voraussichtlich am Markt erzielbare Wert. Der Beleihungswert ist eine vorsichtigere bankseitige Bewertung für die Kreditsicherheit und kann niedriger ausfallen."
+    },
+    {
+      "intent": "full_financing",
+      "question": "Was bedeutet Vollfinanzierung?",
+      "answer": "Bei einer Vollfinanzierung wird der Kaufpreis vollständig oder nahezu vollständig über Kredite finanziert. Werden auch Nebenkosten mitfinanziert, liegt die Finanzierung oberhalb von 100 Prozent des Kaufpreises. Das erhöht meist Zins, Rate und Verkaufsrisiko."
+    },
+    {
+      "intent": "variable_loan",
+      "question": "Was ist ein variables Darlehen?",
+      "answer": "Der Sollzins wird regelmäßig an das Marktniveau angepasst. Dadurch ist das Darlehen flexibler, aber weniger planbar. Nach § 489 Absatz 2 BGB kann es mit einer Frist von drei Monaten gekündigt werden."
+    },
+    {
+      "intent": "credit_assessment",
+      "question": "Was prüft die Bank vor einer Kreditzusage?",
+      "answer": "Die Bank prüft unter anderem Einkommen, laufende Verpflichtungen, Eigenkapital, Kredithistorie, Sicherheiten und die Werthaltigkeit der Immobilie. Die Gewichtung und Annahmekriterien unterscheiden sich zwischen Kreditgebern."
+    },
+    {
+      "intent": "equity_rule",
+      "question": "Sind 20 bis 30 Prozent Eigenkapital zwingend erforderlich?",
+      "answer": "Nein. Der Wert ist eine verbreitete Orientierung, keine gesetzliche Vorgabe. Wenig Eigenkapital kann möglich sein, führt aber häufig zu strengeren Prüfungen, höheren Zinsen und größeren Risiken."
+    },
+    {
+      "intent": "repayment_rate_rule",
+      "question": "Wie hoch sollte die anfängliche Tilgung sein?",
+      "answer": "Häufig werden mindestens etwa 2 Prozent als Orientierung genannt. Eine höhere Tilgung verkürzt die Laufzeit und senkt die Restschuld, erhöht aber die Monatsrate. Die passende Höhe muss anhand von Budget, Zinsbindung und Entschuldungsziel berechnet werden."
+    },
+    {
+      "intent": "mortgage_cancellation_after_ten_years",
+      "question": "Kann ich ein Immobiliendarlehen nach zehn Jahren kündigen?",
+      "answer": "Bei einem Darlehen mit gebundenem Sollzins besteht grundsätzlich zehn Jahre nach vollständigem Empfang ein gesetzliches Kündigungsrecht mit sechsmonatiger Frist. Vertragsänderungen können die Fristberechnung beeinflussen; der Einzelfall ist zu prüfen."
+    },
+    {
+      "intent": "private_or_commercial_financing",
+      "question": "Ist meine Immobilienfinanzierung privat oder gewerblich?",
+      "answer": "Das hängt nicht nur von der Gebäudeart ab. Relevant sind insbesondere Darlehensnehmer, Eigentümer, überwiegender Zweck, Nutzungsanteile und die Frage, ob das Vorhaben einer gewerblichen oder selbständigen Tätigkeit dient. Bei Vermietung oder Mischobjekten sollte die Einordnung im Einzelfall geprüft werden."
+    },
+    {
+      "intent": "private_real_estate_financing",
+      "question": "Was zählt zur privaten Immobilienfinanzierung?",
+      "answer": "Typische Fälle sind Kauf, Neubau sowie umfangreiche Umbau- oder Ausbaumaßnahmen durch Privatpersonen. Rechtlich ist zusätzlich zu prüfen, ob die Person beim Vertragsabschluss überwiegend außerhalb einer gewerblichen oder selbständigen Tätigkeit handelt."
+    },
+    {
+      "intent": "commercial_real_estate_financing",
+      "question": "Was ist eine gewerbliche Immobilienfinanzierung?",
+      "answer": "Sie finanziert Immobilien, die betrieblich genutzt werden, zum Betriebsvermögen gehören oder systematisch Einnahmen und Gewinne erwirtschaften sollen. Die Bewertung konzentriert sich stärker auf Erträge, Unternehmen, Mietverträge und objektspezifische Risiken."
+    },
+    {
+      "intent": "commercial_residential_financing",
+      "question": "Was bedeutet gewerbliche Wohnimmobilienfinanzierung?",
+      "answer": "Damit sind beispielsweise Wohnungsbestände oder Wohnbauprojekte von Gesellschaften, Genossenschaften oder Unternehmen gemeint. Neben dem Objektwert werden insbesondere Mieterträge, Bewirtschaftung, Leerstand und Unternehmensbonität betrachtet."
+    },
+    {
+      "intent": "mixed_use_financing",
+      "question": "Wie wird ein Wohnhaus mit Gewerbefläche finanziert?",
+      "answer": "Ein solches Objekt gilt als gemischt oder teilgewerblich genutzt. Kreditgeber prüfen Wohn- und Gewerbeanteil, Nutzung, Einnahmen und Risiken getrennt. Je nach Verhältnis und Kreditgeber kann eine private, teilgewerbliche oder gewerbliche Finanzierung erforderlich sein."
+    },
+    {
+      "intent": "commercial_lenders",
+      "question": "Finanziert jede Bank Gewerbeimmobilien?",
+      "answer": "Nein. Manche Banken finanzieren sowohl private als auch gewerbliche Immobilien, andere nur bestimmte Nutzungsarten oder Größenordnungen. Bei komplexen Gewerbeobjekten können spezialisierte Kreditgeber erforderlich sein."
+    },
+    {
+      "intent": "commercial_financing_risk",
+      "question": "Warum ist eine Gewerbeimmobilienfinanzierung komplexer?",
+      "answer": "Die Rückzahlung hängt häufig wesentlich von Miet- oder Betriebserträgen ab. Daher müssen unter anderem Mietvertragslaufzeiten, Leerstand, Mieterbonität, Standort, alternative Nutzung und Unternehmensrisiken bewertet werden."
+    },
+    {
+      "intent": "consumer_loan_protection",
+      "question": "Gelten bei jeder Immobilienfinanzierung dieselben Verbraucherrechte?",
+      "answer": "Nein. Besondere Regeln für Immobiliar-Verbraucherdarlehen setzen voraus, dass ein Verbraucher einen entsprechenden Vertrag mit einem Unternehmer abschließt. Wer bei Vertragsabschluss überwiegend geschäftlich handelt, kann außerhalb dieses Schutzrahmens liegen. Der konkrete Vertrag ist rechtlich zu prüfen."
+    },
+    {
+      "intent": "building_finance_vs_personal_loan",
+      "question": "Was unterscheidet eine Baufinanzierung von einem normalen Ratenkredit?",
+      "answer": "Eine Baufinanzierung ist meist langfristig, zweckgebunden und durch eine Grundschuld besichert. Ein Ratenkredit ist häufig frei verwendbar, kleiner und kürzer, dafür regelmäßig teurer. Entscheidend sind der konkrete Vertrag und die Verwendung."
+    },
+    {
+      "intent": "check_credit_bureau_data",
+      "question": "Sollte ich meine SCHUFA-Daten vor dem Kreditantrag prüfen?",
+      "answer": "Eine frühzeitige Selbstauskunft kann sinnvoll sein, damit du falsche oder unvollständige Angaben vor dem Antrag erkennst. Nach der DSGVO bestehen grundsätzlich Rechte auf Auskunft und Berichtigung. Eine Prüfung garantiert jedoch weder einen besseren Score noch eine Kreditzusage."
+    },
+    {
+      "intent": "financing_confirmation_binding",
+      "question": "Ist eine Finanzierungsbestätigung bereits eine verbindliche Kreditzusage?",
+      "answer": "Nicht zwingend. Viele Bestätigungen sind vorläufig oder stehen unter Bonitäts-, Objekt- und Unterlagenvorbehalt. Prüfe den Wortlaut, den Objektbezug, die Gültigkeitsdauer und alle Bedingungen. Erst daraus ergibt sich der Bindungsumfang."
+    },
+    {
+      "intent": "when_to_pay_purchase_price",
+      "question": "Wann soll ich den Kaufpreis für die Immobilie zahlen?",
+      "answer": "Regelmäßig erst, nachdem die im notariellen Kaufvertrag festgelegten Fälligkeitsvoraussetzungen erfüllt sind und das Notariat die Fälligkeit mitgeteilt hat. Die genaue Zahlungsfrist steht im Kaufvertrag."
+    },
+    {
+      "intent": "property_checks_before_financing",
+      "question": "Was sollte ich an der Immobilie vor Finanzierungsabschluss prüfen?",
+      "answer": "Neben Lage und Marktwert sind insbesondere baulicher Zustand, Energieeffizienz, Sanierungsbedarf und erwartete Folgekosten wichtig. Notwendige Maßnahmen müssen in Darlehensbedarf und Reserve eingeplant werden."
+    },
+    {
+      "intent": "additional_financing_costs",
+      "question": "Welche zusätzlichen Kosten kann eine Baufinanzierung verursachen?",
+      "answer": "Je nach Vertrag können unter anderem Bereitstellungszinsen, Kosten im Zusammenhang mit Teilauszahlungen oder Bewertungen sowie bei vorzeitiger Ablösung eine Vorfälligkeitsentschädigung relevant sein. Nicht jedes verlangte Entgelt ist automatisch zulässig; das konkrete Angebot muss geprüft werden."
+    },
+    {
+      "intent": "provision_interest",
+      "question": "Was sind Bereitstellungszinsen?",
+      "answer": "Das sind mögliche Zinsen auf einen bereits zugesagten, aber nach Ablauf einer bereitstellungsfreien Zeit noch nicht ausgezahlten Darlehensteil. Sie sind besonders bei Bauprojekten und gestaffelten Auszahlungen wichtig."
+    },
+    {
+      "intent": "financing_insurance",
+      "question": "Welche Versicherungen können eine Baufinanzierung absichern?",
+      "answer": "Je nach Bedarf kommen etwa Risikolebens- und Berufsunfähigkeitsversicherungen in Betracht. Zuerst sollten Einkommensabhängigkeit, vorhandener Schutz und Liquiditätsreserve geprüft werden. Restschuldversicherungen sind häufig teuer und sollten nicht ungeprüft abgeschlossen werden."
+    },
+    {
+      "intent": "reserves_after_purchase",
+      "question": "Brauche ich nach dem Immobilienkauf weiterhin Rücklagen?",
+      "answer": "Ja. Auch nach der Auszahlung können Reparaturen, Instandhaltung und unerwartete Ausgaben entstehen. Sondertilgungen sollten deshalb nicht den notwendigen Liquiditätspuffer aufzehren."
+    },
+    {
+      "intent": "financing_calculator_scope",
+      "question": "Was berechnet ein Baufinanzierungsrechner?",
+      "answer": "Er simuliert aus Gesamtkosten, Eigenkapital, Sollzins, Tilgung und Zinsbindung unter anderem Darlehensbedarf, Monatsrate, Zinskosten und Restschuld. Das Ergebnis ist eine Orientierung und kein verbindliches Kreditangebot."
+    },
+    {
+      "intent": "budget_calculator_scope",
+      "question": "Wie funktioniert ein Budgetrechner?",
+      "answer": "Er leitet aus regelmäßigem Haushaltsüberschuss, Puffer, Eigenkapital und Zins- sowie Tilgungsannahmen einen groben Darlehens- oder Kaufpreisrahmen ab. Banken können mit anderen Haushalts- und Lebenshaltungspauschalen rechnen."
+    },
+    {
+      "intent": "conditions_calculator_binding",
+      "question": "Ist der Zinssatz aus einem Konditionsrechner verbindlich?",
+      "answer": "Nein. Er ist meist nur indikativ. Der persönliche Zinssatz hängt zusätzlich von Bonität, Objektbewertung, Beleihungsauslauf, Darlehenshöhe, Laufzeit und der Kreditpolitik der Bank ab."
+    },
+    {
+      "intent": "mortgage_rate_factors",
+      "question": "Wovon hängen Bauzinsen ab?",
+      "answer": "Wesentlich sind langfristige Kapitalmarkt- und Refinanzierungskosten sowie Bankmarge und Risikoaufschläge. Persönlich wirken unter anderem Bonität, Beleihungsauslauf, Objekt, Zinsbindung und Tilgung. Aktuelle Zinsen müssen immer mit Datum und Annahmen betrachtet werden."
+    },
+    {
+      "intent": "loan_to_value_formula",
+      "question": "Wie wird der Beleihungsauslauf berechnet?",
+      "answer": "Er ergibt sich aus Darlehensbetrag geteilt durch den bankseitigen Beleihungswert mal 100. Da der Beleihungswert unter dem Kaufpreis liegen kann, darf der Kaufpreis nicht ungeprüft als Nenner verwendet werden."
+    },
+    {
+      "intent": "constant_principal_loan",
+      "question": "Was ist ein Tilgungsdarlehen?",
+      "answer": "Der Tilgungsbetrag bleibt je Periode konstant. Weil die Restschuld sinkt, nimmt der Zinsanteil ab und die gesamte Rate wird im Zeitverlauf niedriger. Dafür ist die Anfangsrate häufig relativ hoch."
+    },
+    {
+      "intent": "interest_only_loan",
+      "question": "Was ist ein Zinszahlungsdarlehen?",
+      "answer": "Während der Laufzeit werden grundsätzlich nur Zinsen gezahlt. Die gesamte Darlehenssumme wird am Ende zurückgeführt, häufig aus einem parallel besparten Produkt. Entscheidend sind Gesamtkosten und das Risiko, dass der Tilgungsersatz nicht ausreicht."
+    },
+    {
+      "intent": "prolongation_or_refinancing",
+      "question": "Was ist bei der Anschlussfinanzierung besser: Prolongation oder Umschuldung?",
+      "answer": "Eine Prolongation ist meist einfacher, eine Umschuldung eröffnet einen breiteren Marktvergleich. Vergleiche bei gleicher Restschuld insbesondere Effektivzins, Tilgung, Zinsbindung, Sondertilgung sowie Kosten und Aufwand der Grundschuldübertragung."
+    },
+    {
+      "intent": "follow_on_notice",
+      "question": "Muss meine Bank mir vor dem Zinsbindungsende ein Angebot machen?",
+      "answer": "Bei einem Verbraucherdarlehen muss sie spätestens drei Monate vorher mitteilen, ob sie zu einer neuen Sollzinsbindung bereit ist. Ist sie bereit, muss sie den aktuell angebotenen Sollzins nennen. Das ist keine Garantie für das beste Marktangebot."
+    },
+    {
+      "intent": "rent_or_buy_calculator",
+      "question": "Was muss ein Mieten-oder-Kaufen-Rechner berücksichtigen?",
+      "answer": "Neben Miete und Kreditrate gehören Kaufnebenkosten, Eigenkapitalrendite, Instandhaltung, Tilgung, Anschlusszins, Miet- und Wertentwicklung sowie Betrachtungsdauer in den Vergleich. Das Ergebnis hängt stark von den Annahmen ab."
+    },
+    {
+      "intent": "construction_ancillary_costs",
+      "question": "Welche Baunebenkosten sollte ich einplanen?",
+      "answer": "Typisch sind Planung, Genehmigungen, Bodengutachten, Vermessung, Erschließung, Hausanschlüsse, Baustrom, Versicherungen, Baubegleitung, Außenanlagen und Bereitstellungszinsen. Prüfe, welche Positionen bereits im Bauvertrag enthalten sind."
+    },
+    {
+      "intent": "bonus_as_income",
+      "question": "Kann ich Bonuszahlungen als sicheres Einkommen einplanen?",
+      "answer": "Schwankende oder nicht garantierte Boni sollten nicht die dauerhafte Basiskreditrate tragen. Sie können eher als freiwilliger Puffer oder für vertraglich mögliche Sondertilgungen dienen."
+    },
+    {
+      "intent": "funding_application_timing",
+      "question": "Wann muss ich eine KfW-Förderung beantragen?",
+      "answer": "Der Antrag muss grundsätzlich vor dem jeweiligen Vorhabensbeginn gestellt werden. Bei Förderkrediten erfolgt das häufig über einen Finanzierungspartner. Die genaue Definition des Vorhabensbeginns ist im aktuellen Programm zu prüfen."
+    },
+    {
+      "intent": "baukredit_baugeld_hauskredit",
+      "question": "Sind Baukredit, Baugeld und Hauskredit unterschiedliche Produkte?",
+      "answer": "Die Begriffe werden häufig synonym für eine Immobilienfinanzierung verwendet. Wichtiger ist, ob konkret ein Annuitäten-, Tilgungs-, variables, endfälliges, Bauspar- oder Förderdarlehen gemeint ist."
+    }
+  ],
+  "chatbot_behavior": {
+    "role": "Informationsassistent für allgemeine Grundlagen der Baufinanzierung",
+    "answer_style": [
+      "Neutral, verständlich und ohne Verkaufsdruck antworten.",
+      "Fachbegriffe kurz erklären.",
+      "Vor- und Nachteile ausgewogen darstellen.",
+      "Bei Vergleichen immer Gesamtbelastung, Restschuld, Flexibilität und Risiko berücksichtigen.",
+      "Keine Kreditform pauschal als beste Lösung bezeichnen."
+    ],
+    "minimum_questions_for_personalized_orientation": [
+      "Geht es um Kauf, Neubau, Modernisierung oder Anschlussfinanzierung?",
+      "Wie hoch sind Gesamtkosten und Nebenkosten?",
+      "Wie viel Eigenkapital soll eingesetzt werden und welche Reserve bleibt übrig?",
+      "Welche Monatsrate ist dauerhaft tragbar?",
+      "Bis wann soll die Finanzierung vollständig zurückgezahlt sein?",
+      "Wie wichtig sind Sondertilgungen und Ratenänderungen?",
+      "Welche Fördermöglichkeiten wurden bereits geprüft?",
+      "Wer wird Darlehensnehmer und in welcher Rechtsform?",
+      "Wer wird Eigentümer der Immobilie?",
+      "Wie wird das Objekt tatsächlich genutzt?",
+      "Welcher Anteil ist privat, vermietet oder gewerblich genutzt?",
+      "Wovon soll der Kapitaldienst überwiegend bezahlt werden?",
+      "Sind Zustand, Energieeffizienz und Sanierungsbedarf der Immobilie belastbar geprüft?",
+      "Liegt nur ein Finanzierungsrahmen oder bereits eine objektbezogene verbindliche Zusage vor?",
+      "Welche bereitstellungsfreie Zeit und welche Auszahlungsbedingungen gelten?",
+      "Welche Liquiditäts- und Instandhaltungsreserve bleibt nach dem Eigenkapitaleinsatz bestehen?",
+      "Welche Rechnerart oder Entscheidung soll unterstützt werden?",
+      "Welche Annahmen gelten für Sollzins, Zinsbindung und Anschlusszins?",
+      "Welche Kauf- oder Baunebenkosten sind bereits positionsweise bekannt?",
+      "Wann endet eine bestehende Sollzinsbindung und wie hoch ist die Restschuld?",
+      "Sind Einkommensteile variabel oder nur zeitlich befristet?"
+    ],
+    "safety_rules": [
+      "Keine individuelle Kreditfreigabe oder verbindliche Finanzierungszusage simulieren.",
+      "Keine aktuellen Zinssätze, Förderhöhen oder Einkommensgrenzen ohne aktuelle verlässliche Quelle nennen.",
+      "Keine historische Zahl aus der Wissensbasis als gegenwärtige Kondition ausgeben.",
+      "Bei steuerlichen, rechtlichen oder förderrechtlichen Detailfragen auf aktuelle Fachberatung beziehungsweise offizielle Stellen verweisen.",
+      "Nutzer bei erkennbar knapper Tragbarkeit auf Risiken, Reserven und konservative Szenarien hinweisen.",
+      "Persönliche Finanzdaten nur erfragen, soweit sie für die jeweilige Orientierung notwendig sind.",
+      "Anbieterbezogene Empfehlungen als solche kennzeichnen und nicht als neutrale Marktregel ausgeben.",
+      "Faustregeln zu Eigenkapital, Tilgung und Einkommensquote ausdrücklich als unverbindliche Orientierung bezeichnen.",
+      "Kaufpreis, Verkehrswert und Beleihungswert nicht gleichsetzen.",
+      "Bei Aussagen zu Kündigung oder Vorfälligkeitsentschädigung den konkreten Vertrag und aktuelle Rechtslage als prüfpflichtig nennen.",
+      "Vor einem notariell bindenden Immobilienkauf auf eine belastbar geklärte Finanzierung und bekannte Auszahlungsvoraussetzungen hinweisen.",
+      "Die Begriffe privat, gewerblich und teilgewerblich nicht allein aus der Gebäudeart ableiten.",
+      "Rechtliche Verbraucher- oder Unternehmereigenschaft nicht mit der praktischen Produktkategorie gleichsetzen.",
+      "Bei Mischobjekten Nutzungsanteile, Darlehensnehmer, Eigentümer und Einnahmequellen getrennt abfragen.",
+      "Bei gewerblichen Finanzierungen keine Tragfähigkeit allein aus Objektwert oder aktuellen Mieten ableiten.",
+      "Bei Gewerbeimmobilien auf individuelle Konditionen und möglicherweise spezialisierte Kreditgeber hinweisen.",
+      "Keine Aussage treffen, dass bestimmte Verbraucherrechte auf eine gewerbliche Finanzierung anwendbar sind, ohne den Einzelfall zu prüfen.",
+      "Eine Finanzierungsbestätigung nicht automatisch als verbindliche Darlehenszusage darstellen.",
+      "Niemals zu einer Kaufpreiszahlung vor Eintritt der vertraglichen Fälligkeit raten.",
+      "Bei Auskunfteiendaten nur die Prüfung und Berichtigung unrichtiger Angaben unterstützen; keine Verschleierung berechtigter Verbindlichkeiten.",
+      "Prozentwerte zu Kaufnebenkosten, Sondertilgung, Tilgung oder Einkommensquote nur als grobe Orientierung kennzeichnen.",
+      "Objektzustand, Energieeffizienz und Sanierungsbedarf als Teil des Finanzierungsrisikos berücksichtigen.",
+      "Nicht jedes Bankentgelt pauschal als zulässig oder unzulässig einstufen.",
+      "Restschuldversicherungen nicht pauschal empfehlen; Kosten, Ausschlüsse und Alternativen transparent ansprechen.",
+      "Vor Sondertilgungen prüfen, ob eine ausreichende Liquiditäts- und Instandhaltungsreserve erhalten bleibt.",
+      "Online-Rechnerwerte nicht als verbindliches Angebot oder sichere Kreditfähigkeit darstellen.",
+      "Bei jeder aktuellen Zinsangabe Datum, Quelle und zentrale Konditionsannahmen nennen.",
+      "Undatierte Zinsprognosen nicht als Entscheidungsgrundlage verwenden.",
+      "Für Konditionsvergleiche nur Angebote mit gleichen wesentlichen Eckdaten gegenüberstellen.",
+      "Bei endfälligen Darlehen Zinsrate und Sparrate gemeinsam darstellen.",
+      "Steuerliche Vorteile vermieteter Immobilien nur als prüfpflichtige Möglichkeit nennen.",
+      "Bei Mieten-oder-Kaufen-Vergleichen Transaktionskosten, Instandhaltung und Betrachtungsdauer einbeziehen.",
+      "Breite Nebenkostenquoten nicht ungeprüft verwenden; Einzelpositionen berechnen.",
+      "Aktuelle Förderprodukte ausschließlich anhand offizieller Programmseiten beantworten.",
+      "Die gesetzliche Informationspflicht der Bank vor Zinsbindungsende nicht als Pflicht zu einem günstigen Angebot darstellen.",
+      "Baukredit, Baugeld und Hauskredit nicht automatisch als verschiedene Produkttypen behandeln.",
+      "Variable Bonus- oder Provisionseinkünfte nicht ungeprüft zur dauerhaften Rate rechnen."
+    ],
+    "disclaimer_template": "Die Antwort bietet eine allgemeine Orientierung und ersetzt keine individuelle Finanzierungs-, Rechts- oder Steuerberatung. Konditionen und Förderregeln müssen aktuell geprüft werden.",
+    "fallback_response": "Dazu enthält diese Wissensbasis keine verlässlich aktuellen Angaben. Bitte prüfe die Information bei der zuständigen Bank, Förderstelle oder einer unabhängigen Fachberatung."
+  },
+  "retrieval_tags": [
+    "Baufinanzierung",
+    "Immobilienkredit",
+    "Hauskredit",
+    "Annuitätendarlehen",
+    "Volltilgerdarlehen",
+    "Bausparen",
+    "Bauspar-Kombikredit",
+    "KfW",
+    "Förderdarlehen",
+    "Forward-Darlehen",
+    "Anschlussfinanzierung",
+    "Eigenkapital",
+    "Beleihungsauslauf",
+    "Zinsbindung",
+    "Tilgung",
+    "Sondertilgung",
+    "Restschuld",
+    "Finanzierungsplan",
+    "Bankunterlagen",
+    "Kaufnebenkosten",
+    "Grunderwerbsteuer",
+    "Notarkosten",
+    "Grundbuchkosten",
+    "Maklerprovision",
+    "Grundschuld",
+    "Verkehrswert",
+    "Marktwert",
+    "Bonität",
+    "Kreditwürdigkeitsprüfung",
+    "Vollfinanzierung",
+    "100-Prozent-Finanzierung",
+    "Variables Darlehen",
+    "Vorfälligkeitsentschädigung",
+    "Kündigungsrecht",
+    "Finanzierungszusage",
+    "Private Immobilienfinanzierung",
+    "Gewerbliche Immobilienfinanzierung",
+    "Gewerbliche Wohnimmobilienfinanzierung",
+    "Gewerbeimmobilie",
+    "Mischobjekt",
+    "Teil-gewerbliche Finanzierung",
+    "Betriebsimmobilie",
+    "Wohnungsbaugesellschaft",
+    "Wohnungsbaugenossenschaft",
+    "Büroimmobilie",
+    "Handelsimmobilie",
+    "Mietvertragslaufzeit",
+    "Mieterbonität",
+    "Kapitaldienstfähigkeit",
+    "Drittverwendungsfähigkeit",
+    "Verbraucher",
+    "Unternehmer",
+    "Immobiliar-Verbraucherdarlehen",
+    "Verbraucherschutz",
+    "Baufinanzierung vs. Ratenkredit",
+    "Zweckbindung",
+    "Sollzins",
+    "Darlehenssumme",
+    "Kreditrate",
+    "Finanzierungsbestätigung",
+    "Finanzierungszertifikat",
+    "Auskunftei",
+    "SCHUFA-Selbstauskunft",
+    "Artikel 15 DSGVO",
+    "Artikel 16 DSGVO",
+    "Fälligkeitsmitteilung",
+    "Auflassungsvormerkung",
+    "Kaufpreisfälligkeit",
+    "Bereitstellungszinsen",
+    "Teilauszahlung",
+    "Gutachterkosten",
+    "Energieeffizienz",
+    "Sanierungsbedarf",
+    "Instandhaltungsrücklage",
+    "Risikolebensversicherung",
+    "Berufsunfähigkeitsversicherung",
+    "Restschuldversicherung",
+    "Baufinanzierungsrechner",
+    "Budgetrechner",
+    "Konditionsrechner",
+    "Annuitätenrechner",
+    "Mieten oder Kaufen",
+    "Nebenkostenrechner",
+    "Tilgungsdarlehen",
+    "Zinszahlungsdarlehen",
+    "Endfälliges Darlehen",
+    "Tilgungsersatz",
+    "Prolongation",
+    "Umschuldung",
+    "Anschlussdarlehen",
+    "Referenzzins",
+    "EURIBOR",
+    "Cap-Darlehen",
+    "Pfandbrief",
+    "Bereitstellungsfreie Zeit",
+    "Baunebenkosten",
+    "Bodengutachten",
+    "Erschließungskosten",
+    "Hausanschlüsse",
+    "Hausbankprinzip",
+    "KfW Antrag vor Vorhabensbeginn",
+    "Baukredit",
+    "Baugeld",
+    "Baudarlehen",
+    "Hypothekenzinsen",
+    "Zinsvergleich",
+    "Zinsprognose"
+  ],
+  "orientation_values": [
+    {
+      "topic": "Eigenkapital",
+      "orientation": "Häufig wird empfohlen, die Kaufnebenkosten aus Eigenmitteln zu zahlen und darüber hinaus ungefähr 20 bis 30 Prozent des Kaufpreises einzubringen.",
+      "not_a_rule": "Dies ist keine allgemeine Kreditvoraussetzung. Auch höhere oder niedrigere Finanzierungsanteile sind möglich, verändern aber regelmäßig Zins, Risiko und Tragbarkeit.",
+      "chatbot_instruction": "Nie behaupten, ein bestimmter Eigenkapitalanteil sei gesetzlich vorgeschrieben oder werde von jeder Bank verlangt."
+    },
+    {
+      "topic": "Anfängliche Tilgung",
+      "orientation": "Als verbreitete Orientierung werden mindestens etwa 2 Prozent Anfangstilgung genannt; 3 Prozent oder mehr können die Entschuldung beschleunigen, erhöhen aber die Monatsrate.",
+      "not_a_rule": "Der geeignete Tilgungssatz hängt von Sollzins, Alter, Einkommen, Zinsbindung, gewünschter Laufzeit und verfügbarem Puffer ab.",
+      "chatbot_instruction": "Nicht allein anhand eines Prozentsatzes empfehlen, sondern Laufzeit, Restschuld und Belastung gemeinsam erläutern."
+    },
+    {
+      "topic": "Rate im Verhältnis zum Einkommen",
+      "orientation": "Prozentgrenzen des Nettoeinkommens können eine erste Plausibilitätskontrolle sein, ersetzen aber keine individuelle Haushaltsrechnung.",
+      "not_a_rule": "Haushaltsgröße, Lebenshaltung, Unterhalt, weitere Kredite, Rücklagen, Instandhaltung und schwankende Einkommen können die tragbare Rate stark verändern.",
+      "chatbot_instruction": "Keine starre Einkommensquote als sichere oder verbindliche Belastungsgrenze ausgeben."
+    },
+    {
+      "topic": "Kaufnebenkosten",
+      "orientation": "Wohnglück nennt als grobe Spanne häufig etwa 10 bis 15 Prozent des Kaufpreises.",
+      "not_a_rule": "Die tatsächliche Höhe hängt unter anderem von Bundesland, Maklerbeteiligung, Kaufpreis und Vertragsgestaltung ab und kann deutlich abweichen.",
+      "chatbot_instruction": "Für eine konkrete Berechnung Grunderwerbsteuer, Notar, Grundbuch und Makler jeweils einzeln erfassen; die Spanne nicht pauschal auf jeden Kauf anwenden."
+    },
+    {
+      "topic": "Jährliche Sondertilgung",
+      "orientation": "Viele Angebote sehen vertragliche Sondertilgungsrechte in einer Größenordnung von etwa 5 bis 10 Prozent der anfänglichen Darlehenssumme pro Jahr vor.",
+      "not_a_rule": "Höhe, Bezugsgröße, Fristen und Kosten unterscheiden sich zwischen Verträgen. Es besteht ohne Vereinbarung kein allgemeiner Anspruch auf diese Quote.",
+      "chatbot_instruction": "Immer auf den konkreten Darlehensvertrag verweisen."
+    },
+    {
+      "topic": "Gesamtlaufzeit bis zur Entschuldung",
+      "orientation": "Als grobe Marktbeobachtung werden für Erst- und Anschlussfinanzierung zusammen häufig Zeiträume von etwa 25 bis 35 Jahren genannt.",
+      "not_a_rule": "Die tatsächliche Laufzeit ergibt sich aus Zins, Tilgung, Sondertilgungen, Anschlusskonditionen und Zahlungsunterbrechungen.",
+      "chatbot_instruction": "Keinen Zeitraum als ideal darstellen. Stattdessen den individuellen Entschuldungszeitpunkt und die Restschuld berechnen."
+    }
+  ],
+  "calculation_basics": [
+    {
+      "id": "total_cost",
+      "name": "Gesamtkosten",
+      "formula": "Gesamtkosten = Kaufpreis oder Baukosten + Nebenkosten + Zusatzkosten + Reserve",
+      "note": "Die einzubeziehenden Positionen unterscheiden sich nach Kauf, Neubau und Modernisierung."
+    },
+    {
+      "id": "loan_requirement",
+      "name": "Voraussichtlicher Darlehensbedarf",
+      "formula": "Darlehensbedarf = Gesamtkosten - eingesetztes Eigenkapital - sichere Zuschüsse",
+      "note": "Eine bewusst zurückbehaltene Liquiditätsreserve zählt nicht als eingesetztes Eigenkapital. Nicht verbindlich bewilligte Förderungen sollten nicht fest eingerechnet werden."
+    },
+    {
+      "id": "annuity_estimate",
+      "name": "Grobe anfängliche Annuität",
+      "formula": "Anfängliche Jahresrate ungefähr = Darlehensbetrag × (Sollzinssatz + anfänglicher Tilgungssatz)",
+      "monthly_formula": "Anfängliche Monatsrate ungefähr = anfängliche Jahresrate / 12",
+      "note": "Die Näherung eignet sich nur für eine erste Orientierung. Gebühren, Auszahlungsmodalitäten, tilgungsfreie Zeiten und mehrere Kreditbausteine können abweichen."
+    },
+    {
+      "id": "rough_loan_from_monthly_budget",
+      "name": "Grobe Darlehenshöhe aus der Monatsrate",
+      "formula": "Darlehen ungefähr = Monatsrate × 12 × 100 / (Sollzins in Prozent + anfängliche Tilgung in Prozent)",
+      "decimal_formula": "Darlehen ungefähr = Monatsrate × 12 / (Sollzins als Dezimalzahl + Tilgung als Dezimalzahl)",
+      "assumptions": [
+        "Annuitätendarlehen",
+        "Keine Gebühren oder tilgungsfreie Anlaufzeit",
+        "Konstanter Anfangszins",
+        "Nur erste Orientierung"
+      ]
+    },
+    {
+      "id": "loan_to_value",
+      "name": "Beleihungsauslauf",
+      "formula": "Beleihungsauslauf in Prozent = Darlehensbetrag / Beleihungswert × 100",
+      "note": "Der Beleihungswert ist eine bankseitige Bewertung und nicht automatisch mit Kaufpreis oder Verkehrswert identisch."
+    },
+    {
+      "id": "interest_only_payment",
+      "name": "Monatliche Zinszahlung beim endfälligen Darlehen",
+      "formula": "Monatliche Zinszahlung ungefähr = Darlehensbetrag × Sollzins als Dezimalzahl / 12",
+      "note": "Hinzu kommt regelmäßig eine Spar- oder Anlageleistung für die spätere Rückzahlung. Die Darlehensschuld sinkt während der Laufzeit nicht."
+    },
+    {
+      "id": "constant_principal_payment",
+      "name": "Rate beim Tilgungsdarlehen",
+      "formula": "Monatsrate = konstante monatliche Tilgung + Zinsen auf die jeweilige Restschuld",
+      "note": "Weil die Restschuld sinkt, verringert sich der Zinsanteil und damit die gesamte Rate im Zeitverlauf."
+    },
+    {
+      "id": "purchase_price_budget",
+      "name": "Grobe Kaufpreisableitung",
+      "formula": "Maximaler Kaufpreis ungefähr = Darlehensrahmen + einsetzbares Eigenkapital - Kaufnebenkosten - Modernisierung - Reserve",
+      "note": "Sind Kaufnebenkosten als Prozentsatz des Kaufpreises definiert, muss die Berechnung iterativ oder algebraisch gelöst werden."
+    }
+  ],
+  "security_and_credit_assessment": {
+    "ground_charge": {
+      "term": "Grundschuld",
+      "explanation": "Die Grundschuld ist ein im Grundbuch eingetragenes Grundpfandrecht, das der Bank regelmäßig als Sicherheit für das Immobiliendarlehen dient.",
+      "practical_effect": [
+        "Die Eintragung erfolgt typischerweise über eine notarielle Grundschuldbestellung.",
+        "Die Auszahlung kann von der ranggerechten Eintragung oder einer geeigneten Absicherung abhängig sein.",
+        "Bei schwerwiegendem Zahlungsverzug kann die Sicherheit nach den gesetzlichen und vertraglichen Voraussetzungen verwertet werden."
+      ],
+      "warning": "Grundschuld und persönliche Darlehensschuld sind rechtlich nicht identisch. Konkrete Sicherungszweckerklärungen und Vollstreckungsklauseln müssen im Vertrag geprüft werden."
+    },
+    "creditworthiness_factors": [
+      "Art, Höhe und Stabilität der Einkünfte",
+      "Bestehende Kredite, Unterhaltsverpflichtungen und sonstige regelmäßige Ausgaben",
+      "Verfügbares Eigenkapital und verbleibende Liquiditätsreserve",
+      "Wert, Zustand, Lage und Verwertbarkeit der Immobilie",
+      "Zusätzliche Sicherheiten",
+      "Kredithistorie und Informationen von Auskunfteien",
+      "Alter, voraussichtliche Einkommensentwicklung und geplante Darlehenslaufzeit"
+    ],
+    "chatbot_instruction": "Die tatsächlichen Kreditvergabekriterien sind institutsspezifisch. Der Chatbot darf aus einzelnen positiven Merkmalen keine Finanzierungszusage ableiten."
+  },
+  "transaction_process": [
+    {
+      "step": 1,
+      "name": "Budget und Belastungsgrenze ermitteln",
+      "result": "Maximaler Gesamtpreis und konservativ tragbare Monatsrate."
+    },
+    {
+      "step": 2,
+      "name": "Immobilie und Gesamtkosten prüfen",
+      "result": "Kaufpreis, Nebenkosten, Zustand, Zusatzinvestitionen und Reserve sind erfasst.",
+      "details": [
+        "Lage, Zustand, Energieeffizienz, Sanierungsbedarf und Marktwert berücksichtigen.",
+        "Notwendige Modernisierungen und einen Kostenpuffer in den Finanzierungsbedarf aufnehmen."
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Finanzierung strukturieren und Angebote vergleichen",
+      "result": "Eigenkapital, Fördermittel, Kreditbausteine, Zinsbindung, Tilgung und Flexibilität sind abgestimmt."
+    },
+    {
+      "step": 4,
+      "name": "Unterlagen vollständig einreichen",
+      "result": "Bank kann Bonität, Objekt und Sicherheiten abschließend prüfen."
+    },
+    {
+      "step": 5,
+      "name": "Finanzierungszusage und Darlehensunterlagen prüfen",
+      "result": "Konditionen, Auflagen, Auszahlungsbedingungen und Fristen sind belastbar geklärt.",
+      "details": [
+        "Vorläufige Bestätigung von verbindlicher objektbezogener Zusage unterscheiden.",
+        "Vorbehalte, Gültigkeit und Auszahlungsvoraussetzungen kontrollieren."
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Kaufvertrag und Grundschuld koordinieren",
+      "result": "Notarieller Kaufvertrag und Bestellung der Kreditsicherheit sind zeitlich abgestimmt.",
+      "details": [
+        "Notariellen Kaufvertrag, Belastungsvollmacht und Grundschuldbestellung abstimmen.",
+        "Kaufpreis erst nach Eintritt der vertraglichen Fälligkeit und entsprechender Mitteilung zahlen."
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Auszahlungsvoraussetzungen erfüllen",
+      "result": "Die Bank kann das Darlehen entsprechend Kaufvertrag oder Baufortschritt auszahlen."
+    },
+    {
+      "step": 8,
+      "name": "Tilgung, Fristen und Anschlussrisiken überwachen",
+      "result": "Sondertilgungen, Zinsbindungsende, Restschuld und Anschlussfinanzierung werden rechtzeitig geplant.",
+      "details": [
+        "Liquiditäts- und Instandhaltungsreserve fortführen.",
+        "Sondertilgungen, Tilgungssatzwechsel und Anschlussfinanzierung rechtzeitig prüfen."
+      ]
+    }
+  ],
+  "legal_cancellation_overview": {
+    "fixed_rate_after_ten_years": {
+      "rule": "Ein Darlehen mit gebundenem Sollzins kann grundsätzlich zehn Jahre nach vollständigem Empfang des Darlehens mit einer Frist von sechs Monaten gekündigt werden.",
+      "legal_basis": "§ 489 Absatz 1 Nummer 2 BGB",
+      "important_detail": "Bei einer späteren neuen Vereinbarung über Sollzins oder Rückzahlungszeit kann für die Fristberechnung dieser neue Vereinbarungszeitpunkt maßgeblich sein."
+    },
+    "end_of_fixed_interest_period": {
+      "rule": "Endet die Sollzinsbindung vor der vollständigen Rückzahlung und wird keine neue Zinsvereinbarung getroffen, besteht ein ordentliches Kündigungsrecht unter den gesetzlichen Voraussetzungen.",
+      "legal_basis": "§ 489 Absatz 1 Nummer 1 BGB"
+    },
+    "variable_rate": {
+      "rule": "Ein Darlehen mit veränderlichem Zinssatz kann jederzeit mit einer Kündigungsfrist von drei Monaten gekündigt werden.",
+      "legal_basis": "§ 489 Absatz 2 BGB"
+    },
+    "chatbot_warning": "Für konkrete Fristen sind Auszahlungsdatum, Vertragsänderungen, Darlehensart und Vertrag zu prüfen. Bei vorzeitiger Ablösung außerhalb kostenfreier Rechte kann eine Vorfälligkeitsentschädigung entstehen."
+  },
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-07-27",
+      "changes": [
+        "Erstellung der Wissensbasis auf Grundlage des Artikels von Stiftung Warentest."
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-07-27",
+      "changes": [
+        "Baufi24 als ergänzende Quelle aufgenommen.",
+        "Kaufnebenkosten, Grundschuld, Verkehrswert und Bonitätsprüfung ergänzt.",
+        "Vollfinanzierung und variables Darlehen ergänzt.",
+        "Ablauf von Budgetplanung bis Auszahlung strukturiert.",
+        "Faustregeln zu Eigenkapital und Tilgung mit Einschränkungen ergänzt.",
+        "Kündigungsregeln anhand von § 489 BGB präzisiert.",
+        "Neue FAQ-, Glossar-, Sicherheits- und Retrieval-Einträge ergänzt."
+      ]
+    },
+    {
+      "version": "1.2",
+      "date": "2026-07-27",
+      "changes": [
+        "Interhyp-Seite zur privaten und gewerblichen Immobilienfinanzierung aufgenommen.",
+        "Private, gewerbliche, gewerbliche Wohn- und gemischt genutzte Finanzierungen strukturiert.",
+        "Ertragsorientierte Risikoprüfung und spezialisierte Kreditgeber ergänzt.",
+        "Vergleichsmatrix zwischen privater und gewerblicher Finanzierung ergänzt.",
+        "Rechtliche Abgrenzung von Verbraucher, Unternehmer und Immobiliar-Verbraucherdarlehen präzisiert.",
+        "Neue Klassifizierungsfragen, FAQs, Glossarbegriffe und Sicherheitsregeln ergänzt."
+      ]
+    },
+    {
+      "version": "1.3",
+      "date": "2026-07-27",
+      "changes": [
+        "Wohnglück-Artikel zur Baufinanzierung aufgenommen.",
+        "Abgrenzung von Baufinanzierung und allgemeinem Ratenkredit ergänzt.",
+        "Objektprüfung um Lage, Zustand, Energieeffizienz, Sanierungsbedarf und Marktwert erweitert.",
+        "Prüfung und Berichtigung von Auskunfteiendaten ergänzt.",
+        "Vorläufige Finanzierungsbestätigung von verbindlicher objektbezogener Zusage abgegrenzt.",
+        "Notariellen Ablauf der Kaufpreisfälligkeit und Fälligkeitsmitteilung präzisiert.",
+        "Bereitstellungszinsen und weitere mögliche Finanzierungskosten ergänzt.",
+        "Rücklagenplanung nach dem Kauf und persönliche Risikoabsicherung ergänzt.",
+        "Neue Faustwerte ausschließlich als unverbindliche Orientierung hinterlegt.",
+        "FAQs, Glossar, Sicherheitsregeln und Retrieval-Tags erweitert."
+      ]
+    },
+    {
+      "version": "1.4",
+      "date": "2026-07-28",
+      "changes": [
+        "21 eindeutige Regionalimmobilien24-URLs geprüft; eine doppelte Baukredit-URL konsolidiert.",
+        "Wissensmodule für sechs Finanzierungs- und Vergleichsrechner ergänzt.",
+        "Tilgungsdarlehen und Zinszahlungsdarlehen als eigenständige Darlehensarten ergänzt.",
+        "Variables Darlehen um Referenzzins- und Cap-Darlehen-Hinweise erweitert.",
+        "Bausparvertrag um Phasen, Zuteilungslogik und weitere Prüfkriterien ergänzt.",
+        "Anschlussfinanzierung mit Prolongation, Umschuldung, Teilrückzahlung und Forward-Logik erweitert.",
+        "Zinsbildung durch Kapitalmarkt, Refinanzierung, Bankmarge, Bonität und Beleihungsauslauf strukturiert.",
+        "Mieten-oder-Kaufen-Modell mit finanziellen und nicht finanziellen Einflussgrößen ergänzt.",
+        "Kaufnebenkosten und Baunebenkosten getrennt und positionsweise erfasst.",
+        "Förderworkflow mit Hausbankprinzip und Antrag vor Vorhabensbeginn ergänzt.",
+        "Begriffseinordnung für Baukredit, Baugeld, Hauskredit und Baudarlehen ergänzt.",
+        "14 neue FAQ-Einträge, 11 Glossarbegriffe und zusätzliche Sicherheitsregeln ergänzt.",
+        "Dynamische Aktualisierungsregeln für Zinsen, Förderungen, Steuern und Recht ergänzt.",
+        "Zeitabhängige und werbliche Aussagen der Quellseiten bewusst nicht als dauerhaftes Wissen übernommen."
+      ]
+    }
+  ],
+  "financing_contexts": [
+    {
+      "id": "private_real_estate_financing",
+      "name": "Private Immobilienfinanzierung",
+      "practical_definition": "Finanzierung eines Immobilienvorhabens durch Privatpersonen, beispielsweise Kauf, Neubau oder umfangreiche Umbau- und Ausbaumaßnahmen.",
+      "typical_examples": [
+        "Selbst genutztes Einfamilienhaus",
+        "Eigentumswohnung zur eigenen Nutzung",
+        "Privater Anbau oder umfangreicher Umbau"
+      ],
+      "primary_assessment_focus": [
+        "Persönliches Einkommen und Ausgaben",
+        "Dauerhafte Tragbarkeit der Rate",
+        "Eigenkapital und Liquiditätsreserve",
+        "Objektwert und Kreditsicherheit"
+      ],
+      "warning": "Eine privat gehaltene Immobilie ist nicht in jedem Fall automatisch ein Verbrauchergeschäft; Zweck und Umfang einer wirtschaftlichen Tätigkeit sind mitentscheidend."
+    },
+    {
+      "id": "commercial_residential_financing",
+      "name": "Gewerbliche Wohnimmobilienfinanzierung",
+      "practical_definition": "Finanzierung von Wohnimmobilien, die einem Unternehmen oder einer Organisation zugeordnet sind und zur Erzielung von Einnahmen oder Gewinnen dienen.",
+      "typical_examples": [
+        "Wohnungsbestand einer Wohnungsgesellschaft",
+        "Wohnungsbauprojekt einer Genossenschaft",
+        "Mehrere Wohnobjekte im Betriebsvermögen eines Unternehmens"
+      ],
+      "primary_assessment_focus": [
+        "Nachhaltige Mieterträge",
+        "Leerstands- und Bewirtschaftungsrisiken",
+        "Unternehmensbonität",
+        "Portfolio- und Standortqualität",
+        "Projekt- und Kapitalstruktur"
+      ]
+    },
+    {
+      "id": "commercial_property_financing",
+      "name": "Finanzierung von Gewerbeimmobilien",
+      "practical_definition": "Finanzierung von Immobilien, die überwiegend betrieblich oder durch gewerbliche Mieter genutzt werden.",
+      "typical_examples": [
+        "Bürogebäude",
+        "Ladengeschäft oder Einkaufszentrum",
+        "Produktions-, Logistik- oder sonstige Betriebsimmobilie"
+      ],
+      "primary_assessment_focus": [
+        "Ertragslage und Kapitaldienstfähigkeit",
+        "Mietvertragslaufzeiten und Mieterbonität",
+        "Standort, Nutzungskonzept und Drittverwendungsfähigkeit",
+        "Unternehmens- und Branchenrisiko",
+        "Höhe und Struktur der Finanzierung"
+      ],
+      "lender_note": "Je nach Objekt und Komplexität kommen allgemeine Geschäftsbanken oder auf Gewerbeimmobilien spezialisierte Kreditgeber infrage."
+    },
+    {
+      "id": "mixed_use_property",
+      "name": "Gemischt oder teilgewerblich genutzte Immobilie",
+      "practical_definition": "Immobilie mit privater Wohnnutzung und gewerblicher Nutzung in demselben Objekt.",
+      "typical_examples": [
+        "Wohnhaus mit Ladengeschäft im Erdgeschoss",
+        "Eigenheim mit dauerhaft genutzten Praxis- oder Büroräumen",
+        "Gebäude mit selbst genutzter Wohnung und gewerblich vermieteten Flächen"
+      ],
+      "assessment_questions": [
+        "Wie groß sind Wohn- und Gewerbeanteil?",
+        "Wer nutzt oder mietet die gewerblichen Flächen?",
+        "Welcher Anteil des Kapitaldienstes hängt von betrieblichen Einnahmen ab?",
+        "Sind private und gewerbliche Teile rechtlich oder wirtschaftlich trennbar?",
+        "Welche Kreditgeber akzeptieren die konkrete Nutzungsmischung?"
+      ],
+      "warning": "Mischobjekte können je nach Kreditgeber und Nutzungsanteil wie eine private, teilgewerbliche oder vollständig gewerbliche Finanzierung behandelt werden."
+    }
+  ],
+  "legal_financing_classification": {
+    "consumer": {
+      "definition": "Nach § 13 BGB ist Verbraucher eine natürliche Person, die ein Rechtsgeschäft überwiegend außerhalb ihrer gewerblichen oder selbständigen beruflichen Tätigkeit abschließt.",
+      "legal_basis": "§ 13 BGB"
+    },
+    "entrepreneur": {
+      "definition": "Nach § 14 BGB handelt als Unternehmer, wer als natürliche oder juristische Person oder rechtsfähige Personengesellschaft ein Rechtsgeschäft in Ausübung einer gewerblichen oder selbständigen beruflichen Tätigkeit abschließt.",
+      "legal_basis": "§ 14 BGB"
+    },
+    "real_estate_consumer_loan": {
+      "definition": "Ein Immobiliar-Verbraucherdarlehensvertrag ist nach § 491 Absatz 3 BGB ein entgeltlicher Darlehensvertrag zwischen einem Unternehmer als Kreditgeber und einem Verbraucher als Kreditnehmer, der grundpfandrechtlich besichert ist oder dem Erwerb beziehungsweise Erhalt von Grundstücks- oder Gebäudeeigentum dient.",
+      "legal_basis": "§ 491 Absatz 3 BGB",
+      "selected_protections": [
+        "Vorvertragliche Informations- und Erläuterungspflichten nach § 491a BGB",
+        "Gesetzliche Anforderungen an die Kreditwürdigkeitsprüfung nach §§ 505a und 505b BGB",
+        "Je nach Vertragsfall gesetzliches Widerrufsrecht oder Bedenkzeit nach § 495 BGB"
+      ]
+    },
+    "classification_warning": "Die alltagssprachliche Bezeichnung privat oder gewerblich darf nicht allein an Eigennutzung, Vermietung oder der Gebäudeart festgemacht werden. Für die rechtliche Einordnung sind insbesondere Darlehensnehmer, Rechtsform und überwiegender Geschäftszweck relevant.",
+    "chatbot_instruction": "Bei Zweifeln keine verbindliche rechtliche Klassifizierung vornehmen. Stattdessen die relevanten Fakten abfragen und auf eine Prüfung durch Kreditgeber oder qualifizierte Rechtsberatung hinweisen."
+  },
+  "private_vs_commercial_comparison": [
+    {
+      "criterion": "Typischer Darlehensnehmer",
+      "private": "Natürliche Person mit überwiegend privatem Finanzierungszweck",
+      "commercial": "Unternehmen, Gesellschaft, Genossenschaft oder geschäftlich handelnde Person"
+    },
+    {
+      "criterion": "Typischer Verwendungszweck",
+      "private": "Kauf, Bau oder Umbau einer privat gehaltenen Immobilie",
+      "commercial": "Erwerb, Bau oder Bestand einer ertrags- oder betriebsorientierten Immobilie"
+    },
+    {
+      "criterion": "Schwerpunkt der Prüfung",
+      "private": "Haushaltsrechnung, persönliche Bonität, Eigenkapital und Objekt",
+      "commercial": "Ertragskraft, Kapitaldienst, Unternehmensbonität, Nutzung und Objekt"
+    },
+    {
+      "criterion": "Konditionsgestaltung",
+      "private": "Häufig stärker standardisierte Produkte",
+      "commercial": "Häufig individuellere Konditionen, Sicherheiten und Vertragsauflagen"
+    },
+    {
+      "criterion": "Darlehenshöhe",
+      "private": "Oft niedriger als bei größeren gewerblichen Projekten",
+      "commercial": "Bei Projekt- und Bestandsfinanzierungen häufig deutlich höher"
+    },
+    {
+      "criterion": "Kreditgeber",
+      "private": "Breiter Markt klassischer Baufinanzierer",
+      "commercial": "Je nach Projekt allgemeine Bank oder spezialisierter Gewerbeimmobilienfinanzierer"
+    },
+    {
+      "criterion": "Rechtlicher Schutzrahmen",
+      "private": "Kann unter die Vorschriften für Immobiliar-Verbraucherdarlehen fallen",
+      "commercial": "Verbraucherdarlehensschutz gilt regelmäßig nicht, wenn als Unternehmer gehandelt wird"
+    }
+  ],
+  "financing_classification_questions": [
+    "Wer soll Darlehensnehmer werden: Privatperson, Einzelunternehmen, Gesellschaft oder andere Organisation?",
+    "Wer wird Eigentümer der Immobilie?",
+    "Wird das Objekt selbst bewohnt, vermietet, betrieblich genutzt oder gemischt genutzt?",
+    "Welcher Flächenanteil entfällt auf Wohnen und welcher auf Gewerbe?",
+    "Dient das Vorhaben überwiegend privaten oder geschäftlichen Zwecken?",
+    "Werden mit der Immobilie dauerhaft Einnahmen oder betriebliche Gewinne erzielt?",
+    "Wie abhängig ist die Rückzahlung von Miet- oder Betriebserträgen?",
+    "Welche Mietvertragslaufzeiten, Leerstandsrisiken oder Mieterabhängigkeiten bestehen?",
+    "Gehört oder soll die Immobilie zum Betriebsvermögen gehören?",
+    "Liegt ein einzelnes Vorhaben oder eine umfangreiche, planmäßige Immobilientätigkeit vor?"
+  ],
+  "commercial_risk_assessment": {
+    "core_question": "Erwirtschaftet das Objekt oder das Unternehmen nachhaltig genug Mittel, um Zins, Tilgung, Betriebskosten und Risikopuffer zu tragen?",
+    "risk_factors": [
+      {
+        "factor": "Miet- oder Betriebserträge",
+        "explanation": "Höhe, Stabilität und Nachweisbarkeit der Einnahmen sind zentral."
+      },
+      {
+        "factor": "Mietvertragslaufzeit",
+        "explanation": "Kurze und mittlere Vertragslaufzeiten erhöhen die Unsicherheit über künftige Einnahmen und Anschlussvermietung."
+      },
+      {
+        "factor": "Mieter- und Branchenkonzentration",
+        "explanation": "Eine starke Abhängigkeit von einem einzelnen Mieter oder einer Branche kann das Ausfallrisiko erhöhen."
+      },
+      {
+        "factor": "Leerstand und Bewirtschaftung",
+        "explanation": "Nicht umlegbare Kosten, Instandhaltung und mögliche Leerstandsphasen müssen im Kapitaldienst berücksichtigt werden."
+      },
+      {
+        "factor": "Drittverwendungsfähigkeit",
+        "explanation": "Je spezieller ein Gebäude auf einen einzelnen Betrieb zugeschnitten ist, desto schwieriger kann eine alternative Nutzung oder Verwertung sein."
+      },
+      {
+        "factor": "Unternehmensbonität",
+        "explanation": "Bei betrieblich genutzten Immobilien fließen die wirtschaftliche Lage und Zukunftsfähigkeit des Unternehmens in die Beurteilung ein."
+      }
+    ],
+    "chatbot_warning": "Keine Rendite- oder Tragfähigkeitszusage allein aus aktuellen Mieten ableiten. Kosten, Vertragslaufzeiten, Leerstand, Steuern und Investitionen müssen einbezogen werden."
+  },
+  "baufinanzierung_vs_ratenkredit": {
+    "baufinanzierung": {
+      "purpose": "Regelmäßig zweckgebundene, langfristige Finanzierung für Kauf, Bau oder umfangreiche Modernisierung einer Immobilie.",
+      "security": "Typischerweise durch ein Grundpfandrecht, insbesondere eine Grundschuld, besichert.",
+      "typical_characteristics": [
+        "Hohe Darlehenssumme",
+        "Lange Laufzeit",
+        "Sollzinsbindung oder andere langfristige Zinsregelung",
+        "Auszahlung an objekt- und vertragsbezogene Voraussetzungen gebunden"
+      ]
+    },
+    "ratenkredit": {
+      "purpose": "Häufig frei verwendbarer oder für Konsumzwecke bestimmter Kredit ohne grundpfandrechtliche Besicherung.",
+      "typical_characteristics": [
+        "Meist geringere Darlehenssumme",
+        "Meist kürzere Laufzeit",
+        "Regelmäßig höherer Zinssatz als bei vergleichbar besicherten Immobilienkrediten"
+      ]
+    },
+    "chatbot_warning": "Die konkrete rechtliche Einordnung hängt vom Vertrag ab. Ein Ratenkredit kann für kleinere Maßnahmen geeignet sein, ist wegen Laufzeit und Zins aber nicht automatisch eine sinnvolle Alternative zur Immobilienfinanzierung."
+  },
+  "property_due_diligence_for_financing": {
+    "purpose": "Erkennen, welche objektspezifischen Faktoren Darlehensbedarf, Tragbarkeit, Bankbewertung und spätere Wiederverkäuflichkeit beeinflussen.",
+    "checks": [
+      {
+        "area": "Lage und Marktgängigkeit",
+        "questions": [
+          "Wie gut ist die Immobilie langfristig vermiet- oder verkäuflich?",
+          "Gibt es strukturelle, infrastrukturelle oder standortbezogene Risiken?"
+        ]
+      },
+      {
+        "area": "Baulicher Zustand",
+        "questions": [
+          "Welche Reparaturen sind kurzfristig erforderlich?",
+          "Gibt es Hinweise auf Feuchtigkeit, Dach-, Leitungs-, Heizungs- oder Tragwerksschäden?"
+        ]
+      },
+      {
+        "area": "Energieeffizienz",
+        "questions": [
+          "Welche laufenden Energiekosten sind zu erwarten?",
+          "Sind energetische Sanierungen technisch oder regulatorisch absehbar?"
+        ]
+      },
+      {
+        "area": "Sanierungs- und Modernisierungsbedarf",
+        "questions": [
+          "Welche Maßnahmen sind notwendig und welche nur optional?",
+          "Sind realistische Angebote, Zeitpuffer und Kostenreserven vorhanden?"
+        ]
+      },
+      {
+        "area": "Marktwert und Kaufpreis",
+        "questions": [
+          "Ist der Kaufpreis mit vergleichbaren Objekten und dem Zustand plausibel?",
+          "Wie weicht die Bankbewertung vom Kaufpreis ab?"
+        ]
+      }
+    ],
+    "chatbot_instruction": "Keine technische Gebäudebewertung simulieren. Bei erkennbaren Risiken eine Besichtigung durch geeignete Fachleute und belastbare Kostenschätzungen empfehlen."
+  },
+  "credit_application_readiness": {
+    "recommended_actions": [
+      {
+        "action": "Eigene Auskunfteiendaten prüfen",
+        "details": "Rechtzeitig eine Auskunft über gespeicherte personenbezogene Daten einholen und nachweislich falsche oder unvollständige Angaben berichtigen lassen."
+      },
+      {
+        "action": "Einkommens- und Vermögensnachweise aktualisieren",
+        "details": "Gehaltsabrechnungen, Steuerunterlagen, Eigenkapitalnachweise und Angaben zu bestehenden Verpflichtungen vollständig und konsistent vorbereiten."
+      },
+      {
+        "action": "Kurzfristige Schulden und Dispositionskredite bewerten",
+        "details": "Hohe oder dauerhaft genutzte kurzfristige Kredite können die Haushaltsrechnung belasten. Eine Ablösung ist nur sinnvoll, wenn Gebühren, Reserve und Gesamtbelastung sorgfältig geprüft wurden."
+      },
+      {
+        "action": "Keine neuen Verpflichtungen kurz vor der Prüfung eingehen",
+        "details": "Neue Ratenkäufe, Kredite oder Bürgschaften können die Tragbarkeit und Kreditentscheidung beeinflussen."
+      }
+    ],
+    "data_rights": {
+      "access": "Grundsätzliches Auskunftsrecht nach Artikel 15 DSGVO",
+      "correction": "Recht auf Berichtigung unrichtiger Daten nach Artikel 16 DSGVO",
+      "warning": "Berechtigte negative Informationen dürfen nicht verschwiegen oder unrechtmäßig entfernt werden. Der Chatbot hilft nur bei der Prüfung und Korrektur falscher Daten."
+    }
+  },
+  "financing_confirmation": {
+    "definition": "Schriftliche Erklärung einer Bank, eines Vermittlers oder eines anderen Finanzierungsanbieters, dass ein bestimmter Finanzierungsrahmen grundsätzlich darstellbar sein kann oder bereits zugesagt wurde.",
+    "types": [
+      {
+        "type": "Vorläufige oder unverbindliche Bestätigung",
+        "characteristics": [
+          "Kann auf einer ersten Haushalts- und Bonitätsprüfung beruhen.",
+          "Steht häufig unter Vorbehalt der vollständigen Unterlagen und Objektprüfung.",
+          "Ist keine sichere Auszahlungsgarantie."
+        ]
+      },
+      {
+        "type": "Objektbezogene verbindliche Finanzierungszusage",
+        "characteristics": [
+          "Bezieht sich auf das konkrete Vorhaben und den konkreten Darlehensnehmer.",
+          "Enthält dennoch Bedingungen und Auszahlungsvoraussetzungen, die erfüllt werden müssen.",
+          "Der genaue rechtliche Bindungsumfang ergibt sich nur aus dem Dokument und den Vertragsunterlagen."
+        ]
+      }
+    ],
+    "checklist": [
+      "Wer hat die Bestätigung ausgestellt?",
+      "Ist sie ausdrücklich verbindlich oder unverbindlich?",
+      "Auf welches Objekt und welchen Betrag bezieht sie sich?",
+      "Welche Vorbehalte und Bedingungen gelten?",
+      "Wie lange ist sie gültig?",
+      "Ist die Objektbewertung abgeschlossen?",
+      "Sind sämtliche Bonitäts- und Eigenkapitalnachweise akzeptiert?",
+      "Welche Auszahlungsvoraussetzungen bleiben offen?"
+    ],
+    "chatbot_warning": "Die Begriffe Finanzierungsbestätigung, Finanzierungszertifikat und Zusage werden am Markt nicht immer einheitlich verwendet. Nie allein aus der Überschrift auf eine rechtlich bindende Kreditzusage schließen."
+  },
+  "financing_cost_components": [
+    {
+      "id": "interest_cost",
+      "name": "Sollzinsen",
+      "description": "Preis für die Nutzung des ausgezahlten Darlehensbetrags.",
+      "comparison_note": "Für den Angebotsvergleich zusätzlich den effektiven Jahreszins, die Restschuld und die Gesamtlaufzeit berücksichtigen."
+    },
+    {
+      "id": "provision_interest",
+      "name": "Bereitstellungszinsen",
+      "description": "Mögliche Zinsen auf zugesagte, aber nach Ablauf einer vertraglich bereitstellungsfreien Zeit noch nicht abgerufene Darlehensteile.",
+      "relevance": [
+        "Besonders bei Neubau, Bauträgerkauf und gestaffelten Auszahlungen relevant.",
+        "Bauverzögerungen können die Kosten erhöhen."
+      ],
+      "questions_to_ask": [
+        "Wie lang ist die bereitstellungsfreie Zeit?",
+        "Ab wann und in welcher Höhe fallen Bereitstellungszinsen an?",
+        "Gelten sie für den gesamten oder nur den noch nicht ausgezahlten Betrag?"
+      ]
+    },
+    {
+      "id": "partial_disbursement_cost",
+      "name": "Kosten oder Zuschläge für Teilauszahlungen",
+      "description": "Bei mehreren Auszahlungsraten können je nach Vertrag zusätzliche Kosten oder organisatorische Anforderungen bestehen.",
+      "warning": "Nur berücksichtigen, wenn sie im konkreten Angebot wirksam vereinbart und zulässig sind."
+    },
+    {
+      "id": "valuation_cost",
+      "name": "Bewertungs- oder Gutachterkosten",
+      "description": "Für Objektbewertungen können abhängig vom Anlass und Auftrag Kosten entstehen.",
+      "warning": "Nicht jedes Entgelt, das eine Bank im Zusammenhang mit ihrer eigenen Sicherheitenbewertung verlangt, ist automatisch zulässig."
+    },
+    {
+      "id": "early_repayment_compensation",
+      "name": "Vorfälligkeitsentschädigung",
+      "description": "Möglicher Ausgleich bei vorzeitiger Ablösung eines festverzinslichen Darlehens, wenn kein kostenfreies Kündigungs- oder Rückzahlungsrecht greift."
+    },
+    {
+      "id": "notary_land_registry",
+      "name": "Notar- und Grundbuchkosten",
+      "description": "Kosten des Immobilienerwerbs und der Bestellung beziehungsweise Eintragung der Kreditsicherheit; sie sind von den laufenden Kreditzinsen zu unterscheiden."
+    },
+    {
+      "id": "fee_legality_check",
+      "name": "Sonstige Bankentgelte",
+      "description": "Preisverzeichnisse können weitere Entgelte nennen. Deren Anwendbarkeit und rechtliche Zulässigkeit müssen einzeln geprüft werden.",
+      "chatbot_instruction": "Keine pauschale Aussage treffen, ein bestimmtes Bankentgelt sei immer zulässig oder immer unzulässig."
+    }
+  ],
+  "purchase_price_due_process": {
+    "principle": "Der Kaufpreis sollte regelmäßig erst gezahlt werden, wenn der vertraglich vorgesehene Schutz des Erwerbs hergestellt ist und die Notarin oder der Notar die Fälligkeit mitgeteilt hat.",
+    "typical_conditions": [
+      "Erforderliche Genehmigungen liegen vor.",
+      "Eine Auflassungsvormerkung zugunsten der Käuferseite ist eingetragen.",
+      "Die Löschung nicht zu übernehmender Grundbuchbelastungen ist gesichert.",
+      "Ein mögliches gemeindliches Vorkaufsrecht steht dem Erwerb nicht entgegen."
+    ],
+    "sequence": [
+      "Notariellen Kaufvertrag beurkunden lassen.",
+      "Notariat veranlasst und kontrolliert die vereinbarten Sicherungsschritte.",
+      "Fälligkeitsmitteilung abwarten.",
+      "Kaufpreis innerhalb der vertraglichen Frist zahlen.",
+      "Auszahlung der Bank rechtzeitig mit der Fälligkeit koordinieren.",
+      "Übergabe und Eigentumsumschreibung nach den vertraglichen Voraussetzungen."
+    ],
+    "chatbot_warning": "Keine Zahlung vor der vertraglich vorgesehenen Fälligkeit empfehlen. Sonderfälle müssen mit dem Notariat und der finanzierenden Bank abgestimmt werden."
+  },
+  "personal_financing_risk_protection": {
+    "goal": "Prüfen, wie die Finanzierung bei Tod, längerer Krankheit, Arbeitsunfähigkeit, Berufsunfähigkeit oder Einkommensausfall getragen werden kann.",
+    "risk_review": [
+      "Wie stark hängt die Rate vom Einkommen einer einzelnen Person ab?",
+      "Welche gesetzlichen, betrieblichen und privaten Absicherungen bestehen bereits?",
+      "Wie lange reichen Liquiditätsreserven bei Einkommensausfall?",
+      "Soll die Restschuld im Todesfall ganz oder teilweise abgedeckt werden?",
+      "Welche Leistungsausschlüsse, Karenzzeiten und Laufzeiten gelten?"
+    ],
+    "possible_instruments_to_review": [
+      {
+        "instrument": "Risikolebensversicherung",
+        "possible_role": "Kann Hinterbliebene im Todesfall mit einer vereinbarten Summe absichern."
+      },
+      {
+        "instrument": "Berufsunfähigkeitsversicherung",
+        "possible_role": "Kann bei bedingungsgemäßer Berufsunfähigkeit eine laufende Rente leisten."
+      },
+      {
+        "instrument": "Arbeitsunfähigkeitsbezogene Leistungen",
+        "possible_role": "Je nach Vertrag zeitlich begrenzte Leistungen bei längerer Arbeitsunfähigkeit."
+      },
+      {
+        "instrument": "Restschuldversicherung",
+        "possible_role": "Soll Kreditraten oder Restschuld bei definierten Ereignissen absichern.",
+        "warning": "Häufig teuer und mit Leistungsausschlüssen. Nicht ungeprüft als notwendigen Bestandteil der Baufinanzierung empfehlen."
+      }
+    ],
+    "chatbot_instruction": "Nur den Absicherungsbedarf erklären, keine konkrete Versicherung oder Deckungssumme ohne vollständige Bedarfsanalyse empfehlen."
+  },
+  "source_coverage_regionalimmobilien24": {
+    "reviewed_unique_urls": 21,
+    "duplicate_count_in_user_list": 1,
+    "coverage": [
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/baufinanzierung-rechner/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/budgetrechner/",
+        "status": "content_from_indexed_regional_mirror"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/konditionsrechner/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/annuitaetendarlehen/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/mieten-oder-kaufen-rechner/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/nebenkostenrechner/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/zinszahlungsdarlehen/",
+        "status": "content_from_indexed_regional_mirror"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/variables-darlehen/",
+        "status": "content_from_indexed_regional_mirror"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/bauspardarlehen/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/baukredit/",
+        "status": "content_from_indexed_regional_mirror"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/anschlussfinanzierung/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/hauskauf-finanzierung/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/immobilie-finanzieren/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/hausfinanzierung/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/baugeld/",
+        "status": "content_from_indexed_regional_mirror"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/hauskredit/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/foerderung/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/bauzinsen/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/aktuelle-hypothekenzinsen/",
+        "status": "canonical_or_indexed_content_reviewed"
+      },
+      {
+        "url": "https://www.regionalimmobilien24.de/baufinanzierung/faq-haeufige-fragen/",
+        "status": "faq_page_not_independently_retrievable"
+      }
+    ],
+    "excluded_content_types": [
+      "Werbeaussagen und Vermittlungsversprechen",
+      "Nicht belegte Zinsprognosen",
+      "Undatierte oder veraltete aktuelle Zinswerte",
+      "Veraltete Förderbeträge und Einkommensgrenzen",
+      "Regional wiederholte Inhalte ohne zusätzlichen fachlichen Mehrwert"
+    ]
+  },
+  "calculator_knowledge": [
+    {
+      "id": "construction_finance_calculator",
+      "name": "Baufinanzierungsrechner",
+      "purpose": "Ermittelt aus Objektkosten, Eigenkapital und Darlehenskonditionen einen ersten Finanzierungsverlauf.",
+      "typical_inputs": [
+        "Kaufpreis oder Baukosten",
+        "Modernisierungs- und Zusatzkosten",
+        "Kauf- oder Baunebenkosten",
+        "Einsetzbares Eigenkapital",
+        "Sollzins",
+        "Anfängliche Tilgung",
+        "Sollzinsbindung",
+        "Sondertilgungen"
+      ],
+      "typical_outputs": [
+        "Voraussichtlicher Darlehensbedarf",
+        "Anfängliche Monatsrate",
+        "Zins- und Tilgungsanteile",
+        "Restschuld zum Ende der Sollzinsbindung",
+        "Zinskosten im Betrachtungszeitraum",
+        "Geschätzte Gesamtlaufzeit"
+      ],
+      "best_use": [
+        "Auswirkungen unterschiedlicher Tilgungen vergleichen",
+        "Sondertilgungen simulieren",
+        "Zins- und Laufzeitszenarien vergleichen"
+      ],
+      "limitations": [
+        "Keine verbindliche Bankkondition",
+        "Bildet individuelle Kreditvergaberegeln nur teilweise ab",
+        "Aktuelle Zinssätze und Nebenkostenannahmen müssen geprüft werden"
+      ]
+    },
+    {
+      "id": "budget_calculator",
+      "name": "Budgetrechner",
+      "purpose": "Schätzt aus Haushaltsüberschuss und Eigenmitteln den möglichen Darlehensrahmen beziehungsweise Kaufpreis.",
+      "typical_inputs": [
+        "Regelmäßiges monatliches Nettoeinkommen",
+        "Regelmäßige und auf den Monat umgelegte unregelmäßige Ausgaben",
+        "Künftige Wohnnebenkosten und Instandhaltungsrücklage",
+        "Sicherheits- und Liquiditätspuffer",
+        "Einsetzbares Eigenkapital",
+        "Annahme für Sollzins und Anfangstilgung",
+        "Geschätzte Nebenkosten"
+      ],
+      "typical_outputs": [
+        "Konservativ tragbare Monatsrate",
+        "Grobe maximale Darlehenssumme",
+        "Grobe maximale Gesamtkosten oder Kaufpreisspanne"
+      ],
+      "income_handling": [
+        "Variable Boni und Provisionen nicht als sichere Basiseinnahme ansetzen.",
+        "Unsichere Einnahmen eher für freiwillige Sondertilgungen vorsehen.",
+        "Elternzeit, Ruhestand oder absehbare Einkommensänderungen simulieren."
+      ],
+      "limitations": [
+        "Banken verwenden eigene Haushalts- und Lebenshaltungspauschalen.",
+        "Eine rechnerisch mögliche Rate kann persönlich zu knapp sein.",
+        "Nebenkosten als Prozentsatz des Kaufpreises können eine iterative Berechnung erfordern."
+      ]
+    },
+    {
+      "id": "conditions_calculator",
+      "name": "Konditionsrechner",
+      "purpose": "Zeigt einen indikativen Markt- oder Beispielzins anhand weniger Finanzierungsparameter.",
+      "typical_inputs": [
+        "Darlehensbetrag",
+        "Kaufpreis oder Objektwert",
+        "Eigenkapital",
+        "Sollzinsbindung",
+        "Tilgung",
+        "Objektart, Nutzung und Lage"
+      ],
+      "typical_outputs": [
+        "Indikativer Soll- oder Effektivzins",
+        "Orientierende Monatsrate",
+        "Mögliche Konditionsspanne"
+      ],
+      "pricing_factors_not_fully_captured": [
+        "Bankindividuelle Objektbewertung",
+        "Beleihungswert und Beleihungsauslauf",
+        "Beschäftigung, Einkommen und Haushaltsrechnung",
+        "Weitere Kredite und Leasingverträge",
+        "Spezielle Kreditvergabepolitik des Instituts",
+        "Auszahlungs- und Bereitstellungsbedingungen"
+      ],
+      "limitations": [
+        "Kein persönliches Angebot",
+        "Zinslisten unterstellen häufig sehr gute Bonität und Standardobjekte",
+        "Ergebnisse verschiedener Rechner können wegen abweichender Annahmen nicht direkt vergleichbar sein"
+      ]
+    },
+    {
+      "id": "annuity_calculator",
+      "name": "Annuitätenrechner",
+      "purpose": "Simuliert die Entwicklung eines Annuitätendarlehens mit gleichbleibender Rate.",
+      "typical_inputs": [
+        "Darlehensbetrag",
+        "Sollzins",
+        "Anfangstilgung oder gewünschte Rate",
+        "Zinsbindung",
+        "Sondertilgungen"
+      ],
+      "typical_outputs": [
+        "Monatsrate",
+        "Tilgungsplan",
+        "Restschuld",
+        "Zinskosten",
+        "Voraussichtliche Laufzeit"
+      ],
+      "key_interpretation": "Eine geringe Rate kann eine hohe Restschuld und sehr lange Gesamtlaufzeit verdecken. Die Restschuld zum Zinsbindungsende ist deshalb ein zentrales Ergebnis."
+    },
+    {
+      "id": "rent_or_buy_calculator",
+      "name": "Mieten-oder-Kaufen-Rechner",
+      "purpose": "Vergleicht die langfristige finanzielle Entwicklung von Miete und Eigentum unter einheitlichen Objekt- und Zeitannahmen.",
+      "typical_inputs": [
+        "Miete eines vergleichbaren Objekts",
+        "Kaufpreis und Kaufnebenkosten",
+        "Eigenkapital",
+        "Sollzins, Tilgung und Anschlusszinsannahmen",
+        "Instandhaltung und nicht umlagefähige Eigentümerkosten",
+        "Mietsteigerung",
+        "Wertentwicklung der Immobilie",
+        "Rendite einer alternativen Anlage des Eigenkapitals",
+        "Betrachtungszeitraum",
+        "Mögliche Verkaufs- und Umzugskosten"
+      ],
+      "typical_outputs": [
+        "Kumulierte Wohnkosten",
+        "Entwicklung der Restschuld",
+        "Vermögensaufbau durch Tilgung",
+        "Alternativvermögen der Mietseite",
+        "Sensitivität gegenüber Annahmen"
+      ],
+      "limitations": [
+        "Das Ergebnis hängt stark von nicht sicher prognostizierbaren Entwicklungen ab.",
+        "Nur vergleichbare Objekte und Lebenssituationen gegenüberstellen.",
+        "Flexibilität, persönlicher Nutzen und Standortbindung sind nicht rein finanziell messbar."
+      ]
+    },
+    {
+      "id": "ancillary_cost_calculator",
+      "name": "Nebenkostenrechner",
+      "purpose": "Erfasst Kaufnebenkosten und gegebenenfalls zusätzliche Baukosten separat vom Objektpreis.",
+      "typical_inputs": [
+        "Kaufpreis oder Grundstückspreis",
+        "Bundesland und aktueller Grunderwerbsteuersatz",
+        "Maklerbeteiligung und vereinbarte Provision",
+        "Notar- und Grundbuchannahmen",
+        "Grundschuld- und Finanzierungskosten",
+        "Planungs-, Genehmigungs-, Erschließungs- und Bauzusatzkosten"
+      ],
+      "typical_outputs": [
+        "Aufgeschlüsselte Kaufnebenkosten",
+        "Geschätzte Baunebenkosten",
+        "Gesamtprojektkosten",
+        "Zusätzlicher Eigenkapital- oder Finanzierungsbedarf"
+      ],
+      "limitations": [
+        "Keine pauschale Quote deckt jedes Vorhaben ab.",
+        "Steuern und Maklerkosten sind regional und vertraglich unterschiedlich.",
+        "Baunebenkosten müssen mit Verträgen und Angeboten abgeglichen werden."
+      ]
+    }
+  ],
+  "follow_on_financing": {
+    "definition": "Weiterfinanzierung der offenen Restschuld nach Ende der bisherigen Sollzinsbindung.",
+    "preparation": [
+      "Restschuld und Ende der Sollzinsbindung frühzeitig feststellen.",
+      "Eigene Bonitäts- und Objektunterlagen aktualisieren.",
+      "Neue tragbare Rate, Tilgung und gewünschten Entschuldungszeitpunkt bestimmen.",
+      "Prolongation, Umschuldung und mögliche Teilrückzahlung vergleichen.",
+      "Forward-Angebote nur mit Szenarien für steigende, gleichbleibende und fallende Zinsen bewerten."
+    ],
+    "options": [
+      {
+        "id": "prolongation",
+        "name": "Prolongation",
+        "description": "Neue Zinsvereinbarung mit dem bisherigen Kreditgeber.",
+        "advantages": [
+          "Weniger organisatorischer Aufwand",
+          "Grundschuld muss häufig nicht übertragen werden",
+          "Objekt und Darlehen sind dem Kreditgeber bereits bekannt"
+        ],
+        "disadvantages": [
+          "Nicht automatisch die günstigste Marktoption",
+          "Bestehende Vertragsbedingungen ändern sich nicht ohne Verhandlung"
+        ]
+      },
+      {
+        "id": "refinancing",
+        "name": "Umschuldung",
+        "description": "Anschlussdarlehen bei einem anderen Kreditgeber.",
+        "advantages": [
+          "Breiter Konditionsvergleich",
+          "Möglichkeit, Vertragsbedingungen neu zu gestalten"
+        ],
+        "disadvantages": [
+          "Neue Kredit- und Objektprüfung",
+          "Aufwand und mögliche Kosten für Abtretung oder Änderung der Grundschuld"
+        ]
+      },
+      {
+        "id": "partial_repayment",
+        "name": "Teilrückzahlung mit kleinerer Restfinanzierung",
+        "description": "Ein Teil der Restschuld wird aus verfügbarem Kapital zurückgezahlt; nur der verbleibende Betrag wird weiterfinanziert.",
+        "advantages": [
+          "Geringerer Beleihungsauslauf möglich",
+          "Niedrigere Zins- und Ratenbelastung"
+        ],
+        "disadvantages": [
+          "Liquiditätsreserve darf nicht aufgebraucht werden",
+          "Alternativverwendung des Kapitals ist zu berücksichtigen"
+        ]
+      }
+    ],
+    "legal_information": {
+      "rule": "Bei einem Verbraucherdarlehen mit endender Sollzinsbindung muss der Kreditgeber spätestens drei Monate vorher mitteilen, ob er zu einer neuen Sollzinsbindung bereit ist. Ist er dazu bereit, muss die Information den zu diesem Zeitpunkt angebotenen Sollzins enthalten.",
+      "legal_basis": "§ 493 Absatz 1 BGB",
+      "clarification": "Die Informationspflicht ist keine Garantie für ein wettbewerbsfähiges Angebot und keine Pflicht, die Finanzierung in jedem Fall fortzuführen."
+    },
+    "forward_loan": {
+      "description": "Zukünftiges Anschlussdarlehen, das vor Ablauf der laufenden Zinsbindung vertraglich vereinbart wird.",
+      "trade_off": "Zinssicherheit steht einem möglichen Forward-Aufschlag, der Abnahmebindung und dem Risiko später fallender Marktzinsen gegenüber.",
+      "time_warning": "Mögliche Vorlaufzeiten unterscheiden sich nach Anbieter und Markt. Keine feste Monatsgrenze als allgemeingültig ausgeben."
+    }
+  },
+  "mortgage_interest_knowledge": {
+    "definitions": {
+      "construction_interest": "Umgangssprachliche Bezeichnung für den Zins einer Immobilienfinanzierung.",
+      "mortgage_interest": "Traditionelle Bezeichnung für Zinsen grundpfandrechtlich besicherter Immobilienkredite. In der Praxis wird meist eine Grundschuld und nicht zwingend eine Hypothek eingetragen."
+    },
+    "market_factors": [
+      "Langfristige Kapitalmarktzinsen",
+      "Refinanzierungskosten der Bank",
+      "Renditen von Pfandbriefen und anderen langfristigen Refinanzierungsinstrumenten",
+      "Erwartungen zu Inflation, Konjunktur und Geldpolitik",
+      "Wettbewerb und Refinanzierungsstrategie des Kreditgebers"
+    ],
+    "individual_factors": [
+      "Bonität und Haushaltsüberschuss",
+      "Stabilität und Art des Einkommens",
+      "Objektart, Nutzung, Zustand und Marktgängigkeit",
+      "Beleihungswert und Beleihungsauslauf",
+      "Darlehenshöhe",
+      "Sollzinsbindung",
+      "Anfangstilgung",
+      "Auszahlung, bereitstellungsfreie Zeit und sonstige Vertragsbedingungen"
+    ],
+    "pricing_model": "Individuelle Kondition vereinfacht = Refinanzierungskosten + Bankmarge + objekt- und personenbezogene Risikoaufschläge + Kosten beziehungsweise Wert weiterer Vertragsmerkmale.",
+    "pfandbrief_note": "Die gesetzliche Beleihungsgrenze für die Deckung von Hypothekenpfandbriefen ist von kundenspezifischen Zinsstaffeln zu unterscheiden. Kreditgeber können eigene Beleihungsauslauf-Stufen und Risikomodelle verwenden.",
+    "comparison_rules": [
+      "Zinsangaben immer mit Datum versehen.",
+      "Sollzinsbindung und Beleihungsauslauf nennen.",
+      "Sollzins nicht isoliert vom effektiven Jahreszins vergleichen.",
+      "Restschuld, Tilgung, Sondertilgung und Bereitstellung mit einbeziehen.",
+      "Zinsprognosen als unsicher kennzeichnen."
+    ],
+    "dynamic_data_required": true
+  },
+  "rent_or_buy_decision": {
+    "principle": "Mieten oder Kaufen ist eine Szenarioentscheidung und kein Vergleich zwischen Monatsmiete und Kreditrate allein.",
+    "financial_factors": [
+      "Kaufpreis und Kaufnebenkosten",
+      "Eigenkapital und alternative Kapitalrendite",
+      "Zins, Tilgung und mögliche Anschlussfinanzierung",
+      "Instandhaltung und nicht umlagefähige Eigentümerkosten",
+      "Mietniveau und mögliche Mietsteigerungen",
+      "Wertentwicklung der Immobilie",
+      "Verkaufs- und erneute Erwerbskosten",
+      "Betrachtungszeitraum"
+    ],
+    "non_financial_factors": [
+      "Wahrscheinliche Wohndauer",
+      "Berufliche und familiäre Flexibilität",
+      "Gestaltungsfreiheit",
+      "Verantwortung für Reparaturen",
+      "Standort- und Vermögenskonzentrationsrisiko"
+    ],
+    "interpretation": [
+      "Kurze Haltedauern belasten den Kauf wegen hoher Transaktionskosten.",
+      "Tilgung ist Vermögensaufbau, Zinsen und Nebenkosten sind laufende Kosten.",
+      "Auch Mieter können Eigenkapital und monatliche Kostendifferenzen investieren.",
+      "Ergebnisse müssen mit mehreren Annahmen zur Wert-, Miet- und Zinsentwicklung getestet werden."
+    ],
+    "chatbot_warning": "Keine sichere Wertsteigerung oder Anlagerendite unterstellen und keine pauschale Empfehlung allein aus einem Rechnerwert ableiten."
+  },
+  "purchase_and_construction_ancillary_costs": {
+    "purchase_costs": [
+      {
+        "category": "Grunderwerbsteuer",
+        "note": "Bundeslandabhängig und vor jeder Berechnung aktuell zu prüfen."
+      },
+      {
+        "category": "Notarkosten",
+        "note": "Unter anderem Kaufvertrag und grundbuchbezogene Erklärungen."
+      },
+      {
+        "category": "Grundbuchkosten",
+        "note": "Unter anderem Vormerkung, Eigentumsumschreibung und Grundschuld."
+      },
+      {
+        "category": "Maklerkosten",
+        "note": "Nur bei Maklerbeteiligung; Höhe und Verteilung sind vertrags- und fallabhängig."
+      },
+      {
+        "category": "Objektprüfung und Beratung",
+        "note": "Zum Beispiel Gutachten, technische Prüfung oder Rechtsberatung."
+      },
+      {
+        "category": "Modernisierung, Umzug und Ausstattung",
+        "note": "Nicht klassische Erwerbsnebenkosten, aber Teil des Gesamtbudgets."
+      }
+    ],
+    "construction_costs": [
+      "Grundstück und Erwerbsnebenkosten",
+      "Bodengutachten und Grundstücksvorbereitung",
+      "Planung, Architektur und Statik",
+      "Genehmigungen und behördliche Gebühren",
+      "Vermessung",
+      "Erschließung und Hausanschlüsse",
+      "Baustrom und Bauwasser",
+      "Bauherren- und Bauversicherungen",
+      "Baubegleitung und Qualitätskontrolle",
+      "Sonderwünsche und Bemusterung",
+      "Außenanlagen, Zufahrt, Garten, Garage oder Carport",
+      "Bereitstellungszinsen bei verzögerter Auszahlung",
+      "Reserve für Preissteigerungen, Verzögerungen und Nachträge"
+    ],
+    "contract_check": [
+      "Welche Leistungen sind im Fest- oder Pauschalpreis enthalten?",
+      "Welche vorbereitenden Arbeiten trägt der Bauherr?",
+      "Welche Anschluss-, Erd- und Außenarbeiten fehlen?",
+      "Welche Kosten verändern sich bei Sonderwünschen?",
+      "Welche Preisbindung und Nachtragsregeln gelten?"
+    ],
+    "percentage_warning": "Regionalimmobilien24 nennt auf einzelnen Seiten breite Quoten von etwa 15 bis 20 Prozent. Diese Werte werden nur als Warnsignal gegen vergessene Kosten gespeichert, nicht als universelle Berechnungsgrundlage."
+  },
+  "funding_workflow": {
+    "potential_sources": [
+      "KfW",
+      "BAFA",
+      "Förderbanken der Länder",
+      "Kommunen und regionale Programme",
+      "Gegebenenfalls arbeitgeber- oder berufsbezogene Programme"
+    ],
+    "possible_support_types": [
+      "Zinsverbilligtes Darlehen",
+      "Tilgungszuschuss",
+      "Investitionszuschuss",
+      "Tilgungsfreie Anlaufjahre",
+      "Bürgschaft oder nachrangiger Finanzierungsbaustein"
+    ],
+    "process": [
+      "Vorhaben, Nutzung und technische Maßnahmen definieren.",
+      "Aktuelle Programme und Kombinationsregeln prüfen.",
+      "Bei Energieprogrammen rechtzeitig zugelassene Fachleute einbinden.",
+      "Antrag vor dem jeweils definierten Vorhabensbeginn stellen.",
+      "Bei Förderkrediten häufig über einen Finanzierungspartner nach dem Hausbankprinzip beantragen.",
+      "Zusage und Bedingungen abwarten, bevor schädliche Verpflichtungen eingegangen werden.",
+      "Nachweise nach Durchführung fristgerecht einreichen."
+    ],
+    "current_official_example": {
+      "program": "KfW-Wohneigentumsprogramm 124",
+      "stable_process_information": [
+        "Antrag über einen Finanzierungspartner",
+        "Antrag grundsätzlich vor Kaufvertragsabschluss beziehungsweise Baubeginn",
+        "Kombination mit weiteren Förderprodukten kann möglich sein"
+      ],
+      "current_data_required": true
+    },
+    "chatbot_warning": "Keine Programmnummer, Förderhöhe, Einkommensgrenze oder technische Anforderung ohne Abfrage einer aktuellen offiziellen Quelle ausgeben."
+  },
+  "financing_term_equivalents": {
+    "generic_terms": [
+      "Baufinanzierung",
+      "Immobilienfinanzierung",
+      "Baukredit",
+      "Baudarlehen",
+      "Hauskredit",
+      "Baugeld"
+    ],
+    "interpretation": "Diese Begriffe werden häufig weitgehend synonym für eine Finanzierung rund um Kauf, Bau oder Modernisierung verwendet. Sie bezeichnen nicht automatisch unterschiedliche rechtliche Produkttypen.",
+    "chatbot_instruction": "Bei einer Nutzerfrage zuerst den Zweck und die konkrete Darlehensart klären, statt aus dem verwendeten Alltagsbegriff ein Produkt abzuleiten."
+  },
+  "dynamic_data_refresh_policy": [
+    {
+      "topic": "Aktuelle Bau- und Hypothekenzinsen",
+      "refresh": "Bei jeder entsprechenden Nutzerfrage",
+      "required_sources": [
+        "Deutsche Bundesbank",
+        "Konkretes Bankangebot oder belastbarer Marktvergleich"
+      ],
+      "required_context": [
+        "Datum",
+        "Zinsbindung",
+        "Beleihungsauslauf",
+        "Tilgung",
+        "Objekt und Bonitätsannahmen"
+      ]
+    },
+    {
+      "topic": "Förderprogramme",
+      "refresh": "Vor jeder konkreten Auskunft",
+      "required_sources": [
+        "KfW",
+        "BAFA",
+        "zuständige Landesförderbank oder Kommune"
+      ],
+      "required_context": [
+        "Vorhaben",
+        "Nutzung",
+        "Antragsteller",
+        "Vorhabensbeginn",
+        "technischer Standard"
+      ]
+    },
+    {
+      "topic": "Grunderwerbsteuer und regionale Nebenkosten",
+      "refresh": "Vor jeder konkreten Berechnung",
+      "required_sources": [
+        "Amtliche Landesinformation",
+        "Kaufvertrag und konkrete Maklervereinbarung"
+      ],
+      "required_context": [
+        "Bundesland",
+        "Kaufpreis",
+        "Maklerbeteiligung"
+      ]
+    },
+    {
+      "topic": "Recht und Steuer",
+      "refresh": "Bei konkreter Einzelfallfrage",
+      "required_sources": [
+        "Aktuelle Gesetze",
+        "gegebenenfalls qualifizierte Rechts- oder Steuerberatung"
+      ],
+      "required_context": [
+        "Vertrag",
+        "Nutzung",
+        "Zeitpunkt",
+        "persönliche Situation"
+      ]
+    }
+  ]
+}

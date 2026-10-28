@@ -1,0 +1,12 @@
+{
+  "name": "real-estate-marketplace",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev:server": "npm run dev --workspace=server"
+  }
+}

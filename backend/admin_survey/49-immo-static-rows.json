@@ -1,0 +1,145 @@
+{
+  "total_real_rows": 28,
+  "rows": [
+    {
+      "name": "pitcom Test",
+      "login": "pitcom",
+      "has_delete": true
+    },
+    {
+      "name": "ri24 test",
+      "login": "ri24",
+      "has_delete": false
+    },
+    {
+      "name": "Immosuchmaschine",
+      "login": "immosuchmaschine",
+      "has_delete": true
+    },
+    {
+      "name": "Immobilo.de",
+      "login": "immobilode",
+      "has_delete": true
+    },
+    {
+      "name": "Thinkimmo.com",
+      "login": "thinkimmocom",
+      "has_delete": false
+    },
+    {
+      "name": "propfox.io",
+      "login": "propfoxio",
+      "has_delete": true
+    },
+    {
+      "name": "Fokus Kleinanzeigen",
+      "login": "fokuskleinanzeigen",
+      "has_delete": false
+    },
+    {
+      "name": "AllesKralle",
+      "login": "alleskralle",
+      "has_delete": true
+    },
+    {
+      "name": "thribee-trovit",
+      "login": "thribeetrovit",
+      "has_delete": true
+    },
+    {
+      "name": "Locanto.com",
+      "login": "locantocom",
+      "has_delete": true
+    },
+    {
+      "name": "wohnungjetzt",
+      "login": "wohnungjetzt",
+      "has_delete": true
+    },
+    {
+      "name": "traum-immo",
+      "login": "traumimmo",
+      "has_delete": true
+    },
+    {
+      "name": "ImmoMetrica",
+      "login": "immometrica",
+      "has_delete": true
+    },
+    {
+      "name": "immotags.de",
+      "login": "immotagsde",
+      "has_delete": false
+    },
+    {
+      "name": "Matchmyhome",
+      "login": "matchmyhome",
+      "has_delete": false
+    },
+    {
+      "name": "Immopool.de",
+      "login": "immopoolde",
+      "has_delete": true
+    },
+    {
+      "name": "Versteigerungspool.de",
+      "login": "versteigerungspoolde",
+      "has_delete": true
+    },
+    {
+      "name": "classmarkets",
+      "login": "classmarkets",
+      "has_delete": true
+    },
+    {
+      "name": "GoogleDataFeed",
+      "login": "googledatafeed",
+      "has_delete": true
+    },
+    {
+      "name": "Matchmyhome",
+      "login": "matchmyhome",
+      "has_delete": false
+    },
+    {
+      "name": "Kallang_Feed",
+      "login": "kallangfeed",
+      "has_delete": true
+    },
+    {
+      "name": "Hypoport-Feed",
+      "login": "hypoportfeed",
+      "has_delete": true
+    },
+    {
+      "name": "Impleco Feed",
+      "login": "implecofeed",
+      "has_delete": true
+    },
+    {
+      "name": "yep_code_cron",
+      "login": "yepcodecron",
+      "has_delete": true
+    },
+    {
+      "name": "Mietz.app Feed",
+      "login": "mietzappfeed",
+      "has_delete": true
+    },
+    {
+      "name": "ThinkImmo",
+      "login": "thinkimmo",
+      "has_delete": false
+    },
+    {
+      "name": "ThinkImmo-Portal",
+      "login": "thinkimmoportal",
+      "has_delete": true
+    },
+    {
+      "name": "think-immo",
+      "login": "thinkimmo",
+      "has_delete": true
+    }
+  ]
+}

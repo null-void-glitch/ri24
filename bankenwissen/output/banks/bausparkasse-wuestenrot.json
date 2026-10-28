@@ -1,0 +1,421 @@
+{
+  "bank": "Bausparkasse Wüstenrot",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine Begrenzung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100% (ermittelter BLA Wert der Wüstenrot Bausparkasse AG) - Obergrenze:\nKauf: notarieller Kaufpreis\nKauf u. Modernisierung: notarieller Kaufpreis zzgl. Kosten Modernisierung\nNeubau: Grundstückskosten + Baukosten (Anschaffung Grundstück, Gebäude- und Baunebenkosten sowie Außenanlagen)\nUmschuldung: Ablösebetrag\n Modernisierung: Kosten Modernisierung\nBlueCard Inhaber bis zu 100% BLA\nBefristete Arbeitsverhältnisse bis 80% BLA"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80% (ermittelter Beleihungswert der Wüstenrot Bausparkasse AG) - Obergrenze:\nKauf: notarieller Kaufpreis\nKauf u. Modernisierung: notarieller Kaufpreis zzgl. Kosten Modernisierung\nNeubau: Grundstückskosten + Baukosten (Anschaffung Grundstück, Gebäude- und Baunebenkosten sowie Außenanlagen)\nUmschuldung: Ablösebetrag\nModernisierung: Kosten Modernisierung"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Gewerkschaftsabschlag von 10 BP Vorteilskonditionen für Mitglieder und deren Angehörige (Ehegatten, Lebenspartner, Kinder, Enkel):\ndbb, ver.di, IG BAU, NGG, THW/NRW und Deutscher Bundeswehrverband (DBWV) und jeweils deren (\"Untergewerkschaften\")\nManuelle Erfassung des Abschlags\n (-->Hinweis an Wüstenrot notwendig)\nMitgliedschaft muss nachgewiesen werden"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 € - keine Einschränkung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Regelsatz: Eigennutzung\n1 Person: 890 €\n2 Personen: 1.230 €\nJede weitere Person: 255 €\n \nErhöhter Satz: Fremdnutzung\n1 Person: 1.340 €\n2 Personen: 1.680 €\nJede weitere Person: 255 €"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 75.000 €"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5, 10, 15 Jahre (Volltilger 10 und 15 Jahre)"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Fremdablösung bis 36 Monate\ninterne Umschuldung bis 60 Monate"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein, nicht über BaufiSmart"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Für die Konditionierung werden i.d.R nur die Wüstenrot Darlehen berücksichtigt\nKonditionssplitting möglich (s. Infoblatt), Voraussetzungen:\ndas beantragte BSW-Darlehen wird konditionell so gestellt, als gäbe es kein KfW-Darlehen\nFür die Machbarkeitsprüfung der Finanzierung zählt immer der Gesamtbeleihungsauslauf inklusive KfW.\nBei einem Beleihungsauslauf von über 80 % bei Fremdnutzung bzw. über 100 % bei Eigennutzung, ist kein Konditionssplitting möglich\nBei Finanzierungen, die ein KfW-Darlehen enthalten, sind keine fremden Vorlasten zulässig"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "74180002"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297/298, 300, 159 / keine endfällige Varianten"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Eine Zinsreservierung wird durch Wüstenrot vorgenommen (sobald nach vollständiger Fallprüfung des internen Scoring \"grün\" ist.)"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angebot über BaufiSmart"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "max. 5%\nJährliche Rückzahlungssumme max. 5 % des bewilligten Betrages, in einer Summe immer zum gleichen Termin, immer zum Monatsende (möglichst Quartalsende).\nDarlehen darf nicht vor Ablauf der Zinsfestschreibungszeit zurückgezahlt werden\nBei Volltilgerdarlehen ist keine Sondertilgung möglich"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Direkttilgung 1 - 5 % p.a., bei einem Volltilgerdarlehen bis 10 % p.a.\nDer Tilgungssatz darf nur so hoch sein, dass das Darlehen nicht vor Ablauf der Zinsfestschreibung getilgt wird\nAchtung bei Mindesttilgung von 1 %:\nBeleihungsauslauf bis 60 %: Keine Besonderheiten\nBeleihungsauslauf > 60 %: Es ist ein Bausparvertrag mit einer Bausparsumme von mind. 50 % der WID/WDC-Summe an die Wüstenrot abzutreten. Der BSV ist mit mind. 1 % p.a. der Finanzierungssumme zu besparen (das Lastschriftmandat muss vor Erstellung des Darlehensangebots vorliegen)"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgungsaussetzung für max. 1 Jahr; anschließend Direkttilgung von 2% p.a."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "möglich (gegen Gebühr von 100,00 €)\nZustimmung der Wüstenrot Bausparkasse AG ist erforderlich"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Fertighaus:\n\nAbtretung von Auszahlungsansprüchen nur gemäß Vordruck Kaba1 \n\nBaufortschrittsauszahlungen lt. Werkvertrag sind grundsätzlich möglich, wobei diese sich mindestens am Auszahlungsraster orientieren müssen. \n\nKeine Finanzierung der Fertighausfirmen: Budimex Danwood / Dennert Massivhaus GmbH / Léon Wood Holz-Blockhaus GmbH"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Restnutzungsdauer mind. 30 Jahre\n \nAusgeschlossen sind:\nObjekte außerhalb der Bundesrepublik Deutschland\nSozial-Immobilien (wie z.B.Krankenhäuser, Alten-/Pflege-/Wohnheime)\nSport- und Freizeitanlagen\nGartenhäuser\nFerienwohnungen und -häuser in Ferienwohnanlagen\nAckerland und Wiesen gesondert zu bewerten\nAnzufrage sind:\nMehrfamilienhäuser (en bloc) mit mehr als 30 Wohneinheiten (in bestimmten Regionen möglich)\nObjekte, mit gewerblichem Anteil am Ertrag > 50 % und < 100 %\nObjekte außerhalb geschlossener Ortschaften (einschl. aktiver Landwirtschaftsbetrieben und Resthöfen in abseitiger Lage)\n \nBitte immer auch schriftlich im Formular \"KBU3\" vergangene Modernisierungsmaßnahmen am Objekt so detailliert wie möglich aufzeichnen (Jahr der Maßnahme, Summe + Umfang: teilweise/ vollständig) , da sonst keine Berücksichtigung in Wertermittlung"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja, private und öffentliche Erbbaurechte mit einer mind. Restnutzungsdauer von 40 Jahren"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "50 %\nObjekte, mit gewerblichem Anteil am Ertrag > 50 % und < 100 % sind in Ausnahmefällen möglich"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "Mindestens 51 % der FLÄCHE wird vom (Mit-)Eigentümer zu eigenen Wohnzwecken genutzt"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "max. 30 Wohneinheiten (en bloc)\nmit mehr als 30 Wohneinheiten in bestimmten Regionen möglich"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "Gesondert zu bewerten (anzufragen) sind Objekte außerhalb geschlossener Ortschaften (einschl. aktiver Landwirtschaftsbetrieben und Resthöfen in abseitiger Lage)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja > Nur, wenn die Immobilie entweder grundsätzlich eine vollständig abgeschlossene Wohneinheit (inkl. Bad, Küche) darstellt; keine Beschränkungen im Grundbuch aufweist und generell wohnwirtschaftlich genutzt werden kann. Oder auch, wenn ein anderes Objekt als Sicherheit eingesetzt wird"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Deutschlandweit\nIn den folgenden Regionen sind Mehrfamilienhäuser bis 150 Wohneinheiten (en bloc) möglich:\nAugsburg, Berlin, Bonn, Braunschweig, Darmstadt, Dresden, Düsseldorf, Erlangen, Frankfurt am Main, Freiburg, Fürth, Hamburg, Hannover, Heidelberg, Ingolstadt, Karlsruhe, Kiel, Köln, Leipzig, Ludwigshafen, Mainz, Mannheim, München, Münster, Neu-Ulm, Nürnberg, Oldenburg, Potsdam, Regensburg, Rostock, Stuttgart, Ulm, Wiesbaden"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "ja bis 80%"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Grundsätzlich möglich (Ausnahmen siehe Beleihungsauslauf gesonderte Prüfung bei Eigennutzern und Kapitalanlegern)\nIm Rahmen der Kreditentscheidung wird geprüft, ob das Recht als Vorlast akzeptiert werden kann oder auch ein Rangrücktritt/eine Kapitalisierung notwendig ist"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Konzernfremde Rechte dürfen einen Anteil von 60 % am Beleihungswert nicht übersteigen"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begrenzung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Erst mit Zuschlagsbeschluss möglich"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Nicht ansetzbar (der EUR 450 übersteigende Betrag)"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Eine Nebentätigkeit muss mind. sechs Monate beim selben Arbeitgeber ausgeübt werden.\nJe Antragssteller kann nur eine Nebentätigkeit in der HHR berücksichtigt werden."
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja, analog Kindesunterhalt"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: ja\nprivatschriftliche Vereinbarung:  Nein\noffizieller Nachweis - Befristung führt zum Nichtansatz\nKindesunterhalt: Ja\nprivatschriftliche Vereinbarung: Nein\nJe älter das Kind, desto schwieriger kann Unterhalt angerechnet werden (siehe Regelwerk)"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "bis 100% Beleihung\nFür einen nachhaltigen Ansatz in der Haushaltsrechnung muss die Erwerbstätigkeit mindestens zwei Jahre beim\nselben Arbeitgeber ausgeübt werden.\nFür alle NICHT-EU-Bürger ist der Aufenthaltstitel einzureichen."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "ja, wenn nicht branchenüblich (Ärzte, wissenschaftliche Angestellt, usw.) ist eine Begründung notwendig"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Arbeitnehmer, Beamte, Rentner (auch Erwerbsunfähigkeitsrentner, Frührentner etc.), Freiberufler, Selbständige\nDamit ein Einkommen in der Haushaltsrechnung angesetzt werden kann, muss es dauerhaft erzielbar und durch aussagefähige Unterlagen nachgewiesen sein. Das gilt auch für regelmäßige (auch schwankende) Lohn-/Gehaltsbestandteile wie z.B. Gratifikationen, Prämien, Urlaubs-/Weihnachtsgeld und sonstige erfolgsabhängige Vergütungen.\nRentenprüfung nur wenn Darlehensnehmer bei Beantragung kurz vor Rentenbeginn steht\nNICHT ansetzbare Einnahmen:\n \nBerücksichtigung von Überstunden\nElterngeld (der EUR 450 übersteigende Betrag)\nArbeitslosengeld, Vergütungen aus Arbeitsbeschaffungs-/Umschulungsmaßnahmen\nArbeitslosengeld II (Zweites Buch Sozialgesetzbuch (SGBII), (Hartz IV) Pflegegeld\nEigenheimzulage\nWohngeld/Lastenzuschuss\nSpesen, Auslöse und sonstiger Auslagenersatz\nSachbezug / Deputatlohn / Naturallohn\nArbeitgeberzuschüsse zur betrieblichen Altersvorsorge\nMieteinnahmen aus Untervermietungen"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Krankengeld wird in voller Höhe angesetzt\nProbezeit möglich (Ausnahme Turbo Constant) mit Mindestbeschäftigungsdauer von 3 Monate\nPro Haushalt dürfen maximal drei Ratenkredite laut Schufa bestehen.  Bei Überschreitung ist kein Blankodarlehen mehr möglich."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 2 \nDarlehensnehmer und Sicherheitengeber müssen nicht identisch sein"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Einnahmen aus Untervermietung werden nicht angesetzt"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja\n \nBeiträge zur Privaten Krankenversicherung:\nNachweis über den Gesamtversicherungsbeitrag liegt vor: Anzusetzen ist die tatsächliche Belastung\nNachweis liegt nicht vor: Wüstenrot rechnet mit 15,5 % des Bruttoeinkommens\nGemischtes Einkommen:\nBei Freiberuflern und gemischten Einkommen, wenn das selbstständige Einkommen in der HH-Rechnung nicht angerechnet wird sind der \"Aufschlag für Selbständige\" und der \"zusätzliche Aufschlag für Selbständige bei Summen unter TEUR 100\" nicht zu berücksichtigen"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz Deutschland & Gehaltsbezug im Ausland : Ja\nAkzeptierte Währung: EUR, CHF, DKK > Einkommen wird mit deutschem Nettolohnrechner plausibilisiert (inkl. Krankenkassensatz). Eventuell Übersetzungen der Einkommensnachweise notwendig\nWohnsitz\n1.    Antragsteller, Mithafter und Bürgen müssen grundsätzlich ihren Hauptwohnsitz in Deutschland haben. \n2.    Bei den Annuitätendarlehen (WDC / WDC ForwardFremdablöung) kann unter bestimmten Bedingungen auch ein Wohnsitz in der EU akzeptiert werden.\n*  Hinweis: Jegliche gewerbliche Aktivitäten außerhalb Deutschlands sind ausnahmslos unzulässig.\nGehalt in Fremdwährung\n1.    Eine Darlehensgewährung ist grundsätzlich nur möglich, wenn mindestens 50 % der Einkünfte, die üblicherweise in der Haushaltsrechnung angesetzt in EURO erzielt werden.\nAnsatzfähige Einkünfte in Fremdwährung müssen auch dann bei der 50 %-Quote berücksichtigt werden, wenn die Finanzierung auch ohne diese Einkünfte darstellbar wäre.\nAkzeptierte Währung: CHF, DKK\nHinweis: Kunde muss auch über eine deutsche Meldeadresse verfügen; wohnwirtschaftlich genutztes Beleihungsobjekt muss sich ebenfalls in Deutschland befinden\n--> generell sollten solche Konstellationen bei der Wüstenrot Bausparkasse AG vorangefragt werden"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Mindest-Nettoeinkommen: 3.000 €"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Bei Blankodarlehen außerhalb des Bausparkollektivs gilt ab 23.12.2025 ein Höchstalter von 70 Jahren.\nMaßgebend ist das Datum der vollständigen Antragseinreichung.\nBei zwei Darlehensnehmern muss mindestens eine Person die Altersgrenze einhalten.\nHiervon ausgenommen sind aktive Bestandsfinanzierungskunden ohne Zahlungsauffälligkeiten.\n \nVon der Änderung nicht betroffen sind:\nFinanzierungen aus dem Bausparkollektiv, also\nBauspardarlehen (keine Besparung aus Kreditmitteln) und Zwischenkredite auf bestehende Bausparverträge mit einer Laufzeit bis 12 Monate (Zuteilung)"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Durchschnittliches Gehalt vor Kurzarbeit kann angesetzt werden"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften = Ablehnung"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Probezeit möglich (Ausnahme Turbo Constant) mit Mindestbeschäftigungsdauer von 3 Monate"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja\nBeiträge zur Privaten Krankenversicherung:\n- Nachweis über den Gesamtversicherungsbeitrag liegt vor: Anzusetzen ist die tatsächliche Belastung\n- Nachweis liegt nicht vor: Wüstenrot rechnet mit 15,5 % des Bruttoeinkommens.\nKeine Existenzgründer"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Legitimation / PostIdent\nBaufinanzierungen mit Bausparhinterlegung\nDie Wüstenrot Bausparkasse AG benötigt die Kundenlegitimation bereits bei Einreichung der Finanzierungsanfrage\nDie Kundenlegitimation kann erfolgen durch:\n• Legitimation auf dem Bausparantrag (durch Finanzierungsberater)\n• Legitimation durch PostIdent\nWichtig: Bitte gib die Bausparantragsnummer (siehe Bausparantrag) jeweils als\nReferenznummer an (nach dem eingedruckten „ep“)\nEuropace KreditSmart (Turbodarlehen): Ausschließlich Postident"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "umschuldung": {
+      "name": "Umschuldung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "wohnwirtschaftlicher Darlehen bis 50.000 €"
+    }
+  },
+  "company_id": "a02ec16d138a772dc722abbecab1c25f",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/a02ec16d138a772dc722abbecab1c25f",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.03.26",
+  "recent_news": [
+    {
+      "date": "30.04.26",
+      "title": "Bausparkasse Wüstenrot - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "22.04.26",
+      "title": "Bausparkasse Wüstenrot - Konditionssenkung zum 23.04.2026"
+    },
+    {
+      "date": "16.04.26",
+      "title": "Bausparkasse Wüstenrot - Modernisierungskampagne ab Ende April"
+    },
+    {
+      "date": "18.03.26",
+      "title": "Bausparkasse Wüstenrot - Konditionserhöhung zum 19.03.2026"
+    },
+    {
+      "date": "11.03.26",
+      "title": "Bausparkasse Wüstenrot - Konditionserhöhung zum 12.03.2026"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/tilgungsersatzprodukte",
+  "category": "Kriterien Tilgung",
+  "criterion_name": "Tilgungsersatzprodukte",
+  "criterion_id": "tilgungsersatzprodukte",
+  "scraped_at": "2026-05-07T12:15:31.609Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Keine endfälligen Darlehen (mit oder ohne Tilgungssurrogat)"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "Nur gegen BSV der Alte Leipziger möglich"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "bei Tilgungsaussetzung gegen Bausparen LBS NordWest (nur diese BSK) erfolgt Provisionszahlung (ist auf Europace hinterlegt)\nbei LBS-Bausparer zur freien Besparung keine Provisionszahlung"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Nein"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Bausparvertrag oder LV/RV (Mindestleistung analog annuitätischer Tilgung)\nBei Zusatzsicherheiten (Guthaben, Grundschulden, Rückkaufswerte etc.) muss der Sicherheitenwert der einzelnen Zusatzsicherheit mind. 50.000 Euro betragen"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "ausschließlich LBS Bausparver­trag mit max. 15 Jahren Zinsbindung"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Nicht möglich"
+    },
+    {
+      "bank": "ING",
+      "value": "Die Mindestdarlehenssumme beträgt 75.000 Euro.\n\nDer Antragsteller kann das Darlehen unter bestimmten Voraussetzungen über eine Lebens-/Rentenversicherung oder einen Bausparvertrag tilgen. Näheres dazu findest du in den Herauslagekriterien.\n \nPro Darlehenskonto kann nur ein Tilgungsersatzprodukt (LV oder BSV) hinterlegt werden. Insgesamt können für eine Finanzierung max. 2 Lebensversicherungen oder max. 3 Bausparverträge abgetreten werden. Bei Austausch der Tilgungsersatzprodukte muss der neu abzutretende Tilgungsersatz den geltenden Anforderungen entsprechen und Werte in Höhe des bisherigen Tilgungs-\nersatzes enthalten oder die bereits angesparte Summe wird auf das Darlehenskonto eingezahlt. \n \nDie Abtretung von riestergeförderten Lebensversicherungen und Bausparverträgen ist nicht möglich. Während der Zinsbindung ist ein Wechsel von einer direkten Tilgung zu einem Tilgungsersatzprodukt ausgeschlossen."
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Tilgungsersatzdarlehen mit fremdem BSV/ LV/RV: das Drittprodukt muss eine garantierte Ablaufleistung in Höhe der Darlehenssumme haben"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Als Surrogat wird akzeptiert (max. 1 pro Finanzierung):\n- Bausparvertrag der LBS Nord (Tilgungsersatzleistung mind. 1,5 % ) >Vertragssumme des Surrogates muss Darlehenssumme zu 100% decken"
+    },
+    {
+      "bank": "KSK Mayen",
+      "value": "Max. 2 Tilgungssurrogate (Kapitalbildende LV und RV, BSV)"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Bausparverträge aller Bausparkassen"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Mit Bausparen und Versicherungen"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Im Falle von endf. Finanzierungen gegen Bausparen ist die höhere Rate (Vergleich zwischen Ansparrate des BSV zzgl. Zinsrate aus der Vorfinanzierung mit der Zins- und Tilgungsrate aus der Bauspardarlehensphase) in der HHR anzusetzen. Die Plattform rechnet hier immer mit der Belastung in der Vorfinanzierung.\nWird bei Ansatz der höheren Rate eine Unterdeckung ausgewiesen (s. Lebensphasenplanung „Zuteilung Bausparer“) ist der Vorgang nicht genehmigungsfähig."
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Neuabschluss BSV durch die Bank oder LV mit Rückkaufswerten"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": ""
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Ja - BSH/BHW"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Bausparverträge nur bei TA-Varianten\nZusatzsicherheiten wie RV/LV werden erst ab 20 TEUR berücksichtig"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Gegen Sparpläne: Uneingeschränkt möglich\nGegen Bausparvertrag: nur LBS-Verträge\nGegen Investmentfonds: Nicht möglich\nGegen brit. RV: Nicht möglich\nGegen brit. LV: Nicht möglich\nGegen fondsgebundene RV: Nicht möglich\nGegen fondsgebundene LV: Nicht möglich\nGegen dt. RV: Auf Anfrage\nGegen dt. Kapital-LV: Auf Anfrage"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Bei Einbezug von LBS-Darlehen ist mindestens ein 50-prozentiger Anteil der Finanzierungssumme durch ein Sparkassendarlehen abzubilden."
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "usatzsicherheiten:\nBSV (100%)\nSparguthaben (100%)\nLV/RV (kapitalbildend 100%, fondsgebunden 60%)\nWertpapiere (50%)"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Bausparverträge der LBS Nordwest"
+    },
+    {
+      "bank": "Sparkasse Dachau",
+      "value": "Ja, von der LBS"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Bei endfälligen Darlehen muss der Bausparvertrag zwingend zum Zinsbindungsende zuteilungsreif sein"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Als Tilgungsersatz werden nur noch BSV der LBS West akzeptiert"
+    },
+    {
+      "bank": "Sparkasse Gießen",
+      "value": "Es werden nur BSV der LBS West akzeptiert oder andere Produkte von BaFin-zertifizierten Emittenten"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Tilgungsaussetzung gegen Bausparvertrag oder Kapitallebensversicherung möglich"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "Von LBS Bausparkasse"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "Kombinationsdarlehen (endfällig mit Tilgungsersatz Bausparvertrag der LBS NordOst AG)"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Als Tilgungsersatz werden nur noch BSV der LBS West akzeptiert"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Ja, aber nur LBS-Produkte"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Nur von LBS"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "Produkte der Sparkassen Versicherungen für Teile der beantragten Finanzierung (Vergabe Darlehen SV im Realkreditbereich nach Prüfung)"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Abschluss von LBS Bausparverträgen möglich\nAusgeschlossen: LBS Annuitätendarlehen oder Festdarlehen aus LBS Mitteln"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Nur gegen BSV der LBS West möglich"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Kapitalbildende LV\nRV\nBausparvertrag der BSK Schwäbisch Hall AG"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Ja, Voraussetzung ist die Abtretbarkeit\nDeutsche Kapitallebensversicherung / Fondspolice / Rentenversicherung\n( Verrentung muss ausgeschlossen sein). Die Versicherungssumme und\nÜberschussbeteiligung muss nach Steuern zur Darlehenstilgung ausreichen.\nFür ab 2005 abgeschlossene Verträge muss die prognostizierte Ablaufleistung\nmindestens 120% des Darlehens betragen. Bei Fondspolicen kann eine\nWertentwicklung von max. 4% angesetzt werden. Bei Antragstellung bitte immer eine\nindividuelle Modellrechnung beizufügen."
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Bausparvertrag der Bausparkasse Schwäbisch Hall"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "Endfällige Darlehen mit Tilgungsersatz möglich\nKapitalbildende Lebens-/Rentenversicherung zu max. 100% vom Rückkaufswert\nBausparverträge\nBank-/Sparguthaben\nWertpapiere maximal zu 50%"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Als Tilgungsersatz werden nur BSV der Schwäbisch Hall akzeptiert/ keine Finanzierung von ZV Objekten"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Von sämtlichen Bausparkassen und Versicherungen"
+    },
+    {
+      "bank": "Volksbank Wilhelmshaven eG",
+      "value": "Ja, alle BAFIN-zertifizierten"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Anzahl: 1 \n\nTilgungsersatzleistung (abhängig vom Beleihungsauslauf):\n2,0% p.a. bei Beleihungsauslauf < 90%\n2,5% p.a. bei BLA >= 90% bis < 100%\n3,0% p.a. bei BLA ab 100% (bis 112%)\n\nTilgungsersatzprodukte:\nBausparvertrag\nkapitalbildende Lebens- oder \nRentenversicherung (nicht fondsgebunden)"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": ""
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "Bausparvertrag"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "Als Tilgungsersatzmittel für Endfällige Darlehen werden nur Produkte der LBS Nord oder der VGH akzeptiert"
+    }
+  ]
+}

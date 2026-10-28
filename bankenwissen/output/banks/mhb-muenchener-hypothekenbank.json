@@ -1,0 +1,551 @@
+{
+  "bank": "MHB - Münchener Hypothekenbank",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Beleihungsauslauf <= 80 %\n • Beleihungsauslauf bis 60,00 %: keine Einschränkungen \n • Beleihungsauslauf über 60,00 %: Darlehensnehmer nicht älter als 67 Jahre \n \n Beleihungsauslauf > 80 % und <= 118 % / 125 %\n • Mindestregeltilgung: 1,30 % p.a. anfänglich \n   Ausnahme: KfW-Darlehen \n • Darlehensnehmer nicht älter als 67 Jahre  \n • Bei Kapitalbeschaffung (Verwendungszweck \"Sonstiges\")\n • Keine wertmindernden Vorlasten in Abt. II \n \nBeleihungsauslauf > 118 % / 125 %\n • Über 118,00 % / 125,00 % bzw. über Kaufpreis: Finanzierung nicht möglich"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "111"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "111"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nachfinanzierung bei Neubau:\nBestehende MHB Darlehen bei der Immobilie erfassen und die ursprünglichen Kosten als \"bereits beglichen\" angeben. Die Mehrkosten werden auf die Herstellungskosten aufgeschlagen. Bei Unterschreitung der Mindestdarlehenssumme muss \"rot\" angefragt werden. (Unterlagen: Aktuelle Bonitätsunterlagen, Selbstauskunft und Belege für die Mehrkosten)\n \nFolgende Baufirmen/Bauträger kann die MHB aktuell nicht begleiten, da diese die Abtretung des \nAuszahlungsanspruches (anstatt einer unwiderruflichen Finanzierungsbestätigung) nicht akzeptieren: \n • Weber Haus \n • Haas Haus \n • Regnauer \n • Danwood \n • Elm Bau GmbH \nBaufirmen, welche wir aufgund der MHB-Vorgaben im Auszahlungsprozess nicht begleitet werden können: \n • (Veit) Dennert Massivhaus \n • NCC Deutschland GmbH \n • Bonava GmbH \n • CORPUS SIREO Projektentwicklung München || GmbH, Köln \n • Massa Haus (DFH Haus GmbH) \n \nHinweise zum Betreuungsauftrag:\nDer Betreuungsauftrag wird benötigt, wenn bei einem Bestandsdarlehen bei der MHB neue Vermittelnde ins Spiel kommen.\nAuf dem Betreuungsauftrag muss zwingend die Vertriebsorganisation (Obervertrieb) aufgeführt werden. Da die Kund:innen häufig nur ihren direkten Vermittler kennen, können ihre Daten zusätzlich aufgeführt werden, ersetzen jedoch nicht die Angabe der VO."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "40.000,00 EUR bis 2 Mio. EUR Darlehenssumme bzw. Gesamtobligo bei der MHB. Davon darf ein Betrag von 750.000,00 EUR außerhalb Realkredit nicht überschritten werden.\n(§ 18 KWG - Pflicht)\n Maximal 4 Darlehenstranchen zulässig (inkl. KfW-Darlehen)\nAusnahme: Forwarddarlehen: Maximal 3 Tranchen"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "entry": {
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Finanzierungssumme: Maximal 1 Mio. EUR\nBei Antragstellung ist ein plausibler Verwendungszweck anzugeben.\nBei Darlehen ab 400.000,00 EUR ist ein Verwendungsnachweis erforderlich.\nNachrangfinanzierungen möglich \nBei Finanzierungen mit einem Beleihungsauslauf größer 80,00 %: Zum Zeitpunkt der Beantragung muss ein Haushaltsüberschuss von mindestens 200,00 EUR vorhanden sein.  Beleihungsauslauf > 80 % und <= 118 % / 125 %.\nBei Ablösung von Ratenkrediten durch die MHB: Auszahlung in einer Summe auf das Kundenkonto oder die abzulösende Bank möglich\no MHB löst Ratenkredit direkt ab: Bei Beantragung ist vom Kunden eine Kopie des Kreditvertrags und der vom abzulösenden Kreditinstitut bestätigte Ablösesaldo und Ablösetermin einzureichen. Die Rate des abzulösenden Kredits wird in der\nHaushaltsrechnung nicht berücksichtigt.\no MHB zahlt auf Kundenkonto, Kunde löst Ratenkredit selbst ab: Die Vorlage der v.g. Unterlagen ist nicht erforderlich. Stattdessen wird die Rate des abzulösenden Kredit\nzusätzlich zur Belastung aus dem MHB-Darlehen als Ausgabe berücksichtigt."
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Gesamt-Nettoeinkünfte kleiner 4.200,00 EUR pro Monat:\nAngesetzt werden 30,00 % der zu berücksichtigenden Gesamt-Nettoeinkünfte pro Monat,\nmindestens 1.100,00 EUR für eine Person\nZuzüglich 200,00 EUR pro Monat für jede weitere im Haushalt lebende Person\nZuzüglich 200,00 EUR pro Monat für jedes im Haushalt lebende Kind\nGesamt-Nettoeinkünfte größer/gleich 4.200,00 EUR pro Monat:\nAngesetzt werden 35,00 % der zu berücksichtigenden Gesamt-Nettoeinkünfte pro Monat\nZuzüglich 200,00 EUR pro Monat für jede weitere im Haushalt lebende Person\nZuzüglich 200,00 EUR pro Monat für jedes im Haushalt lebende Kind\nErgibt sich aus den darlehensnehmerseitigen Informationen, dass die tatsächlichen\nLebenshaltungskosten über den Ansätzen der MHB liegen, werden die tatsächlichen Lebenshaltungskosten des Darlehensnehmers angesetzt.\nIm Rahmen der Betrachtung des Rentenszenarios werden die Lebenshaltungskosten nicht neu ermittelt."
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "MHB WohnRaum:\nFür die Modernisierungsmaßnahmen muss eine plausible Kostenschätzung auf Basis der Einzelgewerke vorliegen (MHB-Formular)\nDie Kosten der Modernisierung sind mittels Rechnungsübersicht (MHB-Formular) vollständig durch Rechnungen zu belegen\nEinzelne Rechnungen müssen nur auf Anforderung durch die MHB eingereicht werden\nDarlehensauszahlungen erfolgen wie folgt: \nDarlehensbetrag bzw. Modernisierungsanteil bis 50.000,00 €:\n\"Auflagenfreie\" Auszahlung bis zu einem Restbetrag von 10.000,00 EUR auf Anforderung des Darlehensnehmers.\nDarlehensbetrag bzw. Modernisierungsanteil über 50.000,00 EUR bis 200.000,00 EUR:\n\"Auflagenfreie\" Auszahlung bis zu einem Betrag von 50,00 % der Darlehenssumme auf Anforderung des Darlehensnehmers.\nSobald mit einer Auszahlung ein Auszahlungsvolumen von mehr als 50,00 % des Darlehensbetrags erreicht wird, sind für diese Auszahlung jeweils eine\nRechnungsübersicht (MHB-Formular) sowie Fotos, die den aktuellen Stand zum jeweils vorgesehenen Auszahlungstermin widerspiegeln, einzureichen.\nDarlehensbetrag bzw. Modernisierungsanteil über 200.000,00 EUR:\n\"Auflagenfreie\" Auszahlung bis zu einem Betrag von 25,00 % der Darlehenssumme auf Anforderung des Darlehensnehmers.\nSobald mit einer Auszahlung ein Auszahlungsvolumen von mehr als 25,00 %, 50,00 % oder 75,00 % des Darlehensbetrags erreicht wird, sind für diese Auszahlungen jeweils eine Rechnungsübersicht (MHB-Formular) sowie Fotos, die den aktuellen Stand zum jeweils vorgesehenen Auszahlungstermin widerspiegeln, einzureichen.\nSofern im Verlauf der Darlehensauszahlungen mehrere\nRechnungsübersichten eingereicht werden, sind auf jeder neuen Rechnungsübersicht nur die der MHB bisher nicht bekannten Rechnungen aufzuführen.\nUnabhängig von der Darlehenshöhe:\nVor Auszahlung eines letzten Teilbetrags von 10.000,00 EUR sind eine finale Rechnungsübersicht (MHB-Formular), in der die ggf. noch fehlenden, der Bank bisher nicht bekannten Rechnungen aufgeführt sind, sowie Fotos der fertiggestellten Maßnahmen einzureichen.\nDer Darlehensnehmer ist verpflichtet, sämtliche Rechnungen, die in der Rechnungsübersicht enthalten sind, 2 Jahre aufzubewahren. Die Aufbewahrungsfrist beginnt mit dem Schluss des Kalenderjahrs, in dem die\nRechnungen ausgestellt worden sind. Einzelne oder sämtliche Rechnungen können nur innerhalb dieses Zeitraums angefordert werden."
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "(Neubau) - Bestehende MHB Darlehen bei der Immobilie erfassen und die ursprünglichen Kosten als \"bereits beglichen\" angeben. Die Mehrkosten werden auf die Herstellungskosten aufgeschlagen. Bei Unterschreitung der Mindestdarlehenssumme muss \"rot\" angefragt werden. (Unterlagen: Aktuelle Bonitätsunterlagen, Selbstauskunft und Belege für die Mehrkosten)"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird akzeptiert (nur für Finanzierung der Kaufnebenkosten oder zur Verbesserung des Beleihungsauslaufes, nicht aber für die Ablösung von Ratenkrediten)"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Gegen Zahlung einer Nichtabnahmeentschädigung"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "• Grundsätzlich: 15,00 % \n• Bei vollständig vermieteten Beleihungsobjekten wird ein zusätzlicher Sicherheitsabschlag von \n5,00 % berücksichtigt."
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 40 > Annuitätendarlehen\n5 - 30 > Forwarddarlehen\n \nAusnahmen:\n  ·  Münchener Forward\n  ·  Grünes Darlehen\n  ·  Familiendarlehen"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Erneute Prüfung bei BLA >80% und Selbstständigen\nObjekt: ggfs. wenn sich Negativmerkmale herausstellen"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1-66"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5-30"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bitte nutze den Prolongationsprozess über EUROPACE2 - Abfrage der Darlehensdaten über die Schnittstelle erforderlich"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "mehrere Termine möglich, aber max. 3 Forwardtranchen. Jetzt auch mehrere Termine in einem Baustein möglich mit Zahlung von Bereitstellungszinsen"
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Anschlussfinanzierung: Kubatur muss angegeben werden. Allerdings soweit angepasst werden, bis alten BLA erreicht"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "3934745"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 300 und 308\nKfW 297 u. 298: \"Aufschiebende Bedingung\" beachten\nKfW-Programm Jung kauft Alt (308): Folgende Varianten werden angeboten:\nDarlehenslaufzeiten bis zu 10 Jahre mit 1 bis 2 tilgungsfreien Jahren\nDarlehenslaufzeiten bis zu 25 Jahre mit 1 bis 3 tilgungsfreien Jahren\nDarlehenslaufzeiten bis zu 35 Jahre mit 1 bis 5 tilgungsfreien Jahren\nNur in Verbindung mit einem MHB-Darlehen möglich"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "manuelle KfW-Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Fallanlage in BaufiSmart als Anschlussfinanzierung wie Neugeschäft\nAus der Zinsbindung kommende KfW Darlehen, die als MHB-Darlehen weiterlaufen sollen, können nicht als Prolongation beantragt werden, sondern müssen als Neuantrag mit vollständigen Unterlagen eingereicht werden\nBitte nutzt den Prolongationsprozess über EUROPACE2 - Abfrage der Darlehensdaten über die Schnittstelle erforderlich"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "MHB wird die Tilgung auf Basis des Ursprungsdarlehens angeben"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nFinanzierungsvorschlag mit unterschriebenem Annahmeschreiben\nFormular \"Erteilung eines Betreuungsauftrages\", wenn Du nicht der Berater der ursprünglichen Finanzierung bist > findet Du in MYQ auf der MHB-Seite"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "Analog Neugeschäft"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "0 / 5\n• Ab dem zweiten Jahr nach Vollauszahlung \n • Höchstens 5,00 % p. a. des Darlehensbetrages \n • Mindestbetrag pro Sondertilgung: 200,00 EUR \n • Die monatliche Rate bleibt unverändert. \n • Wiederauszahlbare Sondertilgungen: Münchener Reverse"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 %\n>80 % Mindesttilgung 1,3 %\nHöchstregeltilgung: Unbeschränkt\n\nZinsbindung darf jedoch nicht über den Zeitpunkt hinausreichen, zu dem das Darlehen kalkulatorisch zurückgeführt ist."
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "wird nicht angeboten"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Frühester Tilgungsbeginn: \n • 1 Monat nach Darlehensvollauszahlung \n \nSpätester Tilgungsbeginn: \n • 3 Jahre nach Zusage (gilt nicht für Forwarddarlehen) \n • Prolongationen von zeitweilig tilgungsfrei gestellten Darlehen müssen mindestens 1,00 % Regeltilgung haben."
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "3 mal kostenfrei zwischen 1% bis 5% möglich, sofern der Anfangstilgungssatz max. 5 % beträgt (frühster Tilgungssatzwechsel 6 Monate nach Vollauszahlung)\nAusnahme: Volltilgerdarlehen"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "untschiedliche Prognossklassen (1-8)\nEinzelgeweksvergabe bei Werkvertrag möglich\nVerkäufer noch nicht Eigentümer: keine Finanzierung möglich\nZu sanierende Objekte: > 30 % vom VKW: keine Finanzierung möglich\nNeubau mit Einzelgewerksvergabe (auch vom Architekten begleitet): keine Finanzierung möglich\nFolgende Baufirmen/Bauträger kann die MHB aktuell nicht begleiten, da diese die Abtretung des\nAuszahlungsanspruches (anstatt einer unwiderruflichen Finanzierungsbestätigung) nicht akzeptieren:\n  ·  Weber Haus\n  ·  Haas Haus\n  ·  Regnauer\n  ·  Danwood\n  ·  Elm Bau GmbH\nBaufirmen, die wir auf Grund der MHB-Vorgaben im Auszahlungsprozess nicht begleiten können:\n  ·  (Veit) Dennert Massivhaus\n  ·  NCC Deutschland GmbH\n  ·  Bonava GmbH\n  ·  CORPUS SIREO Projektentwicklung München || GmbH, Köln\n  ·  Massa Haus (DFH Haus GmbH)"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Detailprüfung erforderlich"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistungen werden bis maximal 45.000,00 EUR angesetzt."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "ja, keine privaten Erbbaurechte\nRestlaufzeit: Darlehenslaufzeit plus 10 Jahre\nKapitalisierung: Ansatz des 20-fachen des jährlichen Erbbauzinses\nbenötigte Unterlage: Zustimmung des Erbbaurechtsgebers zur Veräußerung im Wege der Zwangsversteigerung (sofern nicht im Erbbauvertrag festgelegt)"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Fertighäuser / Holzständerbauweise / Holzhäuser\nObjekte nicht älter als Ursprungsbaujahr 1985"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "kleiner als 50 %"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50 %"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Einschränkung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\n \nPaketkauf / Kauf mehrere ETW´s  -> machbar\n-    Bedingung: im Kaufvertragsentwurf müssen die jeweiligen Wohnungen mit einem separaten Kaufpreis aufgeführt werden\n-    Es wird ein Darlehensvertrag erstellt mit Globalgrundschuld\n \nBlockhäuser mit Objekt nicht älter als Ursprungsbaujahr 1985, nur Bestandsobjekte\n \n(Ehemals) Landwirtschaftliche Objekte:\nDas Objekt kann beliehen werden, sofern keine aktive Landwirtschaft betrieben wird."
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Europace Wertermittlung"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Dingliche Beleihung > 600.000 EUR inkl. Vorlasten\nBei Objekten mit einem Anteil der Gewerbemieten an den Gesamtmieteinnahmen größer \nals 1/3.\n \nWeitere Hinweise: \n • Das Gutachten wird nach Eingang der Unterlagen von der MHB beauftragt. \n • Bitte berücksichtigt, dass die MHB mit der Gutachtenerstellung erst nach Eingang der \nvollständigen Bauunterlagen beginnen können.                                              \n • Dauer der Gutachtenerstellung: 10 Bankarbeitstage nach Besichtigung \n • Das Gutachten muss zur Kreditentscheidung vorliegen. \n • Dem Kunden entstehen keine Kosten. \n • Eine Übermittlung des Gutachtens an den Kunden ist ausgeschlossen."
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "wird angeboten (nur nicht wertmindernd - siehe Anhang Kreditfibel)"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Akzeptanz in beliebiger Höhe\ndie fremde Vorlast muss ordnungsgemäß mit der aktuellen Kreditvaluta* erfasst sein\ndie Finanzierung darf keine Zusatzsicherheit beinhalten (im Falle von Zusatzsicherheiten stellt bitte einen separaten Antrag als Kapitalbeschaffung)\n*Abtretung der Rückgewähransprüche/Einmalvalutierungserklärung erforderlich"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "nicht finanzierbar"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Elterngeld: Ansatz 100,0 % \n o nur mit Vorlage des Elterngeldbescheids \n o Bei einer Restlaufzeit unter 3 Monaten: Bestätigung des Arbeitgebers über den Zeitpunkt der Wiederaufnahme der Tätigkeit, der zukünftigen Arbeitszeit und/oder des zukünftigen Gehalts. \nLetzte Gehaltsabrechnung vor der Elternzeit kann zur Berechnung des Gehalts verwendet werden. \nSollten qualitative Nachweise über das künftige Nettogehalt, wie z.B. Probeabrechnungen, vorliegen, kann auch dieser Betrag angesetzt werden."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13\nBerücksichtigt wird jeweils der niedrigste Einkommensnachweis bzw. die niedrigste Abrechnung (Niederstwertprinzip).\nBefristete Arbeitsverhältnisse prüfbar, Restlaufzeit < 6 Monate: Folgevertrag bisheriger Arbeitgeber notwendig \nVariable Bestandteile wie Überstunden, Bereitschaft, Zulagen, Provisionen können voll berücksichtigt \nwerden\nAufwandsentschädigungen wie z.B. Spesen, Fahrtgeldzuschüsse können jedoch nur in Höhe von \nmaximal 500,00 EUR angesetzt werden. Der über den Betrag hinausgehende Anteil wird vom \nNettogehalt abgezogen.\nEventuelle Freibeträge können angerechnet werden \nEinkünfte aus geringfügiger Beschäftigung / nebenberufliche Einkünfte / Nebentätigkeiten von \nStudenten: \n• Ansatz: 100 % bei dauerhafter Tätigkeit  \n• Wenn nachhaltig und nachweisbar über mindestens sechs Monate \n• Darlehensnehmer ist nicht älter als 65 Jahre \nEinkünfte aus Kurzarbeit: \n• Niedrigstes Einkommen der letzten 3 Monate\nAuszubildende sind als (Mit-)Darlehensnehmer zugelassen. \nFür den Ansatz des Einkommens aus dem Ausbildungsverhältnis gelten die Regelungen für befristete Arbeitsverhältnisse, mind. 3 Abrechnungen."
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Altersrente: Ansatz 100,0 % \nGesetzlicher Erwerbsunfähigkeitsrente: Ansatz 100,0 %, sofern unbefristet\nGesetzliche Berufsunfähigkeitsrente: Ansatz 100,0 %, sofern unbefristet\nWaisenrente: Ansatz 100,0 % bis zum 14. Geburtstag des Kindes"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: kein Ansatz\nKindesunterhalt: Ansatz 100,0 % bis zum 16. Geburtstag des Kindes"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Personen mit befristetem Arbeitsverhältnis sind als (Mit-)Darlehensnehmer zugelassen. \nFinanzierung ist unter folgenden Voraussetzungen möglich: \n • Das Einkommen ist u.a. anhand folgender Kriterien auf seine Nachhaltigkeit zu prüfen: \n o Berufsbild \n o Branche \n o Arbeitsmarktsituation (in der Region) \n • Die Restdauer des Arbeitsvertrags beträgt mehr als 2 Monate: \n o Beurteilung der Nachhaltigkeit des Einkommens ist positiv. \n o Erkenntnisse und Zweifel an der Nachhaltigkeit des Einkommens sind der MHB \nmitzuteilen. \n • Bei einer Restdauer des Arbeitsvertrags bis zu 2 Monaten: \n o Anschlußvertrag muss vorliegen (Nachweis/Bestätigung erforderlich)."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner, Selbstständige\n\n\nAuszubildende sind als (Mit-) Darlehensnehmer generell zugelassen. Für den Ansatz des Einkommens aus dem Ausbildungsverhältnis gelten die Regelungen für befristete\nArbeitsverhältnisse\nSchüler und Praktikanten sind als (Mit-)Darlehensnehmer generell\nzugelassen.\n  ·  Der Kapitaldienst muss aus anderen nachhaltigen, nachgewiesenen Einkunftsarten (z.B. Vermietung und Verpachtung, Einkommen des Mitantragstellers) getragen werden können."
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Einkünfte aus Photovoltaikanlagen werden nicht anerkannt\nMitverpflichtung Ehepartner: nach deutschem und ausländichem Eherecht nicht erforderlich\n100%-Finanzierung möglich, sobald Haushaltsrechnung +/-0\nArbeitslose/Arbeitssuchende sind als (Mit-)Darlehensnehmer generell zugelassen.\n  ·  Der Kapitaldienst muss aus anderen nachhaltigen, nachgewiesenen Einkunftsarten (z.B. Vermietung und Verpachtung, Einkommen des Mitantragstellers) getragen werden können.\n  ·  Kein Ansatz von Arbeitslosengeld"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max.: 4 \nkeine Mitverpflichtung des Ehepartner notwendig"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Grundsätzlich: Ansatz der nachhaltigen Mieten (Jahresreinertrag) im Sinne der\nBelWertV bei Vorliegen eines (Ertragswert-)Gutachtens mit Ausweis der nachhaltigen\nMieten.\nErsatzweise, sofern kein (Ertragswert-)Gutachten nach BelWertV mit Ausweis der\nnachhaltigen Mieten vorliegt:\n■ Ansatz: Bis zu 75,00 % der langfristig erzielbaren Nettokaltmieten\n■ Kein Ansatz von\n\nMieteinkünften aus Untervermietung\nMieteinkünften aus Ferienimmobilien\nGarantiemieten"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "100% des Durchschnitts der letzten 3 Jahre. Bei fallender Tendenz: Schlechtestes Jahr der \nletzten 3 Jahre, bei Schwankungen: Durchschnitt der letzten 3 Jahre \nEinkommensteuer ist zu berücksichtigen \nAußerordentliche Einnahmen müssen herausgerechnet werden. \nnur ein Gewerbe bzw. nur eine selbstständige Tätigkeit und keine weiteren Firmen und/oder Beteiligungen vorhanden\nAnteile an steuerlichen Kapitalanlagen möglich (z.B. Solarparks, Immobilienfonds, usw.)\nNachweis von 3 Jahren Selbstständigkeit erforderlich\nKeine Finanzierung, wenn Firmensitz im Ausland oder bei negativem Eigenkapital\nKeine Ltd. (Limited) oder UG (Unternehmergesellschaft) als Rechtsform"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Mindestalter: 18 Jahre \n • Alter eines Darlehensnehmers bis 67 Jahre: Keine Einschränkungen \n • Alter eines Darlehensnehmers ab 67 Jahre: \n o Beleihungsauslauf maximal 60,00 % \n o Rein wohnwirtschaftliche oder überwiegend wohnwirtschaftliche Nutzung (Anteil \nWohnen größer als 50,00 %)"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Ansatz des niedrigsten Einkommens der letzten 3 Monate"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Finanzierung ist nicht möglich, sobald mindestens ein negativer Eintrag bei einem Darlehensnehmer vorhanden ist - grundsätzlich auch bei erledigten Merkmalen. \n • Auch bei negativer SCHUFA-Nachmeldung vor Auszahlung tritt die Bank vom Darlehensvertrag gegen Stellung der Nichtabnahmeentschädigung zurück."
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Die Darlehensnehmer müssen der deutschen Sprache mächtig sein\nBei Staatsangehörigkeit eines Nicht-EU-Staates: Nachweis der unbefristeten \nAufenthaltsgenehmigung"
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Einkünfte aus Kapitalvermögen:\nAnsatz nur bei Privatiers, deren Haupteinkommen erzielt wird aus\nVermietung und Verpachtung:\nAnsatz 75,00 % der Nettokaltmieten"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Personen in Probezeit sind als (Mit-)Darlehensnehmer generell zugelassen\nFalls die Anrechnung des Einkommens aus dieser Beschäftigung erforderlich ist, ist eine\nFinanzierung möglich wenn:\no die Auszahlung nach positivem Ablauf der Probezeit erfolgt\no die Probezeit vorzeitig mit positivem Ergebnis beendet wird"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Altersregeln ab 55 Jahre und <= 65 werden 75% der Nettoeinkünfte aus nichtselbstständiger und selbstständiger Tätigkeit\n> 65 generell 5% Mindesttilgung\n> 75 Jahre Rückführung innerhalb von 5 Jahren\n \nNegative Rentenphase ist unter folgenden Bedingungen möglich:\nEigennutzer: Kund:innen sind jünger als 45 Jahre\nFremdnutzung: Kund:innen bestätigen schriftlich, dass das Objekt zum Renteneintritt verkauft wird"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "100% des Durchschnitts der letzten 3 Jahre. Bei fallender Tendenz: Schlechtestes Jahr der \nletzten 3 Jahre, bei Schwankungen: Durchschnitt der letzten 3 Jahre \nEinkommensteuer ist zu berücksichtigen \nAußerordentliche Einnahmen müssen herausgerechnet werden. \nnur ein Gewerbe bzw. nur eine selbstständige Tätigkeit und keine weiteren Firmen und/oder Beteiligungen vorhanden\nAnteile an steuerlichen Kapitalanlagen möglich (z.B. Solarparks, Immobilienfonds, usw.)\nNachweis von 3 Jahren Selbstständigkeit erforderlich\nKeine Finanzierung, wenn Firmensitz im Ausland oder bei negativem Eigenkapital\nKeine Ltd. (Limited) oder UG (Unternehmergesellschaft) als Rechtsform"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Keine Doppelanrechnung von Ratenkrediten (auch bei Kauf und Neubau), sofern diese durch ein Nachrangdarlehen mit abgelöst werden"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "max. 10 Auszahlungen\nMindestbetrag pro Auszahlung: 10.000 €"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein, aber die MHB muss im Einreichungsschreiben über Besonderheiten, die sich in der Beratung ergeben haben, informiert werden"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Die Darlehensnehmer müssen der deutschen Sprache mächtig sein.\nIm Zweifelsfall kann die MHB eine schriftliche Stellungnahme des Kunden verlangen, dass dieser der deutschen Sprache hinreichend mächst ist und das Vertragswerk vollständig versteht.\nDie Einbindung eines Dolmetschers muss vorab bei der MHB angezeigt werden.\nFremdsprachige Kund:innen sind aus verbraucherschutzrechtlichen Gründen als Kreditnehmer ausgeschlossen."
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\nErläuterung:\nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Videolegitimation: IdNow\nLegitimation in der Filiale: nein"
+    },
+    "umschuldung": {
+      "name": "Umschuldung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Die MHB löst ausschließlich inländische Kreditinstitute ab. Die MHB akzeptiert Ablösungen von Volks- und Raiffeisenbanken nur, wenn zur Einreichung eine schriftliche Bestätigung der Bank vorliegt, dass sie der Ablösung zustimmt. \nGegen notarielle Abtretung der Grundschuld oder gegen Vorlage einer Löschungsbewilligung\nPrivatschriftliche Abtretung mit Übergabe des Grundschuldbriefs nicht möglich\nKeine Umschuldungen bei Rücklastschriften"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja, in BaufiSmart\nper Post an Antragsteller"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Highlights der Zusammenarbeit:\n\n100%-Finanzierung möglich, sobald Haushaltsrechnung +/-0\nnegative Rentenphase ist unter folgenden Bedingungen möglich:\nEigennutzer: Kund:innen sind jünger als 45 Jahre\nFremdnutzung: Kund:innen bestätigen schriftlich, dass das Objekt zum Renteneintritt verkauft wird\nkein Ratenansatz bei Ratenkrediten < 12Monaten Restlaufzeit oder Nachweis EK in Höhe der Verbindlichkeiten\nGehaltsansatz möglich bei:\nBeamten auf Probe und Widerruf\nAuszubildenden (mind. drei Abrechnungen nötig; es gelten die Regeln wie bei Befristungen)\nStudenten (mind. 6 Abrechnungen nötig)\nnur ein Darlehensnehmer - auch bei Ehepartnern - möglich"
+    }
+  },
+  "company_id": "81e1e65edb9d71af785b36222b8cb7a9",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/81e1e65edb9d71af785b36222b8cb7a9",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "03.02.26",
+  "recent_news": [
+    {
+      "date": "25.03.26",
+      "title": "Münchener Hypothekenbank - Reminder: Zins-Highlight im März"
+    },
+    {
+      "date": "12.03.26",
+      "title": "Münchener Hypothekenbank - Zins-Highlight im März"
+    },
+    {
+      "date": "27.02.26",
+      "title": "Münchener Hypothekenbank - Einstellung Rabatt bei Europace Kontoübersicht zum 01.03.2026"
+    },
+    {
+      "date": "29.01.26",
+      "title": "MHB - Neue vereinfachte Regeln beim Modernisierungsdarlehen und neue Kreditfibel"
+    },
+    {
+      "date": "05.01.26",
+      "title": "MHB - Reminder - Umgang mit fremdsprachigen Kund:innen"
+    }
+  ]
+}

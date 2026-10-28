@@ -1,0 +1,74 @@
+openapi: "3.1.0"
+info:
+  title: "Google Places API (Umgebungssuche)"
+  description: "Sucht nach Orten und Einrichtungen (POIs) in der Nähe einer bestimmten Adresse."
+  version: "1.0.0"
+servers:
+  - url: "https://places.googleapis.com"
+    description: "Google Places API v1"
+paths:
+  /v1/places:searchText:
+    post:
+      operationId: "searchNearby"
+      summary: "Sucht nach Einrichtungen in der Nähe"
+      description: "Findet POIs wie Supermärkte, Schulen, etc. anhand eines Suchbegriffs (z.B. 'Supermarkt nahe Kirchstraße 2, Plauen')."
+      parameters:
+        - name: fields
+          in: query
+          required: true
+          description: "Bestimmt welche Felder Google zurückgibt."
+          schema:
+            type: string
+            default: "places.displayName,places.formattedAddress,places.rating"
+        - name: languageCode
+          in: query
+          required: false
+          schema:
+            type: string
+            default: "de"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - textQuery
+              properties:
+                textQuery:
+                  type: string
+                  description: "Suchstring kombiniert mit der genauen Adresse, z.B. 'Schulen nahe [Adresse aus Exposé]'"
+      responses:
+        "200":
+          description: "Erfolgreiche Suche."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  places:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        displayName:
+                          type: object
+                          properties:
+                            text:
+                              type: string
+                              description: "Name des Ortes"
+                        formattedAddress:
+                          type: string
+                          description: "Adresse des gefundenen Ortes"
+                        rating:
+                          type: number
+                          description: "Google Bewertung (1-5)"
+components:
+  schemas: {}
+  securitySchemes:
+    googleApiKey:
+      type: apiKey
+      in: header
+      name: X-Goog-Api-Key
+security:
+  - googleApiKey: []

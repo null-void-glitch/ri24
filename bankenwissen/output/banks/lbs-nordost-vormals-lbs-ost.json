@@ -1,0 +1,386 @@
+{
+  "bank": "LBS NordOst (vormals LBS Ost)",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "max. 100% des in LBS festgesetzten Verkehrswertes"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Einreichung über den stationären Weg an das Team des LBS-Marklervertriebs"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "max. 100% des in LBS festgesetzten Verkehrswertes"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "FINMAS-Produktangebot: \n Annuitätendarlehen \n Vorfinanzierungskredit mit Kombination Bausparvertrag \n Forward Vorfinanzierungskredit mit Kombination \nBausparvertrag  \n Prolongation \n Bauspardarlehen in Finanzierung eingebunden \n \nDie Produkte Annuitätendarlehen, Vorfinanzierungskredit und Prolongation können mit einer bereitstellungszinsfreien Zeit (max. 36 \nMonaten mit entsprechenden Konditionsaufschlägen) angeboten \nwerden."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 TEUR bis 600 TEUR besichert möglich"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei Modernisierungsmaßnahmen mit einem Volumen > 50.000 EUR sind vor Auszahlung der letzten Rate Fotos \nzum Nachweis der Fertigstellung einzureichen"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 und 15 Jahre"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "13 - 60 Monate"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "10-15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Darlehensdatenabfrage erforderlich\nHinweis einstellen, welche Rate, Zinsbindung gewünscht ist und Info, ob das Proloangebot an den Kunden oder Berater versandt werden soll\nLBS erstellt dann Prolo-Angebot\nBuchung über die Abrechnungsbank"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "---"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "---"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "---"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "---"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "---"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart\nvom Kunden unterzeichnete Maklervollmacht und das Formular Prolongationsberatung für das LBS-Annuitätendarlehen einreichen (s. Formular-Center)\nDarlehensdatenabfrage erforderlich\nHinweis einstellen, welche Rate, Zinsbindung gewünscht ist und Info, ob das Proloangebot an den Kunden oder Berater versandt werden soll\nLBS erstellt dann Prolo-Angebot\nBuchung über die Abrechnungsbank"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5/5\nnur bei LBS-Annuitätendarlehen"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 % für BLA bis max. 80% und Zinsbindung von 10 und 15 Jahre, sonst 2 %"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "möglich"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "bis 20.000 EUR ohne Nachweis → Dokumentation im Kosten- und Finanzierungsplan\n> 20.000 EUR mit Nachweis → Kapitaldienstfähigkeit der Antragsteller muss die ggf. erforderliche zusätzliche Finanzierung des 20.000 EUR übersteigenden Eigenleistungsanteil zulassen und in die Sicherstellung \npassen.\n\nEigenleistungen dürfen max. 20 % der Baukosten betragen."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Beleihungswertermittlung und die Bewertung von Rechten in Abt. II erfolgen durch die LBS Sachverständigen\nNur beleihbar, wenn die vollständige Rückzahlung des LBS-Kredites mind. 10 Jahre vor Ablauf des Erbbaurechts erfolgt ist"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0%"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einkommen aus Vermietung/Verpachtung bis max. 50 % Anteil am gesamten Einkommen \n(Grundlage bilden 80 % der anrechenbaren Einnahmen)"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Brandenburg, Berlin (Ost), Hamburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt, Schleswig-Holstein\nDie Geschäftsgebiete der in den jeweiligen Bundesländern ansässigen Sparkassen und die unmittelbar daran angrenzenden Landkreise/Bezirke\nDarüber hinaus im gesamten Bundesgebiet mit folgenden Einschränkungen:\n \nMietermodernisierung: Nur Bauspardarlehen, keine Vergabe von Vorfinanzierungs- und Zwischenkrediten\nErsatzsicherheiten werden nur anerkannt, wenn sie zu 100 % als Sicherheit dienen"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Kaufpreiszahlung fürs Grundstück in Höhe von 100 % möglich, wenn auch der Neubau durch die LBS finanziert wird"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "werden akzeptiert - siehe Kreditvergabekriterien der LBS Ost"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja\nZuschlagsbeschluss muss zwingend eingereicht werden\nNotarbestätigung für die Sicherstellung erforderlich"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja,\nbei Nichtvorlage Elterngeldbescheid Ansatz von 65 % des letzten Nettoeinkommens, max. 1.800 EUR"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13\nBis zum gesetzlichen Renteneintritt: 100% des aktuellen Nettoeinkommen"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "nicht selbstständige Antragsteller: pauschal 55 % des aktuellen Nettoeinkommens, max. 3.500 €/Monat\nBeamte: pauschal 70 % der aktuellen Bezüge\nIst die zu erwartende Rente höher als 55 % des akt. Nettoeinkommens, kann diese, bei entsprechendem Nachweis, angesetzt werden. => Ansatz max. 85 %, ohne Berücksichtigung zukünftiger Rentenanpassungen\nEinkommen aus Nebentätigkeiten bis zum vollendeten 72. Lebensjahr: 100 %\nBereits bestehende unbefristete Erwerbsunfähigkeitsrente: 100 %"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Kindesunterhalt: Ja\ntatsächliche Höhe gemäß Unterhaltstitel\nAnsatz bis zum vollendeten 25. Lebensjahr \nFür Kinder, die von den Eltern zu gleichem Anteil im Wechselmodell betreut werden, wird keine Unterhaltszahlung angesetzt\nEhegattenunterhalt: tatsächliche Höhe gemäß Unterhaltstitel"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Antragsteller aus dem EWR und/oder der Schweiz, die ihre Haupteinkünfte oder ihren Hauptwohnsitz in \nDeutschland haben: Die Vorlage eines unbefristeten Aufenthaltstitels ist nicht \nerforderlich.\nAlle anderen ausländischen Antragsteller mit Hauptwohnsitz in Deutschland: Der Nachweis eines unbefristeten Aufenthaltstitels, „Blaue Karte EU“ oder Niederlassungserlaubnis ist erforderlich"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja, wenn diese branchenüblich sind (Checkliste „Anerkennung der Einkünfte aus befristeten Arbeitsverträgen“)"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Eheleute in Zugewinngemeinschaft/  Lebenspartner im Sinne des LPartG werden grundsätzlich gemeinsam verpflichtet. Die alleinige Kreditaufnahme durch einen Ehepartner/ Lebenspartner i. S. des LPartG ist nur \nmöglich, wenn dessen Einkommen ausreichend für die komplette Haushaltsrechnung ist. Bei grundpfandrechtlich gesicherten Krediten muss der Ehepartner/ Lebenspartner i. S. des LPartG der alleinigen Kreditaufnahme des anderen schriftlich zustimmen. Die Unterschrift muss durch Vermittler/in bestätigt sein. \n➔ Keine gesamtschuldnerische Haftung vermögens- und einkommensloser Mitschuldner sowie von Mitschuldnern, die in keinem familiären Verhältnis zum Kreditnehmer stehen bzw. keinen Bezug zum Objekt \nhaben, sofern die Kreditmittel nicht auch ausdrücklich dem Mitschuldner zu Gute kommen"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "4 aus max. 2 HH"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Aus Vermietung/ Verpachtung und Einnahmen aus Photovoltaik \nbis max. 50% Anteil am gesamten Einkommen (Grundlage bilden \n80 % der anrechenbaren Einnahmen)"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in einem Land mit EURO als Landeswährung und Haupteinkommen wird in EURO erzielt (ausreichend für die Haushaltsrechnung)\nBei Wohnsitz in Deutschland auch Haupteinkommen in dänischen Kronen, \npolnischen Zloty oder tschechischen Kronen erzielt wird (weitere Fremdwährungen werden nicht akzepiert"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Altersbeschränkung/Kreditlaufzeiten\nBlankokredite \nBauspardarlehen: keine Altersbeschränkung (Kapitaldienstfähigkeit muss gegeben sein)\nVK/ ZK: Die Zuteilung des Bausparvertrages muss bis zum vollendeten 80. Lebensjahr des \nältesten Kreditnehmers erfolgt sein. Für das anschließende Bauspardarlehen besteht keine \nAltersgrenze.\nGesicherte Kredite\nKreditvergabe möglich, wenn zum Ablauf der statistischen Lebenserwartung des ältesten Antragstellers die \ndann vorhandene Restschuld max. 80 % des ermittelten Beleihungswertes beträgt. Ist dies nicht der Fall, ist \ndie Mitverpflichtung eines Dritten (i. d. R. Erben) erforderlich."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Die Staatsbürgerschaft des Antragstellers spielt keine Rolle (gilt für IVD und AVD)"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Probezeit muss beendet sein (ggf. Nachweis durch Arbeitsvertrag oder Arbeitgeber)"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopie Vermittler-VVI sowie Darlehensvermittlungsvertrag"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload auf der Plattform, per Post oder Mail"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload auf der Plattform, per Post oder Mail"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent\nVideoIdent\n→ Legitimationsunterlagen müssen mit \ndem Antragseingang vorliegen"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload auf der Plattform, per Post oder Mail"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Beleihungsobjekte müssen immer besichtigt werden.\nDie Besichtigung erfolgt\nim Geschäftsgebiet: durch den Berater oder einen von der LBS beauftragten externen Dienstleister\nim übrigen Bundesgebiet: immer durch einen von der LBS beauftragten externen Dienstleister."
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, zur Kenntnis"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DV per Post an Antragsteller"
+    }
+  },
+  "company_id": "a2745b7a10decc7231795dbab6a006fa",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/a2745b7a10decc7231795dbab6a006fa",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "15.08.25",
+  "recent_news": [
+    {
+      "date": "15.08.25",
+      "title": "LBS NordOst - Anpassung der Kreditvergabekriterien ab 18.08.2025"
+    },
+    {
+      "date": "04.06.25",
+      "title": "LBS NordOst - Anpassung der Kreditvergabekriterien zum 10.06.2025"
+    },
+    {
+      "date": "04.12.24",
+      "title": "LBS NordOst - Anpassung des Tarifangebots zum 01.01.2025"
+    },
+    {
+      "date": "28.11.24",
+      "title": "LBS NordOst - Jahresendfristen 2024"
+    },
+    {
+      "date": "09.10.24",
+      "title": "LBS NordOst - Konditionssenkung per sofort"
+    }
+  ]
+}

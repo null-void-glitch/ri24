@@ -1,0 +1,1958 @@
+<!DOCTYPE html><html lang="de"><head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    <style>
+        .table td img {
+            max-width: 50px;
+        }
+
+        .table-hover tbody > tr:hover > td {
+            background-color: #acdcfa;
+            background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#acdcfa), to(#89caf5));
+            background-image: -webkit-linear-gradient(to bottom, #acdcfa 0%, #89caf5 100%);
+            background-image: -moz-linear-gradient(to bottom, #acdcfa 0%, #89caf5 100%);
+            background-image: -ms-linear-gradient(to bottom, #acdcfa 0%, #89caf5 100%);
+            background-image: -o-linear-gradient(to bottom, #acdcfa 0%, #89caf5 100%);
+            background-image: linear-gradient(to bottom, #acdcfa 0%, #89caf5 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#acdcfa', endColorstr='#89caf5', GradientType=0);
+            color: #333;
+            text-shadow: none;
+        }
+
+        .table-hover tbody > tr:hover > td a.btn-link,
+        .table-hover tbody > tr:hover > td .btn-link {
+            color: #08c;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=pqfdhbhtlm"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=pqfdhbhtlm">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=pqfdhbhtlm"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=pqfdhbhtlm"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=pqfdhbhtlm"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=pqfdhbhtlm"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=pqfdhbhtlm"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=pqfdhbhtlm"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=pqfdhbhtlm"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=pqfdhbhtlm"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=pqfdhbhtlm"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=pqfdhbhtlm"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=pqfdhbhtlm"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=pqfdhbhtlm"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=pqfdhbhtlm"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=pqfdhbhtlm"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=pqfdhbhtlm"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=pqfdhbhtlm"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=pqfdhbhtlm"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=pqfdhbhtlm"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=pqfdhbhtlm"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=pqfdhbhtlm"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=pqfdhbhtlm"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=pqfdhbhtlm"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=pqfdhbhtlm"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Team</span> </a></li><li class="active open"><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=pqfdhbhtlm"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=pqfdhbhtlm"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=pqfdhbhtlm"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=pqfdhbhtlm"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=pqfdhbhtlm"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=pqfdhbhtlm"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=pqfdhbhtlm"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=pqfdhbhtlm">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=pqfdhbhtlm">.</li>
+    </ul>
+</div>    <div id="content">
+        <div id="content-header">
+            <h1>Whitelabel</h1>
+        </div>
+        <div id="breadcrumb">
+            <a href="../../../../../adm/individuell/dashboard.php?admsess=pqfdhbhtlm" title="" class="tip-bottom" data-original-title="zum Dashboard"><span class="icon"></span> Home</a>
+            <a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm" title=""> Whitelabel</a>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-12">
+                    <a href="../../../../../adm/individuell/master/whitelabel/new/?admsess=pqfdhbhtlm" class="btn btn-primary pull-left" title="">Neue Whitelabel-Lizenz</a>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>alle Whitelabel-Lizenzen (alle Regionen)</h5>
+                        </div>
+                        <div class="widget-content" style="overflow: auto;">
+                            <table class="table table-hover table-bordered">
+                                <thead>
+                                <tr>
+                                                                            <th>Portal<br>
+                                            <div class="btn-group dropdown">
+                                                <button data-toggle="dropdown" class="btn btn-xs btn-primary dropdown-toggle">
+                                                    Filter&nbsp;
+                                                    <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-yellow scrollable-menu">
+                                                    <li>
+                                                        <a title="" href="../../../../../adm/individuell/master/whitelabel/list?admsess=pqfdhbhtlm">Filter zurücksetzen</a></li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=aai24&amp;admsess=pqfdhbhtlm">Aachen-Eifelimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ami24&amp;admsess=pqfdhbhtlm">Altmarkimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ai24&amp;admsess=pqfdhbhtlm">Anhaltimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=abi24&amp;admsess=pqfdhbhtlm">Augsburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=bsi24&amp;admsess=pqfdhbhtlm">Bayerisch-schwabenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=bdi24&amp;admsess=pqfdhbhtlm">Bergisches-Dreieckimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=bgli24&amp;admsess=pqfdhbhtlm">Bergischeslandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=bi24&amp;admsess=pqfdhbhtlm">Berlinimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=bosi24&amp;admsess=pqfdhbhtlm">Bodenseeimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=brai24&amp;admsess=pqfdhbhtlm">Braunschweigimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=brei24&amp;admsess=pqfdhbhtlm">Bremenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ci24&amp;admsess=pqfdhbhtlm">Chemnitzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=di24&amp;admsess=pqfdhbhtlm">Dortmundimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ddi24&amp;admsess=pqfdhbhtlm">Dresdenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=dui24&amp;admsess=pqfdhbhtlm">Duisburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=duei24&amp;admsess=pqfdhbhtlm">Düsseldorfimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=eli24&amp;admsess=pqfdhbhtlm">Elbelandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=emsi24&amp;admsess=pqfdhbhtlm">Emslandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=efi24&amp;admsess=pqfdhbhtlm">Erfurtimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=erzi24&amp;admsess=pqfdhbhtlm">Erzgebirgeimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=eei24&amp;admsess=pqfdhbhtlm">Essenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=fi24&amp;admsess=pqfdhbhtlm">Frankfurtimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=gii24&amp;admsess=pqfdhbhtlm">Giessenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=goti24&amp;admsess=pqfdhbhtlm">Göttingenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hai24&amp;admsess=pqfdhbhtlm">Halleimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hhi24&amp;admsess=pqfdhbhtlm">Hamburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hani24&amp;admsess=pqfdhbhtlm">Hannoverimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hi24&amp;admsess=pqfdhbhtlm">Harzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hli24&amp;admsess=pqfdhbhtlm">Havellandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hbi24&amp;admsess=pqfdhbhtlm">Heilbronnimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=hoi24&amp;admsess=pqfdhbhtlm">Holsteinimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=jei24&amp;admsess=pqfdhbhtlm">Jerichowimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ki24&amp;admsess=pqfdhbhtlm">Karlsruheimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=kai24&amp;admsess=pqfdhbhtlm">Kasselimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=kiei24&amp;admsess=pqfdhbhtlm">Kielimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=koei24&amp;admsess=pqfdhbhtlm">Kölnimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=lwi24&amp;admsess=pqfdhbhtlm">Leineweserimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=li24&amp;admsess=pqfdhbhtlm">Leipzigimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=luei24&amp;admsess=pqfdhbhtlm">Lübeckimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=lli24&amp;admsess=pqfdhbhtlm">Ludwigslustimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=lbi24&amp;admsess=pqfdhbhtlm">Lüneburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mbi24&amp;admsess=pqfdhbhtlm">Magdeburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=maii24&amp;admsess=pqfdhbhtlm">Mainzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mani24&amp;admsess=pqfdhbhtlm">Mannheimimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mfi24&amp;admsess=pqfdhbhtlm">Mittelfrankenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mri24&amp;admsess=pqfdhbhtlm">Mittelrheinimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=msi24&amp;admsess=pqfdhbhtlm">Mittelsachsenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mthi24&amp;admsess=pqfdhbhtlm">Mittelthüringenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mi24&amp;admsess=pqfdhbhtlm">Münchenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=mli24&amp;admsess=pqfdhbhtlm">Münsterlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nbi24&amp;admsess=pqfdhbhtlm">Niederbayernimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nri24&amp;admsess=pqfdhbhtlm">Niederrheinimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nsai24&amp;admsess=pqfdhbhtlm">Nordsaarlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nsi24&amp;admsess=pqfdhbhtlm">Nordsachsenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nti24&amp;admsess=pqfdhbhtlm">Nordthueringenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=nwmi24&amp;admsess=pqfdhbhtlm">Nordwestmecklenburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=obi24&amp;admsess=pqfdhbhtlm">Oberbayernimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ofi24&amp;admsess=pqfdhbhtlm">Oberfrankenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ohi24&amp;admsess=pqfdhbhtlm">Oberhavelimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=oli24&amp;admsess=pqfdhbhtlm">Oberlausitzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=opi24&amp;admsess=pqfdhbhtlm">Oberpfalzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=osi24&amp;admsess=pqfdhbhtlm">Oberschwabenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=obli24&amp;admsess=pqfdhbhtlm">Oderlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=osni24&amp;admsess=pqfdhbhtlm">Osnabrückimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=osai24&amp;admsess=pqfdhbhtlm">Ostsaarlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=othi24&amp;admsess=pqfdhbhtlm">Ostthüringenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=reki24&amp;admsess=pqfdhbhtlm">Rhein-Erft-Kreisimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rski24&amp;admsess=pqfdhbhtlm">Rhein-Siegkreisimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rhhi24&amp;admsess=pqfdhbhtlm">Rheinhessenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rni24&amp;admsess=pqfdhbhtlm">Rheinneckarimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rpi24&amp;admsess=pqfdhbhtlm">Rheinpfalzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rhti24&amp;admsess=pqfdhbhtlm">Rheintalimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=roi24&amp;admsess=pqfdhbhtlm">Rostockimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=rgi24&amp;admsess=pqfdhbhtlm">Ruhrgebietimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sui24&amp;admsess=pqfdhbhtlm">Saaleunstrutimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sbi24&amp;admsess=pqfdhbhtlm">Saarbrückenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sosi24&amp;admsess=pqfdhbhtlm">Sächsische-Schweiz-Osterzgebirgeimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sli24&amp;admsess=pqfdhbhtlm">Salzlandimmobilien</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=saui24&amp;admsess=pqfdhbhtlm">Sauerlandimmobilien</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=slwi24&amp;admsess=pqfdhbhtlm">Schleswigimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sai24&amp;admsess=pqfdhbhtlm">Schwäbischealbimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=swwi24&amp;admsess=pqfdhbhtlm">Schwarzwaldimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=si24&amp;admsess=pqfdhbhtlm">Schwerinimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sigi24&amp;admsess=pqfdhbhtlm">Siegerlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=swi24&amp;admsess=pqfdhbhtlm">Spreewaldimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=sti24&amp;admsess=pqfdhbhtlm">Stuttgartimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=dai24&amp;admsess=pqfdhbhtlm">Südhessenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=smbi24&amp;admsess=pqfdhbhtlm">Südmecklenburgimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=swti24&amp;admsess=pqfdhbhtlm">Südwestthüringenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wii24&amp;admsess=pqfdhbhtlm">Taunusimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=tbi24&amp;admsess=pqfdhbhtlm">Teutoburger-Wald-Imobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ti24&amp;admsess=pqfdhbhtlm">Trierimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=umi24&amp;admsess=pqfdhbhtlm">Uckermarkimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=ufi24&amp;admsess=pqfdhbhtlm">Unterfrankenimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=vi24&amp;admsess=pqfdhbhtlm">Vogtlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=vpi24&amp;admsess=pqfdhbhtlm">Vorpommernimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wei24&amp;admsess=pqfdhbhtlm">Weseremsimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wesi24&amp;admsess=pqfdhbhtlm">Westeifelimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wwi24&amp;admsess=pqfdhbhtlm">Westerwaldimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wpfi24&amp;admsess=pqfdhbhtlm">Westpfalzimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=wsai24&amp;admsess=pqfdhbhtlm">Westsaarlandimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=weti24&amp;admsess=pqfdhbhtlm">Wetterauimmobilien24</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a title="" href="../../../../../adm/individuell/master/whitelabel/list?portal=zi24&amp;admsess=pqfdhbhtlm">Zwickauimmobilien24</a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                        </th>
+                                                                        <th>Partner-Bereich</th>
+                                    <th>Sortierung</th>
+                                    <th>Bild</th>
+                                    <th>Name / Position</th>
+                                    <th>Telefon / E-Mail</th>
+                                    <th style="width: 85px;">Operationen</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                        <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">0</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/makler221_2yuav8bmme.png" alt=""></td>
+                                            <td>
+                                                 Tester Whitelabel Pitcom<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Finanzierungsberater</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: <br>
+                                                Mobil: <br>
+                                                E-Mail: 66d30a28@pitcom.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=265">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=265">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=265" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">101</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.01@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=208">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=208">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=208" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">102</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.02@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=209">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=209">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=209" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">103</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.03@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=210">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=210">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=210" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">104</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.04@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=211">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=211">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=211" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">105</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.05@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=212">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=212">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=212" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">106</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.06@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=213">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=213">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=213" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">107</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.07@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=214">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=214">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=214" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">108</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.08@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=215">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=215">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=215" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">109</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.09@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=216">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=216">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=216" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">110</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.10@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=217">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=217">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=217" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">111</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.11@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=218">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=218">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=218" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">112</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.12@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=219">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=219">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=219" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">113</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.13@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=220">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=220">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=220" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">114</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.14@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=221">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=221">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=221" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">115</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.15@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=222">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=222">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=222" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">116</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.16@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=223">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=223">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=223" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">117</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.17@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=224">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=224">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=224" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">118</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.18@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=225">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=225">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=225" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">119</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.19@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=226">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=226">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=226" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">120</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.20@finanzierungsassistent24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=227">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=227">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=227" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">201</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.01@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=274">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=274">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=274" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">202</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.02@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=275">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=275">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=275" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">203</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.03@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=276">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=276">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=276" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">204</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.04@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=277">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=277">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=277" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">205</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.05@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=278">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=278">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=278" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">206</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.06@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=279">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=279">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=279" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">207</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.07@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=280">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=280">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=280" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">208</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.08@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=281">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=281">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=281" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">209</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.09@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=282">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=282">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=282" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">210</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.10@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=283">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=283">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=283" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">211</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.11@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=284">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=284">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=284" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">212</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.12@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=285">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=285">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=285" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">213</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.13@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=286">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=286">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=286" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">214</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.14@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=287">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=287">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=287" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">215</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.15@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=288">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=288">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=288" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">216</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.16@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=289">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=289">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=289" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">217</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.17@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=290">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=290">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=290" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">218</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.18@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=291">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=291">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=291" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">219</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.19@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=292">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=292">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=292" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-info">Regionalimmobilien24 - DEMO</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                                    <span class="badge badge-info">220</span>
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Demo Finanzierer<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Baufinanzierungsberaterin</code>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: +49 3741 3847602<br>
+                                                Mobil: <br>
+                                                E-Mail: demo.finanzierung.20@regionalimmobilien24.intern,<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=293">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=293">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=293" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">nri24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/frank-kaesmacher_hs33f5sheq.png" alt=""></td>
+                                            <td>
+                                                 Frank Kaesmacher<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">selbstständiger Finanzierungsberater</code>
+                                                                                                                                                    <br><br>                                                    <span class="badge badge-info">EuropaceID: <span class="badge">MJQ50</span></span>
+                                                                                            </td>
+                                            <td>
+                                                Telefon: 021539099985<br>
+                                                Mobil: <br>
+                                                E-Mail: info@frank.kaesmacher.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=298">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=298">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=298" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">othi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                            </td>
+                                            <td><img src="" alt=""></td>
+                                            <td>
+                                                 Matthias Pabst<br>
+                                                <br>
+                                                                                                                                            </td>
+                                            <td>
+                                                Telefon: <br>
+                                                Mobil: <br>
+                                                E-Mail: matthias.pabst@allianz.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=266">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=266">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=266" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                                <tr>
+                                                                                            <td>
+                                                    <span class="badge badge-inverse">vi24</span>
+                                                </td>
+                                                                                        <td>
+                                                <span class="badge badge-success">Finanzierungsassistent24</span>                                            </td>
+                                            <td style="text-align: center;">
+                                                                                            </td>
+                                            <td><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/partner/v/50x50/crop/qp-partner-kopf_5g24746db5.png" alt=""></td>
+                                            <td>
+                                                 Martina Muster<br>
+                                                <br>
+                                                                                                    <code style="white-space: normal;">Finanzierungsberaterin</code>
+                                                                                                                                                    <br><br>                                                    <span class="badge badge-info">EuropaceID: <span class="badge">PCG70</span></span>
+                                                                                            </td>
+                                            <td>
+                                                Telefon: 012345678<br>
+                                                Mobil: <br>
+                                                E-Mail: martina.muster@regionalimmobilien24.de<br>
+                                            </td>
+                                            <td>
+                                                <a title="Datensatz bearbeiten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&amp;id=194">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                <a title="Sichtbarkeit umschalten" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&amp;id=194">
+                                                    <span class="icon" style="color:#B7D700; "></span>
+                                                </a>
+                                                <a title="Eintrag/Mitarbeiter löschen" class="btn btn-link" href="../../../../../adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&amp;id=194" style="color: #ff0000;">
+                                                    <span class="icon"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                                                        </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>        </div>
+    </div>
+    
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>
+</body></html>

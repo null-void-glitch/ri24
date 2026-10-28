@@ -1,0 +1,557 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/kfw-zinsreservierung",
+  "category": "Kriterian KfW Darlehen",
+  "criterion_name": "KfW-Zinsreservierung",
+  "criterion_id": "kfw-zinsreservierung",
+  "scraped_at": "2026-05-07T12:14:37.134Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "mit einzureichen > muss durch Vermittler/in erfolgen"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Eine Zinsreservierung wird durch Wüstenrot vorgenommen (sobald nach vollständiger Fallprüfung des internen Scoring \"grün\" ist.)"
+    },
+    {
+      "bank": "BBBank",
+      "value": "werden akzeptiert"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "Aktuell nur über DB direkt möglich\nReservierung wird automatisch direkt bei Annahme über die Plattform ausgelöst"
+    },
+    {
+      "bank": "DKB",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "Ja"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "wird nicht akzeptiert"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "ING",
+      "value": "keine automatische KfW-Reservierung \nReservierungsdetails aus den Ereignissen im Vorgang müssen extra auf dem ING-KfW Beiblatt unten eingetragen werden"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "folgt"
+    },
+    {
+      "bank": "KSK Herzogtum Lauenburg",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Manuelle KfW-Reservie"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "ja"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "die KfW-Reservierung per Plattform wird durch den Produktanbieter nicht akzeptiert"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "ja"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Erfolgt automatisch im Rahmen der Antragstellung"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Manuelle Reservierung durch Vertriebspartner notwendig"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Zinsreservierung über die Bank (bei Antragseinreichung)"
+    },
+    {
+      "bank": "PSD München",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "PSD West",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Raiffeisenbank Augsburger Land West eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "nein"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "ja wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Ja, wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "Wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "-"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Haßberge eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "keine Fast-Lane, vorgezogene Bearbeitung kann nicht garantiert werden"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Nein, wird nicht akzeptiert"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Bensheim",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Wird im Vorgang vorgenommen"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "folgt"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Nordwest",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "Reservierung durch Vermittler erforderlich"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "ja, automatische Reservierung akzeptiert"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "automatische Reservierung wird akzeptiert"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "ja, automatische Reservierung wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "ja, die automatische KfW Konditionsreservierung wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "ja"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "wird nicht akzeptiert, manuelle\nReservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "ja"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "automatische Konditionsreservierung"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "wird nicht akzeptiert"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "manuelle Konditionsreservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "ja"
+    },
+    {
+      "bank": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "value": "ja"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "Nein, hier ist eine manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "ja"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Konditionsreservierung für KFW werden über die Plattform nicht angeboten.\nBei Antragsübernahme und Bearbeitung des Antrages wird diese manuell vom Spezialisten der Bank erstellt und an den Vermittler gegeben."
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "ist möglich"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "wird angeboten"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "manuelle Konditionsreservierung notwendig"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "ja, automatische Reservierung wird akzeptiert"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "ja"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "-"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Lahn-Dill eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "ja, wird akzeptiert"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "ja wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "wird nicht akzeptiert"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "nein, manuelle Reservierung notwendig"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "ja"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "möglich"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "nein, manuelle Konditionsreservierung notwendig"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "wird akzeptiert"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "automatische Reservierung wird akzeptiert"
+    }
+  ]
+}

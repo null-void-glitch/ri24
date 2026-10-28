@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Makler 1980 Real Estate GmbH bearbeiten - RI24 SEO</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Makler bearbeiten (/adm/.../makler/edit/?maklerid=r24srn74skk) — opened from a realtor's name in Übersicht Makler rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Login-Backend/FTP Passwort values are fabricated placeholders, not the real credential — see build.py docstring. Everything else is real captured data. "Einloggen" / "Zugangsdaten Download" are ported from the row-action icons on Übersicht Makler / Kurzliste Makler. The single "Daten speichern" button is replaced with a floppy-disk save action on each editable box. "neue Objekte im ADM anlegen" and "Baufi anhand Immo-Ort" are dropped — both are now always-on defaults for every Makler going forward, no longer a per-Makler option.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li class="active"><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Makler 1980 Real Estate GmbH bearbeiten</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item active"><strong>Konfiguration</strong></li></ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-8">
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Maklerdaten</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Firmenname</label>
+        <div class="col-sm-9"><input type="text" class="form-control" value="1980 Real Estate GmbH"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Makler-ID</label>
+        <div class="col-sm-9"><input type="text" class="form-control" value="r24srn74skk" disabled></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Region</label>
+        <div class="col-sm-9"><span class="badge badge-inverse" style="font-size:13px;">brei24</span> <a href="#" class="btn btn-success btn-sm"><i class="fa fa-retweet"></i> umhängen</a></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Profil-Verzeichnis</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="{region}/anbieter/--real-estate-gmbh/" disabled><span class="input-group-btn"><button class="btn btn-default" type="button" title="URL-Segment umschalten"><i class="fa fa-pencil"></i></button></span></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">E-Mail bei keinen Immobilie</label>
+        <div class="col-sm-9"><select id="info_no_immo" name="info_no_immo" class="form-control"><option value="-1">nein, keine Benachrichtigung</option><option value="1" selected>ja</option></select></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Makler-Stufe/Modell</label>
+        <div class="col-sm-9"><select id="makler_stufe" name="makler_stufe" class="form-control"><option value="basic" selected>Basic</option><option value="plus">Plus</option><option value="premium">Premium</option></select></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Angebote zusammenfassen</label>
+        <div class="col-sm-9"><input type="checkbox" id="merge_offers"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">für Gemeinschaftsgeschäft freischalten (Multimakler)</label>
+        <div class="col-sm-9"><input type="checkbox" id="multimakler"> <small class="text-muted">(nur Premium)</small></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Freischaltung Immosolve</label>
+        <div class="col-sm-9"><input type="checkbox" id="kontakt_has_immosolve"></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Makler-Profil</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">E-Mail</label>
+        <div class="col-sm-9"><input type="text" class="form-control" placeholder="name@domain.tld"><div><small class="text-muted">Anzeige auf Profil-Seite und für Info-Versand bei keinen aktiven Immobilien</small></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">ext. Homepage</label>
+        <div class="col-sm-9"><input type="text" class="form-control" placeholder="https://www.domain.tld"><div><small class="text-muted">URLS immer mit <code>http(s)://</code> beginnend</small></div></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Login Backend</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Login-Name</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="r24srn74skk"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Passwort</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="x7k2mQ9p"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Login FTP</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Benutzername</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="r24srn74skk"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Passwort</label>
+        <div class="col-sm-9"><div class="input-group"><input type="text" class="form-control" value="x7k2mQ9p"><span class="input-group-btn"><button class="btn btn-default" type="button" title="neu generieren"><i class="fa fa-refresh"></i></button></span></div></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>techn. Ansprechpartner</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Immobilienfinanzierung</label>
+        <div class="col-sm-9"><select id="ansprechpartner_baufi" name="ansprechpartner_baufi" class="form-control"><option value="" selected>--- keinen Ansprechpartner ---</option><option value="356">Benjamin Fuhr (bdi24)</option><option value="328">Katrin Johst-Mandel (bi24)</option><option value="119">Andreas Schulze (bi24)</option><option value="334">Jasmin Baruschke (brai24)</option><option value="177">Daniel Albert (bsi24)</option><option value="307">Silvia Liebeskind (ci24)</option><option value="27">Dominic Hoffmann (dai24)</option><option value="35">Claudia Volke-Herrmann (ddi24)</option><option value="329">Bernd Kreie (dui24)</option><option value="243">Andreas Engelbrecht-Eichstädt (efi24)</option><option value="125">Sören Uhlig (erzi24)</option><option value="45">Rainer Veigel (erzi24)</option><option value="269">Dirk Schwarz (fi24)</option><option value="340">Daniel Schwan (gii24)</option><option value="172">Nancy Radde (hai24)</option><option value="354">Oliver Thier (hhi24)</option><option value="233">Dana Reibe (hi24)</option><option value="333">Jörg Kintzel (hli24)</option><option value="348">Uwe Madeja (hli24)</option><option value="179">Lambert Adams (hoi24)</option><option value="171">Willi Schikora (hoi24)</option><option value="353">Ron Westphal (hoi24)</option><option value="230">Oliver Gehrk (kiei24)</option><option value="295">Andreas Beitzen (koei24)</option><option value="320">Marcus Brinkwirth (lbi24)</option><option value="319">Christoph Soetebeer (lbi24)</option><option value="17">Peggy Rodewald (li24)</option><option value="16">Mike Schmidt (li24)</option><option value="343">Patrick Funke (maii24)</option><option value="167">Nicole Hartig (mbi24)</option><option value="170">Thomas Zenker (mbi24)</option><option value="341">Christine de la Motte (mfi24)</option><option value="342">Jan Philip de la Motte (mfi24)</option><option value="174">Jean-Claude Kühne (mfi24)</option><option value="332">Niklas Lechner (mfi24)</option><option value="106">Peter Reuter (mfi24)</option><option value="325">Guido Allmich (mi24)</option><option value="309">Hubert Ebertseder (mi24)</option><option value="350">Melanie Gmeiner (mi24)</option><option value="326">Christiana Kurczyk (mi24)</option><option value="308">Anton Neumeier (mi24)</option><option value="335">Miroslav Papac (mi24)</option><option value="127">Jörg Edelbrock (mli24)</option><option value="299">Marc Stoll (mli24)</option><option value="79">Jan Doberenz (msi24)</option><option value="168">Michael Branetzki (nri24)</option><option value="121">André Stempel (nri24)</option><option value="102">Matthias Dickes (nsi24)</option><option value="103">Diana Helm (nsi24)</option><option value="21">Frank Lohse (nsi24)</option><option value="352">Max Riesenberg (nsi24)</option><option value="294">Andreas Berndt (obi24)</option><option value="351">Florian Gleißner (obi24)</option><option value="323">William Schwaß (obi24)</option><option value="98">Thorsten Stehmann (obi24)</option><option value="312">Mariana Cecilia Wehrhahn (obi24)</option><option value="165">Karl-Heinz Schuh (obli24)</option><option value="155">Jörg Lübben (oli24)</option><option value="100">Ewald Madl (opi24)</option><option value="303">Jürgen Schott (opi24)</option><option value="89">Horst Grüger (reki24)</option><option value="90">Thomas Nicolas (reki24)</option><option value="355">Peter Klima (rgi24)</option><option value="339">Lars Nitsche (rgi24)</option><option value="272">Oliver Wewering (rgi24)</option><option value="345">Jan Bollenbach (rhhi24)</option><option value="344">Andreas Coutandin (rhhi24)</option><option value="331">Hans-Dieter Döll (rhti24)</option><option value="306">Stephan Klammt (rhti24)</option><option value="271">Jürgen Lösch (rni24)</option><option value="231">Michael Christ (roi24)</option><option value="237">Harald Strobel (rpi24)</option><option value="232">Tobias Erler (rski24)</option><option value="318">Jürgen Stengel (sai24)</option><option value="347">Murat Güneser (saui24)</option><option value="88">Heldenhaft beraten werden (sbi24)</option><option value="304">Johannes Friedt (sti24)</option><option value="349">Tom Sander (swi24)</option><option value="311">Axel Scholz (swti24)</option><option value="180">Steffen Simon (swti24)</option><option value="302">Thomas Grosshans (swwi24)</option><option value="109">Andreas Janz (swwi24)</option><option value="313">Christian Schmid (swwi24)</option><option value="338">Kevin Helms (tbi24)</option><option value="297">Christian Appel (ufi24)</option><option value="346">Ronni Swatek (umi24)</option><option value="1">Lars Rupprecht (vi24)</option><option value="4">Philipp Steppohn (vi24)</option><option value="316">Patrick Thier (vi24)</option><option value="305">Kilian de Vries (wei24)</option><option value="116">Sven Harth (wpfi24)</option><option value="270">Wolfram Aller (wwi24)</option><option value="7">Wilfried Hoh (zi24)</option><option value="156">Gert Holdschick (zi24)</option></select></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Webapp-Einstellungen</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">Webapp-Nutzung für Makler aktivieren</label>
+        <div class="col-sm-9"><input type="checkbox" id="use_webapp"></div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 control-label">alternativer Name</label>
+        <div class="col-sm-9"><input type="text" class="form-control" placeholder="1980 Real Estate GmbH"><div><small class="text-muted">ansonsten Firmenname</small></div></div>
+    </div><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+</div>
+        <div class="col-lg-4">
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Aktionen</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+<button class="btn btn-success btn-block"><i class="fa fa-sign-in"></i> Einloggen</button>
+<button class="btn btn-default btn-block"><i class="fa fa-download"></i> Zugangsdaten Download</button>
+
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Makler Text</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <textarea class="form-control" rows="10" readonly>Die 1980 Real Estate GmbH ist ein angesehenes Immobilienunternehmen in Bremen, das für seine umfassende Marktkenntnis und sein engagiertes Team bekannt ist. Das Unternehmen bietet eine breite Palette von Dienstleistungen in der Immobilienvermittlung an, darunter den Verkauf, die Vermietung und die Bewertung von Wohn- und Gewerbeimmobilien. Mit einem tiefen Verständnis des Bremer Immobilienmarktes kann die 1980 Real Estate GmbH maßgeschneiderte Lösungen entwickeln, die perfekt auf die individuellen Bedürfnisse und Wünsche ihrer Kunden abgestimmt sind. Ihr erfahrenes Team von Fachleuten begleitet die Kunden bei jedem Schritt des Immobilienprozesses und bietet eine persönliche Betreuung, die das Finden und Veräußern von Immobilien zu einem angenehmen Erlebnis macht. Egal, ob Sie ein neues Zuhause suchen oder Ihre Immobilie zum bestmöglichen Preis verkaufen möchten, die 1980 Real Estate GmbH nutzt ihre umfassenden Marktkenntnisse, um erfolgreiche Abschlüsse zu gewährleisten. Dabei legen sie besonderen Wert auf Transparenz und Ehrlichkeit, um Vertrauen und langfristige Beziehungen zu ihren Kunden aufzubauen. Der Service erstreckt sich von der ersten Beratung über die professionelle Bewertung und Präsentation Ihrer Immobilie bis hin zur Vertragsunterzeichnung und darüber hinaus. Die 1980 Real Estate GmbH nimmt sich die Zeit, den einzigartigen Wert jeder Immobilie zu erkennen und hebt diese professionell hervor, um die maximale Aufmerksamkeit eines breiten Käufer- oder Mieterpublikums zu erzielen. Durch den Einsatz moderner Technologien und ein umfassendes Netzwerk von Kontakten in Bremen und Umgebung können sie schnell und effektiv auf die Bedürfnisse des Marktes reagieren. Diese Stärken machen die 1980 Real Estate GmbH zu einem vertrauenswürdigen Partner in Immobiliengeschäften in Bremen. Das Unternehmen ist stets bereit, den bestmöglichen Service zu bieten und die Erwartungen seiner Kunden zu übertreffen, indem es seine Ressourcen optimal nutzt und innovative Ansätze verfolgt, um immer einen Schritt voraus zu sein./p</textarea><div class="text-right m-t-md"><button type="button" class="btn btn-primary btn-sm" title="Speichern"><i class="fa fa-floppy-o"></i></button></div>
+            </div>
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Makler löschen</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <button class="btn btn-danger btn-block">Löschen</button>
+            </div>
+        </div>
+</div>
+    </div>
+</div>
+
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

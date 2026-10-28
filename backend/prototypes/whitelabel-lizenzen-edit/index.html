@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitelabel-Lizenz bearbeiten - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<style>
+  .ibox .form-group { margin-bottom: 10px; }
+  .ibox .col-form-label { font-weight: 600; font-size: 12px; padding-top: 7px; }
+  .ibox .form-control { font-size: 13px; }
+  .ibox-footer { padding: 10px 15px; background: #f7f7f7; border-top: 1px solid #e7eaec; }
+</style>
+
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Whitelabel-Lizenz bearbeiten (/adm/.../master/whitelabel/edit/?id=265) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. Edit form for id=265 (Tester Whitelabel Pitcom — demo account). Backend-Login password replaced with placeholder (real credential masked). 3-column layout: persönliche Daten | Unternehmensdaten + Europace | Backend-Login + Löschen.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li class="active"><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Whitelabel-Lizenz bearbeiten</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Whitelabel-Lizenzen</a></li><li class="breadcrumb-item active"><strong>bearbeiten</strong></li></ol>
+    </div>
+</div>
+<div style="margin:-10px 0 10px 20px;"><a href="../whitelabel-lizenzen/index.html" class="btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Zurück zur Liste</a></div>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="ibox"><div class="ibox-title"><h5>persönliche Daten</h5></div><div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row"><label class="col-sm-4 col-form-label">Region</label><div class="col-sm-8"><select name="regioncode" class="form-control form-control-sm"><option value="vi24" selected>Regionalimmobilien24 - Vogtland (vi24)</option></select></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Whitelabel-Mandant</label><div class="col-sm-8"><select name="whitelabel_mid" class="form-control form-control-sm"><option value="">--- bitte wählen ---</option><option value="3">Qualitypool (activ)</option><option value="4" selected>Finanzierungsassistent24 (activ)</option><option value="5">Regionalimmobilien24 - DEMO (activ)</option></select></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">E-Mail<br><small class='text-muted'>(Login-Benutzername)</small></label><div class="col-sm-8"><input type="email" class="form-control form-control-sm" name="email" value="66d30a28@pitcom.de" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Sortierung</label><div class="col-sm-8"><input type="number" class="form-control form-control-sm" name="sorting" value="0" placeholder="" style="max-width:90px;"></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Vorname</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="firstname" value="Tester Whitelabel" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Nachname</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="lastname" value="Pitcom" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Titel</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="title" value="" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Position</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="position" value="Finanzierungsberater" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Telefon</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="phone" value="" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Fax</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="fax" value="" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Mobiltelefon</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="mobile" value="" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Whatsapp</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="whatsapp" value="" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Website</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="website" value="https://www.regionalimmobilien24.de" placeholder="" ></div></div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div></div>
+    </div>
+    <div class="col-md-4">
+      <div class="ibox"><div class="ibox-title"><h5>Unternehmensdaten</h5></div><div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row"><label class="col-sm-4 col-form-label">Firmenbezeichnung</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="firmenbezeichnung" value="Regionalimmobilien24 GmbH" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Straße, Nr</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="street" value="Test-Straße" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">PLZ / Ort</label><div class="col-sm-8"><div class="row"><div class="col-5"><input type="text" class="form-control form-control-sm" name="zip" value="08523"></div><div class="col-7"><input type="text" class="form-control form-control-sm" name="city" value="Plauen"></div></div></div></div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div></div>
+      <div class="ibox"><div class="ibox-title"><h5>Europace</h5></div><div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row"><label class="col-sm-4 col-form-label">EUROPACE Partner ID</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="baufi_dir" value="" placeholder="" ></div></div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div></div>
+    </div>
+    <div class="col-md-4">
+      <div class="ibox"><div class="ibox-title"><h5>Backend-Login Whitelabel</h5></div><div class="ibox-content"><form class="form-horizontal">
+<div class="form-group row"><label class="col-sm-4 col-form-label">Login</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="login" value="66d30a28@pitcom.de" placeholder="" ></div></div>
+<div class="form-group row"><label class="col-sm-4 col-form-label">Passwort</label><div class="col-sm-8"><input type="text" class="form-control form-control-sm" name="pw" value="••••••••••••••••••••••••••" placeholder="" ></div></div>
+<div class="ibox-footer"><button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o"></i> Speichern</button></div>
+</form></div></div>
+      <div class="ibox"><div class="ibox-title"><h5>Whitelabel-Lizenz löschen</h5></div><div class="ibox-content">
+<p class="text-muted">Diese Whitelabel-Lizenz und alle zugehörigen Daten unwiderruflich löschen.</p>
+<a href="#" class="btn btn-danger"><i class="fa fa-trash-o"></i> Löschen</a></div></div>
+    </div>
+  </div>
+</div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/erneute-prufung-vor-auszahlung",
+  "category": "Kriterien Forwarddarlehen",
+  "criterion_name": "Erneute Prüfung vor Auszahlung",
+  "criterion_id": "erneute-prufung-vor-auszahlung",
+  "scraped_at": "2026-05-07T12:13:42.785Z",
+  "banks": [
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "Bonität: in Einzelfällen (besonders bei Selbstständigen)"
+    },
+    {
+      "bank": "AXA",
+      "value": "Schufa-Abfrage"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "Ja, sofern keine Prolongation\n\nSicherheit wird auf Werthaltigkeit geprüft\nBonitätsunterlagen werden 2 Monate vor Auszahlung beim Kunden angefordert\nSchufa-Abfrage erfolgt"
+    },
+    {
+      "bank": "DKB",
+      "value": "Schufa-Abfrage wird durchgeführt, bei neuen Krediten oder Verschlechterung erfolgt neue Prüfung\nObjektprüfung: Nur, wenn sich bei Besichtigungstermin Differenzen zur Wertermittlung ergeben\nkorrekter Ablösetermin wird ermittelt. Insbesondere bei Ablösungen nach §489 BGB"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Schufa-Abfrage"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Bonität:\n\nIn Einzelfällen bei Selbstständigen eines Einkommensteuerbescheides\nAnforderung der letzten 3 Jahreskontoauszüge des Darlehens vor Auszahlung"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Erneute Prüfung bei BLA >80% und Selbstständigen\nObjekt: ggfs. wenn sich Negativmerkmale herausstellen"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "Nur wenn Negativmerkmale durch Schufa nachgemeldet werden"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Nein - Schufa"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "Individuell über BaufiSmart anzufragen"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "Individuell über BaufiSmart anzufragen"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "Bei Forwarddarlehen mit einem Zeitraum > 1 Jahr muss die vorliegende Bonitäts- und Liquiditätsprüfung überarbeitet werden"
+    }
+  ]
+}

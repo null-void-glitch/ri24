@@ -1,0 +1,281 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/mietpool",
+  "category": "Kriterien Objekt",
+  "criterion_name": "Mietpool",
+  "criterion_id": "mietpool",
+  "scraped_at": "2026-05-07T12:16:48.116Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Ja"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "Ja"
+    },
+    {
+      "bank": "DKB",
+      "value": "Nein"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "value": "Ja, innerhalb Landkreis bis 100%, außerhalb bis 70%"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "wird nicht finanziert"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Ja, aber Einwertung nach Ertragswert"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Voranfrage möglich wenn Mieteinnahmen daraus nicht für KDF benötigt werden"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Nein\n \nMieteinnahmen aus bereits vorhandenem Mietpool werden angesetzt gemäß Aufstellung des Verwalters. Mietvertrag muss eingereicht werden"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Ja, aber Mieteinnahmen daraus werden nicht in der Haushaltsrechnung berücksichtigt"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Möglich, sofern die Miete nicht für eine positive HH-Rechnung benötigt wird"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "grundsätzlich möglich"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "Ja, max. 1 - 2 Einheiten pro Objekt und DN\nEK min. NK + 15%"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Ja, mit EK Einsatz 20% (Verzicht möglich, wenn Einkommen bei Ledigen EUR 2500,–/Verheiratet EUR 4000,-- liegt, ohne Berücksichtigung Bonus und Sonderzahlungen)"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Ja, bis max. 80%"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "grundsätzlich möglich, Einzelfallentscheidung je Pool"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "zwingend Nebenkosten + 10% auf den Kaufpreis echter EK-Einsatz"
+    },
+    {
+      "bank": "Sparkasse Kaiserslautern",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse MagdeBurg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "schwierig-ggf. wenn vertragliche Gestaltung passt"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": ""
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Ja, nur im Geschäftsgebiet, wenn die Bonität aller Vertragspartner eingeschätzt werden kann"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "nur Ansatz ortsübliche Kaltmiete\ndas Objekt darf in der Verwertbarkeit nicht eingeschränkt werden (z.B. Sozialwohnungen etc.)"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Seesen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Volksbank Stendal eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "Ja, nur innerhalb Region"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Ja, Überschuss HHR min. 250 EUR"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Ja, wenn das Objekt passt"
+    }
+  ]
+}

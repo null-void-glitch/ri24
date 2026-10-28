@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integration Guide – Google Maps Embed API (Karte + Street View)</title>
+<style>
+:root {
+  --green: #BDE04F;
+  --green-dark: #5e7027;
+  --green-ghost: #ebf7c0;
+  --ink: #1a1a1a;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --code-bg: #1e1e2e;
+  --code-fg: #cdd6f4;
+  --radius: 10px;
+  --maxw: 860px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.65;
+}
+a { color: var(--green-dark); }
+h1, h2, h3, h4 { line-height: 1.25; margin: 0; }
+
+.page { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #2d3a14 0%, #5e7027 60%, #BDE04F 100%);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+}
+.hero h1 { font-size: 1.8rem; margin-bottom: .5rem; }
+.hero .sub { opacity: .85; font-size: 1rem; margin: 0; }
+.hero .meta { margin-top: 1rem; font-size: .8rem; opacity: .7; }
+
+/* TOC */
+.toc {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.toc h2 { font-size: .9rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .6rem; }
+.toc ol { margin: 0; padding-left: 1.4rem; }
+.toc li { margin-bottom: .25rem; }
+
+/* Sections */
+.section {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.section-head {
+  background: var(--green-ghost);
+  border-bottom: 1px solid #d7ecb5;
+  padding: .9rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+.section-head .num {
+  background: var(--green-dark);
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+  font-weight: 800;
+  flex: 0 0 auto;
+}
+.section-head h2 { font-size: 1.05rem; }
+.section-body { padding: 1.2rem 1.5rem; }
+.section-body p:first-child { margin-top: 0; }
+.section-body p:last-child { margin-bottom: 0; }
+
+/* Code blocks */
+pre {
+  background: var(--code-bg);
+  color: var(--code-fg);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  overflow-x: auto;
+  font-size: .82rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+  tab-size: 2;
+}
+code {
+  font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+}
+p code, li code {
+  background: #f0f4f0;
+  border: 1px solid #dde8d0;
+  border-radius: 4px;
+  padding: .1em .4em;
+  font-size: .85em;
+}
+
+/* Callouts */
+.callout {
+  border-radius: 8px;
+  padding: .85rem 1rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: .7rem;
+  align-items: flex-start;
+}
+.callout .ico { flex: 0 0 auto; font-size: 1.1rem; line-height: 1.4; }
+.callout.info  { background: #eff6ff; border: 1px solid #bfdbfe; }
+.callout.warn  { background: #fffbeb; border: 1px solid #fde68a; }
+.callout.check { background: var(--green-ghost); border: 1px solid #d7ecb5; }
+
+/* Steps */
+.steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
+.steps li {
+  counter-increment: step;
+  display: flex;
+  gap: .8rem;
+  margin-bottom: .8rem;
+  align-items: flex-start;
+}
+.steps li::before {
+  content: counter(step);
+  background: var(--green);
+  color: var(--ink);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 800;
+  flex: 0 0 auto;
+  margin-top: .15rem;
+}
+
+/* Param table */
+table.params {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .88rem;
+  margin: 1rem 0;
+}
+table.params th {
+  text-align: left;
+  background: #f3f4f6;
+  padding: .5rem .75rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--line);
+}
+table.params td {
+  padding: .5rem .75rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.params td:first-child { font-family: monospace; font-size: .82rem; color: #1d4ed8; }
+table.params td:last-child { color: var(--muted); }
+
+/* Color badges */
+.badge {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: .15rem .5rem;
+  vertical-align: middle;
+}
+.badge-required { background: #fee2e2; color: #991b1b; }
+.badge-optional { background: #f3f4f6; color: var(--muted); }
+
+/* Heading anchor (internal links from TOC) */
+h2[id], h3[id] { scroll-margin-top: 1.5rem; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hero">
+    <h1>Google Maps Embed API<br>Karte + Street View in Expose-Seiten</h1>
+    <p class="sub">Integration Guide für Entwickler — Tab-basierter Karten-/Street-View-Block mit Lazy-Loading</p>
+    <p class="meta">Regionalimmobilien24 · Stand Oktober 2026 · Prototyp: <code style="background:rgba(255,255,255,.15);border-radius:4px;padding:.1em .4em">Expose-Prototyp.html</code></p>
+  </div>
+
+  <!-- TOC -->
+  <nav class="toc">
+    <h2>Inhalt</h2>
+    <ol>
+      <li><a href="#voraussetzungen">Voraussetzungen &amp; Google Cloud Setup</a></li>
+      <li><a href="#url-aufbau">URL-Aufbau der Embed-API</a></li>
+      <li><a href="#html">HTML-Struktur</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#js">JavaScript (Tab-Logik + Lazy-Load)</a></li>
+      <li><a href="#backend">Backend-Integration (dynamische Koordinaten)</a></li>
+      <li><a href="#apikey">API-Key absichern</a></li>
+      <li><a href="#checkliste">Deployment-Checkliste</a></li>
+    </ol>
+  </nav>
+
+  <!-- 1 Voraussetzungen -->
+  <div class="section" id="voraussetzungen">
+    <div class="section-head"><span class="num">1</span><h2>Voraussetzungen &amp; Google Cloud Setup</h2></div>
+    <div class="section-body">
+      <p>Die Google Maps Embed API ist kostenpflichtig, hat aber ein großzügiges Freikontingent (Stand 2026: 28.000 Aufrufe/Monat kostenlos).</p>
+
+      <ol class="steps">
+        <li>Google Cloud Console öffnen: <a href="https://console.cloud.google.com/" target="_blank">console.cloud.google.com</a></li>
+        <li>Projekt anlegen oder bestehendes auswählen</li>
+        <li>Rechnungskonto verknüpfen (Pflicht – sonst werden alle API-Anfragen abgelehnt)</li>
+        <li><strong>Maps Embed API aktivieren:</strong> APIs &amp; Dienste → Bibliothek → „Maps Embed API" suchen → Aktivieren</li>
+        <li>API-Key erstellen: APIs &amp; Dienste → Anmeldedaten → „+ Anmeldedaten erstellen" → API-Schlüssel</li>
+        <li>Key einschränken (siehe <a href="#apikey">Abschnitt 7</a>)</li>
+      </ol>
+
+      <div class="callout warn">
+        <span class="ico">⚠️</span>
+        <div>Ohne aktiviertes Rechnungskonto liefert die API <strong>HTTP 403 „The provided API key is invalid"</strong> — auch wenn der Key syntaktisch korrekt ist.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 URL-Aufbau -->
+  <div class="section" id="url-aufbau">
+    <div class="section-head"><span class="num">2</span><h2>URL-Aufbau der Embed-API</h2></div>
+    <div class="section-body">
+      <p>Die Embed API kennt mehrere Modi. Für diesen Use-Case werden zwei davon verwendet:</p>
+
+      <h3>Karten-Modus (place)</h3>
+      <pre><code>https://www.google.com/maps/embed/v1/place
+  ?key=DEIN_API_KEY
+  &amp;q=Straße+1,+12345+Stadt,+Deutschland   ← URL-kodierte Adresse
+  &amp;zoom=16                                ← Zoomstufe 0–21 (16 = Straße)</code></pre>
+
+      <h3>Street-View-Modus (streetview)</h3>
+      <pre><code>https://www.google.com/maps/embed/v1/streetview
+  ?key=DEIN_API_KEY
+  &amp;location=50.495488,12.127437           ← Breitengrad,Längengrad
+  &amp;heading=180                            ← Blickrichtung in Grad (0 = Nord, 180 = Süd)
+  &amp;pitch=0                               ← Neigung -90 (Boden) bis +90 (Himmel)
+  &amp;fov=90                                ← Sichtfeld 10–100 (Standard 90)</code></pre>
+
+      <table class="params">
+        <thead>
+          <tr><th>Parameter</th><th>Pflicht/Optional</th><th>Beschreibung</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>key</td><td><span class="badge badge-required">Pflicht</span></td><td>Dein Google Maps API-Key</td></tr>
+          <tr><td>location</td><td><span class="badge badge-required">Pflicht (SV)</span></td><td>Koordinaten als <code>lat,lng</code></td></tr>
+          <tr><td>heading</td><td><span class="badge badge-optional">Optional</span></td><td>Kompassrichtung der Kamera (0–360). Wichtig: auf Hausfassade ausrichten</td></tr>
+          <tr><td>pitch</td><td><span class="badge badge-optional">Optional</span></td><td>Vertikale Kameraneigung (-90 bis +90)</td></tr>
+          <tr><td>fov</td><td><span class="badge badge-optional">Optional</span></td><td>Sichtfeldwinkel in Grad (Standard 90)</td></tr>
+          <tr><td>q</td><td><span class="badge badge-required">Pflicht (place)</span></td><td>Suchanfrage oder Adresse für Kartenmodus</td></tr>
+          <tr><td>zoom</td><td><span class="badge badge-optional">Optional</span></td><td>Zoomstufe 0–21 (Standard ~15)</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout info">
+        <span class="ico">💡</span>
+        <div>Den optimalen <code>heading</code>-Wert ermitteln: Google Maps in der Browser-URL aufrufen und die Kamera manuell auf die Fassade richten. Der Wert steht in der URL hinter <code>@lat,lng,...</code>.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 HTML -->
+  <div class="section" id="html">
+    <div class="section-head"><span class="num">3</span><h2>HTML-Struktur</h2></div>
+    <div class="section-body">
+      <p>Der Block besteht aus einer Tab-Leiste und zwei <code>&lt;iframe&gt;</code>-Containern. Der Street-View-iframe bekommt zunächst <strong>kein <code>src</code></strong> — er erhält es erst beim ersten Tab-Klick (Lazy-Load, spart API-Kontingent).</p>
+
+<pre><code>&lt;!-- Karte + Street View – Tab-Block --&gt;
+&lt;div class="map-tabs"&gt;
+
+  &lt;!-- Tab-Leiste --&gt;
+  &lt;div class="map-tab-bar" role="tablist"&gt;
+    &lt;button class="map-tab active"
+            role="tab" aria-selected="true"
+            data-tab="map"&gt;🗺 Karte&lt;/button&gt;
+    &lt;button class="map-tab"
+            role="tab" aria-selected="false"
+            data-tab="streetview"&gt;📷 Street View&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Iframe-Container --&gt;
+  &lt;div class="map-frame-wrap"&gt;
+
+    &lt;!-- Tab 1: Karte (lädt sofort) --&gt;
+    &lt;div class="map-tab-pane" id="tab-map"&gt;
+      &lt;iframe
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place
+             ?key=DEIN_API_KEY
+             &amp;q=Musterstraße+1,+12345+Musterstadt,+Deutschland
+             &amp;zoom=16"
+        title="Karte – Lage der Immobilie"&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Tab 2: Street View (Lazy: src wird per JS gesetzt) --&gt;
+    &lt;div class="map-tab-pane" id="tab-streetview" hidden&gt;
+      &lt;iframe
+        id="sv-iframe"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        data-src="https://www.google.com/maps/embed/v1/streetview
+                  ?key=DEIN_API_KEY
+                  &amp;location=50.495488,12.127437
+                  &amp;heading=180
+                  &amp;pitch=0
+                  &amp;fov=90"
+        title="Street View – Lage der Immobilie"&gt;
+      &lt;/iframe&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;!-- Pflichtangabe unter der Karte --&gt;
+  &lt;p class="map-api-note"&gt;Kartenansicht powered by Google Maps&lt;/p&gt;
+
+&lt;/div&gt;</code></pre>
+
+      <div class="callout check">
+        <span class="ico">✅</span>
+        <div><code>referrerpolicy="no-referrer-when-downgrade"</code> stellt sicher, dass der Browser den korrekten <code>Referer</code>-Header an Google sendet. Ohne diesen Header lehnt die Embed API (seit Juli 2026) alle Anfragen mit HTTP 403 ab.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 CSS -->
+  <div class="section" id="css">
+    <div class="section-head"><span class="num">4</span><h2>CSS</h2></div>
+    <div class="section-body">
+      <p>In die bestehende Stylesheet-Datei oder <code>&lt;style&gt;</code>-Block einfügen. Die Farb-Variablen (<code>--green</code>, <code>--line</code> etc.) an das eigene CI anpassen.</p>
+
+<pre><code>/* ===== Karte / Street-View-Tab-Block ===== */
+.map-tabs { margin-top: .6rem; }
+
+.map-tab-bar {
+  display: flex;
+  gap: .4rem;
+  margin-bottom: .5rem;
+}
+
+.map-tab {
+  background: #f7f8f6;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .4rem .85rem;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--muted);
+  font-family: inherit;
+}
+.map-tab.active {
+  background: var(--green);     /* CI-Farbe aktiver Tab */
+  color: var(--ink);
+  border-color: var(--green);
+}
+.map-tab:hover:not(.active) {
+  background: var(--green-ghost);
+  border-color: #d7ecb5;
+}
+
+.map-frame-wrap {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.map-frame-wrap iframe {
+  display: block;
+  width: 100%;
+  height: 300px;   /* Höhe nach Bedarf anpassen */
+  border: 0;
+}
+
+.map-tab-pane[hidden] { display: none; }
+
+.map-api-note {
+  font-size: .72rem;
+  color: var(--muted);
+  margin: .4rem 0 0;
+}</code></pre>
+    </div>
+  </div>
+
+  <!-- 5 JavaScript -->
+  <div class="section" id="js">
+    <div class="section-head"><span class="num">5</span><h2>JavaScript – Tab-Logik + Lazy-Load</h2></div>
+    <div class="section-body">
+      <p>Kein Framework nötig – reines Vanilla JS. Das Snippet in ein <code>&lt;script&gt;</code>-Tag am Ende des <code>&lt;body&gt;</code> oder in eine externe JS-Datei einfügen.</p>
+
+<pre><code>(function () {
+  var svLoaded = false;  // verhindert doppeltes Laden des Street-View-Iframes
+
+  document.querySelectorAll('.map-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var target = tab.dataset.tab;
+
+      // Alle Tabs deaktivieren
+      document.querySelectorAll('.map-tab').forEach(function (t) {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+
+      // Angeklickten Tab aktivieren
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+
+      // Panes ein-/ausblenden
+      document.getElementById('tab-map').hidden        = (target !== 'map');
+      document.getElementById('tab-streetview').hidden = (target !== 'streetview');
+
+      // Street-View-Iframe: src erst beim ersten Öffnen setzen (Lazy-Load)
+      if (target === 'streetview' &amp;&amp; !svLoaded) {
+        var iframe = document.getElementById('sv-iframe');
+        iframe.src = iframe.dataset.src;
+        svLoaded = true;
+      }
+    });
+  });
+})();</code></pre>
+
+      <div class="callout info">
+        <span class="ico">💡</span>
+        <div><strong>Mehrere Expose-Seiten im SPA/React:</strong> Beim Rendern einer neuen Expose-Seite muss <code>svLoaded</code> auf <code>false</code> zurückgesetzt und das <code>src</code>-Attribut des Iframes geleert werden, damit der neue Street-View-Inhalt korrekt lädt.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 Backend -->
+  <div class="section" id="backend">
+    <div class="section-head"><span class="num">6</span><h2>Backend-Integration (dynamische Koordinaten)</h2></div>
+    <div class="section-body">
+      <p>Die Koordinaten und Adresse pro Immobilie kommen aus der Datenbank. Die URLs werden serverseitig in das Template gerendert.</p>
+
+      <h3>Datenbankfelder (Empfehlung)</h3>
+      <table class="params">
+        <thead><tr><th>Feld</th><th></th><th>Beispielwert</th></tr></thead>
+        <tbody>
+          <tr><td>lat</td><td><span class="badge badge-required">Pflicht</span></td><td><code>50.495488</code></td></tr>
+          <tr><td>lng</td><td><span class="badge badge-required">Pflicht</span></td><td><code>12.127437</code></td></tr>
+          <tr><td>map_heading</td><td><span class="badge badge-optional">Optional</span></td><td><code>180</code> (Richtung auf Fassade)</td></tr>
+          <tr><td>street</td><td><span class="badge badge-required">Pflicht</span></td><td><code>Neundorfer Str. 47</code></td></tr>
+          <tr><td>zip</td><td><span class="badge badge-required">Pflicht</span></td><td><code>08523</code></td></tr>
+          <tr><td>city</td><td><span class="badge badge-required">Pflicht</span></td><td><code>Plauen</code></td></tr>
+        </tbody>
+      </table>
+
+      <h3>PHP-Template-Beispiel</h3>
+<pre><code>&lt;?php
+// Koordinaten und Adresse aus DB
+$lat     = htmlspecialchars($expose['lat']);
+$lng     = htmlspecialchars($expose['lng']);
+$heading = (int)($expose['map_heading'] ?? 180);
+$address = urlencode($expose['street'] . ', ' . $expose['zip'] . ' ' . $expose['city'] . ', Deutschland');
+$apiKey  = GOOGLE_MAPS_API_KEY; // aus Konfigurationsdatei / .env
+?&gt;
+
+&lt;iframe
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=&lt;?= $apiKey ?&gt;&amp;q=&lt;?= $address ?&gt;&amp;zoom=16"
+  title="Karte – Lage der Immobilie"&gt;
+&lt;/iframe&gt;
+
+&lt;iframe
+  id="sv-iframe"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  data-src="https://www.google.com/maps/embed/v1/streetview
+            ?key=&lt;?= $apiKey ?&gt;
+            &amp;location=&lt;?= $lat ?&gt;,&lt;?= $lng ?&gt;
+            &amp;heading=&lt;?= $heading ?&gt;
+            &amp;pitch=0&amp;fov=90"
+  title="Street View – Lage der Immobilie"&gt;
+&lt;/iframe&gt;</code></pre>
+
+      <h3>Twig / Django / Jinja2</h3>
+<pre><code">&lt;!-- Street View data-src (Twig / Jinja2) --&gt;
+data-src="https://www.google.com/maps/embed/v1/streetview
+  ?key={{ google_maps_key }}
+  &amp;location={{ expose.lat }},{{ expose.lng }}
+  &amp;heading={{ expose.map_heading | default(180) }}
+  &amp;pitch=0&amp;fov=90"</code></pre>
+
+      <div class="callout warn">
+        <span class="ico">⚠️</span>
+        <div>Den API-Key <strong>niemals direkt in den Quellcode committen</strong>. Immer aus Umgebungsvariablen (<code>.env</code>) oder einem Secret-Manager lesen.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 API-Key absichern -->
+  <div class="section" id="apikey">
+    <div class="section-head"><span class="num">7</span><h2>API-Key absichern</h2></div>
+    <div class="section-body">
+      <p>Ein nicht eingeschränkter API-Key kann von jedem Dritten missbraucht werden. In der Google Cloud Console folgendes einstellen:</p>
+
+      <h3>Anwendungsbeschränkungen (HTTP-Referrer)</h3>
+      <p>Unter <em>APIs &amp; Dienste → Anmeldedaten → Key → Anwendungsbeschränkungen → HTTP-Referrer</em> die eigenen Domains eintragen:</p>
+<pre><code>https://www.regionalimmobilien24.de/*
+https://regionalimmobilien24.de/*
+http://localhost:8080/*          ← nur für lokale Entwicklung, danach entfernen</code></pre>
+
+      <h3>API-Einschränkungen</h3>
+      <p>Unter <em>API-Einschränkungen → Schlüssel einschränken</em> nur die benötigte API auswählen:</p>
+      <ul>
+        <li>✅ <strong>Maps Embed API</strong></li>
+        <li>❌ alle anderen APIs deaktiviert lassen</li>
+      </ul>
+
+      <div class="callout check">
+        <span class="ico">✅</span>
+        <div>Nach dem Speichern der Einschränkungen dauert es ca. 5 Minuten bis die neuen Regeln aktiv sind.</div>
+      </div>
+
+      <h3>Budget-Alert einrichten</h3>
+      <p>Unter <em>Abrechnung → Budgets &amp; Benachrichtigungen</em> ein monatliches Budget setzen (z. B. 10 €), um unerwartete Kosten durch Missbrauch zu erkennen.</p>
+    </div>
+  </div>
+
+  <!-- 8 Checkliste -->
+  <div class="section" id="checkliste">
+    <div class="section-head"><span class="num">8</span><h2>Deployment-Checkliste</h2></div>
+    <div class="section-body">
+      <ul class="steps">
+        <li>Maps Embed API im Google Cloud Projekt aktiviert</li>
+        <li>Rechnungskonto mit dem Projekt verknüpft</li>
+        <li>API-Key auf Produktions-Domain(s) eingeschränkt</li>
+        <li>API-Key nur auf Maps Embed API eingeschränkt</li>
+        <li>API-Key aus Code-Repository ferngehalten (nur in .env / Secret Manager)</li>
+        <li>Budget-Alert konfiguriert</li>
+        <li>Koordinaten + <code>heading</code> pro Immobilie in DB gepflegt</li>
+        <li><code>referrerpolicy="no-referrer-when-downgrade"</code> auf allen iframes gesetzt</li>
+        <li>localhost-Referrer aus Key-Beschränkungen entfernt</li>
+        <li>Prototyp-HTML durch produktives Template ersetzt</li>
+      </ul>
+    </div>
+  </div>
+
+  <p style="text-align:center;color:var(--muted);font-size:.8rem;margin-top:2rem">
+    Regionalimmobilien24 · Internes Entwicklungsdokument · Oktober 2026
+  </p>
+
+</div>
+</body>
+</html>

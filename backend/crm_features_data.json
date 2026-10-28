@@ -1,0 +1,300 @@
+{
+  "features": [
+    {
+      "num": 1,
+      "title": "Bankenwissen direkt in der Kundenverwaltung",
+      "area": "Kundenverwaltung",
+      "effort": "Mittel",
+      "lever": "Sehr hoch",
+      "sprint": "Sprint 1",
+      "current": "Der Bankenwissen-Bot (132 Kriterien x 487 Banken, Qualitypool-Datenbasis, Stand Mai 2026) existiert als separater Typebot. Berater muessen bei der Kundenberatung zwischen CRM und Typebot wechseln, um Bankanforderungen nachzuschlagen.",
+      "proposal": "Ein Bankenwissen-Abfrage-Panel direkt in der Kundendetailansicht einbetten. Das Panel wird automatisch mit den Kreditparametern des Kunden vorbelegt (Darlehenssumme, Vorhaben, Beleihungsauslauf) und fragt die bestehende Vektordatenbank ab.",
+      "benefit": [
+        "Kein Kontextwechsel mehr waehrend der Beratung",
+        "Berater sieht Bankanforderungen und Kundendaten parallel",
+        "Basis: bestehende /bankenwissen/combined/*.json Datenbasis + OpenAI file_search"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Automatischer Lead-Import aus dem Finanzierungscheck-Chatbot",
+      "area": "Kundenverwaltung",
+      "effort": "Gering-Mittel",
+      "lever": "Sehr hoch",
+      "sprint": "Sprint 1",
+      "current": "Der Finanzierungscheck-Chatbot (MCP > Pitcom > Europace) erstellt Europace-Vorgaenge, schreibt aber nichts in die Kundenverwaltung des CRM. Berater muessen Leads manuell doppelt erfassen.",
+      "proposal": "Webhook-Bridge: Wenn der Chatbot einen Fall bei Pitcom/Europace speichert, wird gleichzeitig ein POST an das CRM-Backend gesendet, der einen neuen Eintrag im Status 'Leadeingang' erzeugt - vollstaendig vorausgefuellt mit Name, Darlehenssumme, Vorhaben, Telefon, E-Mail und EP-Vorgangsnummer.",
+      "benefit": [
+        "Eliminiert doppelte Dateneingabe vollstaendig",
+        "Kein Lead faellt mehr durch das Raster",
+        "Umsetzbar mit bestehendem MCP-Stack (saveKundenangaben-Endpoint)"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Kanban-Board statt Tabellen-Pipeline",
+      "area": "Kundenverwaltung",
+      "effort": "Mittel",
+      "lever": "Hoch",
+      "sprint": "Sprint 2",
+      "current": "Die Pipeline-Stufen (Leadeingang: 2, Angebot: 1, Aufbereitung: 1, Fall bei Bank: 0, Abschluss: 0) werden als kleine Stat-Karten ueber einer flachen Tabelle angezeigt. Eine Gesamtuebersicht fehlt.",
+      "proposal": "Drag-and-Drop Kanban-Board als zweite Ansicht (Toggle: Tabelle / Kanban). Jede Spalte entspricht einer Pipeline-Stufe. Kunden-Karten zeigen: Name, Darlehenssumme, letztes Aktivitaetsdatum und einen farbigen Indikator fuer ueberfaellige Aufgaben. Verschieben einer Karte aktualisiert die Phase via AJAX.",
+      "benefit": [
+        "Berater sieht auf einen Blick, wo jeder Kunde steht",
+        "Priorisierung wird intuitiv",
+        "Stellt dar, wo Deals haengen bleiben"
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Automatisierte Follow-up-Erinnerungen",
+      "area": "Kundenverwaltung",
+      "effort": "Mittel",
+      "lever": "Hoch",
+      "sprint": "Sprint 2",
+      "current": "Aufgaben existieren als manuell erstellte Tabelle (Faellig / Erledigt / Aufgabe / Kunde). Es gibt keine Automatisierungsregeln.",
+      "proposal": "Regelbasierte Aufgaben-Automatisierung: Wenn ein Lead >3 Tage in 'Leadeingang' ohne Aktivitaet ist, wird automatisch eine Aufgabe 'Anrufen' erstellt. Wenn ein Angebot >7 Tage ohne Rueckmeldung ist, folgt eine Erinnerung per E-Mail. Wenn ein Termin gebucht wurde (Calendly-Webhook), wird eine Aufgabe 'Termin vorbereiten' angelegt. Browser- und E-Mail-Push-Benachrichtigungen fuer ueberfaellige Aufgaben.",
+      "benefit": [
+        "Kein Lead faellt mehr durch das Raster",
+        "Berater braucht kein eigenes Erinnerungssystem",
+        "Kombiniert sich direkt mit Feature #13 (Kalender-Integration)"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Dashboard-Upgrade: Conversion-Funnel und Lead-Source-Tracking",
+      "area": "Dashboard",
+      "effort": "Mittel-Hoch",
+      "lever": "Hoch",
+      "sprint": "Sprint 3",
+      "current": "Das Dashboard zeigt monatliche Rohdaten seit 2023 sowie vier KPIs (Expose-Anzeigen, Logo-Anzeigen, Landingpage-Aufrufe, Anfragen), die fuer den Test-Account alle auf 0 stehen. Es gibt keine Trichtervisualisierung und keine Lead-Quellen-Zuordnung.",
+      "proposal": "Conversion-Funnel: Visualisierung der Abfallraten zwischen Pipeline-Stufen inkl. durchschnittlicher Verweildauer je Stufe. Lead-Source-Tracking: Herkunftslabels pro Kunde (Chatbot / IS24 / Manuell / Empfehlung / Calendly). Umsatz-Trend: Darlehenssummen ueber Zeit mit 12-Monats-Linie. Rolling-Window: 7-Tage / 30-Tage / Quartal.",
+      "benefit": [
+        "Berater erkennt seinen eigenen Bottleneck",
+        "Basis fuer Coaching-Gespraeche mit Partnerbetreuer",
+        "Macht den Wert des Partnerbereichs messbar"
+      ]
+    },
+    {
+      "num": 6,
+      "title": "KI-Profiltext-Generator fuer 'Meine Texte'",
+      "area": "Meine Texte / Landingpages",
+      "effort": "Gering",
+      "lever": "Mittel-Hoch",
+      "sprint": "Sprint 2",
+      "current": "Der Bereich 'Meine Texte' enthaelt bearbeitbare Felder fuer Zitat, Kurzbeschreibung, Ausfuehrliche Beschreibung, Leistungen und Orte - alle manuell befuellt. In der Praxis lassen viele Berater diese Felder leer, was Landingpage-SEO und Conversion verschlechtert.",
+      "proposal": "'Mit KI generieren'-Button je Textfeld. Die KI (Claude) erhaelt Name, Region, Europace-Partnernummer und Spezialisierung und generiert alle Texte im richtigen Umfang und Ton. Der Berater kann vor dem Speichern editieren.",
+      "benefit": [
+        "Befuellungsrate der Profilfelder steigt deutlich",
+        "Bessere Landingpage-Rankings ohne Mehraufwand fuer Berater",
+        "Minimaler Backend-Aufwand (API-Call auf bestehende KI-Infrastruktur)"
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Onboarding-Wizard fuer externe Plattformen",
+      "area": "Administration (Europace-Config)",
+      "effort": "Gering",
+      "lever": "Mittel",
+      "sprint": "Sprint 2",
+      "current": "Die Administrations-Seite zeigt 7 externe Plattformen (Abakus24, Baufinex, Fondsfinanz, Forum extern, Qualitypool extern, Starpool) alle mit Status 'nicht hinterlegt / Freischalten'. Es gibt keine Anleitung, wie die Verbindung hergestellt wird.",
+      "proposal": "Schrittweiser Einrichtungs-Wizard pro Plattform: (1) Welche Zugangsdaten werden benoetigt und wo findet man sie? (2) Eingabeformular mit Live-Verbindungstest. (3) Berechtigungsuebersicht nach erfolgreicher Verbindung. (4) Status-Ampel auf der Uebersichtsseite.",
+      "benefit": [
+        "Aktivierungsrate der Drittplattformen steigt",
+        "Weniger Support-Anfragen beim Partnerbetreuer",
+        "Direkter Umsatzhebel: mehr Abschlusskanale = mehr Provisionen"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "Empfehlungsseite: Tracking und ROI-Dashboard",
+      "area": "Empfehlungsseite",
+      "effort": "Mittel",
+      "lever": "Mittel",
+      "sprint": "Sprint 3",
+      "current": "Die Empfehlungsseite erlaubt das Hochladen und Versenden eines Empfehlungsvideos sowie die optionale Hinterlegung einer Empfehlungsverguetung. Eine Tabelle zeigt Status / Zeit / Video - aber keine Konversionsrate.",
+      "proposal": "Tracking: Wie viele Empfaenger haben den Link geoeffnet? Wie viele haben das Formular ausgefuellt? Wie viele wurden ein Kunde? Optionale Provisionsabrechnung: Automatische Berechnung der Empfehlungsverguetung je konvertiertem Lead. Mini-Dashboard: Gesendete Empfehlungen / Oeffnungsrate / Abschlussrate.",
+      "benefit": [
+        "Empfehlungskanal wird erstmals messbar",
+        "Berater erkennt, ob sich die Empfehlungsverguetung lohnt",
+        "Anreiz, mehr Empfehlungen aktiv zu versenden"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "Dokumenten-Management pro Kunde",
+      "area": "Kundenverwaltung",
+      "effort": "Mittel-Hoch",
+      "lever": "Mittel-Hoch",
+      "sprint": "Sprint 3",
+      "current": "Das Unterlagen-Center ist eine generelle Ablage (Logos, Unterlagen, Videos) fuer alle Berater. Es gibt keine Moeglichkeit, Dokumente einem einzelnen Kunden zuzuordnen.",
+      "proposal": "Dokumenten-Reiter in der Kundendetailansicht mit Kategorien: Einkommensnachweis, SCHUFA-Auskunft, Objektunterlagen, Angebote / Konditionenvergleiche, Sonstiges. Jedes Dokument bekommt einen Status (ausstehend / eingereicht / geprueft) und ein Upload-Datum.",
+      "benefit": [
+        "Vollstaendige Kundenakte an einem Ort",
+        "Weniger E-Mail-Ping-Pong mit Kunden",
+        "Basis fuer Europace-Dokument-Upload (API-Rechte unterlagen:dokument:schreiben bereits vorhanden)"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "IS24-Lead-Integration",
+      "area": "Kundenverwaltung",
+      "effort": "Mittel",
+      "lever": "Mittel",
+      "sprint": "Sprint 3",
+      "current": "ImmoScout24-Leads liegen als separate Datenquelle vor, fliessen aber nicht automatisch in die Kundenverwaltung ein.",
+      "proposal": "IS24-Leads mit Finanzierungsinteresse werden automatisch als 'Leadeingang' in der Kundenverwaltung angelegt - mit Lead-Quelle 'IS24' getaggt und dem zustaendigen Berater zugewiesen.",
+      "benefit": [
+        "Neuer Leadkanal ohne manuelle Uebertragung",
+        "Vollstaendige Uebersicht aller Leads in einem System",
+        "IS24-Leads bekommen denselben Follow-up-Automatismus wie Chatbot-Leads"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "WhatsApp-Follow-up aus der Kundenverwaltung",
+      "area": "Kundenverwaltung",
+      "effort": "Gering",
+      "lever": "Mittel",
+      "sprint": "Sprint 2",
+      "current": "Kundenzeilen in der Tabelle zeigen Telefon und E-Mail, bieten aber keine direkten Messaging-Aktionen.",
+      "proposal": "WhatsApp-Icon-Button auf jeder Kundenzeile. Klick oeffnet wa.me/{Telefon}?text=... mit vorausgefuellter Nachricht (Vorname des Kunden + individuelle Berater-Signatur). Alternativ: Twilio-API-Integration fuer programmatischen Versand mit Bestaetigung im CRM.",
+      "benefit": [
+        "5-Schritte-Prozess auf 1 Klick reduziert",
+        "Hoehere Follow-up-Quote",
+        "Ergaenzt Feature #13 (Calendly-Link per WhatsApp senden)"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "Qualitypool-Zertifikats-Tracker",
+      "area": "Dashboard / Weiterbildung",
+      "effort": "Gering-Mittel",
+      "lever": "Mittel",
+      "sprint": "Sprint 3",
+      "current": "'Weiterbildung' verlinkt auf Qpedia/Makler-Wiki. Es gibt keinen Ueberblick ueber den Status laufender oder auslaufender Zertifizierungen.",
+      "proposal": "Zertifikats-Dashboard mit: Liste aller Pflicht-Zertifizierungen (Qualitypool, IHK Paragraf 34i), Ablaufdatum und Countdown, Direktlink zur Verlaengerung, automatische Erinnerung 60 / 30 / 7 Tage vor Ablauf. Die Qualitypool-API-Verbindung ist bereits eingerichtet (baufinanzierung:ereignis:lesen berechtigt).",
+      "benefit": [
+        "Keine abgelaufenen Zertifikate mehr",
+        "Berater bleibt konform ohne eigenes Tracking",
+        "Niedrigschwellig: Qualitypool-API bereits verbunden"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Eingebaute Kalender-Funktion mit Calendly-Integration",
+      "area": "Kundenverwaltung / Profil",
+      "effort": "Gering (A+B) / Mittel (C)",
+      "lever": "Hoch",
+      "sprint": "Sprint 1 (A+B) / Sprint 3 (C)",
+      "current": "Das Datenmodell enthaelt bereits die Felder 'calendly' und 'calendly_zusatz' fuer jeden Berater - beide sind aktuell null und im Profil-Formular nicht sichtbar. Calendly wird auf dem Dashboard fuer interne Termine bereits genutzt. Kunden erhalten Terminlinks nur, wenn Berater manuell kopieren und per WhatsApp/E-Mail versenden.",
+      "proposal": "A - Profil: Calendly-URL hinterlegen (bestehendes Datenbankfeld im Formular sichtbar machen - reine Frontend-Aenderung). B - Kundenverwaltung: 'Termin senden'-Button oeffnet ein Modal mit drei Optionen: WhatsApp (wa.me-Link mit Vorname vorausgefuellt), E-Mail (mailto: mit Calendly-Link), Link kopieren. Vollstaendig client-seitig umsetzbar. C - Webhook: Calendly sendet invitee.created an CRM > Pipeline-Stufe automatisch aktualisieren, Aufgabe 'Termin vorbereiten' anlegen, Terminwidget auf dem Dashboard.",
+      "benefit": [
+        "Terminvereinbarung von 5 manuellen Schritten auf 1 Klick reduziert",
+        "Hoehere Terminquote = mehr Abschluesse",
+        "Stufe A+B in einem Sprint umsetzbar, da Datenbankfeld bereits vorhanden",
+        "Stufe C schliesst den Kreislauf: Termin gebucht > CRM reagiert automatisch"
+      ]
+    }
+  ],
+  "priority": [
+    [
+      2,
+      "Chatbot > CRM Lead-Bridge",
+      "Gering-Mittel",
+      "Sehr hoch",
+      "Sprint 1"
+    ],
+    [
+      13,
+      "Calendly-Integration (A+B)",
+      "Gering",
+      "Hoch",
+      "Sprint 1"
+    ],
+    [
+      1,
+      "Bankenwissen in Kundenprofil",
+      "Mittel",
+      "Sehr hoch",
+      "Sprint 1"
+    ],
+    [
+      3,
+      "Kanban-Board",
+      "Mittel",
+      "Hoch",
+      "Sprint 2"
+    ],
+    [
+      4,
+      "Follow-up-Automatisierung",
+      "Mittel",
+      "Hoch",
+      "Sprint 2"
+    ],
+    [
+      11,
+      "WhatsApp-Button",
+      "Gering",
+      "Mittel",
+      "Sprint 2"
+    ],
+    [
+      6,
+      "KI-Profiltext-Generator",
+      "Gering",
+      "Mittel-Hoch",
+      "Sprint 2"
+    ],
+    [
+      7,
+      "Onboarding-Wizard Plattformen",
+      "Gering",
+      "Mittel",
+      "Sprint 2"
+    ],
+    [
+      5,
+      "Dashboard Funnel-Analytics",
+      "Mittel-Hoch",
+      "Hoch",
+      "Sprint 3"
+    ],
+    [
+      9,
+      "Dokumente pro Kunde",
+      "Mittel-Hoch",
+      "Mittel-Hoch",
+      "Sprint 3"
+    ],
+    [
+      8,
+      "Empfehlungsseite Tracking",
+      "Mittel",
+      "Mittel",
+      "Sprint 3"
+    ],
+    [
+      10,
+      "IS24-Lead-Integration",
+      "Mittel",
+      "Mittel",
+      "Sprint 3"
+    ],
+    [
+      12,
+      "Zertifikats-Tracker",
+      "Gering-Mittel",
+      "Mittel",
+      "Sprint 3"
+    ],
+    [
+      13,
+      "Calendly Webhook/Dashboard (C)",
+      "Mittel",
+      "Hoch",
+      "Sprint 3"
+    ]
+  ]
+}

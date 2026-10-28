@@ -1,0 +1,194 @@
+[
+  {
+    "text": "\nLogout",
+    "href": "../../../../adm/individuell/logout.php?admsess=9e0rss9int"
+  },
+  {
+    "text": "index",
+    "href": "#"
+  },
+  {
+    "text": "\nDashboard\n+",
+    "href": "#"
+  },
+  {
+    "text": "Übersicht",
+    "href": "../../../../adm/individuell/master/dashboard/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Makler",
+    "href": "../../../../adm/individuell/master/dashboard/makler/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Baufinanzierung",
+    "href": "../../../../adm/individuell/master/dashboard/baufi/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Finanzzertifikate",
+    "href": "../../../../adm/individuell/master/dashboard/finanzzert/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Terminvereinbarungen",
+    "href": "../../../../adm/individuell/master/dashboard/terminvb/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Nutzer",
+    "href": "../../../../adm/individuell/master/dashboard/user/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Mails",
+    "href": "../../../../adm/individuell/master/dashboard/mail/?admsess=9e0rss9int"
+  },
+  {
+    "text": "reCaptcha",
+    "href": "../../../../adm/individuell/master/dashboard/recaptcha/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Sitzungen",
+    "href": "../../../../adm/individuell/master/dashboard/referrer/?admsess=9e0rss9int"
+  },
+  {
+    "text": "OID Immo-Recherche",
+    "href": "../../../../adm/individuell/master/tools/oid-recherche/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Immo Dubletten-Check",
+    "href": "../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nMakler\n+",
+    "href": "#"
+  },
+  {
+    "text": "Übersicht Makler",
+    "href": "../../../../adm/individuell/master/makler/list/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Kurzliste Makler",
+    "href": "../../../../adm/individuell/master/makler/list-short/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Anfragen",
+    "href": "../../../../adm/individuell/master/makler/anfragen/?admsess=9e0rss9int"
+  },
+  {
+    "text": "neuen Makler anlegen",
+    "href": "../../../../adm/individuell/master/makler/new/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Kooperationen",
+    "href": "../../../../adm/individuell/master/makler/kooperation/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Makler umhängen",
+    "href": "../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nKundenlogin",
+    "href": "../../../../adm/individuell/master/tools/kundenlogin/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nObjekte",
+    "href": "../../../../adm/individuell/master/immo/list/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nPrivatanzeigen",
+    "href": "../../../../adm/individuell/master/privatanzeige/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nalle Regionen",
+    "href": "../../../../adm/individuell/regionen/config/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nBaufi/Immo-Orte",
+    "href": "../../../../adm/individuell/orte/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nstatische Seiten (überregional)",
+    "href": "../../../../adm/individuell/static/sites.php?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nKontaktanfragen\n+",
+    "href": "#"
+  },
+  {
+    "text": "alle Kontaktanfragen",
+    "href": "../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=9e0rss9int"
+  },
+  {
+    "text": "E-Mail Liste",
+    "href": "../../../../adm/individuell/master/mails/list/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Blacklist",
+    "href": "../../../../adm/individuell/master/mails/blacklist/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nTeam",
+    "href": "../../../../adm/individuell/master/team/list/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nWhitelabel-Lizenzen",
+    "href": "../../../../adm/individuell/master/whitelabel/list/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nSuchaufträge",
+    "href": "../../../../adm/individuell/master/suchauftrag/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nSchnittstellen\n+",
+    "href": "#"
+  },
+  {
+    "text": "Sitemaps (Mitula)",
+    "href": "../../../../adm/individuell/master/interface/mitula/?admsess=9e0rss9int"
+  },
+  {
+    "text": "Statischer Immobilien Export",
+    "href": "../../../../adm/individuell/master/interface/immo/static/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nSEO",
+    "href": "../../../../adm/individuell/master/seo/config/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nImmobilienassitent\n+",
+    "href": "#"
+  },
+  {
+    "text": "Witze",
+    "href": "../../../../adm/individuell/master/estate-assistant/jokes/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nHife\n+",
+    "href": "#"
+  },
+  {
+    "text": "Schnittstellenübersicht Immobiliensoftwaren",
+    "href": "../../../../adm/individuell/hilfe/software/?admsess=9e0rss9int"
+  },
+  {
+    "text": "BauFi-Lead",
+    "href": "../../../../adm/individuell/hilfe/baufi-lead/?admsess=9e0rss9int"
+  },
+  {
+    "text": "BauFi-Lead2",
+    "href": "../../../../adm/individuell/hilfe/baufi-contact/?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nLogout\n(480 Minuten)",
+    "href": "../../../../adm/individuell/logout.php?admsess=9e0rss9int"
+  },
+  {
+    "text": "\nHome",
+    "href": "../../../../adm/individuell/dashboard.php?admsess=9e0rss9int"
+  },
+  {
+    "text": "Dashboard",
+    "href": "../../../../adm/individuell/dashboard.php?admsess=9e0rss9int"
+  },
+  {
+    "text": "Regionalimmobilien24 GmbH",
+    "href": "https://www.regionalimmobilien24.de"
+  }
+]

@@ -1,0 +1,26 @@
+<?php
+/**
+ * Lokale Entwicklungs-Overrides — kopieren nach config.local.php (nicht einchecken!).
+ */
+
+define('OPENAI_API_KEY', 'sk-...');
+define('OPENAI_MODEL', 'gpt-4.1');
+define('MCP_SERVER_URL', 'https://xxxx.ngrok-free.app/mcp/sse');
+define('MCP_AUTHORIZATION', '');
+
+define('LANDINGPAGE_BASE_URL', 'http://localhost:8002/session.php?t=');
+define('ALLOWED_ORIGINS', '*');
+
+define('CREATE_SESSION_SECRET', 'dev-secret-change-in-prod');
+
+// WhatsApp (Meta Cloud API)
+define('WA_PHONE_NUMBER_ID', '');     // z.B. '123456789012345'
+define('WA_ACCESS_TOKEN', '');        // Permanentes Access Token aus Meta Developer Portal
+define('WA_TEMPLATE_NAME', 'finanzierungscheck_einladung');
+
+// E-Mail-Versand (interner Endpoint, bereits vorhanden)
+define('EMAIL_ENDPOINT', 'https://intern.regionalimmobilien24.de/api/send-mail');
+define('EMAIL_ENDPOINT_SECRET', '');
+
+// Optional: Wissensdatenbank (Vector Store)
+define('FILE_SEARCH_VECTOR_STORE_ID', '');

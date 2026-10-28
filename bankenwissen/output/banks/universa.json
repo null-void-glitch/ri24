@@ -1,0 +1,491 @@
+{
+  "bank": "uniVersa",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Darlehensnehmer mit mehr als drei bestehenden Ratenkrediten werden gesondert geprüft.\n \nBei Darlehensnehmern die mietfrei wohnen, ist eine angemessenen fiktive Eigenmiete anzusetzen."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15 / 15"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15 / 15"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 600.000 EUR pro Objekt\nÜberschreitung: Einzelfallanfrage (indiv. Konditionsanfrage)\nNachfinanzierung: ab 25.000 EUR möglich\nmax. 750.000 € pro Darlehensnehmer\nBei Beleihungen bis 100 %: 150.000 - 400.000 €"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird grundsätzlich finanziert\n\nDas Geld darf nicht ins Beleihungsobjekt zur Modernisierung fließen, sondern muss für etwas anderes verwendet werden. Der Verwendungszweck ist auf dem Übergabeschreiben zu erläutern\n\nVerwendung muss angegeben werden, es muss aber keine wohnwirtschaftliche Verwendung sein. Ratenkredite können direkt durch die uniVersa abgelöst werden (Mindesthaushaltsüberschuss von 200,- € beachten)\nZusätzliche Kapitalbeschaffung bei Anschlussfinanzierung möglich (Auszahlung erst nach Ablösetermin, bei erstrangiger Grundschuldeintragung)"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei Neubau und umfangreicher Modernisierung muss\nNachfinanzierungsspielraum im Beleihungswert und im Kapitaldienst gegeben sein"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "durch Förderbanken ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "möglich - nicht bei Bauträgerkauf mit Globalgrundschuld im Vorrang"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 bis 20; 25 und 30"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36 Monate, davon sind 15 Monate kostenfrei"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "10-30"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "mehrere möglich bei gleichem Gläubiger\nder erste und letzte Ablösetermin dürfen max. 6 Monate auseinander liegen"
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Übernahme der Grundbuchkosten:\nBeteiligung an den Grundbuchkosten bei Umschuldungen in Höhe von 250,00 EUR (Nur bei Neueintragung und Löschung)"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": ""
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": ""
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Keine"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "l-bank-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "L-Bank Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "-"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "werden nicht angeboten"
+    },
+    "l-bank-stand-alone": {
+      "name": "L-Bank Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "-"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart per Darlehensdatenabfrage"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nunterschriebene Selbstauskunft"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "analog Neugeschäft"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "seit 01.01.2024:\nMindesttilgung für Finanzierungen bis 90 % Auslauf 1 %, ABER max. Darlehenslaufzeit 40 Jahre (gilt auch für Speed-Lane-Produkt)\nMindesttilgung für Finanzierungen über 90 % - 100 % Auslauf  2 %, ABER max. Darlehenslaufzeit 30 Jahre (Produkt 100%-Finanzierung)"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "3x während der Zinsbindung kostenfrei möglich - die Anfangstilgung darf nicht unterschritten werden und es darf um max. 3% erhöht werden"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Massiv, Fertighaus, Holzständerbauweise, Holzbauweise: Keine Besonderheiten\n\nGlas/Stahl, Fachwerk mit Ziegeln:  Anfrage\n\nFachwerk mit Stroh/Lehm, Plattenbau, Holzblockbauweise: Nicht machbar"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistung:\n\nOhne Nachweis der Qualifikation: 10% des Bauwertes (inkl. Baunebenkosten und Außenanlagen) - max. 15.000 EUR\nMit Nachweis der Qualifikation: 20% des Bauwertes (inkl. Baunebenkosten und Außenanlagen) - max. 30.000 EUR"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Bei Häusern nein, bei ETW ja nur bestandsgepflegt"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Ohne Nachweis der Qualifikation: 10 % des Bauwertes (inklusive\nBaunebenkosten und Außenanlagen) maximal 15.000 EUR\nMit Nachweis der Qualifikation: 20 % des Bauwertes (inklusive\nBaunebenkosten und Außenanlagen) maximal 30.000 EUR\nSofern über die Berufsbezeichnung von einer sach- und fachgerechten\nAusführung ausgegangen werden kann, reicht die Dokumentation des\nBerufes auf der Aufstellung der Eigenleistung. In allen anderen Fällen sind\nNachweise beizufügen, die belegen, dass eine sach- und fachgerechte\nAusführung der Eigenleistung gesichert ist"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "max. 30 WH pro Hausaufgang"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, kleinere Mehrfamilienhäuser sind grundsätzlich möglich (nach Ertragswertverfahren)\n \nFolgende Objekte werden NICHT finanziert:\nEigentumswohnungen im Hochhaus/Gebäude mit mehr als 30\nWohneinheiten pro Eingang\nLandwirtschaftliche Anwesen\nObjekte in Alleinlage/außerhalb geschlossener Ortschaften\nFachwerkhäuser\nErbbaurecht\nDenkmalschutz (ggf. Ausnahme bei Eigentumswohnung möglich)\nkeine Einzellagen und keine sehr ländlichen Lagen"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Über TEUR 600 notwendig"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit\n\nEinzelne Orte entlang der polnischen und tschechischen Grenze werden nicht finanziert.\n\nLagescoring Sprengnetter darf nicht schlechter -4 sein"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "nicht wertmindernde Vorlasten werden akzeptiert (z.B. Leitungsrechte, Geh- und Fahrrechte) \nwertmindernd: Rangrücktritt erforderlich\n\nggfs. Löschung notwendig (siehe Kriterien)"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung nicht darstellbar"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "45"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Möglich\nmax. Darlehensbetrag 50 % des Zuschlagsbeschlusses"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, aber es muss ein Nachweis der lückenlosen Weiterbeschäftigung vorliegen mit der Angabe des zukünftigen Gehaltes"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nein, nur wenn branchenüblich"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max.: 2 in einem Haushalt\nEigentümer und Darlehensnehmer müssen NICHT identisch sein\n\nBei sehr guter Bonität der Darlehensnehmer und nahem Verwandtschaftsverhältnis zwischen Sicherungsgeber und Darlehensnehmer in Einzelfallentscheidung möglich. Ist ein Ehepaar Eigentümer, müssen auch beide Darlehensnehmer werden."
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0,00"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 50 bei Antragsgewährung\n    \nDarlehen müssen bis zum 75. Lebensjahr zurückgezahlt werden"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: negativ"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz muss in Deutschland sein\nBei nicht-deutscher Staatsangehörigkeit wird generell bei Antragstellung\nein Zustellungsbevollmächtigter mit deutscher Staatsangehörigkeit\nbenötigt\nUnbefristete Aufenthaltserlaubnis ist zwingend notwendig"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Ja, Auszahlung erfolgt erst nach Ende der Probezeit"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nAuszahlung gegen Verpfändung der Auflassungsvormerkung / Abtretung der Auszahlungsansprüche: nicht möglich"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopie Vermittler-VVI sowie Darlehensvermittlungsvertrag"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per digitaler Unterlagenakte"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Post-Ident, in der Filiale"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Vor Auszahlung erforderlich, Kosten fallen für den/die Kunde/Kundin nicht an"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Auf Anfrage kann eine Ausfertigung hochgeladen werden"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Auf Anfrage kann eine Ausfertigung hochgeladen werden"
+    }
+  },
+  "company_id": "47edc694ab1b17199ed3afb226f82090",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/47edc694ab1b17199ed3afb226f82090",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "23.09.25",
+  "recent_news": [
+    {
+      "date": "04.01.24",
+      "title": "uniVersa - Kriterienanpassungen zum 01.01.2024"
+    },
+    {
+      "date": "23.12.22",
+      "title": "uniVersa - Kriterienanpassungen zum 01.01.2023"
+    },
+    {
+      "date": "22.04.22",
+      "title": "Universa - Senkung Mindesttilgung und Neubau mit Voranfrage"
+    },
+    {
+      "date": "03.02.22",
+      "title": "Universa - Zweites Produkt für Beleihungen bis 100 % ab Februar 2022"
+    },
+    {
+      "date": "06.09.21",
+      "title": "UniVersa: Keine elektronische Unterschrift auf der Selbstauskunft"
+    }
+  ]
+}

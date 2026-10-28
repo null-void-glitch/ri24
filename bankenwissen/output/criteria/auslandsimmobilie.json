@@ -1,0 +1,1033 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/auslandsimmobilie",
+  "category": "Kriterien Objekt",
+  "criterion_name": "Auslandsimmobilie",
+  "criterion_id": "auslandsimmobilie",
+  "scraped_at": "2026-05-07T12:15:40.321Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "Ja, Niederlande (Provinz Limburg) und Belgien (Ostbelgien)"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "nein"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "nein"
+    },
+    {
+      "bank": "AXA",
+      "value": "Nein"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Nein"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "BHW",
+      "value": "Nein"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Nur über lastenfreie Immobilie in\nDeutschland, bis max. 80% des\nBeleihungswertes"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "wird nicht akzeptiert"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "nur mit Besicherung auf Immobilie im Inland"
+    },
+    {
+      "bank": "DKB",
+      "value": "keine Finanzierung möglich (Lösung: Kapitalbeschaffung auf Immobilie in Deutschland)"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "Nein"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Nein"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Sicherungsobjekt im Geschäftsgebiet (mit Verwendungsnachweis)"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Einzelfallentscheidung (über Besicherung deutsche Immobilie)"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "nicht machbar"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Keine Finanzierung möglich"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Herner Sparkasse",
+      "value": "ja, Sicherheiten sind auf einer Immobilie in Deutschland zu stellen"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Nein"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "nein"
+    },
+    {
+      "bank": "ING",
+      "value": "nein"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Ja, Besicherung durch Immobilie im Inland"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Ja, jedoch nur als Kapitalbeschaffung mit Grundbuchabsicherung in Deutschland"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "value": "Ja, Absicherung an anderen \"normalen\" lokalen Immobilien"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "Ja, Absicherung muss an einem Objekt in Deutschland erfolgen"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Ja, Kapitalbeschaffung mit Besicheurng auf Wohnimmobilie in Deutschland"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Ja, Absicherung an einem anderen Objekt"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "Ja, mit Beleihungsobjekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "Ja, nur mit Sicherstellung über eine Immobilie in Deutschland"
+    },
+    {
+      "bank": "KSK Göppingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "Absicherung über freie GS innerhalb Geschäftsgebiet"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Limburg",
+      "value": "Ja, Absicherung über anderes Objekt"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "Ja, wenn Sicherheitenstellung in Deutschland erfolgt"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Ja, Sicherstellung an einer Immobilie im Ausleihbezirk"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Ja, Absicherung auf anderem Objekt"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Ja, möglich über Kapitalbeschaffung auf Wohnimmobilie im Geschäftsgebiet"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Ja, Absicherung über Immobilie in Deutschland"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Ja, Sicherheiten im Inland"
+    },
+    {
+      "bank": "KSK Stendal",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "Ja, möglich als Kapitalbeschaffung über eine Immobilie im Geschäftsgebiet der Sparkasse Rosenheim-Bad Aibling"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "Ja, werthaltige Grundschuldabsicherung auf Wohnimmobilien im Inland"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Nein, nur gegen Besicherung durch ein wohnwirtschaftliches Bestandsobjekt im Inland (Kapitalbeschaffung)"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Ja, Absicherung an einer lastenfreien Immobilie in Deutschland"
+    },
+    {
+      "bank": "LBS Süd",
+      "value": "Ja - bei Absicherung in Deutschland"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Ja, Österreich:\ngrenznah, individuelle Absprache\nStruktur: Eigenkapital mindestens 20%\n               Tilgung mindestens 3%\nHypothek, keine Grundschuld\nBeleihungswertermittlung erst im Rahmen eines Antrags durch Gutachter der Bank\nBesonderheiten des lokalen Rechts \nBearbeitungszeit +5 Tage für die Gutachter\nZeit zwischen Genehmigung und Auszahlung aufgrund österreichischem Recht teilweise recht lang"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "nein"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "Ja, aber Kapitalbeschaffung auf Bestandsimmobilie im Inland"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "Nein"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Ja, über eine 1. rangige Sicherheit in Deutschland\nSämtliche Unterlagen (Kaufvertrag etc.) müssen übersetzt eingereicht werden"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Nein, außer durch Absicherung des Darlehens an einer Inlandsimmobilie > Verwendungszweck dann „sonstige Verwendung“"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "ja, über Kapitalbeschaffung mit Besicherung auf einem Objekt in Deutschland; Voranfrage notwendig"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "Nur auf Mallorca und Ibiza"
+    },
+    {
+      "bank": "PSD West",
+      "value": "Nein"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "Ja, Absicherung über Immobilie im Inland"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "Ja, wenn Grundschuld auf ein Objekt im Inland eingetragen werden kann"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Ja, Sicherungsobjekt muss in Deutschland zur Verfügung stehen"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Nein, nur mit Absicherung auf Wohnobjekt im Inland und entsprechendem Kaufvertrag auf deutsch übersetzt"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Ja, über Kapitalbeschaffung mit Besicherung auf einem Objekt in Deutschland"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Nur möglich wenn Besicherung über ein inländisches Objekt erfolgt"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Ja, aber nur als Kapitalbeschaffung auf einer Immobilie im Ausleihgebiet\n \nAußerdem grenzüberschreitende Finanzierungen möglich\nVoraussetzungen: Nur wohnwirtschaftlich genutzte Immobilien (Grundstücke, ETW, EFH, DHH, RH, ZFH) im grenznahen Bereich (d.h. Belgien Bereich der Deutschsprachigen Gemeinschaft bzw. im Arrondissement Verviers, Niederlande: Bereich Süd-Limburg)\n- Erstrangige Grundschuld\n- Nebenkosten aus Eigenkapital oder adäquate Zusatzsicherheiten gedeckt\n- Vor Beurkundung des Kaufaktes: Zahlung des Kaufpreises inkl. der Nebenkosten auf Notartreuhandkonto"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Ja, im Rahmen der Kapitalbeschaffung möglich.\nVorausgesetzt die zubeleihende Immobilie liegt im Geschäftsgebiet."
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Ja, Sicherheit Grundschuld an Objekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "Ja, bei anderweitig werthaltiger Sicherstellung in Deutschland"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Mit Absicherung an Drittobjekt möglich"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "Ja, mit Sicherheit im Beleihungsgebiet der Sparkasse Bodensee"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Ja, nur als Kapitalbeschaffung mit Absicherung auf einer Immobilie in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Ja mit Absicherung in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "Ja, Sicherungsobjekt muss im PLZ-Gebiet der Sparkasse liegen"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Ja, nur bei Besicherung an einem inländischen Objekt"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "Ja, bei kompletter grundbuchlicher Absicherung im Inland"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Ja, Absicherung auf Inlandsimmobilie"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Ja, Besicherung über eine Bestandsimmobilie im Inland"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Ja, mit Besicherung an einer Immobilie im Innland"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "Ja, Absicherung über Grundpfandrechte innerhalb Ausleihbezirk"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Ja, bei Absicherung auf einer Inlandsimmobilie"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "Ja, Absicherung über deutsche Immobilie"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "Einzelfallentscheidung, Absicherung durch Objekt im Inland"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Lastenfreie Immobilie in Deutschland muss als Sicherheit dienen"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "Ja, Besicherung in Deutschland / im Geschäftsgebiet"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Ja, Besicherung über Erstwohnsitz im Inland"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "Ja, Absicherung über Bestandsimmobilie im Ausleihbezirk"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Ja - mit Absicherung auf Objekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Ja, grundpfandrechtliche Absicherung an deutscher Immobilie"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Ja, möglich als Kapitalbeschaffung über eine Immobilie in Deutschland - Rotscore mit Voranfrage, Nachweise sind erforderlich"
+    },
+    {
+      "bank": "Sparkasse Leverkusen",
+      "value": "ja, Voraussetzung ist eine lastenfreie Immobilie im Ausleihbezirk als Sicherheit"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mainfranken-Würzburg",
+      "value": "Ja, Voraussetzung: Absicherung an Immobilie im Inland"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "Ja - Sicherungsobjekt in Deutschland vorhanden"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Ja, grundpfandrechtliche Absicherung über Objekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Ja, Besicherungsmöglichkeit / Bonität"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Ja, wenn Absicherung auf einer Immobilie im Geschäftsgebiet erfolgt"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Ja, Absicherung muss im Geschäftsgebiet erfolgen"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Ja > Besicherung über Immob. im Satzungsgebiet + Margenaufschlag"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Ja, aber nur als Kapitalbeschaffung mit lastenfreiem Zusatzobjekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Ja, Absicherung über ein anderes wohnwirtschaftliches Objekt im Inland"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "Ja, Absicherung auf Drittsicherheit im Geschäftsgebiet"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Ja, Besicherung im Inland"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "Ja, nur im Rahmen der Kapitalbeschaffung; Sicherungsobjekt im PLZ-Kreis"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Ja, Sicherungsobjekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Ja (Kapitalbeschaffung über Immobilie in Deutschland)"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Ja, bei Sicherungsobjekt im Inland (Deutschland) im eigenen PLZ-Gebiet"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": "Ja, grundpfandrechtliche Besicherung auf eine Immobilie in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "Ja, bei weitgehender Besicherung durch inländische Objekte"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "Ja, möglich als Kapitalbeschaffung über eine Immobilie im Geschäftsgebiet der Sparkasse Rosenheim-Bad Aibling"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Nur bei Absicherung über andere Wohnimmobilie"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Ja (Sicherheit für die Immobilie muss im Geschäftsgebiet liegen)"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Ja, anderweitige Absicherung"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Ja, Besicherung an lastenfreien Zusatzobjekten im Ausleihbezirk"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "Ja, sofern die Besicherung im Beleihungsgebiet stattfindet"
+    },
+    {
+      "bank": "Sparkasse Südpfalz",
+      "value": "Ja, mit Grundschuld auf deutscher Immobilie"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "nein"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Nein\nAlternativ: Kapitalbeschaffung auf anderem Objekt"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "Ja, mit Sicherungsobjekt in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "nein"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Ja, durch Kapitalbeschaffung über eigene Immobilie"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "Ja, möglich als Kapitalbeschaffung über eine Immobilie in Deutschland"
+    },
+    {
+      "bank": "Sparkasse Wilhelmshaven",
+      "value": "Ja, sofern grundbuchliche Absicherung an Inlandsimmobilien erfolgt > Einzelfallprüfung"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Ja, grundpfandrechtliche Besicherung über Objekt im Inland"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Ja, aber Absicherung über Immobilie in Deutschland"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Ja, Besicherung über erstrangige GS auf wohnwirtschaftlichem Objekt im Ausleihgebiet"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "Ja, Besicherung an Immobilie im Ausleihbezirk ggf. Gutachten vorab notwendig"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Ja, Absicherung über Bestandsimmobilie im Ausleihbezirk"
+    },
+    {
+      "bank": "Stadtsparkasse Wedel",
+      "value": "Einzelfallentscheidung > Besicherung im Inland"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Ja, Besicherungsobjekt in Deutschland"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "Nein"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "ja -> Absicherung Objekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Ja, nur als Kapitalbeschaffung auf Bestandsimmobilie"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Ja, mit Beleihung auf Objekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "Volksbank Dreiländereck eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "Nur per Kapitalbeschaffung über Immobilie in Deutschland"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Ja, als Kapitalbeschaffung"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Nein, Absicherung über ein Objekt in Deutschland"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Ja, nur bei Absicherung über Beleihungsobjekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "Ja, Besicherung auf inländische Immobilie"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "Besicherung über eine Immobilie im Inland"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Ja, aber nur mit Ersatzsicherheit in Deutschland möglich, keine Besicherung über Immobilien im Ausland"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "Ja, Absicherung muss über eine Immobilie in Deutschland erfolgen"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Ja, Absicherung nur auf Objekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Ja, aber Absicherung nur auf Objekt im Geschäftsgebiet"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Ja, Einzelfallentscheidung (nur Verwendungszweck Kapitalbeschaffung, mit Sicherungsobjekt in Deutschland)"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Einzelfallentscheidung,\nals Kapitalbeschaffung mit Absicherung auf wohnwirtschaftliche Immobilie im Geschäftsgebiet; Nachweis der Verwendung erforderlich"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "Ja, Einzelfallentscheidung (Besicherung über deutsche Immobilie)"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "nein"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "Finanzierung von Objekten in Österreich möglich\nVerwendungszweck Kauf, Umschuldung oder Neubau\nbis 100% Beleihungsauslauf möglich\nBesicherung erfolgt nicht über eine Grundschuld sondern über eine Hypothek\nACHTUNG: Hierfür wird keine Provision gezahlt!\nAlternativ ggf. nur einen Teilbetrag auf dem Objekt in Österreich absichern und einen Teilbetrag auf einem lastenfreien Objekt im PLZ-Gebiet der VR-Bank Niederbayern-Oberpfalz\nLass die Finanzierung über Europace mit der PLZ der Bank (93047 Regensburg ) anfragen und schildere die Finanzierung - wir erhalten dann eine Rückmeldung bzgl. Konditionierung und weiteren Unterlagen"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "ja, nur mit Besicherungsobjekt in Deutschland"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Ja, wenn diese über eine inländische Immobilie besichert wird"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "Nein"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "Ja, Absicherung auf lastenfreiem Objekt im WESPA Ausleihbezirk"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Nein"
+    }
+  ]
+}

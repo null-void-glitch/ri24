@@ -1,0 +1,1850 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Blauarbeit Partner API",
+    "version": "1.0",
+    "description": "Partner integration API for Blauarbeit. Lets approved partners submit\nleads (jobs) on behalf of households, list chats and messages tied to\nthose leads, issue one-time login URLs into the Blauarbeit dashboard,\nand look up reference data (country codes, geo/zipcode IDs).\n\n## Authentication\nAll `/v2/partners/*` endpoints require a Bearer token issued by\n`POST /oauth/token` using the `client_credentials` grant. Obtain\n`client_id` / `client_secret` from your Blauarbeit contact.\n\n## Environments\n- Production: `https://api-prod.blauarbeit.de`\n- Staging: `https://api-stag.blauarbeit.de`\n"
+  },
+  "servers": [
+    {
+      "url": "https://api-prod.blauarbeit.de",
+      "description": "Production"
+    },
+    {
+      "url": "https://api-stag.blauarbeit.de",
+      "description": "Staging"
+    }
+  ],
+  "security": [
+    {
+      "partnerOAuth": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Auth",
+      "description": "OAuth2 token endpoint."
+    },
+    {
+      "name": "Leads",
+      "description": "Submit and inspect leads (jobs) on behalf of households."
+    },
+    {
+      "name": "Chats",
+      "description": "Chats and messages tied to a lead."
+    },
+    {
+      "name": "Users",
+      "description": "End-user operations (one-time login URL, lead history)."
+    },
+    {
+      "name": "Reference_Data",
+      "description": "Reference lookups (country codes, geo/zipcode IDs)."
+    }
+  ],
+  "paths": {
+    "/oauth/token": {
+      "post": {
+        "summary": "Issue access token",
+        "operationId": "issueAccessToken",
+        "description": "Authenticate the partner integration and receive a Bearer token used\nfor every `/v2/partners/*` call. Obtain `client_id` / `client_secret`\nfrom your Blauarbeit contact.\n",
+        "tags": [
+          "Auth"
+        ],
+        "security": [],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/IssueAccessToken"
+        },
+        "responses": {
+          "200": {
+            "description": "Token issued.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccessTokenResponse"
+                },
+                "example": {
+                  "token_type": "Bearer",
+                  "expires_in": 3600,
+                  "access_token": "<token_here>"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid grant or missing parameters.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OAuthError"
+                },
+                "example": {
+                  "error": "unsupported_grant_type",
+                  "error_description": "The authorization grant type is not supported by the authorization server.",
+                  "hint": "Check that all required parameters have been provided",
+                  "message": "The authorization grant type is not supported by the authorization server."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/partners/leads": {
+      "post": {
+        "summary": "Submit a lead",
+        "operationId": "submitLead",
+        "description": "Submit a new lead (job) on behalf of a household.\n\n### Field rules\n\n| Field | Rule |\n|---|---|\n| `title` | required, string, min 5 chars. Auto-generated from `description` (max 40 chars) if omitted. |\n| `description` | required, string, min 5 chars. |\n| `services` | optional, array of category service IDs (integers). |\n| `geo` | required, integer, must exist in `/v2/partners/zipcodes`. |\n| `startDate` | required, format `YYYY-MM-DD`. |\n| `endDate` | required, format `YYYY-MM-DD`, must be `>= startDate`. |\n| `certified` | optional, boolean. Defaults to `true` (only certified craftsmen). |\n| `user.email` | required, valid email. |\n| `user.salutation` | optional, integer 1-3 (1 = Herr, 2 = Frau, 3 = Divers). |\n| `user.firstName` / `user.lastName` / `user.street` | optional, max 60 chars. |\n| `user.door` | optional, max 12 chars. |\n| `user.zipcode` | optional, integer geo ID (same source as `geo`). |\n| `user.birthDate` | optional, must be > 18 years ago. |\n| `user.phoneNumber` / `user.phoneNumberAlternative` | optional, string. |\n| `user.countryCode` / `user.countryCodeAlternative` | optional, integer ID from `/v2/partners/country_codes`. |\n| `customFields` | optional, max 5 entries. Each: `name` (≤50 chars), `value` (≤191 chars). |\n",
+        "tags": [
+          "Leads"
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/SubmitLead"
+        },
+        "responses": {
+          "200": {
+            "description": "Lead created.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SubmitLeadResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "object": {
+                      "id": 8017161
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          },
+          "422": {
+            "description": "Request body failed validation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationErrorResponse"
+                },
+                "example": {
+                  "code": "unprocessable_content",
+                  "message": "The given data was invalid.",
+                  "data": {
+                    "errors": {
+                      "title": [
+                        "The title field is required."
+                      ],
+                      "geo": [
+                        "The selected geo is invalid."
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/partners/leads/{leadId}/chats": {
+      "get": {
+        "summary": "List chats for a lead",
+        "operationId": "listChatsForLead",
+        "description": "Paginated list of chats attached to a lead.",
+        "tags": [
+          "Chats"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/LeadIdPath"
+          },
+          {
+            "$ref": "#/components/parameters/PageQuery"
+          },
+          {
+            "$ref": "#/components/parameters/PerPageQuery"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated chat list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "id": 4421177,
+                        "craftsman": {
+                          "name": "Max Mustermann",
+                          "companyName": "Mustermann GmbH",
+                          "geo": {
+                            "name": "Dresden",
+                            "zipcode": "01067"
+                          },
+                          "avatar": "https://www.blauarbeit.de/static/avatars/4421177.jpg",
+                          "services": [
+                            "Reinigung",
+                            "Umzug"
+                          ],
+                          "ratings": {
+                            "overall": 4.7,
+                            "count": 23
+                          },
+                          "profileLink": "https://www.blauarbeit.de/profil/max-mustermann",
+                          "registeredAt": "2022-04-12 09:31:00"
+                        },
+                        "unreadCount": 2
+                      }
+                    ],
+                    "pagination": {
+                      "currentPage": 1,
+                      "total": 1,
+                      "perPage": 15,
+                      "lastPage": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          }
+        }
+      }
+    },
+    "/v2/partners/leads/{leadId}/chats/{chatId}/messages": {
+      "get": {
+        "summary": "List messages in a chat",
+        "operationId": "listMessagesInChat",
+        "description": "Paginated list of messages in a chat.",
+        "tags": [
+          "Chats"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/LeadIdPath"
+          },
+          {
+            "$ref": "#/components/parameters/ChatIdPath"
+          },
+          {
+            "$ref": "#/components/parameters/PageQuery"
+          },
+          {
+            "$ref": "#/components/parameters/PerPageQuery"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated message list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "content": "Guten Tag, ich kann am Donnerstag vorbeikommen.",
+                        "sentAt": "2026-04-28 10:14:22",
+                        "isOffer": false,
+                        "offer": null,
+                        "phoneRequested": false
+                      },
+                      {
+                        "content": "Mein Angebot für die Arbeiten.",
+                        "sentAt": "2026-04-28 10:18:05",
+                        "isOffer": true,
+                        "offer": {
+                          "value": 350
+                        },
+                        "phoneRequested": false
+                      },
+                      {
+                        "content": "Können Sie mir Ihre Telefonnummer mitteilen?",
+                        "sentAt": "2026-04-28 11:02:41",
+                        "isOffer": false,
+                        "offer": null,
+                        "phoneRequested": true
+                      }
+                    ],
+                    "pagination": {
+                      "currentPage": 1,
+                      "total": 3,
+                      "perPage": 15,
+                      "lastPage": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          }
+        }
+      }
+    },
+    "/v2/partners/categories": {
+      "get": {
+        "summary": "List categories",
+        "operationId": "listCategories",
+        "description": "Get a list of the existing categories in the Blauarbeit system.",
+        "tags": [
+          "Reference_Data"
+        ],
+        "responses": {
+          "200": {
+            "description": "Category list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "id": 1,
+                        "name": "Reinigung",
+                        "color": "#3366FF",
+                        "icon": "https://www.blauarbeit.de/static/categories/cleaning.svg",
+                        "uri": "reinigung",
+                        "parent": null
+                      },
+                      {
+                        "id": 2,
+                        "name": "Umzug",
+                        "color": "#FF6633",
+                        "icon": "https://www.blauarbeit.de/static/categories/moving.svg",
+                        "uri": "umzug",
+                        "parent": null
+                      }
+                    ],
+                    "pagination": null
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/v2/partners/country_codes": {
+      "get": {
+        "summary": "List country codes",
+        "operationId": "listCountryCodes",
+        "description": "Country code IDs used in `user.countryCode` when submitting leads.",
+        "tags": [
+          "Reference_Data"
+        ],
+        "responses": {
+          "200": {
+            "description": "Country code list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountryCodeListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "id": 12,
+                        "name": "DE (+49)"
+                      },
+                      {
+                        "id": 1,
+                        "name": "AT (+43)"
+                      },
+                      {
+                        "id": 32,
+                        "name": "CH (+41)"
+                      },
+                      {
+                        "id": 19,
+                        "name": "LI (+423)"
+                      },
+                      {
+                        "id": 21,
+                        "name": "LU (+352)"
+                      },
+                      {
+                        "id": 2,
+                        "name": "BR (+32)"
+                      },
+                      {
+                        "id": 3,
+                        "name": "BG (+359)"
+                      },
+                      {
+                        "id": 4,
+                        "name": "HR (+385)"
+                      },
+                      {
+                        "id": 5,
+                        "name": "CY (+357)"
+                      },
+                      {
+                        "id": 6,
+                        "name": "CZ (+420)"
+                      },
+                      {
+                        "id": 7,
+                        "name": "DK (+45)"
+                      },
+                      {
+                        "id": 8,
+                        "name": "EE (+372)"
+                      },
+                      {
+                        "id": 9,
+                        "name": "FI (+358)"
+                      },
+                      {
+                        "id": 10,
+                        "name": "FR (+33)"
+                      },
+                      {
+                        "id": 11,
+                        "name": "GI (+350)"
+                      },
+                      {
+                        "id": 13,
+                        "name": "GR (+30)"
+                      },
+                      {
+                        "id": 14,
+                        "name": "HU (+36)"
+                      },
+                      {
+                        "id": 15,
+                        "name": "IS (+354)"
+                      },
+                      {
+                        "id": 16,
+                        "name": "IE (+353)"
+                      },
+                      {
+                        "id": 17,
+                        "name": "IT (+39)"
+                      },
+                      {
+                        "id": 18,
+                        "name": "LV (+371)"
+                      },
+                      {
+                        "id": 20,
+                        "name": "LT (+370)"
+                      },
+                      {
+                        "id": 22,
+                        "name": "MT (+356)"
+                      },
+                      {
+                        "id": 23,
+                        "name": "NL (+31)"
+                      },
+                      {
+                        "id": 24,
+                        "name": "NO (+47)"
+                      },
+                      {
+                        "id": 25,
+                        "name": "PO (+48)"
+                      },
+                      {
+                        "id": 26,
+                        "name": "PT (+351)"
+                      },
+                      {
+                        "id": 27,
+                        "name": "RO (+40)"
+                      },
+                      {
+                        "id": 28,
+                        "name": "SK (+421)"
+                      },
+                      {
+                        "id": 29,
+                        "name": "SI (+386)"
+                      },
+                      {
+                        "id": 30,
+                        "name": "ES (+34)"
+                      },
+                      {
+                        "id": 31,
+                        "name": "SE (+46)"
+                      },
+                      {
+                        "id": 33,
+                        "name": "UK (+44)"
+                      }
+                    ],
+                    "pagination": null
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/v2/partners/zipcodes": {
+      "get": {
+        "summary": "List geo (zipcode) IDs",
+        "operationId": "listGeoZipcodeIds",
+        "description": "Geo IDs used in `geo` and `user.zipcode` when submitting leads.\nThe `zipcode` query parameter narrows the result to entries matching\na specific German postal code.\n",
+        "tags": [
+          "Reference_Data"
+        ],
+        "parameters": [
+          {
+            "name": "zipcode",
+            "in": "query",
+            "description": "Filter by exact German zipcode (5 digits, leading zeros allowed).",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{5}$"
+            },
+            "example": "01067"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Geo list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GeoListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "id": 13407,
+                        "name": "Dresden",
+                        "zipcode": "01067"
+                      },
+                      {
+                        "id": 13405,
+                        "name": "Dresden Friedrichstadt",
+                        "zipcode": "01067"
+                      },
+                      {
+                        "id": 13406,
+                        "name": "Dresden Innere Altstadt",
+                        "zipcode": "01067"
+                      }
+                    ],
+                    "pagination": null
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/v2/partners/users/auth": {
+      "post": {
+        "summary": "Issue one-time login URL",
+        "operationId": "issueOneTimeLoginUrl",
+        "description": "Returns a one-time URL that signs the end user into the Blauarbeit\ndashboard. The URL has `target=dashboard` and a short-lived `sid`\n(≈2 min). When `leadId` is provided, `jobId=<leadId>` is appended so\nthe dashboard deep-links to that lead.\n",
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/IssueOneTimeLoginUrl"
+        },
+        "responses": {
+          "200": {
+            "description": "One-time URL issued.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OneTimeLoginUrlResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "object": {
+                      "redirectUrl": "https://www.blauarbeit.de?target=dashboard&sid=9dad34632857130011f103e3202baa24&jobId=8017161"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "422": {
+            "description": "Request body failed validation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationErrorResponse"
+                },
+                "example": {
+                  "code": "unprocessable_content",
+                  "message": "The given data was invalid.",
+                  "data": {
+                    "errors": {
+                      "title": [
+                        "The title field is required."
+                      ],
+                      "geo": [
+                        "The selected geo is invalid."
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/partners/users/{userId}/leads": {
+      "get": {
+        "summary": "List leads for a user",
+        "operationId": "listLeadsForUser",
+        "description": "Paginated list of leads belonging to a user.",
+        "tags": [
+          "Users",
+          "Leads"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/UserIdPath"
+          },
+          {
+            "$ref": "#/components/parameters/PageQuery"
+          },
+          {
+            "$ref": "#/components/parameters/PerPageQuery"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated lead list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserLeadListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "The request succeeded",
+                  "data": {
+                    "list": [
+                      {
+                        "id": 8017161,
+                        "title": "Fenster putzen Altbau 3 Zimmer",
+                        "description": "3 Zimmer Wohnung, alle Fenster außen und innen.",
+                        "status": "active"
+                      },
+                      {
+                        "id": 8017042,
+                        "title": "Wohnung Endreinigung",
+                        "description": "Endreinigung nach Auszug.",
+                        "status": "closed"
+                      }
+                    ],
+                    "pagination": {
+                      "currentPage": 1,
+                      "total": 2,
+                      "perPage": 15,
+                      "lastPage": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          }
+        }
+      }
+    },
+    "/v2/partners/users/craftsmen": {
+      "get": {
+        "summary": "List craftsmen near a location",
+        "operationId": "listCraftsmenNearLocation",
+        "description": "List up to 3 craftsmen near a location, ordered by distance. Filter by\n`zipcode` (required) and optionally narrow by `category` or by explicit\n`lat` / `lng` coordinates. Rate limited to 30 requests per minute.\n\nRequires the `read-craftsmen` auth scope.\n",
+        "tags": [
+          "Users",
+          "Leads"
+        ],
+        "parameters": [
+          {
+            "name": "zipcode",
+            "in": "query",
+            "description": "German zipcode to search around (5 digits, leading zeros allowed).",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{5}$"
+            },
+            "example": "10999"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Optional category ID to filter craftsmen by trade.",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "lat",
+            "in": "query",
+            "description": "Optional latitude. Use with `lng` to search around explicit coordinates instead of the zipcode centroid.",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "lng",
+            "in": "query",
+            "description": "Optional longitude. Use with `lat`.",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Craftsmen ordered by distance.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NearbyCraftsmenListResponse"
+                },
+                "example": {
+                  "code": "success",
+                  "message": "Die Anfrage war erfolgreich",
+                  "data": {
+                    "list": [
+                      {
+                        "companyName": "L&G Bau",
+                        "geo": {
+                          "name": "Berlin Kreuzberg",
+                          "zipcode": "10999"
+                        },
+                        "avatar": "http://lvh.me:81/blauarbeit/profiles/2025/WmMP8LSSLMdFeIGGsxOrud7qzBc6S2x8NnN3jbk7.jpg",
+                        "ratings": {
+                          "overall": 0,
+                          "count": 0
+                        },
+                        "profileLink": "http://lvh.me:81/handwerker/berlin/dzjfc49n917kxqk",
+                        "categories": [
+                          "Maler und Lackierer",
+                          "Estrichleger",
+                          "Maurer und Betonbauer",
+                          "Bodenleger",
+                          "Fliesen-, Platten- und Mosaikleger"
+                        ],
+                        "distanceKm": 3.51
+                      },
+                      {
+                        "companyName": "Kozak Bauauführung & Reinigung",
+                        "geo": {
+                          "name": "Berlin",
+                          "zipcode": "13439"
+                        },
+                        "avatar": "http://lvh.me:81/blauarbeit/profiles/2021/1449609655856.JPG",
+                        "ratings": {
+                          "overall": 4.93,
+                          "count": 9
+                        },
+                        "profileLink": "http://lvh.me:81/handwerker/velten/dmqkex5qyaci9jl",
+                        "categories": [
+                          "Trockenbauer",
+                          "Gärtner/Landschaftsbauer",
+                          "Bodenleger",
+                          "Fliesen-, Platten- und Mosaikleger",
+                          "Einbau von genormten Baufertigteilen",
+                          "Hausmeisterservice",
+                          "Maurer und Betonbauer"
+                        ],
+                        "distanceKm": 9.13
+                      },
+                      {
+                        "companyName": "Armart",
+                        "geo": {
+                          "name": "Berlin",
+                          "zipcode": "12555"
+                        },
+                        "avatar": null,
+                        "ratings": {
+                          "overall": 0,
+                          "count": 0
+                        },
+                        "profileLink": "http://lvh.me:81/handwerker/berlin/clpfseb5k04c1w5",
+                        "categories": [
+                          "Straßenbauer",
+                          "Metallbauer",
+                          "Trockenbauer"
+                        ],
+                        "distanceKm": 14.53
+                      }
+                    ],
+                    "pagination": null
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "partnerOAuth": {
+        "type": "oauth2",
+        "description": "OAuth2 client credentials grant. Exchange `client_id` /\n`client_secret` at `POST /oauth/token` for a Bearer token, then send\nit as `Authorization: Bearer <access_token>` on every\n`/v2/partners/*` call.\n",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "/oauth/token",
+            "scopes": {}
+          }
+        }
+      }
+    },
+    "parameters": {
+      "LeadIdPath": {
+        "name": "leadId",
+        "in": "path",
+        "description": "Lead (job) ID.",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "example": 1
+      },
+      "ChatIdPath": {
+        "name": "chatId",
+        "in": "path",
+        "description": "Chat ID within the lead.",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "example": 1
+      },
+      "UserIdPath": {
+        "name": "userId",
+        "in": "path",
+        "description": "User (household) ID.",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "example": 1
+      },
+      "PageQuery": {
+        "name": "page",
+        "in": "query",
+        "description": "Page number (1-indexed).",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 1,
+          "default": 1
+        },
+        "example": 1
+      },
+      "PerPageQuery": {
+        "name": "per_page",
+        "in": "query",
+        "description": "Page size.",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 1,
+          "default": 15
+        },
+        "example": 15
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "Missing or invalid Bearer token.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/UnauthorizedResponse"
+            },
+            "example": {
+              "code": "unauthorized",
+              "message": "Unauthorized",
+              "data": null
+            }
+          }
+        }
+      },
+      "Forbidden": {
+        "description": "Authenticated client is not allowed to perform this action.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ForbiddenResponse"
+            },
+            "example": {
+              "code": "wrong_user_type",
+              "message": "Wrong user type sent",
+              "data": []
+            }
+          }
+        }
+      }
+    },
+    "requestBodies": {
+      "IssueAccessToken": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/IssueAccessTokenRequest"
+            },
+            "example": {
+              "grant_type": "client_credentials",
+              "client_id": "",
+              "client_secret": "",
+              "scope": ""
+            }
+          }
+        }
+      },
+      "SubmitLead": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/SubmitLeadRequest"
+            },
+            "example": {
+              "title": "",
+              "description": "",
+              "services": [],
+              "geo": 0,
+              "startDate": "",
+              "endDate": "",
+              "certified": false,
+              "user": {
+                "email": "",
+                "salutation": 0,
+                "firstName": "",
+                "lastName": "",
+                "street": "",
+                "door": "",
+                "zipcode": 0,
+                "birthDate": "",
+                "countryCode": 0,
+                "phoneNumber": "",
+                "countryCodeAlternative": 0,
+                "phoneNumberAlternative": ""
+              },
+              "customFields": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        }
+      },
+      "IssueOneTimeLoginUrl": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/IssueOneTimeLoginUrlRequest"
+            },
+            "example": {
+              "email": "",
+              "userId": 0,
+              "leadId": 0
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "IssueAccessTokenRequest": {
+        "type": "object",
+        "required": [
+          "grant_type",
+          "client_id",
+          "client_secret"
+        ],
+        "properties": {
+          "grant_type": {
+            "type": "string",
+            "enum": [
+              "client_credentials"
+            ]
+          },
+          "client_id": {
+            "type": "string"
+          },
+          "client_secret": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string",
+            "description": "Optional space-delimited list of scopes to request."
+          }
+        }
+      },
+      "AccessTokenResponse": {
+        "type": "object",
+        "required": [
+          "token_type",
+          "expires_in",
+          "access_token"
+        ],
+        "properties": {
+          "token_type": {
+            "type": "string",
+            "example": "Bearer"
+          },
+          "expires_in": {
+            "type": "integer",
+            "description": "Token lifetime in seconds.",
+            "example": 3600
+          },
+          "access_token": {
+            "type": "string"
+          }
+        }
+      },
+      "OAuthError": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "error_description": {
+            "type": "string"
+          },
+          "hint": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "SubmitLeadRequest": {
+        "type": "object",
+        "required": [
+          "title",
+          "description",
+          "geo",
+          "startDate",
+          "endDate",
+          "user"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 5,
+            "description": "Lead title. Auto-generated from `description` (max 40 chars) if omitted."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 5
+          },
+          "services": {
+            "type": "array",
+            "description": "Optional category service IDs.",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "geo": {
+            "type": "integer",
+            "description": "Geo (zipcode) ID. Must exist in `/v2/partners/zipcodes`."
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "description": "`YYYY-MM-DD`."
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "description": "`YYYY-MM-DD`. Must be `>= startDate`."
+          },
+          "certified": {
+            "type": "boolean",
+            "default": true,
+            "description": "Restrict to certified craftsmen. Defaults to `true`."
+          },
+          "user": {
+            "$ref": "#/components/schemas/SubmitLeadUser"
+          },
+          "customFields": {
+            "type": "array",
+            "maxItems": 5,
+            "items": {
+              "$ref": "#/components/schemas/CustomField"
+            }
+          }
+        }
+      },
+      "SubmitLeadUser": {
+        "type": "object",
+        "required": [
+          "email"
+        ],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "salutation": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              3
+            ],
+            "description": "1 = Herr, 2 = Frau, 3 = Divers."
+          },
+          "firstName": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "lastName": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "street": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "door": {
+            "type": "string",
+            "maxLength": 12
+          },
+          "zipcode": {
+            "type": "integer",
+            "description": "Geo ID (same source as `geo`)."
+          },
+          "birthDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Must be > 18 years ago."
+          },
+          "countryCode": {
+            "type": "integer",
+            "description": "Country code ID from `/v2/partners/country_codes`."
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "countryCodeAlternative": {
+            "type": "integer",
+            "description": "Country code ID from `/v2/partners/country_codes`."
+          },
+          "phoneNumberAlternative": {
+            "type": "string"
+          }
+        }
+      },
+      "CustomField": {
+        "type": "object",
+        "required": [
+          "name",
+          "value"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "value": {
+            "type": "string",
+            "maxLength": 191
+          }
+        }
+      },
+      "SubmitLeadResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pagination": {
+        "type": "object",
+        "properties": {
+          "currentPage": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "perPage": {
+            "type": "integer"
+          },
+          "lastPage": {
+            "type": "integer"
+          }
+        }
+      },
+      "Craftsman": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "companyName": {
+            "type": "string"
+          },
+          "geo": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "zipcode": {
+                "type": "string"
+              }
+            }
+          },
+          "avatar": {
+            "type": "string",
+            "format": "uri"
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ratings": {
+            "type": "object",
+            "properties": {
+              "overall": {
+                "type": "number"
+              },
+              "count": {
+                "type": "integer"
+              }
+            }
+          },
+          "profileLink": {
+            "type": "string",
+            "format": "uri"
+          },
+          "registeredAt": {
+            "type": "string",
+            "description": "`YYYY-MM-DD HH:MM:SS`."
+          }
+        }
+      },
+      "Chat": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "craftsman": {
+            "$ref": "#/components/schemas/Craftsman"
+          },
+          "unreadCount": {
+            "type": "integer"
+          }
+        }
+      },
+      "ChatListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Chat"
+                }
+              },
+              "pagination": {
+                "$ref": "#/components/schemas/Pagination"
+              }
+            }
+          }
+        }
+      },
+      "Offer": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number"
+          }
+        }
+      },
+      "Message": {
+        "type": "object",
+        "properties": {
+          "content": {
+            "type": "string"
+          },
+          "sentAt": {
+            "type": "string",
+            "description": "`YYYY-MM-DD HH:MM:SS`."
+          },
+          "isOffer": {
+            "type": "boolean"
+          },
+          "offer": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/Offer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "phoneRequested": {
+            "type": "boolean"
+          }
+        }
+      },
+      "MessageListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              },
+              "pagination": {
+                "$ref": "#/components/schemas/Pagination"
+              }
+            }
+          }
+        }
+      },
+      "Category": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string",
+            "format": "uri"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "parent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "CategoryListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Category"
+                }
+              },
+              "pagination": {
+                "type": [
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "CountryCode": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "CountryCodeListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CountryCode"
+                }
+              },
+              "pagination": {
+                "type": [
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "Geo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "zipcode": {
+            "type": "string"
+          }
+        }
+      },
+      "GeoListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Geo"
+                }
+              },
+              "pagination": {
+                "type": [
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "IssueOneTimeLoginUrlRequest": {
+        "type": "object",
+        "required": [
+          "userId"
+        ],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "Optional. Email of the user being authenticated."
+          },
+          "userId": {
+            "type": "integer",
+            "description": "Target user ID."
+          },
+          "leadId": {
+            "type": "integer",
+            "description": "Optional. When supplied, the dashboard deep-links to this lead via `jobId=<leadId>`."
+          }
+        }
+      },
+      "OneTimeLoginUrlResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "object": {
+                "type": "object",
+                "properties": {
+                  "redirectUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "UserLead": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "UserLeadListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserLead"
+                }
+              },
+              "pagination": {
+                "$ref": "#/components/schemas/Pagination"
+              }
+            }
+          }
+        }
+      },
+      "NearbyCraftsman": {
+        "type": "object",
+        "properties": {
+          "companyName": {
+            "type": "string"
+          },
+          "geo": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "zipcode": {
+                "type": "string"
+              }
+            }
+          },
+          "avatar": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "ratings": {
+            "type": "object",
+            "properties": {
+              "overall": {
+                "type": "number"
+              },
+              "count": {
+                "type": "integer"
+              }
+            }
+          },
+          "profileLink": {
+            "type": "string",
+            "format": "uri"
+          },
+          "categories": {
+            "type": "array",
+            "description": "Trade categories the craftsman is registered for.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "distanceKm": {
+            "type": "number",
+            "description": "Distance from the search location in kilometres."
+          }
+        }
+      },
+      "NearbyCraftsmenListResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/NearbyCraftsman"
+                }
+              },
+              "pagination": {
+                "type": [
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "UnauthorizedResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": [
+              "null"
+            ]
+          }
+        }
+      },
+      "ForbiddenResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "ValidationErrorResponse": {
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "data"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "errors": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

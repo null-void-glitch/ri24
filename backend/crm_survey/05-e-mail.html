@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <!-- Include custom login styles -->
+  <link href="/private/ajax/Resources/css/axi-custom-scrollbar.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <link href="/css/axigen-web-fonts.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <!-- Include React Components Styling -->
+  <link href="/react-login/build/styles.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <link href="/react-login/build/styles-ocean.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <link href="/react-login/build/styles-breeze.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <link href="/react-login/build/styles-neutral.css?v=10637" rel="StyleSheet" type="text/css"/>
+  <link href="/react-login/build/styles-rtl.css?v=10637" rel="StyleSheet" type="text/css"/>
+ </head>
+ <body>
+  <script nonce="AXI-SCRIPT-1887175" type="text/javascript">
+   if (top != window) {
+        top.document.location.href = document.location.href;
+    }
+  </script>
+  <noscript>
+   <div class="errorContainer">
+    <div class="content">
+     <h1>
+      In order to access AXIGEN Webmail,
+      <br/>
+      you must enable Javascript in your browser!
+     </h1>
+    </div>
+   </div>
+  </noscript>
+  <div class="loading-mask" id="loading-mask">
+   <div class="loading-spinner medium">
+    <svg class="circular" viewbox="25 25 50 50">
+     <circle class="path" cx="50" cy="50" fill="none" r="20" stroke="#666" stroke-miterlimit="10" stroke-width="6">
+     </circle>
+    </svg>
+   </div>
+  </div>
+  <div class="app-container" data-connection='{"isConnectionSecure":"true","redirectUrl":null}'>
+  </div>
+  <!-- RequireJS -->
+  <script nonce="AXI-SCRIPT-1887175" src="react/build/require.js?v=10637">
+  </script>
+  <!-- React -->
+  <script nonce="AXI-SCRIPT-1887175">
+   requirejs.config({
+        urlArgs: "v=10637", // URL versioning token
+                                                  // (ensures cross version cache invalidation)
+        paths: {
+'react': 'react/build/react',
+            'react-dom': 'react/build/react-dom',
+            'react-redux': 'react/build/react-redux',
+}
+    });
+  </script>
+  <!-- Set RESOURCE_SUFFIX globally to ensure versioning of dynamically loaded resources -->
+  <!-- (i.e. JS dictionaries loaded from i18nSlice) -->
+  <script nonce="AXI-SCRIPT-1887175" type="text/javascript">
+   window.AXI_RESOURCE_SUFFIX = "?v=10637";
+  </script>
+  <!-- Webpack Runtime and Dependencies -->
+  <script nonce="AXI-SCRIPT-1887175" src="react-login/build/runtime.js?v=10637" type="text/javascript">
+  </script>
+  <script nonce="AXI-SCRIPT-1887175" src="react-login/build/vendor.js?v=10637" type="text/javascript">
+  </script>
+  <script nonce="AXI-SCRIPT-1887175" src="react-login/build/bundle.js?v=10637" type="text/javascript">
+  </script>
+  <script nonce="AXI-SCRIPT-1887175">
+   require(['bundle']); // This explicit call is needed due to the introduction of require.js
+                         // (the bundle is no longer run automatically)
+  </script>
+ </body>
+</html>

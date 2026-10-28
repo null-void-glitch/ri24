@@ -1,0 +1,1367 @@
+{
+  "panels": [
+    {
+      "group": "Startseite",
+      "title": "Allgemein",
+      "fields": [
+        {
+          "label": "Android App Link",
+          "type": "text",
+          "value": "https://play.google.com/store/apps/details?id=de.pitcom.ri24&hl=de",
+          "options": [],
+          "platzhalter": "#Region-APP-Android-Link#",
+          "hinweis": "Link zur Android App, z.B. https://bit.ly/VI24App"
+        },
+        {
+          "label": "Apple App Link",
+          "type": "text",
+          "value": "https://apple.co/2LVzfwn",
+          "options": [],
+          "platzhalter": "#Region-APP-Apple-Link#",
+          "hinweis": "Link zur Apple App, z.B. https://bit.ly/VI24App"
+        },
+        {
+          "label": "Facebook Link",
+          "type": "text",
+          "value": "https://www.facebook.com/Regionalimmobilien24/",
+          "options": [],
+          "platzhalter": "#Region-APP-Facebook-Link#",
+          "hinweis": "Link zu Facebook, z.B. https://www.facebook.com/Regionalimmobilien24/"
+        },
+        {
+          "label": "\"zum SPOT\" - Video-ID (YT)",
+          "type": "text",
+          "value": "45ucxJz7d2g",
+          "options": [],
+          "platzhalter": "#Region-YouTube-Link#",
+          "hinweis": "YouTube-Video-ID, z.B. https://youtu.be/ jIi95vQZWG8"
+        },
+        {
+          "label": "BaufiLead Partner-ID",
+          "type": "text",
+          "value": "HazXvjrb3KbtVbkezbQJ735SCYNmTD",
+          "options": [],
+          "platzhalter": "#Region-BaufiLead-Link#",
+          "hinweis": "Partner-ID im Sinne: HazXvjrb3KbtVbkezbQJ735SCYNmTD"
+        },
+        {
+          "label": "Calendly-ID",
+          "type": "text",
+          "value": "regionalimmobilien24/60min",
+          "options": [],
+          "platzhalter": "#Region-Calendly-Link#",
+          "hinweis": "ID im Sinne: regionalimmobilien24/60min"
+        },
+        {
+          "label": "Immoscout-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "Immobilien.de-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "wohnung-jetzt.de-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "classmarkets-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "Immobilienpool-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "Versteigerungspool-Objekte ignorieren",
+          "type": "checkbox",
+          "value": false,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "Region in Sitemap aufführen",
+          "type": "checkbox",
+          "value": true,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "ImmoCity-Links in Sitemap aufführen",
+          "type": "checkbox",
+          "value": true,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "Baufiseiten in Sitemap aufführen",
+          "type": "checkbox",
+          "value": true,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        },
+        {
+          "label": "BaufiCity-Links in Sitemap aufführen",
+          "type": "checkbox",
+          "value": true,
+          "options": [],
+          "platzhalter": "",
+          "hinweis": ""
+        }
+      ]
+    },
+    {
+      "group": "Startseite",
+      "title": "wichtige Texte",
+      "fields": [
+        {
+          "label": "Regions-Bezeichnung",
+          "type": "text",
+          "value": "Aachen-Eifel",
+          "options": [],
+          "platzhalter": "#Region-Bezeichnung#",
+          "hinweis": "Bezeichnung der Regions, z.B. Vogtland, Elbeland, ..."
+        },
+        {
+          "label": "Logo Text",
+          "type": "text",
+          "value": "Regionalimmobilien24 - Aachen-Eifel",
+          "options": [],
+          "platzhalter": "#Region-Logo-Text#",
+          "hinweis": "Mouseover Text des Logos, z.B. Regionalimmobilien24"
+        },
+        {
+          "label": "\"in Region\"-Text",
+          "type": "text",
+          "value": "im Raum Aachen-Eifel",
+          "options": [],
+          "platzhalter": "#Region-in-Region-Text#",
+          "hinweis": "im Regional, z.B. im Regional"
+        },
+        {
+          "label": "Portal Start Jahr",
+          "type": "text",
+          "value": "2017",
+          "options": [],
+          "platzhalter": "#Region-Start-Jahr-Text#",
+          "hinweis": "2017"
+        },
+        {
+          "label": "Footer Text Portalbezeichnung",
+          "type": "text",
+          "value": "Regionalimmobilien24 GmbH",
+          "options": [],
+          "platzhalter": "#Region-Footer-PortalBezeichnung#",
+          "hinweis": "Regionalimmobilien24 GmbH"
+        },
+        {
+          "label": "Footer Text \"Ihr Portal\"",
+          "type": "text",
+          "value": "Dein regionales Immobilienportal",
+          "options": [],
+          "platzhalter": "#Region-Footer-Text#",
+          "hinweis": "Ihr regionales Immobilienportal für das Regional"
+        },
+        {
+          "label": "E-Mail Absender",
+          "type": "text",
+          "value": "info@regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Email-Absender#",
+          "hinweis": "info@regionalimmobilien24.de"
+        },
+        {
+          "label": "Empfänger allgemeiner E-Mails",
+          "type": "text",
+          "value": "info@regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Email-allgEmpfaenger#",
+          "hinweis": "info@regionalimmobilien24.de"
+        }
+      ]
+    },
+    {
+      "group": "Startseite",
+      "title": "Portal-Logo hochladen",
+      "fields": []
+    },
+    {
+      "group": "Startseite",
+      "title": "Portal-Logo für Baufinanzierung hochladen",
+      "fields": []
+    },
+    {
+      "group": "Startseite",
+      "title": "Jobangebote Drittportale",
+      "fields": [
+        {
+          "label": "Portal",
+          "type": "select",
+          "value": "",
+          "options": [
+            [
+              "",
+              "--- bitte wählten ---",
+              false
+            ],
+            [
+              "0",
+              "keine Dritt-Jobportal",
+              true
+            ],
+            [
+              "1",
+              "VogtlandJob.de",
+              false
+            ]
+          ],
+          "platzhalter": "",
+          "hinweis": ""
+        }
+      ]
+    },
+    {
+      "group": "Baufinanzierung, Strom & Gas",
+      "title": "Baufi Opener-Box (nur Mail,Share-Link und Tel. wird benutzt)",
+      "fields": [
+        {
+          "label": "Facebook Share-Link",
+          "type": "text",
+          "value": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Share-Facebook#",
+          "hinweis": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F"
+        },
+        {
+          "label": "Mail Share-Link",
+          "type": "text",
+          "value": "mailto:?subject=Regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Share-Mail#",
+          "hinweis": "mailto:?subject=Regionalimmobilien24.de"
+        },
+        {
+          "label": "GooglePlus Share-Link",
+          "type": "text",
+          "value": "https://plus.google.com/share?url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Share-GooglePlus#",
+          "hinweis": "https://plus.google.com/share?url=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F"
+        },
+        {
+          "label": "Twitter Share-Link",
+          "type": "text",
+          "value": " https://twitter.com/intent/tweet?text=Ihre%20Baufinanzierung%20f%C3%BCr%20Plauen%20und%20das%20Vogtland%20-%20Top%20Beratung&url=https%3A%2F%2Fwww.regionalimmobilien24.de%2Fbaufinanzierung%2F",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Share-Twitter#",
+          "hinweis": "https://twitter.com/intent/tweet?text=Ihre%20Baufinanzierung%20f%C3%BCr%20Plauen%20und%20das%20Regional%20-%20Top%20Beratung&url=https%3A%2F%2Fwww.vogtlandimmobilien24.de%2Fbaufinanzierung%2F"
+        },
+        {
+          "label": "Telefonnummer",
+          "type": "text",
+          "value": "03741 164 - 2691",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Telefon#",
+          "hinweis": "03741 164 - 2691"
+        }
+      ]
+    },
+    {
+      "group": "Baufinanzierung, Strom & Gas",
+      "title": "Strom- und Gas-Links",
+      "fields": [
+        {
+          "label": "Strom Partner-Link",
+          "type": "text",
+          "value": "https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/strom.php",
+          "options": [],
+          "platzhalter": "#Region-Strom-Partner-Link#",
+          "hinweis": "Link für i-Frame, z.B. https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/strom.php"
+        },
+        {
+          "label": "Gas Partner-Link",
+          "type": "text",
+          "value": "https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/gas.php",
+          "options": [],
+          "platzhalter": "#Region-Gas-Partner-Link#",
+          "hinweis": "Link für i-Frame, z.B. https://partner.vxcp.de/riV9p-2BNLLyZEAGtk/fas.php"
+        }
+      ]
+    },
+    {
+      "group": "Baufinanzierung, Strom & Gas",
+      "title": "Ansprechpartner Baufinanzierung",
+      "fields": [
+        {
+          "label": "Immobilienfinanzierung",
+          "type": "select",
+          "value": "",
+          "options": [
+            [
+              "",
+              "--- keinen Ansprechpartner ---",
+              false
+            ],
+            [
+              "179",
+              "Lambert Adams (hoi24)",
+              false
+            ],
+            [
+              "177",
+              "Daniel Albert (bsi24)",
+              false
+            ],
+            [
+              "270",
+              "Wolfram Aller (wwi24)",
+              false
+            ],
+            [
+              "325",
+              "Guido Allmich (mi24)",
+              false
+            ],
+            [
+              "238",
+              "Zentrale Anfragenummer",
+              false
+            ],
+            [
+              "297",
+              "Christian Appel (ufi24)",
+              false
+            ],
+            [
+              "334",
+              "Jasmin Baruschke (brai24)",
+              false
+            ],
+            [
+              "295",
+              "Andreas Beitzen (koei24)",
+              false
+            ],
+            [
+              "88",
+              "Heldenhaft beraten werden (sbi24)",
+              false
+            ],
+            [
+              "294",
+              "Andreas Berndt (obi24)",
+              false
+            ],
+            [
+              "345",
+              "Jan Bollenbach (rhhi24)",
+              false
+            ],
+            [
+              "168",
+              "Michael Branetzki (nri24)",
+              false
+            ],
+            [
+              "320",
+              "Marcus Brinkwirth (lbi24)",
+              false
+            ],
+            [
+              "231",
+              "Michael Christ (roi24)",
+              false
+            ],
+            [
+              "344",
+              "Andreas Coutandin (rhhi24)",
+              false
+            ],
+            [
+              "342",
+              "Jan Philip de la Motte (mfi24)",
+              false
+            ],
+            [
+              "341",
+              "Christine de la Motte (mfi24)",
+              false
+            ],
+            [
+              "305",
+              "Kilian de Vries (wei24)",
+              false
+            ],
+            [
+              "102",
+              "Matthias Dickes (nsi24)",
+              false
+            ],
+            [
+              "79",
+              "Jan Doberenz (msi24)",
+              false
+            ],
+            [
+              "81",
+              "Moritz Doberenz (msi24)",
+              false
+            ],
+            [
+              "331",
+              "Hans-Dieter Döll (rhti24)",
+              false
+            ],
+            [
+              "309",
+              "Hubert Ebertseder (mi24)",
+              false
+            ],
+            [
+              "127",
+              "Jörg Edelbrock (mli24)",
+              false
+            ],
+            [
+              "243",
+              "Andreas Engelbrecht-Eichstädt (efi24)",
+              false
+            ],
+            [
+              "232",
+              "Tobias Erler (rski24)",
+              false
+            ],
+            [
+              "216",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "214",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "226",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "225",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "224",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "293",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "292",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "223",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "291",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "290",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "289",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "215",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "288",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "222",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "287",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "286",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "221",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "284",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "283",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "282",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "220",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "281",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "219",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "218",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "280",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "279",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "278",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "277",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "276",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "285",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "217",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "275",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "274",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "208",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "209",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "210",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "211",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "212",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "213",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "227",
+              "Demo Finanzierer (vi24)",
+              false
+            ],
+            [
+              "324",
+              "Clearing Forum",
+              false
+            ],
+            [
+              "304",
+              "Johannes Friedt (sti24)",
+              false
+            ],
+            [
+              "356",
+              "Benjamin Fuhr (bdi24)",
+              false
+            ],
+            [
+              "343",
+              "Patrick Funke (maii24)",
+              false
+            ],
+            [
+              "230",
+              "Oliver Gehrk (kiei24)",
+              false
+            ],
+            [
+              "351",
+              "Florian Gleißner (obi24)",
+              false
+            ],
+            [
+              "239",
+              "Yasmin Glombik",
+              false
+            ],
+            [
+              "350",
+              "Melanie Gmeiner (mi24)",
+              false
+            ],
+            [
+              "302",
+              "Thomas Grosshans (swwi24)",
+              false
+            ],
+            [
+              "89",
+              "Horst Grüger (reki24)",
+              false
+            ],
+            [
+              "347",
+              "Murat Güneser (saui24)",
+              false
+            ],
+            [
+              "116",
+              "Sven Harth (wpfi24)",
+              false
+            ],
+            [
+              "167",
+              "Nicole Hartig (mbi24)",
+              false
+            ],
+            [
+              "18",
+              "Claudia Hausdorf (li24)",
+              false
+            ],
+            [
+              "164",
+              "Sven Heinsohn (di24)",
+              false
+            ],
+            [
+              "103",
+              "Diana Helm (nsi24)",
+              false
+            ],
+            [
+              "338",
+              "Kevin Helms (tbi24)",
+              false
+            ],
+            [
+              "69",
+              "Susann Hennig",
+              false
+            ],
+            [
+              "27",
+              "Dominic Hoffmann (dai24)",
+              false
+            ],
+            [
+              "7",
+              "Wilfried Hoh (zi24)",
+              false
+            ],
+            [
+              "156",
+              "Gert Holdschick (zi24)",
+              false
+            ],
+            [
+              "123",
+              "Immobilienanfragen",
+              false
+            ],
+            [
+              "109",
+              "Andreas Janz (swwi24)",
+              false
+            ],
+            [
+              "328",
+              "Katrin Johst-Mandel (bi24)",
+              false
+            ],
+            [
+              "330",
+              "Julia",
+              false
+            ],
+            [
+              "298",
+              "Frank Kaesmacher (nri24)",
+              false
+            ],
+            [
+              "28",
+              "Birgit Keeß (dai24)",
+              false
+            ],
+            [
+              "333",
+              "Jörg Kintzel (hli24)",
+              false
+            ],
+            [
+              "306",
+              "Stephan Klammt (rhti24)",
+              false
+            ],
+            [
+              "355",
+              "Peter Klima (rgi24)",
+              false
+            ],
+            [
+              "329",
+              "Bernd Kreie (dui24)",
+              false
+            ],
+            [
+              "174",
+              "Jean-Claude Kühne (mfi24)",
+              false
+            ],
+            [
+              "326",
+              "Christiana Kurczyk (mi24)",
+              false
+            ],
+            [
+              "332",
+              "Niklas Lechner (mfi24)",
+              false
+            ],
+            [
+              "241",
+              "Johanna Leu",
+              false
+            ],
+            [
+              "307",
+              "Silvia Liebeskind (ci24)",
+              false
+            ],
+            [
+              "21",
+              "Frank Lohse (nsi24)",
+              false
+            ],
+            [
+              "271",
+              "Jürgen Lösch (rni24)",
+              false
+            ],
+            [
+              "155",
+              "Jörg Lübben (oli24)",
+              false
+            ],
+            [
+              "348",
+              "Uwe Madeja (hli24)",
+              false
+            ],
+            [
+              "100",
+              "Ewald Madl (opi24)",
+              false
+            ],
+            [
+              "153",
+              "Benjamin Mahlow",
+              false
+            ],
+            [
+              "19",
+              "Daniela May (li24)",
+              false
+            ],
+            [
+              "194",
+              "Martina Muster (vi24)",
+              false
+            ],
+            [
+              "80",
+              "Marie Nagel (msi24)",
+              false
+            ],
+            [
+              "308",
+              "Anton Neumeier (mi24)",
+              false
+            ],
+            [
+              "90",
+              "Thomas Nicolas (reki24)",
+              false
+            ],
+            [
+              "339",
+              "Lars Nitsche (rgi24)",
+              false
+            ],
+            [
+              "266",
+              "Matthias Pabst (othi24)",
+              false
+            ],
+            [
+              "335",
+              "Miroslav Papac (mi24)",
+              false
+            ],
+            [
+              "169",
+              "Pirathiphaan Pathmanathan (nri24)",
+              false
+            ],
+            [
+              "68",
+              "Apache PHP",
+              false
+            ],
+            [
+              "265",
+              "Tester Whitelabel Pitcom (vi24)",
+              false
+            ],
+            [
+              "57",
+              "Sindy Popp",
+              false
+            ],
+            [
+              "94",
+              "Sindy Popp",
+              false
+            ],
+            [
+              "296",
+              "Provisionsanfragen Qualitypool",
+              false
+            ],
+            [
+              "172",
+              "Nancy Radde (hai24)",
+              false
+            ],
+            [
+              "233",
+              "Dana Reibe (hi24)",
+              false
+            ],
+            [
+              "106",
+              "Peter Reuter (mfi24)",
+              false
+            ],
+            [
+              "352",
+              "Max Riesenberg (nsi24)",
+              false
+            ],
+            [
+              "17",
+              "Peggy Rodewald (li24)",
+              false
+            ],
+            [
+              "1",
+              "Lars Rupprecht (vi24)",
+              false
+            ],
+            [
+              "93",
+              "Stefanie Rupprecht",
+              false
+            ],
+            [
+              "56",
+              "Stefanie Rupprecht",
+              false
+            ],
+            [
+              "349",
+              "Tom Sander (swi24)",
+              false
+            ],
+            [
+              "171",
+              "Willi Schikora (hoi24)",
+              false
+            ],
+            [
+              "313",
+              "Christian Schmid (swwi24)",
+              false
+            ],
+            [
+              "16",
+              "Mike Schmidt (li24)",
+              false
+            ],
+            [
+              "311",
+              "Axel Scholz (swti24)",
+              false
+            ],
+            [
+              "303",
+              "Jürgen Schott (opi24)",
+              false
+            ],
+            [
+              "165",
+              "Karl-Heinz Schuh (obli24)",
+              false
+            ],
+            [
+              "119",
+              "Andreas Schulze (bi24)",
+              false
+            ],
+            [
+              "340",
+              "Daniel Schwan (gii24)",
+              false
+            ],
+            [
+              "269",
+              "Dirk Schwarz (fi24)",
+              false
+            ],
+            [
+              "323",
+              "William Schwaß (obi24)",
+              false
+            ],
+            [
+              "67",
+              "Java Script",
+              false
+            ],
+            [
+              "180",
+              "Steffen Simon (swti24)",
+              false
+            ],
+            [
+              "319",
+              "Christoph Soetebeer (lbi24)",
+              false
+            ],
+            [
+              "152",
+              "Marvin Staneck",
+              false
+            ],
+            [
+              "98",
+              "Thorsten Stehmann (obi24)",
+              false
+            ],
+            [
+              "121",
+              "André Stempel (nri24)",
+              false
+            ],
+            [
+              "318",
+              "Jürgen Stengel (sai24)",
+              false
+            ],
+            [
+              "336",
+              "Philipp Steppohn",
+              false
+            ],
+            [
+              "4",
+              "Philipp Steppohn (vi24)",
+              false
+            ],
+            [
+              "163",
+              "Jan Sterzik (di24)",
+              false
+            ],
+            [
+              "299",
+              "Marc Stoll (mli24)",
+              false
+            ],
+            [
+              "237",
+              "Harald Strobel (rpi24)",
+              false
+            ],
+            [
+              "64",
+              "Alexander Stumm",
+              false
+            ],
+            [
+              "346",
+              "Ronni Swatek (umi24)",
+              false
+            ],
+            [
+              "63",
+              "Technikhotline",
+              false
+            ],
+            [
+              "316",
+              "Patrick Thier (vi24)",
+              false
+            ],
+            [
+              "354",
+              "Oliver Thier (hhi24)",
+              false
+            ],
+            [
+              "162",
+              "Daniel Tönges (di24)",
+              false
+            ],
+            [
+              "125",
+              "Sören Uhlig (erzi24)",
+              false
+            ],
+            [
+              "45",
+              "Rainer Veigel (erzi24)",
+              false
+            ],
+            [
+              "62",
+              "Vertragshotline",
+              false
+            ],
+            [
+              "35",
+              "Claudia Volke-Herrmann (ddi24)",
+              false
+            ],
+            [
+              "312",
+              "Mariana Cecilia Wehrhahn (obi24)",
+              false
+            ],
+            [
+              "240",
+              "Lukas Weinmann",
+              false
+            ],
+            [
+              "353",
+              "Ron Westphal (hoi24)",
+              false
+            ],
+            [
+              "272",
+              "Oliver Wewering (rgi24)",
+              false
+            ],
+            [
+              "170",
+              "Thomas Zenker (mbi24)",
+              false
+            ]
+          ],
+          "platzhalter": "",
+          "hinweis": ""
+        }
+      ]
+    },
+    {
+      "group": "Baufinanzierung, Strom & Gas",
+      "title": "Adresse Baufinanzierung (auf Baufi-Seiten)",
+      "fields": [
+        {
+          "label": "Firma",
+          "type": "text",
+          "value": "Regionalimmobilien24 powered by AixCuror Finanzdienstleistungen GmbH",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Firma#",
+          "hinweis": "Regionalimmobilien24 GmbH"
+        },
+        {
+          "label": "Straße und Hausnummer",
+          "type": "text",
+          "value": "Bobenden 52",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Strasse_Hausnummer#",
+          "hinweis": "Kirchstraße 2"
+        },
+        {
+          "label": "Postleitzahl und Ort",
+          "type": "text",
+          "value": "53078 Aachen",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-PLZ_Ort#",
+          "hinweis": "08523 Plauen"
+        },
+        {
+          "label": "Telefonnummer",
+          "type": "text",
+          "value": "0241 - 997 444 45",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Telefon#",
+          "hinweis": "+49 3741 164 - 2691"
+        },
+        {
+          "label": "Telefax",
+          "type": "text",
+          "value": "",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Telefax#",
+          "hinweis": "+49 3741 164 - 6065"
+        },
+        {
+          "label": "E-Mail unter Kontakt",
+          "type": "text",
+          "value": "michael.deserno(at)regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Mail#",
+          "hinweis": "info(at)vogtlandimmobilien24.de"
+        },
+        {
+          "label": "Link zum Portal",
+          "type": "text",
+          "value": "www.regionalimmobilien24.de/aachen-eifel/",
+          "options": [],
+          "platzhalter": "#Region-Baufi-Adresse-Web#",
+          "hinweis": "www.regionalimmobilien24.de/vogtland/"
+        }
+      ]
+    },
+    {
+      "group": "Impressum",
+      "title": "Adresse",
+      "fields": [
+        {
+          "label": "Firma",
+          "type": "text",
+          "value": "Regionalimmobilien24 GmbH",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Firma#",
+          "hinweis": "Regionalimmobilien24 GmbH"
+        },
+        {
+          "label": "Straße und Hausnummer",
+          "type": "text",
+          "value": "Kirchstraße 2",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Strasse_Hausnummer#",
+          "hinweis": "Kirchstraße 2"
+        },
+        {
+          "label": "Postleitzahl und Ort",
+          "type": "text",
+          "value": "08523 Plauen",
+          "options": [],
+          "platzhalter": "#Region-Adresse-PLZ_Ort#",
+          "hinweis": "08523 Plauen"
+        },
+        {
+          "label": "Telefonnummer",
+          "type": "text",
+          "value": "+49 3741 384 - 7602",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Telefon#",
+          "hinweis": "+49 3741 164 - 2691"
+        },
+        {
+          "label": "Telefax",
+          "type": "text",
+          "value": "+49 3741 164 - 6065",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Telefax#",
+          "hinweis": "+49 3741 164 - 6065"
+        },
+        {
+          "label": "E-Mail unter Kontakt",
+          "type": "text",
+          "value": "info(at)regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Mail#",
+          "hinweis": "info(at)vogtlandimmobilien24.de"
+        },
+        {
+          "label": "Link zum Portal",
+          "type": "text",
+          "value": "www.regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Adresse-Web#",
+          "hinweis": "www.regionalimmobilien24.de/vogtland/"
+        }
+      ]
+    },
+    {
+      "group": "Impressum",
+      "title": "Impressum",
+      "fields": [
+        {
+          "label": "Geschäftsführer",
+          "type": "text",
+          "value": "Lars Rupprecht",
+          "options": [],
+          "platzhalter": "#Region-Impressum-GF#",
+          "hinweis": "Lars Rupprecht"
+        },
+        {
+          "label": "Steuernummer",
+          "type": "text",
+          "value": "223/117/03793",
+          "options": [],
+          "platzhalter": "#Region-Impressum-StNr#",
+          "hinweis": "223/117/03793"
+        },
+        {
+          "label": "Umsatzsteuer-ID",
+          "type": "text",
+          "value": "DE312029492",
+          "options": [],
+          "platzhalter": "#Region-Impressum-UStID#",
+          "hinweis": "DE301361490"
+        },
+        {
+          "label": "Handelsregistereintrag",
+          "type": "text",
+          "value": "HRB 31032 Amtsgericht Chemnitz",
+          "options": [],
+          "platzhalter": "#Region-Impressum-HRB#",
+          "hinweis": "HRB 29727 Amtsgericht Chemnitz"
+        },
+        {
+          "label": "Sitz",
+          "type": "text",
+          "value": "Plauen",
+          "options": [],
+          "platzhalter": "#Region-Impressum-Sitz#",
+          "hinweis": "Plauen"
+        },
+        {
+          "label": "E-Mail im Impressum",
+          "type": "text",
+          "value": "info(at)regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Impressum-Mail#",
+          "hinweis": "info(at)vogtlandimmobilien24.de"
+        },
+        {
+          "label": "Link zu Firma",
+          "type": "text",
+          "value": "www.regionalimmobilien24.de",
+          "options": [],
+          "platzhalter": "#Region-Impressum-Web#",
+          "hinweis": "www.finanz-concept.net"
+        }
+      ]
+    },
+    {
+      "group": "Impressum",
+      "title": "Öffnungszeiten",
+      "fields": []
+    }
+  ]
+}

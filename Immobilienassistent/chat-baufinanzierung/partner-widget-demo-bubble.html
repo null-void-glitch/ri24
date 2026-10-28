@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RI24 Partner-Widget – Demo (Bubble)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f7f8f9; color: #111; }
+    header { background: #BDE04F; color: #333; padding: 16px 24px; }
+    header h1 { margin: 0; font-size: 1.15rem; }
+    .info { max-width: 640px; padding: 24px; }
+    .info code { background: #eef1f0; padding: 1px 5px; border-radius: 4px; }
+    .info ol { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <header><h1>💬 RI24 Partner-Widget – lokale Demo (Bubble)</h1></header>
+
+  <div class="info">
+    <p>Simuliert, wie das Widget auf einer <strong>externen</strong> Berater-Seite aussieht —
+       Floating-Launcher unten rechts. Der eigentliche Chat-Button erscheint erst, sobald
+       DeepChat vom CDN geladen wurde (Internetzugriff nötig) und der lokale Proxy erreichbar
+       ist.</p>
+    <p><strong>Wichtig:</strong> diese Datei über <code>http://</code> öffnen, nicht per
+       Doppelklick als <code>file://</code> — Browser blockieren das Nachladen von
+       <code>type="module"</code>-Skripten (DeepChat-Bundle) über <code>file://</code> per
+       CORS-Policy, das Widget bliebe sonst dauerhaft unsichtbar.</p>
+    <ol>
+      <li><code>cd chat-baufinanzierung && php -S localhost:8001</code></li>
+      <li><code>http://localhost:8001/partner-widget-demo-bubble.html</code> öffnen</li>
+      <li>Unten rechts auf den grünen Button klicken, um den Chat zu öffnen</li>
+    </ol>
+    <p>Die echten Kopiervorlagen für Partner-Seiten
+       (<code>partner-widget-snippet-bubble-*.example.html</code>) zeigen fest auf die
+       Produktions-URL — hier überschreiben wir <code>endpoint</code>/<code>resolveEndpoint</code>
+       auf den lokalen Server.</p>
+  </div>
+
+  <script>
+    window.RI24_BAUFI_PARTNER_WIDGET = {
+      beraterId: 'philipp-steppohn',
+      mode: 'bubble',
+      endpoint: 'http://localhost:8001/chat.php',
+      resolveEndpoint: 'http://localhost:8001/resolve-advisor.php'
+    };
+  </script>
+  <script src="./partner-widget.js"></script>
+</body>
+</html>

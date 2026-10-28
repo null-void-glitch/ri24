@@ -1,0 +1,5 @@
+Für die Erstellung (createVorschlaege):
+POST https://www.regionalimmobilien24.de/ressource/set/europace/vorschlaege.json
+(Der Body ist ein JSON-Payload exakt gemäss deiner Doku)
+Für den Abruf (getVorschlaege):
+GET https://www.regionalimmobilien24.de/ressource/get/europace/vorschlaege/{anfrageId}.json

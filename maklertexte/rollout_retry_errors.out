@@ -1,0 +1,829 @@
+
+=== Starting bi24 ===
+Login ok (Session 58ytnr8jpp), 4 Worker-Seiten.
+Region: bi24 (Berlin), Slug: /berlin/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+158 Makler gefunden.
+
+  [lesen] 1concept Makler GmbH: 309 W.  (profil_uri: '{region}/anbieter/concept-makler-gmbh/')
+  [lesen] A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung: 308 W.  (profil_uri: '{region}/anbieter/a-wolter-und-partner-gbr-immobilienservice-und-liegenschaftsverwaltung/')
+  [lesen] ADEN Immo GmbH: leer  (profil_uri: '{region}/anbieter/aden-immo-gmbh/')
+  [lesen] Adorable Immobilien Berlin GmbH: 309 W.  (profil_uri: '{region}/anbieter/adorable-immobilien-berlin-gmbh/')
+  [lesen] Alexander Göbel Immobilien: 289 W.  (profil_uri: '{region}/anbieter/alexander-goebel-immobilien/')
+  [lesen] AR Immobilien ®: 293 W.  (profil_uri: '{region}/anbieter/ar-immobilien/')
+  [lesen] Argetra GmbH Verlag für Wirtschaftsinformation: 272 W.  (profil_uri: '{region}/anbieter/argetra-gmbh-verlag-fuer-wirtschaftsinformation/')
+  [lesen] ARRIVA: 276 W.  (profil_uri: '{region}/anbieter/arriva/')
+  [lesen] AS Immobilien International Kilic: 301 W.  (profil_uri: '{region}/anbieter/as-immobilien-international-kilic/')
+  [lesen] Astorian Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/astorian-immobilien-gmbh/')
+  [lesen] B. Priedemuth Immobilienvermittlung: 311 W.  (profil_uri: '{region}/anbieter/b-priedemuth-immobilienvermittlung/')
+  [lesen] B.I.S. GmbH: 309 W.  (profil_uri: '{region}/anbieter/b-i-s-gmbh/')
+  [lesen] B01: 267 W.  (profil_uri: '{region}/anbieter/b01/')
+  [lesen] Bachmann Immobilien GmbH: 307 W.  (profil_uri: '{region}/anbieter/bachmann-immobilien-gmbh/')
+  [lesen] Bauen-Beratungscenter: 286 W.  (profil_uri: '{region}/anbieter/bauen-beratungscenter/')
+  [lesen] Baugemeinschaft Hofgarten GbR: 300 W.  (profil_uri: '{region}/anbieter/baugemeinschaft-hofgarten-gbr/')
+  [lesen] Baumert-Immobilien: 304 W.  (profil_uri: '{region}/anbieter/baumert-immobilien/')
+  [lesen] Bellevue: 254 W.  (profil_uri: '{region}/anbieter/bellevue/')
+  [lesen] BERLINHOME: 302 W.  (profil_uri: '{region}/anbieter/berlinhome-1/')
+  [lesen] Berlinmaegleren GmbH: 296 W.  (profil_uri: '{region}/anbieter/berlinmaegleren-gmbh/')
+  [lesen] Brau & Friedrich Immobilienmarketing: 302 W.  (profil_uri: '{region}/anbieter/brau-und-friedrich-immobilienmarketing/')
+  [lesen] Carat 24 Immobilien GmbH: 294 W.  (profil_uri: '{region}/anbieter/carat--immobilien-gmbh/')
+  [lesen] Carsten Kühne IMMOBILIENMANAGEMENT: 285 W.  (profil_uri: '{region}/anbieter/carsten-kuehne-immobilienmanagement/')
+  [lesen] Danny Hösel, freie Handelsvertretung der Schwabenhaus GmbH: 304 W.  (profil_uri: '{region}/anbieter/danny-hoesel-freie-handelsvertretung-der-schwabenhaus-gmbh/')
+  [lesen] Deutsche Wohnen Gruppe: 308 W.  (profil_uri: '{region}/anbieter/deutsche-wohnen-gruppe/')
+  [lesen] Dot LIVVIN Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/dot-livvin-immobilien-gmbh/')
+  [lesen] ECF Farmsystems GmbH: 288 W.  (profil_uri: '{region}/anbieter/ecf-farmsystems-gmbh/')
+  [lesen] Elke Kerkhoff Immobilien: 298 W.  (profil_uri: '{region}/anbieter/elke-kerkhoff-immobilien/')
+  [lesen] Erich Hartmann e.Kfm. eh-immobilien: 315 W.  (profil_uri: '{region}/anbieter/erich-hartmann-e-kfm-eh-immobilien/')
+  [lesen] estateMoments GmbH: 294 W.  (profil_uri: '{region}/anbieter/estatemoments-gmbh/')
+  [lesen] FALC Immobilien Aachen (Volker Strauff): 309 W.  (profil_uri: '{region}/anbieter/falc-immobilien-aachen-volker-strauff/')
+  [lesen] FALC Immobilien Aidlingen (Jürgen Rabe): 304 W.  (profil_uri: '{region}/anbieter/falc-immobilien-aidlingen/')
+  [lesen] FALC Immobilien Augsburg (Wolfgang Schwarzenberger): 307 W.  (profil_uri: '{region}/anbieter/falc-immobilien-augsburg-wolfgang-schwarzenberger/')
+  [lesen] FALC Immobilien Augsburg-Nord (Claudius Kaiser): 313 W.  (profil_uri: '{region}/anbieter/falc-immobilien-augsburg-nord-claudius-kaiser/')
+  [lesen] FALC Immobilien Bad Breisig (Thomas Mittler): 289 W.  (profil_uri: '{region}/anbieter/falc-immobilien-bad-breisig-thomas-mittler/')
+  [lesen] FALC Immobilien Bad Hersfeld (Mario Schmidt): 315 W.  (profil_uri: '{region}/anbieter/falc-immobilien-bad-hersfeld-mario-schmidt/')
+  [lesen] FALC Immobilien Bad Oeynhausen (Désirée Miano): 294 W.  (profil_uri: '{region}/anbieter/falc-immobilien-bad-oeynhausen-d-sir-e-miano/')
+  [lesen] FALC Immobilien Berlin-Mariendorf (Rachid Dib): 278 W.  (profil_uri: '{region}/anbieter/falc-immobilien-berlin-mariendorf-rachid-dib/')
+  [lesen] FALC Immobilien Berlin-Reinickendorf (Dominic Winkens): 298 W.  (profil_uri: '{region}/anbieter/falc-immobilien-berlin-reinickendorf-dominic-winkens/')
+  [lesen] FALC Immobilien Berlin-Reinickendorf (Ivo F. Dolder): 287 W.  (profil_uri: '{region}/anbieter/falc-immobilien-berlin-reinickendorf-ivo-f-dolder/')
+  [lesen] FALC Immobilien Borstel-Hohenraden (Sabine Lemke): 291 W.  (profil_uri: '{region}/anbieter/falc-immobilien-borstel-hohenraden-sabine-lemke/')
+  [lesen] FALC Immobilien Dorsten (Marco S. Nussbaum): 305 W.  (profil_uri: '{region}/anbieter/falc-immobilien-dorsten-marco-s-nussbaum/')
+  [lesen] FALC Immobilien Dresden (Felix C.A. Wittig): 285 W.  (profil_uri: '{region}/anbieter/falc-immobilien-dresden-felix-c-a-wittig/')
+  [lesen] FALC Immobilien Dresden (Florian Ben Kaminski): 303 W.  (profil_uri: '{region}/anbieter/falc-immobilien-dresden-florian-ben-kaminski/')
+  [lesen] FALC Immobilien Egenhofen (Thomas Gulder): 302 W.  (profil_uri: '{region}/anbieter/falc-immobilien-egenhofen-thomas-gulder/')
+  [lesen] FALC Immobilien Erfurt-Süd (Elvira Diebold): 311 W.  (profil_uri: '{region}/anbieter/falc-immobilien-erfurt-sued-elvira-diebold/')
+  [lesen] FALC Immobilien Essen-Mitte (Majid Shafeghati): 299 W.  (profil_uri: '{region}/anbieter/falc-immobilien-essen-mitte-majid-shafeghati/')
+  [lesen] FALC Immobilien Frankfurt-Mitte (Jonathan-Joel Nimtz): 15 W.  (profil_uri: '{region}/anbieter/falc-immobilien-frankfurt-mitte-jonathan-joel-nimtz/')
+  [lesen] FALC Immobilien Gelsenkirchen (Miguel Bois): 293 W.  (profil_uri: '{region}/anbieter/falc-immobilien-gelsenkirchen-miguel-bois/')
+  [lesen] FALC Immobilien Gießen (H. Winter Immobilien GmbH): 291 W.  (profil_uri: '{region}/anbieter/falc-immobilien-giessen-h-winter-immobilien-gmbh/')
+  [lesen] FALC Immobilien Gladbeck (Michael Rogall): leer  (profil_uri: '{region}/anbieter/falc-immobilien-gladbeck-michael-rogall/')
+  [lesen] FALC Immobilien Grevenbroich (Norbert Mohren): 277 W.  (profil_uri: '{region}/anbieter/falc-immobilien-grevenbroich-norbert-mohren/')
+  [lesen] FALC Immobilien Gummersbach (Frank Buschjost): 308 W.  (profil_uri: '{region}/anbieter/falc-immobilien-gummersbach-frank-buschjost/')
+  [lesen] FALC Immobilien Hamburg (Daniel Kuric): 296 W.  (profil_uri: '{region}/anbieter/falc-immobilien-hamburg-daniel-kuric/')
+  [lesen] FALC Immobilien Hameln (Andreas E. Skupin): 272 W.  (profil_uri: '{region}/anbieter/falc-immobilien-hameln-andreas-e-skupin/')
+  [lesen] FALC Immobilien Heilbronn (Andreas Franzke): 287 W.  (profil_uri: '{region}/anbieter/falc-immobilien-heilbronn-andreas-franzke/')
+  [lesen] FALC Immobilien Heinsberg (Marcel Ackermann): 306 W.  (profil_uri: '{region}/anbieter/falc-immobilien-heinsberg-marcel-ackermann/')
+  [lesen] FALC Immobilien Hennef (Andreas Laarmann): 284 W.  (profil_uri: '{region}/anbieter/falc-immobilien-hennef/')
+  [lesen] FALC Immobilien Herford (Thorsten Holwas): 255 W.  (profil_uri: '{region}/anbieter/falc-immobilien-herford-thorsten-holwas/')
+  [lesen] FALC Immobilien Herzogtum Lauenburg Nord (Mathias Flägel): 257 W.  (profil_uri: '{region}/anbieter/falc-immobilien-herzogtum-lauenburg-nord-mathias-flaegel/')
+  [lesen] FALC Immobilien Herzogtum Lauenburg Süd (Paul Voshage): 301 W.  (profil_uri: '{region}/anbieter/falc-immobilien-herzogtum-lauenburg-sued-paul-voshage/')
+  [lesen] FALC Immobilien Hohenahr (Jörg Liesemer): 308 W.  (profil_uri: '{region}/anbieter/falc-immobilien-hohenahr-joerg-liesemer/')
+  [lesen] FALC Immobilien Homburg (Sascha Crisan): 291 W.  (profil_uri: '{region}/anbieter/falc-immobilien-homburg-sascha-crisan/')
+  [lesen] FALC Immobilien Jülich (Dirk Emmrich): 272 W.  (profil_uri: '{region}/anbieter/falc-immobilien-juelich-dirk-emmrich/')
+  [lesen] FALC Immobilien Kaarst (Pepa Franke): 270 W.  (profil_uri: '{region}/anbieter/falc-immobilien-kaarst-pepa-franke/')
+  [lesen] FALC Immobilien Karlsdorf-Neuthard (Dieter Haselmayer): 300 W.  (profil_uri: '{region}/anbieter/falc-immobilien-karlsdorf-neuthard-dieter-haselmayer/')
+  [lesen] FALC Immobilien Kelheim (Matthias Heimel): 292 W.  (profil_uri: '{region}/anbieter/falc-immobilien-kelheim-matthias-heimel/')
+  [lesen] FALC Immobilien Kerpen (Marcus Willmann): 292 W.  (profil_uri: '{region}/anbieter/falc-immobilien-kerpen-marcus-willmann/')
+  [lesen] FALC Immobilien Kirchentellinsfurt (Ralf Bohner): 306 W.  (profil_uri: '{region}/anbieter/falc-immobilien-kirchentellinsfurt/')
+  [lesen] FALC Immobilien Köln (Carsten Rumpeltin): 294 W.  (profil_uri: '{region}/anbieter/falc-immobilien-koeln-carsten-rumpeltin/')
+  [lesen] FALC Immobilien Königswinter (Helge H. Horn): 261 W.  (profil_uri: '{region}/anbieter/falc-immobilien-koenigswinter-helge-h-horn/')
+  [lesen] FALC Immobilien Krefeld (Frank Ahrweiler): 305 W.  (profil_uri: '{region}/anbieter/falc-immobilien-krefeld-frank-ahrweiler/')
+  [lesen] FALC Immobilien Kürten (Jens Berger): 271 W.  (profil_uri: '{region}/anbieter/falc-immobilien-kuerten-jens-berger/')
+  [lesen] FALC Immobilien Leipzig (Janet Wallwiener): 308 W.  (profil_uri: '{region}/anbieter/falc-immobilien-leipzig-janet-wallwiener/')
+  [lesen] FALC Immobilien Ludwigshafen Maudach (Bastian Engelhorn): 302 W.  (profil_uri: '{region}/anbieter/falc-immobilien-ludwigshafen-maudach-bastian-engelhorn/')
+  [lesen] FALC Immobilien Meine (Joanna Mannecke): 265 W.  (profil_uri: '{region}/anbieter/falc-immobilien-meine-joanna-mannecke/')
+  [lesen] FALC Immobilien Mönchengladbach (Immoline UG): 276 W.  (profil_uri: '{region}/anbieter/falc-immobilien-moenchengladbach-immoline-ug/')
+  [lesen] FALC Immobilien Müden (Michael Mais): 295 W.  (profil_uri: '{region}/anbieter/falc-immobilien-mueden-michael-mais/')
+  [lesen] FALC Immobilien Mühlacker (Hans-Jörg Schumacher): 295 W.  (profil_uri: '{region}/anbieter/falc-immobilien-muehlacker-hans-joerg-schumacher/')
+  [lesen] FALC Immobilien Mülheim an der Ruhr / Schloß Broich (TLB Immobilien GmbH): 296 W.  (profil_uri: '{region}/anbieter/falc-immobilien-muelheim-an-der-ruhr-schloss-broich-tlb-immobilien-gmbh/')
+  [lesen] FALC Immobilien Neubiberg (Michael Georg): 263 W.  (profil_uri: '{region}/anbieter/falc-immobilien-neubiberg-michael-georg/')
+  [lesen] FALC Immobilien Neuwied (Dirk Berghaus): 311 W.  (profil_uri: '{region}/anbieter/falc-immobilien-neuwied-dirk-berghaus/')
+  [lesen] FALC Immobilien Niederkrüchten (MLCS Immobilien UG (haftungsbeschränkt)): 295 W.  (profil_uri: '{region}/anbieter/falc-immobilien-niederkruechten-mlcs-immobilien-ug-haftungsbeschraenkt/')
+  [lesen] FALC Immobilien Nottuln (Stefan Nölker): 304 W.  (profil_uri: '{region}/anbieter/falc-immobilien-nottuln-stefan-noelker/')
+  [lesen] FALC Immobilien Nürnberg-Mitte (Harald Braun): 290 W.  (profil_uri: '{region}/anbieter/falc-immobilien-nuernberg-mitte-harald-braun/')
+  [lesen] FALC Immobilien Obernburg (Frank Bablick): 290 W.  (profil_uri: '{region}/anbieter/falc-immobilien-obernburg-frank-bablick/')
+  [lesen] FALC Immobilien Overath (Gudrun Schnelker): 310 W.  (profil_uri: '{region}/anbieter/falc-immobilien-overath-gudrun-schnelker/')
+  [lesen] FALC Immobilien Ratingen (Ridder Immobilien GmbH): 294 W.  (profil_uri: '{region}/anbieter/falc-immobilien-ratingen-ridder-immobilien-gmbh/')
+  [lesen] FALC Immobilien Rheinbach (Claas Dissen): 315 W.  (profil_uri: '{region}/anbieter/falc-immobilien-rheinbach-claas-dissen/')
+  [lesen] FALC Immobilien Rheinfelden (Odessa Planer): 279 W.  (profil_uri: '{region}/anbieter/falc-immobilien-rheinfelden/')
+  [lesen] FALC Immobilien Rödermark (Klaus Kail): 291 W.  (profil_uri: '{region}/anbieter/falc-immobilien-roedermark-klaus-kail/')
+  [lesen] FALC Immobilien Rodgau (Marcus Kanert): 301 W.  (profil_uri: '{region}/anbieter/falc-immobilien-rodgau-marcus-kanert/')
+  [lesen] FALC Immobilien Rostock (Till Krüger): 238 W.  (profil_uri: '{region}/anbieter/falc-immobilien-rostock-till-krueger/')
+  [lesen] FALC Immobilien Solingen (HTN Immobilien Management GmbH): 308 W.  (profil_uri: '{region}/anbieter/falc-immobilien-solingen-htn-immobilien-management-gmbh/')
+  [lesen] FALC Immobilien Stade (Mona Schnülle): 278 W.  (profil_uri: '{region}/anbieter/falc-immobilien-stade-mona-schnuelle/')
+  [lesen] FALC Immobilien Teltow (Sponfeldner GbR): 294 W.  (profil_uri: '{region}/anbieter/falc-immobilien-teltow-sponfeldner-gbr/')
+  [lesen] FALC Immobilien Töging am Inn (Hochreiter GmbH): 285 W.  (profil_uri: '{region}/anbieter/falc-immobilien-toeging-am-inn-hochreiter-gmbh/')
+  [lesen] FALC Immobilien Tuttlingen (Ercan Yorulmaz): 270 W.  (profil_uri: '{region}/anbieter/falc-immobilien-tuttlingen/')
+  [lesen] FALC Immobilien Untermeitingen (Mario Meggle): 266 W.  (profil_uri: '{region}/anbieter/falc-immobilien-untermeitingen-mario-meggle/')
+  [lesen] FALC Immobilien Viernheim (Andreas Dahm): 312 W.  (profil_uri: '{region}/anbieter/falc-immobilien-viernheim-andreas-dahm/')
+  [lesen] FALC Immobilien Wadgassen (Anja Erb-Weber): 286 W.  (profil_uri: '{region}/anbieter/falc-immobilien-wadgassen-anja-erb-weber/')
+  [lesen] FALC Immobilien Waldbreitbach (Ricky Stiehler): 297 W.  (profil_uri: '{region}/anbieter/falc-immobilien-waldbreitbach-ricky-stiehler/')
+  [lesen] FALC Immobilien Weil der Stadt (Stephan Buchholz): 313 W.  (profil_uri: '{region}/anbieter/falc-immobilien-weil-der-stadt/')
+  [lesen] FALC Immobilien Weimar (Thomas Braun): 295 W.  (profil_uri: '{region}/anbieter/falc-immobilien-weimar-thomas-braun/')
+  [lesen] FALC Immobilien Wetteraukreis-West (Dietmar Linden): 289 W.  (profil_uri: '{region}/anbieter/falc-immobilien-wetteraukreis-west-dietmar-linden/')
+  [lesen] FALC Immobilien Wuppertal (Evgeni Royzen): 307 W.  (profil_uri: '{region}/anbieter/falc-immobilien-wuppertal-evgeni-royzen/')
+  [lesen] First Citiz GmbH: 309 W.  (profil_uri: '{region}/anbieter/first-citiz-gmbh/')
+  [lesen] Gerald Kopp Immobilien: leer  (profil_uri: '{region}/anbieter/gerald-kopp-immobilien/')
+  [lesen] Gerlach Immobilien & Finanzen - Franz Gerlach: leer  (profil_uri: '{region}/anbieter/gerlach-immobilien-und-finanzen-franz-gerlach/')
+  [lesen] Groeben Immobilien: 299 W.  (profil_uri: '{region}/anbieter/groeben-immobilien/')
+  [lesen] H. & F. Rövenich GmbH: leer  (profil_uri: '{region}/anbieter/h-und-f-roevenich-gmbh/')
+  [lesen] Hargarten RealEstate: 304 W.  (profil_uri: '{region}/anbieter/hargarten-realestate/')
+  [lesen] Homeday: 284 W.  (profil_uri: '{region}/anbieter/homeday/')
+  [lesen] Homes4you Immobilien UG: leer  (profil_uri: '{region}/anbieter/homes-you-immobilien-ug/')
+  [lesen] Hoppe Immobilien Herrn Carsten Hoppe: 294 W.  (profil_uri: '{region}/anbieter/hoppe-immobilien-herrn-carsten-hoppe/')
+  [lesen] IBA Immobilien GmbH: 277 W.  (profil_uri: '{region}/anbieter/iba-immobilien-gmbh/')
+  [lesen] IMMO-4G "Der Immobilienmakler für Gewerbe": 298 W.  (profil_uri: '{region}/anbieter/immo-g-und-amp-quot-der-immobilienmakler-fuer-gewerbe-und-amp-quot/')
+  [lesen] IMMOADDICT Immobilienservice GmbH: 303 W.  (profil_uri: '{region}/anbieter/immoaddict-immobilienservice-gmbh/')
+  [lesen] IMMOBERLIN Inhaber Carsten D. Topel: 290 W.  (profil_uri: '{region}/anbieter/immoberlin-inhaber-carsten-d-topel/')
+  [lesen] Immobilienchirurg GmbH: 295 W.  (profil_uri: '{region}/anbieter/immobilienchirurg-gmbh/')
+  [lesen] ImmoNetzwerk GmbH: 282 W.  (profil_uri: '{region}/anbieter/immonetzwerk-gmbh/')
+  [lesen] Immosiv - Exklusive Immobilien: leer  (profil_uri: '{region}/anbieter/immosiv-exklusive-immobilien/')
+  [lesen] IMMOVARIA Plauen Grundbesitz GmbH & Co.KG: 305 W.  (profil_uri: '{region}/anbieter/immovaria-plauen-grundbesitz-gmbh-und-co-kg/')
+  [lesen] Javell Immobilien: 296 W.  (profil_uri: '{region}/anbieter/javell-immobilien/')
+  [lesen] JP Homes Immobilien e.K.: 313 W.  (profil_uri: '{region}/anbieter/jp-homes-immobilien-e-k/')
+  [lesen] Jugendstil Immobilien: 312 W.  (profil_uri: '{region}/anbieter/jugendstil-immobilien/')
+  [lesen] KLINGER Immobilien: leer  (profil_uri: '{region}/anbieter/klinger-immobilien/')
+  [lesen] Kniep Immobilien: 289 W.  (profil_uri: '{region}/anbieter/kniep-immobilien/')
+  [lesen] LEG Wohnen: 312 W.  (profil_uri: '{region}/anbieter/leg-wohnen/')
+  [lesen] Lehmann Immo – Wohn(T)räume seit 2015: 267 W.  (profil_uri: '{region}/anbieter/lehmann-immo---wohn-t-raeume-seit--/')
+  [lesen] Living in Berlin - my pink Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/living-in-berlin-my-pink-immobilien-gmbh/')
+  [lesen] Localontop: 314 W.  (profil_uri: '{region}/anbieter/localontop/')
+  [lesen] Lorema Immobilien GmbH: 296 W.  (profil_uri: '{region}/anbieter/lorema-immobilien-gmbh/')
+  [lesen] MAKELBAR | Susanne Jordan Immobilien: leer  (profil_uri: '{region}/anbieter/makelbar-susanne-jordan-immobilien/')
+  [lesen] MBV Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/mbv-immobilien-gmbh/')
+  [lesen] Mc group: 303 W.  (profil_uri: '{region}/anbieter/mc-group/')
+  [lesen] Mc Makler GmbH: 289 W.  (profil_uri: '{region}/anbieter/mcmakler-gmbh/')
+  [lesen] Mietz: 293 W.  (profil_uri: '{region}/anbieter/mietz/')
+  [lesen] Muzi-Berlin Immobilien & Finanzdienst e.K. -seit 1992: leer  (profil_uri: '{region}/anbieter/muzi-berlin-immobilien-und-finanzdienst-e-k-seit-1992/')
+  [lesen] Peter Tiemann real estate: leer  (profil_uri: '{region}/anbieter/peter-tiemann-real-estate/')
+  [lesen] Pluspunkt Vertriebsgesellschaft für Immobilien mbH: 293 W.  (profil_uri: '{region}/anbieter/pluspunkt-vertriebsgesellschaft-fuer-immobilien-mbh/')
+  [lesen] Pontes & Cie. AG Herrn Rene Quaß: 309 W.  (profil_uri: '{region}/anbieter/pontes-und-cie-ag-herrn-rene-quass/')
+  [lesen] Ramon Mandel: 298 W.  (profil_uri: '{region}/anbieter/ramon-mandel/')
+  [lesen] RE/MAX HOMEfriends: 292 W.  (profil_uri: '{region}/anbieter/re-max-homefriends/')
+  [lesen] Schmitz Immobilien Berlin: 288 W.  (profil_uri: '{region}/anbieter/schmitz-immobilien-berlin/')
+  [lesen] Schnoor Immobilien e.K.: leer  (profil_uri: '{region}/anbieter/schnoor-immobilien-e-k/')
+  [lesen] SMILE International Real Estates: 315 W.  (profil_uri: '{region}/anbieter/smile-international-real-estates/')
+  [lesen] Susann Feldbinder: 312 W.  (profil_uri: '{region}/anbieter/susann-feldbinder/')
+  [lesen] Taubitz Immobilienpartner GmbH: leer  (profil_uri: '{region}/anbieter/taubitz-immobilienpartner-gmbh/')
+  [lesen] Thomas Pippert Immobilien: 310 W.  (profil_uri: '{region}/anbieter/thomas-pippert-immobilien/')
+  [lesen] Urban Apartments: 305 W.  (profil_uri: '{region}/anbieter/urban-apartments-1/')
+  [lesen] Victor Investment: 300 W.  (profil_uri: '{region}/anbieter/victor-investment/')
+  [lesen] VICUS UG (haftungsbeschränkt): 299 W.  (profil_uri: '{region}/anbieter/vicus-ug-haftungsbeschraenkt/')
+  [lesen] Walter Bosch Immobilien: 303 W.  (profil_uri: '{region}/anbieter/walter-bosch-immobilien/')
+  [lesen] Wir für Sie Immobilien: 301 W.  (profil_uri: '{region}/anbieter/wir-fuer-sie-immobilien/')
+  [lesen] Wolfgang Sakowski: 301 W.  (profil_uri: '{region}/anbieter/wolfgang-sakowski/')
+  [lesen] Your Times Real Estate: 297 W.  (profil_uri: '{region}/anbieter/your-times-gmbh-real-estate/')
+  [lesen] ZMP Immobilien: 299 W.  (profil_uri: '{region}/anbieter/zmp-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] '1concept Makler GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Adorable Immobilien Berlin GmbH' → Text nennt 'FALC Immobilien Berlin-Mariendorf (Rachid Dib)' ('berlin')
+  [Fremdname] 'Alexander Göbel Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'AR Immobilien ®' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Argetra GmbH Verlag für Wirtschaftsinformation' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'ARRIVA' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'AS Immobilien International Kilic' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'B. Priedemuth Immobilienvermittlung' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'B.I.S. GmbH' → Text nennt 'A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung' ('immobilienservice')
+  [Fremdname] 'B01' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Bachmann Immobilien GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Bauen-Beratungscenter' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Baugemeinschaft Hofgarten GbR' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Baumert-Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Bellevue' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'BERLINHOME' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Berlinmaegleren GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Brau & Friedrich Immobilienmarketing' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Carat 24 Immobilien GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Carsten Kühne IMMOBILIENMANAGEMENT' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Danny Hösel, freie Handelsvertretung der Schwabenhaus GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Deutsche Wohnen Gruppe' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'ECF Farmsystems GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Elke Kerkhoff Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Erich Hartmann e.Kfm. eh-immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'estateMoments GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Aachen (Volker Strauff)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Aidlingen (Jürgen Rabe)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Augsburg (Wolfgang Schwarzenberger)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Augsburg-Nord (Claudius Kaiser)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Bad Breisig (Thomas Mittler)' → Text nennt 'FALC Immobilien Egenhofen (Thomas Gulder)' ('thomas')
+  [Fremdname] 'FALC Immobilien Bad Oeynhausen (Désirée Miano)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Berlin-Mariendorf (Rachid Dib)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Berlin-Reinickendorf (Dominic Winkens)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Berlin-Reinickendorf (Ivo F. Dolder)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Borstel-Hohenraden (Sabine Lemke)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Dorsten (Marco S. Nussbaum)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Dresden (Felix C.A. Wittig)' → Text nennt 'FALC Immobilien Dresden (Florian Ben Kaminski)' ('dresden')
+  [Fremdname] 'FALC Immobilien Dresden (Florian Ben Kaminski)' → Text nennt 'FALC Immobilien Dresden (Felix C.A. Wittig)' ('dresden')
+  [Fremdname] 'FALC Immobilien Egenhofen (Thomas Gulder)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Erfurt-Süd (Elvira Diebold)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Essen-Mitte (Majid Shafeghati)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Gelsenkirchen (Miguel Bois)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Gießen (H. Winter Immobilien GmbH)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Grevenbroich (Norbert Mohren)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Gummersbach (Frank Buschjost)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Hamburg (Daniel Kuric)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Hameln (Andreas E. Skupin)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Heilbronn (Andreas Franzke)' → Text nennt 'FALC Immobilien Hameln (Andreas E. Skupin)' ('andreas')
+  [Fremdname] 'FALC Immobilien Hennef (Andreas Laarmann)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Herford (Thorsten Holwas)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Herzogtum Lauenburg Nord (Mathias Flägel)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Herzogtum Lauenburg Süd (Paul Voshage)' → Text nennt 'FALC Immobilien Herzogtum Lauenburg Nord (Mathias Flägel)' ('herzogtum')
+  [Fremdname] 'FALC Immobilien Hohenahr (Jörg Liesemer)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Jülich (Dirk Emmrich)' → Text nennt 'IMMOBERLIN Inhaber Carsten D. Topel' ('inhaber')
+  [Fremdname] 'FALC Immobilien Kaarst (Pepa Franke)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Karlsdorf-Neuthard (Dieter Haselmayer)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Kerpen (Marcus Willmann)' → Text nennt 'FALC Immobilien Rodgau (Marcus Kanert)' ('marcus')
+  [Fremdname] 'FALC Immobilien Kirchentellinsfurt (Ralf Bohner)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Köln (Carsten Rumpeltin)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Ludwigshafen Maudach (Bastian Engelhorn)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Müden (Michael Mais)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Mühlacker (Hans-Jörg Schumacher)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Mülheim an der Ruhr / Schloß Broich (TLB Immobilien GmbH)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Neubiberg (Michael Georg)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Neuwied (Dirk Berghaus)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Niederkrüchten (MLCS Immobilien UG (haftungsbeschränkt))' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Nottuln (Stefan Nölker)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Obernburg (Frank Bablick)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Overath (Gudrun Schnelker)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Ratingen (Ridder Immobilien GmbH)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Rheinbach (Claas Dissen)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Rheinfelden (Odessa Planer)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Rodgau (Marcus Kanert)' → Text nennt 'FALC Immobilien Kelheim (Matthias Heimel)' ('matthias')
+  [Fremdname] 'FALC Immobilien Solingen (HTN Immobilien Management GmbH)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Teltow (Sponfeldner GbR)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Töging am Inn (Hochreiter GmbH)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Tuttlingen (Ercan Yorulmaz)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'FALC Immobilien Untermeitingen (Mario Meggle)' → Text nennt 'FALC Immobilien Augsburg (Wolfgang Schwarzenberger)' ('augsburg')
+  [Fremdname] 'FALC Immobilien Viernheim (Andreas Dahm)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Wadgassen (Anja Erb-Weber)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Waldbreitbach (Ricky Stiehler)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Weimar (Thomas Braun)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'FALC Immobilien Wetteraukreis-West (Dietmar Linden)' → Text nennt 'B. Priedemuth Immobilienvermittlung' ('immobilienvermittlung')
+  [Fremdname] 'FALC Immobilien Wuppertal (Evgeni Royzen)' → Text nennt 'IMMO-4G "Der Immobilienmakler für Gewerbe"' ('immobilienmakler')
+  [Fremdname] 'First Citiz GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Groeben Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Hargarten RealEstate' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Homeday' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Hoppe Immobilien Herrn Carsten Hoppe' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'IBA Immobilien GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'IMMO-4G "Der Immobilienmakler für Gewerbe"' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'IMMOADDICT Immobilienservice GmbH' → Text nennt 'A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung' ('immobilienservice')
+  [Fremdname] 'IMMOBERLIN Inhaber Carsten D. Topel' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Immobilienchirurg GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'ImmoNetzwerk GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'IMMOVARIA Plauen Grundbesitz GmbH & Co.KG' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Javell Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'JP Homes Immobilien e.K.' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Jugendstil Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Kniep Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'LEG Wohnen' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Lehmann Immo – Wohn(T)räume seit 2015' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Localontop' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Lorema Immobilien GmbH' → Text nennt 'A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung' ('immobilienservice')
+  [Fremdname] 'Mc group' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Mc Makler GmbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Mietz' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Pluspunkt Vertriebsgesellschaft für Immobilien mbH' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Pontes & Cie. AG Herrn Rene Quaß' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Ramon Mandel' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'RE/MAX HOMEfriends' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Schmitz Immobilien Berlin' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'SMILE International Real Estates' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Susann Feldbinder' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Thomas Pippert Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Urban Apartments' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Victor Investment' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'VICUS UG (haftungsbeschränkt)' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Walter Bosch Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Wir für Sie Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Wolfgang Sakowski' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'Your Times Real Estate' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Fremdname] 'ZMP Immobilien' → Text nennt 'Adorable Immobilien Berlin GmbH' ('berlin')
+  [Eigenname fehlt] 'FALC Immobilien Frankfurt-Mitte (Jonathan-Joel Nimtz)' — Keywords ['frankfurt', 'jonathan'] nicht im Text
+Erfolgreich gelesen:   158/158
+Leere Felder:          17
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     125
+Eigenname fehlt:       1
+Zu löschende Texte:    126
+
+============================================================
+Phase 3: 126 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Argetra GmbH Verlag für Wirtschaftsinformation
+  [gelöscht] Groeben Immobilien
+  [gelöscht] Pontes & Cie. AG Herrn Rene Quaß
+  [gelöscht] Carsten Kühne IMMOBILIENMANAGEMENT
+  [gelöscht] Victor Investment
+  [gelöscht] First Citiz GmbH
+  [gelöscht] AR Immobilien ®
+  [gelöscht] Elke Kerkhoff Immobilien
+  [gelöscht] Immobilienchirurg GmbH
+  [gelöscht] Hoppe Immobilien Herrn Carsten Hoppe
+  [gelöscht] Erich Hartmann e.Kfm. eh-immobilien
+  [gelöscht] B01
+  [gelöscht] IMMOADDICT Immobilienservice GmbH
+  [gelöscht] Bachmann Immobilien GmbH
+  [gelöscht] estateMoments GmbH
+  [gelöscht] ZMP Immobilien
+  [gelöscht] Alexander Göbel Immobilien
+  [gelöscht] FALC Immobilien Rheinbach (Claas Dissen)
+  [gelöscht] Walter Bosch Immobilien
+  [gelöscht] FALC Immobilien Tuttlingen (Ercan Yorulmaz)
+  [gelöscht] RE/MAX HOMEfriends
+  [gelöscht] Berlinmaegleren GmbH
+  [gelöscht] FALC Immobilien Erfurt-Süd (Elvira Diebold)
+  [gelöscht] FALC Immobilien Ludwigshafen Maudach (Bastian Engelhorn)
+  [gelöscht] SMILE International Real Estates
+  [gelöscht] Baugemeinschaft Hofgarten GbR
+  [gelöscht] FALC Immobilien Aachen (Volker Strauff)
+  [gelöscht] Lehmann Immo – Wohn(T)räume seit 2015
+  [gelöscht] FALC Immobilien Augsburg (Wolfgang Schwarzenberger)
+  [gelöscht] FALC Immobilien Waldbreitbach (Ricky Stiehler)
+  [gelöscht] FALC Immobilien Wadgassen (Anja Erb-Weber)
+  [gelöscht] ECF Farmsystems GmbH
+  [gelöscht] FALC Immobilien Karlsdorf-Neuthard (Dieter Haselmayer)
+  [gelöscht] Danny Hösel, freie Handelsvertretung der Schwabenhaus GmbH
+  [gelöscht] Localontop
+  [gelöscht] FALC Immobilien Herzogtum Lauenburg Nord (Mathias Flägel)
+  [gelöscht] 1concept Makler GmbH
+  [gelöscht] Pluspunkt Vertriebsgesellschaft für Immobilien mbH
+  [gelöscht] Homeday
+  [gelöscht] FALC Immobilien Wuppertal (Evgeni Royzen)
+  [gelöscht] FALC Immobilien Niederkrüchten (MLCS Immobilien UG (haftungsbeschränkt))
+  [gelöscht] FALC Immobilien Kaarst (Pepa Franke)
+  [gelöscht] Mietz
+  [gelöscht] FALC Immobilien Jülich (Dirk Emmrich)
+  [gelöscht] Lorema Immobilien GmbH
+  [gelöscht] Javell Immobilien
+  [gelöscht] FALC Immobilien Herford (Thorsten Holwas)
+  [gelöscht] FALC Immobilien Aidlingen (Jürgen Rabe)
+  [gelöscht] FALC Immobilien Hohenahr (Jörg Liesemer)
+  [gelöscht] FALC Immobilien Hennef (Andreas Laarmann)
+  [gelöscht] Baumert-Immobilien
+  [gelöscht] FALC Immobilien Dresden (Florian Ben Kaminski)
+  [gelöscht] LEG Wohnen
+  [gelöscht] FALC Immobilien Egenhofen (Thomas Gulder)
+  [gelöscht] FALC Immobilien Wetteraukreis-West (Dietmar Linden)
+  [gelöscht] FALC Immobilien Teltow (Sponfeldner GbR)
+  [gelöscht] FALC Immobilien Augsburg-Nord (Claudius Kaiser)
+  [gelöscht] FALC Immobilien Dorsten (Marco S. Nussbaum)
+  [gelöscht] FALC Immobilien Bad Breisig (Thomas Mittler)
+  [gelöscht] Bellevue
+  [gelöscht] Bauen-Beratungscenter
+  [gelöscht] FALC Immobilien Rheinfelden (Odessa Planer)
+  [gelöscht] Wolfgang Sakowski
+  [gelöscht] FALC Immobilien Töging am Inn (Hochreiter GmbH)
+  [gelöscht] Deutsche Wohnen Gruppe
+  [gelöscht] FALC Immobilien Gummersbach (Frank Buschjost)
+  [gelöscht] Mc Makler GmbH
+  [gelöscht] Susann Feldbinder
+  [gelöscht] FALC Immobilien Nottuln (Stefan Nölker)
+  [gelöscht] FALC Immobilien Borstel-Hohenraden (Sabine Lemke)
+  [gelöscht] FALC Immobilien Gelsenkirchen (Miguel Bois)
+  [gelöscht] FALC Immobilien Solingen (HTN Immobilien Management GmbH)
+  [gelöscht] FALC Immobilien Rodgau (Marcus Kanert)
+  [gelöscht] FALC Immobilien Heilbronn (Andreas Franzke)
+  [gelöscht] IMMOVARIA Plauen Grundbesitz GmbH & Co.KG
+  [gelöscht] B. Priedemuth Immobilienvermittlung
+  [gelöscht] FALC Immobilien Dresden (Felix C.A. Wittig)
+  [gelöscht] Thomas Pippert Immobilien
+  [gelöscht] FALC Immobilien Mühlacker (Hans-Jörg Schumacher)
+  [gelöscht] FALC Immobilien Müden (Michael Mais)
+  [gelöscht] FALC Immobilien Hameln (Andreas E. Skupin)
+  [gelöscht] FALC Immobilien Gießen (H. Winter Immobilien GmbH)
+  [gelöscht] B.I.S. GmbH
+  [gelöscht] VICUS UG (haftungsbeschränkt)
+  [gelöscht] Ramon Mandel
+  [gelöscht] FALC Immobilien Berlin-Mariendorf (Rachid Dib)
+  [gelöscht] A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung
+  [gelöscht] Adorable Immobilien Berlin GmbH
+  [gelöscht] ARRIVA
+  [gelöscht] FALC Immobilien Mülheim an der Ruhr / Schloß Broich (TLB Immobilien GmbH)
+  [gelöscht] FALC Immobilien Bad Oeynhausen (Désirée Miano)
+  [gelöscht] FALC Immobilien Neuwied (Dirk Berghaus)
+  [gelöscht] ImmoNetzwerk GmbH
+  [gelöscht] JP Homes Immobilien e.K.
+  [gelöscht] FALC Immobilien Neubiberg (Michael Georg)
+  [gelöscht] BERLINHOME
+  [gelöscht] FALC Immobilien Overath (Gudrun Schnelker)
+  [gelöscht] FALC Immobilien Essen-Mitte (Majid Shafeghati)
+  [gelöscht] FALC Immobilien Herzogtum Lauenburg Süd (Paul Voshage)
+  [gelöscht] Urban Apartments
+  [gelöscht] FALC Immobilien Berlin-Reinickendorf (Ivo F. Dolder)
+  [gelöscht] FALC Immobilien Kirchentellinsfurt (Ralf Bohner)
+  [gelöscht] FALC Immobilien Weimar (Thomas Braun)
+  [gelöscht] Mc group
+  [gelöscht] IMMOBERLIN Inhaber Carsten D. Topel
+  [gelöscht] Kniep Immobilien
+  [gelöscht] Schmitz Immobilien Berlin
+  [gelöscht] Carat 24 Immobilien GmbH
+  [gelöscht] Your Times Real Estate
+  [gelöscht] AS Immobilien International Kilic
+  [gelöscht] FALC Immobilien Kerpen (Marcus Willmann)
+  [gelöscht] Jugendstil Immobilien
+  [gelöscht] FALC Immobilien Hamburg (Daniel Kuric)
+  [gelöscht] Wir für Sie Immobilien
+  [gelöscht] FALC Immobilien Berlin-Reinickendorf (Dominic Winkens)
+  [gelöscht] FALC Immobilien Viernheim (Andreas Dahm)
+  [gelöscht] FALC Immobilien Frankfurt-Mitte (Jonathan-Joel Nimtz)
+  [gelöscht] Brau & Friedrich Immobilienmarketing
+  [gelöscht] IBA Immobilien GmbH
+  [gelöscht] FALC Immobilien Grevenbroich (Norbert Mohren)
+  [gelöscht] FALC Immobilien Obernburg (Frank Bablick)
+  [gelöscht] FALC Immobilien Untermeitingen (Mario Meggle)
+  [gelöscht] IMMO-4G "Der Immobilienmakler für Gewerbe"
+  [gelöscht] FALC Immobilien Köln (Carsten Rumpeltin)
+  [gelöscht] FALC Immobilien Ratingen (Ridder Immobilien GmbH)
+  [gelöscht] Hargarten RealEstate
+
+============================================================
+Phase 4: 143 Felder befüllen
+============================================================
+  [befüllt 1] Groeben Immobilien — 298 W.
+  [Warnung] Impressum für 'Localontop' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/localontop/')
+  [befüllt 2] Deutsche Wohnen Gruppe — 297 W.
+  [befüllt 3] FALC Immobilien Mühlacker (Hans-Jörg Schumacher) — 296 W.
+  [befüllt 4] FALC Immobilien Heilbronn (Andreas Franzke) — 301 W.
+  [befüllt 5] Localontop — 298 W. (kein Impressum)
+  [befüllt 6] Dot LIVVIN Immobilien GmbH — 311 W.
+  [befüllt 7] FALC Immobilien Tuttlingen (Ercan Yorulmaz) — 280 W.
+  [Warnung] Impressum für 'Elke Kerkhoff Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/elke-kerkhoff-immobilien/')
+  [befüllt 8] Bauen-Beratungscenter — 297 W.
+  [befüllt 9] FALC Immobilien Müden (Michael Mais) — 286 W.
+  [befüllt 10] Wir für Sie Immobilien — 298 W.
+  [befüllt 11] Elke Kerkhoff Immobilien — 309 W. (kein Impressum)
+  [befüllt 12] Erich Hartmann e.Kfm. eh-immobilien — 298 W.
+  [Warnung] Impressum für 'Wolfgang Sakowski' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wolfgang-sakowski/')
+  [befüllt 13] Mietz — 283 W.
+  [Warnung] Impressum für 'Bellevue' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/bellevue/')
+  [befüllt 14] FALC Immobilien Herzogtum Lauenburg Süd (Paul Voshage) — 285 W.
+  [befüllt 15] FALC Immobilien Herford (Thorsten Holwas) — 290 W.
+  [befüllt 16] Wolfgang Sakowski — 291 W. (kein Impressum)
+  [befüllt 17] Bellevue — 302 W. (kein Impressum)
+  [befüllt 18] AS Immobilien International Kilic — 294 W.
+  [befüllt 19] FALC Immobilien Mülheim an der Ruhr / Schloß Broich (TLB Immobilien GmbH) — 312 W.
+  [befüllt 20] BERLINHOME — 292 W.
+  [Warnung] Impressum für 'Immobilienchirurg GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienchirurg-gmbh/')
+  [befüllt 21] FALC Immobilien Dresden (Florian Ben Kaminski) — 253 W.
+  [befüllt 22] FALC Immobilien Kerpen (Marcus Willmann) — 291 W.
+  [befüllt 23] Your Times Real Estate — 275 W.
+  [befüllt 24] Immobilienchirurg GmbH — 299 W. (kein Impressum)
+  [befüllt 25] ADEN Immo GmbH — 270 W.
+  [Warnung] Impressum für 'FALC Immobilien Berlin-Reinickendorf (Dominic Winkens)' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/falc-immobilien-berlin-reinickendorf-dominic-winkens/')
+  [befüllt 26] KLINGER Immobilien — 292 W.
+  [Warnung] Impressum für 'estateMoments GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/estatemoments-gmbh/')
+  [befüllt 27] Bachmann Immobilien GmbH — 259 W.
+  [befüllt 28] FALC Immobilien Augsburg (Wolfgang Schwarzenberger) — 258 W.
+  [befüllt 29] FALC Immobilien Berlin-Reinickendorf (Dominic Winkens) — 269 W. (kein Impressum)
+  [befüllt 30] Hoppe Immobilien Herrn Carsten Hoppe — 299 W.
+  [befüllt 31] estateMoments GmbH — 304 W. (kein Impressum)
+  [befüllt 32] MBV Immobilien GmbH — 292 W.
+  [Warnung] Impressum für 'Susann Feldbinder' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/susann-feldbinder/')
+  [befüllt 33] Muzi-Berlin Immobilien & Finanzdienst e.K. -seit 1992 — 302 W.
+  [befüllt 34] FALC Immobilien Niederkrüchten (MLCS Immobilien UG (haftungsbeschränkt)) — 298 W.
+  [befüllt 35] FALC Immobilien Hohenahr (Jörg Liesemer) — 309 W.
+  [befüllt 36] 1concept Makler GmbH — 294 W.
+  [Warnung] Impressum für 'B. Priedemuth Immobilienvermittlung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/b-priedemuth-immobilienvermittlung/')
+  [befüllt 37] Susann Feldbinder — 297 W. (kein Impressum)
+  [Warnung] Impressum für 'Gerlach Immobilien & Finanzen - Franz Gerlach' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/gerlach-immobilien-und-finanzen-franz-gerlach/')
+  [befüllt 38] Argetra GmbH Verlag für Wirtschaftsinformation — 289 W.
+  [Warnung] Impressum für 'Adorable Immobilien Berlin GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/adorable-immobilien-berlin-gmbh/')
+  [befüllt 39] FALC Immobilien Aidlingen (Jürgen Rabe) — 281 W.
+  [befüllt 40] B. Priedemuth Immobilienvermittlung — 307 W. (kein Impressum)
+  [befüllt 41] Gerlach Immobilien & Finanzen - Franz Gerlach — 298 W. (kein Impressum)
+  [befüllt 42] Adorable Immobilien Berlin GmbH — 304 W. (kein Impressum)
+  [Warnung] Impressum für 'Pluspunkt Vertriebsgesellschaft für Immobilien mbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/pluspunkt-vertriebsgesellschaft-fuer-immobilien-mbh/')
+  [befüllt 43] FALC Immobilien Jülich (Dirk Emmrich) — 282 W.
+  [befüllt 44] Kniep Immobilien — 310 W.
+  [befüllt 45] FALC Immobilien Grevenbroich (Norbert Mohren) — 290 W.
+  [befüllt 46] Pluspunkt Vertriebsgesellschaft für Immobilien mbH — 301 W. (kein Impressum)
+  [Warnung] Impressum für 'VICUS UG (haftungsbeschränkt)' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/vicus-ug-haftungsbeschraenkt/')
+  [befüllt 47] IBA Immobilien GmbH — 288 W.
+  [befüllt 48] FALC Immobilien Dorsten (Marco S. Nussbaum) — 312 W.
+  [befüllt 49] FALC Immobilien Gießen (H. Winter Immobilien GmbH) — 275 W.
+  [befüllt 50] FALC Immobilien Kirchentellinsfurt (Ralf Bohner) — 306 W.
+  [Warnung] Impressum für 'Victor Investment' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/victor-investment/')
+  [befüllt 51] VICUS UG (haftungsbeschränkt) — 303 W. (kein Impressum)
+  [befüllt 52] IMMO-4G "Der Immobilienmakler für Gewerbe" — 297 W.
+  [befüllt 53] H. & F. Rövenich GmbH — 291 W.
+  [befüllt 54] FALC Immobilien Köln (Carsten Rumpeltin) — 307 W.
+  [befüllt 55] Victor Investment — 297 W. (kein Impressum)
+  [befüllt 56] FALC Immobilien Gelsenkirchen (Miguel Bois) — 312 W.
+  [befüllt 57] Baumert-Immobilien — 306 W.
+  [befüllt 58] FALC Immobilien Rodgau (Marcus Kanert) — 303 W.
+  [befüllt 59] FALC Immobilien Rheinbach (Claas Dissen) — 293 W.
+  [befüllt 60] Astorian Immobilien GmbH — 308 W.
+  [befüllt 61] FALC Immobilien Essen-Mitte (Majid Shafeghati) — 294 W.
+  [befüllt 62] Schmitz Immobilien Berlin — 298 W.
+  [befüllt 63] Homes4you Immobilien UG — 283 W.
+  [befüllt 64] FALC Immobilien Ludwigshafen Maudach (Bastian Engelhorn) — 308 W.
+  [befüllt 65] Walter Bosch Immobilien — 303 W.
+  [befüllt 66] B01 — 259 W.
+  [Warnung] Impressum für 'Taubitz Immobilienpartner GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/taubitz-immobilienpartner-gmbh/')
+  [befüllt 67] First Citiz GmbH — 314 W.
+  [befüllt 68] FALC Immobilien Dresden (Felix C.A. Wittig) — 261 W.
+  [befüllt 69] FALC Immobilien Berlin-Mariendorf (Rachid Dib) — 314 W.
+  [befüllt 70] Taubitz Immobilienpartner GmbH — 281 W. (kein Impressum)
+  [Warnung] Impressum für 'Baugemeinschaft Hofgarten GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/baugemeinschaft-hofgarten-gbr/')
+  [befüllt 71] ImmoNetzwerk GmbH — 315 W.
+  [befüllt 72] FALC Immobilien Obernburg (Frank Bablick) — 313 W.
+  [befüllt 73] FALC Immobilien Bad Oeynhausen (Désirée Miano) — 249 W.
+  [befüllt 74] Baugemeinschaft Hofgarten GbR — 293 W. (kein Impressum)
+  [befüllt 75] Pontes & Cie. AG Herrn Rene Quaß — 285 W.
+  [befüllt 76] FALC Immobilien Teltow (Sponfeldner GbR) — 294 W.
+  [Warnung] Impressum für 'ARRIVA' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/arriva/')
+  [befüllt 77] FALC Immobilien Viernheim (Andreas Dahm) — 286 W.
+  [befüllt 78] FALC Immobilien Untermeitingen (Mario Meggle) — 294 W.
+  [befüllt 79] Danny Hösel, freie Handelsvertretung der Schwabenhaus GmbH — 288 W.
+  [befüllt 80] ARRIVA — 272 W. (kein Impressum)
+  [befüllt 81] Immosiv - Exklusive Immobilien — 270 W.
+  [befüllt 82] FALC Immobilien Wuppertal (Evgeni Royzen) — 294 W.
+  [befüllt 83] FALC Immobilien Herzogtum Lauenburg Nord (Mathias Flägel) — 273 W.
+  [befüllt 84] Lorema Immobilien GmbH — 296 W.
+  [befüllt 85] Berlinmaegleren GmbH — 312 W.
+  [Retry] 'FALC Immobilien Augsburg-Nord (Claudius Kaiser)' — kein Namensteil im Text ['augsburg', 'claudius', 'kaiser'] — nochmal (ohne Impressum)
+  [befüllt 86] FALC Immobilien Solingen (HTN Immobilien Management GmbH) — 308 W.
+  [befüllt 87] Alexander Göbel Immobilien — 300 W.
+  [Warnung] 'FALC Immobilien Augsburg-Nord (Claudius Kaiser)' — nach Retry noch kein Namensteil im Text
+  [befüllt 88] FALC Immobilien Augsburg-Nord (Claudius Kaiser) — 300 W.
+  [Warnung] Impressum für 'Javell Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/javell-immobilien/')
+  [befüllt 89] A. Wolter & Partner GbR Immobilienservice und Liegenschaftsverwaltung — 295 W.
+  [Warnung] Impressum für 'Gerald Kopp Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/gerald-kopp-immobilien/')
+  [befüllt 90] FALC Immobilien Frankfurt-Mitte (Jonathan-Joel Nimtz) — 283 W.
+  [befüllt 91] RE/MAX HOMEfriends — 311 W.
+  [befüllt 92] Javell Immobilien — 282 W. (kein Impressum)
+  [befüllt 93] Gerald Kopp Immobilien — 300 W. (kein Impressum)
+  [befüllt 94] FALC Immobilien Neubiberg (Michael Georg) — 314 W.
+  [befüllt 95] IMMOADDICT Immobilienservice GmbH — 309 W.
+  [befüllt 96] B.I.S. GmbH — 300 W.
+  [befüllt 97] IMMOBERLIN Inhaber Carsten D. Topel — 280 W.
+  [befüllt 98] Thomas Pippert Immobilien — 314 W.
+  [befüllt 99] Carat 24 Immobilien GmbH — 306 W.
+  [befüllt 100] Schnoor Immobilien e.K. — 267 W.
+  [befüllt 101] Lehmann Immo – Wohn(T)räume seit 2015 — 302 W.
+  [befüllt 102] AR Immobilien ® — 315 W.
+  [befüllt 103] FALC Immobilien Erfurt-Süd (Elvira Diebold) — 272 W.
+  [befüllt 104] FALC Immobilien Waldbreitbach (Ricky Stiehler) — 293 W.
+  [befüllt 105] FALC Immobilien Hamburg (Daniel Kuric) — 294 W.
+  [befüllt 106] Carsten Kühne IMMOBILIENMANAGEMENT — 307 W.
+  [befüllt 107] FALC Immobilien Ratingen (Ridder Immobilien GmbH) — 313 W.
+  [befüllt 108] FALC Immobilien Karlsdorf-Neuthard (Dieter Haselmayer) — 288 W.
+  [befüllt 109] FALC Immobilien Neuwied (Dirk Berghaus) — 296 W.
+  [befüllt 110] FALC Immobilien Weimar (Thomas Braun) — 297 W.
+  [befüllt 111] FALC Immobilien Gummersbach (Frank Buschjost) — 296 W.
+  [befüllt 112] FALC Immobilien Rheinfelden (Odessa Planer) — 295 W.
+  [befüllt 113] FALC Immobilien Gladbeck (Michael Rogall) — 284 W.
+  [Warnung] Impressum für 'Hargarten RealEstate' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hargarten-realestate/')
+  [befüllt 114] FALC Immobilien Aachen (Volker Strauff) — 312 W.
+  [befüllt 115] FALC Immobilien Overath (Gudrun Schnelker) — 258 W.
+  [Warnung] Impressum für 'Mc group' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/mc-group/')
+  [befüllt 116] ECF Farmsystems GmbH — 312 W.
+  [befüllt 117] Living in Berlin - my pink Immobilien GmbH — 286 W.
+  [befüllt 118] Hargarten RealEstate — 297 W. (kein Impressum)
+  [Retry] 'Mc group' — kein Namensteil im Text ['group'] — nochmal (ohne Impressum)
+  [befüllt 119] IMMOVARIA Plauen Grundbesitz GmbH & Co.KG — 305 W.
+  [befüllt 120] FALC Immobilien Kaarst (Pepa Franke) — 309 W.
+  [Warnung] 'Mc group' — nach Retry noch kein Namensteil im Text
+  [befüllt 121] ZMP Immobilien — 302 W.
+  [befüllt 122] Mc group — 299 W. (kein Impressum)
+  [befüllt 123] SMILE International Real Estates — 305 W.
+  [befüllt 124] Jugendstil Immobilien — 303 W.
+  [Warnung] Impressum für 'JP Homes Immobilien e.K.' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/jp-homes-immobilien-e-k/')
+  [befüllt 125] FALC Immobilien Hennef (Andreas Laarmann) — 315 W.
+  [befüllt 126] FALC Immobilien Wetteraukreis-West (Dietmar Linden) — 313 W.
+  [befüllt 127] FALC Immobilien Borstel-Hohenraden (Sabine Lemke) — 282 W.
+  [befüllt 128] JP Homes Immobilien e.K. — 252 W. (kein Impressum)
+  [befüllt 129] Brau & Friedrich Immobilienmarketing — 298 W.
+  [befüllt 130] FALC Immobilien Hameln (Andreas E. Skupin) — 301 W.
+  [befüllt 131] FALC Immobilien Töging am Inn (Hochreiter GmbH) — 313 W.
+  [befüllt 132] FALC Immobilien Nottuln (Stefan Nölker) — 289 W.
+  [befüllt 133] Mc Makler GmbH — 312 W.
+  [Warnung] Impressum für 'Homeday' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/homeday/')
+  [befüllt 134] MAKELBAR | Susanne Jordan Immobilien — 293 W.
+  [befüllt 135] FALC Immobilien Berlin-Reinickendorf (Ivo F. Dolder) — 288 W.
+  [Warnung] Impressum für 'LEG Wohnen' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/leg-wohnen/')
+  [befüllt 136] FALC Immobilien Bad Breisig (Thomas Mittler) — 314 W.
+  [befüllt 137] Peter Tiemann real estate — 276 W.
+  [befüllt 138] Homeday — 305 W. (kein Impressum)
+  [befüllt 139] LEG Wohnen — 289 W. (kein Impressum)
+  [Warnung] Impressum für 'Urban Apartments' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/urban-apartments-1/')
+  [befüllt 140] Ramon Mandel — 289 W.
+  [befüllt 141] FALC Immobilien Wadgassen (Anja Erb-Weber) — 309 W.
+  [befüllt 142] FALC Immobilien Egenhofen (Thomas Gulder) — 306 W.
+  [befüllt 143] Urban Apartments — 291 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region bi24 (Berlin)
+============================================================
+  Gelesen:        158/158
+  Gelöscht:       126
+  Befüllt:        143
+  Log:            rollout_region_log.csv
+=== Done bi24 ===
+
+=== Starting bsi24 ===
+Login ok (Session 9n79pfzhxg), 4 Worker-Seiten.
+Region: bsi24 (Bayerisch-Schwaben), Slug: /bayerisch-schwaben/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+39 Makler gefunden.
+
+  [lesen] 1 Plus 1 Finanzwelt GmbH: leer  (profil_uri: '{region}/anbieter/1-plus-1-finanzwelt-gmbh/')
+  [lesen] A-X-T GmbH: 263 W.  (profil_uri: '{region}/anbieter/a-x-t-gmbh/')
+  [lesen] Aigner Immobilien: 313 W.  (profil_uri: '{region}/anbieter/aigner-immobilien/')
+  [lesen] Anthuber Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/anthuber-immobilien-gmbh/')
+  [lesen] Avioni Immobilien GmbH: 304 W.  (profil_uri: '{region}/anbieter/avioni-immobilien-gmbh/')
+  [lesen] BauConsult Illertal GmbH: leer  (profil_uri: '{region}/anbieter/bauconsult-illertal-gmbh/')
+  [lesen] Beyer Consulting Group: leer  (profil_uri: '{region}/anbieter/beyer-consulting-group/')
+  [lesen] Bradl Baugeschäft GmbH: 272 W.  (profil_uri: '{region}/anbieter/bradl-baugeschaeft-gmbh/')
+  [lesen] Bricks & Mortar Immobilien Allgäu GmbH: leer  (profil_uri: '{region}/anbieter/bricks-und-mortar-immobilien-allgaeu-gmbh/')
+  [lesen] Bricks & Mortar Immobilien Augsburg GmbH: leer  (profil_uri: '{region}/anbieter/bricks-und-mortar-immobilien-thannhausen-gmbh/')
+  [lesen] Calimex HW-Finanz Helmuth Wirths: leer  (profil_uri: '{region}/anbieter/calimex-hw-finanz-helmuth-wirths/')
+  [lesen] Calimex Wohnbau GmbH: 309 W.  (profil_uri: '{region}/anbieter/calimex-wohnbau-gmbh-1/')
+  [lesen] CL-IMMOBILIEN: leer  (profil_uri: '{region}/anbieter/cl-immobilien/')
+  [lesen] Daniel Albert Immobilienmakler: leer  (profil_uri: '{region}/anbieter/daniel-albert-immobilienmakler/')
+  [lesen] Die ImmoProfis: leer  (profil_uri: '{region}/anbieter/die-immoprofis/')
+  [lesen] Emma Müller Immobilien: leer  (profil_uri: '{region}/anbieter/emma-mueller-immobilien/')
+  [lesen] Gilg Consulting: leer  (profil_uri: '{region}/anbieter/gilg-consulting/')
+  [lesen] Hold Immobilien GmbH: 312 W.  (profil_uri: '{region}/anbieter/hold-immobilien-gmbh/')
+  [lesen] Immobilien Patricia Nemetz: leer  (profil_uri: '{region}/anbieter/immobilien-patricia-nemetz/')
+  [lesen] IMMOBILIEN Veit Waibel: leer  (profil_uri: '{region}/anbieter/immobilien-veit-waibel/')
+  [lesen] Immowerk GmbH: 268 W.  (profil_uri: '{region}/anbieter/immowerk-gmbh/')
+  [lesen] M.S. Finanzkanzlei GmbH Ihr Versicherungs-und Immobilienmakler: 297 W.  (profil_uri: '{region}/anbieter/m-s-finanzkanzlei-gmbh-ihr-versicherungs-und-immobilienmakler/')
+  [lesen] Massivhaus / Fertighaus Vertrieb: 313 W.  (profil_uri: '{region}/anbieter/massivhaus-fertighaus-vertrieb/')
+  [lesen] MERZ IMMOBILIEN: 311 W.  (profil_uri: '{region}/anbieter/merz-immobilien/')
+  [lesen] MTS Projektprofi GmbH: leer  (profil_uri: '{region}/anbieter/mts-projektprofi-gmbh/')
+  [lesen] Muster-Immobilien-Makler by TS die Finanzberater GmbH: 267 W.  (profil_uri: '{region}/anbieter/muster-immobilien-makler-by-ts-die-finanzberater-gmbh/')
+  [lesen] Neue Wege Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/neue-wege-immobilien-gmbh-1/')
+  [lesen] PAYA-Immobilien: leer  (profil_uri: '{region}/anbieter/paya-immobilien/')
+  [lesen] PIUS Immobilien - Die ZUHAUSE-Vermittler.: 309 W.  (profil_uri: '{region}/anbieter/pius-immobilien-die-zuhause-vermittler/')
+  [lesen] Profimma Immobilien Management GmbH: leer  (profil_uri: '{region}/anbieter/profimma-immobilien-management-gmbh/')
+  [lesen] R.K.Immobilien: leer  (profil_uri: '{region}/anbieter/r-k-immobilien/')
+  [lesen] Sandra Müller Immobilien: leer  (profil_uri: '{region}/anbieter/sandra-mueller-immobilien/')
+  [lesen] Seger Immobilien: leer  (profil_uri: '{region}/anbieter/seger-immobilien/')
+  [lesen] SOi GmbH - Immobilien: leer  (profil_uri: '{region}/anbieter/soi-gmbh-immobilien/')
+  [lesen] Ute Anthuber Immobilien: leer  (profil_uri: '{region}/anbieter/ute-anthuber-immobilien/')
+  [lesen] V+V Vermietungsservice UG (haftungsbeschränkt): leer  (profil_uri: '{region}/anbieter/v-v-vermietungsservice-ug-haftungsbeschraenkt/')
+  [lesen] VERMACS GmbH: leer  (profil_uri: '{region}/anbieter/vermacs-gmbh/')
+  [lesen] Willner Immobilien: leer  (profil_uri: '{region}/anbieter/willner-immobilien/')
+  [lesen] YES Real Estate GmbH: 311 W.  (profil_uri: '{region}/anbieter/yes-real-estate-gmbh/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'Calimex Wohnbau GmbH' → Text nennt 'Calimex HW-Finanz Helmuth Wirths' ('calimex')
+  [Fremdname] 'Hold Immobilien GmbH' → Text nennt 'PIUS Immobilien - Die ZUHAUSE-Vermittler.' ('zuhause')
+  [Fremdname] 'Immowerk GmbH' → Text nennt 'Bricks & Mortar Immobilien Allgäu GmbH' ('allgäu')
+Erfolgreich gelesen:   39/39
+Leere Felder:          26
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     3
+Eigenname fehlt:       0
+Zu löschende Texte:    3
+
+============================================================
+Phase 3: 3 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Immowerk GmbH
+  [gelöscht] Hold Immobilien GmbH
+  [gelöscht] Calimex Wohnbau GmbH
+
+============================================================
+Phase 4: 29 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'PAYA-Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/paya-immobilien/')
+  [befüllt 1] Profimma Immobilien Management GmbH — 303 W.
+  [befüllt 2] Emma Müller Immobilien — 305 W.
+  [befüllt 3] Sandra Müller Immobilien — 302 W.
+  [befüllt 4] PAYA-Immobilien — 299 W. (kein Impressum)
+  [befüllt 5] VERMACS GmbH — 299 W.
+  [befüllt 6] Beyer Consulting Group — 301 W.
+  [befüllt 7] Anthuber Immobilien GmbH — 297 W.
+  [befüllt 8] Daniel Albert Immobilienmakler — 273 W.
+  [Warnung] Impressum für 'Immobilien Patricia Nemetz' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilien-patricia-nemetz/')
+  [befüllt 9] Hold Immobilien GmbH — 274 W.
+  [befüllt 10] Neue Wege Immobilien GmbH — 257 W.
+  [befüllt 11] MTS Projektprofi GmbH — 277 W.
+  [befüllt 12] SOi GmbH - Immobilien — 311 W.
+  [befüllt 13] Immobilien Patricia Nemetz — 300 W. (kein Impressum)
+  [befüllt 14] BauConsult Illertal GmbH — 281 W.
+  [befüllt 15] Calimex Wohnbau GmbH — 305 W.
+  [befüllt 16] IMMOBILIEN Veit Waibel — 272 W.
+  [ERR befüllen] Ute Anthuber Immobilien: Error: Page.goto: net::ERR_NETWORK_CHANGED at https://backend.regionalimmobilien24.de/adm/individuell/maste
+  [ERR befüllen] R.K.Immobilien: Error: Page.goto: net::ERR_NETWORK_CHANGED at https://backend.regionalimmobilien24.de/adm/individuell/maste
+  [Warnung] Impressum-Abruf für 'V+V Vermietungsservice UG (haftungsbeschränkt)' fehlgeschlagen (Error) — fahre ohne Impressum fort
+  [Warnung] Impressum für '1 Plus 1 Finanzwelt GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/1-plus-1-finanzwelt-gmbh/')
+  [ERR befüllen] Die ImmoProfis: APIConnectionError: Connection error.
+  [Warnung] Impressum für 'Gilg Consulting' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/gilg-consulting/')
+  [ERR befüllen] Gilg Consulting: APIConnectionError: Connection error.
+  [ERR befüllen] V+V Vermietungsservice UG (haftungsbeschränkt): APIConnectionError: Connection error.
+  [Warnung] Impressum für 'Immowerk GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immowerk-gmbh/')
+  [Warnung] Impressum für 'Bricks & Mortar Immobilien Allgäu GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/bricks-und-mortar-immobilien-allgaeu-gmbh/')
+  [ERR befüllen] Immowerk GmbH: APIConnectionError: Connection error.
+  [ERR befüllen] Bricks & Mortar Immobilien Allgäu GmbH: APIConnectionError: Connection error.
+  [Warnung] Impressum für 'Calimex HW-Finanz Helmuth Wirths' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/calimex-hw-finanz-helmuth-wirths/')
+  [Warnung] Impressum für 'Willner Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/willner-immobilien/')
+  [ERR befüllen] Calimex HW-Finanz Helmuth Wirths: APIConnectionError: Connection error.
+  [ERR befüllen] Willner Immobilien: APIConnectionError: Connection error.
+  [Warnung] Impressum für 'CL-IMMOBILIEN' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/cl-immobilien/')
+  [Warnung] Impressum für 'Seger Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/seger-immobilien/')
+  [ERR befüllen] CL-IMMOBILIEN: APIConnectionError: Connection error.
+  [ERR befüllen] Seger Immobilien: APIConnectionError: Connection error.
+  [ERR befüllen] Bricks & Mortar Immobilien Augsburg GmbH: APIConnectionError: Connection error.
+  [ERR befüllen] 1 Plus 1 Finanzwelt GmbH: APIConnectionError: Connection error.
+
+============================================================
+Zusammenfassung  Region bsi24 (Bayerisch-Schwaben)
+============================================================
+  Gelesen:        39/39
+  Gelöscht:       3
+  Befüllt:        16  (13 Fehler)
+  Log:            rollout_region_log.csv
+=== Done bsi24 ===
+
+=== Starting ci24 ===
+Traceback (most recent call last):
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 483, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 208, in main
+    st.sess = await do_login(pages[0], cfg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/null/work/ri24/maklertexte/rollout_parallel.py", line 108, in do_login
+    raise RuntimeError(f"Login fehlgeschlagen ({last}).")
+RuntimeError: Login fehlgeschlagen (Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://backend.regionalimmobilien24.de).
+=== Done ci24 ===
+
+=== Starting ddi24 ===
+Traceback (most recent call last):
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 483, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 208, in main
+    st.sess = await do_login(pages[0], cfg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/null/work/ri24/maklertexte/rollout_parallel.py", line 108, in do_login
+    raise RuntimeError(f"Login fehlgeschlagen ({last}).")
+RuntimeError: Login fehlgeschlagen (Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://backend.regionalimmobilien24.de).
+=== Done ddi24 ===
+
+=== Starting hbi24 ===
+Traceback (most recent call last):
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 483, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 208, in main
+    st.sess = await do_login(pages[0], cfg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/null/work/ri24/maklertexte/rollout_parallel.py", line 108, in do_login
+    raise RuntimeError(f"Login fehlgeschlagen ({last}).")
+RuntimeError: Login fehlgeschlagen (Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://backend.regionalimmobilien24.de).
+=== Done hbi24 ===
+
+=== Starting li24 ===
+Traceback (most recent call last):
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 483, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/null/work/ri24/maklertexte/rollout_region.py", line 208, in main
+    st.sess = await do_login(pages[0], cfg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/null/work/ri24/maklertexte/rollout_parallel.py", line 108, in do_login
+    raise RuntimeError(f"Login fehlgeschlagen ({last}).")
+RuntimeError: Login fehlgeschlagen (Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://backend.regionalimmobilien24.de).
+=== Done li24 ===

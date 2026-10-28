@@ -1,0 +1,29 @@
+<!--
+  RI24 Baufinanzierungs-Assistent – Partner-Widget (Inline, Rechner unten)
+  =====================================================================
+  Vorlage für EXTERNE Berater-Webseiten. Pro Berater eine Kopie dieser Datei
+  anlegen und NUR `teamDir` unten anpassen (muss ein Key aus advisors.php
+  sein). Kontaktdaten selbst bleiben zentral in advisors.php gepflegt — hier
+  wird nur die feste Zuordnung Berater-ID ↔ Partnerseite hinterlegt.
+
+  Einbindung: Das <div id="ri24_baufi_widget"> an der Stelle im <body>
+  platzieren, an der der Chat sichtbar erscheinen soll (z.B. innerhalb einer
+  Content-Section) — den restlichen Block (Config + beide <script>-Tags)
+  irgendwo danach einfügen, Reihenfolge zum Div ist egal. Das Skript lädt
+  async/defer, blockiert also nicht den Seitenaufbau.
+
+  Layout dieser Variante: Rechner-Panel UNTER dem Chat (zuerst der Chat, dann
+  darunter der Finanzierungsrechner mit editierbaren Eingaben).
+-->
+<div id="ri24_baufi_widget"></div>
+<script>
+  window.RI24_BAUFI_PARTNER_WIDGET = {
+    teamDir:      'philipp-steppohn',   // ← pro Berater anpassen
+    elementID:    'ri24_baufi_widget',  // ← muss zur id des <div> oben passen
+    layout:       'inline',
+    calcPosition: 'below'
+    // color:     '#c0392b',            // ← optional: Marken-Farbe des Partners (6-stelliger Hex-Code), sonst RI24-Standardgrün #BDE04F
+    // textcolor: '#ffffff',            // ← optional: Textfarbe auf color, sonst automatisch per Kontrast bestimmt
+  };
+</script>
+<script async defer src="https://www.regionalimmobilien24.de/api/chat-baufinanzierung/partner-widget.js"></script>

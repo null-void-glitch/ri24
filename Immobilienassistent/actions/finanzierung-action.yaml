@@ -1,0 +1,196 @@
+openapi: "3.1.0"
+info:
+  title: "Regionalimmobilien24 Finanzierungs-API"
+  description: "Berechnet und aktualisiert Finanzierungsangebote für Kaufimmobilien über Europace."
+  version: "1.0.0"
+servers:
+  - url: "https://www.regionalimmobilien24.de"
+    description: "Produktionsserver"
+paths:
+  /ressource/set/europace/processcode/{oid}.json:
+    post:
+      operationId: "createProcessCode"
+      summary: "Finanzierungsberechnung starten"
+      description: "Erstellt einen ProcessCode für die Finanzierungsberechnung. Muss als erster Schritt aufgerufen werden."
+      parameters:
+        - name: oid
+          in: path
+          required: true
+          description: "Objekt-ID der Immobilie aus der Exposé-URL."
+          schema:
+            type: string
+            example: "055782549"
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              required:
+                - p
+                - d
+                - z
+              properties:
+                p:
+                  type: number
+                  description: "Kaufpreis der Immobilie in Euro. Aus den Exposé-Daten entnehmen."
+                  example: 49000
+                d:
+                  type: number
+                  description: "Gewünschter Darlehensbetrag in Euro. Kaufpreis minus Eigenkapital."
+                  example: 41000
+                z:
+                  type: integer
+                  description: "Zinsbindung in Jahren."
+                  enum: [5, 10, 15, 20]
+                  example: 10
+      responses:
+        "200":
+          description: "ProcessCode wurde erstellt."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "true wenn erfolgreich"
+                  oid:
+                    type: string
+                    description: "Objekt-ID"
+                  process_code:
+                    type: string
+                    description: "ProcessCode für die weiteren Aufrufe. Diesen Wert merken!"
+                  data:
+                    type: object
+                    properties:
+                      oid:
+                        type: string
+                      oa:
+                        type: string
+                        description: "Objektart (z.B. wohnung)"
+                      oa_typ:
+                        type: string
+                        description: "Objekttyp (z.B. Etage)"
+                      geo_plz:
+                        type: string
+                        description: "PLZ der Immobilie"
+                      geo_ort:
+                        type: string
+                        description: "Ort der Immobilie"
+                      search_preise:
+                        type: number
+                        description: "Kaufpreis"
+
+  /ressource/get/europace/init/{processCode}.json:
+    get:
+      operationId: "getFinanzierung"
+      summary: "Finanzierungsangebote abrufen"
+      description: "Ruft Angebote mit dem ProcessCode ab. Vorher createProcessCode aufrufen."
+      parameters:
+        - name: processCode
+          in: path
+          required: true
+          description: "ProcessCode aus dem createProcessCode-Aufruf."
+          schema:
+            type: string
+            example: "20260414-SKFQ-1-C5A2-HGKA"
+      responses:
+        "200":
+          description: "Finanzierungsangebote."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "true wenn Angebote vorhanden"
+                  processCode:
+                    type: string
+                    description: "ProcessCode"
+                  data:
+                    type: object
+                    properties:
+                      min:
+                        type: number
+                        description: "Minimale monatliche Rate in Euro"
+                      offerts:
+                        type: array
+                        description: "Liste der Finanzierungsangebote."
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: integer
+                              description: "Angebots-ID"
+                            DarlehensSumme:
+                              type: number
+                              description: "Darlehenssumme in Euro"
+                            EffektivZins:
+                              type: number
+                              description: "Effektiver Jahreszins in Prozent"
+                            SollZins:
+                              type: number
+                              description: "Gebundener Sollzinssatz in Prozent"
+                            RateMonatlich:
+                              type: number
+                              description: "Monatliche Rate in Euro"
+                            ProduktAnbieterName:
+                              type: string
+                              description: "Name der Bank"
+                            ProduktAnbieterLogo:
+                              type: string
+                              description: "URL zum Bank-Logo"
+                            ProduktAnbieterId:
+                              type: string
+                              description: "Kürzel der Bank"
+                            isBest:
+                              type: boolean
+                              description: "true wenn bestes Angebot"
+
+  /ressource/get/europace/update/{processCode}.json:
+    post:
+      operationId: "updateFinanzierung"
+      summary: "Finanzierungsparameter anpassen"
+      description: "Passt Darlehen, Wunschrate oder Zinsbindung an. Danach getFinanzierung erneut aufrufen."
+      parameters:
+        - name: processCode
+          in: path
+          required: true
+          description: "ProcessCode aus dem createProcessCode-Aufruf."
+          schema:
+            type: string
+            example: "20260414-SKFQ-1-C5A2-HGKA"
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              required:
+                - p
+                - d
+                - z
+              properties:
+                p:
+                  type: number
+                  description: "Kaufpreis der Immobilie in Euro."
+                d:
+                  type: number
+                  description: "Neuer Darlehensbetrag in Euro."
+                z:
+                  type: integer
+                  description: "Neue Zinsbindung in Jahren."
+                  enum: [5, 10, 15, 20]
+      responses:
+        "200":
+          description: "Parameter aktualisiert. Rufe getFinanzierung erneut auf, um neue Angebote zu sehen."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: "true wenn Update erfolgreich"

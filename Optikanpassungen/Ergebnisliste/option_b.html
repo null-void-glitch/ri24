@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --green:#BDE04F;
+    --greendark:#5e7027;
+    --lightgreen:#DCE8B6;
+    --anthracite:#333333;
+    --gray:#565656;
+    --blue:#2F9BD6;
+    --lightgray:#FAFAFA;
+    --line:#e5e7eb;
+    --radius:12px;
+    --radius-sm:8px;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.05);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:var(--anthracite);}
+  .tag{position:fixed;top:14px;right:14px;background:var(--anthracite);color:#fff;font-size:13px;
+       padding:6px 14px;border-radius:20px;z-index:50;font-weight:bold;letter-spacing:.5px;}
+  img.real{display:block;width:100%;}
+  .navwrap{border-bottom:1px solid var(--line);}
+
+  .photo{
+    background: repeating-linear-gradient(45deg, #eaeaea, #eaeaea 10px, #f4f4f4 10px, #f4f4f4 20px);
+    display:flex;align-items:center;justify-content:center;color:#999;font-size:13px;text-align:center;
+  }
+
+  .note-strip{background:var(--lightgray);border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;
+    padding:10px 24px;font-size:12.5px;color:var(--gray);}
+
+  .badge{
+    position:absolute;top:8px;left:8px;background:var(--greendark);color:#fff;font-size:11px;
+    font-weight:bold;padding:4px 9px;border-radius:6px;line-height:1.3;box-shadow:0 1px 3px rgba(0,0,0,.25);z-index:1;
+  }
+
+  .accordion{margin:28px 24px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+  .accordion-head{background:var(--lightgray);padding:14px 18px;font-weight:bold;font-size:14.5px;
+    display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+  .accordion-head span{color:var(--greendark);font-size:13px;}
+  .accordion-body{padding:16px 18px;font-size:13px;color:var(--gray);line-height:1.6;max-height:70px;overflow:hidden;position:relative;}
+  .accordion-body::after{content:"";position:absolute;bottom:0;left:0;right:0;height:36px;
+    background:linear-gradient(to bottom, rgba(255,255,255,0), #fff);}
+  .accordion + .accordion{margin-top:-14px;}
+  .faq-list{margin:8px 24px 28px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-item:last-child{border-bottom:none;}
+  .faq-item .accordion-head{background:#fff;}
+  .faq-item .accordion-head:hover{background:var(--lightgray);}
+
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{background:var(--lightgreen);color:var(--greendark);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:bold;}
+
+  .internal-links{background:#fff;padding:24px;margin-top:8px;border-top:1px solid var(--line);}
+  .internal-links h4{color:var(--anthracite);font-size:14px;margin:0 0 4px;}
+  .internal-links .sub{font-size:12px;color:var(--gray);margin:0 0 14px;}
+  .link-accordion{display:flex;gap:10px;flex-wrap:wrap;}
+  .link-chip{background:var(--lightgray);border:1px solid var(--line);padding:8px 14px;border-radius:5px;
+    font-size:12.5px;display:flex;align-items:center;gap:6px;color:var(--anthracite);}
+  .link-chip span{color:var(--greendark);font-weight:bold;}
+
+  .real-footer{background:#3c3c3c;color:#bbb;padding:20px 24px;font-size:12px;margin-top:0;}
+  .real-footer b{color:#fff;}
+  .real-footer .foot-extra{display:flex;align-items:center;gap:14px;margin-top:14px;}
+  .real-footer .foot-extra .soc{width:26px;height:26px;border-radius:5px;background:#555;display:flex;
+    align-items:center;justify-content:center;font-size:12px;color:#ddd;}
+  .real-footer .eu{background:#0b3d91;color:#fff;font-size:10.5px;padding:5px 8px;border-radius:3px;line-height:1.3;}
+
+  /* results header */
+  .results-header{padding:20px 24px 4px;}
+  .results-header h1{font-size:20px;margin:0 0 6px;}
+  .results-header a{color:var(--greendark);font-size:13px;font-weight:bold;text-decoration:none;border-bottom:1px dashed var(--greendark);}
+
+  .intro-teaser{display:flex;gap:16px;align-items:center;background:var(--lightgray);border:1px solid var(--line);
+    border-radius:var(--radius);margin:14px 24px;padding:14px 16px;box-shadow:var(--shadow);}
+  .intro-teaser .thumb{width:120px;height:78px;flex:0 0 auto;border-radius:6px;}
+  .intro-teaser p{margin:0;font-size:12.5px;color:var(--gray);line-height:1.55;}
+
+  /* toolbar */
+  .toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    margin:0 24px 4px;padding:12px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);}
+  .filter-chip{background:var(--lightgreen);color:var(--greendark);border-radius:999px;padding:9px 16px;
+    font-size:12.5px;font-weight:bold;display:inline-flex;align-items:center;gap:6px;cursor:pointer;border:none;}
+  .toolbar-filters{display:flex;gap:8px;flex-wrap:wrap;}
+  .toolbar-sort{display:flex;align-items:center;gap:8px;font-size:13px;}
+  .toolbar-sort select{border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:12.5px;
+    font-weight:bold;color:var(--anthracite);background:#fff;}
+
+  /* results layout: list + sticky map */
+  .results-layout{display:flex;gap:16px;padding:16px 24px;align-items:flex-start;}
+  .results-list{flex:1.4;display:flex;flex-direction:column;gap:14px;}
+  .results-map{flex:1;position:sticky;top:16px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
+    background:var(--lightgray);box-shadow:var(--shadow);}
+  .results-map .map-badge{position:absolute;top:10px;left:10px;right:10px;background:rgba(255,255,255,.92);
+    border-radius:20px;padding:8px 14px;font-size:12px;font-weight:bold;display:flex;align-items:center;
+    justify-content:space-between;box-shadow:0 1px 4px rgba(0,0,0,.15);}
+  .results-map .map-badge b{color:var(--greendark);}
+  .results-map-wrap{position:relative;}
+
+  .listing-card{display:flex;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow);}
+  .listing-photo{flex:0 0 220px;position:relative;min-height:160px;}
+  .listing-body{flex:1;padding:16px 18px;display:flex;flex-direction:column;gap:8px;}
+  .listing-body h3{margin:0;font-size:15px;}
+  .listing-loc{font-size:12.5px;color:var(--gray);}
+  .listing-tags{font-size:12px;color:var(--gray);background:var(--lightgray);display:inline-block;
+    padding:3px 8px;border-radius:4px;align-self:flex-start;}
+  .listing-stats{display:flex;gap:18px;margin-top:2px;}
+  .listing-stats div{font-size:12px;color:var(--gray);}
+  .listing-stats b{display:block;font-size:15px;color:var(--anthracite);}
+  .listing-footer{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .listing-footer .provider{font-size:12px;color:var(--blue);font-weight:bold;}
+  .btn-contact{background:var(--anthracite);color:#fff;border:none;padding:10px 18px;border-radius:5px;
+    font-size:13px;font-weight:bold;cursor:pointer;white-space:nowrap;}
+
+  .promo-bar{margin:4px 0 0;background:var(--lightgreen);border:1px solid #cfe0a0;border-radius:var(--radius);padding:14px 18px;
+    display:flex;align-items:center;justify-content:space-between;}
+  .promo-bar span{font-size:13.5px;font-weight:bold;color:var(--greendark);}
+  .btn-cta{background:var(--green);color:var(--anthracite);border:none;padding:10px 18px;border-radius:5px;
+    font-size:13px;font-weight:bold;cursor:pointer;}
+
+  .promo-card{background:var(--green);border-radius:var(--radius);padding:20px 22px;display:flex;gap:20px;
+    align-items:center;justify-content:space-between;}
+  .promo-card h4{margin:0 0 10px;font-size:15px;}
+  .promo-card .field{margin-bottom:8px;}
+  .promo-card .field input,.promo-card .field select{width:100%;padding:8px 10px;border:1px solid var(--line);
+    border-radius:var(--radius-sm);font-size:12.5px;background:#fff;}
+  .promo-card-form{flex:1;max-width:360px;}
+  .promo-card .mascot{width:90px;height:90px;border-radius:50%;flex:0 0 auto;}
+
+  .pagination{display:flex;gap:8px;flex-wrap:wrap;margin:20px 24px 8px;}
+  .page-chip{width:34px;height:34px;border-radius:50%;background:var(--lightgreen);color:var(--greendark);
+    font-size:13px;font-weight:bold;display:flex;align-items:center;justify-content:center;}
+  .page-chip.active{background:var(--greendark);color:#fff;}
+
+  .breadcrumb{margin:4px 24px 20px;font-size:12px;color:var(--gray);}
+  .breadcrumb b{color:var(--greendark);}
+
+  @media (max-width: 720px){
+    .results-layout{flex-direction:column;}
+    .results-map{position:static;width:100%;min-height:220px;}
+
+    .listing-card{flex-direction:column;}
+    .listing-photo{flex:0 0 auto;width:100%;min-height:200px;}
+    .listing-body{padding:14px 16px;}
+    .listing-stats{flex-wrap:wrap;row-gap:6px;}
+    .listing-footer{flex-wrap:wrap;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">OPTION B – Ergebnisliste (Struktur &amp; Fokus)</div>
+
+<div class="navwrap">
+  <img class="real" src="assets/asset_header.png">
+  <img class="real" src="assets/asset_navbar.png">
+</div>
+
+<div class="note-strip">✎ Änderung: Diese Ergebnisliste wurde optisch an die Startseiten-Variante „Option B – Struktur &amp; Fokus" angepasst – gleiche Farbwelt (Grün/Anthrazit), gleiche Card-, Badge-, Chip- und Accordion-Bausteine wie auf der neuen Startseite. Struktur der Seite (Liste + Karte, Filter, interne Verlinkung, SEO-Text) bleibt erhalten, die Darstellung wird konsistent zur Startseite.</div>
+
+<div class="results-header">
+  <h1>407 Mietwohnungen in Südhessen</h1>
+  <a href="#">Wohnung zur Miete +5 km</a>
+</div>
+
+<div class="intro-teaser">
+  <div class="thumb photo">[Foto]</div>
+  <p>Mietwohnungen in Südhessen: Vielfältiges Wohnangebot in einer attraktiven Region. Südhessen gehört zu den beliebtesten und wirtschaftlich dynamischsten Regionen im Bundesland Hessen. Die Nachfrage nach Mi...</p>
+</div>
+
+<div class="note-strip">✎ Änderung: Die vier Icon-only-Filterbuttons (Filter, Ort, Umkreis-Suche, Merkliste) sind jetzt beschriftete grüne Chips – konsistent zur Chip-Optik der Startseite und klarer erkennbar, wofür sie stehen.</div>
+
+<div class="toolbar">
+  <div class="toolbar-filters">
+    <button class="filter-chip">☰ Filter</button>
+    <button class="filter-chip">📍 Ort</button>
+    <button class="filter-chip">◎ Umkreis-Suche</button>
+    <button class="filter-chip">♥ Merkliste</button>
+  </div>
+  <div class="toolbar-sort">
+    <span>Sortieren</span>
+    <select><option>Aktuellste zuerst</option></select>
+  </div>
+</div>
+
+<div class="results-layout">
+  <div class="results-list">
+
+    <div class="listing-card">
+      <div class="listing-photo photo"><span class="badge">PREMIUM</span>[Foto]</div>
+      <div class="listing-body">
+        <h3>Neuwertige 3-Zimmer Wohnung mit vielen Extras</h3>
+        <div class="listing-loc">📍 68549 Ilvesheim</div>
+        <div class="listing-tags">EBK · Badewanne</div>
+        <div class="listing-stats">
+          <div><b>1.200,00 €</b>Kaltmiete (netto)</div>
+          <div><b>80,00 m²</b>Wohnfläche</div>
+          <div><b>3</b>Räume</div>
+        </div>
+        <div class="listing-footer">
+          <span class="provider">ohne-makler</span>
+          <button class="btn-contact">Anbieter kontaktieren</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="listing-card">
+      <div class="listing-photo photo"><span class="badge">PREMIUM</span>[Foto]</div>
+      <div class="listing-body">
+        <h3>***Möbliertes City-Apartment im Zentrum</h3>
+        <div class="listing-loc">📍 68161 Mannheim | L 9</div>
+        <div class="listing-tags">EBK · Laminat · Badewanne · Fliesen</div>
+        <div class="listing-stats">
+          <div><b>580,00 €</b>Kaltmiete (netto)</div>
+          <div><b>19,00 m²</b>Wohnfläche</div>
+          <div><b>1</b>Raum</div>
+        </div>
+        <div class="listing-footer">
+          <span class="provider">ohne-makler</span>
+          <button class="btn-contact">Anbieter kontaktieren</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="listing-card">
+      <div class="listing-photo photo"><span class="badge">NEU</span>[Foto]</div>
+      <div class="listing-body">
+        <h3>Herrlich Wohnen – Luxuriös – Repräsentativ</h3>
+        <div class="listing-loc">📍 65451 Kelsterbach</div>
+        <div class="listing-tags">EBK · Parkett</div>
+        <div class="listing-stats">
+          <div><b>1.295,00 €</b>Kaltmiete</div>
+          <div><b>80,00 m²</b>Wohnfläche</div>
+          <div><b>3</b>Räume</div>
+        </div>
+        <div class="listing-footer">
+          <span class="provider">&nbsp;</span>
+          <button class="btn-contact">Anbieter kontaktieren</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo-bar">
+      <span>Noch nicht angemeldet? Sichere Dir bevorzugten Zugang zu Besichtigungen.</span>
+      <button class="btn-cta">Jetzt anmelden</button>
+    </div>
+
+    <div class="listing-card">
+      <div class="listing-photo photo"><span class="badge">PREMIUM</span>[Foto]</div>
+      <div class="listing-body">
+        <h3>Wunderschöne ruhige Wohnung direkt im Grünen</h3>
+        <div class="listing-loc">📍 68219 Mannheim | Schmitzstr. 5</div>
+        <div class="listing-tags">Parkett · Fliesen</div>
+        <div class="listing-stats">
+          <div><b>1.054,00 €</b>Kaltmiete (netto)</div>
+          <div><b>87,00 m²</b>Wohnfläche</div>
+          <div><b>3</b>Räume</div>
+        </div>
+        <div class="listing-footer">
+          <span class="provider">ohne-makler</span>
+          <button class="btn-contact">Anbieter kontaktieren</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-card-form">
+        <h4>Jetzt Suchauftrag anlegen und immer die neusten Angebote erhalten</h4>
+        <div class="field"><input placeholder="Südhessen oder Ort oder PLZ"></div>
+        <div class="field"><select><option>kein Umkreis</option></select></div>
+        <button class="btn-contact" style="margin-top:4px;">Suchagent einstellen</button>
+      </div>
+      <div class="mascot photo">[Mascot]</div>
+    </div>
+
+    <div class="listing-card">
+      <div class="listing-photo photo"><span class="badge">PREMIUM</span>[Foto]</div>
+      <div class="listing-body">
+        <h3>Großzügiges 1-Zimmer-Apartment, möbliert</h3>
+        <div class="listing-loc">📍 60528 Frankfurt-Niederrad | Triftstr.</div>
+        <div class="listing-tags">EBK · Fliesen</div>
+        <div class="listing-stats">
+          <div><b>1.245,00 €</b>Kaltmiete</div>
+          <div><b>28,00 m²</b>Wohnfläche</div>
+          <div><b>1</b>Raum</div>
+        </div>
+        <div class="listing-footer">
+          <span class="provider">&nbsp;</span>
+          <button class="btn-contact">Anbieter kontaktieren</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="results-map">
+    <div class="results-map-wrap">
+      <div class="map-badge">Jobs in der Nähe · <b>stepstone</b></div>
+      <img class="real" src="assets/asset_map_result.png">
+    </div>
+  </div>
+</div>
+
+<div class="pagination">
+  <div class="page-chip active">1</div><div class="page-chip">2</div><div class="page-chip">3</div>
+  <div class="page-chip">4</div><div class="page-chip">5</div><div class="page-chip">…</div><div class="page-chip">34</div>
+</div>
+
+<div class="note-strip">✎ Änderung: Die vier Link-Spalten (Städte, Weitere Immobilientypen, Wohnungstypen, Finanzierungsberater, Benachbarte Regionen – ca. 50 Einzellinks) sind wie auf der Startseite als gruppierte Chip-Listen dargestellt statt als ausgebreitete Spalten. Alle Links bleiben crawlbar im HTML, nur die Darstellung ist kompakter.</div>
+
+<div class="states">
+  <h3 style="margin:24px 24px 12px;font-size:15px;">Städte in der Region</h3>
+  <div class="chip-row" style="margin:0 24px;">
+    <div class="chip">Bensheim (6)</div><div class="chip">Darmstadt (289)</div><div class="chip">Dreieich (274)</div>
+    <div class="chip">Griesheim (81)</div><div class="chip">Groß-Gerau (310)</div><div class="chip">Heppenheim (51)</div>
+    <div class="chip">Offenbach (42)</div><div class="chip">Rüsselsheim (6)</div><div class="chip">Viernheim (9)</div>
+    <div class="chip">+ 12 weitere Städte</div>
+  </div>
+</div>
+
+<div class="internal-links">
+  <h4>Weitere Immobilientypen &amp; Finanzierung</h4>
+  <p class="sub">Interne Verlinkung zu verwandten Such- und Beraterseiten – alle Links bleiben im HTML vorhanden, nur die Darstellung ist gruppiert.</p>
+  <div class="link-accordion">
+    <div class="link-chip">Haus mieten <span>▾ 24</span></div>
+    <div class="link-chip">Eigentumswohnungen <span>▾ 976</span></div>
+    <div class="link-chip">Häuser kaufen <span>▾ 1.265</span></div>
+    <div class="link-chip">WG-Zimmer <span>▾ 20</span></div>
+    <div class="link-chip">Wohnungstypen (Etage, Dachgeschoss, …) <span>▾ 8</span></div>
+    <div class="link-chip">Benachbarte Regionen (Frankfurt, Giessen, …) <span>▾ 5</span></div>
+    <div class="link-chip">Finanzierungsberater vor Ort <span>▾ 3</span></div>
+    <div class="link-chip">+ 6 weitere Kategorien</div>
+  </div>
+</div>
+
+<div class="note-strip">✎ Änderung: „Häufige Fragen" (7 FAQ) und der SEO-Textblock sind wie auf der Startseite standardmäßig eingeklappt – Inhalt bleibt vollständig crawlbar, dominiert aber nicht mehr die Seite.</div>
+
+<div class="faq-list">
+  <div class="faq-item"><div class="accordion-head">Was ist eine Bürgschaft für eine Mietwohnung in Südhessen? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Was sind Nebenkosten bei einer Mietwohnung in Südhessen? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Was ist die Kaution bei einer Mietwohnung in Südhessen? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Was ist bei der Kündigung einer Mietwohnung zu beachten? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Wie warm sollte es in der Wohnung sein? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Wie muss eine Wohnung in Südhessen übergeben werden? <span>+</span></div></div>
+  <div class="faq-item"><div class="accordion-head">Wieviel sollte eine Mietwohnung in Südhessen kosten? <span>+</span></div></div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-head">Mietwohnungen in Südhessen – Vielfältiges Wohnangebot in einer attraktiven Region <span>Mehr erfahren ▾</span></div>
+  <div class="accordion-body">In Südhessen findest Du derzeit 407 Mietwohnungen. Südhessen liegt im Bundesland Hessen. In Südhessen haben wir insgesamt 4.768 Immobilien im Angebot – in Hessen sogar 21.976. Bei Regionalimmobilien24 findest Du die besten regionalen Immobilienangebote – nicht nur Deine Mietwohnung. Südhessen gehört zu den beliebtesten und wirtschaftlich dynamischsten Regionen im Bundesland Hessen. Die Nachfrage nach Mietwohnungen in Südhessen ist in den vergangenen Jahren stetig gestiegen…</div>
+</div>
+
+<div class="breadcrumb">Home &nbsp;›&nbsp; Region Südhessen &nbsp;›&nbsp; <b>Mietwohnungen</b></div>
+
+<div class="real-footer">
+  <b>Regionalimmobilien24</b> &nbsp;|&nbsp; AGB und Rechtliche Hinweise &nbsp;|&nbsp; Impressum &nbsp;|&nbsp; Datenschutz
+  <div class="foot-extra">
+    <div class="soc">G</div><div class="soc">IG</div><div class="soc">f</div><div class="soc">P</div>
+    <div class="eu">Kofinanziert von der<br>Europäischen Union</div>
+  </div>
+  <div style="margin-top:8px;">© 2017-2026 Regionalimmobilien24 GmbH — echter Footer, unverändert.</div>
+</div>
+
+</body>
+</html>

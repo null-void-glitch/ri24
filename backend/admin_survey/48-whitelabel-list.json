@@ -1,0 +1,1332 @@
+{
+  "inspect": {
+    "inputs": [],
+    "headings": [
+      "Whitelabel",
+      "alle Whitelabel-Lizenzen (alle Regionen)"
+    ],
+    "tables": [
+      {
+        "id": "",
+        "cls": "table table-hover table-bordered",
+        "headers": [
+          "Portal\nFilter",
+          "Partner-Bereich",
+          "Sortierung",
+          "Bild",
+          "Name / Position",
+          "Telefon / E-Mail",
+          "Operationen"
+        ],
+        "rowCount": 44
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "index",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nDashboard\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nMakler\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nKontaktanfragen\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nWhitelabel-Lizenzen",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "\nSchnittstellen\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nImmobilienassitent\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "\nHife\n+",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm#"
+      },
+      {
+        "text": "Whitelabel",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Neue Whitelabel-Lizenz",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/new/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Filter zurücksetzen",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Aachen-Eifelimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=aai24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Altmarkimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=ami24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Anhaltimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=ai24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Augsburgimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=abi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Bayerisch-schwabenimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=bsi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Bergisches-Dreieckimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=bdi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Bergischeslandimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=bgli24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Berlinimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=bi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Bodenseeimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=bosi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Braunschweigimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=brai24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Bremenimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=brei24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Chemnitzimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=ci24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Dortmundimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=di24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Dresdenimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=ddi24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Duisburgimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=dui24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Düsseldorfimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=duei24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Elbelandimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=eli24&admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Emslandimmobilien24",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/list?portal=emsi24&admsess=pqfdhbhtlm"
+      }
+    ],
+    "btns": [
+      {
+        "text": "Neue Whitelabel-Lizenz",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/new/?admsess=pqfdhbhtlm"
+      },
+      {
+        "text": "Filter",
+        "href": ""
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=265"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=265"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=208"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=208"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=208"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=209"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=209"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=209"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=210"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=210"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=210"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=211"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=211"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=211"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=212"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=212"
+      },
+      {
+        "text": "",
+        "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=212"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "0",
+        "",
+        "Tester Whitelabel Pitcom Finanzierungsberater",
+        "Telefon: Mobil: E-Mail: 66d30a28@pitcom.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=265"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=265"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=265"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "101",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.01@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=208"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=208"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=208"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "102",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.02@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=209"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=209"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=209"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "103",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.03@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=210"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=210"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=210"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "104",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.04@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=211"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=211"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=211"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "105",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.05@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=212"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=212"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=212"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "106",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.06@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=213"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=213"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=213"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "107",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.07@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=214"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=214"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=214"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "108",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.08@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=215"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=215"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=215"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "109",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.09@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=216"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=216"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=216"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "110",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.10@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=217"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=217"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=217"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "111",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.11@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=218"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=218"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=218"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "112",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.12@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=219"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=219"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=219"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "113",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.13@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=220"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=220"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=220"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "114",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.14@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=221"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=221"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=221"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "115",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.15@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=222"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=222"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=222"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "116",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.16@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=223"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=223"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=223"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "117",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.17@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=224"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=224"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=224"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "118",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.18@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=225"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=225"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=225"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "119",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.19@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=226"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=226"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=226"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "120",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.20@finanzierungsassistent24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=227"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=227"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=227"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "201",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.01@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=274"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=274"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=274"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "202",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.02@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=275"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=275"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=275"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "203",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.03@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=276"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=276"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=276"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "204",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.04@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=277"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=277"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=277"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "205",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.05@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=278"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=278"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=278"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "206",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.06@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=279"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=279"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=279"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "207",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.07@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=280"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=280"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=280"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "208",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.08@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=281"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=281"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=281"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "209",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.09@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=282"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=282"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=282"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "210",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.10@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=283"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=283"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=283"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "211",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.11@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=284"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=284"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=284"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "212",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.12@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=285"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=285"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=285"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "213",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.13@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=286"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=286"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=286"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "214",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.14@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=287"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=287"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=287"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "215",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.15@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=288"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=288"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=288"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "216",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.16@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=289"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=289"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=289"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "217",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.17@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=290"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=290"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=290"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "218",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.18@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=291"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=291"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=291"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "219",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.19@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=292"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=292"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=292"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Regionalimmobilien24 - DEMO",
+        "220",
+        "",
+        "Demo Finanzierer Baufinanzierungsberaterin",
+        "Telefon: +49 3741 3847602 Mobil: E-Mail: demo.finanzierung.20@regionalimmobilien24.intern,",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=293"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=293"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=293"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "nri24",
+        "Finanzierungsassistent24",
+        "",
+        "",
+        "Frank Kaesmacher selbstständiger Finanzierungsberater EuropaceID: MJQ50",
+        "Telefon: 021539099985 Mobil: E-Mail: info@frank.kaesmacher.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=298"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=298"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=298"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "othi24",
+        "Finanzierungsassistent24",
+        "",
+        "",
+        "Matthias Pabst",
+        "Telefon: Mobil: E-Mail: matthias.pabst@allianz.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=266"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=266"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=266"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "vi24",
+        "Finanzierungsassistent24",
+        "",
+        "",
+        "Martina Muster Finanzierungsberaterin EuropaceID: PCG70",
+        "Telefon: 012345678 Mobil: E-Mail: martina.muster@regionalimmobilien24.de",
+        "  "
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/edit/?admsess=pqfdhbhtlm&id=194"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/freigabe/?admsess=pqfdhbhtlm&id=194"
+        },
+        {
+          "text": "",
+          "href": "https://backend.regionalimmobilien24.de/adm/individuell/master/whitelabel/delete/?admsess=pqfdhbhtlm&id=194"
+        }
+      ]
+    }
+  ],
+  "total": 44
+}

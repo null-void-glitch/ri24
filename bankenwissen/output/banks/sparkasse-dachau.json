@@ -1,0 +1,20 @@
+{
+  "bank": "Sparkasse Dachau",
+  "criteria": {
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Ja, von der LBS"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    }
+  },
+  "company_id": "993926e9-edb4-4378-9700-add6092c7a2d",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/993926e9-edb4-4378-9700-add6092c7a2d",
+  "bank_category": "Sparkassen",
+  "last_modified": "30.04.26",
+  "recent_news": []
+}

@@ -1,0 +1,490 @@
+{
+  "bank": "Volksbank Mittelhessen",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Im Regelfall nicht zwingend erforderlich. Drittsicherungsgeber möglich"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 Auszahlungen kostenfrei,\nab der 7. Auszahlung fallen 15,- EUR Bearbeitungsgebühr je weiterer Auszahlung an.\nMindestbetrag pro Auszahlung beträgt 5 TEUR.\nBei KfW-Darlehen gilt abweichend zum Mindestbetrag ggfs. der jeweilige Rechnungsbetrag"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kein maximaler Beleihungsauslauf im Kerngeschäftsgebiet. Entscheidung erfolgt nach nomineller Höhe des \nunbesicherten Anteils der Finanzierung und dem unbesicherten Anteil in Relation zur Gesamtfinanzierungssumme. \nAußerhalb des Kerngeschäftsgebietes liegt der maximal mögliche Beleihungsauslauf je nach Postleitzahl des Sicherungsobjektes zwischen 80% und 120%."
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130 im Kerngeschäftsgebiet, außerhalb des Kerngeschäftsgebietes liegt der maximal mögliche Beleihungsauslauf, je nach Postleitzahl des \nSicherungsobjektes, zwischen 80% und 120%"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "130 im Kerngeschäftsgebiet, außerhalb des Kerngeschäftsgebietes liegt der maximal mögliche Beleihungsauslauf, je nach Postleitzahl des \nSicherungsobjektes, zwischen 80% und 120%"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Finanzierungsbestätigung/unwiderrufliche Zahlungsanweisung gegenüber Fertighausherstellern in Höhe der\nFinanzierung nach Rücksprache im Regelfall möglich. Zur Not über einen eigenen Vordruck, falls die\nFormulierung des Fertighausherstellers nicht akzeptabel ist."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mindestfinanzierungssumme 50 TEUR\nBei Volltilgerdarlehen, Selbständigen, Gewerbetreibenden und Freiberuflern abweichend 100 TEUR\nMaximale Finanzierungssumme ist grundsätzlich nicht definiert. Ab einem Gesamtobligo von 750 TEUR gilt eine Finanzierung jedoch als risikorelevant und führt zu einer wirtschaftlichen Auswertung."
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Möglich bei Nachweis wohnwirtschaftlicher Verwendung"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ermittlung nach Haushalten und abhängig vom Haushaltseinkommen. \n1. Person im Haushalt: 20% des Haushaltseinkommens (mind. 900 EUR / max. 2700 EUR) \nPartner/-in: 12,5% des Haushaltseinkommens (mind. 400 EUR / max. 1550 EUR) \njedes Kind: 5% des Haushaltseinkommens (mind. 300 EUR / max. 600 EUR) \n\nWeitere Mindestansätze nach Erfahrungswerten: \n- je Pkw im Haushalt: 300 EUR \n- je m² bewohnter Wohnfläche: 3 EUR (Wohnkosten bei Wohneigentum) \n\nVersicherungen: \nAnsatz der tatsächlich gezahlten Raten. In den Erfahrungswerten sind nur Pkw-Versicherungen und Wohngebäudeversicherungen in den Pkw- und \nWohnkosten mitberücksichtigt. Alle weiteren Versicherungen sind grundsätzlich als Ausgaben anzusetzen.\n \nKredite: \nInsofern Kredite nicht vor Vertragserstellung nachweislich getilgt oder durch die beantragte Finanzierung abgelöst werden, sind die Raten vollumfänglich bei den Ausgaben anzusetzen. Dies gilt auch für kurzfristige Ratenkredite und Mikrokredite! Hier gerne einen Hinweis bezüglich der Restlaufzeit mitgeben, aber nicht die Rate unterschlagen, nur weil sie beispielsweise nur noch 6 Monate lang läuft. \nBei tilgungsausgesetzten Darlehen sind auch die Sparraten für die Tilgungsersatzinstrumente zwingend zu erfassen! \n \nBei Mietern wird die Bruttomiete (inkl. Mietnebenkosten) als Ausgabe angesetzt. Bei aktuell mietfreier Unterkunft im Elternhaus oder bei Lebenspartnern ist eine realistische fiktive Mietausgabe für die langfristige Kapitaldienstfähigkeitsprüfung anzusetzen. Haushaltsrechnungen, in denen weder Mietausgaben noch Wohnkosten angesetzt sind, sind per se unvollständig."
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kostenaufstellung oder Angebote der Handwerker bei Antragseinreichung benötigt.\nAb Modernisierungskosten von 100 TEUR wird eine Kostenaufstellung nach Gewerken mit Stempel und\nUnterschrift des begleitenden Architekten oder Bauingenieurs benötigt.\n\nWertsteigernde Modernisierungskosten werden bei Plausibilisierung des Beleihungswertes zu 50% auf den\nKaufpreis angerechnet. Werterhaltende Modernisierungskosten werden bei Plausibilisierung des Beleihungswertes nicht auf den Kaufpreis angerechnet.\n \nBei wertsteigernden Modernisierungskosten erfolgt der Verwendungsnachweis anhand der Kostenaufstellung und einer erneuten Besichtigung nach Abschluss der Maßnahmen.\n \nBei umfangreicheren Maßnahmen können Bautenstandsbericht und Lichtbilder nach Auszahlung der Hälfte der beantragten Darlehensmittel als\nZwischenbericht angefordert werden. Bei umfangreicheren Modernisierungen sind Eigenleistungen in der Kostenaufstellung des Architekten mit\nauszuweisen und zu bestätigen.\n \nBei Werterhaltenden Modernisierungsmaßnahmen reicht im Regelfall die Kostenaufstellung als\nVerwendungsnachweis. Rechnungsnachweise werden im Regelfall nicht benötigt. (Es sei denn es ergeben sich Zweifel an der Mittelverwendung.)\nBei kleineren Modernisierungen ist im Regelfall kein Nachweis nötig, solange\ndie Höhe der Eigenleistungen realistisch ausfällt. Bei unrealistischen Angaben können im Einzelfall Nachweise\nnachgefordert werden."
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Abhängig von Sicherheitensituation möglich mit detaillierter Aufstellung des Nachfinanzierungsbedarfs durch einen qualifizierten Dritten (Architekt, Bauingenieur)"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja (keine eigenen) >nur bei nicht selbstständiger bzw. freiberuflichen Tätigkeit"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, gegen Zahlung einer Nichtabnahmeentschädigung möglich"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Variabler Sollzins nur tilgungsausgesetzt und nur bei Antragstellern mit Einkünften aus nichtselbständiger Tätigkeit möglich"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Untergrenze: Min. 1 Jahr Zinsbindung (bei Selbstständigen min. 3 Jahre) \nObergrenze: max. 20 Jahre Zinsbindung (bei Selbstständigen max. 15 Jahre)"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nAls Zusatzsicherheit werden vorwiegend weitere, werthaltig belastbare Immobilien akzeptiert. \n\nDarüber hinaus sind jedoch auch möglich:\nGuthabenabtretung ab 10 TEUR bei Sparguthaben und ab 30 TEUR bei Bausparguthaben. \nAbtretung kapitalbildender Lebens- und Rentenversicherungen ab einer Erlebensfallleistung von 25 TEUR.\n\nNicht möglich sind:\nFondsgebundene Lebens-/Rentenversicherungen\nBürgschaften\nWertpapiere\nausländische Lebens-/ Rentenversicherungen"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nur wenn eine langfristige Finanzierung beantragt wird"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60\nAb dem 13. Monat wird ein Konditionsaufschlag von 0,01% für jeden weiteren Monat eingerechnet."
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Vorlaufzeit und künftige Zinsbindung dürfen zusammen 20 Jahre nicht überschreiten.\nBei Selbständigen dürfen 15 Jahre nicht überschritten werden"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Wirkt sich für den Beleihungsauslauf zur Ermittlung der Kondition positiv aus, ändert jedoch nicht den \ntatsächlichen Beleihungsauslauf für die Risikoeinschätzung im Rahmen der Machbarkeitsprüfung"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": ""
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41740025"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart anzufragen"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10\nWenn vertraglich vereinbart, können Sondertilgungen innerhalb eines Kalenderjahres in beliebiger Quantität \nausgeführt werden unter Einhaltung der vereinbarten maximalen Summe pro Kalenderjahr"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Mindesttilgung: 1,5% (bei Selbständigen 2%)\nDie VoBa behält sich vor, im Einzelfall eine höhere Mindesttilgung zu fordern, wenn der unbesicherte Anteil nach\nihrer eigenen Beleihungswertermittlung unverhältnismäßig hoch ausfällt.\n\nMaximale Tilgung ist grundsätzlich nicht definiert, sodass eine Volltilgung innerhalb der beantragten\nSollzinsbindung möglich ist.\n\nVolltilgerdarlehen sind abweichend zur regulären Mindestfinanzierungssumme erst ab 100 TEUR möglich."
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgungsausgesetzte (TA) Darlehen nur möglich mit Bausparvertrag der Bausparkasse Schwäbisch Hall als \nTilgungsersatzinstrument oder als Zwischenfinanzierung für einen kurzfristigen Immobilienverkauf"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Im Regelfall nach Vollauszahlung\nSpätestmöglicher Tilgungsbeginn ist nicht genau definiert und kann in begründeten Fällen individuell mit der Bank abgesprochen werden"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Bausparvertrag der Bausparkasse Schwäbisch Hall"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgungssatzwechseloption zweimalig zwischen 2% und 5% bzw. 3% und 5% möglich gegen Konditionsaufschlag von 0,05%, wenn mit Prüfung der Kapitaldienstfähigkeit über die Gesamtlaufzeit vereinbar.\nNicht möglich bei Volltilgerdarlehen"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, aber nur mit Ersatzsicherheit in Deutschland möglich, keine Besicherung über Immobilien im Ausland"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Wohnungen in Studentenwohnheimen, Seniorenresidenzen und für betreutes Wohnen können in Einzelfällen als Sicherheit herangezogen werden, insofern es sich nicht um Mietpoolobjekte handelt und sie nicht an eine juristische Person verpachtet werden (z.B. ein Pflegeunternehmen). Der Eigentümer muss frei entscheiden können, an wen er die Wohnung vermietet und sie muss eigennutzungsfähig sein.\n \nObjektalter: Außer im Falle einer Kernsanierung bitte immer das Ursprungsbaujahr angeben. Keine fiktiven Baujahre wegen vereinzelter Modernisierungen."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Nachweis der Eigenleistung über entsprechenden Ausweis in der durch Stempel und Unterschrift eines qualifizierten Dritten (Architekt, Bauingenieur) bestätigten Gesamtkostenaufstellung"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, ohne Dauerwohnrecht nur über Ersatzsicherheit möglich"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierungsbestätigung/unwiderrufliche Zahlungsanweisung gegenüber Fertighausherstellern in Höhe der Finanzierung nach Rücksprache im Regelfall möglich. Zur Not über einen eigenen Vordruck, falls die Formulierung des Fertighausherstellers nicht akzeptabel ist"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Gewerbeobjekte können nur innerhalb des Kerngeschäftsgebietes bei Finanzierungen für Antragsteller mit\nEinkünften aus selbständiger/ freiberuflicher Tätigkeit oder Gewerbebetrieb über das entsprechende Produkt für Selbständige und Freiberufler als Sicherheit herangezogen werden.\n(Teil-)Gewerbliche Objekte sind nach Ertragswertverfahren zu bewerten."
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Alle Immobilien ab 3 Wohneinheiten werden als Mehrfamilienhaus betrachtet, sind nach Ertragswertverfahren zu bewerten und nur bei Antragstellern mit Einkünften aus selbständiger/freiberuflicher Tätigkeit oder Gewerbebetrieb möglich. \n\nBei Besicherung von Darlehen im Hause der VoBa über 3 oder mehr Eigentumswohnungen im gleichen Objekt wird ebenfalls das Ertragswertverfahren angewendet."
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\nkeine landwirtschaftlichen Objekte\nTiny House: \nEs erfolgt keine Besicherung auf Tiny Houses per Sicherungsübereignung. Besicherung nur über Grundschuld auf dem zugehörigen Grundstück und über Zusatz-/Ersatzsicherheiten möglich"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp - mit Vergleich Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Ein Gutachten muss im Nachgang zur Besichtigung ab einer Gesamtbelastung eines Sicherungsobjektes von 600 TEUR, bei Objekten mit 3 oder mehr Wohneinheiten, bei Belastung von 3 oder mehr Wohnungen im gleichen Objekt und bei (teil-)gewerblich genutzten Objekten vor Antragsgenehmigung erstellt werden. \n\nEs fallen bei Gutachtenerfordernis keine zusätzlichen Kosten für die Kunden an. Das Gutachten kann den Kunden nicht ausgehändigt werden."
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung wenn nicht an eine juristische Person verpachtet werden (z.B. ein Pflegeunternehmen). Der Eigentümer muss frei entscheiden können, an wen er die Wohnung vermietet und sie muss eigennutzungsfähig sein."
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional\nWenn überregional (z.B. Zusatzsicherheit): Keine Neubauten oder MFH\n\nmin. 1 Objekt im Geschäftsgebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Nur innerhalb des Kerngeschäftsgebietes und bei Einkünften aus nicht selbstständiger Tätigkeit als Sicherheit ansetzbar. \nBewertung der im Grundbuch ausgewiesenen Flächen nach Bodenrichtwert. \nAnsatz von Grünland, Ackerland oder forstwirtschaftlichen Flächen nur in Ausnahmefällen und nach Absprache"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Nicht wertmindernde Vorlasten in Abteilung II des Grundbuches werden akzeptiert.\nWertmindernde Vorlasten werden nicht akzeptiert und müssen je nach Vorlast gelöscht werden oder im Rang hinter eine einzutragende Grundschuld zurücktreten"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Vorlasten in Abteilung III werden grundsätzlich akzeptiert, wenn nach der Beleihungswertermittlung der Bank ausreichend werthaltige Sicherheiten im Nachrang eingetragen werden können. Bewertung der Vorlast erfolgt mit dem Nominalbetrag der Grundschuld. \n \nBei eingetragenen Zwangsversteigerungsvermerken und Zwangssicherungshypotheken sind Finanzierungen im Regelfall nicht möglich. Individuelle Prüfung und Rücksprache erforderlich"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "20"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ansatz nur bei nachweislich nahtlosem Übergang in Weiterbeschäftigung beim Arbeitgeber"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "Ansatz eines 13. Gehalts wird anhand der vertraglichen Vereinbarungen dazu im Einzelfall geprüft.\n \nBei Gehaltsschwankungen durch Provisionen oder z.B. auch Schichtzulagen ist der Ansatz des\ndurchschnittlichen Gehalts der letzten 12 Monate möglich.\n \nBar gezahlte Gehälter werden auch bei Vorlage von entsprechenden Quittungen nicht berücksichtigt."
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "100% , wenn das entsprechende Anstellungs-/Arbeitsverhältnis nachweislich seit mind. 6 Monaten besteht und unbefristet ist"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Keine pauschale Einschränkung. Bei Laufzeit über die statistische Lebenserwartung hinaus Besonderheiten bei der Kapitaldienstfähigkeitsprüfung. \nAngesetzt werden Nettorenten. \nBei Bruttorentenausweis in Renteninformationen gesetzlicher, betrieblicher oder privater Rentenversicherungen wird von der Bank zur Prüfung der künftigen Kapitaldienstfähigkeit die voraussichtliche Nettorente ermittelt."
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Ansatz zu 100%, wenn dieser gem. beurkundeter Scheidungsfolgenvereinbarung unbefristet zu leisten ist\n \nKindesunterhalt: Ansatz zu 100% bis voraussichtlichem Wegfall oder Verlassen des Haushalts durch das begünstigte Kind"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nur in Ausnahmefällen möglich, wenn es sich um eine Berufsgruppe handelt, die typischerweise befristete Arbeitsverträge erhält (z.B. Professoren, Assistenzärzte, o.ä.) und/oder keine Zweifel bestehen, dass jederzeit eine äquivalente Anstellung gefunden werden kann"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Mitverpflichtung Ehepartner: \nOftmals wünschenswert, aber nicht zwingend erforderlich. Allerdings müssen Ehepartner im Regelfall zur \nKenntnisnahme der Belastung gem. §1365 BGB auf der Sicherungszweckerklärung mitunterschreiben und \nwerden daher ebenfalls legitimiert.\n \nBei Mietern wird die Bruttomiete (inkl. Mietnebenkosten) als Ausgabe angesetzt. \nBei aktuell mietfreier Unterkunft im Elternhaus oder bei Lebenspartnern ist eine realistische fiktive \nMietausgabe für die langfristige Kapitaldienstfähigkeitsprüfung anzusetzen. Haushaltsrechnungen, in denen weder Mietausgaben noch Wohnkosten angesetzt sind, sind per se unvollständig."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Bei Einkünften nur aus nicht selbstständiger Tätigkeit: Max. 1 Haushalt und 2 Antragsteller \nBei Einkünften auch aus selbstständiger Tätigkeit: Max. 2 Haushalte und 2 Antragsteller"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Ansatz der Nettokaltmiete als Einnahme > Mietausfallwagnis beachten (20% aller Mieteinnahmen werden als Mietausfallwagnis ausgabenseitig in Abzug gebracht)"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja, nur innerhalb des Kerngeschäftsgebietes über das entsprechende Produkt für Selbstständige und Freiberufler und ab 100 TEUR möglich"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung > nur EU-Staaten und Gehalt in Euro"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "150 EUR Mindestüberschuss bei Antragstellern mit Einkünften aus nichtselbständiger Tätigkeit. Es sind zudem bis zu einem Überschuss von 300 EUR in der Haushaltsrechnung Argumente erforderlich, weshalb die Finanzierung trotz des geringen Überschusses genehmigt werden sollte. \n\nBei Finanzierungsanfragen für Selbständige, Freiberufler und Gewerbetreibende sind ebenfalls bei einem Überschuss bis 300 EUR in der Haushaltsrechnung Argumente erforderlich, weshalb die Finanzierung trotz des geringen Überschusses genehmigt werden sollte, aber der eigentliche Mindestüberschuss liegt hier bei 0 EUR."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "18-80\nZur Vereinfachung wird die statistische Lebenserwartung immer mit 80 Jahren angesetzt. \nSollte eine beantragte Finanzierung das 80ste Lebensjahr eines Darlehensnehmers/einer Darlehensnehmerin überdauern, wird geprüft, ob der/die verbleibende DN die Rate weiterhin bedienen kann, oder ggfs. Erben des/der DN z.B. aus einer Vermietung des aufgrund des Todes leerstehenden Objektes die Rate weiterhin tragen könnten"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Bei Nicht-EU-Angehörigen sind eine unbefristete Aufenthaltsgenehmigung, Arbeitserlaubnis und ein \ndeutscher Wohnsitz nachzuweisen.\nEine BlueCard kann ebenfalls ausreichen, wird aber im Einzelfall geprüft und entschieden. \nWenn sich der Wohnsitz außerhalb Deutschlands befindet und keine deutsche Staatsangehörigkeit vorliegt, ist eine Finanzierung nicht möglich."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Keine pauschale Einschränkung im Rentenalter.\n \nIst die Kapitaldienstfähigkeit zum Renteneintritt nicht gegeben, gibt es grundsätzlich folgende \nArgumentationsmöglichkeiten: \nWenn die Restschuld zum Renteneintritt bei eigengenutzten Immobilien weniger als 20% des Beleihungswertes der eigengenutzten Immobilie beträgt, kann die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt wegen der im Verhältnis geringen Restschuld außer Acht gelassen werden. Hierbei zählt \nallerdings der von der Bank ermittelte Beleihungswert.\n\nWenn es sich bei dem Objekt um eine Kapitalanlage handelt, kann seitens des Kunden bestätigt werden, dass er plant die Kapitalanlage zur Entschuldung vor Renteneintritt wieder zu veräußern. Wenn die Restschuld zu diesem Zeitpunkt gering genug ist, um gem. der Banken-Bewertung bei einem Verkauf definitiv zurückgeführt zu werden, kann die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt außer Acht gelassen werden.\n \nWenn es Lebens- oder Rentenversicherungen gibt, die vor Renteneintritt garantierte Ablaufleistungen auszahlen, welche zur Rückführung des Darlehens vor Renteneintritt ausreichen, kann auch hier mit einer Rückführung vor Renteneintritt argumentiert und die nicht gegebene Kapitaldienstfähigkeit nach Renteneintritt außer Acht gelassen werden."
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja, nur innerhalb des Kerngeschäftsgebietes über das entsprechende Produkt für Selbständige und Freiberufler und ab 100 TEUR möglich\n \nGeschäftsführende Gesellschafter: \nAb einer Beteiligungshöhe von 50% am geführten Unternehmen innerhalb des Haushaltes werden geschäftsführende Gesellschafter wie Gewerbetreibende behandelt"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "VVI"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein\nDarlehensnehmer müssen ausreichende Kenntnis der deutschen Sprache haben. Es muss sichergestellt sein, dass die Darlehensnehmer und Sicherungsgeber den Inhalt des Kredit- und Kaufvertrages oder sonstiger Formulare verstehen. Es kann kein Dolmetscher hinzugezogen werden. \nSollte im Nachhinein doch ein Dolmetscher benötigt werden oder im Kaufvertrag benannt sein, kann es für den Darlehensnehmer eine Vertragskündigung gegen Nichtabnahmeentschädigung zur Folge haben."
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Post-Ident oder vor Ort in einer Geschäftsstelle der Volksbank Mittelhessen eG. Angabe einer E-Mail-Adresse für alle zu legitimierenden Personen erforderlich!"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Grundsätzlich vor Darlehensauszahlung\n \nIn Verträgen mit Belastungen innerhalb der Kleindarlehensgrenze, also bis zu einer Objektbelastung von insgesamt < 600 TEUR, als\nAuszahlungsvoraussetzung festgehalten.\n \nDa bei Belastungen außerhalb der Kleindarlehensgrenze und bei Objekten, die aufgrund der Art nach\nErtragswertverfahren bewertet werden müssen, ein Gutachten für eine Genehmigung erforderlich ist, muss hier die Besichtigung folglich vor Genehmigung erfolgen."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  }
+}

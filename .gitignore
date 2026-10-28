@@ -1,0 +1,38 @@
+# Separate repos
+GPT App/
+GPT_App/
+Immobilienassistent/baufi-passende-vorschlaege-api/
+
+# Large data files
+scrape/results.json
+scrape/immobilien.xml
+scrape/regionalimmobilien24.xml
+GPT App.zip
+IS24-Leads.zip
+ri24-baufi-berater-embed-*.zip
+streetview-embed-integration.zip
+
+# Large XML exports
+**/*export*.xml
+**/*export.full.xml
+Immobilienassistent/ri24-immobilienassistent-deploy-freebsd/
+
+# Credentials / secrets
+**/.env
+**/*.env
+**/credentials.txt
+**/.~lock.*
+**/token.json
+**/credentials.json
+**/config.local.php
+**/.claude/settings.local.json
+openai_cronjob.php
+maklertexte/rollout_def.out
+maklertexte/rollout_recheck_al.out
+
+# Build / runtime
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.pyo

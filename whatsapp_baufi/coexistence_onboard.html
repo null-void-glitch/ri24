@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WhatsApp Coexistence Onboarding</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1rem; }
+  button { font-size: 1rem; padding: .7rem 1.2rem; border: 0; border-radius: 8px;
+           background: #25D366; color: #fff; cursor: pointer; }
+  button:disabled { background: #aaa; cursor: default; }
+  pre { background: #f4f4f5; padding: 1rem; border-radius: 8px; overflow:auto; white-space: pre-wrap; }
+  .ok { color: #157347; } .err { color: #b02a37; }
+  ol { line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>Connect a WhatsApp Business App number (Coexistence)</h1>
+  <ol>
+    <li>Click <b>Connect with Facebook</b> and log in with the account that owns the business.</li>
+    <li>Select your existing <b>Business Portfolio</b> and the number that is on the WhatsApp Business App.</li>
+    <li>On your phone, open <b>WhatsApp Business App → Settings → linked devices / scan QR</b> and scan
+        the QR code shown in the popup to authorize coexistence. The app keeps working; history syncs.</li>
+    <li>Leave this tab open until you see <span class="ok">Success</span> below. Repeat for the second number.</li>
+  </ol>
+
+  <button id="connect" disabled>Connect with Facebook</button>
+  <p>Status: <span id="status">loading Facebook SDK…</span></p>
+  <pre id="log"></pre>
+
+<script>
+  // APP_ID and CONFIG_ID are injected server-side by coexistence_server.py.
+  const APP_ID    = "{{APP_ID}}";
+  const CONFIG_ID = "{{CONFIG_ID}}";
+  const GRAPH_VERSION = "{{GRAPH_VERSION}}";
+
+  const logEl = document.getElementById('log');
+  const statusEl = document.getElementById('status');
+  const btn = document.getElementById('connect');
+  const log = (m) => { logEl.textContent += m + "\n"; };
+
+  // Capture the Embedded Signup session-info (waba_id + phone_number_id) from the popup.
+  let sessionInfo = null;
+  window.addEventListener('message', (event) => {
+    if (!/facebook\.com$/.test(new URL(event.origin).hostname)) return;
+    let data;
+    try { data = JSON.parse(event.data); } catch (e) { return; }
+    if (data.type !== 'WA_EMBEDDED_SIGNUP') return;
+    log('session-info: ' + event.data);
+    if (data.event === 'FINISH' && data.data) {
+      sessionInfo = data.data;           // { phone_number_id, waba_id }
+    } else if (data.event === 'CANCEL') {
+      statusEl.textContent = 'cancelled in popup';
+    }
+  });
+
+  window.fbAsyncInit = function () {
+    FB.init({ appId: APP_ID, autoLogAppEvents: true, xfbml: false, version: GRAPH_VERSION });
+    statusEl.textContent = 'ready';
+    btn.disabled = false;
+  };
+
+  (function (d, s, id) {
+    const fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    const js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  btn.onclick = () => {
+    sessionInfo = null;
+    statusEl.textContent = 'opening popup…';
+    FB.login((response) => {
+      if (!(response.authResponse && response.authResponse.code)) {
+        statusEl.textContent = 'login failed/cancelled';
+        log('FB.login response: ' + JSON.stringify(response));
+        return;
+      }
+      const code = response.authResponse.code;
+      // Give the message event a moment to arrive, then post to backend.
+      setTimeout(() => {
+        if (!sessionInfo) { statusEl.textContent = 'no session info received'; return; }
+        statusEl.textContent = 'finishing on server…';
+        fetch('/install', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ code, ...sessionInfo })
+        })
+        .then(r => r.json())
+        .then(j => {
+          log('server: ' + JSON.stringify(j, null, 2));
+          statusEl.innerHTML = j.success
+            ? '<span class="ok">Success — number connected via coexistence.</span>'
+            : '<span class="err">Failed — see log.</span>';
+        })
+        .catch(e => { statusEl.innerHTML = '<span class="err">error</span>'; log(String(e)); });
+      }, 1200);
+    }, {
+      config_id: CONFIG_ID,
+      response_type: 'code',
+      override_default_response_type: true,
+      extras: {
+        // Coexistence (onboarding an existing WhatsApp Business App number).
+        // CONFIRM this value against current Meta docs / your Login-for-Business config.
+        featureType: 'whatsapp_business_app_onboarding',
+        sessionInfoVersion: '3'
+      }
+    });
+  };
+</script>
+</body>
+</html>

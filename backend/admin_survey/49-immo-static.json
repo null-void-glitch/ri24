@@ -1,0 +1,775 @@
+{
+  "inspect": {
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "1",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "3",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "4",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "6",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "8",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "9",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "10",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "11",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "12",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "13",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "16",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "17",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "18",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "19",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "21",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "22",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "23",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "24",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "25",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "27",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "remove",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "key",
+        "id": "",
+        "value": "28",
+        "checked": false,
+        "label": "x"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "do",
+        "id": "",
+        "value": "add",
+        "checked": false,
+        "label": "hinzufügen"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "bez",
+        "id": "",
+        "value": "",
+        "checked": false,
+        "label": "hinzufügen"
+      }
+    ],
+    "headings": [
+      "statische Immobilien Export Schnittstellen",
+      "Accounts"
+    ],
+    "tables": [
+      {
+        "id": "",
+        "cls": "table table-hover table-bordered",
+        "headers": [
+          "Name",
+          "Login",
+          "Passwort",
+          ""
+        ],
+        "rowCount": 28
+      }
+    ],
+    "links": [
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "x",
+        "href": ""
+      },
+      {
+        "text": "hinzufügen",
+        "href": ""
+      }
+    ]
+  },
+  "tables": [
+    {
+      "id": "",
+      "cls": "table table-hover table-bordered",
+      "headers": [
+        "Name",
+        "Login",
+        "Passwort",
+        ""
+      ],
+      "rows": [
+        {
+          "cells": [
+            "pitcom Test",
+            "pitcom",
+            "test",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "ri24 test",
+            "ri24",
+            "test",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Immosuchmaschine",
+            "immosuchmaschine",
+            "eukn8ruv8s",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Immobilo.de",
+            "immobilode",
+            "qrspme8qzh",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Thinkimmo.com",
+            "thinkimmocom",
+            "w2hf5yzwdk",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "propfox.io",
+            "propfoxio",
+            "438ndexmsb",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Fokus Kleinanzeigen",
+            "fokuskleinanzeigen",
+            "eh48wn9c23",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "AllesKralle",
+            "alleskralle",
+            "d39q6f5vqf",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "thribee-trovit",
+            "thribeetrovit",
+            "qrayzbv2zd",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Locanto.com",
+            "locantocom",
+            "v8pbhn6mhd",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "wohnungjetzt",
+            "wohnungjetzt",
+            "fnxh3dczu2",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "traum-immo",
+            "traumimmo",
+            "aq283v22yh",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "ImmoMetrica",
+            "immometrica",
+            "d5usmgwf3s",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "immotags.de",
+            "immotagsde",
+            "g46f2zwq8s",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Matchmyhome",
+            "matchmyhome",
+            "xnw6dyk2b6",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Immopool.de",
+            "immopoolde",
+            "afp9ckdher",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Versteigerungspool.de",
+            "versteigerungspoolde",
+            "9phv4vdhfx",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "classmarkets",
+            "classmarkets",
+            "rfcsvx2mwe",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "GoogleDataFeed",
+            "googledatafeed",
+            "suh6say5nu",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Matchmyhome",
+            "matchmyhome",
+            "m4psqr5bw8",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kallang_Feed",
+            "kallangfeed",
+            "vgx5x2kuvq",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hypoport-Feed",
+            "hypoportfeed",
+            "5pdr3p3es3",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Impleco Feed",
+            "implecofeed",
+            "va4nnbwzxy",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "yep_code_cron",
+            "yepcodecron",
+            "yxyarryknp",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Mietz.app Feed",
+            "mietzappfeed",
+            "d6r8g83n3b",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "ThinkImmo",
+            "thinkimmo",
+            "6pw62uhbuf",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "ThinkImmo-Portal",
+            "thinkimmoportal",
+            "cmv58b3y8e",
+            "x"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "think-immo",
+            "thinkimmo",
+            "bacxeznufq",
+            "x"
+          ],
+          "links": []
+        }
+      ]
+    }
+  ]
+}

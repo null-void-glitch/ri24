@@ -1,0 +1,210 @@
+{
+  "inputs": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "partnerstufe",
+      "id": "partnerstufe",
+      "value": [
+        {
+          "val": "2",
+          "text": "Bronze"
+        }
+      ],
+      "placeholder": "",
+      "checked": false,
+      "label": "Partner-Stufe"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "email",
+      "id": "email",
+      "value": "",
+      "placeholder": "xyz@regionalimmobilien24.de",
+      "checked": false,
+      "label": "Login"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "pw",
+      "id": "pw",
+      "value": "obzfJT4doo",
+      "placeholder": "",
+      "checked": false,
+      "label": "Passwort"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "is_status",
+      "id": "is_status",
+      "value": [
+        {
+          "val": "1",
+          "text": "aktiv"
+        }
+      ],
+      "placeholder": "",
+      "checked": false,
+      "label": "Login-Status"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "show_provision",
+      "id": "show_provision",
+      "value": [
+        {
+          "val": "1",
+          "text": "anzeigen"
+        }
+      ],
+      "placeholder": "",
+      "checked": false,
+      "label": "Provision"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "aid",
+      "id": "aid",
+      "value": [
+        {
+          "val": "",
+          "text": "--- bitte wählen ---"
+        }
+      ],
+      "placeholder": "",
+      "checked": false,
+      "label": "Ansprechpartner"
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "image",
+      "id": "image",
+      "value": "",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "docfile",
+      "id": "docfile",
+      "value": "",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "name": "sorting_doc_videos",
+      "id": "sorting_doc_videos_new",
+      "value": "0",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "label_doc_videos",
+      "id": "label_doc_videos_new",
+      "value": "",
+      "placeholder": "Bezeichnung",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "file_doc_videos",
+      "id": "file_doc_videos_new",
+      "value": "",
+      "placeholder": "URL https://...",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "name": "sorting_doc_links",
+      "id": "sorting_doc_links_new",
+      "value": "0",
+      "placeholder": "",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "label_doc_links",
+      "id": "label_doc_links_new",
+      "value": "",
+      "placeholder": "Bezeichnung",
+      "checked": false,
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "file_doc_links",
+      "id": "file_doc_links_new",
+      "value": "",
+      "placeholder": "URL https://...",
+      "checked": false,
+      "label": ""
+    }
+  ],
+  "headings": [
+    "Partner Immobilienanfragen bearbeiten",
+    "Partner-Bereich",
+    "zugeordnete Ansprechpartner",
+    "Logos",
+    "Dokumente",
+    "Videos",
+    "Landingpages"
+  ],
+  "imgs": [
+    "https://www.regionalimmobilien24.de/get-file/img/ressource/img/elements/franchise/v/h60/max/bronze.png.webp"
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": ""
+    },
+    {
+      "text": "",
+      "href": ""
+    },
+    {
+      "text": "",
+      "href": ""
+    }
+  ]
+}

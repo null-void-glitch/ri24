@@ -1,0 +1,532 @@
+{
+  "inputs": [
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "regioncode",
+      "id": "regioncode",
+      "value": "--- keine Region ---",
+      "placeholder": "",
+      "label": "--- keine Region ---\nRegionaliimmobilien24 - Leineweser (lwi"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "firstname",
+      "id": "firstname",
+      "value": "",
+      "placeholder": "",
+      "label": "Vorname"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "lastname",
+      "id": "lastname",
+      "value": "Immobilienanfragen",
+      "placeholder": "",
+      "label": "Nachname"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "title",
+      "id": "title",
+      "value": "",
+      "placeholder": "",
+      "label": "Titel"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "position",
+      "id": "position",
+      "value": "bei Fragen zu Immobilien wende Dich bitte direkt an den entsprechenden Anbieter ",
+      "placeholder": "",
+      "label": "Position"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "partnerlogin_label",
+      "id": "partnerlogin_label",
+      "value": "",
+      "placeholder": "",
+      "label": "Bezeichnung im\nPartner-Login-Bereich"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "phone",
+      "id": "phone",
+      "value": "",
+      "placeholder": "",
+      "label": "Telefon"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "fax",
+      "id": "fax",
+      "value": "",
+      "placeholder": "",
+      "label": "Fax"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "mobile",
+      "id": "mobile",
+      "value": "",
+      "placeholder": "",
+      "label": "Mobiltelefon"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "whatsapp",
+      "id": "whatsapp",
+      "value": "",
+      "placeholder": "",
+      "label": "Whatsapp"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "email",
+      "id": "email",
+      "value": "",
+      "placeholder": "",
+      "label": "E-Mail"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "calendly",
+      "id": "calendly",
+      "value": "",
+      "placeholder": "",
+      "label": "Calendly-Link:"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "calendly_zusatz",
+      "id": "calendly_zusatz",
+      "value": "/60min",
+      "placeholder": "/60min",
+      "label": "https://calendly.com/"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "website",
+      "id": "website",
+      "value": "",
+      "placeholder": "",
+      "label": "Website"
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "name": "sorting",
+      "id": "sorting",
+      "value": "-31",
+      "placeholder": "",
+      "label": "Sortierung"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "is_baufi",
+      "id": "",
+      "value": "0",
+      "placeholder": "",
+      "label": "Teammitglied ist ein Baufinanzierer"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "is_baufi",
+      "id": "",
+      "value": "1",
+      "placeholder": "",
+      "label": "Teammitglied ist ein Baufinanzierer"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "is_finpartner",
+      "id": "",
+      "value": "0",
+      "placeholder": "",
+      "label": "Finanzierungspartner"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "is_finpartner",
+      "id": "",
+      "value": "1",
+      "placeholder": "",
+      "label": "Finanzierungspartner"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "show_on_mlp",
+      "id": "",
+      "value": "0",
+      "placeholder": "",
+      "label": "auf der Landingpage /immobilienportal-partner-werden/ (MLP) "
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "show_on_mlp",
+      "id": "",
+      "value": "1",
+      "placeholder": "",
+      "label": "auf der Landingpage /immobilienportal-partner-werden/ (MLP) "
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "europace_partner_id",
+      "id": "europace_partner_id",
+      "value": "",
+      "placeholder": "",
+      "label": "Qualitypool (Haupt-ID)"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "europace_partner_id_forum",
+      "id": "europace_partner_id_forum",
+      "value": "",
+      "placeholder": "",
+      "label": "Forum"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "link_uri_fincrm",
+      "id": "link_uri_fincrm",
+      "value": "https://www.fincrm.de/login",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "texte_mobibox_login",
+      "id": "texte_mobibox_login",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "texte_mobibox_pw",
+      "id": "texte_mobibox_pw",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "firmenbezeichnung",
+      "id": "firmenbezeichnung",
+      "value": "",
+      "placeholder": "",
+      "label": "Firmenbezeichnung"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "street",
+      "id": "street",
+      "value": "",
+      "placeholder": "",
+      "label": "Straße, Nr"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "zip",
+      "id": "zip",
+      "value": "",
+      "placeholder": "",
+      "label": "Postleitzahl"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "city",
+      "id": "city",
+      "value": "",
+      "placeholder": "",
+      "label": "Ort"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "opening_hours",
+      "id": "opening_hours",
+      "value": "",
+      "placeholder": "",
+      "label": "Öffnungszeiten"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "opening_hours_tiny",
+      "id": "opening_hours_tiny",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "use_sms",
+      "id": "",
+      "value": "0",
+      "placeholder": "",
+      "label": "SMS bei BaufiLead versenden"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "use_sms",
+      "id": "use_sms",
+      "value": "1",
+      "placeholder": "",
+      "label": "SMS bei BaufiLead versenden"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "phonenumber",
+      "id": "phonenumber",
+      "value": "",
+      "placeholder": "00491xxxxxxxxx",
+      "label": "Nummer für SMS"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "sms_baufilead",
+      "id": "sms_baufilead",
+      "value": "Ein neuer Finanzierungsinteressent wartet auf Dich. Nimm den Lead innerhalb von ",
+      "placeholder": "",
+      "label": "BaufiLead SMS"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "db_row",
+      "id": "",
+      "value": "image",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "image",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "delimage",
+      "value": "Löschen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "db_row",
+      "id": "",
+      "value": "image_widget_pose",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "image_widget_pose",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "db_row",
+      "id": "",
+      "value": "qrcode",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "qrcode",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "db_row",
+      "id": "",
+      "value": "logo_baufi",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "logo_baufi",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "use_webapp",
+      "id": "use_webapp",
+      "value": "1",
+      "placeholder": "",
+      "label": "persönliche Webapp-Nutzung für Finanzierer aktivieren"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "webapp_titel",
+      "id": "webapp_titel",
+      "value": "Immobilienanfragen - Baufinanzierung",
+      "placeholder": "Vorname Nachname - Baufinanzierung",
+      "label": "Titel"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "webapp_description",
+      "id": "webapp_description",
+      "value": "BaufinanzierungPrime",
+      "placeholder": "Vorname Nachname - Baufinanzierung",
+      "label": "Untertitel"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "db_row",
+      "id": "",
+      "value": "webapp_logo",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "webapp_logo",
+      "id": "",
+      "value": "",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "",
+      "value": "Hochladen",
+      "placeholder": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "send",
+      "id": "delwebapp_logo",
+      "value": "Löschen",
+      "placeholder": "",
+      "label": ""
+    }
+  ],
+  "headings": [
+    "Teammitglied Immobilienanfragen bearbeiten",
+    "persönliche Daten",
+    "EUROPACE Partner IDs",
+    "Partner-Status: nicht gesetzt",
+    "Partner Links",
+    "MobiBox Login",
+    "Unternehmensdaten",
+    "SMS Erinnerung",
+    "Foto",
+    "Foto Widget Pose",
+    "QR-Code",
+    "Logo Baufi",
+    "Webapp-Einstellungen",
+    "Logo Webapp",
+    "Teammitglied löschen",
+    "zugeordnete Makler (0)"
+  ],
+  "tables": [],
+  "imgs": [
+    "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png",
+    "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png"
+  ],
+  "tabs": []
+}

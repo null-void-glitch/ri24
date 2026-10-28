@@ -1,0 +1,576 @@
+{
+  "bank": "DKB",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "max. 10 Auszahlungen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ">100"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ">100"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nur \"echtes\" Eigenkapital möglich (kein durch RK finanziertes)\nDas tatsächlich eingebrachte Eigenkapital kann nach der Genehmigung des Antrags − jedoch vor Auszahlung der Darlehen − nachgewiesen werden.\nFinanzierungen von ETW´s als Paketkauf (je Wohnung ist ein Antrag erforderlich und im Kaufver-\ntrag muss der Kaufpreis je Wohnung ausgewiesen werden, keine Globalgrundschuld) werden begleitet. Sollten jedoch alle Wohnungen eines Hauses gekauft werden (Bsp. 3 ETW) dann muss das Vorhaben in einem Antrag zusammengefasst werden.\nBaulich zusammengelegte Eigentumswohnungen können finanziert werden, wenn die grundbuchliche Zusammenführung erfolgt ist.\nETWs mit eingeschränkter Nutzung gem. TE (z.B. Vermietung nur an Studenten) werden nicht finanziert.\nkeine Teilabtretungen von Grundschulden\nMieteinahmen aus Gewerbe und Pachteinahmen werden nicht berücksichtigt\nAnsatz Kindergeld: Ja\nmax. 3 Darlehen (inkl. KfW-Darlehen) zu unterschiedlichen Ablösezeitpunkten, bei mehr als 3 Darlehen muss zusammengefasst werden\nDie in der Selbstauskunft getätigten Angaben zu den Einnahmen und Ausgaben müssen durch entsprechende Einzelnachweise bzw. Belege (z.B. Kontoumsatznachweise, Kopie der Beitragsrechnung, des Ratenkreditvertrages, des Mietvertrages, etc.) nachgewiesen werden.\nStatt der tatsächlichen Rate für das beantragte Darlehen erfolgt der Ansatz einer kalkulatorischen Rate auf die Restschuld zum Ende der Zinsbindungsfrist (für die Berechnung der Restschuld wird die Mindesttilgung unterstellt). Die Höhe der kalkulatorischen Rate liegt bei 8%.\nWEG-Finanzierung wird seitens der DKB nicht angeboten.\nBewirtschaftungskosten 3,74 € (ab 11.05.2026: 3,80 €) pro qm Wohnfläche\nKauf innerhalb der Familie:\nEin Kaufvertragsentwurf ist bei Antragseinreichung notwendig.\nDer aktuelle Verkehrswert kann als Basis der\nKonditionierung genutzt werden (d.h. Erfassung als Kaufpreis; die Differenz zum vertraglich vereinbarten Kaufpreis wird als bereits geleistete Zahlungen erfasst)\nBeim Vorhaben Kauf ist die DKB auf den Kaufpreis als maximale Finanzierungsobergrenze gedeckelt\nNebenkosten sind aus echtem Eigenkapital\nzu erbringen"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Neubau und Kauf: 12 /24\nweitere Vorhaben: 3 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 9.999.999 EUR\nÜberschreitung - Gelb\nDarlehensteilbeträge: mindestens 25.000 EUR (auch KfW-Darlehen)\nmax. 3 Teildarlehen (inkl. KfW-Darlehen)"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "entry": {
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nKund:innen können im Standardgeschäft den DKB Kontocheck durchführen und auf die Einreichung von Bonitätsunterlagen (Gehaltsabrechnungen und Kontoauszüge bzw. Einzelnachweise) verzichten.\n\nVoraussetzungen:\n\nKunde(n) haben ausschließlich Einkünfte aus Angestelltenverhältnis\nFinanzierung einer komplett selbstgenutzten Immobilie, kein Kontocheck bei teilweise Vermietung \nes ist kein weiteres Immobilienvermögen vorhanden\n13./14. Gehalt ist für die Haushaltsrechnung nicht notwendig\n\nVorteile:\n\nschnellere Antragsbearbeitung\nVerzicht auf Bonitätsunterlagen während der Antragsprüfung\nbessere Machbarkeiten\n \nHinweise:\nWenn Du den Kontocheck über Europace vor dem Einbuchen nutzt, werden die Kontoumsätze der letzten 12 Monate ausgelesen.\nBeim direkten DKB-Kontocheck nach dem Einbuchen werden hingegen nur die letzten 3 Monate geprüft (hier bekommen die Kunden automatisch von der DKB eine Email mit einem Link die Möglichkeit, den Kontocheck durchzuführen, welcher 48 Stunden gültig ist).\nAchtung: Das kann relevant sein, wenn es Negativinformationen gibt, die länger als 3 Monate zurückliegen (z. B. Rücklastschrift vor 10 Monaten oder Inkasso vor 11 Monaten). Diese können im Entry-Check sichtbar werden und so ggf. zu einer Ablehnung führen."
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 100% des angemessenen Verkehrswertes\ndie Auszahlung erfolgt in einer Summe automatisch auf das Rateneinzugskonto nach Erfüllung der Auszahlungsvoraussetzungen (kein Auszahlungsauftrag notwendig), d.h. keine Teilauszahlungen möglich\nkein Nachweis der Mittelverwendung erforderlich\nkeine Finanzierung mit gewerblichem Hintergrund\nsofern die Kapitalbeschaffung für eine Modernisierung genutzt wird, erfolgt kein Ansatz der Modernisierungen für die Konditionierung\nauch in Kombination mit einer Anschlussfinanzierung möglich"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten\n124, 261 (nur Sanierung), 297 (Kauf / Neubau) und 300 (Wohneigentum für Familien)"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1. Person = 754 € (ab 11.05.2026: 771 €) und 2. Person = 1.213 € (ab 11.05.2026: 1.240 €).\nFür jede weitere Person im Haushalt (i.d.R. Kinder) liegt die Pauschale bei 358 € (ab 11.05.2026: 366 €).\n\nDie Lebenshaltungskostenpauschale beträgt 30% des Einkommens. Herbei werden Einkommen aus Vermietung und Verpachtung, Kindergeld und Kindesunterhalt nicht berücksichtigt."
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Für Modernisierungskosten bis 100 TEUR ist\neine vom Kunden erstellte Kostenaufstellung\nausreichend (z.B. auch als Bestandteil der\nSelbstauskunft)\nAb 100 TEUR Modernisierungskosten ist eine\nKostenaufstellung des Architekten bzw. Bausachverständigen einzureichen.\nBis 100% des Verkehrswertes möglich.\nDie Auszahlung erfolgt gegen Rechnungsvorlage bzw. Nachweis der Bezahlung.\nAlternativ kann auch ein Baukostenvorschuss bis max. 25.000 Euro überwiesen werden. Die Mittelverwendung ist dann vor Auszahlung des nächsten Baukostenvorschusses nachzuweisen.\nEin evtl. verbliebener Darlehensteilbetrag kann auch ohne Rechnungsnachweise ausgezahlt werden; Voraussetzung: alle geplanten Modernisierungsmaßnahmen wurden umgesetzt.\nNach Vollauszahlung des Darlehens erfolgt die Besichtigung des Objektes. Die Modernisierungsmaßnahmen müssen bei Besichtigung abgeschlossen sein."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "werden akzeptiert, allerdings max. bis Kaufpreis"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten (nicht möglich bei Grüner Baufinanzierung)"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5- 30\n25 und 30 Jahre Zinsbindung nur im Neugeschäft möglich"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Die Darstellung einer Finanzierung mit Zusatzsicherheit in einem Antrag ist nicht möglich.\nDie DKB benötigt einen Antrag für das Hauptvorhaben und einen zweiten Antrag als Kapitalbeschaffung für die Zusatzsicherheit."
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "als zweiter Antrag über das variable Darlehen (\"Vario-Darlehen) möglich"
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Schufa-Abfrage wird durchgeführt, bei neuen Krediten oder Verschlechterung erfolgt neue Prüfung\nObjektprüfung: Nur, wenn sich bei Besichtigungstermin Differenzen zur Wertermittlung ergeben\nkorrekter Ablösetermin wird ermittelt. Insbesondere bei Ablösungen nach §489 BGB"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Maximale Zinsbindungsfrist 5 bis 19 Jahre (die Summe aus neu vereinbarter Zinsbindungsfrist und Forward-Zeit darf 20 Jahre nichtübersteigen)"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ablauf:\n\nBitte nutzt den Prolongationsprozess über EUROPACE2 - Abfrage der Darlehensdaten über die Schnittstelle erforderlich\nWichtig: Bitte bei Produzentenauswahl der DKB einen Hinweis über EUROPACE geben, dass es sich um eine Prolongation handelt!\nHinweis: Die DKB geht 9 Monate vor Ablauf der Zinsbindung erstmal direkt auf den Kunden bzgl. einer Prolongation zu. Im ersten Schritt geht hier ein Bedarfsermittlungsschreiben raus, welches der Kunde im Idealfall beantwortet und der DKB mitteilt wie er seine Anschlussfinanzierung gern hätte - danach wird ein entsprechendes Prolongationsangebot versendet.\nÜber Europace werden nur noch die hinterlegten Verkehrswerte mitgeteilt. Hierfür muss die Einverständniserklärung unterschrieben hochgeladen werden, dann wird der Verkehrswert von der DKB über Europace gemeldet.  \n\nUnterlagen:\n\nEinwiligungserklärung bzw. Selbstauskunft unterzeichnet muss über EUROPACE hochgeladen werden --> siehe Prolongationsprozess (kein Unterlagenversand im Nachgang im Original an die DKB erforderlich)\n\nProvision:\n\nAnalog Neugeschäft"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Es sind maximal 2 Darlehen zu unterschiedlichen Ablöseterminen möglich, d.h. bei mehr als 2 Darlehen müssen diese zu einem Ablöse-/Auszahlungstermin zusammengefasst werden.\nDie Auszahlung erfolgt dann zum beantragten (im Vertrag ausgewiesenen) Auszahlungstermin."
+    },
+    "weitere-hinweise-forward": {
+      "name": "Weitere Hinweise Forward",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Auszahlung des Darlehens bis zu 8 Monaten vor dem vertraglich vereinbarten Termin möglich\nIn dem Forward-Darlehen kann auch eine Kapitalbeschaffung mit beantragt werden; Auszahlung erfolgt dann zum Ablösetermin.\nSollte gewünscht sein, dass die Kapitalbeschaffung sofort ausgezahlt werden soll, muss diese als separater Darlehensbaustein (Annuitätendarlehen) beantragt werden: Auszahlung der Kapitalbeschaffung erfolgt nach\nSicherheitenstellung (Neueintragung einer\nGrundschuld, Annahme des Treuhandauftrages durch die abzulösende Bank oder Eingang der Abtretungsunterlagen bei der DKB)"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "59000007"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261 (nur Sanierung), 297(Kauf / Neubau), 300 (Wohneigentum für Familien).\nNnicht mit anderen KfW-Produkten kombinierbar.\nStandard EH 55 nicht finanzierbar"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": ""
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Auch Umschuldungen von hauseigenen KfW-Darlehen werden als Prolongation behandelt\nDie DKB schreibt bereits 9 Monate vor Ablauf der Zinsbindung die Kunden bzgl. Prolo an. Es handelt sich um ein Bedarfsermittlungsschreiben, in dem der Kunden der DKB mitteilen kann, wie er seine Anschlussfinanzierung gerne hätte (Zinsbindung, Rate, Tilgung, etc.). Danach wird das entsprechende Prolongationsangebot versendet\nDKB gibt auf Anfrage Rückmeldung zum Prolongtionstermin (insbesondere bei BGB-Kündigungen wichtig), Restschuld zum Zinsanspassungstermin, ursprünglich von der DKB genehmigte Gesamtlaufzeit der Finanzierung, Rate, Darlehenskontonummer\n\"Grüne Baufinanzierung\" bei Prolongation nicht möglich"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": ""
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": ""
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10 (gegen Zinsaufschlag)\nSondertilgungsoption bei Volltilgerdarlehen sind möglich (Höhe abhängig vom Konditionsmodell)"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Tilgung mind. 1%\nBerechnung wie folgt: Die Darlehenslaufzeit darf maximal 40 Jahre betragen, der Beleihungsauslauf muss unter Berücksichtigung der kalkulatorischen Restschuld nach 10 Jahren Laufzeit unter 80% liegen"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "wird nicht angeboten"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "2 x kostenfrei während der Zinsbindung zwischen Mindesttilgung und 5% möglich (außer Volltilger)"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "keine Finanzierung möglich (Lösung: Kapitalbeschaffung auf Immobilie in Deutschland)"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "keine Einschränkung"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Abtretung von Briefgrundschulden werden nicht akzeptiert\nkeine Teilabtretung möglich\nweitere Immobilie als Zusatzsicherheit möglich. Es müssen zwei Anträge eingereicht werden (Hauptvorhaben und Zusatzobjekt als Kapitalbeschaffung). \nmehrere wohnwirtschaftliche genutzte Objekte auf einem Grundstück\nbei vermieteten Objekten ortsübliche Miete ansetzbar\nEnergieausweis immer erforderlich\nEin Pfandtausch mit einem Nebau ist nicht möglich"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "grundsätzlich keine Einschränkung, evtl. Auflagen (z.B. Zustimmung der Denkmalschutzbehörde)"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung der Eigenleistung, ab > 30.000 EUR ist eine Aufstellung der EL (Helferliste, Baukostenaufstellung) einzureichen"
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "Der Energieausweis wird bei allen Vorhaben in Form eines Bedarfs- oder Verbrauchsausweises benötigt und ist bei Antragseinreichung einzureichen. Ein Verzicht auf die Einreichung ist nicht möglich.\nBei Neubau bzw. Kauf Neubau kann alternativ ein Entwurf des Energieausweises (unterzeichnet von einer ausstellungsberechtigten Person, z.B. Bauträger*in, Energieberater*in, Sachverständiger*in, Architekt*in) eingereicht werden. Der endgültige Energieausweis wird in diesem Fall als Nachvalutierungsauflage aufgenommen.\nDas Formular „Vorabbestätigung der Energieeffizienzklasse“ kann nur für die grüne Baufinanzierung genutzt werden. Sofern bereits ein Energieausweis vorliegt, muss dieser zwingend eingereicht werden. \nBei Denkmalschutz kann auf den Energieausweis verzichtet werden, wenn der Denkmalschutz im Zuge der Kreditbeantragung nachgewiesen wird.\nBei Objekten, die im Zuge der Zwangsversteigerung erworben werden, ist der Energieausweis mit einzureichen. \nEine Beantragung des Energieausweises ist über DKB Grund möglich: \nhttps://www.dkb-grund.de/immobilie/energieausweis/\nDie Berücksichtigung von Auf- und Abschlägen für die Energieeffizienzklasse erfolgt auf Basis IST-Stand, nicht auf den zukünftig zu erreichenden Soll-Stand."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "ja, sofern sie dauerhaft zu eigenen Wohnzwecken geeignet sind; d.h. als erster Wohnsitz"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "kein Ansatz"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "49"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "5"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "Welche Objekte finanziert die DKB:\nEigentumswohnungen (Mindestgröße 30 qm) \nEinfamilienhaus / Zweifamilienhaus (auch mit Einliegerwohnung)\nReihenhaus\nDoppelhaushälfte\nMehrfamilienhaus bis max. 5 Wohneinheiten\nBaugrundstücke (mit Baurechtsnachweis)\nFerienimmobilien (sofern sie dauerhaft zu eigenen Wohnzwecken geeignet sind; d.h. als erster Wohnsitz möglich; kein Ansatz der Mieteinnahmen)\nPlattenbauten\nEigentumswohnungen als Paketkauf (je Wohnung ist ein Antrag erforderlich und im Kaufvertrag muss der Kaufpreis je Wohnung ausgewiesen werden, keine Globalgrundschuld), sollten jedoch alle Wohnungen eines Hauses gekauft werden (Bsp. 3 ETW in einem Haus und das Haus besteht aus 3 ETW) dann muss das Vorhaben in einem Antrag zusammengefasst werden.\nBaulich zusammengelegte Eigentumswohnungen können finanziert werden, wenn die\ngrundbuchliche Zusammenführung erfolgt ist.\nEs gibt keine Einschränkung bezüglich Bauweise\nWelche Objekte finanziert die DKB nicht:\nAuslandsimmobilien (Lösung: Kapitalbeschaffung auf Immobilie in Deutschland)\nLiebhaber- und Luxusobjekte\nLandwirtschaftliche Betriebe\nAusbauhäuser\nBausatzhäuser\nModulbauten / -häuser\nTiny-Häuser\nObjekte mit Gewerbeanteil\nObjekte in Gewerbegebieten\nObjekte in Ferienanlagen und Ferienparks\nObjekte, die dem heutigen Wohnstandard\nnicht entsprechen (Ausnahme: Modernisierung wird mit beantragt)\nBetreutes Wohnen\nIdeelle Grundstücksanteile bzw. Bruchteilseigentum\nObjekte in Hochwassergebieten\nObjekte mit Erbbaurecht\nEigentumswohnungen mit eingeschränkter\nNutzung gem. Teilungserklärung (z.B. Vermietung nur an Studenten, nur an Menschen in einem bestimmten Alter, …)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Die Ermittlung des Verkehrswertes erfolgt bankseitig systemunterstützt.\nBei großen Differenzen zwischen den ermittelten Verkehrswerten von Vermittler / Plattform und Bank ist eine neue Konditionierung und / oder weiteres Eigenkapital erforderlich.\nIn diesen Fällen meldet sich die DKB, um eine Lösung zu besprechen.\nBei Käufen innerhalb der Familie kann für die Konditionierung der ermittelte Verkehrswert statt des vereinbarten Kaufpreises berücksichtigt werden."
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Das Wertgutachten ist ab einer Grundschuldhöhe (zzgl. evtl. Vorlasten) > 600.000 Euro erforderlich und wird nach Genehmigung (bzw. nach Auszahlung) von einem durch die DKB beauftragten externen Gutachter erstellt.\nDie Kosten für das Gutachten trägt die DKB.\nKopien an den Kunden werden nicht ausgehändigt."
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja - Voraussetzung: keine Einschränkungen beim Objekt vorhanden (z.B. Vermietung nur an Personen mit Mindestalter X; Bindung an Pflegedienst) und es sich um vollständig ausgestattete Objekte handelt (d.h. ein eigenes Bad, vollständige Küche), kein betreutes Wohnen"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert (mit Baurechtsnachweis)\n \n! Ideelle Grundstücksanteile bzw. Bruchteilseigentum werden nicht finanziert.\n \nZuwegung:\nDie Zuwegung zum Beleihungs-/ Finanzierungsobjekt muss vorhanden, öffentlich gewidmet bzw. eindeutig geklärt sein.\nDie Zuwegung als Baulast ist nicht ausreichend.\nIst die Regelung der Zuwegung nicht eindeutig, kann ein Anruf beim zuständigen Katasteramt unter Angabe der Flur- und Flurstückangaben ggf. Abhilfe schaffen. Bitte reiche uns – sofern mit dem Katasteramt gesprochen wurde – eine schriftliche Bestätigung des Katasteramtes zur Zuwegung ein bzw. teile uns die Telefonnummer mit und mit wem gesprochen wurde.\nGrundbuchauszug des dienenden Grundstücks (Eintragung in Abt. II ersichtlich) bitte mit einreichen.\nBei der Finanzierung des Kaufs eines Baugrundstückes muss sich der Kunde zusätzlich die Rate für eine Neubaufinanzierung in Höhe von 320.000 EUR (ab 11.05.2026: 330.000 EUR) unter Berücksichtigung der kalkulatorischen Rate und pauschaler Bewirtschaftungskosten von 448,80 EUR leisten können.\nAbrisskosten (z.B. für auf dem Grundstück bestehende Gebäude) müssen aus Eigenkapital gezahlt werden."
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Die Eintragungsbewilligung zur Bewertung der wertrelevanten Lasten und Beschränkungen in Abteilung II des Grundbuchs wird benötigt.\nAuf den Plattformen ist eine Aufstellung bzgl. der Rechte in Abt. II hinterlegt. Aus dieser ist ersichtlich, für welche Rechte die Bewilligungsurkunde einzureichen ist und ob ein Rangrücktritt bereits bei Beantragung einzureichen ist.\nAuch bei Rangrücktritt bestimmter Rechte in Abt. II ist ein freihändiger Verkauf nur unter entsprechender Berücksichtigung der Rechte möglich und daher immer eine Einzelfallentscheidung.\nEine Vorprüfung der Wertminderung vor Antragseinreichung ist nicht möglich. Die Bewertung hinsichtlich der Wertminderung erfolgt erst im Zuge der Antragsprüfung, ggf. unter Einbeziehung einer zentralen Abteilung für Immobilienbewertung der DKB (hierdurch kann sich eine längere Bearbeitungszeit ergeben)."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "werden akzeptiert\nDie Anzahl der Vorranggläubiger ist nicht begrenzt.\nDie Vorlasten fremder Gläubiger werden mit dem Grundschuldbetrag zzgl. 25% für Zinsen und Nebenleistungen in Ansatz gebracht.\nVorlasten, bei denen die DKB Gläubigerin ist, werden mit dem Restschuldbetrag in Ansatz gebracht."
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "wird begleitet\nder Zuschlagsbeschluss muss bei Beantragung mit eingereicht werden.\nDie geleistete Sicherheitszahlung bei Zuschlag kann im Rahmen der Finanzierung an den Kunden ausgezahlt werden (Revalutierung Eigenkapital), wenn der Finanzierungsbetrag maximal dem Kaufpreis gem. Zuschlagsbeschluss entspricht."
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "ja\n\nAnsatz zu 100%\nDer Ansatz von Einkünften während des Mutterschutzes / der Elternzeit erfolgt entsprechend des Nachweises (Elterngeldbescheid, Kontoauszug) bzw. auf Basis der gesetzlichen Vorgaben. Sofern der Elterngeldbescheid noch nicht vorliegt, erfolgt der Ansatz auf Basis der gesetzlichen Vorgaben zur Berechnung des Elterngeldes (aktuell 67% des letzten Nettoeinkommens). Hierfür ist bitte die Gehaltsabrechnung vor Mutterschutz einzureichen.\nWiedereinstieg nach der Elternzeit: Ansatz des Einkommens nur mit eingereichtem Nachweis (z.B. Bestätigung des Arbeitgebers) und wenn der Wiedereinstieg in die Berufstätigkeit innerhalb der nächsten 3 Monate erfolgt (betrachtet ab Beantragung). Sofern nach Elternzeit ein neues Arbeitsverhältnis begonnen wird, kann das Einkommen nicht angesetzt werden."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13\nNiederstwertprinzip\nvar. Einkommensbestandteile: Tantieme, Provisions- und Bonuszahlungen können nur berücksichtigt werden, wenn diese nachweislich in den letzten 3 Jahre gezahlt wurden. Der Ansatz erfolgt dann i.H.v. 30% des aktuell ermittelten Einkommens nach dem Niederstwertprinzip. Bei regelmäßigen, monatlichen Provisionszahlungen gilt das Niederstwertprinzip (Überweisungsbetrag gemäß Gehaltsabrechnungen der letzten 3 Monate)\nwenn andere Einkunftsarten die Einkünfte aus unselbstständiger Tätigkeit überschreitet, wird das Geschäft in die Individualkreditabteilung bearbeitet, Mindestdarlehenssumme 300 TEUR"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ansatz zu 100%\n- bei Nachweis der letzten zwei Monate\n- nur ein „Minijob“ pro Antragsteller\n- max. Ansatz der gesetzlichen Höchstgrenzen \n- Mindestbeschäftigungsdauer 6 Monate"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Ansatz 90% der nachgewiesenen Rente / Pension (d.h. inkl. pauschalem Steuerabzug von 10%)\nKEIN Ansatz von befristet gezahlten Renten, Witwenrenten, Halbwaisen-/Vollwaisenrenten"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Mindestunterhalt wird anhand Düsseldorfer Tabelle angesetzt\nKindesunterhalt: 100 % (Kindesalter max. 8Jahre)\nEhegattenunterhalt wird nicht berücksichtigt"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Keine BlueCard-Inhaber (sofern deren Einkommensansatz für die Haushaltsrechnung erforderlich ist)\nliegt nur ein befristeter Aufenthaltstitel oder eine Aufenthaltskarte  vor, kann derjenige Darlehensnehmer:in werden, jedoch wird das Einkommen in der Haushaltsrechnung nicht berücksichtigt."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte\nBeamte / Beamte auf Probe\nArbeiter\nBefristete Beschäftigte\nRentner / Pensionäre\nSelbstständige / Freiberufler"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "keine Finanzierungen von GbR's oder Erbengemeinschaft\n\nkeine Finanzierung von Auszubildende (sofern Ansatz notwendig)\nkeine Finanzierung von Beamte auf Widerruf\n\nAntragsteller mit Immovermögen > 5 WE (inkl. angefragter Finanzierung) im Individualkundenbereich, Mindestdarlehenssumme 300 TEUR\n\nwenn alleinige Antragstellung eines Ehepartners im gesetzlichen Güterstand gewünscht ist, muss der Personalausweis des Ehepartners mit eingereicht werden, wenn dieser kein DKB Kunde ist\nIndividualkunden sind auch Haushalte mit einem Gesamteinkommen aus Angestellteneinkommen, Beamten:innen Bezüge/n oder Renten von insgesamt 12.500 Euro. Angefragt werden können Kund:innen als angestellte Geschäftsführer:innen mit Beteiligungen an Kapitalgesellschaften, sonstige Selbstständige & Freiberufler, Privatiers, Investoren, GBR´s und Profisportler  > Mindestdarlehenssumme bei Individualkunden: 300.000 €"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 2 Darlehensnehmer\nDarlehensnehmer und maximal 2 Sicherungsgeber müssen nicht identisch sein (jedoch sind die Beziehungen zwischen Darlehensnehmer und Sicherungsgeber zu klären, um Sittenwidrigkeit auszuschließen).\nNatürliche Person (Keine Erbengemeinschaft und GbR)"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja\nBerufsgruppen gem. Kriterien beachten.\nAnträge von Selbstständigen / Freiberuflern werden im Individualkundenbereich bearbeitet (Mindestdarlehenssumme 300.000 Euro).\nFreiberufler dürfen nicht als Hausmann / Hausfrau deklariert werden. Sofern deren Einkommen unberücksichtigt bleiben soll, kann der Freiberufler nicht Mitdarlehensnehmer werden."
+    },
+    "getrennt-lebende-darlehensnehmer": {
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Bei Getrenntlebenden ist die Trennungs- oder Scheidungsfolgenvereinbarung einzureichen, ggf. als Entwurf.\nDiese ist in privatschriftlicher Form ausreichend. Eine notarielle Beurkundung ist nur erforderlich, wenn auch Immobilienvermögen mit übertragen wird."
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Der dauerhafte Wohnsitz muss in Dtl. sein und das Gehalt in EUR gezahlt werden.\nEinreichung verständlicher Gehaltsabrechnungen (ggf. übersetzt, sofern nicht in deutscher Sprache erstellt)."
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0\nBei einem Überschuss von < 100 € erfolgt eine einzellbezogene Kreditentscheidung unter Involvierung der Marktfolge."
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz von Mieteinnahmen bei Ferienimmobilien\nKein Ansatz von Mieteinnahmen aus Mietpool\nAnsatz der Miet-/Pachteinnahmen: 60% gem. Kontoauszug nachgewiesenen Warmmiete bzw. 75% der nachgewiesenen Nettokaltmiete\nHinweis: bei Leerstand werden ausgabenseitig 25% der marktfähigen Nettokaltmiete berücksichtigt."
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Mindestalter: 18 Jahre\nKeine weitere Altersbeschränkung; die Restschuld des beantragten Darlehens darf zum 67. Geburtstag des ältesten Antragstellers bei max. 75% des Verkehrswertes liegen; die Tilgung ist entsprechend zu wählen.\nbei Darlehensnehmern ab dem 57. Geburtstag erfolgt ein pauschaler Einkommensansatz von 54 % des Nettoeinkommens (bei Beamten 60%) unter Berücksichtigung der gesetzlichen maximalen Bezugsgrößen (höherer Ansatz gegen Nachweis – Rentenbescheid, Renteninformation - möglich). Ist aktuell kein Haupteinkommen vorhanden, erfolgt der Ansatz von zukünftigem Renteneinkommen."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Für eine Finanzierung müssen Kunden folgende Voraussetzungen erfüllen:\nSonstige Staatsangehörige mit ständigem Wohnsitz in Deutschland mit unbefristetem Aufenthaltstitel, welchem eine uneingeschränkte Berechtigung zur Erwerbstätigkeit zugrunde liegt (sofern das Einkommen für die Haushaltsrechnung benötigt wird)\nLiegt nur ein befristeter Aufenthaltstitel vor, kann der-/diejenige Darlehensnehmer(in) werden, jedoch wird das Einkommen in der Haushaltsrechnung nicht berücksichtigt.\nFür nicht EU-Bürger muss eine Zustellungsvollmacht eingereicht werden (wird mit Vertragserstellung an die Kunden gesandt)\nKeine BlueCard-Inhaber (sofern deren Einkommensansatz für die Haushaltsrechnung erforderlich ist)\nSteuerinländer\nKunden sind der deutschen Sprache ausreichend mächtig (Vertragssprache ist deutsch)\nEin Dolmetscher für die Kaufvertragsunterzeichnung wird akzeptiert"
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "wird nicht finanziert"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Ja (Ausnahme: Zeitsoldat)\nAuszahlung nach erfolgreicher Beendigung der Probezeit"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja\nBerufsgruppen gem. Kriterien beachten\nAnträge von Selbstständigen / Freiberuflern werden im Individualkundenbereich bearbeitet (Mindestdarlehenssumme 300.000 Euro).\nSelbstständige dürfen nicht als Hausmann / Hausfrau deklariert werden. Sofern deren Einkommen unberücksichtigt bleiben soll, kann der Selbstständige nicht Mitdarlehensnehmer werden.\nHinweis: als selbstständig gelten auch angestellte Geschäftsführer mit einer Beteiligung am Unternehmen von ≥25%. Hier sind dann auch Unterlagen zum Unternehmen (Bilanzen und BWA / EÜR) einzureichen."
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "Finanzierung von Zeitsoldaten, bei denen bereits Übergangsgebührnisse gezahlt werden, werden nicht begleitet"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ablösung von Ratenkrediten unter Berücksichtigung der Begrenzungen der Auszahlungen und Ablöseterminen möglich (nicht beim Verwendungszweck Kapitalbeschaffung, Grüner Baufinanzierung und Kauf inkl. Modernisierung)\nkein Ansatz in der HHR nötig, wenn abgelöst wird\nauf dem Darlehenskonto verbliebene Darlehensbeträge bis zu 5.000 EUR können automatisch auf das Rateneinzugskonto ausgezahlt werden."
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Mindestauszahlungsbetrag: 10.000 Euro\nAuszahlungen sind ausschließlich auf Konten, welche in EWR-Ländern (Europäischer Wirtschaftsraum) geführt werden, möglich.\nKeine Eilüberweisungen möglich\nKapitalbeschaffungen werden nur in einer Summe ausgezahlt (keine Teilauszahlungen).\nBei Neubau / Modernisierung: Die Auszahlung von 25.000 Euro ohne Nachweis von Rechnungen (als Vorschuss) ist möglich. Die Mittelverwendung ist der DKB vor nächster Auszahlung nachzuweisen. Die Auszahlung nach § 3 bzw. 7 MaBV ist möglich."
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "keine"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "mind. ein Darlehensnehmer muss der dt. Sprache ausreichend mächtig sein\nein Dolmetscher für die Kaufvertragsunterzeichnung wird akzeptiert"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Bonitätsnachweise:\nDie in der Selbstauskunft getätigten Angaben zu den Einnahmen und Ausgaben müssen\nnachgewiesen werden (z.B. Beitragsrechnung,\nRatenkreditvertrag, Mietvertrag etc.).\nEs werden keine Kontoauszüge oder Umsatznachweise akzeptiert.\nAlternativ kann für den Nachweis der digitale\nKontocheck genutzt werden."
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ausschließlich per Upload (ausschließlich im Dateiformat PDF)"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Postident oder Videolegitimation, in Ausnahmen auch in der Filiale möglich (nach vorheriger Absprache)\n\nNach Eingang der unterzeichneten Vertragsunterlagen und erfolgreicher Legitimation erhalten die Kunden per E-Mail eine Bestätigung über den eingegangenen Vertrag inkl. einer Verlinkung zum Self-Service.\n \n--> weitere Infos findest du unter \"Vertriebstipps\""
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ausschließlich per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Eine Objektbesichtigung (innen und außen)\nist grundsätzlich notwendig und findet nach\nAuszahlung statt– bitte weise deinen Kunden darauf hin.\nSofern eine Innenbesichtigung nicht möglich\nist, teile uns dies bitte bei Einreichung mit. Die DKB\nberücksichtigt dann einen Abschlag von\n10% im Rahmen der Objekteinwertung (reduzierter Verkehrswert für die Konditionierung).\nEs ist jedoch erforderlich, dass der DKB bei Beantragung aktuelle Objektfotos (von innen und\naußen) eingereicht werden.\nAuf die Innenbesichtigung kann bei gutachtenpflichtigen Engagements nicht verzichtet\nwerden."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja\nDurchgeführt wird der digitale Vertragsabschluss von WebID.\n \nKunden, welche den digitalen Vertragsabschluss aufgrund des Legitimationsdokuments nicht nutzen können, bekommen die Vertragsunterlagen postalisch zugeschickt. \nEine entsprechende Info finden die Berater im Anschreiben, welches bei Genehmigung im Portal hochgeladen wird.\n \nVoraussetzungen:\njede*r Darlehensnehmer*in benötigt eine eigene Handynummer\njede*r Darlehensnehmer*in muss den persönlichen Zugangslink aus der eigenen E-Mail nutzen\nder Kunde hat eine Kamera, die mit dem PC oder Mobilgerät verbunden ist und den Kamerazugriff für den genutzten Browser erteilt\n--> weitere Infos findest du unter \"Vertriebstipps\""
+    },
+    "umschuldung": {
+      "name": "Umschuldung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Bis 100% des Verkehrswertes möglich\nEs sind maximal 2 Darlehen zu unterschiedlichen Ablöseterminen möglich, bei mehr als 2 Darlehen müssen diese zu einem Ablöse-/ Auszahlungstermin zusammengefasst werden. Die Auszahlung erfolgt dann zum beantragten (im Vertrag ausgewiesenen) Auszahlungstermin.\nIm Zuge einer Anschlussfinanzierung/ Umschuldung kann auch eine Kapitalbeschaffung mit beantragt werden; die Auszahlung der Kapitalbeschaffung erfolgt dann nach Sicherheitenstellung (Neueintragung einer Grundschuld, Annahme des Treuhandauftrages durch die abzulösende Bank oder Eingang der Abtretungsunterlagen bei der DKB) mit\nder Auszahlung des Forward-Darlehens. Sollte\ngewünscht sein, dass die Kapitalbeschaffung\nsofort ausgezahlt werden soll, muss diese als\nseparater Darlehensbaustein (Annuitätendarlehen) beantragt werden."
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nach Genehmigung erstellt die DKB die Vertragsunterlagen und lädt eine Kopie des Vertrags inkl. Anschreiben mit Angabe der Annahmefrist im Portal hoch."
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja im Portal"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    }
+  },
+  "company_id": "1f2ccf1f2c117c58beb085dd490c84ae",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/1f2ccf1f2c117c58beb085dd490c84ae",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "30.04.26",
+  "recent_news": [
+    {
+      "date": "29.04.26",
+      "title": "DKB - Anpassung der Kriterien zum 11.05.2026"
+    },
+    {
+      "date": "10.04.26",
+      "title": "DKB - Update Zinsvorteil Kauf Bestandsimmobilie seit 21.01.2026"
+    },
+    {
+      "date": "02.04.26",
+      "title": "DKB - Sonderaktion \"Umschuldung/Anschlussfinanzierung\""
+    },
+    {
+      "date": "02.03.26",
+      "title": "DKB - Zinsvorteil Kauf Bestandsimmobilie seit 02.03.2026 auch für kleinere Finanzierungsvolumen"
+    },
+    {
+      "date": "29.01.26",
+      "title": "DKB - KfW 297 wieder verfügbar – Standard EH 55 nicht finanzierbar"
+    }
+  ]
+}

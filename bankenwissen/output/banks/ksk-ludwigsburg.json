@@ -1,0 +1,376 @@
+{
+  "bank": "KSK Ludwigsburg",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mehr als 10 Auszahlungen bitte anfragen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 /6"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6/6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "150.000 - 999.999.999\nBaustein Mindestbetrag von 25 TEUR"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Differenzierung von Modernisierungs- und Renovierungskosten:\nEine werterhöhende Modernisierungsmaßnahme beinhaltet:\nVerbesserung der Energieeffizienz\n(Dämmung, neue Fenster, moderne Elektrogeräte,\nSchaffung und Ausbau von Wohnraum (Ausbau von Dachgeschoss oder\nWesentliche Erhöhung der bestehenden Wohnqualität\n(Maßnahme muss den Wert der bestehenden Ausstattung entsprechend der Nutzungsdauer klar übersteigen / Maßnahmen erhöhen die laufzeitverlängernde Restnutzungsdauer)\nWird eine Modernisierung in Eigenleistung erbracht, darf diese nicht als werterhöhend angesetzt werden. Die Modernisierungsmaßnahme muss von qualifizierten Betrieben durchgeführt werden.\nAndere Finanzierungsbedürfnisse fallen unter Renovierungsmaßnamen\nGrundsatz:\nMaßnahmen < 30.000 € sind generell Renovierungsmaßnahmen"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht akzeptiert"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, L-Bank"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1- 15"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Neben dem zu finanzierenden Objekt kann max. ein weiteres Sicherungsobjekt in die Finanzierung aufgenommen werden.\nSicherstellung Zusatzsicherheit\n• Das Zusatzobjekt darf max. bis 80 % des aktuellen Marktpreises belastet werden.\n• Auf dem Zusatzobjekt muss mindestens eine Grundschuld in Höhe von 50.000 € zur dinglichen Sicherstellung eingetragen werden"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird  nicht über die Plattform angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "48"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40150003"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 159, 300, 358, 359"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "• L-Bank Wohnen mit Kind (500)\n• L-Bank Kombi-Darlehen Wohnen mit Klimaprämie (517)\n• L-Bank Wohnung mit Zukunft Neubau mit Fotovoltaik (518)\n• L-Bank Wohnung mit Zukunft Bestand mit Fotovoltaik (519)"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "bei Einnahmen aus anderen Einkunftsarten > nicht selbstständige Arbeit ist Voranfrage zu stellen\nneben dem zu finanzierenden Objekt kann max. ein weiteres Sicherungsobjekt aufgenommen werden Zusatzobjekt max. bis 80 % BLA"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,0"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Gegen Aufpreis in Höhe von derzeit 0,05 %-Punkte auf die Tableau-Kondition, kann ein Tilgungskorridor unter folgenden Parametern vereinbart werden:\nTilgungsänderung innerhalb eines festen Tilgungskorridors, welcher den vereinbarten Tilgungssatz plus 3 %-  Punkte umfasst (Beispiel: vereinbarter Tilgungssatz = 2 %; Tilgungskorridor beträgt 2 – 5 %)\nDie Regeltilgung darf die Festzinslaufzeit nicht verkürzen. Beispiel: 10 % Tilgung bei einer Festzinslaufzeit von 10 Jahren, darunter fallen Volltilger-Darlehen (d. h. bei Volltilger-Darlehen ist kein Tilgungskorridor möglich)\nEine Erhöhung bzw. Herabsetzung der Tilgung innerhalb des vertraglich vereinbarten Tilgungskorridors ist eine „schlichte“ Vertragsänderung und bedarf damit keines neuen Verbraucherdarlehensvertrags\nBeschränkung der Anzahl der Tilgungsänderungen auf eine Änderung pro Kalenderjahr\nKeine Festlegung eines festen Zeitpunktes für die Änderung der Tilgung"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "neben dem zu finanzierenden Objekt kann max. ein weiteres Sicherungsobjekt aufgenommen werden\nZusatzobjekt max. bis 80 % BLA"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora - Sparkassen nutzen überwiegend Lora Speed (on-geo) zur Objektbewertung"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein - Kauf von Objekten in einer Anlage \"betreutes Wohnen\" nicht möglich"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Der Kreditnehmer ist oder wird wohnhaft im Landkreis Ludwigsburg oder Pforzheim / Calw inkl. Enzkreis\n(Finanzierungs- / Sicherungsobjekt wird nicht betrachtet)\n- oder -\nDer Kreditnehmer ist oder wird wohnhaft in Stuttgart\nund das Finanzierungs- / Sicherungsobjekt liegt\nim Landkreis Ludwigsburg, Stuttgart oder Pforzheim / Calw inkl. Enzkreis\n- oder -\nDas Finanzierungs- / Sicherungsobjekt liegt im Landkreis Ludwigsburg, Stuttgart\noder Pforzheim / Calw inkl. Enzkreis\n(Wohnort des Kreditnehmers wird nicht betrachtet)\n \nFinanzierungsanfragen für Sparkassen-Kunden sind unabhängig vom Finanzierungsgebiet\nmöglich. Eine langjährige Kundenverbindung mit einem bestehenden Girokonto\nbildet dafür die Voraussetzung"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Sind Einnahmen aus anderen Einkunftsarten höher als aus nichtselbständiger Arbeit, ist generell eine Voranfrage zu stellen."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "2 (max. 1 HH)"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Keine Finanzierung wenn mehr als 3 fremdfinanzierte Immobilien im Bestand sind"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopien der Vermittler-VVI und des DVV"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "10 Bankarbeitstage"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "a\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "im Hause der Sparkasse oder per Video"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per E-Mail"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Darlehensauszahlungen erfolgen ausschließlich auf ein Girokonto bei der Sparkasse.\nSofern kein Girokonto vom Darlehensnehmer bei der Sparkasse vorhanden ist, kann das Baugirokonto zur Abwicklung eröffnet werden. Dafür gelten besondere Bedingungen zusätzlich zu den Bedingungen der Giro-Produktvariante „Classic“ – weitere Einzelheiten auf Nachfrage."
+    }
+  },
+  "company_id": "cad51df2647f3a91fd69f50d561b239b",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/cad51df2647f3a91fd69f50d561b239b",
+  "bank_category": "Sparkassen",
+  "last_modified": "22.01.26",
+  "recent_news": [
+    {
+      "date": "05.10.21",
+      "title": "KSK Ludwigsburg - neuer Leitfaden für Vermittler verfügbar"
+    },
+    {
+      "date": "09.09.21",
+      "title": "KSK Ludwigsburg - Zwischenfinanzierung über BaufiSmart nicht mehr möglich"
+    },
+    {
+      "date": "06.04.21",
+      "title": "KSK Ludwigsburg - Verlängerung Sonderkreditprogramm für private Wohnbaufinanzierungen"
+    },
+    {
+      "date": "02.02.21",
+      "title": "KSK Ludwigsburg - Verlängerung Sonderkreditprogramm für private Wohnbaufinanzierungen"
+    },
+    {
+      "date": "08.06.20",
+      "title": "KSK Ludwigsburg - Sonderkreditprogramm für private Wohnbaufinanzierungen"
+    }
+  ]
+}

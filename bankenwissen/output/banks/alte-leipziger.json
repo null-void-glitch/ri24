@@ -1,0 +1,461 @@
+{
+  "bank": "Alte Leipziger",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Keine Einschränkungen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90\n10% der Gesamtkosten / mind. 50 TEUR sind als echtes Eigenkapital in die Finanzierung einzubringen und sind nicht durch Eigenleistungen ersetzbar"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90\n10% der Gesamtkosten / mind. 50 TEUR sind als echtes Eigenkapital in die Finanzierung einzubringen und sind nicht durch Eigenleistungen ersetzbar"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Weitere Produkte der Alten Leipziger:\nModernisierungsdarlehen:\n5 TEUR bis 50 TEUR - Ohne Grundbucheintragung, Weitere Informationen siehe KreditSmart und Formular-Center\n\nZinsgarantiemodelle:\n\nDarlehen mit Tilgungsaussetzung gegen BSV\nZins-Garant 15, 20 und 28\nInformationen und Erfassungshinweise in EUROPACE\n\nErgänzungsdarlehen:\n\nSofortdarlehen für Bauherren und Immobilienkäufer (nur wohnwirtschaftliche Verwendung)\nT€ 5 bis T€ 50\nBis maximal 110% von Kaufpreis / Gestehungskosten\nOhne Grundbucheintragung\nErfassung auf der Plattform als externes Darlehen"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 36"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 / 36"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "30.000 - 1.000.000\nÜberschreitung -  Einzelfallprüfung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 TEUR bis 50 TEUR - Ohne Grundbucheintragung"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Individuell je nach Beleihungswertermittlung"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "1-20"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 8, 10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Ja"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "75630001"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 262, 297, 298"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja Auch als Nachrangdarlehen bis max. 72% BLA möglich\nMax. Gesamtdarlehenssumme T€ 400 (incl. Vorlast)"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Anträge werden gestellt bei:\nHamburg: Investitions- und Förderbank Hamburg (IFB-HH)\nSchleswig Holstein: Investitionsbank Schleswig-Holstein (IB-SH) \naber nur in Verbindung mit einem AL-Darlehen"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Fallanlage auf BaufiSmart als Anschlussfinanzierung wie im Neugeschäft"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Es gelten Neugeschäftskonditionen\nSieben Monate vor Ablauf der Zinsbindung erfolgt ein automatischer Versand eines Prolo-Angebotes durch die Alte Leipziger"
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Formlose Anfrage inkl. alter Darlehensnummer\nWenn die Ursprungsfinanzierung durch einen anderen Vermittler eingereicht wurde, wird eine Vollmacht des Kunden bzgl. Betreuerwechsel und Auskunftserteilung benötigt"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "0,1 % pro Laufzeitjahr, max. 1 % (bei aktiver Beteiligung des Vermittlers) abzüglich Overhead"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Weitere Produkte der Alten Leipziger:\nVorausdarlehen mit frei wählbarer Besparung (mind. 1 ‰ der Darlehenssumme pro Monat)"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10 \nKostenfrei: einmal jährlich von bis zu 5 % des Ursprungsdarlehen. Erhöhung auf 10 % gegen Zinsaufschlag möglich\nGegen Zinsaufschlag: 5 Jahre nach Vollauszahlung kann das Darlehen einmal pro Jahr ganz oder teilweise zurückgezahlt werden (ausgenommen: Rückzahlung aus Kreditmitteln; gilt nicht für KfW-Darlehen)"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Nur gegen BSV der Alte Leipziger möglich"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "nach Vollauszahlung des Darlehens"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Nur gegen BSV der Alte Leipziger möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "2 x während der Zinsbindung kostenfrei - möglich innerhalb der Spanne 1-10%\nDas Recht auf Tilgungssatzwechsel ist jeweils zum Beginn eines Monats mit einer Vorankündigung von einem Monat in Anspruch zu nehmen; es kann erstmals nach Vollauszahlung des Kredites in Anspruch genommen werden.\nJeder weitere Wechsel bemisst sich nach dem \"Preis- und Leistungsverzeichnis\""
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "massiv"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Öffentliche Erbbaurechtgeber werden finanziert\nEinzelfallentscheidung bei ETW\nDie Laufzeit des Erbbaurechtes muss die planmäßige Laufzeit des Darlehens mindestens um 10 Jahre übersteigen. Die Mindestrestlaufzeit beträgt unabhängig davon 30 Jahre."
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "49% (Bei Beleihungsauslauf > 80 % kein Gewerbeanteil möglich"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Ab 10 WE bitte Voranfrage"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Keine Begrenzung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "OnGeo"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "nein (bis 600 T€ Finanzierungssumme)"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit\nKeine Einschränkung"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Bis max. 80 % Beleihungsauslauf, bitte Voranfrage\neine reine Baugrundstücksfinanzierung bei der AL ist nur für 2 Jahre möglich\nDie Bauabsicht muss innerhalb der nächsten 2 Jahre stattfinden. Weiterhin wird auch gleich geprüft, ob eine Neubaufinanzierung möglich ist"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "35"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Elterngeld wird angerechnet unter folgenden Bedingungen:\nunmittelbare Aufnahme der beruflichen Tätigkeit nach Ende der Elternzeit\nBestätigung des Arbeitgebers mit Angabe der Wochenstunden und des Gehalts nach Elternzeit\nWillenserklärung des DN, nach der Elternzeit weiter beim Arbeitgeber zu arbeiten"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14 (nachhaltiges Jahreseinkommen / 12 Monate)"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\nabzüglich 10% für Steuern und für Krankenkassenbeiträge falls nicht anders bekannt"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt:  Nein\nKindesunterhalt: Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Bei Renteneintritt muss das Darlehen bis auf 60% des BLW zurückgeführt sein (Maximalauslauf); alternativ sind Ersatzsicherheiten zu stellen"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Negativeintragungen in der Schufa führen zur Ablehnung"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "bei nachhaltigem Einkommen möglich"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Bei Renteneintritt muss das Darlehen bis auf 60% des BLW zurückgeführt sein (Maximalauslauf); alternativ sind Ersatzsicherheiten zu stellen"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Möglich: Nur wenn der Ratenkredit ursprünglich wohnwirtschaftlich verwendet wurde"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopie Vermittler - VVI sowie Darlehensvermittlungsvertrag"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "möglich"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per E-Mail oder Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per E-Mail oder Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent\nSonstiges - Vertragserstellung erfolgt durch die Alte Leipziger"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per E-Mail oder Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    }
+  },
+  "company_id": "9cf4c209e458fc7932e9eecc254c95cb",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/9cf4c209e458fc7932e9eecc254c95cb",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "05.05.26",
+      "title": "Alte Leipziger - Wartungsarbeiten verlängert!: Einschränkung BaufiSmart bis mindestens 06.05.2026"
+    },
+    {
+      "date": "04.05.26",
+      "title": "Alte Leipziger - Wartungsarbeiten verlängert!: Einschränkung BaufiSmart vom 01.05.2026 - 05.05.2026 13 Uhr"
+    },
+    {
+      "date": "04.05.26",
+      "title": "Alte Leipziger – Attraktive Konditionen und erweiterte Tarifoptionen"
+    },
+    {
+      "date": "30.04.26",
+      "title": "Alte Leipziger - Wartungsarbeiten: Einschränkung BaufiSmart vom 01.05.2026 - 04.05.2026 13 Uhr"
+    },
+    {
+      "date": "30.04.26",
+      "title": "Alte Leipziger - Konditionssenkung zum 04.05.2026"
+    }
+  ]
+}

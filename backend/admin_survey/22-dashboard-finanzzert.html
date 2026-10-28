@@ -1,0 +1,2359 @@
+<!DOCTYPE html><html lang="de"><head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    <style>hr {
+            margin: 10px 0;
+        }
+
+        .flot-chart-content {
+            width: 100%;
+            height: 100%;
+        }</style>
+</head>
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=4xmas56fow"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=4xmas56fow">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=4xmas56fow"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=4xmas56fow"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu active open">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=4xmas56fow"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=4xmas56fow"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=4xmas56fow"> <span>Baufinanzierung</span> </a></li><li class="active"><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=4xmas56fow"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=4xmas56fow"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=4xmas56fow"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=4xmas56fow"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=4xmas56fow"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=4xmas56fow"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=4xmas56fow"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=4xmas56fow"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=4xmas56fow"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=4xmas56fow"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=4xmas56fow"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=4xmas56fow"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=4xmas56fow"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=4xmas56fow"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=4xmas56fow"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=4xmas56fow"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=4xmas56fow"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=4xmas56fow"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=4xmas56fow"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=4xmas56fow"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=4xmas56fow"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=4xmas56fow"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=4xmas56fow"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=4xmas56fow"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=4xmas56fow"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=4xmas56fow"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=4xmas56fow"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=4xmas56fow"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=4xmas56fow"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=4xmas56fow"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=4xmas56fow"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=4xmas56fow"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=4xmas56fow"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=4xmas56fow">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=4xmas56fow">.</li>
+    </ul>
+</div>        <div id="content">
+            <div id="content-header">
+                <h1>Dashboard - RI24 SEO</h1>
+            </div>
+            <div id="breadcrumb">
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=4xmas56fow" title="Home"><span class="icon"></span> Home</a>
+                <a href="../../../../../adm/individuell/dashboard.php?admsess=4xmas56fow" title="Dashboard">Dashboard</a>
+                <a href="../../../../../adm/individuell/master/dashboard/finanzzert/index.php?admsess=4xmas56fow" class="current" title="Finanzzertifiakt">Finanzzertifikate</a>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <h5>Anzahl Finanzzertifikats-Anfragen</h5>
+                            </div>
+                            <div class="widget-content">
+                                <div class="row-fluid" style="margin-top:0;margin-bottom:20px;">
+                                    <form id="dashboard-finanzzert" action="https://backend.regionalimmobilien24.de/adm/helper/ajax/dashboard/" method="post">
+                                        <div class="span2">
+                                            <p>Anzahl: <span class="label counter">9</span></p>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">
+                                                <select name="regioncode">
+                                                    <option value="">Alle Regionen</option>
+                                                                                                            <option value="aai24">Aachen-Eifelimmobilien24</option>
+                                                                                                            <option value="ami24">Altmarkimmobilien24</option>
+                                                                                                            <option value="ai24">Anhaltimmobilien24</option>
+                                                                                                            <option value="abi24">Augsburgimmobilien24</option>
+                                                                                                            <option value="bsi24">Bayerisch-schwabenimmobilien24</option>
+                                                                                                            <option value="bdi24">Bergisches-Dreieckimmobilien24</option>
+                                                                                                            <option value="bgli24">Bergischeslandimmobilien24</option>
+                                                                                                            <option value="bi24">Berlinimmobilien24</option>
+                                                                                                            <option value="bosi24">Bodenseeimmobilien24</option>
+                                                                                                            <option value="brai24">Braunschweigimmobilien24</option>
+                                                                                                            <option value="brei24">Bremenimmobilien24</option>
+                                                                                                            <option value="ci24">Chemnitzimmobilien24</option>
+                                                                                                            <option value="di24">Dortmundimmobilien24</option>
+                                                                                                            <option value="ddi24">Dresdenimmobilien24</option>
+                                                                                                            <option value="dui24">Duisburgimmobilien24</option>
+                                                                                                            <option value="duei24">Düsseldorfimmobilien24</option>
+                                                                                                            <option value="eli24">Elbelandimmobilien24</option>
+                                                                                                            <option value="emsi24">Emslandimmobilien24</option>
+                                                                                                            <option value="efi24">Erfurtimmobilien24</option>
+                                                                                                            <option value="erzi24">Erzgebirgeimmobilien24</option>
+                                                                                                            <option value="eei24">Essenimmobilien24</option>
+                                                                                                            <option value="fi24">Frankfurtimmobilien24</option>
+                                                                                                            <option value="gii24">Giessenimmobilien24</option>
+                                                                                                            <option value="goti24">Göttingenimmobilien24</option>
+                                                                                                            <option value="hai24">Halleimmobilien24</option>
+                                                                                                            <option value="hhi24">Hamburgimmobilien24</option>
+                                                                                                            <option value="hani24">Hannoverimmobilien24</option>
+                                                                                                            <option value="hi24">Harzimmobilien24</option>
+                                                                                                            <option value="hli24">Havellandimmobilien24</option>
+                                                                                                            <option value="hbi24">Heilbronnimmobilien24</option>
+                                                                                                            <option value="hoi24">Holsteinimmobilien24</option>
+                                                                                                            <option value="jei24">Jerichowimmobilien24</option>
+                                                                                                            <option value="ki24">Karlsruheimmobilien24</option>
+                                                                                                            <option value="kai24">Kasselimmobilien24</option>
+                                                                                                            <option value="kiei24">Kielimmobilien24</option>
+                                                                                                            <option value="koei24">Kölnimmobilien24</option>
+                                                                                                            <option value="lwi24">Leineweserimmobilien24</option>
+                                                                                                            <option value="li24">Leipzigimmobilien24</option>
+                                                                                                            <option value="luei24">Lübeckimmobilien24</option>
+                                                                                                            <option value="lli24">Ludwigslustimmobilien24</option>
+                                                                                                            <option value="lbi24">Lüneburgimmobilien24</option>
+                                                                                                            <option value="mbi24">Magdeburgimmobilien24</option>
+                                                                                                            <option value="maii24">Mainzimmobilien24</option>
+                                                                                                            <option value="mani24">Mannheimimmobilien24</option>
+                                                                                                            <option value="mfi24">Mittelfrankenimmobilien24</option>
+                                                                                                            <option value="mri24">Mittelrheinimmobilien24</option>
+                                                                                                            <option value="msi24">Mittelsachsenimmobilien24</option>
+                                                                                                            <option value="mthi24">Mittelthüringenimmobilien24</option>
+                                                                                                            <option value="mi24">Münchenimmobilien24</option>
+                                                                                                            <option value="mli24">Münsterlandimmobilien24</option>
+                                                                                                            <option value="nbi24">Niederbayernimmobilien24</option>
+                                                                                                            <option value="nri24">Niederrheinimmobilien24</option>
+                                                                                                            <option value="nsai24">Nordsaarlandimmobilien24</option>
+                                                                                                            <option value="nsi24">Nordsachsenimmobilien24</option>
+                                                                                                            <option value="nti24">Nordthueringenimmobilien24</option>
+                                                                                                            <option value="nwmi24">Nordwestmecklenburgimmobilien24</option>
+                                                                                                            <option value="obi24">Oberbayernimmobilien24</option>
+                                                                                                            <option value="ofi24">Oberfrankenimmobilien24</option>
+                                                                                                            <option value="ohi24">Oberhavelimmobilien24</option>
+                                                                                                            <option value="oli24">Oberlausitzimmobilien24</option>
+                                                                                                            <option value="opi24">Oberpfalzimmobilien24</option>
+                                                                                                            <option value="osi24">Oberschwabenimmobilien24</option>
+                                                                                                            <option value="obli24">Oderlandimmobilien24</option>
+                                                                                                            <option value="osni24">Osnabrückimmobilien24</option>
+                                                                                                            <option value="osai24">Ostsaarlandimmobilien24</option>
+                                                                                                            <option value="othi24">Ostthüringenimmobilien24</option>
+                                                                                                            <option value="reki24">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                                            <option value="rski24">Rhein-Siegkreisimmobilien24</option>
+                                                                                                            <option value="rhhi24">Rheinhessenimmobilien24</option>
+                                                                                                            <option value="rni24">Rheinneckarimmobilien24</option>
+                                                                                                            <option value="rpi24">Rheinpfalzimmobilien24</option>
+                                                                                                            <option value="rhti24">Rheintalimmobilien24</option>
+                                                                                                            <option value="roi24">Rostockimmobilien24</option>
+                                                                                                            <option value="rgi24">Ruhrgebietimmobilien24</option>
+                                                                                                            <option value="sui24">Saaleunstrutimmobilien24</option>
+                                                                                                            <option value="sbi24">Saarbrückenimmobilien24</option>
+                                                                                                            <option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                                            <option value="sli24">Salzlandimmobilien</option>
+                                                                                                            <option value="saui24">Sauerlandimmobilien</option>
+                                                                                                            <option value="slwi24">Schleswigimmobilien24</option>
+                                                                                                            <option value="sai24">Schwäbischealbimmobilien24</option>
+                                                                                                            <option value="swwi24">Schwarzwaldimmobilien24</option>
+                                                                                                            <option value="si24">Schwerinimmobilien24</option>
+                                                                                                            <option value="sigi24">Siegerlandimmobilien24</option>
+                                                                                                            <option value="swi24">Spreewaldimmobilien24</option>
+                                                                                                            <option value="sti24">Stuttgartimmobilien24</option>
+                                                                                                            <option value="dai24">Südhessenimmobilien24</option>
+                                                                                                            <option value="smbi24">Südmecklenburgimmobilien24</option>
+                                                                                                            <option value="swti24">Südwestthüringenimmobilien24</option>
+                                                                                                            <option value="wii24">Taunusimmobilien24</option>
+                                                                                                            <option value="tbi24">Teutoburger-Wald-Imobilien24</option>
+                                                                                                            <option value="ti24">Trierimmobilien24</option>
+                                                                                                            <option value="umi24">Uckermarkimmobilien24</option>
+                                                                                                            <option value="ufi24">Unterfrankenimmobilien24</option>
+                                                                                                            <option value="vi24">Vogtlandimmobilien24</option>
+                                                                                                            <option value="vpi24">Vorpommernimmobilien24</option>
+                                                                                                            <option value="wei24">Weseremsimmobilien24</option>
+                                                                                                            <option value="wesi24">Westeifelimmobilien24</option>
+                                                                                                            <option value="wwi24">Westerwaldimmobilien24</option>
+                                                                                                            <option value="wpfi24">Westpfalzimmobilien24</option>
+                                                                                                            <option value="wsai24">Westsaarlandimmobilien24</option>
+                                                                                                            <option value="weti24">Wetterauimmobilien24</option>
+                                                                                                            <option value="zi24">Zwickauimmobilien24</option>
+                                                                                                    </select>
+                                            </label>
+
+                                            <label style="display: inline;">
+                                                <select name="source">
+                                                    <option value="">Gesamt</option>
+                                                    <option value="finzert">Kundenkonto (Dashboard - Anfrage Finanzierungszertifikat + Bewerbermappe - Anfrage Finanzierungszertifikat)</option>
+                                                    <option value="/liste/kaufen/">(alt) Immobilien-Ergebnisliste</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                        <div class="span5">
+                                            <label style="display: inline;">von <input type="text" name="from" value="10.08.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                            <label style="display: inline;">bis <input type="text" name="to" value="10.09.2026" class="datepicker form-control input-sm" data-date-format="dd.mm.yyyy" style=""></label>
+                                        </div>
+                                        <input type="hidden" name="table" value="statdashboard__finanzzert" style="">
+                                        <input type="hidden" name="label" value="finanzzert" style="">
+                                    </form>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="flot-chart">
+                                        <div class="flot-chart-content" id="flot-dashboard-finanzzert" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; inset: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1px; text-align: center;">11.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 109px; text-align: center;">14.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 219px; text-align: center;">17.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 328px; text-align: center;">20.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 438px; text-align: center;">23.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 547px; text-align: center;">26.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 656px; text-align: center;">29.08.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 766px; text-align: center;">01.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 875px; text-align: center;">04.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 984px; text-align: center;">07.09.2026</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 95px; top: 280px; left: 1094px; text-align: center;">10.09.2026</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 265px; left: 0px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 199px; left: 0px; text-align: right;">1</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 133px; left: 0px; text-align: right;">2</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 66px; left: 0px; text-align: right;">3</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 0px; text-align: right;">4</div></div></div><canvas class="flot-overlay" width="1148" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1148px; height: 300px;"></canvas></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-content nopadding">
+                                <div class="row-fluid">
+                                    <div id="mail-table"><div id="DataTables_Table_3_wrapper" class="dataTables_wrapper" role="grid"><div class=""></div><table class="table table-bordered table-striped table-hover data-table dataTable" id="DataTables_Table_3"><thead><tr role="row"><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-sort="descending" aria-label="Zeit: activate to sort column ascending" style="width: 57px;"><div class="DataTables_sort_wrapper">Zeit<span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="ID: activate to sort column ascending" style="width: 10px;"><div class="DataTables_sort_wrapper">ID<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="Name Vorname: activate to sort column ascending" style="width: 52px;"><div class="DataTables_sort_wrapper">Name Vorname<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="Empfänger: activate to sort column ascending" style="width: 240px;"><div class="DataTables_sort_wrapper">Empfänger<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="Sender: activate to sort column ascending" style="width: 217px;"><div class="DataTables_sort_wrapper">Sender<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="Antwort an: activate to sort column ascending" style="width: 91px;"><div class="DataTables_sort_wrapper">Antwort an<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_3" rowspan="1" colspan="1" aria-label="E-Mail-Text: activate to sort column ascending" style="width: 720px;"><div class="DataTables_sort_wrapper">E-Mail-Text<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr></thead><tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1789022495</span>10.09.2026 08:41:35<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Zoran Potas</td><td class=" ">katrin.johst-mandel@regionalimmobilien24.de</td><td class=" ">zokikolompar15@gmail.com</td><td class=" ">Mail: <br>Tel.: 017675342915</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Zoran</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Potas</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: zokikolompar15@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: 017675342915</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - Bonitaetsauskunft: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2639" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2639</span></a><br> - Bonitaetsauskunft (Seite 2): <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2640" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2640</span></a><br> - Bonitaetsauskunft (Seite 3): <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2641" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2641</span></a><br> - Einkommensnachweis: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2642" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2642</span></a><br> - Einkommensnachweis (Seite 2): <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2643" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2643</span></a><br> - Einkommensnachweis (Seite 3): <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2644" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2644</span></a><br> - Personalausweis/Reisepass: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2637" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2637</span></a><br> - Mietschuldenfreiheitsbestaetigung: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2638" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/c3a482r4pandmcv_2638</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-10 08:41:35</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788974322</span>09.09.2026 19:18:42<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Tien Tan Cao</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">tientan.cao@gmail.com</td><td class=" ">Mail: <br>Tel.: +49 179 4202687</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Tien Tan</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Cao</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: tientan.cao@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +49 179 4202687</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - Einkommensnachweis: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2630" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2630</span></a><br> - Personalausweis/Reisepass: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2632" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2632</span></a><br> - Mietschuldenfreiheitsbestaetigung: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2631" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/ad8knett75tdz33_2631</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-09 19:18:42</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788954697</span>09.09.2026 13:51:37<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">lars rupprecht</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">Lars.rupprecht@regionalimmobilien24.de</td><td class=" ">Mail: <br>Tel.: 017619810430</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: lars</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: rupprecht</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: Lars.rupprecht@regionalimmobilien24.de</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: 017619810430</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/kxmtp27te68drze.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/kxmtp27te68drze.pdf</span></a>
+                                        
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-09 13:51:36</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788945570</span>09.09.2026 11:19:30<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Lars Rupprecht</td><td class=" ">blibb.bloobb@regionalimmobilien24.de</td><td class=" ">larsrupprecht8@gmail.com</td><td class=" ">Mail: <br>Tel.: 99999</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Lars</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Rupprecht</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: larsrupprecht8@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: 99999</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - Kontoauszüge des letzten Monats: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_868" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_868</span></a><br> - Vermögen / Eigenkapitalnachweise: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_869" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_869</span></a><br> - Bestehende Kreditverträge: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_870" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/mn2kcrhnkt2n6cq_870</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-09 11:19:30</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788419032</span>03.09.2026 09:03:52<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Stefan Berg</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">stefanberg@netcologne.de</td><td class=" ">Mail: <br>Tel.: 022122202727</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Stefan</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Berg</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: stefanberg@netcologne.de</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: 022122202727</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - weitere Dokumente: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2404" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2404</span></a><br> - Bonitaetsauskunft: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2400" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2400</span></a><br> - Einkommensnachweis: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2401" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rh5he9efzvuvr4z_2401</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-03 09:03:52</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1788277911</span>01.09.2026 17:51:51<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Howon Melanie</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">howonmelanie61@gmail.com</td><td class=" ">Mail: <br>Tel.: +4915565858616</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Howon</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Melanie</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: howonmelanie61@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +4915565858616</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rvbqpsmf6fwc76m.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/rvbqpsmf6fwc76m.pdf</span></a>
+                                        
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-09-01 17:51:51</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1788188569</span>31.08.2026 17:02:49<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Ibrahim Al-sayed</td><td class=" ">christine.delaMotte@regionalimmobilien24.de</td><td class=" ">sid.az2017@gmail.com</td><td class=" ">Mail: <br>Tel.: +491772309969</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Ibrahim</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Al-sayed</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: sid.az2017@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +491772309969</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/2gzzrmhswyazvnq.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/2gzzrmhswyazvnq.pdf</span></a>
+                                        
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de/ • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-08-31 17:02:49</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1787286094</span>21.08.2026 06:21:34<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Junior lavoisier Tchana tchana</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">junior.lavoisier.jl@gmail.com</td><td class=" ">Mail: <br>Tel.: +49 177 8469670</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Junior lavoisier</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: Tchana tchana</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: junior.lavoisier.jl@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +49 177 8469670</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - weitere Dokumente: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2572" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2572</span></a><br> - weitere Dokumente (Seite 2): <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2573" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2573</span></a><br> - Bonitaetsauskunft: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2569" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2569</span></a><br> - Einkommensnachweis: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2570" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2570</span></a><br> - Personalausweis/Reisepass: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2571" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2571</span></a><br> - Mietschuldenfreiheitsbestaetigung: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2574" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4dewu6wqv39aeen_2574</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 384 - 7602 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-08-21 06:21:34</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX odd"><td class="  sorting_1"><span style="display:none;">1787075025</span>18.08.2026 19:43:45<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Stefan van der Burght</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">stefan.vanderburght@gmail.com</td><td class=" ">Mail: <br>Tel.: +31650504341</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Stefan</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: van der Burght</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: stefan.vanderburght@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +31650504341</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca.pdf</span></a>
+                                        <br><br><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold;">Einzelunterlagen Antragssteller:</span><br><br><br> - Bonitaetsauskunft: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2556" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2556</span></a><br> - Einkommensnachweis: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2554" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2554</span></a><br> - Personalausweis/Reisepass: <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2555" style="TEXT-DECORATION: none; COLOR: #8cc32a;" target="_blank" title="Dokument downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca_2555</span></a>
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de/ • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 164 - 2691 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-08-18 19:43:45</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr><tr class="gradeX even"><td class="  sorting_1"><span style="display:none;">1787074759</span>18.08.2026 19:39:19<br></td><td class=" "><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=" title="Öffnen" target="_blank"></a></td><td class=" ">Stefan van der Burght</td><td class=" ">philipp.steppohn@regionalimmobilien24.de</td><td class=" ">stefan.vanderburght@gmail.com</td><td class=" ">Mail: <br>Tel.: +31650504341</td><td class=" ">
+
+
+    
+    
+    
+    
+        body, .maintable {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        img, a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+            line-height: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body, table, td, p, a, li, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    
+    
+        @media only screen and (max-width: 600px) {
+            .rtable {
+                width: 100% !important;
+            }
+
+            .rtable tr {
+                height: auto !important;
+                display: block;
+            }
+
+            .contenttd {
+                max-width: 100% !important;
+                display: block;
+                width: auto !important;
+            }
+
+            .contenttd:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .hiddentds {
+                display: none;
+            }
+
+            .imgtable, .imgtable table {
+                max-width: 100% !important;
+                height: auto;
+                float: none;
+                margin: 0 auto;
+            }
+
+            .imgtable.btnset td {
+                display: inline-block;
+            }
+
+            .imgtable img {
+                width: 100%;
+                height: auto !important;
+                display: block;
+            }
+
+            table {
+                float: none;
+            }
+
+            .mobileHide {
+                display: none !important;
+            }
+        }
+    
+    
+    
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="left" style="FONT-SIZE: 24px; MARGIN-BOTTOM: 1em; FONT-FAMILY: geneve, arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 37px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        Kundenlogin Finanzierungszertifikat erhalten</p>
+                                    <p align="left" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: left; LINE-HEIGHT: 22px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Kundendaten:</span><br><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Vorname: Stefan</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Nachname: van der Burght</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">E-Mail: stefan.vanderburght@gmail.com</span><br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px;">Telefon: +31650504341</span><br>
+                                        <br>
+                                        <br>
+                                        <span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px; FONT-WEIGHT: bold">Finanzierungsmappe:</span><br><br>
+                                        <a href="https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca.pdf" style="TEXT-DECORATION: none; COLOR: #8cc32a" target="_blank" title="Finanzierungsmappe downloaden"><span style="FONT-SIZE: 16px; LINE-HEIGHT: 25px">https://www.regionalimmobilien24.de/ressource/get/pdf/finanzierungsmappe/4nuxaepcp3eydca.pdf</span></a>
+                                        
+                                    </p>
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    <p align="center" style="FONT-SIZE: 14px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #383838; TEXT-ALIGN: center; LINE-HEIGHT: 18px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        <br>
+                                        <span style="FONT-SIZE: 12px; LINE-HEIGHT: 15px">© Regionalimmobilien24 GmbH<br>
+                                                    <br>
+                                                    Kirchstraße 2, 08523 Plauen • Geschäftsführer: Lars Rupprecht • Ust-ID Nr.: DE312029492 • HRB 31032 Amtsgericht Chemnitz<br>
+                                                    <br>
+                                                    www.regionalimmobilien24.de/ • info(at)regionalimmobilien24.de<br>
+                                                    <br>
+                                                    Telefon: +49 3741 164 - 2691 • Fax: +49 3741 164 - 6065<br>
+                                                    <br><br>2026-08-18 19:39:19</span></p>
+                                    <p align="center" style="FONT-SIZE: 10px; MARGIN-BOTTOM: 1em; FONT-FAMILY: arial, helvetica, sans-serif; MARGIN-TOP: 0px; COLOR: #5f950a; TEXT-ALIGN: center; LINE-HEIGHT: 12px; BACKGROUND-COLOR: transparent; mso-line-height-rule: exactly">
+                                        &nbsp;</p>
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        &nbsp;
+    
+
+
+
+
+</td></tr></tbody></table><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix"><div class="dataTables_filter" id="DataTables_Table_3_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_3" style=""></label></div></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>            </div>
+        </div>
+        
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script><script>
+    $(document).ready(function () {
+
+        // Datepicker
+        $('.datepicker').datepicker({}).on('changeDate', function (e) {
+            $(this).change();
+            $(this).datepicker('hide');
+        });
+        $.datepicker.setDefaults($.datepicker.regional["de"]);
+
+    });
+
+    $('select[name="regioncode"],select[name="source"],input[name="from"],input[name="to"]').on('change', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        let form = $(this).closest('form'),
+            url = form.attr('action');
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: form.serialize(),
+            dataType: "json",
+            success: function (data) {
+                form.find('.counter').html(data.data1.count)
+                generateMultipleCharts(data.data1, data.data2, ((data.data3) ? data.data3 : null));
+            }
+        });
+        return false;
+    }).trigger('change')
+
+
+    function generateMultipleCharts(data1, data2, data3) {
+        let id = "#flot-dashboard-" + data1.label;
+
+        let datas = [{
+            label: data1.label,
+            data: data1.data,
+
+            lines: {
+                show: true
+            },
+            points: {
+                show: true
+            }
+        }, {
+            label: data2.label,
+            data: data2.data,
+
+            bars: {
+                show: true,
+                barWidth: 10 * 10 * 10 * 1000 * 10
+            }
+        }];
+
+        let options = {
+            xaxis: {
+                mode: "time",
+                timeBase: "milliseconds",
+                timeformat: "%d.%m.%Y",
+                minTickSize: [1, 'day'],
+                timezone: "browser"
+            },
+            yaxis: {
+                minTickSize: 1,
+                tickDecimals: 0
+            },
+            colors: ["#1ab394", "#FF0000"],
+            grid: {
+                color: "#999999",
+                hoverable: true,
+                clickable: true,
+                tickColor: "#D4D4D4",
+                borderWidth: 0
+            },
+            legend: {
+                show: false
+            },
+            tooltip: true,
+            tooltipOpts: {
+                content: "Datum: %x | Anzahl: %y"
+            }
+        };
+
+        let plot = $.plot($(id), datas, options);
+
+        if (data3 !== null) {
+            let string = '<table class="table table-bordered table-striped table-hover data-table dataTable"><thead><tr> <th>Zeit</th><th>ID</th><th>Name Vorname</th><th>Empfänger</th><th>Sender</th><th>Antwort an</th><th>E-Mail-Text</th></tr></thead><tbody>';
+            for (let i = 0; i < data3.data.length; i++) {
+                let obj = data3.data[i];
+                string += '<tr class="gradeX">';
+                for (let j = 0; j < obj.length; j++) {
+                    string += '<td>' + obj[j] + '</td>';
+                }
+                string += '</tr>';
+            }
+            string += '</tbody></table>';
+            $('#mail-table').html(string);
+            $('.data-table').dataTable({
+                "bJQueryUI": true,
+                "sPaginationType": "full_numbers",
+                "sDom": '<"">t<"F"fp>',
+                "aaSorting": [[0, 'desc']],
+                scrollY: 300,
+                paging: false,
+                "bPaginate": false
+            });
+        } else {
+            $('#mail-table').html('');
+        }
+    }
+</script>
+
+<div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">August 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">26</td><td class="day old">27</td><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day old">31</td><td class="day">1</td></tr><tr><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td></tr><tr><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td></tr><tr><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td></tr><tr><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td></tr><tr><td class="day">30</td><td class="day">31</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month active">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">September 2026</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old">30</td><td class="day old">31</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td><td class="day">5</td></tr><tr><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day active">10</td><td class="day">11</td><td class="day">12</td></tr><tr><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td><td class="day">19</td></tr><tr><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td><td class="day">26</td></tr><tr><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day new">1</td><td class="day new">2</td><td class="day new">3</td></tr><tr><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td><td class="day new">9</td><td class="day new">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2026</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month active">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2020-2029</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year active">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year old">2030</span></td></tr></tbody></table></div></div><div id="flotTip" style="display: none; position: absolute; background: rgb(255, 255, 255); z-index: 100; padding: 0.4em 0.6em; border-radius: 0.5em; font-size: 0.8em; border: 1px solid rgb(17, 17, 17); white-space: nowrap;"></div></body></html>

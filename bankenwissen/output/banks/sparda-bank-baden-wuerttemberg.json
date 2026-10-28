@@ -1,0 +1,456 @@
+{
+  "bank": "Sparda-Bank Baden-Württemberg",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ab 80 - Nebenkosten müssen immer aus echtem Eigenkapital erbracht werden"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100\nAchtung: Bei OneClick:\nBLA bis 95 % bei Eigennutzung"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung - Nebenkosten müssen immer aus echtem Eigenkapital erbracht werden"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90\nAchtung: Bei OneClick\nBLA bis 85 % bei Kapitalanlegern."
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Tipp zur Beleihung:\n \nSplittung der Darlehensbausteine:\nberücksichtigt den Beleihungsauslauf individuell für die einzelnen Bausteine. Dies führt oftmals dazu, dass für den länger laufenden Baustein ein besserer Beleihungsauslauf berücksichtigt wird und somit  die Kondition günstiger ist, als für den kürzeren Baustein\n \nSonstiges zu Bürgschaft:\nWenn der Fall eintritt, dass dem Bauträger die Finanzierungsbestätigung als Nachweis nicht ausreicht, erhebt die Bank für die Ausstellung einer Bürgschaftsurkunde eine Gebühr von 1 % der Bürgschaftssumme."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 36\nBZ-freie Zeit läuft ab Beantragung. (Bearbeitungszeit wird abgezogen)"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 /36\nBZ-freie Zeit läuft ab Beantragung. (Bearbeitungszeit wird abgezogen)"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "mind. 50.000\nmax. 2.000.000"
+    },
+    "entry": {
+      "name": "Entry (digitaler Kontocheck von Europace)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nVorteil bei Nutzung Entry: Verzicht auf Unterlagen zur Bonität"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten. (Anschlussfinanzierungen nur über Annuitäten-Darlehen im Rahmen der BZ-freien Zeit) \n\nAbtretungen von Grundschulden der Wüstenrot Bausparkasse, BBBank und der APO sind nicht möglich. Löschung und Neueintragung sind erforderlich."
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nicht möglich"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten, nur wohnwirtschaftlich"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bitte vorab eine Voranfrage stellen\nals Anschlussfinanzierung darstellen und einreichen\nVorlasten der Sparda BW Darlehen müssen als Vorlast berücksichtigt werden"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht akzeptiert\nWenn die Kunden das Eigenkapital für die Nebenkosten haben, kann in Einzelfallprüfung ein RK zur Beleihungsauslauf-Verbesserung eingebaut werden. Erfassung RK bei \"externe Darlehen\" (Voranfrage nötig)\nNachrangdarlehen staatlicher Förderinstitute möglich. (vorher anfragen)"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja\nProdukteigenschaften und Pflichtunterlagen entnehme gerne den in MyQ hinterlegten Dokumenten"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "möglich - Wenn nach Fertigstellung der Neubauvorhabens ein Darlehensteilbetrag übrig bleibt, kann dieser zur sofortigen Verwendung als Sondertilgung ausgezahlt werden. Maximal in Höhe der vertraglich vereinbarten Sondertilgungsoption.  Darüber hinaus fällt eine Nichtabnahmeentschädigung an. Eine Auszahlung zur freien Verwendung ist nicht möglich.  (Sondertilgungsoption nicht bei Volltigerdarlehen möglich)"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5-30\nTA-Darlehen: max. 20\nOneClick: max. 20 Jahre"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten, nur bei Verkaufserlösen, nur mit langfristigem Darlehen kombinierbar - keine Zwifi für öffentliche Mittel (L-Bank)\n\nMaximale Laufzeit von 18 Monaten\nJederzeit vorzeitige kostenfreie Rückzahlung möglich\nBereitstellungszinsen analog anderer Darlehen\nMaximale Darlehenssumme: vdp- Martktwert abzgl. evtl. Restvaluten wird zugrunde gelegt, wenn noch kein notarieller Vorkaufvertrag vorliegt\n\nErfassungshinweis:\n\nEintragung einer Grundschuld auf dem zu verkaufenden Objekt -- daher nicht \"verkaufen\" , sondern \"als Zusatzsicherheit\" auswählen. \nBeim Finanzierungswunsch wird wie gewohnt die Zwifi erfasst, der Rotfall (aufgrund \"noch benötigte Darlehen\") soll gem. Sparda BW angefragt werden.\nZusatz: Laut Sparda BW muss beim Voranfragen notiert werden, dass es sich hierbei um einen Verkauf des weiteren Objektes handelt und die Rothinweise aufgrund der Darstellung erscheinen, sonst Ablehnung Voranfrage\nSofern ein notarieller Verkaufsvertrag vorliegt, akzeptiert die Sparda die Abtretung der Auszahlungsansprüche\nAnsatz einer fiktiven Miete beim Zwifi-Objekt ist nicht möglich"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "über Plattform nicht möglich nur über Filialen/Videoberatung - keine Verprovisionierung"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "wird nicht angeboten"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41280008"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 159, 261, 297, 298, 300, 308\nBeim KFW Programm 261 kann bei der Sparda-Bank Baden-Württemberg zusätzlich zum KFW Darlehen auch der KlimaKreditPlus als Kombination angeboten werden, um den maximalen Vorteil für die Kunden sicherzustellen. \nKfW Bankenwechsel - wird nicht angeboten\nSollte die Finanzierung nachträglich nicht zustande kommen, führt die Sparda einen Hausbankenwechsel durch. Hierzu benötigen sie den eindeutigen Kundenauftrag."
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja, wird akzeptiert"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": ""
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 20\nMindestbetrag 2.500 EUR (Je nach Darlehenssumme Aufteilung möglich)\nKeine Sondertilgungsoption für Schnelltilgerdarlehen/Volltilgerdarlehen"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Beleihungsauslauf < 90 %: 1,0% \nSelbstnutzern und Kapitalanlegern: 1 %\n> 90% bis 100 %: 2,5%.\nDer Mindesttilgungssatz wird bei entsprechendem Beleihungsauslauf automatisch angepasst"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Unbedingt angeben - Ansonsten wählt die Sparda den im Vorschlag hinterlegten Tilgungsbeginn"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "TW-Wunsch muss in den Präferenzen angegeben werden. Aufschlag wird automatisch gezogen. Anfangstilgung darf nicht unterschritten werden und 3 x Wechsel bis max. 5% möglich. Nicht möglich bei Volltilgern."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Grundsätzlich werden Unterlagen von 1000hands akzeptiert. \nBei Objekten BJ >1970 sollten allerdings Originale vorgelegt werden.\n \nPfandtausch:\nKund:innen ist/sind bereits Eigentümer des neu zu besichernden Objektes (= im Grundbuch als Eigentümer eingetragen) \n Es gilt mindestens die gleiche Werthaltigkeit (aktueller Stand ist zu betrachten, nicht zukünftig nach Fertigstellung eines Neubaus) \n Es sind keine Vorlasten eingetragen \nwenn der Pfandtausch nach vollständiger Darlehensauszahlung beantragt wird, können sich eure Kund:innen direkt an die Sparda wenden, Einbindung des Kundenberaters aber möglich und Kundenentscheidung\nSicherungen über Guthaben werden nicht akzeptiert, für den Ersatz ist stets eine Grundschuld bereitzustellen"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "in BW mit maximal 60% BLA"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Nachweis auf Sparda BW Formular. Bis 20 TEUR reichen die Kundenunterschriften. Ab 20 TEUR Bestätigung vom Bauleiter/Architekten erforderlich."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "bis 100% bei Selbstnutzern\n90% bei Kapitalanlegern (Hinweis: keine privaten Erbbaurechtsausgeber)\nRückführung des Darlehens muss 10 Jahre vor Ablauf des Erbpachtvertrages erfolgen\nStillhalteerklärung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "1 qm"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "nur in Baden-Württemberg"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW\nBestandsimmobilien in Holzfertigbauweise sollten vorab angefragt werden um den hausinternen Wert abzugleichen.\nObjekte mit Denkmalschutz werden nur in Baden-Württemberg bis max. 60% finanziert.\n2 Immobilien auf einem Grundstück nicht möglich. Teilung + Wegerecht erforderlich.\nKauf innerhalb der Familie: möglich, Ansatz Wertermittlung durch vdp, Vorzugspreisdifferenz kann als bereits beglichen angesetzt werden."
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp - Es findet grundsätzlich für jedes Beleihungsobjekt eine Außenbesichtigung statt // Grundbuchliche Besicherung ab TEUR 306,7 auf einem Objekt und bei Beleihung von MFH (ab 4 WE) wird ein Objektwertgutachten erstellt. Kosten trägt die Sparda-Bank // Bei Antragstellung ist IMMER das Formular \"Einverständniserklärung im Rahmen der Immobilienbesichtigung\" vollständig ausgefüllt und unterschrieben einzureichen."
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "notwendig ab 600 TEUR"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, guter Auslauf (80%) und in BaWü"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "regional und überregional gemäß Plattformabbildung\nalle Objekte müssen sich im Gebiet befinden"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert\nbis 80 % BLA\nAuszahlung gegen Verpfändung der Auflassungsvormerkung  bei noch zu vermessenden Grundstücken nicht möglich"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "keine wertmindernden Vorlasten (z.B. Nießbrauch, Wohnrecht etc. - Auch nicht mit Rangrücktritt)\nkeine Finanzierung bei eingetragenem Bohr-/Schürfrecht"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierung bis 80% BLA"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "möglich"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz - Bescheid Elterngeld ist in jedem Fall vorzulegen // Wiedereinstieg muss vom Arbeitgeber bestätigt vorliegen. Zeitlich keine Einschränkung, auch 6 Monate in der Zukunft sind ok. Wenn eine Bestätigung vom Arbeitgeber vorgelegt werden kann, aus der hervorgeht wann und in welchem Umfang die Arbeitsstelle wieder aufgenommen wird kann ein Ansatz des künftigen Einkommens erfolgen. Zwischenzeit muss überbrückt werden können (vorhandenes Vermögen)"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12 (Bei Einkommen auf Provisionsbasis wird nur das Fixum berücksichtigt)\nEinnahmen aus befristeten Arbeitsverhältnissen werden nicht akzeptiert. Außer im Einzelfall branchenübliche Befristungen zum Beispiel bei Ärzten\nEinnahmen aus V&V größer als 50% der Einnahmen aus nichtselbstständiger Tätigkeit = nicht finanzierbar."
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "wird nicht angesetzt"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Bluecard möglich, Voranfragen"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "grundsätzlich nein (je nach Branche auf Anfrage)\n\nAusgeschlossen sind: Soldaten auf Zeit"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Krankengeld:\nwird nicht angesetzt. Auch Gehalt während der Wiedereingliederung wird nicht angesetzt.\nKeine Kreditnehmergemeinschaften in Form von Bruder/Schwester oder Eltern/Kinder möglich"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Erstwohnsitz muss in Deutschland liegen\nNicht-EU-Bürger werden rot gescort, können aber im Einzelfall bei der Sparda vorangefragt werden\nAnzahl max. 2\nEigentümer und Darlehensnehmer müssen identisch sein. Wirtschaftliches Interesse der DN muss gegeben sein. Bei Zusatzsicherheiten kann darauf verzichtet werden, hier muss aber ein berechtigtes Interesse bestehen (Familie)\nbei unverheirateten Paaren/Antragstellern müssen Eigentümer und Darlehensnehmer identisch sein \nEhepartner muss bei gesetzlichem Güterstand DN werden, außer bei wichtigem Grund. \nWenn einer der beiden Eheleute Selbständig ist, ist das keine ausreichende Begründung."
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? - ja\nAkzeptierte Währung? - EUR, CHF\nWohnsitz & Gehaltsbezug im Ausland? - nein\nHinweis -  10% Abschlag für Währungsrisiko; Angestellte die vom Arbeitgeber ins Ausland entsendet werden sind nicht finanzierbar. Lebensmittelpunkt und Wohnsitz muss in Deutschland sein."
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "möglich"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Rückführung des Darlehens bis zum 80. Lebensjahr"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "nicht möglich"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften: Negative Beurteilung\nnegative Schufa\nBitte beachtet hierzu: Sollte es sich um einen einmaligen Vermerk in der Schufa handeln und dieser mit einen Erledigungsvermerk gekennzeichnet sein, handelt es sich nicht um einen Ablehnungsgrund"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Keine Finanzierung innerhalb der Probezeit\nAusnahme: Probezeit bereits ausgelaufen oder es liegt eine AG-Bestätigung über eine vorzeitige Beendigung der Probezeit vor\nBestätigung des Arbeitgebers liegt vor, dass eine Übernahme nach der Probezeit erfolgt"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "max. Antragsalter: 70 Jahre\nNachhaltige Rückführung des beantragten Darlehens muss durch den Kreditnehmer möglich sein\nfalls keine Rentenprognose vorliegt, muss das Darlehen rechnerisch zum Renteneintritt getilgt sein\nBei Beamten ohne Versorgungsauskunft: Ansatz 71,75% des Nettogehalts"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "nicht möglich"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nicht möglich"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "wichtiger aktueller Hinweis (Stand 04/2026):\n--> Verzicht auf die \"Anlage des Baufi-Verrechnungskontos\" sowie  den \"Auftrag zur Objektbesichtigung\"\nSofern kein Girokonto bei der Sparda-Bank BW eG besteht, wird das externe Konto aus dem Kreditantrag bzw. der Selbstauskunft entnommen und direkt per SEPA-Mandat im Darlehensvertrag hinterlegt. Die Darlehensauszahlung erfolgt direkt über das jeweilige Darlehenskonto (auch bei Förderdarlehen).\nBestehende Verrechnungskonten werden weitergeführt und nach Vollauszahlung aufgelöst (alter Prozess).\nBlankoauszahlung mit anschl. Rechnungsvorlage: Nach Absprache bis max 10 TEUR möglich.\nAbtretung der KV-Ansprüche: möglich im Rahmen einer Zwischenfinanzierung bei Vorlage des notariellen Verkaufsvertrages\nNach Darlehensauszahlung erfolgt eine Objektbesichtigung (Innen) von der Value AG \noder der revex Immobilienbewertung GmbH."
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "solange sichergestellt werden kann, dass die Verträge inhaltlich verstanden werden"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload im System"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Es findet grundsätzlich für jedes Beleihungsobjekt eine Innenbesichtigung statt.\nBei einer grundbuchlichen Besicherung ab TEUR 600 auf einem Objekt wird ein Objektwertgutachten erstellt. Die Kosten trägt die Sparda-Bank Baden-Württemberg eG.\nDer Auftrag zur Objektbesichtigung wird in den Darlehensvertrag mit eingebunden."
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein\nper Post an Antragsteller"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Gelb-Hinweise:\nGelbhinweis im Vorgang zum einzubringenden Eigenkapital unbedingt beachten, eine Abweichung prüft die Sparda bei jedem Vorgang im Rahmen einer Einzelfallentscheidung \nDer Genossenschaftsanteil wird bei der Sparda BW technisch erst angelegt, wenn die Widerrufsfrist verstrichen ist. Eure Kund:innen haben keinen Nachteil, wenn der Darlehensvertrag nicht zur Stande gekommen ist."
+    }
+  },
+  "company_id": "bdd44efd1a213ba75129e76fcccffb0a",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/bdd44efd1a213ba75129e76fcccffb0a",
+  "bank_category": "Sparda - Banken",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "24.04.26",
+      "title": "Sparda-Bank Baden-Württemberg - Konditionssenkung zum 25.04.2026"
+    },
+    {
+      "date": "23.04.26",
+      "title": "Sparda-Bank Baden-Württemberg - Verzicht Baufi-Verrechnungskonto"
+    },
+    {
+      "date": "10.04.26",
+      "title": "Sparda-Bank Baden-Württemberg - Konditionssenkung zum 11.04.2026"
+    },
+    {
+      "date": "27.03.26",
+      "title": "Sparda-Bank Baden-Württemberg - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "24.03.26",
+      "title": "Sparda-Bank Baden-Württemberg - Konditionserhöhung per sofort"
+    }
+  ]
+}

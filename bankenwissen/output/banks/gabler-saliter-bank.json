@@ -1,0 +1,140 @@
+{
+  "bank": "Gabler-Saliter-Bank",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Als Zusatzsicherheiten kann der Rückkauf aus LV, Guthaben in BSV, Tagesgel und Depots dienen (Depot 60 % des Wertes und Übertragung Depot gewünscht)\n \nEs erfolgen keine Informationen vom Produktgeber über BaufiSmart\nAnfrage über Kreditspezialist/in"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "350.000 bis 3.500.000 €, im Ausnahmefall bis 5 Mio"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 %, obligatorisch für jede Finanzierung\ndafür keine Vorfälligkeitsentschädigung bei vorzeitiger Ablösung"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Laufzeit 1 Monat bis max. 3 Jahre, da ausschließlich Zwischenfinanzierungen angeboten werden"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, auch mehrere und auf reine Grundstücke"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, ausschließlich"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "vdp"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "kein k.o.-Kriterium"
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Start immer mit 3 % Disagio, daher jederzeit kostenfreie Ablöse"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "gemäß Checkliste\nSelbstauskunft der G.-S.-Bank muss zwingend ausgefüllt und eingereicht werden"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kunde muss sich mind. einmal persönlich legitimieren > Kunde muss mind. bis Repräsentanz Pforzheim fahren, Video-Legitimation in Planung"
+    }
+  },
+  "company_id": "f4af9313-bfdc-47a2-bc66-7292fdf7366d",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/f4af9313-bfdc-47a2-bc66-7292fdf7366d",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "30.04.26",
+  "recent_news": [
+    {
+      "date": "07.09.23",
+      "title": "Gabler-Saliter-Bank - Neuer Bankpartner ab sofort > Achtung: Nicht auf BaufiSmart verfügbar"
+    }
+  ]
+}

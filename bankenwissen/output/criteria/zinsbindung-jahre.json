@@ -1,0 +1,1785 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/zinsbindung-jahre",
+  "category": "vAllgemeine Kriterien Baufinanzierung",
+  "criterion_name": "Zinsbindung (Jahre)",
+  "criterion_id": "zinsbindung-jahre",
+  "scraped_at": "2026-05-07T12:13:30.866Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "5 bis 40\nMonatsgenaue Zinsbindungen sind \nnicht möglich."
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "1-20"
+    },
+    {
+      "bank": "AXA",
+      "value": "5 - 30\nKein Volltiger bei 30 Jahren"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "1 - 13"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "5, 10, 15, 20, 25, 30"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "5, 10, 15 Jahre (Volltilger 10 und 15 Jahre)"
+    },
+    {
+      "bank": "BBBank",
+      "value": "5, 10, 15, 20\nBitte beachten: \nBei Darlehen mit 15 und 20 Jahren Zinsbindung wird eine Sollzinsbindung von 10 Jahren vereinbart und die Kundin/der Kunde erhält nach Ablauf der 10 Jahre die Option, mit dem gleichen Zinssatz um weitere 5 (bei 15-jähriger Zinsbindung) bzw. 10 Jahre (bei 20-jähriger Zinsbindung) zu verlängern. Diese Option muss aktiv angenommen werden!"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "1 - 20\nFür Finanzierungen mit Zinsbindung < 5 Jahre ist eine Voranfrage notwendig"
+    },
+    {
+      "bank": "Berliner Volksbank eG",
+      "value": "5 bis 20, Kapitalanleger maximal 10 Jahre Zinsbindung"
+    },
+    {
+      "bank": "BHW",
+      "value": "5, 8, 10, 15, 20"
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "10, 12, 15"
+    },
+    {
+      "bank": "Bordesholmer Sparkasse",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "3-25"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "1-15"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "1 - 20 Jahre, durchgängig"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "5, 10"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "1-10, 15, 20, 25, 30, 35\nEndfällige Darlehen gegen BSV max. 20/1 Jahre/Monat\nUmschuldung fremder Darlehen max. 30 Jahre\nMaximale Darlehenslaufzeit 35 Jahre\n \nNach Ablauf der Zinsbindung Ansatz von 9% Annuität bezogen auf Restschuld"
+    },
+    {
+      "bank": "DKB",
+      "value": "5- 30\n25 und 30 Jahre Zinsbindung nur im Neugeschäft möglich"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "1-10; 15"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "3 - 30"
+    },
+    {
+      "bank": "ERGO",
+      "value": "5 - 30"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "5-20"
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "5, 10"
+    },
+    {
+      "bank": "Gabler-Saliter-Bank",
+      "value": "Laufzeit 1 Monat bis max. 3 Jahre, da ausschließlich Zwischenfinanzierungen angeboten werden"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "1 - 15 Jahre"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "8, 10, 15, 20, 25, 30"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "10 - 40"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "5 oder 10"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "1-20\nlängere Zinsbindung mit LBS Bausparen"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Herner Sparkasse",
+      "value": "5, 6, 7, 8, 9, 10"
+    },
+    {
+      "bank": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "value": "3 - 10"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "5-20, 25, 30"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "1 bis 30"
+    },
+    {
+      "bank": "ING",
+      "value": "1 - 30 Jahre\nDabei sind Zinsbindungen unter 5 Jahren nur in Verbindung mit einer langfristigen Finanzierung möglich."
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "5 - 20"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "5 - 12"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "5-15"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "5-15"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "5-15"
+    },
+    {
+      "bank": "KSK Döbeln",
+      "value": "3-15"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "5-15"
+    },
+    {
+      "bank": "KSK Esslingen-Nürtingen",
+      "value": "1-15"
+    },
+    {
+      "bank": "KSK Göppingen",
+      "value": "5-15"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Heidenheim",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "1 - 30"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "1-10, 15"
+    },
+    {
+      "bank": "KSK Herzogtum Lauenburg",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Limburg",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "1- 15"
+    },
+    {
+      "bank": "KSK Mayen",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "5, 8, 10, 15"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "KSK Nordhausen",
+      "value": "3-25"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "5, 8, 10, 12, 15\nBis zu 20 Jahre Zinsbindung sind aus eigenen Mitteln möglich\no Bis 19 Jahre Zinsbindung sind Sondertilgungen möglich (z.B. 5 %, bereits eingepreist). \no Bei 20 Jahren Zinsbindung sind keine Sondertilgungen möglich"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "5-10"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "5, 8, 10 - 15\nIn Kombintation mit LBS auch länger"
+    },
+    {
+      "bank": "KSK Stendal",
+      "value": "5, 8, 10"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "5 - 15\nZinsbindung > 10 Jahre nur als ausgesetztes Darlehen gegen Bausparvertrag möglich"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "3 - 10"
+    },
+    {
+      "bank": "KSK Tübingen",
+      "value": "1-15"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "1 - 10, 15, 20"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "1-10"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "5 - 20 Zinsfestschreibung und bis zu 35 Jahren Gesamtlaufzeit"
+    },
+    {
+      "bank": "LBS NordOst (vormals LBS Ost)",
+      "value": "10 und 15 Jahre"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "5-13\nLängere Zinsbindungen über MHB, DzHyp, BSH"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "5 - 40 > Annuitätendarlehen\n5 - 30 > Forwarddarlehen\n \nAusnahmen:\n  ·  Münchener Forward\n  ·  Grünes Darlehen\n  ·  Familiendarlehen"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "3-10, 15"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "Nord-Ostsee-Sparkasse",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "5 - 30 Jahre\nEndfälliges Darlehen bis zu 40 Jahren möglich"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "1 - 15 und 20 (nur als Volltilger)"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "5, 10, 15, 20, 25"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "5 - 30"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "5 - 20\nVolltilgerdarlehen: 10 – 20 Jahre"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "3, 5, 10, 15 Jahre\nKombination mit einem tilgungsfreien PSD BauGeld Individual und einem Bausparvertrag mit einer Mindestbesparung von 1,5 Promille über die Bausparkasse Schwäbisch Hall möglich"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "5, 10, 15 und 20 (nur Volltilger)"
+    },
+    {
+      "bank": "PSD München",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "3 - 20"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "2-15 Jahre und 20 Jahre möglich, 10, 15 und 20-J Volltilger möglich"
+    },
+    {
+      "bank": "PSD West",
+      "value": "3 - 15, 20 (nur als Volltilger)"
+    },
+    {
+      "bank": "Raiffeisenbank Augsburger Land West eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "5-15"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "3, 5, 8, 10"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Raiffeisenbank Hohenloher Land eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "4 - 10"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "5-10"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "1-30"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "1-15"
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "1-15"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Haßberge eG",
+      "value": "bis 15"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Oder-Spree eG",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "Rheingauer Volksbank eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "3 - 10"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "5 - 15\n16 - 20 nur in Verbindung mit einem Bausparprodukt"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "12, 15, 20, 25 \n10 Jahre mit 1 - 5 % Tilgung, Volltilger oder alternativ als 12 Jahres-Vorausdarlehen, keine Tilgungsaussetzung gegen Bausparen möglich"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "-"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "5-30\nTA-Darlehen: max. 20\nOneClick: max. 20 Jahre"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "2 - 15 \n2 Jahre nur in Verbindung mit langfristiger Darlehenstranche"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "1 - 15\n20 Jahre als Volltilger"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "1 bis 15"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "1 - 15, 20 und 30 Jahre\nZinsbindungen unter 5 Jahren Sollzinsbindung (auch var. Darlehen) werden nur in Verbindung mit einem langfristigen Darlehen (50 TEUR mit mind. 10 Jahre Sollzinsbindung) oder für Gründstückskäufe finanziert.\n30-jährige ZB  >90 BLA müssen vorher angefragt werden. Da bei diesen Finanzierungen ein BSV zum Angebot erstellt wird"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "5 - 15; 20 (nur Volltilger)"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "5, 10 und 15 Jahre Zinsbindung ab dem Datum der Konditionsvereinbarung\n\nGenerell sind möglich:\n- variable Zinsbindung in Verbindung mit einer langfristigen Finanzierung möglich\n- alle Laufzeiten von 1 bis 10 Jahre\n- 12 und 15 Jahre"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "5 - 10, 15"
+    },
+    {
+      "bank": "Sparkasse Altmark West",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "1 -  15"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "5, 8, 10, 15"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Sparkasse an Ennepe und Ruhr",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "5, 8, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Bensheim",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "5-15"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "1 -  30"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "1-20\nab größer 15 Jahre nur als Volltilger möglich - keine Sondertilgung bei Volltilgern\nFinanzierungen mit 1-2 Jahren Zinsbindungen werden nur angeboten wenn es sich um keine Kaufpreiszwischenfinanzierung handelt. Bei Kaufpreiszwischenfinanzierungen ist die Zwischenfinanzierung zu wählen"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "2, 5, 8, 10, 15, 20"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "2, 5 - 10, 15, 20"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "bis 30 Jahre und die Einbindung der LBS möglich"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "4-15"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Sparkasse Donnersberg",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "4 - 15"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "1 - 15 \nProduktkombination mit LBS auch länger"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "1 - 20\nZinsbindung plus Forwardperiode dürfen in Summe 20 Jahre nicht überschreiten - korrekte Abbildung auf der Plattform ist erfolgt"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "3-20"
+    },
+    {
+      "bank": "Sparkasse Gießen",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "10 - 15"
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "5, 8, 10, 15, 20"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "5, 8, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Herford",
+      "value": "4 - 15"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "2, 15"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "1-4 Jahre: Bitte anfragen\n5-20"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "3, 4, 5, 6, 7, 8, 9, 10"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "5 - 15 Jahre"
+    },
+    {
+      "bank": "Sparkasse Kaiserslautern",
+      "value": "5-15"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "1-10, 15, 20 (Volltilger)"
+    },
+    {
+      "bank": "Sparkasse Kinzigtal",
+      "value": "10, 12, 15, 20"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "5 - 20"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "1 - 15\nZinsbindung plus Forwardperiode dürfen in Summe 15 Jahre nicht überschreiten"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Landshut",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "4-15"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "1-15, 20"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Leverkusen",
+      "value": "5 - 20"
+    },
+    {
+      "bank": "Sparkasse Lörrach-Rheinfelden",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "1-15, 20 Jahre bei Volltilgung"
+    },
+    {
+      "bank": "Sparkasse MagdeBurg",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Mainfranken-Würzburg",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "1, 5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Nordwest",
+      "value": "1-15, 20"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Schwerin",
+      "value": "3, 5,8,10, 15"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "5-10"
+    },
+    {
+      "bank": "Sparkasse Minden-Lübbecke",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "1-10, 15"
+    },
+    {
+      "bank": "Sparkasse Mittelholstein",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "bis 15 Jahre\nKombinationsdarlehen bis 30 Jahre"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "3 - 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "5-20"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "1-10, 13, 15"
+    },
+    {
+      "bank": "Sparkasse Neubrandenburg-Demmin",
+      "value": "5, 8, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "1 - 15\nZinsbindung plus Forwardperiode dürfen in Summe 15 Jahre nicht überschreiten - korrekte Abbildung auf der Plattform ist erfolgt"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "1 - 15 : Forwardfrist und Zinsbindung dürfen in Summe 15 Jahre nicht überschreiten"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "5 - 10, 15"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "2 - 15, 20"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "9-15"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "1-20 (Forwardzeitraum wird in der Zinsbindung berücksichtigt)"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "5 - 10, 15"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "5, 8, 10, 12"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "1-20"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "5 - 10, 15, 20"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "3-15"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "5 - 10; 15"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Passau",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "1 - 12, 15, 20, 25, 30"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse Rhein-Haardt",
+      "value": "5 - 15, 20"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "1-10"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "1 - 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Saarbrücken",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Salem-Heiligenberg",
+      "value": "1-10, 15"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Schwarzwald-Baar",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "5-15"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "10"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "Sparkasse Vogtland",
+      "value": "3, 5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "1 - 10, 12, 15"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "5 -15, 20 Jahre nur als Volltilger"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "1-10"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "1-15"
+    },
+    {
+      "bank": "Sparkasse Westmünsterland",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Sparkasse Wittgenstein",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "1 - 10, 15, 20"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Spreewaldbank eG",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "1-20"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "5, 10, 15, 20"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "1-20"
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "1 -5 >nur ohne Provision\n5- 15"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Stadtsparkasse Rahden",
+      "value": "5, 8, 10"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "5 - 15, 20"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Stadtsparkasse Wedel",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "1-15 & 20 (auch als Volltilger)"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "1-15"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "6-10"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "10 bis 20; 25 und 30"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "5-20"
+    },
+    {
+      "bank": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Brakel",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "1 - 10, 15, 20"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "1 - 5"
+    },
+    {
+      "bank": "Volksbank Allgäu-Oberschwaben",
+      "value": "1 - 12"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "5-20"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "5, 10, 12, 15"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "5-15, ansonsten über Verbund"
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "5, 8, 10"
+    },
+    {
+      "bank": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "value": "3 - 10, 15"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "1 - 10, 12\n12 Jahre nur als TA Variante"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "5, 8, 10"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "wird nicht angeboten"
+    },
+    {
+      "bank": "Volksbank Dreiländereck eG",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Volksbank Dresden-Bautzen eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "1 - 10, 12, 15 (längere Zinsbindungen über Refinanzierungspartner verfügbar)"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "10 und 15\n> 15 Jahre über BSH/DZ-Hyp (Kombi-Finanzierung)"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "4-12 Jahre"
+    },
+    {
+      "bank": "Volksbank eG Oldenburger-Land Delmenhorst (vormals Volksbank Delmenhorst Schierbrok eG)",
+      "value": "1 - 10, höhere Zinsbindung im Verbund"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "1 - 10, längere Festschreibung über Verbundpartner (Kombinatorik)"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Gronau-Ahaus eG",
+      "value": "1 - 10\nAb 10 Jahren nur in Kombi mit BSH"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "2-15"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "5-10, 15"
+    },
+    {
+      "bank": "Volksbank Heinsberg eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "1 - 10\n15 Jahre möglich, muss bei der VB angefragt werden"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "1-24 Jahre"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "1 - 10 (über Verbundpartner bis zu 40 Jahre möglich)"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "1 - 20"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "5, 8, 10, 15, 20"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "1 -  15"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "5-15"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "1, 3, 5, 8, 10, 15"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "5 - 10, 12, 15, 20"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "2 - 15"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Untergrenze: Min. 1 Jahr Zinsbindung (bei Selbstständigen min. 3 Jahre) \nObergrenze: max. 20 Jahre Zinsbindung (bei Selbstständigen max. 15 Jahre)"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "5, 10"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "1 - 10, 13, 15"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "3 - 15"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "1 bis 15 Jahre"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "3 - 10"
+    },
+    {
+      "bank": "Volksbank Rhein-Lippe eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Volksbank Seesen",
+      "value": "1-10"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "Volksbank Stendal eG",
+      "value": "5; 6; 7; 8; 9; 10 (höhere ZB über MHB möglich bitte anfragen)"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "1-10"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "5 - 10, 12 und 15 (bankeigene)\n\ndarüber hinaus über Verbundpartner (R+V und BSH)\n\nGrundsätzliche Vorfinanzierung von Verbunddarlehen über ein bankeigenes Darlehen mit gleichen Konditionen für die Dauer der bereitstellungsfreien Zeit des Verbundproduktes"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "Volksbank Vogtland-Saale-Orla eG",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "5, 8, 10"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "1 - 10\nLängere Zinsbindung bei Weitervermittlung an Verbundpartner möglich"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "5-15"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "1 - 30"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "1-10, max. Laufzeit 35 Jahre"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "5 - 20 (11 - 20 Jahre nur als Volltilger)"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "1 - 12"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "VR-Bank Fläming-Elsterland eG",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "5 - 15 Jahre"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "1-20"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "1-10"
+    },
+    {
+      "bank": "VR Bank Lahn-Dill eG",
+      "value": "5 - 10; 15"
+    },
+    {
+      "bank": "VR-Bank Lausitz",
+      "value": "2 - 10"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "1 - 15, 20"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR-Bank Meißen-Großenhain",
+      "value": "3-15"
+    },
+    {
+      "bank": "VR-Bank Memmingen",
+      "value": "3; 4; 5; 6; 7; 8; 9; 10"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "5 - 10, 12, 15"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "1 - 10, 15"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "5, 10, 15"
+    },
+    {
+      "bank": "VR-Bank Neuburg-Rain",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "5-10"
+    },
+    {
+      "bank": "VR Bank Ostalb",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "5 - 20"
+    },
+    {
+      "bank": "VR Bank Ried-Überwald eG (ehemals Raiffeisenbank Ried eG)",
+      "value": "1-10"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "5 - 15 (Forwardmonate werden für die Zinsbindung angerechnet, \"unechtes Forward\")"
+    },
+    {
+      "bank": "VR Bank Starnberg-Zugspitze eG (vormals VR-Bank Starnberg-Herrsching-Landsberg)",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "10"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "5 - 15, 20"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "3, 5, 8, 10, 15"
+    },
+    {
+      "bank": "VR-Bank Würzburg",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "5 - 20, unter Berücksichtigung des Forward-Zeitraums"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "1 - 15"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "1-10"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "1 - 10\nsedit 18.08.2025 Zinsbindungen > 10 Jahre ausschließlich über Verbundfinanzierung"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "1 - 10"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "5, 8, 10, 12, 15"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "1-12"
+    },
+    {
+      "bank": "Waldeck-Frankenberger Bank eG (zuvor Waldecker Bank eG)",
+      "value": "5 - 15"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "5 - 10"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "3-15"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "3 - 10\n11 - 30 (Zinsbindung > 10 Jahre werden über Verbundpartner abgebildet)"
+    }
+  ]
+}

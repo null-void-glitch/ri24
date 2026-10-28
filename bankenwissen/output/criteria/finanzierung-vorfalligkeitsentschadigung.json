@@ -1,0 +1,865 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/finanzierung-vorfalligkeitsentschadigung",
+  "category": "vAllgemeine Kriterien Baufinanzierung",
+  "criterion_name": "Finanzierung Vorfälligkeitsentschädigung",
+  "criterion_id": "finanzierung-vorfalligkeitsentschadigung",
+  "scraped_at": "2026-05-07T12:12:30.456Z",
+  "banks": [
+    {
+      "bank": "Aachener Bank eG",
+      "value": "Ja, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "ja (innerhalb von T€ 20)"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "nein"
+    },
+    {
+      "bank": "AXA",
+      "value": "Nein"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Nein"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "nein"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "nein"
+    },
+    {
+      "bank": "DKB",
+      "value": "ja"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "Ja"
+    },
+    {
+      "bank": "ERGO",
+      "value": "Nein"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Ja, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "bis 10 TEUR machbar"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Ja"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Ja, innerhalb der max. Beleihungsgrenze"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Ja, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Herner Sparkasse",
+      "value": "ja"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Möglich unter Vorlage des Nachweises der Höhe"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "nein"
+    },
+    {
+      "bank": "ING",
+      "value": "auslaufabhängig, aber möglich"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Eichsfeld",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "KSK Limburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Stendal",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Ja"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "Ja"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "LBS Süd",
+      "value": "Ja"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "Ja"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Nein"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "Ja"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "Ja"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Ja"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "Ja"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Einzelfallentscheidung, abhängig vom Beleihungsauslauf"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "ja, möglich"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "Nein"
+    },
+    {
+      "bank": "PSD West",
+      "value": "Nein"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Salzlandsparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Ja, mit Voranfrage"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Altenburger Land",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Elmshorn",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Kinzigtal",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Leverkusen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Oberlausitz-Niederschlesien",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Südpfalz",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Uckermark",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Unstrut-Hainich",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "Nein"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Wilhelmshaven",
+      "value": "Ja"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Ja"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Wedel",
+      "value": "Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Ja"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Ja"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "Ja"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "im Rahmen der Ablöse"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Nein"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Nein"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "Bei Anschlussfinanzierungen mit \"Übernahme der Vorfälligkeitsentschädigung“ durch Aufnahme eines zusätzlichen Darlehens möglich, aber nur im Realkreditbereich"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Ja, Einzelfallentscheidung"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Ja"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Nein"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "ja"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "ja"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "Einzelfallentscheidung"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "Ja"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": ""
+    }
+  ]
+}

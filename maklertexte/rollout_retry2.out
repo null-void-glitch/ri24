@@ -1,0 +1,1080 @@
+
+=== Starting ci24 ===
+Login ok (Session 8xatv6szcx), 4 Worker-Seiten.
+Region: ci24 (Chemnitz), Slug: /chemnitz/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+123 Makler gefunden.
+
+  [lesen] ADLATUS AKTIENGESELLSCHAFT: 264 W.  (profil_uri: '{region}/anbieter/adlatus-aktiengesellschaft/')
+  [lesen] Alain Reinicke Immobilienagentur: 297 W.  (profil_uri: '{region}/anbieter/alain-reinicke-immobilienagentur/')
+  [lesen] Alexander Kerle wohnmixx.de: 305 W.  (profil_uri: '{region}/anbieter/alexander-kerle-wohnmixx-de/')
+  [lesen] Allegron 2.0 GmbH DIWO Home: leer  (profil_uri: '{region}/anbieter/allegron-gmbh-diwo-home/')
+  [lesen] Andreas Esche Immobilien: 311 W.  (profil_uri: '{region}/anbieter/andreas-esche-immobilienbuero/')
+  [lesen] Andreas Hackert Immobilienmakler: 290 W.  (profil_uri: '{region}/anbieter/andreas-hackert-immobilienmakler/')
+  [lesen] Arnold Immobilienservice GmbH: 294 W.  (profil_uri: '{region}/anbieter/arnold-immobilienservice-gmbh/')
+  [lesen] Arnold Maklerdienste: leer  (profil_uri: '{region}/anbieter/arnold-maklerdienste/')
+  [lesen] Bau- und Immobilienmanagement Thomas Wirth: 303 W.  (profil_uri: '{region}/anbieter/bau-und-immobilienmanagement-thomas-wirth/')
+  [lesen] Bernd Lorenz WOHNCENTER: 313 W.  (profil_uri: '{region}/anbieter/bernd-lorenz-wohncenter/')
+  [lesen] Birkus Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/birkus-immobilien-gmbh/')
+  [lesen] casacompact vermietungsservice GmbH: leer  (profil_uri: '{region}/anbieter/casacompact-vermietungsservice-gmbh/')
+  [lesen] CAWG eG: leer  (profil_uri: '{region}/anbieter/chemnitzer-allgemeine-wohnungsbaugenossenschaft-eg/')
+  [lesen] cegewo Chemnitzer Wohnungsbau GmbH: leer  (profil_uri: '{region}/anbieter/cegewo-chemnitzer-wohnungsbau-gmbh/')
+  [lesen] Chemnitz4you Immobilien & Hausverwaltung Annerose Uhlemann: 311 W.  (profil_uri: '{region}/anbieter/chemnitz-you-immobilien-und-hausverwaltung-annerose-uhlemann/')
+  [lesen] Chemnitzer Gesellschaft für Wohnungsbau mbH: leer  (profil_uri: '{region}/anbieter/chemnitzer-gesellschaft-fuer-wohnungsbau-mbh/')
+  [lesen] Chemnitzer Immobilien & Wohnungsmanagement: 254 W.  (profil_uri: '{region}/anbieter/chemnitzer-immobilien-und-wohnungsmanagement/')
+  [lesen] CHM-Immobilien: leer  (profil_uri: '{region}/anbieter/chm-immobilien/')
+  [lesen] CIC Immobilien GmbH: 273 W.  (profil_uri: '{region}/anbieter/cic-immobilien-gmbh/')
+  [lesen] COMFORT Hausverwaltungs GmbH: leer  (profil_uri: '{region}/anbieter/comfort-hausverwaltungs-gmbh/')
+  [lesen] Consultatio AG: leer  (profil_uri: '{region}/anbieter/consultatio-ag/')
+  [lesen] CUBUS Hausverwaltung Heckers & Weißflog GbR: leer  (profil_uri: '{region}/anbieter/cubus-hausverwaltung/')
+  [lesen] D-Rent Immobilien GbR: leer  (profil_uri: '{region}/anbieter/d-rent-immobilien-gbr/')
+  [lesen] Der IMMO TIP Chemnitz: 313 W.  (profil_uri: '{region}/anbieter/der-immo-tip-chemnitz/')
+  [lesen] DIVA GmbH: leer  (profil_uri: '{region}/anbieter/diva-gmbh/')
+  [lesen] DKB Grund GmbH Chemnitz: 304 W.  (profil_uri: '{region}/anbieter/dkb-grund-gmbh/')
+  [lesen] Elysia Immobilien GmbH: 300 W.  (profil_uri: '{region}/anbieter/elysia-immobilien-gmbh/')
+  [lesen] Engel & Völkers Chemnitz: leer  (profil_uri: '{region}/anbieter/engel-und-voelkers-chemnitz/')
+  [lesen] Fartax - Sachverständigen - und Immobilienbüro Chemnitz: leer  (profil_uri: '{region}/anbieter/fartax-sachverstaendigen-und-immobilienbuero-chemnitz/')
+  [lesen] FASA AG: 294 W.  (profil_uri: '{region}/anbieter/fasa-ag/')
+  [lesen] Fiedler & Fleck Immobiliengesellschaft: leer  (profil_uri: '{region}/anbieter/fiedler-und-fleck-immobiliengesellschaft/')
+  [lesen] FS Beteiligungs- und Mangement GmbH: 314 W.  (profil_uri: '{region}/anbieter/fs-beteiligungs-und-mangement-gmbh/')
+  [lesen] FUNDUS Wohnbau & Handel GmbH: 307 W.  (profil_uri: '{region}/anbieter/fundus-wohnbau/')
+  [lesen] GRILL Immobilien: leer  (profil_uri: '{region}/anbieter/grill-immobilien/')
+  [lesen] Grundstücksverwaltung Claus Kellnberger: 296 W.  (profil_uri: '{region}/anbieter/grundstuecksverwaltung-claus-kellnberger/')
+  [lesen] H-A-S Service GmbH: 278 W.  (profil_uri: '{region}/anbieter/h-a-s-service-gmbh/')
+  [lesen] H-A-S Service Immobilien / Hausverwaltung GmbH: 315 W.  (profil_uri: '{region}/anbieter/h-a-s-service-immobilien-hausverwaltung-gmbh/')
+  [lesen] H-Bau Hengst Immobilien & Verwaltung: 294 W.  (profil_uri: '{region}/anbieter/h-bau-hengst-immobilien-und-verwaltung/')
+  [lesen] Hannelore Holz Immobilienagentur: leer  (profil_uri: '{region}/anbieter/hannelore-holz-immobilienagentur/')
+  [lesen] Hanse Haus GmbH: 293 W.  (profil_uri: '{region}/anbieter/hanse-haus-gmbh/')
+  [lesen] Hausverwaltung / Immobilien Daniel: leer  (profil_uri: '{region}/anbieter/hausverwaltung-immobilien-daniel/')
+  [lesen] Hausverwaltung Heidi Ebner: 305 W.  (profil_uri: '{region}/anbieter/hausverwaltung-heidi-ebner/')
+  [lesen] HDH- Planungs- und Koordinierungs-AG: 297 W.  (profil_uri: '{region}/anbieter/hdh-planungs-und-koordinierungs-ag/')
+  [lesen] Heidrun Gaebel Immobilien: leer  (profil_uri: '{region}/anbieter/heidrun-gaebel-immobilien/')
+  [lesen] Horn und Weinhold Immobilien GmbH: 277 W.  (profil_uri: '{region}/anbieter/horn-und-weinhold-immobilien-gmbh/')
+  [lesen] Hypoconnect - Die Immobilienmakler GmbH & Co KG: leer  (profil_uri: '{region}/anbieter/hypoconnect-die-immobilienmakler-gmbh-und-co-kg/')
+  [lesen] IMAK Immobilien: leer  (profil_uri: '{region}/anbieter/imak-immobilien/')
+  [lesen] IMMO ASLANI: 308 W.  (profil_uri: '{region}/anbieter/immo-aslani/')
+  [lesen] Immo Checker: 288 W.  (profil_uri: '{region}/anbieter/immo-checker/')
+  [lesen] Immobilien- & Verwaltungsbüro Jens Wendt: 296 W.  (profil_uri: '{region}/anbieter/immobilien-und-verwaltungsbuero-jens-wendt/')
+  [lesen] Immobilienbüro Gleß & Meyer GbR: 301 W.  (profil_uri: '{region}/anbieter/immobilienbuero-gless-und-meyer-gbr/')
+  [lesen] Immobilienbüro Müller GmbH: 302 W.  (profil_uri: '{region}/anbieter/immobilienbuero-mueller-gmbh/')
+  [lesen] Immobilienservice Ehrlich Real Estate: leer  (profil_uri: '{region}/anbieter/immobilienservice-ehrlich-real-estate/')
+  [lesen] Immokauer: 313 W.  (profil_uri: '{region}/anbieter/immokauer/')
+  [lesen] Immosmile GmbH: 312 W.  (profil_uri: '{region}/anbieter/immomile-gmbh/')
+  [lesen] IVS Immobilien Monique Schwarze: 293 W.  (profil_uri: '{region}/anbieter/immobilien-vermietung-und-verkauf-monique-schwarze/')
+  [lesen] Joachim Uhle Immobilienmakler: leer  (profil_uri: '{region}/anbieter/joachim-uhle-immobilienmakler/')
+  [lesen] JS Immobilien: 303 W.  (profil_uri: '{region}/anbieter/js-immobilien/')
+  [lesen] JUPITAS Immobilien GmbH: 292 W.  (profil_uri: '{region}/anbieter/jupitas-immobilien-gmbh/')
+  [lesen] Kaiser und Gülden Immobilienmaklergesellschaft bR: leer  (profil_uri: '{region}/anbieter/kaiser-und-guelden-immobilienmaklergesellschaft-br/')
+  [lesen] Karsten Fluhr Immobilien: 306 W.  (profil_uri: '{region}/anbieter/karsten-fluhr-immobilien/')
+  [lesen] kh Hausverwaltung: 298 W.  (profil_uri: '{region}/anbieter/kh-hausverwaltung/')
+  [lesen] Krasemann Immobilien Beratung & Vermittlung GmbH: leer  (profil_uri: '{region}/anbieter/krasemann-immobilien-beratung-und-vermittlung-gmbh/')
+  [lesen] Krause Immobilien- Service: 307 W.  (profil_uri: '{region}/anbieter/krause-immobilien-service/')
+  [lesen] Lammel Immobilien: 300 W.  (profil_uri: '{region}/anbieter/lammel-immobilien/')
+  [lesen] LBS Immobilien GmbH Olaf Schröter: 302 W.  (profil_uri: '{region}/anbieter/lbs-immobilien-gmbh-olaf-schroeter/')
+  [lesen] LBS Ostdeutsche Landesbausparkasse AG: leer  (profil_uri: '{region}/anbieter/lbs-ostdeutsche-landesbausparkasse-ag-in-vertretung-der-lbs-immobilien-gmbh/')
+  [lesen] Lehmann, Steffi Hausverwaltung: leer  (profil_uri: '{region}/anbieter/lehmann-steffi-hausverwaltung/')
+  [lesen] LiCo-Liegenschafts Consult GmbH: leer  (profil_uri: '{region}/anbieter/lico-liegenschafts-consult-gmbh/')
+  [lesen] LIEGENSCHAFTEN CHEMNITZ: 313 W.  (profil_uri: '{region}/anbieter/liegenschaften-chemnitz/')
+  [lesen] Massa Haus GmbH Alain Reinicke: 292 W.  (profil_uri: '{region}/anbieter/massa-haus-gmbh-alain-reinicke/')
+  [lesen] MCI Firma W.Schraps: 304 W.  (profil_uri: '{region}/anbieter/mci-firma-w-schraps/')
+  [lesen] Mierbach Wohnbau GmbH: leer  (profil_uri: '{region}/anbieter/mierbach-wohnbau-gmbh/')
+  [lesen] Monument Immobilienverwaltung GmbH: leer  (profil_uri: '{region}/anbieter/monument-immobilienverwaltung-gmbh/')
+  [lesen] NESTLER & FÖRSTER GmbH: leer  (profil_uri: '{region}/anbieter/nestler-und-foerster-gmbh/')
+  [lesen] NEUBERT Immobilienmanagement GmbH: 266 W.  (profil_uri: '{region}/anbieter/neubert-immobilienmanagement-gmbh/')
+  [lesen] nordpark GmbH & Co. KG: 289 W.  (profil_uri: '{region}/anbieter/nordpark-gmbh-und-co-kg/')
+  [lesen] O.K. Haus- und Immobilienverwaltung GmbH: 305 W.  (profil_uri: '{region}/anbieter/o-k-haus-und-immobilienverwaltung-gmbh/')
+  [lesen] P.H. Immobilien-Beratung: 309 W.  (profil_uri: '{region}/anbieter/p-h-immobilien-beratung/')
+  [lesen] Postbank Immobilien GmbH Mittweida: leer  (profil_uri: '{region}/anbieter/postbank-immobilien-gmbh-2/')
+  [lesen] Profund Immobilienverwaltungs GmbH: 292 W.  (profil_uri: '{region}/anbieter/profund-immobilienverwaltungs-gmbh/')
+  [lesen] Realis Chemnitz Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/realis-chemnitz-immobilien-gmbh-1/')
+  [lesen] Reichel Immobilien-Verwaltungs GmbH: leer  (profil_uri: '{region}/anbieter/reichel-immobilien-verwaltungs-gmbh/')
+  [lesen] Rene Jehmlich Immobilien: 311 W.  (profil_uri: '{region}/anbieter/rene-jehmlich-immobilien/')
+  [lesen] Rene Vogel Immobilienservice & Hausverwaltung: 301 W.  (profil_uri: '{region}/anbieter/rene-vogel-immobilienservice-und-hausverwaltung/')
+  [lesen] Ronald Stopp Immobilien: 271 W.  (profil_uri: '{region}/anbieter/ronald-stopp-immobilien/')
+  [lesen] S.L.-Immotec: 308 W.  (profil_uri: '{region}/anbieter/sl-immotec/')
+  [lesen] S&L Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/s-und-l-immobilien-gmbh/')
+  [lesen] Sächsische Wohnungsgenossenschaft Chemnitz eG: 283 W.  (profil_uri: '{region}/anbieter/saechsiche-wohnungsgenossenschaft-chemnitz-eg/')
+  [lesen] Saxowert Immobilien GmbH & Co. KG: 306 W.  (profil_uri: '{region}/anbieter/saxowert-immobilien-gmbh-und-co-kg/')
+  [lesen] schmalfuss & partner IMMOBILIEN: 293 W.  (profil_uri: '{region}/anbieter/schmalfuss-und-partner-immobilien/')
+  [lesen] Solargreen House Managment GmbH: 263 W.  (profil_uri: '{region}/anbieter/imf-immobilienmanagement-und-facilities-gmbh/')
+  [lesen] Sparkasse Chemnitz: leer  (profil_uri: '{region}/anbieter/sparkasse-chemnitz/')
+  [lesen] Staatsbetrieb Sächsisches Immobilien- und Baumanagement: 263 W.  (profil_uri: '{region}/anbieter/staatsbetrieb-saechsisches-immobilien-und-baumanagement/')
+  [lesen] Stefan Weigel & Ingo Unger Grundstücksgemeinschaft GbR: leer  (profil_uri: '{region}/anbieter/stefan-weigel/')
+  [lesen] Stiegler Immobilien: leer  (profil_uri: '{region}/anbieter/stiegler-immobilien/')
+  [lesen] Stötzner Immobilien: leer  (profil_uri: '{region}/anbieter/stoetzner-immobilien/')
+  [lesen] Strauß Immobilien: 295 W.  (profil_uri: '{region}/anbieter/strauss-immobilien/')
+  [lesen] TAG Immobilien AG: leer  (profil_uri: '{region}/anbieter/tag-immobilien-ag/')
+  [lesen] TG Sachsenimmobilien Chemnitz: leer  (profil_uri: '{region}/anbieter/tg-sachsenimmobilien-chemnitz/')
+  [lesen] TREUREAL Property Management GmbH: leer  (profil_uri: '{region}/anbieter/treureal-property-management-gmbh/')
+  [lesen] Uhlig-Immobilien: leer  (profil_uri: '{region}/anbieter/uhlig-immobilien-2/')
+  [lesen] Ulrich Müller Immobilienservice: 304 W.  (profil_uri: '{region}/anbieter/ulrich-mueller-immobilienservice/')
+  [lesen] Unternehmensberatung Keil - Immobilienverwaltung: leer  (profil_uri: '{region}/anbieter/unternehmensberatung-keil-immobilienverwaltung/')
+  [lesen] Vermietungs-Schwestern Conny Krüger: 294 W.  (profil_uri: '{region}/anbieter/vermietungs-schwestern-conny-krueger/')
+  [lesen] VIA-FINANZ GmbH: 311 W.  (profil_uri: '{region}/anbieter/via-finanz-gmbh/')
+  [lesen] viveto WOHNEN GmbH: 298 W.  (profil_uri: '{region}/anbieter/nagel-und-cie-gmbh/')
+  [lesen] Volksbank Chemnitz Immobiliengesellschaft mbH: 297 W.  (profil_uri: '{region}/anbieter/volksbank-chemnitz-immobiliengesellschaft-mbh/')
+  [lesen] Volles Haus GmbH: leer  (profil_uri: '{region}/anbieter/volles-haus-gmbh/')
+  [lesen] von Lewinski Immobilienvertriebs-GmbH: 298 W.  (profil_uri: '{region}/anbieter/von-lewinski-immobilienvertriebs-gmbh/')
+  [lesen] VON POLL IMMOBILIEN Chemnitz: leer  (profil_uri: '{region}/anbieter/von-poll-immobilien-chemnitz/')
+  [lesen] Wagner Büro Immobilienverwaltung OHG: leer  (profil_uri: '{region}/anbieter/wagner-buero-immobilienverwaltung-ohg/')
+  [lesen] WICON Immobilienservice: 254 W.  (profil_uri: '{region}/anbieter/wicon-immobilienservice/')
+  [lesen] Wirtschaftsconsult Beutnagel & Collegen: 295 W.  (profil_uri: '{region}/anbieter/wirtschaftsconsult-beutnagel-und-collegen/')
+  [lesen] Wohnbörse Schöne: leer  (profil_uri: '{region}/anbieter/wohnboerse-schoene/')
+  [lesen] wohnen in chemnitz gmbh: leer  (profil_uri: '{region}/anbieter/wohnen-in-chemnitz-gmbh/')
+  [lesen] Wohntraumfinder GmbH: 297 W.  (profil_uri: '{region}/anbieter/wohntraumfinder-gmbh/')
+  [lesen] WOHNUNGS-MARKT und Immobilienvermittlung: 307 W.  (profil_uri: '{region}/anbieter/wohnungs-markt-und-immobilienvermittlung/')
+  [lesen] Wohnungsbaugenossenschaft Chemnitz West eG: 259 W.  (profil_uri: '{region}/anbieter/wohnungsbaugenossenschaft-chemnitz-west-eg/')
+  [lesen] Wohnungsbaugenossenschaft Chemnitz-Helbersdorf eG: leer  (profil_uri: '{region}/anbieter/wohnungsbaugenossenschaft-chemnitz-helbersdorf-eg/')
+  [lesen] Wohnungsbörse Erzgebirge Inhaberin: 259 W.  (profil_uri: '{region}/anbieter/wohnungsboerse-erzgebirge-inhaberin/')
+  [lesen] Wohnungsgenossenschaft "EINHEIT" eG Chemnitz: leer  (profil_uri: '{region}/anbieter/wohnungsgenossenschaft-und-quot-einheit-und-quot-eg-chemnitz/')
+  [lesen] Wohnungsshop Chemnitz: 292 W.  (profil_uri: '{region}/anbieter/wohnungsshop/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'ADLATUS AKTIENGESELLSCHAFT' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Alain Reinicke Immobilienagentur' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Alexander Kerle wohnmixx.de' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Andreas Esche Immobilien' → Text nennt 'Andreas Hackert Immobilienmakler' ('andreas')
+  [Fremdname] 'Andreas Hackert Immobilienmakler' → Text nennt 'Andreas Esche Immobilien' ('andreas')
+  [Fremdname] 'Arnold Immobilienservice GmbH' → Text nennt 'Arnold Maklerdienste' ('arnold')
+  [Fremdname] 'Bau- und Immobilienmanagement Thomas Wirth' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Bernd Lorenz WOHNCENTER' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Chemnitz4you Immobilien & Hausverwaltung Annerose Uhlemann' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Chemnitzer Immobilien & Wohnungsmanagement' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'CIC Immobilien GmbH' → Text nennt 'COMFORT Hausverwaltungs GmbH' ('hausverwaltungs')
+  [Fremdname] 'Der IMMO TIP Chemnitz' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'DKB Grund GmbH Chemnitz' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Elysia Immobilien GmbH' → Text nennt 'cegewo Chemnitzer Wohnungsbau GmbH' ('chemnitzer')
+  [Fremdname] 'FASA AG' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'FS Beteiligungs- und Mangement GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'FUNDUS Wohnbau & Handel GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Grundstücksverwaltung Claus Kellnberger' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'H-A-S Service Immobilien / Hausverwaltung GmbH' → Text nennt 'casacompact vermietungsservice GmbH' ('vermietungsservice')
+  [Fremdname] 'H-Bau Hengst Immobilien & Verwaltung' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Hanse Haus GmbH' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Hausverwaltung Heidi Ebner' → Text nennt 'Chemnitz4you Immobilien & Hausverwaltung Annerose Uhlemann' ('hausverwaltung')
+  [Fremdname] 'HDH- Planungs- und Koordinierungs-AG' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Horn und Weinhold Immobilien GmbH' → Text nennt 'cegewo Chemnitzer Wohnungsbau GmbH' ('chemnitzer')
+  [Fremdname] 'IMMO ASLANI' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Immo Checker' → Text nennt 'cegewo Chemnitzer Wohnungsbau GmbH' ('chemnitzer')
+  [Fremdname] 'Immobilien- & Verwaltungsbüro Jens Wendt' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Immobilienbüro Gleß & Meyer GbR' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Immokauer' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Immosmile GmbH' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'IVS Immobilien Monique Schwarze' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'JS Immobilien' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'JUPITAS Immobilien GmbH' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Karsten Fluhr Immobilien' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'kh Hausverwaltung' → Text nennt 'Bau- und Immobilienmanagement Thomas Wirth' ('immobilienmanagement')
+  [Fremdname] 'Krause Immobilien- Service' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Lammel Immobilien' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'LBS Immobilien GmbH Olaf Schröter' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'LIEGENSCHAFTEN CHEMNITZ' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Massa Haus GmbH Alain Reinicke' → Text nennt 'Alain Reinicke Immobilienagentur' ('reinicke')
+  [Fremdname] 'NEUBERT Immobilienmanagement GmbH' → Text nennt 'Bau- und Immobilienmanagement Thomas Wirth' ('immobilienmanagement')
+  [Fremdname] 'nordpark GmbH & Co. KG' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'O.K. Haus- und Immobilienverwaltung GmbH' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'P.H. Immobilien-Beratung' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Profund Immobilienverwaltungs GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Rene Jehmlich Immobilien' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Rene Vogel Immobilienservice & Hausverwaltung' → Text nennt 'Arnold Immobilienservice GmbH' ('immobilienservice')
+  [Fremdname] 'Ronald Stopp Immobilien' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'S.L.-Immotec' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Sächsische Wohnungsgenossenschaft Chemnitz eG' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Saxowert Immobilien GmbH & Co. KG' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'schmalfuss & partner IMMOBILIEN' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Solargreen House Managment GmbH' → Text nennt 'cegewo Chemnitzer Wohnungsbau GmbH' ('chemnitzer')
+  [Fremdname] 'Staatsbetrieb Sächsisches Immobilien- und Baumanagement' → Text nennt 'Bau- und Immobilienmanagement Thomas Wirth' ('immobilienmanagement')
+  [Fremdname] 'Strauß Immobilien' → Text nennt 'Andreas Esche Immobilien' ('andreas')
+  [Fremdname] 'Ulrich Müller Immobilienservice' → Text nennt 'Arnold Immobilienservice GmbH' ('immobilienservice')
+  [Fremdname] 'Vermietungs-Schwestern Conny Krüger' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'VIA-FINANZ GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'viveto WOHNEN GmbH' → Text nennt 'cegewo Chemnitzer Wohnungsbau GmbH' ('chemnitzer')
+  [Fremdname] 'Volksbank Chemnitz Immobiliengesellschaft mbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'von Lewinski Immobilienvertriebs-GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'WICON Immobilienservice' → Text nennt 'Arnold Immobilienservice GmbH' ('immobilienservice')
+  [Fremdname] 'Wirtschaftsconsult Beutnagel & Collegen' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Wohntraumfinder GmbH' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'WOHNUNGS-MARKT und Immobilienvermittlung' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Wohnungsbaugenossenschaft Chemnitz West eG' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Fremdname] 'Wohnungsbörse Erzgebirge Inhaberin' → Text nennt 'Der IMMO TIP Chemnitz' ('chemnitz')
+  [Fremdname] 'Wohnungsshop Chemnitz' → Text nennt 'Andreas Hackert Immobilienmakler' ('immobilienmakler')
+  [Eigenname fehlt] 'MCI Firma W.Schraps' — Keywords ['schraps'] nicht im Text
+Erfolgreich gelesen:   123/123
+Leere Felder:          52
+Duplikat-Gruppen:      1
+Fremdname-Treffer:     68
+Eigenname fehlt:       1
+Zu löschende Texte:    71
+
+  Duplikat ['die h-a-s service gmbh ist']:
+    → H-A-S Service GmbH
+    → Immobilienbüro Müller GmbH
+
+============================================================
+Phase 3: 71 Duplikat-Texte löschen
+============================================================
+  [gelöscht] CIC Immobilien GmbH
+  [gelöscht] Bernd Lorenz WOHNCENTER
+  [gelöscht] Arnold Immobilienservice GmbH
+  [gelöscht] nordpark GmbH & Co. KG
+  [gelöscht] Strauß Immobilien
+  [gelöscht] Wohnungsbaugenossenschaft Chemnitz West eG
+  [gelöscht] Volksbank Chemnitz Immobiliengesellschaft mbH
+  [gelöscht] viveto WOHNEN GmbH
+  [gelöscht] Ronald Stopp Immobilien
+  [gelöscht] IVS Immobilien Monique Schwarze
+  [gelöscht] Andreas Esche Immobilien
+  [gelöscht] Immokauer
+  [gelöscht] Ulrich Müller Immobilienservice
+  [gelöscht] Immo Checker
+  [gelöscht] LIEGENSCHAFTEN CHEMNITZ
+  [gelöscht] FASA AG
+  [gelöscht] H-A-S Service Immobilien / Hausverwaltung GmbH
+  [gelöscht] S.L.-Immotec
+  [gelöscht] Alain Reinicke Immobilienagentur
+  [gelöscht] von Lewinski Immobilienvertriebs-GmbH
+  [gelöscht] Hausverwaltung Heidi Ebner
+  [gelöscht] Der IMMO TIP Chemnitz
+  [gelöscht] Sächsische Wohnungsgenossenschaft Chemnitz eG
+  [gelöscht] Profund Immobilienverwaltungs GmbH
+  [gelöscht] H-A-S Service GmbH
+  [gelöscht] Krause Immobilien- Service
+  [gelöscht] Bau- und Immobilienmanagement Thomas Wirth
+  [gelöscht] Chemnitzer Immobilien & Wohnungsmanagement
+  [gelöscht] Immosmile GmbH
+  [gelöscht] HDH- Planungs- und Koordinierungs-AG
+  [gelöscht] Alexander Kerle wohnmixx.de
+  [gelöscht] H-Bau Hengst Immobilien & Verwaltung
+  [gelöscht] Staatsbetrieb Sächsisches Immobilien- und Baumanagement
+  [gelöscht] WICON Immobilienservice
+  [gelöscht] Immobilien- & Verwaltungsbüro Jens Wendt
+  [gelöscht] Elysia Immobilien GmbH
+  [gelöscht] Saxowert Immobilien GmbH & Co. KG
+  [gelöscht] Solargreen House Managment GmbH
+  [gelöscht] Andreas Hackert Immobilienmakler
+  [gelöscht] schmalfuss & partner IMMOBILIEN
+  [gelöscht] Wohntraumfinder GmbH
+  [gelöscht] Rene Vogel Immobilienservice & Hausverwaltung
+  [gelöscht] Vermietungs-Schwestern Conny Krüger
+  [gelöscht] LBS Immobilien GmbH Olaf Schröter
+  [gelöscht] FUNDUS Wohnbau & Handel GmbH
+  [gelöscht] Chemnitz4you Immobilien & Hausverwaltung Annerose Uhlemann
+  [gelöscht] Wirtschaftsconsult Beutnagel & Collegen
+  [gelöscht] Immobilienbüro Müller GmbH
+  [gelöscht] IMMO ASLANI
+  [gelöscht] Horn und Weinhold Immobilien GmbH
+  [gelöscht] Massa Haus GmbH Alain Reinicke
+  [gelöscht] WOHNUNGS-MARKT und Immobilienvermittlung
+  [gelöscht] VIA-FINANZ GmbH
+  [gelöscht] Lammel Immobilien
+  [gelöscht] Hanse Haus GmbH
+  [gelöscht] JS Immobilien
+  [gelöscht] Immobilienbüro Gleß & Meyer GbR
+  [gelöscht] Grundstücksverwaltung Claus Kellnberger
+  [gelöscht] DKB Grund GmbH Chemnitz
+  [gelöscht] Wohnungsshop Chemnitz
+  [gelöscht] Wohnungsbörse Erzgebirge Inhaberin
+  [gelöscht] Karsten Fluhr Immobilien
+  [gelöscht] Rene Jehmlich Immobilien
+  [gelöscht] P.H. Immobilien-Beratung
+  [gelöscht] JUPITAS Immobilien GmbH
+  [gelöscht] MCI Firma W.Schraps
+  [gelöscht] NEUBERT Immobilienmanagement GmbH
+  [gelöscht] ADLATUS AKTIENGESELLSCHAFT
+  [gelöscht] kh Hausverwaltung
+  [gelöscht] O.K. Haus- und Immobilienverwaltung GmbH
+  [gelöscht] FS Beteiligungs- und Mangement GmbH
+
+============================================================
+Phase 4: 123 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Lammel Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lammel-immobilien/')
+  [Warnung] Impressum für 'Wohnungsbörse Erzgebirge Inhaberin' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wohnungsboerse-erzgebirge-inhaberin/')
+  [Warnung] Impressum für 'ADLATUS AKTIENGESELLSCHAFT' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/adlatus-aktiengesellschaft/')
+  [Warnung] Impressum für 'WICON Immobilienservice' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wicon-immobilienservice/')
+  [befüllt 1] ADLATUS AKTIENGESELLSCHAFT — 287 W. (kein Impressum)
+  [Warnung] Impressum für 'H-A-S Service GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/h-a-s-service-gmbh/')
+  [befüllt 2] Wohnungsbörse Erzgebirge Inhaberin — 289 W. (kein Impressum)
+  [Warnung] Impressum für 'CHM-Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/chm-immobilien/')
+  [befüllt 3] Lammel Immobilien — 293 W. (kein Impressum)
+  [Warnung] Impressum für 'H-Bau Hengst Immobilien & Verwaltung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/h-bau-hengst-immobilien-und-verwaltung/')
+  [befüllt 4] WICON Immobilienservice — 267 W. (kein Impressum)
+  [befüllt 5] H-A-S Service GmbH — 282 W. (kein Impressum)
+  [befüllt 6] CHM-Immobilien — 304 W. (kein Impressum)
+  [Warnung] Impressum für 'Hausverwaltung Heidi Ebner' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hausverwaltung-heidi-ebner/')
+  [befüllt 7] H-Bau Hengst Immobilien & Verwaltung — 295 W. (kein Impressum)
+  [befüllt 8] Volles Haus GmbH — 307 W.
+  [Warnung] Impressum für 'Saxowert Immobilien GmbH & Co. KG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/saxowert-immobilien-gmbh-und-co-kg/')
+  [befüllt 9] Wohnbörse Schöne — 310 W.
+  [Warnung] Impressum für 'Krasemann Immobilien Beratung & Vermittlung GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/krasemann-immobilien-beratung-und-vermittlung-gmbh/')
+  [befüllt 10] Hausverwaltung Heidi Ebner — 296 W. (kein Impressum)
+  [befüllt 11] Saxowert Immobilien GmbH & Co. KG — 299 W. (kein Impressum)
+  [befüllt 12] Krasemann Immobilien Beratung & Vermittlung GmbH — 262 W. (kein Impressum)
+  [befüllt 13] NESTLER & FÖRSTER GmbH — 298 W.
+  [befüllt 14] Kaiser und Gülden Immobilienmaklergesellschaft bR — 298 W.
+  [Warnung] Impressum für 'Wagner Büro Immobilienverwaltung OHG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wagner-buero-immobilienverwaltung-ohg/')
+  [befüllt 15] S&L Immobilien GmbH — 289 W.
+  [befüllt 16] Elysia Immobilien GmbH — 308 W.
+  [befüllt 17] Chemnitzer Gesellschaft für Wohnungsbau mbH — 290 W.
+  [Warnung] Impressum für 'Birkus Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/birkus-immobilien-gmbh/')
+  [befüllt 18] Wagner Büro Immobilienverwaltung OHG — 304 W. (kein Impressum)
+  [befüllt 19] CIC Immobilien GmbH — 312 W.
+  [Warnung] Impressum für 'LBS Ostdeutsche Landesbausparkasse AG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lbs-ostdeutsche-landesbausparkasse-ag-in-vertretung-der-lbs-immobilien-gmbh/')
+  [befüllt 20] VIA-FINANZ GmbH — 285 W.
+  [befüllt 21] CUBUS Hausverwaltung Heckers & Weißflog GbR — 289 W.
+  [Warnung] Impressum für 'Immobilienbüro Müller GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienbuero-mueller-gmbh/')
+  [befüllt 22] Birkus Immobilien GmbH — 303 W. (kein Impressum)
+  [befüllt 23] schmalfuss & partner IMMOBILIEN — 281 W.
+  [Warnung] Impressum für 'LBS Immobilien GmbH Olaf Schröter' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lbs-immobilien-gmbh-olaf-schroeter/')
+  [befüllt 24] LBS Ostdeutsche Landesbausparkasse AG — 301 W. (kein Impressum)
+  [befüllt 25] Immobilienbüro Müller GmbH — 308 W. (kein Impressum)
+  [befüllt 26] Bernd Lorenz WOHNCENTER — 308 W.
+  [Warnung] Impressum für 'Consultatio AG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/consultatio-ag/')
+  [befüllt 27] LBS Immobilien GmbH Olaf Schröter — 315 W. (kein Impressum)
+  [befüllt 28] TAG Immobilien AG — 282 W.
+  [befüllt 29] Strauß Immobilien — 294 W.
+  [befüllt 30] Consultatio AG — 314 W. (kein Impressum)
+  [Warnung] Impressum für 'H-A-S Service Immobilien / Hausverwaltung GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/h-a-s-service-immobilien-hausverwaltung-gmbh/')
+  [befüllt 31] Ronald Stopp Immobilien — 309 W.
+  [befüllt 32] IMMO ASLANI — 284 W.
+  [befüllt 33] Immo Checker — 302 W.
+  [befüllt 34] H-A-S Service Immobilien / Hausverwaltung GmbH — 305 W. (kein Impressum)
+  [befüllt 35] Alain Reinicke Immobilienagentur — 292 W.
+  [Warnung] Impressum für 'Horn und Weinhold Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/horn-und-weinhold-immobilien-gmbh/')
+  [befüllt 36] Mierbach Wohnbau GmbH — 303 W.
+  [befüllt 37] Sächsische Wohnungsgenossenschaft Chemnitz eG — 293 W.
+  [befüllt 38] COMFORT Hausverwaltungs GmbH — 264 W.
+  [befüllt 39] Horn und Weinhold Immobilien GmbH — 312 W. (kein Impressum)
+  [Warnung] Impressum für 'Hanse Haus GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hanse-haus-gmbh/')
+  [befüllt 40] casacompact vermietungsservice GmbH — 297 W.
+  [Warnung] Impressum für 'Stefan Weigel & Ingo Unger Grundstücksgemeinschaft GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/stefan-weigel/')
+  [befüllt 41] Unternehmensberatung Keil - Immobilienverwaltung — 292 W.
+  [Warnung] Impressum für 'Karsten Fluhr Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/karsten-fluhr-immobilien/')
+  [befüllt 42] Hanse Haus GmbH — 280 W. (kein Impressum)
+  [befüllt 43] Stefan Weigel & Ingo Unger Grundstücksgemeinschaft GbR — 259 W. (kein Impressum)
+  [Warnung] Impressum für 'Hannelore Holz Immobilienagentur' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hannelore-holz-immobilienagentur/')
+  [befüllt 44] JS Immobilien — 284 W.
+  [befüllt 45] FUNDUS Wohnbau & Handel GmbH — 313 W.
+  [Warnung] Impressum für 'Fiedler & Fleck Immobiliengesellschaft' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/fiedler-und-fleck-immobiliengesellschaft/')
+  [befüllt 46] Hannelore Holz Immobilienagentur — 274 W. (kein Impressum)
+  [befüllt 47] DKB Grund GmbH Chemnitz — 299 W.
+  [Warnung] Impressum für 'cegewo Chemnitzer Wohnungsbau GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/cegewo-chemnitzer-wohnungsbau-gmbh/')
+  [befüllt 48] Karsten Fluhr Immobilien — 254 W. (kein Impressum)
+  [befüllt 49] TG Sachsenimmobilien Chemnitz — 311 W.
+  [befüllt 50] Fiedler & Fleck Immobiliengesellschaft — 300 W. (kein Impressum)
+  [Warnung] Impressum für 'Arnold Maklerdienste' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/arnold-maklerdienste/')
+  [befüllt 51] cegewo Chemnitzer Wohnungsbau GmbH — 296 W. (kein Impressum)
+  [befüllt 52] Alexander Kerle wohnmixx.de — 314 W.
+  [befüllt 53] Uhlig-Immobilien — 279 W.
+  [Warnung] Impressum für 'kh Hausverwaltung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/kh-hausverwaltung/')
+  [befüllt 54] Arnold Maklerdienste — 302 W. (kein Impressum)
+  [Warnung] Impressum für 'Fartax - Sachverständigen - und Immobilienbüro Chemnitz' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/fartax-sachverstaendigen-und-immobilienbuero-chemnitz/')
+  [befüllt 55] IMAK Immobilien — 310 W.
+  [befüllt 56] Immosmile GmbH — 281 W.
+  [Warnung] Impressum für 'Immobilienservice Ehrlich Real Estate' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienservice-ehrlich-real-estate/')
+  [befüllt 57] kh Hausverwaltung — 306 W. (kein Impressum)
+  [Warnung] Impressum für 'Stiegler Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/stiegler-immobilien/')
+  [befüllt 58] Fartax - Sachverständigen - und Immobilienbüro Chemnitz — 312 W. (kein Impressum)
+  [Warnung] Impressum für 'Immobilienbüro Gleß & Meyer GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienbuero-gless-und-meyer-gbr/')
+  [befüllt 59] Realis Chemnitz Immobilien GmbH — 273 W.
+  [Warnung] Impressum für 'LiCo-Liegenschafts Consult GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lico-liegenschafts-consult-gmbh/')
+  [befüllt 60] Immobilienservice Ehrlich Real Estate — 302 W. (kein Impressum)
+  [befüllt 61] Stiegler Immobilien — 245 W. (kein Impressum)
+  [befüllt 62] Immobilienbüro Gleß & Meyer GbR — 304 W. (kein Impressum)
+  [Warnung] Impressum für 'Joachim Uhle Immobilienmakler' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/joachim-uhle-immobilienmakler/')
+  [Retry] 'LiCo-Liegenschafts Consult GmbH' — kein Namensteil im Text ['liegenschafts', 'consult'] — nochmal (ohne Impressum)
+  [befüllt 63] Wohnungsgenossenschaft "EINHEIT" eG Chemnitz — 315 W.
+  [Warnung] Impressum für 'Heidrun Gaebel Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/heidrun-gaebel-immobilien/')
+  [befüllt 64] IVS Immobilien Monique Schwarze — 296 W.
+  [befüllt 65] Joachim Uhle Immobilienmakler — 291 W. (kein Impressum)
+  [Warnung] Impressum für 'Grundstücksverwaltung Claus Kellnberger' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/grundstuecksverwaltung-claus-kellnberger/')
+  [Warnung] 'LiCo-Liegenschafts Consult GmbH' — nach Retry noch kein Namensteil im Text
+  [befüllt 66] LiCo-Liegenschafts Consult GmbH — 308 W. (kein Impressum)
+  [Warnung] Impressum für 'MCI Firma W.Schraps' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/mci-firma-w-schraps/')
+  [befüllt 67] Heidrun Gaebel Immobilien — 290 W. (kein Impressum)
+  [Warnung] Impressum für 'Hausverwaltung / Immobilien Daniel' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hausverwaltung-immobilien-daniel/')
+  [befüllt 68] Chemnitz4you Immobilien & Hausverwaltung Annerose Uhlemann — 292 W.
+  [Warnung] Impressum für 'Lehmann, Steffi Hausverwaltung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/lehmann-steffi-hausverwaltung/')
+  [befüllt 69] Grundstücksverwaltung Claus Kellnberger — 306 W. (kein Impressum)
+  [Warnung] Impressum für 'Bau- und Immobilienmanagement Thomas Wirth' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/bau-und-immobilienmanagement-thomas-wirth/')
+  [befüllt 70] MCI Firma W.Schraps — 256 W. (kein Impressum)
+  [befüllt 71] Hausverwaltung / Immobilien Daniel — 271 W. (kein Impressum)
+  [Warnung] Impressum für 'Allegron 2.0 GmbH DIWO Home' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/allegron-gmbh-diwo-home/')
+  [befüllt 72] Lehmann, Steffi Hausverwaltung — 311 W. (kein Impressum)
+  [befüllt 73] Bau- und Immobilienmanagement Thomas Wirth — 308 W. (kein Impressum)
+  [Warnung] Impressum für 'S.L.-Immotec' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/sl-immotec/')
+  [befüllt 74] Der IMMO TIP Chemnitz — 295 W.
+  [Warnung] Impressum für 'Rene Vogel Immobilienservice & Hausverwaltung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/rene-vogel-immobilienservice-und-hausverwaltung/')
+  [befüllt 75] Allegron 2.0 GmbH DIWO Home — 306 W. (kein Impressum)
+  [befüllt 76] Rene Jehmlich Immobilien — 279 W.
+  [Warnung] Impressum für 'NEUBERT Immobilienmanagement GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/neubert-immobilienmanagement-gmbh/')
+  [befüllt 77] S.L.-Immotec — 299 W. (kein Impressum)
+  [befüllt 78] Rene Vogel Immobilienservice & Hausverwaltung — 311 W. (kein Impressum)
+  [befüllt 79] Hypoconnect - Die Immobilienmakler GmbH & Co KG — 277 W.
+  [befüllt 80] NEUBERT Immobilienmanagement GmbH — 251 W. (kein Impressum)
+  [befüllt 81] Wohnungsbaugenossenschaft Chemnitz West eG — 287 W.
+  [Warnung] Impressum für 'Krause Immobilien- Service' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/krause-immobilien-service/')
+  [befüllt 82] JUPITAS Immobilien GmbH — 296 W.
+  [befüllt 83] nordpark GmbH & Co. KG — 299 W.
+  [Warnung] Impressum für 'Wohnungsshop Chemnitz' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wohnungsshop/')
+  [befüllt 84] FASA AG — 258 W.
+  [befüllt 85] Krause Immobilien- Service — 299 W. (kein Impressum)
+  [Warnung] Impressum für 'TREUREAL Property Management GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/treureal-property-management-gmbh/')
+  [befüllt 86] Stötzner Immobilien — 315 W.
+  [Warnung] Impressum für 'LIEGENSCHAFTEN CHEMNITZ' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/liegenschaften-chemnitz/')
+  [befüllt 87] Wohnungsshop Chemnitz — 250 W. (kein Impressum)
+  [Warnung] Impressum für 'D-Rent Immobilien GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/d-rent-immobilien-gbr/')
+  [befüllt 88] TREUREAL Property Management GmbH — 314 W. (kein Impressum)
+  [Warnung] Impressum für 'HDH- Planungs- und Koordinierungs-AG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/hdh-planungs-und-koordinierungs-ag/')
+  [befüllt 89] Arnold Immobilienservice GmbH — 300 W.
+  [befüllt 90] LIEGENSCHAFTEN CHEMNITZ — 311 W. (kein Impressum)
+  [Warnung] Impressum für 'von Lewinski Immobilienvertriebs-GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/von-lewinski-immobilienvertriebs-gmbh/')
+  [befüllt 91] D-Rent Immobilien GbR — 270 W. (kein Impressum)
+  [befüllt 92] HDH- Planungs- und Koordinierungs-AG — 276 W. (kein Impressum)
+  [befüllt 93] Andreas Esche Immobilien — 279 W.
+  [Warnung] Impressum für 'Immokauer' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immokauer/')
+  [befüllt 94] von Lewinski Immobilienvertriebs-GmbH — 267 W. (kein Impressum)
+  [Warnung] Impressum für 'Chemnitzer Immobilien & Wohnungsmanagement' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/chemnitzer-immobilien-und-wohnungsmanagement/')
+  [befüllt 95] Solargreen House Managment GmbH — 304 W.
+  [befüllt 96] Postbank Immobilien GmbH Mittweida — 309 W.
+  [Warnung] Impressum für 'wohnen in chemnitz gmbh' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wohnen-in-chemnitz-gmbh/')
+  [befüllt 97] Immokauer — 305 W. (kein Impressum)
+  [befüllt 98] Chemnitzer Immobilien & Wohnungsmanagement — 265 W. (kein Impressum)
+  [Warnung] Impressum für 'Profund Immobilienverwaltungs GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/profund-immobilienverwaltungs-gmbh/')
+  [befüllt 99] wohnen in chemnitz gmbh — 281 W. (kein Impressum)
+  [befüllt 100] CAWG eG — 309 W.
+  [befüllt 101] Profund Immobilienverwaltungs GmbH — 303 W. (kein Impressum)
+  [Warnung] Impressum für 'Ulrich Müller Immobilienservice' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/ulrich-mueller-immobilienservice/')
+  [befüllt 102] Vermietungs-Schwestern Conny Krüger — 303 W.
+  [befüllt 103] FS Beteiligungs- und Mangement GmbH — 280 W.
+  [befüllt 104] Volksbank Chemnitz Immobiliengesellschaft mbH — 278 W.
+  [Warnung] Impressum für 'Massa Haus GmbH Alain Reinicke' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/massa-haus-gmbh-alain-reinicke/')
+  [befüllt 105] Ulrich Müller Immobilienservice — 312 W. (kein Impressum)
+  [befüllt 106] Wohntraumfinder GmbH — 304 W.
+  [befüllt 107] Wohnungsbaugenossenschaft Chemnitz-Helbersdorf eG — 295 W.
+  [Warnung] Impressum für 'Andreas Hackert Immobilienmakler' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/andreas-hackert-immobilienmakler/')
+  [befüllt 108] Massa Haus GmbH Alain Reinicke — 310 W. (kein Impressum)
+  [Warnung] Impressum für 'P.H. Immobilien-Beratung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/p-h-immobilien-beratung/')
+  [befüllt 109] GRILL Immobilien — 291 W.
+  [Warnung] Impressum für 'Engel & Völkers Chemnitz' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/engel-und-voelkers-chemnitz/')
+  [befüllt 110] DIVA GmbH — 315 W.
+  [befüllt 111] Andreas Hackert Immobilienmakler — 258 W. (kein Impressum)
+  [Warnung] Impressum für 'Reichel Immobilien-Verwaltungs GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/reichel-immobilien-verwaltungs-gmbh/')
+  [befüllt 112] P.H. Immobilien-Beratung — 290 W. (kein Impressum)
+  [Warnung] Impressum für 'VON POLL IMMOBILIEN Chemnitz' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/von-poll-immobilien-chemnitz/')
+  [befüllt 113] Engel & Völkers Chemnitz — 302 W. (kein Impressum)
+  [befüllt 114] O.K. Haus- und Immobilienverwaltung GmbH — 296 W.
+  [Warnung] Impressum für 'Wirtschaftsconsult Beutnagel & Collegen' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wirtschaftsconsult-beutnagel-und-collegen/')
+  [befüllt 115] Reichel Immobilien-Verwaltungs GmbH — 266 W. (kein Impressum)
+  [befüllt 116] VON POLL IMMOBILIEN Chemnitz — 271 W. (kein Impressum)
+  [befüllt 117] Staatsbetrieb Sächsisches Immobilien- und Baumanagement — 278 W.
+  [befüllt 118] Wirtschaftsconsult Beutnagel & Collegen — 268 W. (kein Impressum)
+  [befüllt 119] Sparkasse Chemnitz — 291 W.
+  [befüllt 120] viveto WOHNEN GmbH — 289 W.
+  [befüllt 121] Immobilien- & Verwaltungsbüro Jens Wendt — 293 W.
+  [befüllt 122] Monument Immobilienverwaltung GmbH — 306 W.
+  [befüllt 123] WOHNUNGS-MARKT und Immobilienvermittlung — 292 W.
+
+============================================================
+Zusammenfassung  Region ci24 (Chemnitz)
+============================================================
+  Gelesen:        123/123
+  Gelöscht:       71
+  Befüllt:        123
+  Log:            rollout_region_log.csv
+=== Done ci24 ===
+
+=== Starting ddi24 ===
+Login ok (Session 84pk22tdu6), 4 Worker-Seiten.
+Region: ddi24 (Dresden), Slug: /dresden/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+42 Makler gefunden.
+
+  [lesen] Admiral Immobilien GmbH: 272 W.  (profil_uri: '{region}/anbieter/admiral-immobilien-gmbh/')
+  [lesen] Antje Schmidt Immobilien: 313 W.  (profil_uri: '{region}/anbieter/antje-schmidt-immobilien/')
+  [lesen] B&B Immokonzept Dresden: 292 W.  (profil_uri: '{region}/anbieter/b-und-b-immokonzept-dresden/')
+  [lesen] Beinhoff Immobilien e. K.: 260 W.  (profil_uri: '{region}/anbieter/beinhoff-immobilien-e-k/')
+  [lesen] Consavest Immobiien: 270 W.  (profil_uri: '{region}/anbieter/consavest-immobiien/')
+  [lesen] ddimmo24 GmbH: 303 W.  (profil_uri: '{region}/anbieter/ddimmo-gmbh/')
+  [lesen] DOM Immobilienberatungs - und Vermarktung GmbH: 289 W.  (profil_uri: '{region}/anbieter/dom-immobilienberatungs-und-vermarktung-gmbh/')
+  [lesen] Dr. Krüger Immobilien GmbH: 297 W.  (profil_uri: '{region}/anbieter/dr-krueger-immobilien-gmbh/')
+  [lesen] DRESDENMAKLER.de André Klengler: leer  (profil_uri: '{region}/anbieter/dresdenmakler-de-andr-klengler/')
+  [lesen] Eisenbahner-Wohnungsbaugenossenschaft Dresden eG: leer  (profil_uri: '{region}/anbieter/eisenbahner-wohnungsbaugenossenschaft-dresden-eg/')
+  [lesen] ESDI Immobilien GmbH: 287 W.  (profil_uri: '{region}/anbieter/esdi-immobilien-gmbh/')
+  [lesen] Eureka Grundbesitz GmbH: 280 W.  (profil_uri: '{region}/anbieter/eureka-grundbesitz-gmbh/')
+  [lesen] FIMAVO GmbH: 315 W.  (profil_uri: '{region}/anbieter/fimavo-gmbh/')
+  [lesen] FirstDresden RealEstate: 244 W.  (profil_uri: '{region}/anbieter/firstdresden-realestate/')
+  [lesen] Franke Immobilien: 247 W.  (profil_uri: '{region}/anbieter/franke-immobilien/')
+  [lesen] GRUPS Immobilien GmbH: 311 W.  (profil_uri: '{region}/anbieter/grups-immobilien-gmbh/')
+  [lesen] Haus & Rendite Maklerbüro e.K.: 276 W.  (profil_uri: '{region}/anbieter/haus-und-rendite-maklerbuero-e-k/')
+  [lesen] Hommel Management GmbH: 291 W.  (profil_uri: '{region}/anbieter/hommel-management-gmbh/')
+  [lesen] IMF-Serviceagentur: 247 W.  (profil_uri: '{region}/anbieter/imf-serviceagentur/')
+  [lesen] ImmoLounge GmbH: 312 W.  (profil_uri: '{region}/anbieter/immolounge-gmbh/')
+  [lesen] Immosuch Gmbh: 300 W.  (profil_uri: '{region}/anbieter/immosuch-gmbh/')
+  [lesen] IMMOVISTA GmbH - Immobilienmakler Dresden: 299 W.  (profil_uri: '{region}/anbieter/immovista-gmbh--immobilienmakler-dresden/')
+  [lesen] Jahn & Stolle GbR: 266 W.  (profil_uri: '{region}/anbieter/jahn-und-stolle-gbr/')
+  [lesen] K. Hähle Immobilien: 302 W.  (profil_uri: '{region}/anbieter/k-haehle-immobilien/')
+  [lesen] Loschwitzer Immobilien: 313 W.  (profil_uri: '{region}/anbieter/loschwitzer-immobilien/')
+  [lesen] Marco Höber Immobilien: 290 W.  (profil_uri: '{region}/anbieter/marco-hoeber-immobilien/')
+  [lesen] MBM-Immobilien Inhaber Sven Mager: 301 W.  (profil_uri: '{region}/anbieter/mbm-immobilien-inhaber-sven-mager/')
+  [lesen] Mietbeginn Immobilienmakler: 282 W.  (profil_uri: '{region}/anbieter/mietbeginn-immobilienmakler/')
+  [lesen] MSV Wohnungsverwaltung GmbH: 291 W.  (profil_uri: '{region}/anbieter/msv-wohnungsverwaltung-gmbh/')
+  [lesen] MUNDUS Immobilien GmbH: 308 W.  (profil_uri: '{region}/anbieter/mundus-immobilien-gmbh/')
+  [lesen] MW Immobilien GmbH: 292 W.  (profil_uri: '{region}/anbieter/mw-immobilien-gmbh/')
+  [lesen] SÄCHSISCHE GRUNDSTÜCKSAUKTIONEN AG: 285 W.  (profil_uri: '{region}/anbieter/saechsische-grundstuecksauktionen-ag/')
+  [lesen] Salewski & Sohn Immobilien und Projektsteuerung GmbH: 306 W.  (profil_uri: '{region}/anbieter/salewski-und-sohn-immobilien-und-projektsteuerung-gmbh/')
+  [lesen] Sax-Haus Bauträger GmbH: 299 W.  (profil_uri: '{region}/anbieter/sax-haus-bautraeger-gmbh/')
+  [lesen] SEMPER-HAUS IMMOBILIEN: 292 W.  (profil_uri: '{region}/anbieter/semper-haus-immobilien/')
+  [lesen] SfKW-Studio für Kultur- und Wohnraum GmbH: 274 W.  (profil_uri: '{region}/anbieter/sfkw-studio-fuer-kultur-und-wohnraum-gmbh/')
+  [lesen] SNG Immobilien- und Versicherungsmakler GmbH: 309 W.  (profil_uri: '{region}/anbieter/sng-immobilien-und-versicherungsmakler-gmbh/')
+  [lesen] SOLIDA Immobilien Dresden e.K.: 301 W.  (profil_uri: '{region}/anbieter/solida-immobilien-dresden-e-k/')
+  [lesen] Vering Immobilien: 303 W.  (profil_uri: '{region}/anbieter/vering-immobilien/')
+  [lesen] Waltmann Immobilien GbR: 301 W.  (profil_uri: '{region}/anbieter/waltmann-immobilien-gbr/')
+  [lesen] Wohnraum Sterzinger: 313 W.  (profil_uri: '{region}/anbieter/wohnraum-sterzinger/')
+  [lesen] Zille Immobilien: 301 W.  (profil_uri: '{region}/anbieter/zille-immobilien/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'Admiral Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Antje Schmidt Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'B&B Immokonzept Dresden' → Text nennt 'Eisenbahner-Wohnungsbaugenossenschaft Dresden eG' ('dresden')
+  [Fremdname] 'Beinhoff Immobilien e. K.' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Consavest Immobiien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'ddimmo24 GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'DOM Immobilienberatungs - und Vermarktung GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Dr. Krüger Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'ESDI Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Eureka Grundbesitz GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'FIMAVO GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'FirstDresden RealEstate' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Franke Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'GRUPS Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Haus & Rendite Maklerbüro e.K.' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Hommel Management GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'IMF-Serviceagentur' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'ImmoLounge GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Immosuch Gmbh' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'IMMOVISTA GmbH - Immobilienmakler Dresden' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Jahn & Stolle GbR' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'K. Hähle Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Loschwitzer Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Marco Höber Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'MBM-Immobilien Inhaber Sven Mager' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Mietbeginn Immobilienmakler' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'MSV Wohnungsverwaltung GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'MUNDUS Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'MW Immobilien GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'SÄCHSISCHE GRUNDSTÜCKSAUKTIONEN AG' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Salewski & Sohn Immobilien und Projektsteuerung GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Sax-Haus Bauträger GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'SEMPER-HAUS IMMOBILIEN' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'SfKW-Studio für Kultur- und Wohnraum GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'SNG Immobilien- und Versicherungsmakler GmbH' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'SOLIDA Immobilien Dresden e.K.' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Vering Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Waltmann Immobilien GbR' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Wohnraum Sterzinger' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+  [Fremdname] 'Zille Immobilien' → Text nennt 'B&B Immokonzept Dresden' ('dresden')
+Erfolgreich gelesen:   42/42
+Leere Felder:          2
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     40
+Eigenname fehlt:       0
+Zu löschende Texte:    40
+
+============================================================
+Phase 3: 40 Duplikat-Texte löschen
+============================================================
+  [gelöscht] K. Hähle Immobilien
+  [gelöscht] Marco Höber Immobilien
+  [gelöscht] Franke Immobilien
+  [gelöscht] Vering Immobilien
+  [gelöscht] Sax-Haus Bauträger GmbH
+  [gelöscht] Eureka Grundbesitz GmbH
+  [gelöscht] FirstDresden RealEstate
+  [gelöscht] Waltmann Immobilien GbR
+  [gelöscht] MSV Wohnungsverwaltung GmbH
+  [gelöscht] MBM-Immobilien Inhaber Sven Mager
+  [gelöscht] SÄCHSISCHE GRUNDSTÜCKSAUKTIONEN AG
+  [gelöscht] Immosuch Gmbh
+  [gelöscht] GRUPS Immobilien GmbH
+  [gelöscht] SNG Immobilien- und Versicherungsmakler GmbH
+  [gelöscht] FIMAVO GmbH
+  [gelöscht] MUNDUS Immobilien GmbH
+  [gelöscht] Beinhoff Immobilien e. K.
+  [gelöscht] SfKW-Studio für Kultur- und Wohnraum GmbH
+  [gelöscht] Salewski & Sohn Immobilien und Projektsteuerung GmbH
+  [gelöscht] MW Immobilien GmbH
+  [gelöscht] B&B Immokonzept Dresden
+  [gelöscht] Dr. Krüger Immobilien GmbH
+  [gelöscht] SEMPER-HAUS IMMOBILIEN
+  [gelöscht] IMF-Serviceagentur
+  [gelöscht] Admiral Immobilien GmbH
+  [gelöscht] Mietbeginn Immobilienmakler
+  [gelöscht] Antje Schmidt Immobilien
+  [gelöscht] Wohnraum Sterzinger
+  [gelöscht] IMMOVISTA GmbH - Immobilienmakler Dresden
+  [gelöscht] SOLIDA Immobilien Dresden e.K.
+  [gelöscht] Loschwitzer Immobilien
+  [gelöscht] Jahn & Stolle GbR
+  [gelöscht] Consavest Immobiien
+  [gelöscht] DOM Immobilienberatungs - und Vermarktung GmbH
+  [gelöscht] ESDI Immobilien GmbH
+  [gelöscht] ImmoLounge GmbH
+  [gelöscht] ddimmo24 GmbH
+  [gelöscht] Hommel Management GmbH
+  [gelöscht] Zille Immobilien
+  [gelöscht] Haus & Rendite Maklerbüro e.K.
+
+============================================================
+Phase 4: 42 Felder befüllen
+============================================================
+  [Warnung] Impressum für 'Wohnraum Sterzinger' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wohnraum-sterzinger/')
+  [Warnung] Impressum für 'Jahn & Stolle GbR' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/jahn-und-stolle-gbr/')
+  [befüllt 1] MW Immobilien GmbH — 307 W.
+  [befüllt 2] Wohnraum Sterzinger — 284 W. (kein Impressum)
+  [Warnung] Impressum für 'Beinhoff Immobilien e. K.' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/beinhoff-immobilien-e-k/')
+  [befüllt 3] SÄCHSISCHE GRUNDSTÜCKSAUKTIONEN AG — 294 W.
+  [befüllt 4] Jahn & Stolle GbR — 294 W. (kein Impressum)
+  [befüllt 5] ImmoLounge GmbH — 311 W.
+  [befüllt 6] Beinhoff Immobilien e. K. — 311 W. (kein Impressum)
+  [befüllt 7] K. Hähle Immobilien — 307 W.
+  [befüllt 8] Eisenbahner-Wohnungsbaugenossenschaft Dresden eG — 289 W.
+  [befüllt 9] Immosuch Gmbh — 287 W.
+  [befüllt 10] Vering Immobilien — 302 W.
+  [befüllt 11] Sax-Haus Bauträger GmbH — 299 W.
+  [befüllt 12] Antje Schmidt Immobilien — 294 W.
+  [befüllt 13] Dr. Krüger Immobilien GmbH — 290 W.
+  [befüllt 14] SNG Immobilien- und Versicherungsmakler GmbH — 302 W.
+  [befüllt 15] MSV Wohnungsverwaltung GmbH — 292 W.
+  [Warnung] Impressum für 'Haus & Rendite Maklerbüro e.K.' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/haus-und-rendite-maklerbuero-e-k/')
+  [befüllt 16] Hommel Management GmbH — 299 W.
+  [befüllt 17] Mietbeginn Immobilienmakler — 275 W.
+  [befüllt 18] Franke Immobilien — 294 W.
+  [befüllt 19] Haus & Rendite Maklerbüro e.K. — 295 W. (kein Impressum)
+  [befüllt 20] Salewski & Sohn Immobilien und Projektsteuerung GmbH — 301 W.
+  [Warnung] Impressum für 'IMF-Serviceagentur' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/imf-serviceagentur/')
+  [befüllt 21] GRUPS Immobilien GmbH — 303 W.
+  [Warnung] Impressum für 'Consavest Immobiien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/consavest-immobiien/')
+  [befüllt 22] ESDI Immobilien GmbH — 308 W.
+  [Warnung] Impressum für 'Admiral Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/admiral-immobilien-gmbh/')
+  [befüllt 23] DOM Immobilienberatungs - und Vermarktung GmbH — 288 W.
+  [befüllt 24] IMF-Serviceagentur — 251 W. (kein Impressum)
+  [befüllt 25] Admiral Immobilien GmbH — 279 W. (kein Impressum)
+  [befüllt 26] Consavest Immobiien — 291 W. (kein Impressum)
+  [befüllt 27] FIMAVO GmbH — 302 W.
+  [befüllt 28] Marco Höber Immobilien — 292 W.
+  [befüllt 29] MUNDUS Immobilien GmbH — 305 W.
+  [befüllt 30] Zille Immobilien — 294 W.
+  [Warnung] Impressum für 'DRESDENMAKLER.de André Klengler' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/dresdenmakler-de-andr-klengler/')
+  [befüllt 31] ddimmo24 GmbH — 266 W.
+  [Warnung] Impressum für 'Loschwitzer Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/loschwitzer-immobilien/')
+  [befüllt 32] B&B Immokonzept Dresden — 303 W.
+  [befüllt 33] MBM-Immobilien Inhaber Sven Mager — 291 W.
+  [befüllt 34] DRESDENMAKLER.de André Klengler — 239 W. (kein Impressum)
+  [Warnung] Impressum für 'FirstDresden RealEstate' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/firstdresden-realestate/')
+  [befüllt 35] SEMPER-HAUS IMMOBILIEN — 287 W.
+  [befüllt 36] Loschwitzer Immobilien — 288 W. (kein Impressum)
+  [befüllt 37] SOLIDA Immobilien Dresden e.K. — 299 W.
+  [Warnung] Impressum für 'Eureka Grundbesitz GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/eureka-grundbesitz-gmbh/')
+  [befüllt 38] FirstDresden RealEstate — 308 W. (kein Impressum)
+  [befüllt 39] SfKW-Studio für Kultur- und Wohnraum GmbH — 289 W.
+  [befüllt 40] IMMOVISTA GmbH - Immobilienmakler Dresden — 291 W.
+  [befüllt 41] Eureka Grundbesitz GmbH — 253 W. (kein Impressum)
+  [befüllt 42] Waltmann Immobilien GbR — 299 W.
+
+============================================================
+Zusammenfassung  Region ddi24 (Dresden)
+============================================================
+  Gelesen:        42/42
+  Gelöscht:       40
+  Befüllt:        42
+  Log:            rollout_region_log.csv
+=== Done ddi24 ===
+
+=== Starting hbi24 ===
+Login ok (Session 86pxikc3wp), 4 Worker-Seiten.
+Region: hbi24 (Heilbronn), Slug: /heilbronn/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+11 Makler gefunden.
+
+  [lesen] Axel Muth Immobilien: 277 W.  (profil_uri: '{region}/anbieter/axel-muth-immobilien/')
+  [lesen] DEDDA Immobilien, Wohnbau und Projektentwicklungs GmbH: 289 W.  (profil_uri: '{region}/anbieter/dedda-immobilien-wohnbau-und-projektentwicklungs-gmbh/')
+  [lesen] Gabor Immobilien: leer  (profil_uri: '{region}/anbieter/gabor-immobilien/')
+  [lesen] HAAS-IMMOBILIEN & GRUNDSTÜCKSVERMITTLUNG: 305 W.  (profil_uri: '{region}/anbieter/haas-immobilien-und-grundstuecksvermittlung/')
+  [lesen] HEINRICH IMMOBILIEN: 312 W.  (profil_uri: '{region}/anbieter/heinrich-immobilien/')
+  [lesen] HGH Immobilien: 258 W.  (profil_uri: '{region}/anbieter/hgh-immobilien/')
+  [lesen] Immobilienservice-Scheuermann: 308 W.  (profil_uri: '{region}/anbieter/immobilienservice-scheuermann/')
+  [lesen] KOLL Immobilien - Real Estate International: 300 W.  (profil_uri: '{region}/anbieter/koll-immobilien-real-estate-international/')
+  [lesen] Kollinger Immobilien: 299 W.  (profil_uri: '{region}/anbieter/kollinger-immobilien/')
+  [lesen] Thomas Seebold Immobilien: 305 W.  (profil_uri: '{region}/anbieter/thomas-seebold-immobilien/')
+  [lesen] UrbanSKY Heilbronn GmbH: 303 W.  (profil_uri: '{region}/anbieter/urbansky-heilbronn-gmbh/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'Axel Muth Immobilien' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'DEDDA Immobilien, Wohnbau und Projektentwicklungs GmbH' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'HAAS-IMMOBILIEN & GRUNDSTÜCKSVERMITTLUNG' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'HEINRICH IMMOBILIEN' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'HGH Immobilien' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'Immobilienservice-Scheuermann' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'KOLL Immobilien - Real Estate International' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'Kollinger Immobilien' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+  [Fremdname] 'Thomas Seebold Immobilien' → Text nennt 'UrbanSKY Heilbronn GmbH' ('heilbronn')
+Erfolgreich gelesen:   11/11
+Leere Felder:          1
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     9
+Eigenname fehlt:       0
+Zu löschende Texte:    9
+
+============================================================
+Phase 3: 9 Duplikat-Texte löschen
+============================================================
+  [gelöscht] KOLL Immobilien - Real Estate International
+  [gelöscht] Axel Muth Immobilien
+  [gelöscht] Kollinger Immobilien
+  [gelöscht] HAAS-IMMOBILIEN & GRUNDSTÜCKSVERMITTLUNG
+  [gelöscht] DEDDA Immobilien, Wohnbau und Projektentwicklungs GmbH
+  [gelöscht] Thomas Seebold Immobilien
+  [gelöscht] HEINRICH IMMOBILIEN
+  [gelöscht] Immobilienservice-Scheuermann
+  [gelöscht] HGH Immobilien
+
+============================================================
+Phase 4: 10 Felder befüllen
+============================================================
+  [befüllt 1] Gabor Immobilien — 311 W.
+  [befüllt 2] HGH Immobilien — 293 W.
+  [befüllt 3] Thomas Seebold Immobilien — 311 W.
+  [Warnung] Impressum für 'Immobilienservice-Scheuermann' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/immobilienservice-scheuermann/')
+  [befüllt 4] HEINRICH IMMOBILIEN — 290 W.
+  [befüllt 5] KOLL Immobilien - Real Estate International — 310 W.
+  [befüllt 6] Axel Muth Immobilien — 294 W.
+  [Warnung] Impressum für 'Kollinger Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/kollinger-immobilien/')
+  [befüllt 7] Immobilienservice-Scheuermann — 293 W. (kein Impressum)
+  [befüllt 8] DEDDA Immobilien, Wohnbau und Projektentwicklungs GmbH — 289 W.
+  [befüllt 9] HAAS-IMMOBILIEN & GRUNDSTÜCKSVERMITTLUNG — 286 W.
+  [befüllt 10] Kollinger Immobilien — 299 W. (kein Impressum)
+
+============================================================
+Zusammenfassung  Region hbi24 (Heilbronn)
+============================================================
+  Gelesen:        11/11
+  Gelöscht:       9
+  Befüllt:        10
+  Log:            rollout_region_log.csv
+=== Done hbi24 ===
+
+=== Starting li24 ===
+Login ok (Session t670tdo2pj), 4 Worker-Seiten.
+Region: li24 (Leipzig), Slug: /leipzig/
+
+============================================================
+Phase 1: Texte einlesen
+============================================================
+90 Makler gefunden.
+
+  [lesen] Abakus Immobilien Vermittlung: leer  (profil_uri: '{region}/anbieter/abakus-immobilien-vermittlung/')
+  [lesen] ARENTA Immobilien-Management Mitteldeutschland: 298 W.  (profil_uri: '{region}/anbieter/arenta-immobilen-management-mitteldeutschland/')
+  [lesen] Avivo GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/avivo-gmbh-und-co-kg/')
+  [lesen] Barthelmann Immobilien – Uta Barthelmann: leer  (profil_uri: '{region}/anbieter/barthelmann-immobilien---uta-barthelmann/')
+  [lesen] Baubetreuung und Immobilien Michael Beeking: 314 W.  (profil_uri: '{region}/anbieter/baubetreuung-und-immobilien-michael-beeking/')
+  [lesen] Besa Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/besa-immobilien-gmbh/')
+  [lesen] Blaugelb-Immobilien e.K.: 299 W.  (profil_uri: '{region}/anbieter/blaugelb-immobilien-e-k/')
+  [lesen] BUERO.IMMOBILIEN Management GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/buero-immobilien-management-gmbh-und-co-kg/')
+  [lesen] Busch Immobilien GmbH: 310 W.  (profil_uri: '{region}/anbieter/schroeder-und-busch-immobilien-gmbh/')
+  [lesen] Butterling Immobilien - Immobilienmakler Leipzig: leer  (profil_uri: '{region}/anbieter/butterling-immobilien-immobilienmakler-leipzig/')
+  [lesen] Creutz Immobilien: 282 W.  (profil_uri: '{region}/anbieter/creutz-immobilien/')
+  [lesen] CS Immobilien Projekt- & Vertriebsmanagement: leer  (profil_uri: '{region}/anbieter/cs-immobilien-projekt-und-vertriebsmanagement/')
+  [lesen] Dima Immobilien: leer  (profil_uri: '{region}/anbieter/dima-immobilien/')
+  [lesen] Dr. Sieber und Partner Immobilien GmbH: 296 W.  (profil_uri: '{region}/anbieter/dr-sieber-und-partner-immobilien-gmbh/')
+  [lesen] ELBE-Haus Partner Leipzig: leer  (profil_uri: '{region}/anbieter/elbe-haus-partner-leipzig/')
+  [lesen] Enrico Henel EH-Immobilienmanagement: 302 W.  (profil_uri: '{region}/anbieter/enrico-henel-eh-immobilienmanagement/')
+  [lesen] Falkenhain Immobilien: 292 W.  (profil_uri: '{region}/anbieter/falkenhain-immobilien/')
+  [lesen] FENGER Immobilien Projektentwicklung GmbH: leer  (profil_uri: '{region}/anbieter/fenger-immobilien-projektentwicklung-gmbh/')
+  [lesen] FOCUS Immobilienmakler GmbH: 311 W.  (profil_uri: '{region}/anbieter/focus-immobilienmakler-gmbh/')
+  [lesen] fuw Der Ruhestandsplaner GmbH: leer  (profil_uri: '{region}/anbieter/fuw-der-ruhestandsplaner-gmbh/')
+  [lesen] Graupner Immobilien: leer  (profil_uri: '{region}/anbieter/graupner-immobilien/')
+  [lesen] GRK-ImmoWert GmbH: leer  (profil_uri: '{region}/anbieter/grk-immowert-gmbh/')
+  [lesen] Grundstücksverwaltung Thieme GmbH: leer  (profil_uri: '{region}/anbieter/grundstuecksverwaltung-thieme-gmbh/')
+  [lesen] Handelsvertretung Akki Notbohm: leer  (profil_uri: '{region}/anbieter/handelsvertretung-akki-notbohm/')
+  [lesen] Hans-Jürgen Daffner: leer  (profil_uri: '{region}/anbieter/hans-juergen-daffner/')
+  [lesen] I.V.K. Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/i-v-k-immobilien-gmbh/')
+  [lesen] IC IMMOCONSULT: leer  (profil_uri: '{region}/anbieter/ic-immoconsult/')
+  [lesen] Imcon GmbH: leer  (profil_uri: '{region}/anbieter/imcon-gmbh/')
+  [lesen] Imcon Verwertung und Verwaltung von Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/imcon-verwertung-und-verwaltung-von-immobilien-gmbh/')
+  [lesen] Immaxi Immobilien Thomas Hoffmann: leer  (profil_uri: '{region}/anbieter/immaxi-immobilien-thomas-hoffmann/')
+  [lesen] Immobilien und Hausverwaltung Sven Saaré: leer  (profil_uri: '{region}/anbieter/sven-saar-immobilien/')
+  [lesen] Immobilien- und Ingenieurbüro Beate Freier: 298 W.  (profil_uri: '{region}/anbieter/immobilien-und-ingenieurbuero-beate-freier/')
+  [lesen] Immobilienberatung Rennwanz: leer  (profil_uri: '{region}/anbieter/immobilienberatung-rennwanz/')
+  [lesen] Immobilienbüro G. Hofmeister Frau Grit Hofmeister-Jung: 288 W.  (profil_uri: '{region}/anbieter/immobilienbuero-grit-hofmeister/')
+  [lesen] INNOVA Immobilien- und Bauplanung GmbH: leer  (profil_uri: '{region}/anbieter/innova-immobilien-und-bauplanung-gmbh/')
+  [lesen] Integration In Town: leer  (profil_uri: '{region}/anbieter/integration-in-town/')
+  [lesen] Jahnel Immobilien: leer  (profil_uri: '{region}/anbieter/jahnel-immobilien/')
+  [lesen] JG Immobilienagentur: 294 W.  (profil_uri: '{region}/anbieter/jg-immobilienagentur/')
+  [lesen] Jörg Wenzel Immobilen & Hausmeisterservice: leer  (profil_uri: '{region}/anbieter/joerg-wenzel-immobilen-und-hausmeisterservice/')
+  [lesen] JR Heimdall Invest GmbH: leer  (profil_uri: '{region}/anbieter/jr-heimdall-invest-gmbh/')
+  [lesen] Koengeter & Krekow Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/koengeter-und-krekow-immobilien-gmbh/')
+  [lesen] KOENGETER IMMOBILIEN: 282 W.  (profil_uri: '{region}/anbieter/koengeter-immobilien/')
+  [lesen] KOWO Immobilien: leer  (profil_uri: '{region}/anbieter/kowo-immobilien/')
+  [lesen] KOWO Immobilien GmbH: 299 W.  (profil_uri: '{region}/anbieter/kowo-immobilien-gmbh/')
+  [lesen] Kristin Weise Immobilien: 313 W.  (profil_uri: '{region}/anbieter/kristin-weise-immobilien/')
+  [lesen] KWP Immobilien GmbH: 289 W.  (profil_uri: '{region}/anbieter/kwp-immobilien-gmbh/')
+  [lesen] L-KONZEPT Sachsen GmbH: 291 W.  (profil_uri: '{region}/anbieter/l-konzept-sachsen-gmbh/')
+  [lesen] LE APIS Immobilien: 294 W.  (profil_uri: '{region}/anbieter/le-apis-immobilien/')
+  [lesen] LEIPZIG | estate Ihr Immobilienexperte GmbH: leer  (profil_uri: '{region}/anbieter/leipzig-estate-ihr-immobilienexperte-gmbh/')
+  [lesen] LGH Leipziger Gewerbehof GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/lgh-leipziger-gewerbehof-gmbh-und-co-kg/')
+  [lesen] LPR GbR: leer  (profil_uri: '{region}/anbieter/lpr-gbr/')
+  [lesen] lucrosum Immobilienvermittlungs- GmbH & Co.KG: leer  (profil_uri: '{region}/anbieter/lucrosum-immobilienvermittlungs-gmbh-und-co-kg/')
+  [lesen] M&P Immobiliengruppe: leer  (profil_uri: '{region}/anbieter/m-und-p-immobilienmarketing-und-vertrieb/')
+  [lesen] Marko Künne Immobilien: 288 W.  (profil_uri: '{region}/anbieter/marko-kuenne-gesellschaft-fuer-haus-und-grundbesitz-mbh/')
+  [lesen] Mentoreal GmbH: 308 W.  (profil_uri: '{region}/anbieter/mentoreal-gmbh/')
+  [lesen] Mund Immobilien GmbH: 306 W.  (profil_uri: '{region}/anbieter/mund-immobilien-gmbh-1/')
+  [lesen] Nabergo Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/nabergo-immobilien-gmbh/')
+  [lesen] Nach Hause Immobilien GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/nach-hause-immobilien-gmbh-und-co-kg/')
+  [lesen] Newland Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/newland-immobilien-gmbh/')
+  [lesen] Norman Blümel Immobilien: leer  (profil_uri: '{region}/anbieter/norman-bluemel-immobilien/')
+  [lesen] Pisa Immobilienmanagement GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/pisa-immobilienmanagement-gmbh-und-co-kg/')
+  [lesen] Prill Immobilien: leer  (profil_uri: '{region}/anbieter/prill-immobilien/')
+  [lesen] Pro Carré Facility Management GmbH: 257 W.  (profil_uri: '{region}/anbieter/pro-carr--facility-management-gmbh/')
+  [lesen] PROFIDELIS RealEstate GmbH: leer  (profil_uri: '{region}/anbieter/profidelis-realestate-gmbh/')
+  [lesen] Reißl Immobilien: leer  (profil_uri: '{region}/anbieter/reissl-immobilien/')
+  [lesen] Romeo Immobilien Danny Seja: leer  (profil_uri: '{region}/anbieter/danny-seja-romeo-immobilien/')
+  [lesen] Rosenberg Immobilien GmbH: 289 W.  (profil_uri: '{region}/anbieter/rosenberg-immobilien-gmbh/')
+  [lesen] Sattler Immobilien GmbH: 309 W.  (profil_uri: '{region}/anbieter/sattler-immobilien-gmbh/')
+  [lesen] Schicketanz & Lajosfalvi Immobilien GbR: 262 W.  (profil_uri: '{region}/anbieter/schicketanz-und-lajosfalvi-immobilien-gbr/')
+  [lesen] Schönemann Immobilien: 253 W.  (profil_uri: '{region}/anbieter/schoenemann-immobilien/')
+  [lesen] Schreier Immobilien: leer  (profil_uri: '{region}/anbieter/schreier-immobilien/')
+  [lesen] Schwerdtner-Immobilien&Hausverwaltung: leer  (profil_uri: '{region}/anbieter/schwerdtner-immobilien-und-hausverwaltung/')
+  [lesen] Sebastian Steinbach Immobilien: 313 W.  (profil_uri: '{region}/anbieter/sebastian-steinbach-immobilien/')
+  [lesen] Simone Zeller-Thomas Immobilien GmbH: 240 W.  (profil_uri: '{region}/anbieter/simone-zeller-thomas-immobilien-gmbh/')
+  [lesen] Solidus GmbH: 300 W.  (profil_uri: '{region}/anbieter/solidus-gmbh/')
+  [lesen] Stäbler Immobilien: 304 W.  (profil_uri: '{region}/anbieter/staebler-immobilien-1/')
+  [lesen] Strunk ImmoWert: leer  (profil_uri: '{region}/anbieter/strunk-immowert/')
+  [lesen] T. Schmidt Immobilienmakler & Kollegen: leer  (profil_uri: '{region}/anbieter/t-schmidt-immobilienmakler-und-kollegen/')
+  [lesen] Testmakler: leer  (profil_uri: '{region}/anbieter/testmakler/')
+  [lesen] Victor Immobilien Vertriebs GmbH: leer  (profil_uri: '{region}/anbieter/victor-immobilien-vertriebs-gmbh/')
+  [lesen] VON POLL IMMOBILIEN LFB Immobilien GmbH: leer  (profil_uri: '{region}/anbieter/von-poll-immobilien/')
+  [lesen] WG PRO LEIPZIG eG: leer  (profil_uri: '{region}/anbieter/wg-pro-leipzig-eg/')
+  [lesen] WOGETRA eG: leer  (profil_uri: '{region}/anbieter/wogetra-eg/')
+  [lesen] Wohn&Wert Leipzig e.K.: leer  (profil_uri: '{region}/anbieter/wohn-und-wert-leipzig-e-k/')
+  [lesen] Wohndealer Immobilien GmbH & Co. KG: leer  (profil_uri: '{region}/anbieter/wohndealer-immobilien-gmbh-und-co-kg/')
+  [lesen] WOHNKONTAKT Immobilien UG (haftungsbeschränkt): leer  (profil_uri: '{region}/anbieter/wohnkontakt-immobilien-ug-haftungsbeschraenkt/')
+  [lesen] Wohnsitz LE GmbH: leer  (profil_uri: '{region}/anbieter/wohnsitz-le-gmbh/')
+  [lesen] Wohnungsgenossenschaft UNITAS eG: leer  (profil_uri: '{region}/anbieter/wohnungsgenossenschaft-unitas-eg/')
+  [lesen] Zedlitz Immobilien: 285 W.  (profil_uri: '{region}/anbieter/zedlitz-immobilien/')
+  [lesen] Zimmobilien - Mike Zimmerer: leer  (profil_uri: '{region}/anbieter/zimmobilien-mike-zimmerer/')
+
+============================================================
+Phase 2: Analyse
+============================================================
+  [Fremdname] 'ARENTA Immobilien-Management Mitteldeutschland' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Baubetreuung und Immobilien Michael Beeking' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Blaugelb-Immobilien e.K.' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Busch Immobilien GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Creutz Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Dr. Sieber und Partner Immobilien GmbH' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Enrico Henel EH-Immobilienmanagement' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Falkenhain Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'FOCUS Immobilienmakler GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('immobilienmakler')
+  [Fremdname] 'Immobilien- und Ingenieurbüro Beate Freier' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Immobilienbüro G. Hofmeister Frau Grit Hofmeister-Jung' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'JG Immobilienagentur' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'KOENGETER IMMOBILIEN' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'KOWO Immobilien GmbH' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Kristin Weise Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'KWP Immobilien GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'L-KONZEPT Sachsen GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'LE APIS Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Marko Künne Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Mentoreal GmbH' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Mund Immobilien GmbH' → Text nennt 'ARENTA Immobilien-Management Mitteldeutschland' ('mitteldeutschland')
+  [Fremdname] 'Pro Carré Facility Management GmbH' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Rosenberg Immobilien GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Sattler Immobilien GmbH' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Schicketanz & Lajosfalvi Immobilien GbR' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Schönemann Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Sebastian Steinbach Immobilien' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Simone Zeller-Thomas Immobilien GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Solidus GmbH' → Text nennt 'Butterling Immobilien - Immobilienmakler Leipzig' ('leipzig')
+  [Fremdname] 'Stäbler Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+  [Fremdname] 'Zedlitz Immobilien' → Text nennt 'Abakus Immobilien Vermittlung' ('vermittlung')
+Erfolgreich gelesen:   90/90
+Leere Felder:          59
+Duplikat-Gruppen:      0
+Fremdname-Treffer:     31
+Eigenname fehlt:       0
+Zu löschende Texte:    31
+
+============================================================
+Phase 3: 31 Duplikat-Texte löschen
+============================================================
+  [gelöscht] Schönemann Immobilien
+  [gelöscht] LE APIS Immobilien
+  [gelöscht] JG Immobilienagentur
+  [gelöscht] Busch Immobilien GmbH
+  [gelöscht] Immobilienbüro G. Hofmeister Frau Grit Hofmeister-Jung
+  [gelöscht] Simone Zeller-Thomas Immobilien GmbH
+  [gelöscht] KWP Immobilien GmbH
+  [gelöscht] Schicketanz & Lajosfalvi Immobilien GbR
+  [gelöscht] L-KONZEPT Sachsen GmbH
+  [gelöscht] Zedlitz Immobilien
+  [gelöscht] KOENGETER IMMOBILIEN
+  [gelöscht] Sebastian Steinbach Immobilien
+  [gelöscht] Immobilien- und Ingenieurbüro Beate Freier
+  [gelöscht] Dr. Sieber und Partner Immobilien GmbH
+  [gelöscht] Sattler Immobilien GmbH
+  [gelöscht] ARENTA Immobilien-Management Mitteldeutschland
+  [gelöscht] Pro Carré Facility Management GmbH
+  [gelöscht] Solidus GmbH
+  [gelöscht] Mund Immobilien GmbH
+  [gelöscht] Enrico Henel EH-Immobilienmanagement
+  [gelöscht] Blaugelb-Immobilien e.K.
+  [gelöscht] Marko Künne Immobilien
+  [gelöscht] Falkenhain Immobilien
+  [gelöscht] KOWO Immobilien GmbH
+  [gelöscht] Mentoreal GmbH
+  [gelöscht] Baubetreuung und Immobilien Michael Beeking
+  [gelöscht] Creutz Immobilien
+  [gelöscht] Kristin Weise Immobilien
+  [gelöscht] Rosenberg Immobilien GmbH
+  [gelöscht] Stäbler Immobilien
+  [gelöscht] FOCUS Immobilienmakler GmbH
+
+============================================================
+Phase 4: 90 Felder befüllen
+============================================================
+  [befüllt 1] VON POLL IMMOBILIEN LFB Immobilien GmbH — 288 W.
+  [befüllt 2] WG PRO LEIPZIG eG — 306 W.
+  [befüllt 3] Wohnsitz LE GmbH — 300 W.
+  [befüllt 4] KOENGETER IMMOBILIEN — 246 W.
+  [befüllt 5] Marko Künne Immobilien — 302 W.
+  [befüllt 6] Norman Blümel Immobilien — 299 W.
+  [befüllt 7] Reißl Immobilien — 306 W.
+  [befüllt 8] Sebastian Steinbach Immobilien — 315 W.
+  [befüllt 9] WOHNKONTAKT Immobilien UG (haftungsbeschränkt) — 311 W.
+  [befüllt 10] Handelsvertretung Akki Notbohm — 312 W.
+  [befüllt 11] Zedlitz Immobilien — 281 W.
+  [befüllt 12] KOWO Immobilien GmbH — 291 W.
+  [befüllt 13] Solidus GmbH — 280 W.
+  [befüllt 14] Newland Immobilien GmbH — 296 W.
+  [Warnung] Impressum für 'Nabergo Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/nabergo-immobilien-gmbh/')
+  [befüllt 15] JG Immobilienagentur — 283 W.
+  [befüllt 16] Immobilien und Hausverwaltung Sven Saaré — 310 W.
+  [befüllt 17] Prill Immobilien — 296 W.
+  [befüllt 18] Nabergo Immobilien GmbH — 297 W. (kein Impressum)
+  [befüllt 19] Enrico Henel EH-Immobilienmanagement — 288 W.
+  [befüllt 20] Rosenberg Immobilien GmbH — 306 W.
+  [befüllt 21] Schicketanz & Lajosfalvi Immobilien GbR — 287 W.
+  [Warnung] Impressum für 'Mentoreal GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/mentoreal-gmbh/')
+  [befüllt 22] ELBE-Haus Partner Leipzig — 304 W.
+  [Warnung] Impressum für 'Besa Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/besa-immobilien-gmbh/')
+  [befüllt 23] Stäbler Immobilien — 309 W.
+  [befüllt 24] IC IMMOCONSULT — 306 W.
+  [befüllt 25] Mentoreal GmbH — 298 W. (kein Impressum)
+  [Warnung] Impressum für 'Abakus Immobilien Vermittlung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/abakus-immobilien-vermittlung/')
+  [befüllt 26] Busch Immobilien GmbH — 299 W.
+  [befüllt 27] Besa Immobilien GmbH — 305 W. (kein Impressum)
+  [befüllt 28] Victor Immobilien Vertriebs GmbH — 287 W.
+  [befüllt 29] Abakus Immobilien Vermittlung — 301 W. (kein Impressum)
+  [Warnung] Impressum für 'Imcon GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/imcon-gmbh/')
+  [befüllt 30] LGH Leipziger Gewerbehof GmbH & Co. KG — 313 W.
+  [Warnung] Impressum für 'Baubetreuung und Immobilien Michael Beeking' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/baubetreuung-und-immobilien-michael-beeking/')
+  [befüllt 31] Pisa Immobilienmanagement GmbH & Co. KG — 304 W.
+  [Warnung] Impressum für 'Zimmobilien - Mike Zimmerer' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/zimmobilien-mike-zimmerer/')
+  [befüllt 32] CS Immobilien Projekt- & Vertriebsmanagement — 304 W.
+  [befüllt 33] Imcon GmbH — 277 W. (kein Impressum)
+  [befüllt 34] Zimmobilien - Mike Zimmerer — 261 W. (kein Impressum)
+  [befüllt 35] Baubetreuung und Immobilien Michael Beeking — 309 W. (kein Impressum)
+  [befüllt 36] Koengeter & Krekow Immobilien GmbH — 305 W.
+  [befüllt 37] FOCUS Immobilienmakler GmbH — 309 W.
+  [befüllt 38] FENGER Immobilien Projektentwicklung GmbH — 284 W.
+  [befüllt 39] KWP Immobilien GmbH — 298 W.
+  [Warnung] Impressum für 'Pro Carré Facility Management GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/pro-carr--facility-management-gmbh/')
+  [befüllt 40] INNOVA Immobilien- und Bauplanung GmbH — 299 W.
+  [befüllt 41] L-KONZEPT Sachsen GmbH — 283 W.
+  [befüllt 42] Pro Carré Facility Management GmbH — 285 W. (kein Impressum)
+  [befüllt 43] Creutz Immobilien — 288 W.
+  [befüllt 44] Integration In Town — 288 W.
+  [Warnung] Impressum für 'JR Heimdall Invest GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/jr-heimdall-invest-gmbh/')
+  [befüllt 45] Romeo Immobilien Danny Seja — 294 W.
+  [Warnung] Impressum für 'Wohnungsgenossenschaft UNITAS eG' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/wohnungsgenossenschaft-unitas-eg/')
+  [befüllt 46] Dr. Sieber und Partner Immobilien GmbH — 299 W.
+  [befüllt 47] Jörg Wenzel Immobilen & Hausmeisterservice — 314 W.
+  [Warnung] Impressum für 'Simone Zeller-Thomas Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/simone-zeller-thomas-immobilien-gmbh/')
+  [befüllt 48] JR Heimdall Invest GmbH — 298 W. (kein Impressum)
+  [befüllt 49] Wohnungsgenossenschaft UNITAS eG — 277 W. (kein Impressum)
+  [befüllt 50] lucrosum Immobilienvermittlungs- GmbH & Co.KG — 286 W.
+  [Warnung] Impressum für 'Schönemann Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/schoenemann-immobilien/')
+  [befüllt 51] Simone Zeller-Thomas Immobilien GmbH — 266 W. (kein Impressum)
+  [befüllt 52] Avivo GmbH & Co. KG — 312 W.
+  [befüllt 53] Immobilienberatung Rennwanz — 279 W.
+  [befüllt 54] Schönemann Immobilien — 289 W. (kein Impressum)
+  [befüllt 55] LPR GbR — 299 W.
+  [befüllt 56] Dima Immobilien — 303 W.
+  [befüllt 57] Nach Hause Immobilien GmbH & Co. KG — 275 W.
+  [befüllt 58] WOGETRA eG — 295 W.
+  [befüllt 59] Wohndealer Immobilien GmbH & Co. KG — 292 W.
+  [befüllt 60] Hans-Jürgen Daffner — 293 W.
+  [Warnung] Impressum für 'GRK-ImmoWert GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/grk-immowert-gmbh/')
+  [befüllt 61] Graupner Immobilien — 308 W.
+  [Warnung] Impressum für 'Jahnel Immobilien' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/jahnel-immobilien/')
+  [befüllt 62] PROFIDELIS RealEstate GmbH — 260 W.
+  [befüllt 63] Schreier Immobilien — 313 W.
+  [befüllt 64] GRK-ImmoWert GmbH — 260 W. (kein Impressum)
+  [Warnung] Impressum für 'Grundstücksverwaltung Thieme GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/grundstuecksverwaltung-thieme-gmbh/')
+  [befüllt 65] Jahnel Immobilien — 274 W. (kein Impressum)
+  [befüllt 66] LE APIS Immobilien — 294 W.
+  [befüllt 67] Strunk ImmoWert — 282 W.
+  [befüllt 68] Grundstücksverwaltung Thieme GmbH — 291 W. (kein Impressum)
+  [Warnung] Impressum für 'M&P Immobiliengruppe' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/m-und-p-immobilienmarketing-und-vertrieb/')
+  [befüllt 69] Wohn&Wert Leipzig e.K. — 311 W.
+  [befüllt 70] Barthelmann Immobilien – Uta Barthelmann — 286 W.
+  [Warnung] Impressum für 'Testmakler' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/testmakler/')
+  [befüllt 71] KOWO Immobilien — 286 W.
+  [Warnung] Impressum für 'Mund Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/mund-immobilien-gmbh-1/')
+  [befüllt 72] M&P Immobiliengruppe — 288 W. (kein Impressum)
+  [befüllt 73] BUERO.IMMOBILIEN Management GmbH & Co. KG — 294 W.
+  [befüllt 74] Testmakler — 257 W. (kein Impressum)
+  [Warnung] Impressum für 'T. Schmidt Immobilienmakler & Kollegen' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/t-schmidt-immobilienmakler-und-kollegen/')
+  [befüllt 75] Mund Immobilien GmbH — 289 W. (kein Impressum)
+  [befüllt 76] Kristin Weise Immobilien — 310 W.
+  [Warnung] Impressum für 'I.V.K. Immobilien GmbH' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/i-v-k-immobilien-gmbh/')
+  [befüllt 77] Imcon Verwertung und Verwaltung von Immobilien GmbH — 308 W.
+  [Warnung] Impressum für 'Schwerdtner-Immobilien&Hausverwaltung' enthält keinen Namensteil — wird ignoriert (profil_uri='{region}/anbieter/schwerdtner-immobilien-und-hausverwaltung/')
+  [befüllt 78] T. Schmidt Immobilienmakler & Kollegen — 262 W. (kein Impressum)
+  [befüllt 79] Falkenhain Immobilien — 298 W.
+  [befüllt 80] I.V.K. Immobilien GmbH — 296 W. (kein Impressum)
+  [befüllt 81] Schwerdtner-Immobilien&Hausverwaltung — 265 W. (kein Impressum)
+  [befüllt 82] ARENTA Immobilien-Management Mitteldeutschland — 264 W.
+  [befüllt 83] Immobilien- und Ingenieurbüro Beate Freier — 294 W.
+  [befüllt 84] Blaugelb-Immobilien e.K. — 303 W.
+  [befüllt 85] fuw Der Ruhestandsplaner GmbH — 314 W.
+  [befüllt 86] LEIPZIG | estate Ihr Immobilienexperte GmbH — 312 W.
+  [befüllt 87] Sattler Immobilien GmbH — 311 W.
+  [befüllt 88] Immobilienbüro G. Hofmeister Frau Grit Hofmeister-Jung — 302 W.
+  [befüllt 89] Immaxi Immobilien Thomas Hoffmann — 315 W.
+  [befüllt 90] Butterling Immobilien - Immobilienmakler Leipzig — 286 W.
+
+============================================================
+Zusammenfassung  Region li24 (Leipzig)
+============================================================
+  Gelesen:        90/90
+  Gelöscht:       31
+  Befüllt:        90
+  Log:            rollout_region_log.csv
+=== Done li24 ===

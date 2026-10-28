@@ -1,0 +1,1195 @@
+<!DOCTYPE html><html lang="de"><head>
+        
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+    <link rel="stylesheet" href="https://backend.regionalimmobilien24.de/adm/individuell/master/js/skins/lightgray/skin.min.css"></head>
+    <body>
+
+    <div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=lg41sg4uet"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=lg41sg4uet">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=lg41sg4uet"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=lg41sg4uet"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=lg41sg4uet"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=lg41sg4uet"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=lg41sg4uet"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=lg41sg4uet"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=lg41sg4uet"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=lg41sg4uet"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=lg41sg4uet"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=lg41sg4uet"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=lg41sg4uet"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=lg41sg4uet"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=lg41sg4uet"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=lg41sg4uet"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=lg41sg4uet"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=lg41sg4uet"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=lg41sg4uet"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=lg41sg4uet"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=lg41sg4uet"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=lg41sg4uet"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=lg41sg4uet"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=lg41sg4uet"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=lg41sg4uet"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=lg41sg4uet"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=lg41sg4uet"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=lg41sg4uet"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=lg41sg4uet"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=lg41sg4uet"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=lg41sg4uet"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=lg41sg4uet"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=lg41sg4uet"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=lg41sg4uet"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=lg41sg4uet"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/seo/config/?admsess=lg41sg4uet"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=lg41sg4uet"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=lg41sg4uet"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=lg41sg4uet"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=lg41sg4uet"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=lg41sg4uet">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=lg41sg4uet">.</li>
+    </ul>
+</div>        <div id="content">
+                                            
+                <div id="content-header">
+                    <h1>Teammitglied  Immobilienanfragen bearbeiten</h1>
+                </div>
+                <div id="breadcrumb">
+                    <a href="../../../../../adm/individuell/master/dashboard.php?admsess=lg41sg4uet" title="" class="tip-bottom" data-original-title="zum Dashboard">
+                        <span class="icon"></span> Home
+                    </a>
+                    <a title="" href="../../../../../adm/individuell/master/team/list/?admsess=lg41sg4uet">
+                        Team
+                    </a>
+                    <a title="" href="../../../../../adm/individuell/master/team/edit/?admsess=lg41sg4uet&amp;id=123">
+                        Stammdaten bearbeiten
+                    </a>
+                </div>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                                                <div class="span9">
+                            <div class="span6">
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>persönliche Daten</h5>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="control-group">
+                                                <label class="control-label" for="regiocode">Region</label>
+                                                <div class="controls">
+                                                                                                        <select aria-label="" name="regioncode" id="regioncode" class="form_validation" data-database="team">
+                                                        <option value="">--- keine Region ---</option>
+                                                                                                                    <optgroup label="individualisierte Regionen">
+                                                                                                                                    <option value="lwi24">Regionaliimmobilien24 - Leineweser                                                                        (lwi24)
+                                                                    </option>
+                                                                                                                                    <option value="obi24">Regionalimmobilen24 - Oberbayern                                                                        (obi24)
+                                                                    </option>
+                                                                                                                                    <option value="aai24">Regionalimmobilien24 - Aachen-Eifel                                                                        (aai24)
+                                                                    </option>
+                                                                                                                                    <option value="ami24">Regionalimmobilien24 - Altmark                                                                        (ami24)
+                                                                    </option>
+                                                                                                                                    <option value="ai24">Regionalimmobilien24 - Anhalt                                                                        (ai24)
+                                                                    </option>
+                                                                                                                                    <option value="abi24">Regionalimmobilien24 - Augsburg                                                                        (abi24)
+                                                                    </option>
+                                                                                                                                    <option value="bsi24">Regionalimmobilien24 - Bayerisch-Schwaben                                                                        (bsi24)
+                                                                    </option>
+                                                                                                                                    <option value="bdi24">Regionalimmobilien24 - Bergisches Dreieck                                                                        (bdi24)
+                                                                    </option>
+                                                                                                                                    <option value="bgli24">Regionalimmobilien24 - Bergisches Land                                                                        (bgli24)
+                                                                    </option>
+                                                                                                                                    <option value="bi24">Regionalimmobilien24 - Berlin                                                                        (bi24)
+                                                                    </option>
+                                                                                                                                    <option value="bosi24">Regionalimmobilien24 - Bodensee                                                                        (bosi24)
+                                                                    </option>
+                                                                                                                                    <option value="brai24">Regionalimmobilien24 - Braunschweig                                                                        (brai24)
+                                                                    </option>
+                                                                                                                                    <option value="brei24">Regionalimmobilien24 - Bremen                                                                        (brei24)
+                                                                    </option>
+                                                                                                                                    <option value="ci24">Regionalimmobilien24 - Chemnitz                                                                        (ci24)
+                                                                    </option>
+                                                                                                                                    <option value="di24">Regionalimmobilien24 - Dortmund                                                                        (di24)
+                                                                    </option>
+                                                                                                                                    <option value="ddi24">Regionalimmobilien24 - Dresden                                                                        (ddi24)
+                                                                    </option>
+                                                                                                                                    <option value="dui24">Regionalimmobilien24 - Duisburg                                                                        (dui24)
+                                                                    </option>
+                                                                                                                                    <option value="duei24">Regionalimmobilien24 - Düsseldorf                                                                        (duei24)
+                                                                    </option>
+                                                                                                                                    <option value="eli24">Regionalimmobilien24 - Elbeland                                                                        (eli24)
+                                                                    </option>
+                                                                                                                                    <option value="emsi24">Regionalimmobilien24 - Emsland                                                                        (emsi24)
+                                                                    </option>
+                                                                                                                                    <option value="efi24">Regionalimmobilien24 - Erfurt                                                                        (efi24)
+                                                                    </option>
+                                                                                                                                    <option value="erzi24">Regionalimmobilien24 - Erzgebirge                                                                        (erzi24)
+                                                                    </option>
+                                                                                                                                    <option value="eei24">Regionalimmobilien24 - Essen                                                                        (eei24)
+                                                                    </option>
+                                                                                                                                    <option value="fi24">Regionalimmobilien24 - Frankfurt                                                                        (fi24)
+                                                                    </option>
+                                                                                                                                    <option value="goti24">Regionalimmobilien24 - Göttingen                                                                        (goti24)
+                                                                    </option>
+                                                                                                                                    <option value="hai24">Regionalimmobilien24 - Halle                                                                        (hai24)
+                                                                    </option>
+                                                                                                                                    <option value="hhi24">Regionalimmobilien24 - Hamburg                                                                        (hhi24)
+                                                                    </option>
+                                                                                                                                    <option value="hani24">Regionalimmobilien24 - Hannover                                                                        (hani24)
+                                                                    </option>
+                                                                                                                                    <option value="hi24">Regionalimmobilien24 - Harz                                                                        (hi24)
+                                                                    </option>
+                                                                                                                                    <option value="hli24">Regionalimmobilien24 - Havelland                                                                        (hli24)
+                                                                    </option>
+                                                                                                                                    <option value="hbi24">Regionalimmobilien24 - Heilbronn                                                                        (hbi24)
+                                                                    </option>
+                                                                                                                                    <option value="hoi24">Regionalimmobilien24 - Holstein                                                                        (hoi24)
+                                                                    </option>
+                                                                                                                                    <option value="jei24">Regionalimmobilien24 - Jerichow                                                                        (jei24)
+                                                                    </option>
+                                                                                                                                    <option value="kai24">Regionalimmobilien24 - Kassel                                                                        (kai24)
+                                                                    </option>
+                                                                                                                                    <option value="kiei24">Regionalimmobilien24 - Kiel                                                                        (kiei24)
+                                                                    </option>
+                                                                                                                                    <option value="koei24">Regionalimmobilien24 - Köln                                                                        (koei24)
+                                                                    </option>
+                                                                                                                                    <option value="li24">Regionalimmobilien24 - Leipzig                                                                        (li24)
+                                                                    </option>
+                                                                                                                                    <option value="luei24">Regionalimmobilien24 - Lübeck                                                                        (luei24)
+                                                                    </option>
+                                                                                                                                    <option value="lli24">Regionalimmobilien24 - Ludwigslust                                                                        (lli24)
+                                                                    </option>
+                                                                                                                                    <option value="lbi24">Regionalimmobilien24 - Lüneburg                                                                        (lbi24)
+                                                                    </option>
+                                                                                                                                    <option value="mbi24">Regionalimmobilien24 - Magdeburg                                                                        (mbi24)
+                                                                    </option>
+                                                                                                                                    <option value="maii24">Regionalimmobilien24 - Mainz                                                                        (maii24)
+                                                                    </option>
+                                                                                                                                    <option value="mani24">Regionalimmobilien24 - Mannheim                                                                        (mani24)
+                                                                    </option>
+                                                                                                                                    <option value="mfi24">Regionalimmobilien24 - Mittelfranken                                                                        (mfi24)
+                                                                    </option>
+                                                                                                                                    <option value="gii24">Regionalimmobilien24 - MIttelhessen                                                                        (gii24)
+                                                                    </option>
+                                                                                                                                    <option value="mri24">Regionalimmobilien24 - Mittelrhein                                                                        (mri24)
+                                                                    </option>
+                                                                                                                                    <option value="msi24">Regionalimmobilien24 - Mittelsachsen                                                                        (msi24)
+                                                                    </option>
+                                                                                                                                    <option value="mthi24">Regionalimmobilien24 - Mittelthüringen                                                                        (mthi24)
+                                                                    </option>
+                                                                                                                                    <option value="mi24">Regionalimmobilien24 - München                                                                        (mi24)
+                                                                    </option>
+                                                                                                                                    <option value="mli24">Regionalimmobilien24 - Münsterland                                                                        (mli24)
+                                                                    </option>
+                                                                                                                                    <option value="nbi24">Regionalimmobilien24 - Niederbayern                                                                        (nbi24)
+                                                                    </option>
+                                                                                                                                    <option value="nri24">Regionalimmobilien24 - Niederrhein                                                                        (nri24)
+                                                                    </option>
+                                                                                                                                    <option value="nsai24">Regionalimmobilien24 - Nordsaarland                                                                        (nsai24)
+                                                                    </option>
+                                                                                                                                    <option value="nsi24">Regionalimmobilien24 - Nordsachsen                                                                        (nsi24)
+                                                                    </option>
+                                                                                                                                    <option value="nti24">Regionalimmobilien24 - Nordthüringen                                                                        (nti24)
+                                                                    </option>
+                                                                                                                                    <option value="nwmi24">Regionalimmobilien24 - Nordwestmecklenburg                                                                        (nwmi24)
+                                                                    </option>
+                                                                                                                                    <option value="ofi24">Regionalimmobilien24 - Oberfranken                                                                        (ofi24)
+                                                                    </option>
+                                                                                                                                    <option value="ohi24">Regionalimmobilien24 - Oberhavel                                                                        (ohi24)
+                                                                    </option>
+                                                                                                                                    <option value="oli24">Regionalimmobilien24 - Oberlausitz                                                                        (oli24)
+                                                                    </option>
+                                                                                                                                    <option value="opi24">Regionalimmobilien24 - Oberpfalz                                                                        (opi24)
+                                                                    </option>
+                                                                                                                                    <option value="osi24">Regionalimmobilien24 - Oberschwaben                                                                        (osi24)
+                                                                    </option>
+                                                                                                                                    <option value="obli24">Regionalimmobilien24 - Oderland                                                                        (obli24)
+                                                                    </option>
+                                                                                                                                    <option value="osai24">Regionalimmobilien24 - Ostsaarland                                                                        (osai24)
+                                                                    </option>
+                                                                                                                                    <option value="othi24">Regionalimmobilien24 - Ostthüringen                                                                        (othi24)
+                                                                    </option>
+                                                                                                                                    <option value="rski24">Regionalimmobilien24 - Rhein - Siegkreis                                                                        (rski24)
+                                                                    </option>
+                                                                                                                                    <option value="reki24">Regionalimmobilien24 - Rhein-Erft-Kreis                                                                        (reki24)
+                                                                    </option>
+                                                                                                                                    <option value="rhhi24">Regionalimmobilien24 - Rheinhessen                                                                        (rhhi24)
+                                                                    </option>
+                                                                                                                                    <option value="rni24">Regionalimmobilien24 - Rheinneckar                                                                        (rni24)
+                                                                    </option>
+                                                                                                                                    <option value="rpi24">Regionalimmobilien24 - Rheinpfalz                                                                        (rpi24)
+                                                                    </option>
+                                                                                                                                    <option value="rhti24">Regionalimmobilien24 - Rheintal                                                                        (rhti24)
+                                                                    </option>
+                                                                                                                                    <option value="roi24">Regionalimmobilien24 - Rostock                                                                        (roi24)
+                                                                    </option>
+                                                                                                                                    <option value="rgi24">Regionalimmobilien24 - Ruhrgebiet                                                                        (rgi24)
+                                                                    </option>
+                                                                                                                                    <option value="sui24">Regionalimmobilien24 - Saaleunstrut                                                                        (sui24)
+                                                                    </option>
+                                                                                                                                    <option value="sbi24">Regionalimmobilien24 - Saarbrücken                                                                        (sbi24)
+                                                                    </option>
+                                                                                                                                    <option value="sli24">Regionalimmobilien24 - Salzland                                                                        (sli24)
+                                                                    </option>
+                                                                                                                                    <option value="saui24">Regionalimmobilien24 - Sauerland                                                                        (saui24)
+                                                                    </option>
+                                                                                                                                    <option value="slwi24">Regionalimmobilien24 - Schleswig                                                                        (slwi24)
+                                                                    </option>
+                                                                                                                                    <option value="sai24">Regionalimmobilien24 - Schwäbische Alb                                                                        (sai24)
+                                                                    </option>
+                                                                                                                                    <option value="swwi24">Regionalimmobilien24 - Schwarzwald                                                                        (swwi24)
+                                                                    </option>
+                                                                                                                                    <option value="si24">Regionalimmobilien24 - Schwerin                                                                        (si24)
+                                                                    </option>
+                                                                                                                                    <option value="sigi24">Regionalimmobilien24 - Siegerland                                                                        (sigi24)
+                                                                    </option>
+                                                                                                                                    <option value="swi24">Regionalimmobilien24 - Spreewald                                                                        (swi24)
+                                                                    </option>
+                                                                                                                                    <option value="sti24">Regionalimmobilien24 - Stuttgart                                                                        (sti24)
+                                                                    </option>
+                                                                                                                                    <option value="dai24">Regionalimmobilien24 - Südhessen                                                                        (dai24)
+                                                                    </option>
+                                                                                                                                    <option value="smbi24">Regionalimmobilien24 - Südmecklenburg                                                                        (smbi24)
+                                                                    </option>
+                                                                                                                                    <option value="swti24">Regionalimmobilien24 - Südwestthüringen                                                                        (swti24)
+                                                                    </option>
+                                                                                                                                    <option value="wii24">Regionalimmobilien24 - Taunus                                                                        (wii24)
+                                                                    </option>
+                                                                                                                                    <option value="tbi24">Regionalimmobilien24 - Teutoburger Wald                                                                        (tbi24)
+                                                                    </option>
+                                                                                                                                    <option value="ti24">Regionalimmobilien24 - Trier                                                                        (ti24)
+                                                                    </option>
+                                                                                                                                    <option value="umi24">Regionalimmobilien24 - Uckermark                                                                        (umi24)
+                                                                    </option>
+                                                                                                                                    <option value="ufi24">Regionalimmobilien24 - Unterfranken                                                                        (ufi24)
+                                                                    </option>
+                                                                                                                                    <option value="vi24">Regionalimmobilien24 - Vogtland                                                                        (vi24)
+                                                                    </option>
+                                                                                                                                    <option value="vpi24">Regionalimmobilien24 - Vorpommern                                                                        (vpi24)
+                                                                    </option>
+                                                                                                                                    <option value="wei24">Regionalimmobilien24 - Weserems                                                                        (wei24)
+                                                                    </option>
+                                                                                                                                    <option value="wesi24">Regionalimmobilien24 - Westeifel                                                                        (wesi24)
+                                                                    </option>
+                                                                                                                                    <option value="wwi24">Regionalimmobilien24 - Westerwald                                                                        (wwi24)
+                                                                    </option>
+                                                                                                                                    <option value="wpfi24">Regionalimmobilien24 - Westpfalz                                                                        (wpfi24)
+                                                                    </option>
+                                                                                                                                    <option value="wsai24">Regionalimmobilien24 - Westsaarland                                                                        (wsai24)
+                                                                    </option>
+                                                                                                                                    <option value="weti24">Regionalimmobilien24 - Wetterau                                                                        (weti24)
+                                                                    </option>
+                                                                                                                                    <option value="zi24">Regionalimmobilien24 - Zwickau                                                                        (zi24)
+                                                                    </option>
+                                                                                                                                    <option value="ki24">Regionalimmobilien24 . Karlsruhe                                                                        (ki24)
+                                                                    </option>
+                                                                                                                                    <option value="sosi24">Regionalimmobilien24- Sächs. Schweiz/Osterzgebirge                                                                        (sosi24)
+                                                                    </option>
+                                                                                                                                    <option value="osni24">Regionalimmoblien24 - Osnabrück                                                                        (osni24)
+                                                                    </option>
+                                                                                                                            </optgroup>
+                                                                                                                <optgroup label="alle Regionen">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="firstname" class="control-label">Vorname</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="firstname" id="firstname" value="" class="form_validation" type="text" data-database="team">
+                                                </div>
+
+                                                <label for="lastname" class="control-label">Nachname</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="lastname" id="lastname" value="Immobilienanfragen" class="form_validation" type="text" data-database="team" required="required">
+                                                    <span class="help-inline">*</span>
+                                                </div>
+
+                                                <label for="title" class="control-label">Titel</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="title" id="title" value="" class="form_validation" type="text" data-database="team"></div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="position" class="control-label">Position</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="position" id="position" value="bei Fragen zu Immobilien wende Dich bitte direkt an den entsprechenden Anbieter aus dem Exposé." class="form_validation" type="text" data-database="team"></div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="partnerlogin_label" class="control-label">Bezeichnung im<br>Partner-Login-Bereich</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="partnerlogin_label" id="partnerlogin_label" value="" class="form_validation" type="text" data-database="team"></div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="phone" class="control-label">Telefon</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="phone" id="phone" value="" class="form_validation" type="text" data-database="team"></div>
+                                                <label for="fax" class="control-label">Fax</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="fax" id="fax" value="" class="form_validation" type="text" data-database="team"></div>
+                                                <label for="mobile" class="control-label">Mobiltelefon</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="mobile" id="mobile" value="" class="form_validation" type="text" data-database="team"></div>
+                                                <label for="whatsapp" class="control-label">Whatsapp</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="whatsapp" id="whatsapp" value="" class="form_validation" type="text" data-database="team">
+                                                    <span class="help-block">Whatsapp-Format: +491723456789</span>
+                                                </div>
+                                                <label for="email" class="control-label">E-Mail</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="email" id="email" value="" class="form_validation" type="text" data-database="team">
+                                                </div>
+                                                <label for="calendly" class="control-label">Calendly-Link: </label>
+                                                <div class="controls">
+                                                    <span>https://calendly.com/</span>
+                                                    <input style="width: 90px !important;" maxlength="150" name="calendly" id="calendly" value="" class="form_validation" type="text" data-database="team">
+                                                    <input aria-label="" style="width: 50px !important;" maxlength="50" name="calendly_zusatz" id="calendly_zusatz" value="/60min" placeholder="/60min" class="form_validation" type="text" data-database="team">
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <label for="website" class="control-label">Website</label>
+                                                <div class="controls">
+                                                    <input maxlength="200" name="website" id="website" value="" class="form_validation" type="text" data-database="team">
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <label for="sorting" class="control-label">Sortierung</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="sorting" id="sorting" value="-31" class="form_validation" type="number" data-database="team">
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <div class="controls">
+                                                    <label>
+                                                        <input type="hidden" name="is_baufi" value="0" data-database="team" class="form_validation">
+                                                        <input type="checkbox" name="is_baufi" data-database="team" value="1" style="margin-top:-2px;" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class') }">
+                                                        Teammitglied ist ein Baufinanzierer</label>
+                                                </div>
+                                                <div class="controls">
+                                                    <label>
+                                                        <input type="hidden" name="is_finpartner" value="0" data-database="team" class="form_validation">
+                                                        <input type="checkbox" name="is_finpartner" data-database="team" value="1" style="margin-top:-2px;" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class') }">
+                                                        Finanzierungspartner</label>
+                                                </div>
+                                                <div class="controls">
+                                                    <label>
+                                                        <input type="hidden" name="show_on_mlp" value="0" data-database="team" class="form_validation">
+                                                        <input type="checkbox" name="show_on_mlp" data-database="team" value="1" style="margin-top:-2px;" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class') }">
+                                                        auf der Landingpage <code>/immobilienportal-partner-werden/ (MLP)</code> anzeigen
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="form-actions">
+                                                <span class="btn btn-primary pitsafe">Speichern</span>
+                                            </div>
+                                            <div class="control-group">
+                                                <label class="control-label">* Pflichtfeld</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>EUROPACE Partner IDs</h5>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="control-group">
+                                                <label for="europace_partner_id" class="control-label">Qualitypool (Haupt-ID)</label>
+                                                <div class="controls">
+                                                    <input maxlength="5" name="europace_partner_id" id="europace_partner_id" value="" pattern="|[A-Z0-9]{5}" class="form_validation" type="text" data-database="team">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="control-group">
+                                                <label for="europace_partner_id_forum" class="control-label">Forum</label>
+                                                <div class="controls">
+                                                    <input maxlength="5" name="europace_partner_id_forum" id="europace_partner_id_forum" value="" pattern="|[A-Z0-9]{5}" class="form_validation" type="text" data-database="team">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="form-actions">
+                                                <span class="btn btn-primary pitsafe">Speichern</span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>Partner-Status: nicht gesetzt</h5>
+                                    </div>
+                                                                            <div class="widget-content nopadding">
+                                            <form class="form-horizontal">
+                                                <div class="form-actions">
+                                                    <a title="" href="../../../../../adm/individuell/master/team/edit/partner/?admsess=lg41sg4uet&amp;id=123">
+                                                        <span class="btn btn-success">bearbeiten</span>
+                                                    </a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                                                    </div>
+
+
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>Partner Links</h5>
+                                    </div>
+                                                                            <div class="widget-content nopadding">
+                                            
+                                            <form class="form-horizontal">
+                                                <div class="control-group">
+                                                    <label for="link_uri" class="control-label">finCrm</label>
+                                                    <div class="controls">
+                                                        <input maxlength="100" name="link_uri_fincrm" id="link_uri_fincrm" value="https://www.fincrm.de/login" pattern="|(https?://[a-zA-Z\d][a-zA-Z\d.\-\/\=\%\;\:]+)" class="form_validation" type="text" data-database="team__links">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="widget-content nopadding">
+                                            <form class="form-horizontal">
+                                                <div class="form-actions">
+                                                    <span class="btn btn-primary pitsafe">Speichern</span>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label class="control-label">* Pflichtfeld</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                                                    </div>
+
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>MobiBox Login</h5>
+                                    </div>
+                                                                            <div class="widget-content nopadding">
+                                            
+                                            <form class="form-horizontal">
+                                                <div class="control-group">
+                                                    <label for="link_uri" class="control-label">Login</label>
+                                                    <div class="controls">
+                                                        <input maxlength="200" name="texte_mobibox_login" id="texte_mobibox_login" value="" pattern="|([a-zA-Z0-9\\_\\.\\-]+@regionalimmobilien24\.de)" class="form_validation" type="text" data-database="team__texte">
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label for="link_uri" class="control-label">Passwort</label>
+                                                    <div class="controls">
+                                                        <input maxlength="200" name="texte_mobibox_pw" id="texte_mobibox_pw" value="" class="form_validation" type="text" data-database="team__texte">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="widget-content nopadding">
+                                            <form class="form-horizontal">
+                                                <div class="form-actions">
+                                                    <span class="btn btn-primary pitsafe">Speichern</span>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label class="control-label">* Pflichtfeld</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                                                    </div>
+                            </div>
+
+                            <div class="span6">
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>Unternehmensdaten</h5>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+
+                                            <div class="control-group">
+                                                <label for="firmenbezeichnung" class="control-label">Firmenbezeichnung</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="firmenbezeichnung" id="firmenbezeichnung" value="" class="form_validation" type="text" data-database="team"></div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="street" class="control-label">Straße, Nr</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="street" id="street" value="" class="form_validation" type="text" data-database="team"></div>
+                                                <label for="zip" class="control-label">Postleitzahl</label>
+                                                <div class="controls">
+                                                    <input maxlength="5" pattern="\d{5}" name="zip" id="zip" value="" class="form_validation" type="text" data-database="team"></div>
+                                                <label for="city" class="control-label">Ort</label>
+                                                <div class="controls">
+                                                    <input maxlength="100" name="city" id="city" value="" class="form_validation" type="text" data-database="team"></div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <label for="opening_hours" class="control-label">Öffnungszeiten</label>
+                                                <div class="controls" style="padding-right: 1.5em;">
+                                                <textarea maxlength="255" name="opening_hours" id="opening_hours" class="form_validation" data-val="none" data-database="team" style="display: none;"></textarea>
+                                                    <div id="mceu_10" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px;"><div id="mceu_10-body" class="mce-container-body mce-stack-layout"><div id="mceu_11" class="mce-toolbar-grp mce-container mce-panel mce-first mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="display: none;"><div id="mceu_11-body" class="mce-container-body mce-stack-layout"><div id="mceu_12" class="mce-container mce-toolbar mce-first mce-last mce-stack-layout-item" role="toolbar"><div id="mceu_12-body" class="mce-container-body mce-flow-layout"><div id="mceu_13" class="mce-container mce-first mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_13-body"><div id="mceu_0" class="mce-widget mce-btn mce-first mce-disabled" tabindex="-1" aria-labelledby="mceu_0" role="button" aria-label="Undo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-undo"></i></button></div><div id="mceu_1" class="mce-widget mce-btn mce-last mce-disabled" tabindex="-1" aria-labelledby="mceu_1" role="button" aria-label="Redo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-redo"></i></button></div></div></div><div id="mceu_14" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_14-body"><div id="mceu_2" class="mce-widget mce-btn mce-first" tabindex="-1" aria-labelledby="mceu_2" role="button" aria-label="Bold"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mceu_3" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_3" role="button" aria-label="Italic"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div><div id="mceu_4" class="mce-widget mce-btn mce-last" tabindex="-1" aria-labelledby="mceu_4" role="button" aria-label="Underline"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-underline"></i></button></div></div></div><div id="mceu_15" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_15-body"><div id="mceu_5" class="mce-widget mce-btn mce-first" tabindex="-1" aria-labelledby="mceu_5" role="button" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_6" class="mce-widget mce-btn mce-last" tabindex="-1" aria-labelledby="mceu_6" role="button" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div></div></div><div id="mceu_16" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_16-body"><div id="mceu_7" class="mce-widget mce-btn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_7" role="button" aria-label="Insert/edit link"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-link"></i></button></div></div></div><div id="mceu_17" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_17-body"><div id="mceu_8" class="mce-widget mce-btn mce-menubtn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_8" role="button" aria-label="Table" aria-haspopup="true"><button id="mceu_8-open" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-table"></i><span></span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_18" class="mce-container mce-last mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_18-body"><div id="mceu_9" class="mce-widget mce-btn mce-first mce-last" tabindex="-1" aria-labelledby="mceu_9" role="button" aria-label="Source code"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-code"></i></button></div></div></div></div></div></div></div><div id="mceu_19" class="mce-edit-area mce-container mce-panel mce-last mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><iframe id="opening_hours_tiny_ifr" src="javascript:&quot;&quot;" frameborder="0" allowtransparency="true" title="Rich-Text- Area. Drücken Sie ALT-F9 für das Menü. Drücken Sie ALT-F10 für Symbolleiste. Drücken Sie ALT-0 für Hilfe" style="width: 100%; height: 190px; display: block;"></iframe></div></div></div><textarea aria-label="" rows="10" name="opening_hours_tiny" id="opening_hours_tiny" class="tiny" aria-hidden="true" style="display: none;"></textarea>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="form-actions">
+                                                <span class="btn btn-primary pitsafe">Speichern</span>
+                                            </div>
+                                            <div class="control-group">
+                                                <label class="control-label">* Pflichtfeld</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>SMS Erinnerung</h5>
+                                    </div>
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="control-group">
+                                                <div class="controls">
+                                                    <label>
+                                                        <input type="hidden" name="use_sms" value="0" data-database="team__sms" class="form_validation">
+                                                        <input type="checkbox" id="use_sms" name="use_sms" data-database="team__sms" value="1" style="margin-top:-2px;" onclick="preFillSMS($(this).is(':checked'));">
+                                                        SMS bei BaufiLead versenden</label>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="control-group pre-fill-sms" style="display: none;">
+                                                <label for="phonenumber" class="control-label">Nummer für SMS</label>
+                                                <div class="controls">
+                                                    <input maxlength="20" name="phonenumber" id="phonenumber" placeholder="00491xxxxxxxxx" value="" pattern="(00491[3-9])\d{4,10}" type="text" data-database="team__sms">
+                                                    <span class="help-block">wird aus Whatsapp übertragen. Format: 00491723456789</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group pre-fill-sms" style="display: none;">
+                                                <label for="sms_baufilead" class="control-label" style="width: calc(100% - 20px); padding: 0 10px;text-align: left">BaufiLead SMS</label>
+                                                <div class="controls" style="margin: 0;display: inline-block;width: calc(100% - 20px); padding: 0 10px;">
+                                                    <textarea name="sms_baufilead" style="width: calc(100% - 10px) !important;" rows="10" id="sms_baufilead" data-database="team__sms">Ein neuer Finanzierungsinteressent wartet auf Dich. Nimm den Lead innerhalb von 24 Stunden in Deinem Partnerbereich an.
+
+Dein Team von Regionalimmobilien24</textarea>
+                                                    <span class="help-block">≈ <span class="count-sms_baufilead">157</span> Zeichen. (Umbruch ≙ 2 Zeichen)</span>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                    <div class="widget-content nopadding">
+                                        <form class="form-horizontal">
+                                            <div class="form-actions">
+                                                <span class="btn btn-primary pitsafe">Speichern</span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span3">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Foto</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=lg41sg4uet&amp;do=imagesafe&amp;col=image&amp;id=123" method="post" enctype="multipart/form-data"><div class="control-group">
+                                <div class="controls" style="margin-left: 10px; text-align: center;">
+                                    <img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png" alt="Vorschaubild">
+                                </div>
+                            </div><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="image">
+                                <input type="file" name="image" accept="image/jpeg, image/png">
+                                <span class="help-block" for="image"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Löschen" id="delimage">
+                                    <script>
+                                    $(document).ready(function() {
+                                        $('#delimage').on('click', function (e) {
+                                        let parentForm = $(this).closest('form');
+                                        let href = parentForm.attr('action');
+                                        parentForm.attr('action', href + '&del=true');
+                                        })
+                                    })
+                                    </script>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>                        <div class="span3">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Foto Widget Pose</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=lg41sg4uet&amp;do=imagesafe&amp;col=image_widget_pose&amp;id=123" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="image_widget_pose">
+                                <input type="file" name="image_widget_pose" accept="image/jpeg, image/png">
+                                <span class="help-block" for="image_widget_pose"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                    
+                                    <script>
+                                    $(document).ready(function() {
+                                        $('#delimage_widget_pose').on('click', function (e) {
+                                        let parentForm = $(this).closest('form');
+                                        let href = parentForm.attr('action');
+                                        parentForm.attr('action', href + '&del=true');
+                                        })
+                                    })
+                                    </script>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>                        <div class="span3">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>QR-Code</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=lg41sg4uet&amp;do=imagesafe&amp;col=qrcode&amp;id=123" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="qrcode">
+                                <input type="file" name="qrcode" accept="image/jpeg, image/png">
+                                <span class="help-block" for="qrcode"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                    
+                                    <script>
+                                    $(document).ready(function() {
+                                        $('#delqrcode').on('click', function (e) {
+                                        let parentForm = $(this).closest('form');
+                                        let href = parentForm.attr('action');
+                                        parentForm.attr('action', href + '&del=true');
+                                        })
+                                    })
+                                    </script>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                        <div class="span3">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Logo Baufi</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=lg41sg4uet&amp;do=imagesafe&amp;col=logo_baufi&amp;id=123" method="post" enctype="multipart/form-data"><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="logo_baufi">
+                                <input type="file" name="logo_baufi" accept="image/jpeg, image/png">
+                                <span class="help-block" for="logo_baufi"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                    
+                                    <script>
+                                    $(document).ready(function() {
+                                        $('#dellogo_baufi').on('click', function (e) {
+                                        let parentForm = $(this).closest('form');
+                                        let href = parentForm.attr('action');
+                                        parentForm.attr('action', href + '&del=true');
+                                        })
+                                    })
+                                    </script>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                    <hr>
+                    <div class="row-fluid">
+                        <div class="span9">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Webapp-Einstellungen</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <label>
+                                                    <input type="checkbox" id="use_webapp" name="use_webapp" data-database="team__baufi_webapp" value="1" style="margin-top:-2px;" onclick="if ($(this).is(':checked')) { $(this).attr('class', 'form_validation'); } else { $(this).removeAttr('class') }">
+                                                    persönliche Webapp-Nutzung für Finanzierer aktivieren</label>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="control-group">
+                                            <label for="webapp_titel" class="control-label">Titel</label>
+                                            <div class="controls">
+                                                <input maxlength="200" name="webapp_titel" id="webapp_titel" required="" placeholder="Vorname Nachname - Baufinanzierung" value="Immobilienanfragen - Baufinanzierung" class="form_validation" type="text" data-database="team__baufi_webapp">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label for="webapp_description" class="control-label">Untertitel</label>
+                                            <div class="controls">
+                                                <input maxlength="200" name="webapp_description" id="webapp_description" required="" placeholder="Vorname Nachname - Baufinanzierung" value="BaufinanzierungPrime" class="form_validation" type="text" data-database="team__baufi_webapp">
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="form-actions">
+                                            <span class="btn btn-primary pitsafe">Speichern</span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span3">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"></span>
+                    <h5>Logo Webapp</h5>
+                </div><div class="widget-content nopadding">
+                    <form class="form-horizontal" action="?admsess=lg41sg4uet&amp;do=imagesafe&amp;col=webapp_logo&amp;id=123" method="post" enctype="multipart/form-data"><div class="control-group">
+                                <div class="controls" style="margin-left: 10px; text-align: center;">
+                                    <img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/team/v/200x200/max/b22a9339_customersupport.png" alt="Vorschaubild">
+                                </div>
+                            </div><div class="control-group">
+                            <div class="controls" style="margin-left: 10px;">
+                                <input type="hidden" name="db_row" value="webapp_logo">
+                                <input type="file" name="webapp_logo" accept="image/jpeg, image/png">
+                                <span class="help-block" for="webapp_logo"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                                <div class="controls" style="margin-left: 10px;">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Hochladen">
+                                    <input class="btn btn-primary pitsafe" type="submit" name="send" value="Löschen" id="delwebapp_logo">
+                                    <script>
+                                    $(document).ready(function() {
+                                        $('#delwebapp_logo').on('click', function (e) {
+                                        let parentForm = $(this).closest('form');
+                                        let href = parentForm.attr('action');
+                                        parentForm.attr('action', href + '&del=true');
+                                        })
+                                    })
+                                    </script>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>                    </div>
+
+                    <hr>
+
+                    <div class="row-fluid">
+                        <div class="span4"></div>
+                        <div class="span4">
+                            <div class="widget-box">
+                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>Teammitglied löschen</h5>
+                                </div>
+                                <div class="widget-content nopadding">
+                                    <form class="form-horizontal">
+                                        <div class="form-actions">
+                                            <a title="" class="confirm_delete" data-href="../../../../../adm/individuell/master/team/delete/?admsess=lg41sg4uet&amp;id=123">
+                                                    <span class="btn btn-primary" style="background-color: red; background-image: none;">Löschen</span>
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="widget-box">
+
+                                                                <div class="widget-title">
+                                    <span class="icon"></span>
+                                    <h5>zugeordnete Makler (0)</h5>
+                                </div>
+
+                                <div class="widget-content ">
+                                                                            <p>Aktuell sind keine Makler diesem Berater zugeordnet</p>
+                                                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <form class="pitsafeform" action="../../../../../adm/individuell/master/team/save/?admsess=lg41sg4uet&amp;id=123" method="post" enctype="multipart/form-data"></form>
+                <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>        </div>
+        
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>    <script>
+        $('.confirm_delete').click(function () {
+            if (confirm('Soll das Teammitglied  Immobilienanfragen wirklich gelöscht werden?')) {
+                $('.confirm_delete').attr('href', $('.confirm_delete').attr('data-href'));
+            }
+        });
+        $('#profil_uri_name_change').click(function () {
+            let $profilUriName = $('#profil_uri_name'),
+                $val = $profilUriName.val(),
+                $dataVal = $profilUriName.data('val');
+            $profilUriName.val($dataVal).data('val', $val);
+            if ($profilUriName.is(':disabled')) {
+                $profilUriName.addClass('form_validation').removeAttr('disabled');
+            } else {
+                $profilUriName.removeClass('form_validation').attr('disabled', 'disabled');
+            }
+        });
+
+        function preFillSMS(active) {
+            let useSMS = $('#use_sms');
+            let phonenumber = $('#phonenumber');
+            let smsBaufilead = $('#sms_baufilead');
+            let countSmsBaufiLead = $('.count-sms_baufilead');
+            let elemPrefillSms = $('.pre-fill-sms');
+            countSmsBaufiLead.html(countSMS(smsBaufilead.val()));
+
+            if (active) {
+                let smsNumber = $('#whatsapp').val();
+                useSMS.attr('class', 'form_validation');
+                phonenumber.attr('class', 'form_validation')
+                    .attr('required', 'required')
+                    .val(smsNumber.replace('+49', '0049'))
+                    .attr('style', 'pointer-events: none;');
+                smsBaufilead.attr('class', 'form_validation')
+                    .attr('required', 'required')
+                    .on('change input paste blur keydown', function () {
+                        countSmsBaufiLead.html(countSMS(smsBaufilead.val()));
+                    });
+                elemPrefillSms.show();
+            } else {
+                useSMS.removeAttr('class');
+                phonenumber.removeAttr('class').removeAttr('required').removeAttr('style');
+                smsBaufilead.removeAttr('class').removeAttr('required');
+                elemPrefillSms.hide();
+            }
+        }
+
+        function countSMS(str) {
+            let hasEPID = str.indexOf('[[EPID]]') !== -1;
+            let hasVorname = str.indexOf('[[VORNAME]]') !== -1;
+            let hasNachname = str.indexOf('[[NACHNAME]]') !== -1;
+            str = str.replace('[[EPID]]', '').replace('[[VORNAME]]', '').replace('[[NACHNAME]]', '');
+            console.log(hasEPID, hasVorname, hasNachname);
+            let lines = 0;
+            let pos = 0;
+            while (pos !== -1) {
+                lines++;
+                pos = str.indexOf("\n", pos + 1);
+            }
+            let count = str.length + lines - 1;
+            if (hasEPID === false && hasVorname === false && hasNachname === false) {
+                return count;
+            }
+            let c = count
+            let result = '' + count + ' (';
+            if (hasEPID) {
+                result += '+6';
+                c += 6;
+            }
+            if (hasVorname) {
+                result += ' +≈10';
+                c += 10;
+            }
+            if (hasNachname) {
+                result += ' +≈12';
+                c += 12;
+            }
+            result += ') ≡ <b>≈' + c + '</b>';
+            return result;
+        }
+
+        preFillSMS(false);
+    </script>
+
+    <script type="text/javascript" src="../../../../../ressource/js/function4tiny.js"></script>
+    <script type="text/javascript" src="../../../../../adm/individuell/master/js/tinymce.min.js"></script>
+    <script>
+        let pasttext = 'HALLO';
+        tinymce.init({
+            selector: "#opening_hours_tiny",
+            toolbar1: "undo redo | bold italic underline | bullist numlist | link | table | code",
+            language: 'de',
+            plugins: ["code,table,link,paste"],
+            table_toolbar: 'tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+            fullpage_hide_in_source_view: true,
+            menubar: false,
+            statusbar: false,
+            toolbar_item_size: "small",
+
+            theme_advanced_buttons3_add: "pastetext,pasteword,selectall",
+            paste_auto_cleanup_on_paste: true,
+            paste_as_text: true,
+            paste_preprocess: function (pl, o) {
+                o.content = o.content;
+                pasttext = o.content;
+            },
+            paste_postprocess: function (pl, o) {
+                if (pasttext != o.node.innerHTML) {
+                    alert('Der einzufügende Content enthält Formatierungen. Diese werden automatisch bereinigt.');
+                }
+                o.node.innerHTML = o.node.innerHTML;
+            },
+
+
+            setup: function (theEditor) {
+                theEditor.on('focus', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").show();
+                });
+                theEditor.on('blur', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    $('#opening_hours').val(transcode4tiny(tinyMCE.get('opening_hours_tiny').getContent(), 'out'));
+                });
+                theEditor.on("init", function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    tinyMCE.get('opening_hours_tiny').setContent(transcode4tiny($('#opening_hours').val(), 'in'));
+                });
+            }
+        });
+
+        tinymce.init({
+            selector: "#baufi_text_tiny",
+            toolbar1: "undo redo | bold italic underline | bullist numlist | link | table | code",
+            language: 'de',
+            plugins: ["code,table,link,paste"],
+            table_toolbar: 'tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+            fullpage_hide_in_source_view: true,
+            menubar: false,
+            statusbar: false,
+            toolbar_item_size: "small",
+
+            theme_advanced_buttons3_add: "pastetext,pasteword,selectall",
+            paste_auto_cleanup_on_paste: true,
+            paste_as_text: true,
+            paste_preprocess: function (pl, o) {
+                o.content = o.content;
+                pasttext = o.content;
+            },
+            paste_postprocess: function (pl, o) {
+                if (pasttext != o.node.innerHTML) {
+                    alert('Der einzufügende Content enthält Formatierungen. Diese werden automatisch bereinigt.');
+                }
+                o.node.innerHTML = o.node.innerHTML;
+            },
+
+
+            setup: function (theEditor) {
+                theEditor.on('focus', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").show();
+                });
+                theEditor.on('blur', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    $('#baufi_text').val(transcode4tiny(tinyMCE.get('baufi_text_tiny').getContent(), 'out'));
+                });
+                theEditor.on("init", function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    tinyMCE.get('baufi_text_tiny').setContent(transcode4tiny($('#baufi_text').val(), 'in'));
+                });
+            }
+        });
+        tinymce.init({
+            selector: "#baufi_aktuell_tiny",
+            toolbar1: "undo redo | bold italic underline | bullist numlist | link | table | code",
+            language: 'de',
+            plugins: ["code,table,link,paste"],
+            table_toolbar: 'tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+            fullpage_hide_in_source_view: true,
+            menubar: false,
+            statusbar: false,
+            toolbar_item_size: "small",
+
+            theme_advanced_buttons3_add: "pastetext,pasteword,selectall",
+            paste_auto_cleanup_on_paste: true,
+            paste_as_text: true,
+            paste_preprocess: function (pl, o) {
+                o.content = o.content;
+                pasttext = o.content;
+            },
+            paste_postprocess: function (pl, o) {
+                if (pasttext != o.node.innerHTML) {
+                    alert('Der einzufügende Content enthält Formatierungen. Diese werden automatisch bereinigt.');
+                }
+                o.node.innerHTML = o.node.innerHTML;
+            },
+
+
+            setup: function (theEditor) {
+                theEditor.on('focus', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").show();
+                });
+                theEditor.on('blur', function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    $('#baufi_aktuell').val(transcode4tiny(tinyMCE.get('baufi_aktuell_tiny').getContent(), 'out'));
+                });
+                theEditor.on("init", function () {
+                    $(this.contentAreaContainer.parentElement).find("div.mce-toolbar-grp").hide();
+                    tinyMCE.get('baufi_aktuell_tiny').setContent(transcode4tiny($('#baufi_aktuell').val(), 'in'));
+                });
+            }
+        });
+    </script>
+    
+    
+</body></html>

@@ -1,0 +1,1381 @@
+<!DOCTYPE html><html lang="de"><head>
+    <script src="../../../adm/layout/js/jquery.min.js"></script>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../favicon.ico">
+<link rel="icon" href="../../../favicon.ico">
+
+<link href="../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+</head>
+
+<body>
+
+<div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../adm/individuell/config_profil.php?admsess=md2c1xa9cz"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../adm/individuell/news-inbox.php?admsess=md2c1xa9cz">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../adm/individuell/faq.php?admsess=md2c1xa9cz"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../adm/individuell/logout.php?admsess=md2c1xa9cz"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> edit_region_sites</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/master/dashboard/?admsess=md2c1xa9cz"> <span>Übersicht</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/makler/?admsess=md2c1xa9cz"> <span>Makler</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/baufi/?admsess=md2c1xa9cz"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/finanzzert/?admsess=md2c1xa9cz"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/terminvb/?admsess=md2c1xa9cz"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/user/?admsess=md2c1xa9cz"> <span>Nutzer</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/mail/?admsess=md2c1xa9cz"> <span>Mails</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/recaptcha/?admsess=md2c1xa9cz"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../adm/individuell/master/dashboard/referrer/?admsess=md2c1xa9cz"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../adm/individuell/master/tools/oid-recherche/?admsess=md2c1xa9cz"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=md2c1xa9cz"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/master/makler/list/?admsess=md2c1xa9cz"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../adm/individuell/master/makler/list-short/?admsess=md2c1xa9cz"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../adm/individuell/master/makler/anfragen/?admsess=md2c1xa9cz"> <span>Anfragen</span> </a></li><li class=""><a href="../../../adm/individuell/master/makler/new/?admsess=md2c1xa9cz"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../adm/individuell/master/makler/kooperation/?admsess=md2c1xa9cz"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../adm/individuell/master/tools/makler-umhaengen/?admsess=md2c1xa9cz"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../adm/individuell/master/tools/kundenlogin/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../adm/individuell/master/immo/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../adm/individuell/master/privatanzeige/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../adm/individuell/orte/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../adm/individuell/static/sites.php?admsess=md2c1xa9cz"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=md2c1xa9cz"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../adm/individuell/master/mails/list/?admsess=md2c1xa9cz"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../adm/individuell/master/mails/blacklist/?admsess=md2c1xa9cz"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../adm/individuell/master/team/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../adm/individuell/master/whitelabel/list/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../adm/individuell/master/suchauftrag/?admsess=md2c1xa9cz"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/master/interface/mitula/?admsess=md2c1xa9cz"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../adm/individuell/master/interface/immo/static/?admsess=md2c1xa9cz"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../adm/individuell/master/seo/config/?admsess=md2c1xa9cz"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/master/estate-assistant/jokes/?admsess=md2c1xa9cz"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../adm/individuell/hilfe/software/?admsess=md2c1xa9cz"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../adm/individuell/hilfe/baufi-lead/?admsess=md2c1xa9cz"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../adm/individuell/hilfe/baufi-contact/?admsess=md2c1xa9cz"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../adm/individuell/logout.php?admsess=md2c1xa9cz">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../adm/individuell/logout.php?admsess=md2c1xa9cz">.</li>
+    </ul>
+</div>    <style>
+    tr.form_inline,
+    tr.form_inline td {
+        height: auto;
+        padding: 0;
+    }
+
+    .form_inline_scroll {
+        min-width: 550px;
+    }
+
+    form.inline {
+        height: 0;
+        line-height: 0;
+    }
+
+    tr.form_inline input[type=text] {
+        width: auto;
+        height: 30px;
+        margin: 0;
+    }
+
+    tr.form_inline input.long_text[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+        /* width: 100px !important; */
+        /* height: 30px;
+        margin: 0; */
+    }
+
+    tr.form_inline input[type=text]:not([name*=name]) {
+        width: 100% !important;
+        box-sizing: border-box;
+        height: 40px;
+    }
+
+    tr.form_inline input[type=checkbox] {
+        height: 40px;
+        margin: 0;
+        margin-left: 10px;
+        position: relative;
+        float: left;
+    }
+
+    tr.form_inline input[type=submit] {
+        float: right;
+        width: 20px;
+        /* padding:5px 15px; */
+        background: white;
+        background-image: url('../../../adm/main/images/save_icon.png');
+        background-repeat: no-repeat;
+        background-size: 20px;
+        border: 0 none;
+        cursor: pointer;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 20px;
+        padding: 0;
+    }
+
+    tr.form_inline select {
+        height: 40px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .widget-content {
+        overflow-y: auto;
+    }
+
+    .form_inline a {
+        margin: auto;
+        margin-top: 10px;
+        display: table;
+    }
+
+    .form_inline div.cke_inner a {
+        margin: auto;
+        margin-top: unset;
+        display: unset;
+    }
+
+    table.toobig td {
+        position: relative;
+    }
+
+    table.toobig input:not(.fixed)[type=submit] {
+        /* position: absolute;
+        right: unset;
+        z-index: 1; */
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        border: 0;
+        background-position: center;
+        z-index: 10;
+        right: 0;
+    }
+
+    table.toobig input.fixed[type=submit] {
+        margin-bottom: 10px;
+    }
+
+    .unique_key {
+        padding-right: 5px;
+        width: 10px;
+        font-size: 10px;
+        color: red;
+        cursor: pointer;
+        float: right;
+    }
+
+    /* .icon.placeholder_help {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 15px;
+    } */
+    a[href*="regio_placeholder"] {
+        display: inline;
+    }
+
+    .icon.placeholder_help {
+        position: relative;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /* .regio_placeholder_help {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        font-size: 12px;
+        background-color: #e1e1e1;
+        border: 2px solid black;
+        padding: 5px;
+        margin-left: 30px;
+        margin-top: -150px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    } */
+    .regio_placeholder_help table {
+        /* table-layout: fixed;
+        width: 100%; */
+    }
+
+    .regio_placeholder_help tr td,
+    .regio_placeholder_help tr:hover td,
+    .regio_placeholder_help tbody>tr:hover>td,
+    .regio_placeholder_help tr:hover th,
+    .regio_placeholder_help .dataTables_paginate .ui-button:hover,
+    .regio_placeholder_help .pagination.alternate li öa:hover {
+        background-image: unset !important;
+        background-color: unset !important;
+        color: black !important;
+    }
+
+    .regio_placeholder_help tr td {
+        border: 1px solid #a8a8a8;
+    }
+
+    .span4 input[type="text"],
+    .span4 input[type="password"],
+    .span4 .ui-autocomplete-input,
+    .span4 textarea,
+    .span4 .uneditable-input {
+        display: inline-block;
+        padding: 4px !important;
+        font-size: 13px;
+        line-height: 18px !important;
+        color: #808080;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        box-shadow: unset !important;
+        height: auto !important;
+        border: 1px solid rgb(204, 204, 204) !important;
+    }
+</style>    <script>
+    $(document).ready(function() {
+                    // $('tr.form_inline input[type=submit]:not(.display)').css('height', '0');
+        $('tr.form_inline input:not([new]):not([type=submit]), tr.form_inline select:not([new]):not([type=submit]), tr.form_inline option:not([new]):not([type=submit]), tr.form_inline textarea:not([new]):not([type=submit])').each(function() {
+            console.log('changed');
+            // $(this).change(function() {
+            //     $(this).next('input[type=submit]').css('height', '20px');
+            // });
+            $(this).on('change keyup blur', function() {
+                if($(this).val() == $(this).attr('orig_val') || ($(this).attr('type') == 'checkbox' && $(this).prop('checked') == ($(this).attr('orig_val') == 'checked'))) {
+                // if($(this).val() == $(this).attr('orig_val')) {
+                    $(this).parents('td').first().children('input[type=submit]').remove();
+                } else {
+                    if($(this).parents('td').first().children('input[type=submit]').length == 0) {
+                        // $(this).parents('td').children().wrapAll('<form class="inline" action="?admsess=md2c1xa9cz" method="POST"></form>');
+                        // $(this).parents('td').children().wrapAll('<ajax_form class="inline" ajax_action="?admsess=md2c1xa9cz" method="AJAX"></ajax_form>');
+                        $(this).parents('td').first().append($('<input type="submit" value="">'));
+                    }
+                    console.log('SAVE needed');
+                        $(this).parents('td').first().children('input[type=submit]').unbind('click').on('click', function() {
+                            submitForm($(this).parents('td').first(), $(this).parents('td')[0].hasAttribute("reload"));
+                            });
+                        $(this).unbind('keypress').keypress(function(e) {
+                            if(e.which == 13) {
+                            submitForm($(this).parents('td').first(), $(this).parents('td')[0].hasAttribute("reload"));
+                            }
+                        });
+                }
+            });
+        });
+        checkTableSize();
+        // imageInit();
+    $(window).resize(function() {
+        checkTableSize();
+    });
+    $('a[href*=del_id]').click(function(e) {
+       if(!confirm('Wirklich löschen?')) {
+           e.preventDefault();
+           return false;
+       }
+    });
+    uniqueIdClick();
+});
+
+function uniqueIdClick() {
+    $('.unique_key').each(function() {
+         $(this).click(function() {
+             if($(this).attr('unique_output_name')) {
+            var values = {
+                'table' :   $(this).attr('unique_table'),
+                'length':   $(this).attr('unique_length'),
+                'field' :   $(this).attr('unique_field'),
+                'db'    :   $(this).attr('unique_db')
+            };  
+            var target_element = $(this).prev('[name=' + $(this).attr('unique_output_name') + ']');
+            $.ajax({
+                url: '../../../adm/individuell/PHP_PARTS/form_unique_key.php?admsess=md2c1xa9cz',
+                data: values,
+                type: 'POST',
+                    success: function(msg) {
+                        console.log(target_element);
+                        target_element.val(msg);
+                    }
+                }
+                );
+            }
+        });
+    });
+}
+
+function submitForm(element, reload) {
+    submitViaAjax(element);
+    element.children('input').each(function() {
+    if($(this).attr('type') == 'checkbox') {
+        if($(this).prop('checked')) {
+            $(this).attr('orig_val', 'checked');
+        } else {
+            $(this).attr('orig_val', '');
+        }
+    } else {
+        $(this).attr('orig_val', $(this).val());
+    }
+    });
+    if(reload) {
+        setTimeout(function(){ window.location = window.location.href; }, 350);
+    }
+}
+
+function submitViaAjax(element) {
+    values = element.children().serializeArray();
+    /* Because serializeArray() ignores unset checkboxes and radio buttons: */
+    values = values.concat(
+            element.find('input[type=checkbox]:not(:checked)').map(
+                function() {
+                    return {"name": this.name, "value": $(this).prop('checked')}
+                }).get()
+    );
+    $.ajax({
+        url: '../../../adm/individuell/PHP_PARTS/sites_mysql.php?admsess=md2c1xa9cz&regio=aai24',
+        data: values,
+        // dataType: "json",
+        type: 'POST',
+        success: function(msg) {
+            element.children('input[type=submit]').remove();
+        }
+    }
+    );
+}
+
+function checkTableSize() {
+    $('TR.form_inline').each(function() {
+            console.log($(this).width());
+            if($(this).height() > 45) {
+                $(this).parents('table').first().addClass('toobig');
+            } else {
+                // $(this).parents('table').first().removeClass('toobig');
+            }
+        });
+}
+
+    function replaceStr(str, find, replace) {
+        for (var i = 0; i < find.length; i++) {
+            str = str.replace(new RegExp(find[i], 'gi'), replace[i]);
+        }
+        return str;
+    }
+    </script>
+    <div id="content">
+        <div id="content-header">
+            <h1>Seiten - Aachen-Eifelimmobilien24</h1>
+        </div>
+        <div id="breadcrumb">
+            <a href="../../../adm/individuell/dashboard.php?admsess=md2c1xa9cz" title="" class="tip-bottom" data-original-title="zum Dashboard"><span class="icon"></span> Home</a>
+            <a title="" href="../../../adm/individuell/regionen/config/?admsess=md2c1xa9cz"> alle Regionen</a>
+            <a title="" href="../../../adm/individuell/regionen/edit_region_sites.php?admsess=md2c1xa9cz&amp;regio=aai24"> regionale Seiten - Aachen-Eifelimmobilien24</a>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Hauptnavigation</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <table class="table table-hover table-bordered form_inline_scroll toobig">
+                                <tbody><tr>
+                                    <th>Seite aufrufen</th>
+                                    <th colspan="3">Ebene / Bezeichnung<br>Pfad</th>
+                                    <th>Sortierung</th>
+                                    <th>Sektionen<br>Elemente</th>
+                                    <th>bearbeiten</th>
+                                </tr>
+                                                                    <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bfo2">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bfo2">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Baufinanzierung" orig_val="Baufinanzierung">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bfo2">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung" orig_val="baufinanzierung">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            20                                            <input type="hidden" name="id_order_main_navigation" value="bfo2">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="20" orig_val="20">
+                                        </td>
+                                        <td style="text-align: center">11 / 16</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bfo2"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="ut">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/unser-team/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="ut">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Unser Team" orig_val="Unser Team">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="ut">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="unser-team" orig_val="unser-team">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            70                                            <input type="hidden" name="id_order_main_navigation" value="ut">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="70" orig_val="70">
+                                        </td>
+                                        <td style="text-align: center">1 / 4</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=ut"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbfr">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/baufinanzierung-rechner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbfr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Baufinanzierungsrechner" orig_val="Baufinanzierungsrechner">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbfr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/baufinanzierung-rechner" orig_val="baufinanzierung/baufinanzierung-rechner">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201010                                            <input type="hidden" name="id_order_main_navigation" value="bbfr">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201010" orig_val="201010">
+                                        </td>
+                                        <td style="text-align: center">10 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbfr"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbgr">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/budgetrechner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbgr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Budgetrechner" orig_val="Budgetrechner">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbgr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/budgetrechner" orig_val="baufinanzierung/budgetrechner">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201020                                            <input type="hidden" name="id_order_main_navigation" value="bbgr">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201020" orig_val="201020">
+                                        </td>
+                                        <td style="text-align: center">10 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbgr"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bkre">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/konditionsrechner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bkre">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Konditionsrechner" orig_val="Konditionsrechner">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bkre">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/konditionsrechner" orig_val="baufinanzierung/konditionsrechner">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201030                                            <input type="hidden" name="id_order_main_navigation" value="bkre">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201030" orig_val="201030">
+                                        </td>
+                                        <td style="text-align: center">10 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bkre"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bmkr">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/mieten-oder-kaufen-rechner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bmkr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Mieten oder Kaufen Rechner" orig_val="Mieten oder Kaufen Rechner">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bmkr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/mieten-oder-kaufen-rechner" orig_val="baufinanzierung/mieten-oder-kaufen-rechner">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201060                                            <input type="hidden" name="id_order_main_navigation" value="bmkr">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201060" orig_val="201060">
+                                        </td>
+                                        <td style="text-align: center">10 / 20</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bmkr"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bnkr">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/nebenkostenrechner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bnkr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Nebenkostenrechner" orig_val="Nebenkostenrechner">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bnkr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/nebenkostenrechner" orig_val="baufinanzierung/nebenkostenrechner">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201070                                            <input type="hidden" name="id_order_main_navigation" value="bnkr">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201070" orig_val="201070">
+                                        </td>
+                                        <td style="text-align: center">10 / 20</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bnkr"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="z9nm4cwv">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/finanzierungsassistent/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="z9nm4cwv">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Finanzierungsassistent" orig_val="Finanzierungsassistent">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="z9nm4cwv">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/finanzierungsassistent" orig_val="baufinanzierung/finanzierungsassistent">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            201080                                            <input type="hidden" name="id_order_main_navigation" value="z9nm4cwv">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="201080" orig_val="201080">
+                                        </td>
+                                        <td style="text-align: center">8 / 12</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=z9nm4cwv"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="banr">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/annuitaetendarlehen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="banr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Annuitätendarlehen" orig_val="Annuitätendarlehen">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="banr">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/annuitaetendarlehen" orig_val="baufinanzierung/annuitaetendarlehen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202010                                            <input type="hidden" name="id_order_main_navigation" value="banr">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202010" orig_val="202010">
+                                        </td>
+                                        <td style="text-align: center">12 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=banr"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bzzd">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/zinszahlungsdarlehen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bzzd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Zinszahlungsdarlehen" orig_val="Zinszahlungsdarlehen">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bzzd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/zinszahlungsdarlehen" orig_val="baufinanzierung/zinszahlungsdarlehen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202020                                            <input type="hidden" name="id_order_main_navigation" value="bzzd">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202020" orig_val="202020">
+                                        </td>
+                                        <td style="text-align: center">9 / 18</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bzzd"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bvdl">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/variables-darlehen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bvdl">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Variables Darlehen" orig_val="Variables Darlehen">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bvdl">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/variables-darlehen" orig_val="baufinanzierung/variables-darlehen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202030                                            <input type="hidden" name="id_order_main_navigation" value="bvdl">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202030" orig_val="202030">
+                                        </td>
+                                        <td style="text-align: center">9 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bvdl"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbsd">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/bauspardarlehen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbsd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Bauspardarlehen" orig_val="Bauspardarlehen">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbsd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/bauspardarlehen" orig_val="baufinanzierung/bauspardarlehen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202040                                            <input type="hidden" name="id_order_main_navigation" value="bbsd">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202040" orig_val="202040">
+                                        </td>
+                                        <td style="text-align: center">9 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbsd"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bafz1">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/anschlussfinanzierung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bafz1">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Anschlussfinanzierung" orig_val="Anschlussfinanzierung">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bafz1">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/anschlussfinanzierung" orig_val="baufinanzierung/anschlussfinanzierung">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202050                                            <input type="hidden" name="id_order_main_navigation" value="bafz1">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202050" orig_val="202050">
+                                        </td>
+                                        <td style="text-align: center">11 / 23</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bafz1"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bhkf">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/hauskauf-finanzierung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bhkf">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Hauskauf Finanzierung" orig_val="Hauskauf Finanzierung">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bhkf">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/hauskauf-finanzierung" orig_val="baufinanzierung/hauskauf-finanzierung">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202060                                            <input type="hidden" name="id_order_main_navigation" value="bhkf">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202060" orig_val="202060">
+                                        </td>
+                                        <td style="text-align: center">9 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bhkf"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bilg">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/immobilie-finanzieren/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bilg">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Immobilienfinanzierung" orig_val="Immobilienfinanzierung">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bilg">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/immobilie-finanzieren" orig_val="baufinanzierung/immobilie-finanzieren">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202070                                            <input type="hidden" name="id_order_main_navigation" value="bilg">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202070" orig_val="202070">
+                                        </td>
+                                        <td style="text-align: center">9 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bilg"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bhfz">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/hausfinanzierung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bhfz">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Haus finanzieren" orig_val="Haus finanzieren">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bhfz">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/hausfinanzierung" orig_val="baufinanzierung/hausfinanzierung">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202080                                            <input type="hidden" name="id_order_main_navigation" value="bhfz">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202080" orig_val="202080">
+                                        </td>
+                                        <td style="text-align: center">9 / 20</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bhfz"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbkd">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/baukredit/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbkd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Baukredit" orig_val="Baukredit">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbkd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/baukredit" orig_val="baufinanzierung/baukredit">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203010                                            <input type="hidden" name="id_order_main_navigation" value="bbkd">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203010" orig_val="203010">
+                                        </td>
+                                        <td style="text-align: center">9 / 17</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbkd"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbgd">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/baugeld/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbgd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Baugeld" orig_val="Baugeld">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbgd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/baugeld" orig_val="baufinanzierung/baugeld">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203020                                            <input type="hidden" name="id_order_main_navigation" value="bbgd">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203020" orig_val="203020">
+                                        </td>
+                                        <td style="text-align: center">9 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbgd"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bhkd">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/hauskredit/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bhkd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Hauskredit" orig_val="Hauskredit">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bhkd">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/hauskredit" orig_val="baufinanzierung/hauskredit">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203030                                            <input type="hidden" name="id_order_main_navigation" value="bhkd">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203030" orig_val="203030">
+                                        </td>
+                                        <td style="text-align: center">9 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bhkd"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bfoe">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/foerderung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bfoe">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="KfW Fördermittel" orig_val="KfW Fördermittel">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bfoe">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/foerderung" orig_val="baufinanzierung/foerderung">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203040                                            <input type="hidden" name="id_order_main_navigation" value="bfoe">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203040" orig_val="203040">
+                                        </td>
+                                        <td style="text-align: center">9 / 22</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bfoe"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bbzi">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/bauzinsen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bbzi">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Bauzinsen Zinsvergleich" orig_val="Bauzinsen Zinsvergleich">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bbzi">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/bauzinsen" orig_val="baufinanzierung/bauzinsen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203050                                            <input type="hidden" name="id_order_main_navigation" value="bbzi">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203050" orig_val="203050">
+                                        </td>
+                                        <td style="text-align: center">9 / 19</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bbzi"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="bahz">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/aktuelle-hypothekenzinsen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="bahz">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Hypothekenzinsen" orig_val="Hypothekenzinsen">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="bahz">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/aktuelle-hypothekenzinsen" orig_val="baufinanzierung/aktuelle-hypothekenzinsen">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            203060                                            <input type="hidden" name="id_order_main_navigation" value="bahz">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="203060" orig_val="203060">
+                                        </td>
+                                        <td style="text-align: center">11 / 20</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=bahz"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="v64s2zwm">
+                                                                                            <span class="icon" style="color:red; float: inherit; display: inline-block;"></span>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="v64s2zwm">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Teilverkauf" orig_val="Teilverkauf">
+
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="v64s2zwm">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/teilverkauf" orig_val="baufinanzierung/teilverkauf">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            202090                                            <input type="hidden" name="id_order_main_navigation" value="v64s2zwm">
+                                            <input disabled="disabled" type="hidden" name="order_main_navigation" value="202090" orig_val="202090">
+                                        </td>
+                                        <td style="text-align: center">11 / 21</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=v64s2zwm"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                </tbody></table>
+                        </div>
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Servicenavigation</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <table class="table table-hover table-bordered form_inline_scroll toobig">
+                                <tbody><tr>
+                                    <th>Seite aufrufen</th>
+                                    <th colspan="3">Ebene / Bezeichnung<br>Pfad</th>
+                                    <th>Sortierung</th>
+                                    <th>Sektionen<br>Elemente</th>
+                                    <th>bearbeiten</th>
+                                </tr>
+                                                                    <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="agb25">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/agb-und-rechtliche-hinweise/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="agb25">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="AGB und Rechtliche Hinweise" orig_val="AGB und Rechtliche Hinweise">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="agb25">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="agb-und-rechtliche-hinweise" orig_val="agb-und-rechtliche-hinweise">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            1                                            <input type="hidden" name="id_order_service_navigation" value="agb25">
+                                            <input disabled="disabled" type="hidden" name="order_service_navigation" value="1" orig_val="1">
+                                        </td>
+                                        <td style="text-align: center;">4 / 18</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=agb25"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="imp25">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/impressum/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="imp25">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Impressum" orig_val="Impressum">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="imp25">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="impressum" orig_val="impressum">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            2                                            <input type="hidden" name="id_order_service_navigation" value="imp25">
+                                            <input disabled="disabled" type="hidden" name="order_service_navigation" value="2" orig_val="2">
+                                        </td>
+                                        <td style="text-align: center;">5 / 9</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=imp25"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="ds24">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/datenschutz/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="ds24">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Datenschutz" orig_val="Datenschutz">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="ds24">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="datenschutz" orig_val="datenschutz">
+                                        </td>
+                                        <td reload="" style="text-align: center;">
+                                            3                                            <input type="hidden" name="id_order_service_navigation" value="ds24">
+                                            <input disabled="disabled" type="hidden" name="order_service_navigation" value="3" orig_val="3">
+                                        </td>
+                                        <td style="text-align: center;">1 / 22</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=ds24"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                </tbody></table>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="span4">
+                                                            <div class="widget-box">
+                                                                <div class="widget-title">
+                                                                    <span class="icon">&#xe019;</span>
+                                                                    <h5>neue Seite</h5>
+                                                                </div>
+                                                                <div class="widget-content nopadding">
+                                                                <form class="form-horizontal">
+                                                                    <div class="form-actions">
+                                                                    <a href="../../../adm/individuell/regionen/new_site.php?admsess=md2c1xa9cz"><span class="btn btn-primary pitsafe">neue Seite</span></a>
+                                                                    </div>
+                                                                    <div class="control-group">
+                                                                        <label class="control-label">* Pflichtfeld</label>
+                                                                    </div>
+                                                                </form>
+                                </div>
+                                </div> -->
+                <!-- </div> -->
+                <!-- <div class="row-fluid"> -->
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"></span>
+                            <h5>Seiten ohne Zuordnung</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <table class="table table-hover table-bordered form_inline_scroll toobig">
+                                <tbody><tr>
+                                    <th>Seite aufrufen</th>
+                                    <th colspan="3">Ebene / Bezeichnung</th>
+                                    <th>Sektionen<br>Elemente</th>
+                                    <th>bearbeiten</th>
+                                </tr>
+                                                                    <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="idx">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel//" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="idx">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Startseite" orig_val="Startseite">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="idx">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="" orig_val="">
+                                        </td>
+                                        <td style="text-align: center;">6 / 32</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=idx"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="blp">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/immobilienfinanzierung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="blp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Baufi-Landingpage" orig_val="Baufi-Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="blp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/immobilienfinanzierung" orig_val="baufinanzierung/immobilienfinanzierung">
+                                        </td>
+                                        <td style="text-align: center;">6 / 16</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=blp"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="ulp">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/umschuldung/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="ulp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Umschuldung-Landingpage" orig_val="Umschuldung-Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="ulp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/umschuldung" orig_val="baufinanzierung/umschuldung">
+                                        </td>
+                                        <td style="text-align: center;">6 / 15</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=ulp"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="iblp">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/immobilie-bewerten-lassen/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="iblp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Immobilie-bewerten-lassen-Landingpage" orig_val="Immobilie-bewerten-lassen-Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="iblp">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="immobilie-bewerten-lassen" orig_val="immobilie-bewerten-lassen">
+                                        </td>
+                                        <td style="text-align: center;">4 / 8</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=iblp"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="n9s9yrah">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/landingpage/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="n9s9yrah">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Landingpage" orig_val="Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="n9s9yrah">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/landingpage" orig_val="baufinanzierung/landingpage">
+                                        </td>
+                                        <td style="text-align: center;">1 / 1</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=n9s9yrah"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="w4dk3445">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/baufinanzierung/landingpagefa/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="w4dk3445">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Landingpage FA" orig_val="Landingpage FA">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="w4dk3445">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="baufinanzierung/landingpagefa" orig_val="baufinanzierung/landingpagefa">
+                                        </td>
+                                        <td style="text-align: center;">1 / 1</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=w4dk3445"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="mbgttnf8">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/immobilienportal-partner-werden/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="mbgttnf8">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Makler-Landingpage" orig_val="Makler-Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="mbgttnf8">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="immobilienportal-partner-werden" orig_val="immobilienportal-partner-werden">
+                                        </td>
+                                        <td style="text-align: center;">4 / 23</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=mbgttnf8"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="pxtvxzgf">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/partner/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="pxtvxzgf">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Partner-Landingpage" orig_val="Partner-Landingpage">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="pxtvxzgf">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="partner" orig_val="partner">
+                                        </td>
+                                        <td style="text-align: center;">7 / 20</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=pxtvxzgf"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="sug">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/strom-gas-und-multimedia/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="sug">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Strom/Gas &amp; Multimedia" orig_val="Strom/Gas &amp; Multimedia">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="sug">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="strom-gas-und-multimedia" orig_val="strom-gas-und-multimedia">
+                                        </td>
+                                        <td style="text-align: center;">1 / 5</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=sug"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                        <tr class="form_inline">
+                                        <td style="text-align: center;vertical-align: middle;">
+                                            <input type="hidden" name="id_page_id" value="mup">
+                                                                                            <a title="" href="https://www.regionalimmobilien24.local/aachen-eifel/markt-und-preis/" target="_blank">
+                                                    <span class="icon"></span>
+                                                </a>
+                                                                                    </td>
+                                                                                <td colspan="3">
+                                            <input type="hidden" name="id_page_name" value="mup">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="page_name" value="Markt &amp; Preis" orig_val="Markt &amp; Preis">
+                                            <br>
+                                            <input type="hidden" name="id_dir" value="mup">
+                                            <input aria-label="" disabled="disabled" type="text" class="long_text" name="dir" value="markt-und-preis" orig_val="markt-und-preis">
+                                        </td>
+                                        <td style="text-align: center;">1 / 17</td>
+                                        <td>
+                                            <a title="" href="../../../adm/individuell/regionen/edit_region_page.php?admsess=md2c1xa9cz&amp;regio=aai24&amp;page_id=mup"><span class="icon"></span></a>
+                                        </td>
+                                    </tr>
+                                                                </tbody></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="pitsafeform" action="../../../adm/individuell/makler-config/safe/?admsess=md2c1xa9cz&amp;do=update" method="post" enctype="multipart/form-data">
+    </form>
+    <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>
+<script src="../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../ressource/js/validation.class.js"></script>
+<script src="../../../ressource/js/colorpicker.js"></script>
+<script src="../../../ressource/js/datepicker.js"></script>
+<script src="../../../ressource/js/eye.js"></script>
+<script src="../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>
+
+</body></html>

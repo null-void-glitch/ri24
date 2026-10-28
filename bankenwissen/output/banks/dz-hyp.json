@@ -1,0 +1,441 @@
+{
+  "bank": "DZ HYP",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, bis zu 4 Finanzierungsbausteine möglich"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkung"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Beim Kombi-Produkt: Die Antragstellung erfolgt über eine Volks- oder Raiffeisenbank. Auf Basis eines Rahmenvertrages mit der DZ HYP prüft die Volks- oder Raiffeisenbank den eingereichten Antrag und besitzt eine echte Entscheidungskompetenz innerhalb der Regelungen der VR-Baufi Ampel. Die Kommunikation erfolgt alleinig über die Vermittlerbetreuer:innen der Volks- oder Raiffeisenbank.\nVR-BaufiEco: Abschlag von derzeit -0,10% bei Finanzierungsobjekten mit Energieendbedarf bis 50 kWh/qm (Energieeffizienzklassen A+ und A)"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 / 24"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "2 / 24"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "75.000 € bis 1.000.000 EUR  bezogen nur auf den DZ Hyp-Anteil"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "möglich - VR-BaufiComfort: Angabe des Verwendungszweck kein Nachweis zur Mittelverwendung notwendig"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "beim Produkt VR-BaufiComfort: Nein\nin Kombinatorik ja (wird durch die jeweilige VR-Bank dargestellt)"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Comfort-Produkt: Ja"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "3 - 30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten (bitte Geno-Kombi inklusive Zwischenfinanzierung über VR-Bank nutzen)"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "60"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "3 - 30 (exl. Vorlaufzeit)"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "wird nicht angeboten"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Auszahlungszeitpunkte dürfen nicht länger als 6 Monate auseinander liegen."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja, beim Comfort-Produkt"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40160041"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 300 (direkt über DZ HYP) weitere Programme über VR-Bank möglich"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Keine kostenfreie Sondertilgungsoption / Gegen Zinsaufschlag sind die folgenden Optionen möglich:\n\nbei Sondertilgungsoption = 5% p.a. kann die erste Sondertilgung frühestens nach Vollauszahlung des Darlehens erfolgen.\nbei Sondertilgungsoption = 10% p.a. kann die erste Sondertilgung ab dem 6. Jahr (nach Vollauszahlung des Darlehens) erfolgen\nbei Sondertilgungsoption = 100% p.a. nach Ablauf von 3 Jahren nach Auszahlung des Darlehens besteht die Möglichkeit einer kompletten oder teilweisen Rückzahlung (mindestens 10 TEUR je Tilgungsleistung)"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1 %"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "tilgungsfreie Zeit bis zu 24 Monate möglich"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "3-mal während der Zinsbindung zwischen 1% und 5% p.a. gegen Aufschlag möglich.\nDer Aufschlag beträgt 0,02 % und muss manuell angepasst werden. \nBitte bei Beantragung auf Tilgungssatzwechsel-Wunsch hinweisen."
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Restnutzungsdauer:\nDie Restnutzungsdauer muss mindestens 30 Jahre betragen.\nDie vollständige Darlehensrückzahlung muss innerhalb der Restnutzungsdauer des Beleihungsobjektes erfolgen."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja, öffentliche und private"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "ja, die Finanzierung ist unter folgenden Voraussetzungen möglich:\n\nEigennutzungsfähigkeit der Ferienhäuser/ -wohnungen\nDie dauerhafte wohnwirtschaftliche Nutzung darf nicht ausgeschlossen sein (z. B. durch Ausweis als Feriengebiet).\nKeine Finanzierung von Objekten in Ferienparks"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "max. 1/3 der Jahresnettokaltmiete"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": ""
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "ja,\nAb 3 WE\nErtragswertverfahren ist als Bewertungsverfahren zugrunde zu legen"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH auch mit 1/3 Gewerbeanteil (max. 2 Objekte)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "OneValue und interne Bewertung"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Für Kombinatorik: Internes Verfahren, bis 600.000 vereinfachtes Wertermittlungsverfahren, ab 600.000 nach Tischlage bzw. Regelung gemäß Kombi-Partner\nFür Comfort-Produkt bis 1 Mio innerhalb 24 Stunden, gemäß Tischgutachten"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "grundsätzlich möglich, wertmindernde per Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht akzeptiert"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "20"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz von Elterngeld - Ansatz künftiges Gehalt - Arbeitgeberbescheinigung notwendig (Höhe und Zeitpunkt) + letzte 3 Gehaltsnachweise"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ja, muss min. 6 Monate bestehen \n3 Gehaltsabrechnungen erforderlich"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein\nAusnahme: Sollte ein Darlehensnehmer unbefristet sein, sein Ehegatte aber befristet, kann dieser kein Darlehensnehmer, wohl aber Eigentümer werden."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "ja, sofern der Bank begründete Anhaltspunkte vorliegen, dass das Einkommen, ggf. auch bei Arbeitgeberwechsel, nachhaltig zu erzielen ist."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 2 Darlehensnehmer und max. 1 Haushalt"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Nur in Kombinatorik\nbei Comfort-Produkt: Wohnstiz in DE, Abrechnungen in €, dt. Abrechnungen"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "ja, sofern zum Zeitpunkt der Antragstellung Kurzarbeitergeld bezogen wird, ist bei der Ermittlung der nachhaltigen Kapitaldienstfähigkeit maximal dieses anzusetzen, wenn es wahrscheinlich ist, dass es zu einer Wiederaufnahme der Beschäftigung und Fortsetzung des Arbeitsverhältnisses im ursprünglichen Umfang kommt."
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Unterschriebene Immobilienaufstellung reicht aus"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Grundsätzlich ja, wenn Einkünfte als nachhaltig anzusehen sind (auch bei Arbeitgeberwechsel)\nProbezeit muss bei Auszahlung noch nicht beendet sein"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "keine Begrenzung der Anzahl von Immobilien im Bestand\nkeine Unterlageneinreichung bei Bestandsobjekten notwendig\nbei umfangreichen Immobilienportfolio lediglich eine vom Kunden ausgefüllte und unterschriebene Immobilienaufstellung einreichen"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "ja"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, aber Rate muss weiter angerechnet werden, da die Kund:innen selbst ablösen"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "(A) Entweder der/ die Kunde/ Kundin besitzt die Mächtigkeit über die deutsche Sprache\n\noder\n\n(B) es wird alternativ ein Nachweis der Übersetzung durch einen vereidigten Dolmetscher erbracht"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload in BaufiSmart"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Comfort-Produkt: PostIdent, VideoLegitimation\nBei Kombinatorik: gem. Vorgaben der jeweiligen Volks- oder Raiffeisenbank"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload in BaufiSmart"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nach Abstimmung mit der jeweiligen VR-Bank im Kombi-Produkt, bei Comfort nach Absprache"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nach Abstimmung mit der jeweiligen VR-Bank"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Einreichungshinweis - Die Einreichung und Abwicklung erfolgt immer über die nachrangig beteiligte Geno-Bank"
+    }
+  },
+  "company_id": "44d409b3-829b-4ea2-ade0-81a6dca977bd",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/44d409b3-829b-4ea2-ade0-81a6dca977bd",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "31.03.26",
+  "recent_news": [
+    {
+      "date": "07.04.26",
+      "title": "DZ Hyp - Korrektur: Produktupdate zum 23.03.2026"
+    },
+    {
+      "date": "16.03.26",
+      "title": "DZ Hyp - Produktupdate zum 23.03.2026"
+    },
+    {
+      "date": "26.02.26",
+      "title": "DZ Hyp - Verlängerte Sonderaktion bis einschließlich 04. März 2026"
+    },
+    {
+      "date": "20.02.26",
+      "title": "DZ Hyp - Verlängerte Sonderkonditionen: Gold zahlt sich aus"
+    },
+    {
+      "date": "06.02.26",
+      "title": "DZ Hyp - Value Pricing auf BaufiSmart ab 06.02.2026"
+    }
+  ]
+}

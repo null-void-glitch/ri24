@@ -1,0 +1,937 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/ansatz-rente",
+  "category": "Kriterien Person",
+  "criterion_name": "Ansatz Rente",
+  "criterion_id": "ansatz-rente",
+  "scraped_at": "2026-05-07T12:17:52.849Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Witwenrente: Ja\ngem. Rentenbescheid und unbefristet\nWaisenrente: Ja\n100% max. bis zum 25. Lebensjahr\nAltersrente: gesetzliche \nOhne Vorlage von Rentenbescheinigungen wird bei abhängig beschäftigten Antragstellern pauschal mit einem\nRentensatz von 52 % des letzten Nettogehaltes, soweit plausibel, gerechnet (gesetzliche Höchstgrenze derzeit EUR 2.809,00 Netto)."
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "In EURO bezahlte unbefristete Renten und Pensionen"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "Witwenrente: Ja\nabzüglich 10% für Steuern und für Krankenkassenbeiträge falls nicht anders bekannt"
+    },
+    {
+      "bank": "AXA",
+      "value": "Witwen-/Waisenrente: Ja - Einzelfallentscheidung"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "Witwenrente: Ja \nBerücksichtigung von Sozialversicherungsbeiträgen\nWaisenrente: Ja\nBerücksichtigung von Sozialversicherungsbeiträgen\n\nAnsatz Altersrente mit 2% Anpassungssatz möglich! Bei Kombination mit einer Bank + BSH bitte immer den niedrigeren Wert eintragen und in der Übergabe an die Bausparkasse darauf hinweisen"
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja, analog Kindesunterhalt"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Witwenrente: Ja, wenn unbefristet\nNachweis durch aktuellen Rentenbescheid oder drei Kontoauszüge\nWaisenrente: Ja, Ansatz in voller Höhe bis zur Vollendung des 18. Lebensjahres, max. bis Vollendung 27. LJ\nErwerbsunfähigkeitsrente und Berufsunfähigkeitsrente: Ja"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Witwen-/Waisenrente: Ja - nach Bescheid \n \nAltersrente: \nmax. Antragsalter: 67\nKlärung Erbfolge, Nachweis Rentenhöhe\nKapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "BHW",
+      "value": "Witwenrente: Ja\n\ngem. Rentenbescheid, pauschaler Abzug von 16% auf Brutto-Rentenbezug\nWaisenrente: Ja\n\ngem. Bescheid, pauschaler Abzug von 16% auf Brutto-Rentenabzug"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Witwen/Waisenrente: Ja, gem. Bescheid"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Consors Finanz (ehemals VON ESSEN Bank)",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein"
+    },
+    {
+      "bank": "DKB",
+      "value": "Ansatz 90% der nachgewiesenen Rente / Pension (d.h. inkl. pauschalem Steuerabzug von 10%)\nKEIN Ansatz von befristet gezahlten Renten, Witwenrenten, Halbwaisen-/Vollwaisenrenten"
+    },
+    {
+      "bank": "ERGO",
+      "value": "o gesetzliche Altersrente (Ansatz zu 100 %) \no Pensionen (Ansatz zu 70 %) \no Betriebsrenten (Ansatz zu 80 %) \no Riesterrente (Ansatz zu 80 %) \no Unbefristete Renten aus privaten Rentenversicherungen (Ansatz zu 80 %) \no Private unbefristete Berufs-/Erwerbsunfähigkeitsrenten (Ansatz zu 100 %) \no Witwenrenten (keine Waisenrente) (Ansatz zu 100 %) \no volle oder teilweise unbefristete gesetzliche Berufs- oder Erwerbsunfähigkeitsrente (Ansatz zu 100 %)  \no Nachweis: Aktueller Bescheid und die letzten 3 Kontoauszüge"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "100 % sofern unbefristete Nachweise vorhanden sind\nWaisen-und Halbwaisenrente max. bis zum 25. Lebensjahr"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Witwenrente: Ja\n\nNachweis erforderlich\nWaisenrente: Ja\n\nNachweis erforderlich"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "75% der Renteneinkünfte\nLebensphasenplanung muss vom Berater geprüft werden (Keine Ampelphasenschaltung hinterlegt)\nRenteninformation oder Pensionsberechnung erforderlich\nWitwenrente: Ja\nBesonderheit: gesonderte Prüfung in Einzelfällen notwendig\nWaisenrente: Ja\nBesonderheit: gesonderte Prüfung in Einzelfällen notwendig"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Ja – Nebeneinkünfte von Rentnern werden nicht angesetzt.\nHalbwaisenrente: max. Ansatz in Höhe der Minijob-Grenze"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja, voraussichtliche Dauer des Bezugs der Waisenrente wird berücksichtigt\nAltersrente: Nachgewiesene Kapitaldienstfähigkeit in der Rentenphase"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Witwenrente: Ja\nNachweis Rentenbescheid\nWaisenrente: Ja\nNachweis Rentenbescheid"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "ING",
+      "value": "Unterdeckung in der Haushaltsberechnung bei Renteneintritt wird angezeigt \nHintergrund: Zur Ermittlung des Einkommens bei Renteneintritt setzt die ING 75% des aktuellen Einkommens an. Falls der aktuelle Rentenbescheid von der Rentenstelle höher ausfällt hilft dieser hier nicht weiter, um die Unterdeckung zu heilen - bitte die Lücke durch private/betriebliche RV schließen und Nachweise beilegen\nSeit Nov. 2024 hat die ING im Pre-Scoring eine neue Prüfung implementiert, ob das Darlehen im Zeitraum einer durchschnittlichen Lebenserwartung abbezahlt werden kann. Sieht es eher nicht danach aus, öffnet sich ein Hinweisfenster - und der Antrag wird vorerst gelb gescored."
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "Witwen/Waisenrente: Ja\nWaisenrente bis 18. LJ, Witwenrente bis zum Ende des Beschlusses"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Witwen/Waisenrente: Ja\nWaisenrente bis Alter 18"
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Witwen-/Waisenrente: Ja\n \nAltersrente: Ansatz gesetzliche Rente abzgl. 15 %, Ansatz privater Renten abzgl. 15 %"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "Witwen/Waisenrente: Ja, gemäß Mitteilung"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "ohne vorhandene Renteninformation und Rentenbescheid werden 52% des Gehaltes als Grundlage angesetzt\nWitwen- und Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Witwenrente: Ja\ngem. Rentenbescheid\nWaisenrente: Ja\ngem. Rentenbescheid"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Witwenrente: ja\nWaisenrente: ja"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "Witwenrente: Ja \nBesonderheit: keine\nWaisenrente: Ja \nBesonderheit: keine"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Witwen-/Waisenrente: Nein"
+    },
+    {
+      "bank": "KSK Vulkaneifel",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "Witwen-/Waisenrente: Ja\n>Bezugsdauer wird berücksichtigt"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "Witwen-/und Waisenrente: Ja"
+    },
+    {
+      "bank": "LBS NordOst (vormals LBS Ost)",
+      "value": "nicht selbstständige Antragsteller: pauschal 55 % des aktuellen Nettoeinkommens, max. 3.500 €/Monat\nBeamte: pauschal 70 % der aktuellen Bezüge\nIst die zu erwartende Rente höher als 55 % des akt. Nettoeinkommens, kann diese, bei entsprechendem Nachweis, angesetzt werden. => Ansatz max. 85 %, ohne Berücksichtigung zukünftiger Rentenanpassungen\nEinkommen aus Nebentätigkeiten bis zum vollendeten 72. Lebensjahr: 100 %\nBereits bestehende unbefristete Erwerbsunfähigkeitsrente: 100 %"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "Witwenrente: Ja\nWaisen-/Halbwaisenrenten: 100 % nur für Kinder unter 18 Jahren angesetzt, Restlaufzeit mind. 5 Jahre"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "Altersrente: Ansatz 100,0 % \nGesetzlicher Erwerbsunfähigkeitsrente: Ansatz 100,0 %, sofern unbefristet\nGesetzliche Berufsunfähigkeitsrente: Ansatz 100,0 %, sofern unbefristet\nWaisenrente: Ansatz 100,0 % bis zum 14. Geburtstag des Kindes"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "Witwen- und Waisenrente: Ja"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "Halbwaisen - / Waisenrente: Kein Ansatz"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\n\nNachweise erforderlich, Waisenrente max. bis zum 25. Lebensjahr in Lebensphasenplanung"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Witwen-/Waisenrente: Ja, wenn Rentenbezug unbefristet"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Werden berücksichtigt wenn sie zeitlich unbegrenzt gezahlt werden"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Witwen-/Waisenrente: Nein\n \nAltersrente:\nBei BauGeld Kompakt: Tilgung bis zur Vollendung des 80. Lebensjahres\nRentenszenario wird betrachtet\nKapitaldienstfähigkeit muss gegeben sein oder plausible Erklärung, wie die Restdarlehenssumme zurückgeführt werden soll"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "max. Antragsalter 67 Jahre\nBeleihungsauslauf darf im Rentenalter max. 60% betragen\nAlter ab 53 Jahre: Rentenbetrachtung, mit Einreichung aktueller Rentenbescheid oder mit Ansatz 60% des aktuellen Nettogehaltes\nAlter unter 53 Jahre: keine Rentenbetrachtung, wenn gewünschte Zinsbindung vor Renteneintritt endet"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "Ab dem 51. Lebensjahr rechnet die PSD eine kalkulatorische Annuität von 6 % auf die Restschuld nach Zinsbindung und Renteneintritt intern (programmiert, aber ohne Gelb o Rot-Score)"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "Witwenrente: Ja\n\nBesonderheit: Keine\nWaisenrente: Ja\n\nBesonderheit: Keine\nAltersrente: Laufzeit der Finanzierung darf nicht länger sein als statistische Lebenserwartung und positive Haushaltsrechnung erforderlich\n\nBitte Rente gemäß Renteninfo erfassen"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Witwen/Waisenrente: Ja\n> ein entsprechender Nachweis ist vorzulegen\n \nAltersrente: Kapitaldienstfähigkeit muss noch gegeben sein"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "Witwenrente: Ja, laut Bescheid\nWaisenrente: Ja, bis zu 100% bis zum 14. Lebensjahr des Kindes"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Witwen-/Waisenrente: Ja\nWaisenrente bis zum 25. Lebensjahr"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "Witwenrente: Ja\nErwerbsunfähigkeitsrente, Berufsunfähigkeitsrente: 100 % Wenn unbefristet - Einzelfallentscheidung\nWaisenrente: 100 % (sofern das im Haushalt lebende Kind nicht älter als 20 Jahre ist)\nZwischen 55 und 60 Jahren = 75 % d Netto \nAb 60 Jahren = zukünftige bzw. tatsächliche Rente (ggf. abzüglich 15 %)"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Witwen-und Waisenrente: Ja\nAltersrente: Positives Rentenszenario; Unterdeckung kann durch freies Vermögen ausgeglichen werden"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Waisenrente: Ja\nWaisen-/Halbwaisenrenten werden nur bis zum 21 . Lebensjahr des Kindes angesetzt"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Sparkasse Aachen",
+      "value": "Witwen-/Waisenrente: Ja\nAnsatz bis 18. Lebensjahr\n \nKapitaldienst\nbei laufender Rentenzahlung:\nAnsatz aktueller Rentenzahlung durch Nachweis der Nettorente aus der Renteninformation. Die Rentenzahlung wird gemildert um pauschal 20% Steuern.\n\nBei künftiger Rentenzahlung innerhalb der Zinsbindung:\nAnsatz der Nettorente gem. Renteninformation ab dem 67 Lebensjahr. Angenommenes Renteneinkommen wird pauschal um 20% Steuern gemildert. \n \nLiegt kein Nachweis der Renteninformation vor, werden pauschal 52% des letzten Nettoeinkommens angesetzt.\n\nMaximal ansetzbare Nettorente aus ges. Rentenversicherung 2.720 EUR.\n\nPrivate Rentenversicherung: Sofern private Rentenversicherungen bestehen sind diese durch aktuelle Policen sowie einer Garantierentenberechnung nachzuweisen.\n\nKAD Rechnung: Ist der Renteneintritt innerhalb der ersten Zinsbindung wird ausschließlich mit dem Renteneinkommen gerechnet. Sofern der Renteneintritt nach der ersten Zinsbindung liegt kann das aktuelle Einkommen angenommen werden. Trotzdem soll es eine nachvollziehbare Begründung zur Tragbarkeit für die Rentenzeit vorliegen."
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "Witwen-/Waisenrente: Ja > gemäß Nachweis\nRentenansatz bis max. 80 LJ und positiver Kapitaldienst während der gesamten Kreditlaufzeit"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Witwenrente: Ja > Nachweis\nWaisenrente: Ja, ggf. zeitlich befristet gem. Nachweis"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Bad Tölz-Wolfratshausen",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\nBesonderheit: befristet"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "Witwen-/Waisenrente: Ja > Befristungen sind zu berücksichtigen"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Witwenrente: Ja\n\nNachweis erforderlich\nWaisenrente: Ja\n\nNachweis erforderlich"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "Witwen/Waisenrente: Ja \nNachweis über Bescheid"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Witwen-/Waisenrente: Ja - gem. Rentenbescheid"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Witwenrente: Ja\nDer Ansatz wird Fallabhängig geprüft\nWaisenrente: Ja\nDer Ansatz wird Fallabhängig geprüft"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, mit entsprechendem Nachweis"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, Waisenrente analog zum Kindergeld"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "Sollte es zum Rentenbeginn eine leichte Unterdeckung geben, so ist dies vertretbar,\nwenn noch max. 50 % der AHK (Anschaffungsnahe Herstellungskosten) offen sind"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "Witwenrente: Ja\n\nNachweis Rentenbescheid und aktuelle Kontoauszüge \nWaisenrente: Ja\n\nNachweis Rentenbescheid und aktuelle Kontoauszüge"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "Witwenrente: Gemäß Bescheid Waisenrente: bis Volljährigkeit bzw. Ende laut Bescheid"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "Witwen- und Waisenrente: Ja\nNachweise sind einzureichen"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Witwenrente: Ja\n\nRentenbescheid erforderlich\nWaisenrente: Ja\n\nRentenbescheid erforderlich"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\nAltersrente: Darlehensrate muss abzgl. Steuern und SV-Beiträgen tragbar sein. Max. Rückzahlungsalter 75 /des jüngsten KN)"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Witwenrente: Ja\nBesonderheit: keine\nWaisenrente: Ja\nBesonderheit: keine"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Witwen/Waisenrente: Ja, muss belegt werden"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Witwen-/Waisenrente: Ja\nAnsatz gemäß Rentenbescheid\nBei Renteneintritt: Kapitaldienst sollte rechnerisch aufgehen. Alternativ ist zu begründen wie der Kapitaldienst nach Renteneintritt sichergestellt wird. Ein Objektverkauf von selbstgenutzten Wohneigentum kann nicht akzeptiert werden."
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, in der Regel zeitlich befristet, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Witwen- und Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Witwenrente: Ja\nNachweis erforderlich (Höhe & Dauer) \nWaisenrente: Ja\nNachweis erforderlich (Höhe & Dauer)"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Witwen- und Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Witwenrente/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Witwenrente: Ja\nNachweise über Höhe und Dauer sind erforderlich \nWaisenrente: Ja\nNachweise über Höhe und Dauer sind erforderlich"
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Witwenrente: Ja\nauf Befristung ist zu achten\nWaisenrente: Ja\nauf Befristung ist zu achten"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "Witwenrente: Einzelfallentscheidung\nWaisenrente: Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Wird bei Kreditbeantragung noch keine Rente bezogen, gilt Folgendes:\nAnsatz der zukünftigen Rente gemäß Renteninformation abzüglich Abschlag für Sozialversicherungsleistungen und Steuern. Der Abschlag ist nach Alter des Antragstellers gestaffelt:\nAlter kleiner 55 Jahre = 10 % Abschlag\nAlter größer/gleich 55 Jahre = 15 % Abschlag\nAlter größer/gleich 60 Jahre = 20 % Abschlag\nAlter größer/gleich 65 Jahre = 25 % Abschlag\n \nZusatzrenten können bei Vorlage eines Nachweises berücksichtigt werden und sind um einen Abschlag i. H .v. 15 % zu kürzen.\n\nWenn für Beamte eine Versorgungsauskunft vorliegt, ist diese zur Ermittlung des Pensionsanspruches zu nutzen. Liegt keine Versorgungsauskunft vor, sind pauschal 70 % der letzten Bezüge zum Ansatz zu bringen."
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, individuelle Rücksprache zum Einzelfall"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, mit entsprechendem Nachweis und ggf. befristet"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Witwen/Waisenrente: Ja, Rentennachweis\nAltersrente: \nmax. Antragsalter: 90\nkeine Blankoanteile / positiver Kapitaldienst\nKompensation evtl. rechnerischer Unterdeckung muss dargestellt werden"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Witwen-/Waisenrente: Ja > Ansetzung nach Bescheid"
+    },
+    {
+      "bank": "Sparkasse Neuwied",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Witwen/Waisenrente: Ja\nNachweis erforderlich"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Witwenrente: Ja\n\nNachweis Rentenbescheid\nWaisenrente: Ja\n\nNachweis Rentenbescheid"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Witwen- und Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "aus Renteninformation mit 2 % Steigerung und Abzug von 25 % für Steuer und Sozialversicherung"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Witwenrente: Ja\n\nBescheid muss vorliegen\nWaisenrente: Ja\n\nBescheid muss vorliegen"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Witwen-/Waisenrente: Ja\ngemäß Rentenbescheid"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "Witwenrente: Ja\n\nBescheid erforderlich\nWaisenrente: Ja\n\nBescheid erforderlich"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "Witwenrente: Ja\n\nNur mit entsprechenden Nachweisen\nWaisenrente: Ja\n\nNur mit entsprechenden Nachweisen"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Witwen/Waisenrente: Ja\ngem. Nachweis"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Witwenrente: Ja\n\nentsprechend Nachweis\nWaisenrente: Ja\n\nentsprechend Nachweis"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\nAltersrente: Kapitaldienstfähigkeit muss gegeben sein"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Witwenrente: Ja\n\nUnter Berücksichtigung der zeitlichen Befristung\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Witwen/Waisenrente: Ja \nAnsatz, wie Befristung"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "Witwenrente: Ja\nBesonderheit: keine\nWaisenrente: Ja\nBesonderheit: keine"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Witwen-/Waisenrente wird ohne Einschränkungen berücksichtigt"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\nAltersrente: Ansatz Rente mit 52% des letzten Nettoeinkommens, Höchstrente 2.900 EUR - höhere Ansätze nur mit entsprechenden Nachweisen"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja, bis einschließlich 14. Lebensjahr des Kindes"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "Witwen-/Waisenrente wird berücksichtigt"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Witwenrente: Ja\n\nBescheid als Nachweis einreichen\nWaisenrente: Ja\n\nBescheid als Nachweis einreichen"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Witwenrente: Ja\nWaisenrente steht dem Kind zu\n \nAltersrente: Es ist immer die Rente ohne Steigerungen anzusetzen. Sollte das Darlehen ins Rentenalter laufen, so ist die Rente anzugeben. Ebenso private und betriebliche Renten."
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Witwen/Waisenrente: Ja - Nachweis"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein\nAltersrente:\nAnfrage ab Rentenalter erforderlich\nim Rentenalter muss eine KDF aus Renten (ohne Ansatz von selbständiger Tätigkeit) gegeben sein\ni.d.R. Annuität von 6%"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Witwen-/Waisenrente: Ja\nWaienrente bis 15. Lebensjahr"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "Witwenrente: Ja\nWaisenrente: Einzelfallentscheidung"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Witwen-/und Waisenrente:\nJa, aber die Tragbarkeit nach Entfall der Witwen-/Waisenrente ist zu prüfen und in der Lebensphasenberechnung einzusehen\n \nAltersrente:\nDie Kapitaldienstfähigkeit im Rentenalter (s. Lebensphasenplanung) muss gegeben sein. Eine Berechnung hierzu wird im Nachgang auch nochmals durch die Bank durchgeführt."
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\n\nBis 18 Jahre"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "Witwenrente: Ja\n\nRentenbescheid\nWaisenrente: Ja\n\nRentenbescheid"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "Witwen- und Waisenrente: Ja\nNachweis erforderlich"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Witwen-/Waisenrente: Ja\n \nAltersrente: Nachhaltige Kapitaldienstfähigkeitsberechnung auf Basis der Renteneinkünfte"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "Witwenrente / Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Witwen- und Waisenrente ohne Einschränkung\nAltersrente sollte im Inland bezogen werden"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "Kapitaldienstfähigkeit muss gegeben sein\nAbzug von 20% für Steuern auf Rentenbetrag"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "Witwenrente: Ja\n\nNachweis erforderlich\nWaisenrente: Ja\n\nNachweis erforderlich"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "Witwenrente: Ja\n\nKeine Besonderheit\nWaisenrente: Ja\n\nKeine Besonderheit"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "Keine pauschale Einschränkung. Bei Laufzeit über die statistische Lebenserwartung hinaus Besonderheiten bei der Kapitaldienstfähigkeitsprüfung. \nAngesetzt werden Nettorenten. \nBei Bruttorentenausweis in Renteninformationen gesetzlicher, betrieblicher oder privater Rentenversicherungen wird von der Bank zur Prüfung der künftigen Kapitaldienstfähigkeit die voraussichtliche Nettorente ermittelt."
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "Witwenrente: Ja\nBescheid über Zahlung\nWaisenrente: Ja\nBescheid über Zahlung"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "Witwen/Waisenrente: Ja\nunbefristete Zusatzrenten: Ja"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "Witwen-/Waisenrente wird berücksichtigt"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Witwen-/Waisenrente: Nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "Witwen-/Waisenrente: Nur Ansatz von Witwenrente möglich (80%)"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "Witwenrente: Ja\n\nBescheid einreichen\nWaisenrente: Ja\n\nBescheid einreichen, bei Waisenrente Restdauer 10 Jahre"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "Witwenrente: Ja\nBesonderheit: Nein\nWaisenrente: Ja\nBesonderheit: Nein"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Witwenrente: Ja\nBescheid muss vorliegen\nLZ gemäß diesem\nWaisenrente: Ja\nBescheid muss vorliegen\nLZ gemäß diesem"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Witwenrente: Ja\n\nindividuelle Absprachen möglich\nWaisenrente: Ja\n\nindividuelle Absprachen möglich"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Bei Renteneintritt: Abtragung der Verbindlichkeiten sollte bis zum Erreichen der statistischen Lebenserwartung erfolgt sein. Alternativ kann eine Entschuldung durch weiteres Vermögen erfolgen. Die Kriterien der WIKRL sind einzuhalten."
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Witwenrente: Ja\n\ngem. Bescheid\nWaisenrente: Nein"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VolkswohlBund",
+      "value": "Nur unbefristete Renten werden angerechnet\nRentenvorausberechnung ab 58 Jahre"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "Witwenrente: Ja\n\nBescheid bitte einreichen\nWaisenrente: Ja\n\nbis zum 14. Lebensjahr des Kindes"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "Witwenrente/ Waisenrente: Ja"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "Witwen-/Waisenrente: Ja\nNachweis erforderlich"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Witwen-/Waisenrente: Ja > Waisenrente bis 18. Lebensjahr"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "Witwenrente: Ja\nEinzelfallprüfung\nWaisenrente: Ja\nEinzelfallprüfung"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "Witwenrente: Nein\nWaisenrente: Nein"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "Witwenrente: Ja\n\nBescheid erforderlich\nWaisenrente: Ja\n\nBescheid erforderlich"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Witwen-/Waisenrente wird berücksichtigt, Nachweis durch Kontoauszug"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Witwenrente: Ja, keine Einschränkung\nWaisenrente: Ansatz zu 100 % bis zum 14. Lebensjahr des Kindes wenn die Zahlung während der gesamten Laufzeit des Darlehens zur Verfügung steht"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Witwen-/Waisenrente: Ja"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "Witwenrente: Ja\nWaisenrente: Nein\nAktueller Rentenbescheid (bei gesetzlichen Ansprüchen)"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Witwen/Waisenrente: Ja\nNachweis"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "Witwenrente: Ja\nLebensphasenplanung, Einzelfallentscheidung\nWaisenrente: Ja\n\nLebensphasenplanung, Einzelfallentscheidung"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "Witwenrente: Ja\n\nDie Rente muss über die Darlehenslaufzeit hinweg bezahlt werden\nWaisenrente: Ja\n\nDie Rente muss über die Darlehenslaufzeit hinweg bezahlt werden"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "Witwenrente: Ja\nRentenbescheid einreichen\nWaisenrente: Ja\nNachweis einreichen"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "Witwen / Waisenrente: Nein"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "Witwenrente: Ja\nBesonderheit : Einkünfte müssen nachhaltig erzielbar sein\nWaisenrente: Ja\nBesonderheit Einkünfte müssen nachhaltig erzielbar sein"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "Witwenrente: Ja, nur Akzeptanz der großen Witwenrente\nWaisenrente: Nein"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Witwenrente: Ja\n\nbis max. 400 € und wenn dauerhaft (noch über mehrere Jahre) gegeben\nWaisenrente: Ja\n\nbis max. 400 € und wenn dauerhaft (noch über mehrere Jahre) gegeben"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Witwenrente: folgt\nWaisenrente: folgt"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Kapitaldienst-Fähigkeit muss weiterhin gegeben sein - Nachweis durch Rentenbescheid\nWitwenrente: Ja \nBesonderheit: keine\nWaisenrente: Ja \nBesonderheit: keine"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Witwen/Waisenrente: Ja"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "Witwen-/Waisenrente: Nein\n \nAltersrente: 80 % Ansatz der Renteneinkünfte"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Witwenrente: Ja\nWaisenrente: Ja\nBerücksichtigung während des Bemessungszeitraums"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Witwenrente: Ja\n\nWitwenrente 100% Ansatz\nWaisenrente: Ja\n\nWaisenrente 100% Ansatz bis zum 18. Lebensjahr des Kindes"
+    }
+  ]
+}

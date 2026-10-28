@@ -1,0 +1,436 @@
+{
+  "bank": "Signal Iduna Bauspar AG",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "max. 10 - Mindestsumme 5.000 EUR"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bis 100 % des Beleihungswertes (Eigennutzung) plus Grüne Freiheit\nErgänzungsdarlehen: 110 %\nBis 100 % des Beleihungswertes (Fremdnutzung)\nWenn KfW-Beteiligung bzw. Vorausdarlehen, dann reduziert sich der Auslauf auf 80 % bei Fremdnutzung"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100 (Finanzierungsbausteine = nur Annuitätendarlehen)\n80 (min. 1 Finanzierungsbaustein: KfW-Darlehen/Vorausdarlehen)"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mindesteigenkapitaleinsatz: In Höhe der Erwerbsnebenkosten, mindestens jedoch 25.000 EUR (\"echtes\" EK) \nBSV weiterer Vertragsinhaber: Ist nur bei Verheirateten möglich. Die SIGNAL IDUNA nimmt keine Gebühr und möchte nur die Legitimation zum 2. Vertragsinhaber anhand des Formulars \"zusätzliche Legitimation\".\nWenn Ehepartner keine unbefristete Aufenthaltserlaubnis hat, ist Mitverpflichtung erforderlich ohne das Einkommen zu berücksichtigen"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "18 / 18"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 18"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10.000 - 1.000.000\nÜberschreitung: Einzelfallprüfung"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bis 50% Beleihungsauslauf, Nachweis der wohnwirtschaftlichen Verwendung zwingend"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "124, 261, 261\nNur möglich in Verbindung mit weiteren Darlehen"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50 % für werterhaltende Maßnahmen\n100 %für wertsteigernde Maßnahmen und/oder für Schaffung von zusätzlichen Wohnraum"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "15 %"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12, 15, 20, 25 \n10 Jahre mit 1 - 5 % Tilgung, Volltilger oder alternativ als 12 Jahres-Vorausdarlehen, keine Tilgungsaussetzung gegen Bausparen möglich"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten (nicht als Produkt auf der Plattform hinterlegt - bitte im Antrag vermerken, dass eine ZwiFi gewünscht ist. Mindestdarlehenssumme ist 50.000 €, Mindestlaufzeit ist 3 Monate, Maximallaufzeit ist 5 Jahre)"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "24"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "nein"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "mehrere Ablösetermine möglich, die höchstens 12 Monate auseinander liegen dürfen. Grundschuldsicherung erfolgt im Treuhandwege"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "16347134"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 300"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "keine Fast-Lane, vorgezogene Bearbeitung kann nicht garantiert werden"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10\nauch mit Volltilgern kombinierbar\n \n\nBegrenzung Gesamtsumme aller Sondertilgungen bei Tilgungen zwischen 1-5% in den ersten 10 Jahren nach Vollauszahlung wie folgt begrenzt:\n\nbei Sondertilgungsoption in Höhe von 5% auf max. 25% der Darlehenssumme und\nbei Sondertilgungsoption in Höhe von 10% auf max. 50%\n\n\nBei Volltilgerdarlehen ist zusätzlich ab dem 6. Jahr eine vollständige Rückzahlung aus Eigenkapital ohne Berechnung einer Vorfälligkeitsentschädigung möglich"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "mind. 1% p.a. (bei 10 Jahren Sollzinsbindung mind. 3% p.a.)\nbei 12 und 15 Jahre Sollzinsbindung nur 1 : 1 Bausparunterlegung (Mindestsparrate abhängig vom Tarif)\nBeim Ergänzungsdarlehen: Mindesttilgung 3% p.a."
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Nur gegen BSV der SIGNAL IDUNA möglich\n(Beim Ergänzungsdarlehen: immer FREIraum F30 mit 1,6 % Abschlussgebühr)"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Nach Vollauszahlung des Darlehens"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Ist kostenfrei zwischen 1% bis 5% möglich"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Restnutzungsdauer: 30 Jahre wirtschaftliche Restnutzungsdauer\nFachwerkhäuser Einzelfallentscheidung\nnach Erfassung der vollständigen Objektangaben erfolgt über eine Schnittstelle automatisch die hauseigene Objekteinwertung der SIGNAL IDUNA\nNicht finanzierte Objekte:\nImmobilien deren Bodenrichtwert bzw. Grundstückspreis unter 40 EUR liegt\nImmobilien mit Bauschäden\nImmobilien außerhalb geschlossener Ortschaften\nlandwirtschaftliche Immobilien, Resthöfe\nETW in Großanlagen > 30 WE"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "Mindestbodenrichtwert beträgt 40 EUR"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Im Einzelfall werden die Eigenleistungen akzeptiert, eine Aufstellung ist vorzulegen (inkl. der Materialkosten) siehe \nModernisierungsbogen"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja,\nnur dann, wenn die SI den Vorrang bekommt, Rechte in Abt.II müssen zurücktreten.\nRestlaufzeit des Erbbaurechts muss zwingend mindestens der unterstellten Gesamtlaufzeit des Darlehens entsprechen\nPrivate Erbbaurechte werden nicht beliehen\nNur Öffentlich/Kirchlich"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "kein Gewerbe"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "wird nicht finanziert"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, RH, ETW"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Spregnetter oder on-geo\nWertermittlungsverfahren auf der Plattform: vdp // nach Erfassung der vollständigen Objektangaben erfolgt über eine Schnittstelle automatisch die hauseigene Objekteinwertung der SIGNAL IDUNA"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Nur mit Vorausdarlehen bis 80 %, sofern Bauland"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "die Signal akzeptiert für Mittel der SI Versicherung keine Vorlasten, für Mittel der Bausparkasse aber schon (Annuitätendarlehen sind daher auf der Plattform mit Vorlast rot, Vorausdarlehen aber zum Beispiel grün).\n\n Man kann sich zum Thema Vorlasten auf das EP Scoring verlassen!"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "ETW: 50 bis 200 qm, darunter oder darüber als Einzelfallentscheidung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100 %, wenn ungekündigtes Arbeitsverhältnis besteht und Wiederaufnahme der Tätigkeit beabsichtigt ist"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "14"
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\nErwerbsunfähigkeitsrente, Berufsunfähigkeitsrente: 100 % Wenn unbefristet - Einzelfallentscheidung\nWaisenrente: 100 % (sofern das im Haushalt lebende Kind nicht älter als 20 Jahre ist)\nZwischen 55 und 60 Jahren = 75 % d Netto \nAb 60 Jahren = zukünftige bzw. tatsächliche Rente (ggf. abzüglich 15 %)"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt:  Ja \nprivatschriftliche Vereinbarung: Nein\nNachweis erforderlich\nKindesunterhalt: Ja\nprivatschriftliche Vereinbarung: Nein\nNachweis erforderlich"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "ja, unbefristete Aufenthalts- und Arbeitsgenehmigung, Bluecard-Inhaber (mind. seit 1,5 Jahren in Deutschland angestellt)"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "nein - Ausnahme nur nach individueller Prüfung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Mindestens 1 EUR Überschuss (bei Ergänzungsdarlehen/Grüner Freiheit mind. 300 EUR\nBSV weiterer Vertragsinhaber: Ist nur bei Verheirateten möglich. Die SIGNAL IDUNA nimmt keine Gebühr und möchte nur die Legitimation zum 2. Vertragsinhaber anhand des Formulars \"zusätzliche Legitimation\".\nEK in Höhe der Erwerbsnebenkosten erforderlich, mind. jedoch Höhe von 25 TEUR (aus hartem EK - kein Nachrangdarlehen)"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja, mindestens 3 Jahre selbständig"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? - ja \nAkzeptierte Währung? - EUR\nWohnsitz & Gehaltsbezug im Ausland? - nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "Mindestens 1 EUR Überschuss (bei Ergänzungsdarlehen/Grüner Freiheit mind. 300 EUR)"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Mindesteinkommen: 50.000,00 EUR zu versteuerndes Jahreseinkommen"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "keine negativen Schufa Eintragungen (erledigt oder unerledigt)"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "möglich, Wohnsitz und Einkommen in Deutschland"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "muss nachweislich beendet sein"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja, mindestens 3 Jahre selbständig"
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kopie Vermittler-VVI sowie Darlehensvermittlungsvertrag"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nErläuterung:\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent \nVersand der DV digital an den Vermittler (diese können dann dem Kunden ausgehändigt werden)\nSignal Iduna stellt die Dokumente in einer separaten Signaturbox, dem \"Postfach+\", bereit\nPer SMS wird eine PIN zum Öffnen der beigefügten Unterlagen zur Verfügung gestellt"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Email"
+    }
+  },
+  "company_id": "0458eb98-65e1-43de-9e64-b6528ef4ccbf",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/0458eb98-65e1-43de-9e64-b6528ef4ccbf",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.05.26",
+  "recent_news": [
+    {
+      "date": "24.04.26",
+      "title": "Signal Iduna - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "19.02.26",
+      "title": "Signal Iduna - Konditionssenkung per sofort"
+    },
+    {
+      "date": "09.12.25",
+      "title": "Signal Iduna - Konditionserhöhung zum 11.12.2025"
+    },
+    {
+      "date": "19.11.25",
+      "title": "Signal Iduna - Konditionserhöhung zum 20.11.2025"
+    },
+    {
+      "date": "14.11.25",
+      "title": "Signal Iduna - Vertriebsinformation zum Vorausdarlehen"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "bank": "Bausparkasse Schwäbisch Hall AG",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten\nZinszahlungsdarlehen mit Ablöse-Bausparvertrag - Keine Tilgungsaussetzung gegen Bausparvertrag oder Lebensversicherung"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "-"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80%\nIn Kombinatorik mit einer Geno-Bank (im 1. Rang bis 80 % Beleihungsauslauf über Schwäbisch Hall, \nim Nachrang die Geno-Bank) bis zum Kaufpreis bzw. den angemessenen Herstellungskosten"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "bei FuchsBauDarlehen Smart möglich > Wichtig: Damit das FuchsbauDarlehen Smart angezeigt wird, muss eine Kombinatorik ausgewählt werden."
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Darlehen sind nur in Kombination mit einer genossenschaftlichen Bank abschließbar\nMax. Kaufpreis / angemessene Herstellungskosten\n1. Rangstelle:\n Schwäbisch Hall (bis max. 80%)\n2. Rangstelle:\n Genossenschaftliche Bank\nEmpfehlung der BSH:\nAnteil BSH:\n Zwischen 50 – 70% des Darlehensbetrags\nAnteil GenoBank:\nzwischen 30 – 50% des Darlehensbetrags"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 /24 (gegen 0,15% Aufschlag)"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "50.000 - 750.000 EUR"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Mit wohnwirtschaftlichem Hintergrund"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, kein eigenes Angebot"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "17% bei der INDIKATION in BaufiSmart"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5, 10, 15, 20, 25, 30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "7-60"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "./."
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "./."
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "./."
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "./."
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angebot"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Lebenshaltungspauschale, 1. Darlehensnehmer 30% ges. Netto,          mind. 1.200€Ehe-/Lebenspartner, selber HH, 400€, je Kind 200€ Zusagen nur bis Bonität von 2d"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Keine kostenfreie Sondertilgungsmöglichkeit. Die Sondertilgung ist optional gegen einen Konditionen-Aufschlag zu buchbar.\nBei Auswahl der Option können bis zu 5 % p.a. vom Anfangsdarlehen geleistet werden."
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1-10 % p.a."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Der Tilgungssatzwechsel kann gegen einen Konditionen-Aufschlag optional bis zu 5-mal von 1 % bis 10 % (abhängig vom Kreditvertrag) während der 1. Sollzinsbindung erfolgen. Die Sollzinsbindung darf dabei nicht unterschritten werden."
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Das FuchsBauDarlehen Smart kann lediglich auf einer Immobilie abgesichert werden.\nWird eine Absicherung auf mehreren Immobilien gewünscht, wird das FuchsBauDarlehen Smart als „Nicht Machbar“ und „ROT“ angezeigt."
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "Energie-Effizienz: Zins-Vorteile für Primärenergie-Effizienz-Klassen A+ und A im Energieausweis und Zins-Vorteile für energetische Maßnahmen mit Zusatz-Vorteil für Mitglieder"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "Keine Kapitalanlage, nur Eigennutzung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "Eigentumswohnung (ETW), Ein-/Zweifamilienhaus (FH) inkl. Einliegerwohnung, Doppelhaushälfte \n(DHH) und Reihenhaus (RH)\n \nNicht finanziert werden: MFH, landwirtschaftliche Gebäude und Gebäude im Ausland"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Europace Wertermittlung"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Bundesweit\nKeine Einschränkung"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "keine Wertminderende Rechte \nEintragungsbewilligung bei wesentlichen Rechten muss eingereicht werden"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Keine! Nur erstrangige Absicherung"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Das Elterngeld kann ohne Nachweis abgerechnet werden. Das zu erwartende Einkommen nach Elternzeit muss das Elterngeld übersteigen. Bestätigung des Arbeitgebers für das Einkommen nach Elternzeit"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja \nBerücksichtigung von Sozialversicherungsbeiträgen\nWaisenrente: Ja\nBerücksichtigung von Sozialversicherungsbeiträgen\n\nAnsatz Altersrente mit 2% Anpassungssatz möglich! Bei Kombination mit einer Bank + BSH bitte immer den niedrigeren Wert eintragen und in der Übergabe an die Bausparkasse darauf hinweisen"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt:  Nein\nKindesunterhalt: Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Arbeiter, Angestellte, Beamte, Pensionäre, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Lebenshaltungspauschale, 1. Darlehensnehmer 30% ges. Netto,          mind. 1.200€\nEhe-/Lebenspartner, selber HH, 400€, je Kind 200€Zusagen nur bis Bonität von 2d"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max.: 2\nMitverpflichtung Ehepartner nicht erforderlich, wenn ein/e DN alleinige/r Eigentümer:in wird\nArbeiter, Angestellte, Beamte, Rentner/Pensionäre, Land-/Forstwirte, Selbstständige, Geschäfts-\nführer (als Angestellte, keine Gesellschafter), Freiberufler"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland, Gehaltsbezug im Ausland: Ja, akzeptierte Währungen: EUR, CHF\n \nWohnsitz & Gehaltsbezug im Ausland: Nein"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 85"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nach Genehmigung (Unterschrieben Produktanbieter) durch die BSH wird in der folgenden Nacht automatisch der Darlehensvertrag erstellt und von der BSH in Europace hochgeladen\nStatusumstellung - Dokumentation über die Annahme von Darlehensverträgen durch den Kunden erfolgt erst nach Ablauf der Widerrufsfrist"
+    }
+  },
+  "company_id": "ce09b549000e6548624f466696554de7",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/ce09b549000e6548624f466696554de7",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "06.11.25",
+  "recent_news": [
+    {
+      "date": "09.12.25",
+      "title": "Bausparkasse Schwäbisch Hall AG - Infos zur Verfügbarkeit zum Jahreswechsel"
+    },
+    {
+      "date": "14.11.25",
+      "title": "Bausparkasse Schwäbisch Hall - Einschränkungen auf BaufiSmart am 15.11.2025 ab 0:00 Uhr bis 16.11.2025 ca. 18:00 Uhr"
+    },
+    {
+      "date": "16.10.25",
+      "title": "Bausparkasse Schwäbisch Hall - Neuerungen in der Lebensphasenplanung ab sofort"
+    },
+    {
+      "date": "04.09.25",
+      "title": "Bausparkasse Schwäbisch Hall - Mit exklusiven Konditionen in ausgewählten Regionen punkten"
+    },
+    {
+      "date": "07.05.25",
+      "title": "Bausparkasse Schwäbisch Hall - Schließung Sonderkreditprogramm zum 08.05.2025"
+    }
+  ]
+}

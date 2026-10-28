@@ -1,0 +1,664 @@
+<!DOCTYPE html><html lang="de"><head>
+            
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="author" content="Regionalimmobilien24 GmbH">
+<meta name="creator" content="Regionalimmobilien24 GmbH">
+<meta name="copyright" content="(c) 2014 - 2026, Regionalimmobilien24 GmbH">
+
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+
+<meta name="audience" content="Mature, Adult, FSK18">
+<meta name="rating" content="Mature, Adult, FSK18">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3,width=device-width">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes,maximum-scale=3" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+
+<link rel="shortcut icon" href="../../../../../favicon.ico">
+<link rel="icon" href="../../../../../favicon.ico">
+
+<link href="../../../../../adm/layout/imgimg/startup_iphone.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_retina.jpg" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/startup_iphone_tall_retina.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/imgimg/screen_1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+<link href="../../../../../adm/layout/img/screen_768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" rel="../../../../../adm/layout/img/apple-touch-startup-image">
+
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery.gritter.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/jquery-ui.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/uniform.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/select2.css">
+<link rel="stylesheet" href="../../../../../adm/layout/css/fullcalendar.css">
+
+<link href="../../../../../ressource/gen/clientlib_c560915dad73d7f081d6b9b88dac1bed.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    (function (a, b, c) {
+        if (c in b && b[c]) {
+            var d, e = a.location, f = /^(a|html)$/i;
+            a.addEventListener("click", function (a) {
+                d = a.target;
+                while (!f.test(d.nodeName))
+                    d = d.parentNode;
+                "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+            }, !1)
+        }
+    })(document, window.navigator, "standalone");
+    try {
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    } catch (e) {
+    }
+
+</script>
+<link rel="stylesheet" href="../../../../../adm/main/css/colorpicker.css" media="all">
+<link rel="stylesheet" href="../../../../../adm/layout/css/datepicker.css" media="all">
+
+
+<title>Backend | Regionalimmobilien24</title>
+            <link rel="stylesheet" href="../../../../../adm/individuell/css/treeview.css">
+
+        </head>
+        <body>
+        <div id="header">
+    <h1><a href="#">&nbsp;</a></h1>
+    <!--div id="search">
+        <input type="text" placeholder="Suchbegriff eingeben..."/><button type="submit" class="tip-bottom" title="Suche"><span class="icon">&#xe004;</span></button>
+    </div-->    
+</div><div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav btn-group">
+        <!--li class="btn btn-inverse" ><a title="" href="../../../../../adm/individuell/config_profil.php?admsess=h7n90fyqin"><span class="icon">&#xe00a;</span> <span class="text">Profil</span></a></li>
+        <li class="btn btn-inverse dropdown" id="menu-messages">
+            <a href="../../../../../adm/individuell/news-inbox.php?admsess=h7n90fyqin">
+                <span class="icon">&#xe012;</span> <span class="text">Nachrichten</span>             </a>
+        </li>
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/faq.php?admsess=h7n90fyqin"><span class="icon">&#xe023;</span> <span class="text">Hilfe</span></a></li-->
+        <li class="btn btn-inverse"><a title="" href="../../../../../adm/individuell/logout.php?admsess=h7n90fyqin"><span class="icon"></span> <span class="text">Logout</span></a></li>
+    </ul>
+</div><div id="sidebar">
+    <a href="#" class="visible-phone"> index</a>    <ul style="display: block;">
+        <li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Dashboard</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/dashboard/?admsess=h7n90fyqin"> <span>Übersicht</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/makler/?admsess=h7n90fyqin"> <span>Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/baufi/?admsess=h7n90fyqin"> <span>Baufinanzierung</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/finanzzert/?admsess=h7n90fyqin"> <span>Finanzzertifikate</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/terminvb/?admsess=h7n90fyqin"> <span>Terminvereinbarungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/user/?admsess=h7n90fyqin"> <span>Nutzer</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/mail/?admsess=h7n90fyqin"> <span>Mails</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/recaptcha/?admsess=h7n90fyqin"> <span>reCaptcha</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/dashboard/referrer/?admsess=h7n90fyqin"> <span>Sitzungen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/oid-recherche/?admsess=h7n90fyqin"> <span>OID Immo-Recherche</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/immo-dubletten-check/?admsess=h7n90fyqin"> <span>Immo Dubletten-Check</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Makler</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/makler/list/?admsess=h7n90fyqin"> <span>Übersicht Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/list-short/?admsess=h7n90fyqin"> <span>Kurzliste Makler</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/anfragen/?admsess=h7n90fyqin"> <span>Anfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/new/?admsess=h7n90fyqin"> <span>neuen Makler anlegen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/makler/kooperation/?admsess=h7n90fyqin"> <span>Kooperationen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/tools/makler-umhaengen/?admsess=h7n90fyqin"> <span>Makler umhängen</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/tools/kundenlogin/?admsess=h7n90fyqin"><span class="icon"></span> <span>Kundenlogin</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/immo/list/?admsess=h7n90fyqin"><span class="icon"></span> <span>Objekte</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/privatanzeige/?admsess=h7n90fyqin"><span class="icon"></span> <span>Privatanzeigen</span> </a></li><li class=""><a href="../../../../../adm/individuell/regionen/config/?admsess=h7n90fyqin"><span class="icon"></span> <span>alle Regionen</span> </a></li><li class=""><a href="../../../../../adm/individuell/orte/?admsess=h7n90fyqin"><span class="icon"></span> <span>Baufi/Immo-Orte</span> </a></li><li class=""><a href="../../../../../adm/individuell/static/sites.php?admsess=h7n90fyqin"><span class="icon"></span> <span>statische Seiten (überregional)</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Kontaktanfragen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/statistik/kontaktanfragen/?admsess=h7n90fyqin"> <span>alle Kontaktanfragen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/list/?admsess=h7n90fyqin"> <span>E-Mail Liste</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/mails/blacklist/?admsess=h7n90fyqin"> <span>Blacklist</span> </a></li>
+    </ul>
+</li><li class=""><a href="../../../../../adm/individuell/master/team/list/?admsess=h7n90fyqin"><span class="icon"></span> <span>Team</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/whitelabel/list/?admsess=h7n90fyqin"><span class="icon"></span> <span>Whitelabel-Lizenzen</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/suchauftrag/?admsess=h7n90fyqin"><span class="icon"></span> <span>Suchaufträge</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Schnittstellen</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/interface/mitula/?admsess=h7n90fyqin"> <span>Sitemaps (Mitula)</span> </a></li><li class=""><a href="../../../../../adm/individuell/master/interface/immo/static/?admsess=h7n90fyqin"> <span>Statischer Immobilien Export</span> </a></li>
+    </ul>
+</li><li class="active open"><a href="../../../../../adm/individuell/master/seo/config/?admsess=h7n90fyqin"><span class="icon"></span> <span>SEO</span> </a></li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Immobilienassitent</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/master/estate-assistant/jokes/?admsess=h7n90fyqin"> <span>Witze</span> </a></li>
+    </ul>
+</li><li class="submenu ">
+    <a href="#"><span class="icon"></span> <span>Hife</span> <span class="label">+</span> </a>
+    <ul>
+        <li class=""><a href="../../../../../adm/individuell/hilfe/software/?admsess=h7n90fyqin"> <span>Schnittstellenübersicht Immobiliensoftwaren</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-lead/?admsess=h7n90fyqin"> <span>BauFi-Lead</span> </a></li><li class=""><a href="../../../../../adm/individuell/hilfe/baufi-contact/?admsess=h7n90fyqin"> <span>BauFi-Lead2</span> </a></li>
+    </ul>
+</li>        <li>
+            <a href="../../../../../adm/individuell/logout.php?admsess=h7n90fyqin">
+                <span class="icon"></span> <span>Logout </span>
+                <small style="width: 100%;display: inline-block;">(<span class="logouttime" style="width: auto;">480</span> <span class="logouttype" style="width: auto;">Minuten</span>)</small>            </a>
+        </li>
+        <li class="adm-logout-data" style="display: none; visibility: hidden;" data-t="28800" data-url="../../../../../adm/individuell/logout.php?admsess=h7n90fyqin">.</li>
+    </ul>
+</div>                <div id="content">
+                    <div id="content-header">
+                        <h1>SEO-Konfiguration für META-Tags</h1>
+                    </div>
+                    <div id="breadcrumb">
+                        <a href="../../../../../adm/individuell/dashboard.php?admsess=h7n90fyqin" title="" class="tip-bottom" data-original-title="zum Dashboard"><span class="icon"></span> Home</a>
+                        <a title="" href="../../../../../adm/individuell/master/seo/config/?admsess=h7n90fyqin">SEO</a>
+                        <a title="" href="../../../../../adm/individuell/master/seo/config/?admsess=h7n90fyqin">Konfiguration</a>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                                                SEO-Auswahl:
+                                <form id="seo" action="?admsess=h7n90fyqin&amp;do=change" method="POST" class="form-horizontal">
+                                    <select aria-label="Region" name="regioncode" onchange="$(this).parent('form').submit();" class="form_validation" data-database="seo__head" data-val="none" type="select">
+                                        <option value="" title="Regionalimmobilien24" onclick="$(this).parents('form').first().submit();" style="font-weight: bold;">Regionalimmobilien24
+                                        </option>                                            <option value="aai24" title="Aachen-Eifelimmobilien24" onclick="$(this).parents('form').first().submit();">Aachen-Eifelimmobilien24</option>
+                                                                                    <option value="ami24" title="Altmarkimmobilien24" onclick="$(this).parents('form').first().submit();">Altmarkimmobilien24</option>
+                                                                                    <option value="ai24" title="Anhaltimmobilien24" onclick="$(this).parents('form').first().submit();">Anhaltimmobilien24</option>
+                                                                                    <option value="abi24" title="Augsburgimmobilien24" onclick="$(this).parents('form').first().submit();">Augsburgimmobilien24</option>
+                                                                                    <option value="bsi24" title="Bayerisch-schwabenimmobilien24" onclick="$(this).parents('form').first().submit();">Bayerisch-schwabenimmobilien24</option>
+                                                                                    <option value="bdi24" title="Bergisches-Dreieckimmobilien24" onclick="$(this).parents('form').first().submit();">Bergisches-Dreieckimmobilien24</option>
+                                                                                    <option value="bgli24" title="Bergischeslandimmobilien24" onclick="$(this).parents('form').first().submit();">Bergischeslandimmobilien24</option>
+                                                                                    <option value="bi24" title="Berlinimmobilien24" onclick="$(this).parents('form').first().submit();">Berlinimmobilien24</option>
+                                                                                    <option value="bosi24" title="Bodenseeimmobilien24" onclick="$(this).parents('form').first().submit();">Bodenseeimmobilien24</option>
+                                                                                    <option value="brai24" title="Braunschweigimmobilien24" onclick="$(this).parents('form').first().submit();">Braunschweigimmobilien24</option>
+                                                                                    <option value="brei24" title="Bremenimmobilien24" onclick="$(this).parents('form').first().submit();">Bremenimmobilien24</option>
+                                                                                    <option value="ci24" title="Chemnitzimmobilien24" onclick="$(this).parents('form').first().submit();">Chemnitzimmobilien24</option>
+                                                                                    <option value="di24" title="Dortmundimmobilien24" onclick="$(this).parents('form').first().submit();">Dortmundimmobilien24</option>
+                                                                                    <option value="ddi24" title="Dresdenimmobilien24" onclick="$(this).parents('form').first().submit();">Dresdenimmobilien24</option>
+                                                                                    <option value="dui24" title="Duisburgimmobilien24" onclick="$(this).parents('form').first().submit();">Duisburgimmobilien24</option>
+                                                                                    <option value="duei24" title="Düsseldorfimmobilien24" onclick="$(this).parents('form').first().submit();">Düsseldorfimmobilien24</option>
+                                                                                    <option value="eli24" title="Elbelandimmobilien24" onclick="$(this).parents('form').first().submit();">Elbelandimmobilien24</option>
+                                                                                    <option value="emsi24" title="Emslandimmobilien24" onclick="$(this).parents('form').first().submit();">Emslandimmobilien24</option>
+                                                                                    <option value="efi24" title="Erfurtimmobilien24" onclick="$(this).parents('form').first().submit();">Erfurtimmobilien24</option>
+                                                                                    <option value="erzi24" title="Erzgebirgeimmobilien24" onclick="$(this).parents('form').first().submit();">Erzgebirgeimmobilien24</option>
+                                                                                    <option value="eei24" title="Essenimmobilien24" onclick="$(this).parents('form').first().submit();">Essenimmobilien24</option>
+                                                                                    <option value="fi24" title="Frankfurtimmobilien24" onclick="$(this).parents('form').first().submit();">Frankfurtimmobilien24</option>
+                                                                                    <option value="gii24" title="Giessenimmobilien24" onclick="$(this).parents('form').first().submit();">Giessenimmobilien24</option>
+                                                                                    <option value="goti24" title="Göttingenimmobilien24" onclick="$(this).parents('form').first().submit();">Göttingenimmobilien24</option>
+                                                                                    <option value="hai24" title="Halleimmobilien24" onclick="$(this).parents('form').first().submit();">Halleimmobilien24</option>
+                                                                                    <option value="hhi24" title="Hamburgimmobilien24" onclick="$(this).parents('form').first().submit();">Hamburgimmobilien24</option>
+                                                                                    <option value="hani24" title="Hannoverimmobilien24" onclick="$(this).parents('form').first().submit();">Hannoverimmobilien24</option>
+                                                                                    <option value="hi24" title="Harzimmobilien24" onclick="$(this).parents('form').first().submit();">Harzimmobilien24</option>
+                                                                                    <option value="hli24" title="Havellandimmobilien24" onclick="$(this).parents('form').first().submit();">Havellandimmobilien24</option>
+                                                                                    <option value="hbi24" title="Heilbronnimmobilien24" onclick="$(this).parents('form').first().submit();">Heilbronnimmobilien24</option>
+                                                                                    <option value="hoi24" title="Holsteinimmobilien24" onclick="$(this).parents('form').first().submit();">Holsteinimmobilien24</option>
+                                                                                    <option value="jei24" title="Jerichowimmobilien24" onclick="$(this).parents('form').first().submit();">Jerichowimmobilien24</option>
+                                                                                    <option value="ki24" title="Karlsruheimmobilien24" onclick="$(this).parents('form').first().submit();">Karlsruheimmobilien24</option>
+                                                                                    <option value="kai24" title="Kasselimmobilien24" onclick="$(this).parents('form').first().submit();">Kasselimmobilien24</option>
+                                                                                    <option value="kiei24" title="Kielimmobilien24" onclick="$(this).parents('form').first().submit();">Kielimmobilien24</option>
+                                                                                    <option value="koei24" title="Kölnimmobilien24" onclick="$(this).parents('form').first().submit();">Kölnimmobilien24</option>
+                                                                                    <option value="lwi24" title="Leineweserimmobilien24" onclick="$(this).parents('form').first().submit();">Leineweserimmobilien24</option>
+                                                                                    <option value="li24" title="Leipzigimmobilien24" onclick="$(this).parents('form').first().submit();">Leipzigimmobilien24</option>
+                                                                                    <option value="luei24" title="Lübeckimmobilien24" onclick="$(this).parents('form').first().submit();">Lübeckimmobilien24</option>
+                                                                                    <option value="lli24" title="Ludwigslustimmobilien24" onclick="$(this).parents('form').first().submit();">Ludwigslustimmobilien24</option>
+                                                                                    <option value="lbi24" title="Lüneburgimmobilien24" onclick="$(this).parents('form').first().submit();">Lüneburgimmobilien24</option>
+                                                                                    <option value="mbi24" title="Magdeburgimmobilien24" onclick="$(this).parents('form').first().submit();">Magdeburgimmobilien24</option>
+                                                                                    <option value="maii24" title="Mainzimmobilien24" onclick="$(this).parents('form').first().submit();">Mainzimmobilien24</option>
+                                                                                    <option value="mani24" title="Mannheimimmobilien24" onclick="$(this).parents('form').first().submit();">Mannheimimmobilien24</option>
+                                                                                    <option value="mfi24" title="Mittelfrankenimmobilien24" onclick="$(this).parents('form').first().submit();">Mittelfrankenimmobilien24</option>
+                                                                                    <option value="mri24" title="Mittelrheinimmobilien24" onclick="$(this).parents('form').first().submit();">Mittelrheinimmobilien24</option>
+                                                                                    <option value="msi24" title="Mittelsachsenimmobilien24" onclick="$(this).parents('form').first().submit();">Mittelsachsenimmobilien24</option>
+                                                                                    <option value="mthi24" title="Mittelthüringenimmobilien24" onclick="$(this).parents('form').first().submit();">Mittelthüringenimmobilien24</option>
+                                                                                    <option value="mi24" title="Münchenimmobilien24" onclick="$(this).parents('form').first().submit();">Münchenimmobilien24</option>
+                                                                                    <option value="mli24" title="Münsterlandimmobilien24" onclick="$(this).parents('form').first().submit();">Münsterlandimmobilien24</option>
+                                                                                    <option value="nbi24" title="Niederbayernimmobilien24" onclick="$(this).parents('form').first().submit();">Niederbayernimmobilien24</option>
+                                                                                    <option value="nri24" title="Niederrheinimmobilien24" onclick="$(this).parents('form').first().submit();">Niederrheinimmobilien24</option>
+                                                                                    <option value="nsai24" title="Nordsaarlandimmobilien24" onclick="$(this).parents('form').first().submit();">Nordsaarlandimmobilien24</option>
+                                                                                    <option value="nsi24" title="Nordsachsenimmobilien24" onclick="$(this).parents('form').first().submit();">Nordsachsenimmobilien24</option>
+                                                                                    <option value="nti24" title="Nordthueringenimmobilien24" onclick="$(this).parents('form').first().submit();">Nordthueringenimmobilien24</option>
+                                                                                    <option value="nwmi24" title="Nordwestmecklenburgimmobilien24" onclick="$(this).parents('form').first().submit();">Nordwestmecklenburgimmobilien24</option>
+                                                                                    <option value="obi24" title="Oberbayernimmobilien24" onclick="$(this).parents('form').first().submit();">Oberbayernimmobilien24</option>
+                                                                                    <option value="ofi24" title="Oberfrankenimmobilien24" onclick="$(this).parents('form').first().submit();">Oberfrankenimmobilien24</option>
+                                                                                    <option value="ohi24" title="Oberhavelimmobilien24" onclick="$(this).parents('form').first().submit();">Oberhavelimmobilien24</option>
+                                                                                    <option value="oli24" title="Oberlausitzimmobilien24" onclick="$(this).parents('form').first().submit();">Oberlausitzimmobilien24</option>
+                                                                                    <option value="opi24" title="Oberpfalzimmobilien24" onclick="$(this).parents('form').first().submit();">Oberpfalzimmobilien24</option>
+                                                                                    <option value="osi24" title="Oberschwabenimmobilien24" onclick="$(this).parents('form').first().submit();">Oberschwabenimmobilien24</option>
+                                                                                    <option value="obli24" title="Oderlandimmobilien24" onclick="$(this).parents('form').first().submit();">Oderlandimmobilien24</option>
+                                                                                    <option value="osni24" title="Osnabrückimmobilien24" onclick="$(this).parents('form').first().submit();">Osnabrückimmobilien24</option>
+                                                                                    <option value="osai24" title="Ostsaarlandimmobilien24" onclick="$(this).parents('form').first().submit();">Ostsaarlandimmobilien24</option>
+                                                                                    <option value="othi24" title="Ostthüringenimmobilien24" onclick="$(this).parents('form').first().submit();">Ostthüringenimmobilien24</option>
+                                                                                    <option value="reki24" title="Rhein-Erft-Kreisimmobilien24" onclick="$(this).parents('form').first().submit();">Rhein-Erft-Kreisimmobilien24</option>
+                                                                                    <option value="rski24" title="Rhein-Siegkreisimmobilien24" onclick="$(this).parents('form').first().submit();">Rhein-Siegkreisimmobilien24</option>
+                                                                                    <option value="rhhi24" title="Rheinhessenimmobilien24" onclick="$(this).parents('form').first().submit();">Rheinhessenimmobilien24</option>
+                                                                                    <option value="rni24" title="Rheinneckarimmobilien24" onclick="$(this).parents('form').first().submit();">Rheinneckarimmobilien24</option>
+                                                                                    <option value="rpi24" title="Rheinpfalzimmobilien24" onclick="$(this).parents('form').first().submit();">Rheinpfalzimmobilien24</option>
+                                                                                    <option value="rhti24" title="Rheintalimmobilien24" onclick="$(this).parents('form').first().submit();">Rheintalimmobilien24</option>
+                                                                                    <option value="roi24" title="Rostockimmobilien24" onclick="$(this).parents('form').first().submit();">Rostockimmobilien24</option>
+                                                                                    <option value="rgi24" title="Ruhrgebietimmobilien24" onclick="$(this).parents('form').first().submit();">Ruhrgebietimmobilien24</option>
+                                                                                    <option value="sui24" title="Saaleunstrutimmobilien24" onclick="$(this).parents('form').first().submit();">Saaleunstrutimmobilien24</option>
+                                                                                    <option value="sbi24" title="Saarbrückenimmobilien24" onclick="$(this).parents('form').first().submit();">Saarbrückenimmobilien24</option>
+                                                                                    <option value="sosi24" title="Sächsische-Schweiz-Osterzgebirgeimmobilien24" onclick="$(this).parents('form').first().submit();">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option>
+                                                                                    <option value="sli24" title="Salzlandimmobilien" onclick="$(this).parents('form').first().submit();">Salzlandimmobilien</option>
+                                                                                    <option value="saui24" title="Sauerlandimmobilien" onclick="$(this).parents('form').first().submit();">Sauerlandimmobilien</option>
+                                                                                    <option value="slwi24" title="Schleswigimmobilien24" onclick="$(this).parents('form').first().submit();">Schleswigimmobilien24</option>
+                                                                                    <option value="sai24" title="Schwäbischealbimmobilien24" onclick="$(this).parents('form').first().submit();">Schwäbischealbimmobilien24</option>
+                                                                                    <option value="swwi24" title="Schwarzwaldimmobilien24" onclick="$(this).parents('form').first().submit();">Schwarzwaldimmobilien24</option>
+                                                                                    <option value="si24" title="Schwerinimmobilien24" onclick="$(this).parents('form').first().submit();">Schwerinimmobilien24</option>
+                                                                                    <option value="sigi24" title="Siegerlandimmobilien24" onclick="$(this).parents('form').first().submit();">Siegerlandimmobilien24</option>
+                                                                                    <option value="swi24" title="Spreewaldimmobilien24" onclick="$(this).parents('form').first().submit();">Spreewaldimmobilien24</option>
+                                                                                    <option value="sti24" title="Stuttgartimmobilien24" onclick="$(this).parents('form').first().submit();">Stuttgartimmobilien24</option>
+                                                                                    <option value="dai24" title="Südhessenimmobilien24" onclick="$(this).parents('form').first().submit();">Südhessenimmobilien24</option>
+                                                                                    <option value="smbi24" title="Südmecklenburgimmobilien24" onclick="$(this).parents('form').first().submit();">Südmecklenburgimmobilien24</option>
+                                                                                    <option value="swti24" title="Südwestthüringenimmobilien24" onclick="$(this).parents('form').first().submit();">Südwestthüringenimmobilien24</option>
+                                                                                    <option value="wii24" title="Taunusimmobilien24" onclick="$(this).parents('form').first().submit();">Taunusimmobilien24</option>
+                                                                                    <option value="tbi24" title="Teutoburger-Wald-Imobilien24" onclick="$(this).parents('form').first().submit();">Teutoburger-Wald-Imobilien24</option>
+                                                                                    <option value="ti24" title="Trierimmobilien24" onclick="$(this).parents('form').first().submit();">Trierimmobilien24</option>
+                                                                                    <option value="umi24" title="Uckermarkimmobilien24" onclick="$(this).parents('form').first().submit();">Uckermarkimmobilien24</option>
+                                                                                    <option value="ufi24" title="Unterfrankenimmobilien24" onclick="$(this).parents('form').first().submit();">Unterfrankenimmobilien24</option>
+                                                                                    <option value="vi24" title="Vogtlandimmobilien24" onclick="$(this).parents('form').first().submit();">Vogtlandimmobilien24</option>
+                                                                                    <option value="vpi24" title="Vorpommernimmobilien24" onclick="$(this).parents('form').first().submit();">Vorpommernimmobilien24</option>
+                                                                                    <option value="wei24" title="Weseremsimmobilien24" onclick="$(this).parents('form').first().submit();">Weseremsimmobilien24</option>
+                                                                                    <option value="wesi24" title="Westeifelimmobilien24" onclick="$(this).parents('form').first().submit();">Westeifelimmobilien24</option>
+                                                                                    <option value="wwi24" title="Westerwaldimmobilien24" onclick="$(this).parents('form').first().submit();">Westerwaldimmobilien24</option>
+                                                                                    <option value="wpfi24" title="Westpfalzimmobilien24" onclick="$(this).parents('form').first().submit();">Westpfalzimmobilien24</option>
+                                                                                    <option value="wsai24" title="Westsaarlandimmobilien24" onclick="$(this).parents('form').first().submit();">Westsaarlandimmobilien24</option>
+                                                                                    <option value="weti24" title="Wetterauimmobilien24" onclick="$(this).parents('form').first().submit();">Wetterauimmobilien24</option>
+                                                                                    <option value="zi24" title="Zwickauimmobilien24" onclick="$(this).parents('form').first().submit();">Zwickauimmobilien24</option>
+                                                                            </select>
+                                    <input type="hidden" name="id" data-database="seo__head" value="">
+                                    <input type="hidden" name="dir" value="">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span4">
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>Seitenbaum</h5>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul id="tree1" class="tree">
+<li class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/" title="Startseite">Startseite</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/agb-und-rechtliche-hinweise/" title="AGB und Rechtliche Hinweise">AGB und Rechtliche Hinweise</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/" title="Immobilien inserieren">Immobilien inserieren</a>
+<ul>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/" title="privat">privat</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/abschluss/" title="abschluss">abschluss</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/absenden/" title="absenden">absenden</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/adresse/" title="adresse">adresse</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/basisdaten/" title="basisdaten">basisdaten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/bilder/" title="bilder">bilder</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/details/" title="details">details</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/freischalten/" title="freischalten">freischalten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/status/" title="absenden">absenden</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/anbieten/privat/texte/" title="texte">texte</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufi-lead/" title="Baufinanzierung-Lead">Baufinanzierung-Lead</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufi-lead/horizontal/" title="Horizontal">Horizontal</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufi-lead/small/" title="Small">Small</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufi-lead/standard/" title="Standard">Standard</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufi-lead/vertical/" title="Vertical">Vertical</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/" title="Baufinanzierung">Baufinanzierung</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/aktuelle-hypothekenzinsen/" title="Hypothekenzinsen">Hypothekenzinsen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/annuitaetendarlehen/" title="Annuitätendarlehen">Annuitätendarlehen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/anschlussfinanzierung/" title="Anschlussfinanzierung">Anschlussfinanzierung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/baufinanzierung-rechner/" title="Baufinanzierungsrechner">Baufinanzierungsrechner</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/baugeld/" title="Baugeld">Baugeld</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/baukredit/" title="Baukredit">Baukredit</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/bauspardarlehen/" title="Bauspardarlehen">Bauspardarlehen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/bauzinsen/" title="Bauzinsen Zinsvergleich">Bauzinsen Zinsvergleich</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/budgetrechner/" title="Budgetrechner">Budgetrechner</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/faq-haeufige-fragen/" title="Häufige Fragen">Häufige Fragen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/finanzierungsassistent/" title="Finanzierungsassistent">Finanzierungsassistent</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/foerderung/" title="KfW Fördermittel">KfW Fördermittel</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/hausfinanzierung/" title="Haus finanzieren">Haus finanzieren</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/hauskauf-finanzierung/" title="Hauskauf Finanzierung">Hauskauf Finanzierung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/hauskredit/" title="Hauskredit">Hauskredit</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/immobilie-finanzieren/" title="Immobilienfinanzierung">Immobilienfinanzierung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/immobilienfinanzierung/" title="Baufi-Landingpage">Baufi-Landingpage</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/konditionsrechner/" title="Konditionsrechner">Konditionsrechner</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/landingpage/" title="Landingpage">Landingpage</a>
+<ul>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/landingpage/tesla/" title="Landingpage Tesla">Landingpage Tesla</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/landingpage/tesla/en/" title="Landingpage Tesla EN">Landingpage Tesla EN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/landingpagefa/" title="Landingpage FA">Landingpage FA</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/mieten-oder-kaufen-rechner/" title="Mieten oder Kaufen Rechner">Mieten oder Kaufen Rechner</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/nebenkostenrechner/" title="Nebenkostenrechner">Nebenkostenrechner</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/umschuldung/" title="Umschuldung-Landingpage">Umschuldung-Landingpage</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/variables-darlehen/" title="Variables Darlehen">Variables Darlehen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baufinanzierung/zinszahlungsdarlehen/" title="Zinszahlungsdarlehen">Zinszahlungsdarlehen</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i>Chat
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/chat/finanzierungsunterlagen/" title="Chat Finanzierungsunterlagen">Chat Finanzierungsunterlagen</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/datenschutz/" title="Datenschutz">Datenschutz</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/datenschutz/optout/" title="Datenschutz - OptOut">Datenschutz - OptOut</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/fakten/" title="Fakten">Fakten</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i>Franchise
+<ul>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/franchise/kontakt/" title="Franchise Kontakt">Franchise Kontakt</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/franchise/kontakt/bestaetigung/" title="Franchise Kontaktbestätigung">Franchise Kontaktbestätigung</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/grundstueck-bewerten-verkaufen/" title="Grundstück bewerten verkaufen">Grundstück bewerten verkaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/haus-bewerten-verkaufen/" title="Haus bewerten verkaufen">Haus bewerten verkaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/immobilie-bewerten-lassen/" title="Immobilie-bewerten-lassen-Landingpage">Immobilie-bewerten-lassen-Landingpage</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/immobilien/" title="Immobilien">Immobilien</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/immobilienportal-partner-werden/" title="Makler-Landingpage">Makler-Landingpage</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/immobilienportal-partner-werden/bottimmo/" title="Makler-Landingpage - Bottimmobilien">Makler-Landingpage - Bottimmobilien</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/impressum/" title="Impressum">Impressum</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i>Kaufen
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/anlageobjekte/" title="Anlageobjekte">Anlageobjekte</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/bueros-praxen/" title="Büros / Praxen">Büros / Praxen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/einzelhandel/" title="Einzelhandel">Einzelhandel</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/garage-stellplatz/" title="Garagen / Stellplätze">Garagen / Stellplätze</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/gastronomie-hotels/" title="Gastronomie / Hotels">Gastronomie / Hotels</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/gewerbe/" title="Gewerbe Kaufen">Gewerbe Kaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/gewerbe-grundstuecke/" title="Gewerbegrundstücke">Gewerbegrundstücke</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/gewerbe-zwangsversteigerungen/" title="Zwangsversteigerungen">Zwangsversteigerungen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/grundstueck/" title="Grundstücke kaufen">Grundstücke kaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/hallen-und-produktion/" title="Hallen / Produktion">Hallen / Produktion</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/haus/" title="Häuser kaufen">Häuser kaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/neubau/" title="Neubau">Neubau</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/sonstige-gewerbe/" title="Sonstige Gewerbe">Sonstige Gewerbe</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/sonstige-wohnobjekte/" title="Sonstige Wohnen">Sonstige Wohnen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/wohnobjekte/" title="Wohnen Kaufen">Wohnen Kaufen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/wohnung/" title="Eigentumswohnungen">Eigentumswohnungen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kaufen/zwangsversteigerungen/" title="Zwangsversteigerungen">Zwangsversteigerungen</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/" title="Kontakt">Kontakt</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/bestaetigung/" title="Kontaktbestätigung">Kontaktbestätigung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/finanzierung/" title="Finanzierung Kontaktbestätigung">Finanzierung Kontaktbestätigung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/immobilienanfrage/" title="Kontaktbestätigung Immo">Kontaktbestätigung Immo</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/inserat-melden/" title="Inserat Melden">Inserat Melden</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/makler/" title="Formular Bestätigung Immobilienanzeigen">Formular Bestätigung Immobilienanzeigen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/makleranfrage/" title="Kontaktbestätigung Makler">Kontaktbestätigung Makler</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/makleranlegen/" title="Kontaktbestätigung">Kontaktbestätigung</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/makleranlegenplus/" title="Kontaktbestätigung - Makleranlage Plus">Kontaktbestätigung - Makleranlage Plus</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/makleranlegenpremium/" title="Kontaktbestätigung - Makleranlage Premium">Kontaktbestätigung - Makleranlage Premium</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/maklersuche/" title="Kontaktbestätigung Maklersuche">Kontaktbestätigung Maklersuche</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kontakt/sanierung/" title="Kontaktbestätigung Sanierung">Kontaktbestätigung Sanierung</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/kooperationen/" title="Kooperationen-Landingpage">Kooperationen-Landingpage</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/login/" title="Login">Login</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/login/bestaetigung/" title="Login Bestätigung">Login Bestätigung</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/" title="Maklersuche">Maklersuche</a>
+<ul>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/gewerbe/" title="Gewerbe">Gewerbe</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/gewerbe/pdf/" title="Maklersuche Gewerbe PDF">Maklersuche Gewerbe PDF</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/grundstueck/" title="Grundstück">Grundstück</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/grundstueck/pdf/" title="Maklersuche Grundstück PDF">Maklersuche Grundstück PDF</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/haus/" title="Haus">Haus</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/haus/pdf/" title="Maklersuche Haus PDF">Maklersuche Haus PDF</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/Wohnung/" title="Wohnung">Wohnung</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i>Wohnung
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/maklersuche/wohnung/pdf/" title="Maklersuche Wohnung PDF">Maklersuche Wohnung PDF</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/markt-und-preis/" title="Markt &amp; Preis">Markt &amp; Preis</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-anbieterbereich/" title="Mein Anbieterbereich">Mein Anbieterbereich</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-anbieterbereich/kunden-finden/" title="Kunden finden">Kunden finden</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/" title="Mein Konto">Mein Konto</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/avatar/" title="Avatar bearbeiten">Avatar bearbeiten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/einstellungen/" title="Einstellungen">Einstellungen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/geloescht/" title="Konto gelöscht">Konto gelöscht</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/loeschen/" title="Konto löschen">Konto löschen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/merkzettel/" title="Merkzettel">Merkzettel</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/passwort-zuruecksetzen/" title="Passwort zurücksetzen">Passwort zurücksetzen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/privatanzeigen/" title="Privatanzeigen">Privatanzeigen</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/suchauftraege/" title="Suchaufträge">Suchaufträge</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/suchauftraege/liste/" title="Ergebnisliste">Ergebnisliste</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/suchauftraege/loeschen/" title="Suchauftrag löschen">Suchauftrag löschen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/suchauftraege/reaktivieren/" title="Suchagent reaktivieren">Suchagent reaktivieren</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/" title="Vorhandene Unterlagen">Vorhandene Unterlagen</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/delete/" title="Vorhandene Unterlagen Löschen">Vorhandene Unterlagen Löschen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/download/" title="Bewerbermappe herunterladen">Bewerbermappe herunterladen</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/finanzierung/" title="Finanzierungsunterlagen">Finanzierungsunterlagen</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/finanzierung/saus/" title="Selbstauskunft Finanzierung">Selbstauskunft Finanzierung</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/saus/" title="Selbstauskunft">Selbstauskunft</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mein-konto/unterlagen/upload/" title="Vorhandene Unterlagen Upload">Vorhandene Unterlagen Upload</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i>Mieten
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/bueros-praxen/" title="Büros / Praxen">Büros / Praxen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/einzelhandel/" title="Einzelhandel">Einzelhandel</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/garage-stellplatz/" title="Garage / Stellplätze">Garage / Stellplätze</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/gastronomie-hotels/" title="Gastronomie / Hotels">Gastronomie / Hotels</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/gewerbe/" title="Gewerbe Mieten">Gewerbe Mieten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/gewerbe-grundstuecke/" title="Gewerbegrundstücke">Gewerbegrundstücke</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/grundstueck/" title="Grundstück pachten">Grundstück pachten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/hallen-und-produktion/" title="Hallen / Produktion">Hallen / Produktion</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/haus/" title="Haus mieten">Haus mieten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/seniorenwohnen/" title="Seniorenwohnen">Seniorenwohnen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/sonstige-gewerbe/" title="Sonstige Gewerbe">Sonstige Gewerbe</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/sonstige-wohnobjekte/" title="Sonstige Wohnen">Sonstige Wohnen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/wg-zimmer/" title="WG-Zimmer">WG-Zimmer</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/wohnen-auf-zeit/" title="Wohnen auf Zeit">Wohnen auf Zeit</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/wohnobjekte/" title="Wohnen Mieten">Wohnen Mieten</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mieten/wohnung/" title="Mietwohnungen">Mietwohnungen</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/partner/" title="Partner-Landingpage">Partner-Landingpage</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/partner/qualitypool/" title="Qualitypool">Qualitypool</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/signout/" title="Signout Mailings">Signout Mailings</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/strom-gas-und-multimedia/" title="Strom/Gas &amp; Multimedia">Strom/Gas &amp; Multimedia</a></li>
+<li class="branch" style="display: none;"><i class="indicator icon icon-plus-sign"></i>Suchagent
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/suchagent/details/" title="Interessentendetails">Interessentendetails</a></li>
+</ul>
+</li>
+<li style="display: none;" class="branch"><i class="indicator icon icon-plus-sign"></i>Suchauftrag
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/suchauftrag/deregistrierung/" title="Suchauftrag deregistrieren">Suchauftrag deregistrieren</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/suchauftrag/mailing-deregistrierung/" title=""></a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/suchauftrag/unterstuetzung/" title="Suchauftrag Unterstützung durch Berater">Suchauftrag Unterstützung durch Berater</a></li>
+</ul>
+</li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/unser-team/" title="Unser Team">Unser Team</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/wohnung-bewerten-verkaufen/" title="Wohnung bewerten verkaufen">Wohnung bewerten verkaufen</a></li>
+</ul>
+</li>
+</ul>
+                                    </div>
+                                </div>
+                                <div class="widget-box">
+                                    <div class="widget-title">
+                                        <span class="icon"></span>
+                                        <h5>Seo-Texte Startseiten</h5>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul id="tree4" class="tree">
+<li class="branch"><i class="indicator icon icon-plus-sign"></i><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/" title="Startseite">Startseite</a>
+<ul>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/baden-wuerttemberg/" title="Startseite Baden-Württemberg">Startseite Baden-Württemberg</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/bayern/" title="Startseite Bayern">Startseite Bayern</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/brandenburg/" title="Startseite Brandenburg">Startseite Brandenburg</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/bremen/" title="Startseite Bremen">Startseite Bremen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/hamburg/" title="Startseite Hamburg">Startseite Hamburg</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/hessen/" title="Startseite Hessen">Startseite Hessen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/land-berlin/" title="Startseite Berlin">Startseite Berlin</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/mecklenburg-vorpommern/" title="Startseite Mecklenburg-Vorpommern">Startseite Mecklenburg-Vorpommern</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/niedersachsen/" title="Startseite Niedersachsen">Startseite Niedersachsen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/nordrhein-westfalen/" title="Startseite Nordrhein-Westfalen">Startseite Nordrhein-Westfalen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/rheinland-pfalz/" title="Startseite Rheinland-Pfalz">Startseite Rheinland-Pfalz</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/saarland/" title="Startseite Saarland">Startseite Saarland</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/sachsen/" title="Startseite Sachsen">Startseite Sachsen</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/sachsen-anhalt/" title="Startseite Sachsen-Anhalt">Startseite Sachsen-Anhalt</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/schleswig-holstein/" title="Startseite Schleswig-Holstein">Startseite Schleswig-Holstein</a></li>
+<li style="display: none;"><a onclick="$('form#seo').find('input[name=dir]').val($(this).data('url')).parents('form').first().submit();" data-url="/thueringen/" title="Startseite Thüringen">Startseite Thüringen</a></li>
+</ul>
+</li>
+</ul>
+                                                                            </div>
+                                </div>
+                                                            </div>
+                                                    </div>
+                                                                        <form class="pitsafeform" action="?admsess=h7n90fyqin&amp;do=safe" method="post" enctype="multipart/form-data"></form>
+                        <div class="row-fluid">
+    <div id="footer" class="span12">
+        © 2014 - 2026 <a href="https://www.regionalimmobilien24.de" target="_blank" title="Homepage der Regionalimmobilien24 GmbH öffnen">Regionalimmobilien24 GmbH</a>
+    </div>
+</div>                    </div>
+                </div>
+                
+<script src="../../../../../ressource/js/jquery-1.11.3.min.js"></script>
+<script src="../../../../../adm/layout/js/excanvas.min.js"></script>
+<script src="../../../../../ressource/js/jquery-migrate.js"></script>
+
+<script src="../../../../../adm/layout/js/jquery-ui.custom.js"></script>
+<script src="../../../../../adm/layout/js/bootstrap.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.gritter.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.peity.min.js"></script>
+<script src="../../../../../adm/layout/js/fullcalendar.min.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.interface.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.tooltip.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.resize.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.pie.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.crosshair.min.js"></script>
+<script src="../../../../../ressource/js/flot/jquery.flot.time.min.js"></script>
+
+<script src="../../../../../adm/layout/js/select2.min.js"></script>
+<script src="../../../../../adm/layout/js/jquery.dataTables.min.js"></script>
+
+<script src="../../../../../adm/layout/js/pitcom.js"></script>
+<script src="../../../../../adm/layout/js/pitcom.dashboard.js"></script>
+
+<script src="../../../../../ressource/js/validation.class.js"></script>
+<script src="../../../../../ressource/js/colorpicker.js"></script>
+<script src="../../../../../ressource/js/datepicker.js"></script>
+<script src="../../../../../ressource/js/eye.js"></script>
+<script src="../../../../../ressource/js/utils.js"></script>
+
+
+<script src="../../../../../ressource/gen/clientlib_0cff8dea210d83d5ad7fa7510d05d351.js"></script>        <script type="text/javascript" src="../../../../../adm/individuell/js/bootstrap-treeview.js"></script>
+        <script>
+            $('#tree1').treed();
+            $('#tree2').treed();
+            $('#tree3').treed();
+            $('#tree4').treed();
+            $('#tree5').treed();
+            $('#seoTab a').click(function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+            $("textarea").each(function () {
+                $(this).on('dblclick', function () {
+                    var placeholder = $(this).attr('placeholder');
+                    if (placeholder !== "") {
+                        $(this).val(placeholder).html(placeholder);
+                    }
+                });
+            });
+            $("input").each(function () {
+                $(this).on('dblclick', function () {
+                    var placeholder = $(this).attr('placeholder');
+                    if (placeholder !== "") {
+                        $(this).val(placeholder);
+                    }
+                });
+            });
+
+        </script>
+
+        <script type="text/javascript" src="../../../../../ressource/js/function4tiny.js"></script>
+        <script type="text/javascript" src="../../../../../adm/individuell/master/js/tinymce.min.js"></script>
+        <script>
+            $('#faq > .form-horizontal textarea[name="content"]').each(function () {
+                let fieldId = $(this).attr('id');
+                var pasttext = 'HALLO';
+                tinymce.init({
+                    selector: "#tiny_" + fieldId,
+                    toolbar1: "undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | formatselect | fontsizeselect | bullist numlist | link | table | fullscreen | code",
+                    language: 'de',
+                    plugins: ["code,table,link,paste,fullscreen"],
+                    table_toolbar: 'tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+                    fullpage_hide_in_source_view: true,
+                    resize: true,
+                    menubar: false,
+                    toolbar_item_size: "small",
+                    toolbar_mode: "wrap",
+                    style_formats: [
+                        {title: "Überschrift 2", block: "h2"},
+                        {title: "Überschrift 3", block: "h3"},
+                        {title: "Absatz", block: "p"},
+                        {title: "Block Zitat", block: "blockquote"},
+                        {title: "Code Block", block: "pre"},
+                    ],
+                    fontsize_formats: "8pt 10pt 12pt 14pt 18pt 24pt 36pt",
+
+                    theme_advanced_buttons3_add: "pastetext,pasteword,selectall",
+                    paste_auto_cleanup_on_paste: true,
+                    paste_as_text: true,
+                    paste_preprocess: function (pl, o) {
+                        o.content = o.content ?? '';
+                        pasttext = o.content;
+                    },
+                    paste_postprocess: function (pl, o) {
+                        if (pasttext !== o.node.innerHTML) {
+                            alert('Der einzufügende Content enthält Formatierungen. Diese werden automatisch bereinigt.');
+                        }
+                        o.node.innerHTML = o.node.innerHTML ?? '';
+                    },
+
+
+                    setup: function (theEditor) {
+                        theEditor.on('blur', function () {
+                            $('#' + fieldId).val(transcode4tiny((tinyMCE.get('tiny_' + fieldId).getContent()), 'out'));
+                        });
+                        theEditor.on("init", function () {
+                            tinyMCE.get('tiny_' + fieldId).setContent(transcode4tiny($('#' + fieldId).val(), 'in'));
+                        });
+                    }
+                });
+            });
+        </script>
+        
+        
+        </body></html>

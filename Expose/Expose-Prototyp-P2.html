@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototyp – Stark! Vierfamilienhaus | Regionalimmobilien24.de</title>
+<!--
+  =====================================================================
+  CONVERSION-PROTOTYP (P1) – eigenständig lauffähig, keine externen Requests.
+  Alle "LIVE"-Inhalte (Bilder, Karte, Logos, Bank-Angebote, Calendly, reCAPTCHA)
+  sind durch klar gekennzeichnete DUMMY-Platzhalter ersetzt.
+  Fest eingebaute P1-Maßnahmen:
+    P1.1  Finanzierungsblock steht UNTER Fakten + Kontaktformular (Teaser bleibt oben)
+    P1.2  Kontaktformular: Straße/PLZ/Ort hinter optionalem Toggle
+    P1.3  Button-Hierarchie: Ziel 1 (Anfrage) primär gefüllt, Finanzierung sekundär Outline
+    P1.4  CTA-Texte nutzen-/aktionsorientiert
+  =====================================================================
+-->
+<style>
+:root{
+  --green:#BDE04F;          /* echte CI: --green */
+  --green-hover:#aed23f;
+  --green-dark:#5e7027;     /* echte CI: --greendark */
+  --green-ghost:#ebf7c0;    /* echte CI: --bg-hatching-green */
+  --ink:#333333;            /* echte CI: --anthracite */
+  --fin:#2f9bd6;            /* Finanzierungs-CTA: Baufinanzierung-„prime"-Blau (aus CI #3AA4DE) */
+  --fin-dark:#2384bd;
+  --fin-ghost:#e9f5fc;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --bg:#f5f6f4;
+  --card:#ffffff;
+  --radius:12px;
+  --shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.05);
+  --maxw:760px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.5;padding-bottom:128px}
+img{max-width:100%;display:block}
+h1,h2,h3{line-height:1.25;margin:0}
+a{color:var(--green-dark)}
+
+/* Prototyp-Hinweisleiste */
+.proto-note{background:#111;color:#fff;font-size:.8rem;text-align:center;padding:.5rem .75rem}
+.proto-note b{color:var(--green)}
+
+/* Header */
+.site-header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
+.site-header .bar{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;gap:.6rem;padding:.6rem 1rem}
+/* Echtes Logo (Doppelvorlage) – links zugeschnitten = Immobilien-Logo */
+.logo-real{display:block;height:40px;width:176px;overflow:hidden;flex:0 0 auto}
+.logo-real img{height:40px;width:auto;max-width:none;display:block}
+.site-header nav{margin-left:auto;display:none;gap:1rem;font-size:.9rem;font-weight:600}
+@media(min-width:860px){.site-header nav{display:flex}}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 1rem}
+
+/* Galerie */
+.gallery{position:relative;background:#000;margin-top:.75rem;border-radius:var(--radius);overflow:hidden}
+.gallery .track{display:flex;transition:transform .35s ease}
+.slide{min-width:100%;aspect-ratio:4/3;position:relative;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;
+  background:linear-gradient(135deg,#5e7027,#BDE04F)}
+.slide:nth-child(2){background:linear-gradient(135deg,#3a4a5d,#5aa0c8)}
+.slide:nth-child(3){background:linear-gradient(135deg,#5d3a4a,#c85a86)}
+.slide:nth-child(4){background:linear-gradient(135deg,#5d523a,#c8a55a)}
+.slide:nth-child(5){background:linear-gradient(135deg,#3a5d4a,#5ac888)}
+.slide .tag{position:absolute;inset:auto 0 0 0;padding:.6rem .8rem;background:rgba(0,0,0,.45);
+  font-size:.8rem;font-weight:600;display:flex;justify-content:space-between}
+.slide .dummy-badge{position:absolute;top:.6rem;left:.6rem;background:rgba(0,0,0,.35);
+  border:1px dashed rgba(255,255,255,.6);border-radius:6px;padding:.15rem .5rem;font-size:.68rem;font-weight:600}
+.ribbon{position:absolute;top:.6rem;right:.6rem;background:var(--green);color:var(--ink);
+  font-size:.72rem;font-weight:800;padding:.25rem .6rem;border-radius:6px;letter-spacing:.03em;z-index:2}
+.gbtn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;border-radius:50%;
+  background:rgba(255,255,255,.9);font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.gbtn.prev{left:.5rem}.gbtn.next{right:.5rem}
+
+/* Kennzahlen */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:.75rem}
+.facts .f{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem}
+.facts .f .k{font-size:.72rem;color:var(--muted)}
+.facts .f .v{font-size:1.05rem;font-weight:800;margin-top:.15rem}
+.facts .f.price .v{color:var(--green-dark)}
+
+/* Finanzierungs-Teaser (bleibt oben – P1.1) */
+.fin-teaser{margin-top:.75rem;background:var(--fin-ghost);border:1px solid #cfe8f6;border-radius:10px;
+  padding:.75rem .9rem;display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+.fin-teaser .lbl{font-weight:700}
+.fin-teaser .rate{color:var(--fin-dark);font-weight:800}
+.fin-teaser a{margin-left:auto}
+
+/* Titel */
+.title-block{margin-top:1.1rem}
+.title-block h1{font-size:1.4rem;border-top:5px solid var(--green);padding-top:.7rem}
+.title-block .addr{color:var(--muted);margin-top:.25rem}
+
+/* Beschreibung + Sektionen */
+.section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);margin-top:1rem;box-shadow:var(--shadow)}
+.section>h2{font-size:1.05rem;padding:.9rem 1rem}
+.section .body{padding:0 1rem 1rem}
+details.section>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;
+  padding:.9rem 1rem;font-size:1.05rem;font-weight:700}
+details.section>summary::-webkit-details-marker{display:none}
+details.section>summary::after{content:"▾";color:var(--muted);transition:transform .2s}
+details.section[open]>summary::after{transform:rotate(180deg)}
+details.section .body{padding:0 1rem 1rem}
+table.spec{width:100%;border-collapse:collapse;font-size:.92rem}
+table.spec th{text-align:left;color:var(--muted);font-weight:500;padding:.4rem 0;vertical-align:top;width:52%}
+table.spec td{text-align:right;padding:.4rem 0;font-weight:600}
+table.spec tr+tr th,table.spec tr+tr td{border-top:1px solid var(--line)}
+
+/* Energie-Skala (Dummy, CSS) */
+.energy{margin-top:.8rem}
+.energy .scale{height:16px;border-radius:8px;background:linear-gradient(90deg,#2ecc71,#a3d900,#f1c40f,#e67e22,#e74c3c);position:relative}
+.energy .mark{position:absolute;top:-6px;transform:translateX(-50%);font-size:.7rem;font-weight:800}
+.energy .mark::after{content:"▾";display:block;text-align:center}
+.energy .val{font-weight:800;margin-top:.6rem}
+
+/* Karte (Dummy) */
+.map-dummy{aspect-ratio:16/9;border-radius:10px;margin-top:.6rem;
+  background:
+    repeating-linear-gradient(0deg,#e8ede4 0 22px,#eef2ea 22px 24px),
+    repeating-linear-gradient(90deg,#e8ede4 0 22px,#eef2ea 22px 24px);
+  border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:600}
+
+/* Formulare */
+.formcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  margin-top:1rem;box-shadow:var(--shadow);overflow:hidden}
+.formcard>h2{padding:1rem 1rem .25rem;font-size:1.15rem}
+.formcard .sub{padding:0 1rem;color:var(--muted);font-size:.9rem}
+.formcard form{padding:1rem}
+.field{margin-bottom:.7rem}
+.field label{display:block;font-size:.8rem;color:var(--muted);margin-bottom:.25rem}
+.field input,.field textarea{width:100%;padding:.7rem .8rem;border:1px solid var(--line);border-radius:8px;font-size:1rem;font-family:inherit}
+.field input:focus,.field textarea:focus{outline:2px solid var(--green);border-color:var(--green)}
+.field.req label::after{content:" *";color:#c0392b}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
+.checks{display:flex;flex-wrap:wrap;gap:.5rem;margin:.4rem 0 .8rem}
+.checks label{display:flex;align-items:center;gap:.4rem;background:#f7f8f6;border:1px solid var(--line);
+  border-radius:999px;padding:.35rem .7rem;font-size:.85rem;cursor:pointer}
+.legal{font-size:.72rem;color:var(--muted);margin:.6rem 0}
+
+/* Optionale Adressfelder – P1.2 */
+.opt-toggle{background:none;border:0;color:var(--green-dark);font-weight:600;cursor:pointer;
+  padding:.2rem 0 .8rem;text-decoration:underline;font-size:.9rem}
+.opt-address{display:none}
+.opt-address.is-open{display:block}
+
+/* Buttons – P1.3 */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  font-weight:700;font-size:1rem;border-radius:5px;padding:.8rem 1.1rem;cursor:pointer;
+  border:2px solid var(--green);text-decoration:none;width:100%;font-family:inherit}
+.btn-primary{background:var(--green);color:var(--ink);box-shadow:0 4px 4px 0 rgba(0,0,0,.18)}
+.btn-primary:hover{background:var(--green-hover);border-color:var(--green-hover)}
+/* Finanzierung = gefülltes „prime"-Blau: auffällig & farblich getrennt vom grünen Ziel 1 */
+.btn-secondary{background:var(--fin);color:#fff;border-color:var(--fin);box-shadow:0 4px 4px 0 rgba(0,0,0,.15)}
+.btn-secondary:hover{background:var(--fin-dark);border-color:var(--fin-dark)}
+
+/* Finanzierung (Ziel 2) – UNTEN, P1.1 */
+.fin-calc{padding:1rem}
+.fin-calc .line{display:flex;justify-content:space-between;align-items:center;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.fin-calc .line span:first-child{color:var(--muted)}
+.fin-calc .line b{font-size:1rem}
+.fin-calc input[type=range]{width:100%;accent-color:var(--green)}
+.fin-result{background:var(--fin-ghost);border-radius:10px;padding:.8rem 1rem;margin-top:.8rem;text-align:center}
+.fin-result .big{font-size:1.6rem;font-weight:800;color:var(--fin-dark)}
+.offers{list-style:none;padding:0;margin:.8rem 0}
+.offers li{display:flex;align-items:center;gap:.6rem;padding:.6rem;border:1px solid var(--line);border-radius:10px;margin-bottom:.5rem}
+.offers .bank{width:34px;height:34px;border-radius:8px;background:#eef2ea;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--muted);font-size:.8rem}
+.offers .meta{flex:1;font-size:.85rem;color:var(--muted)}
+.offers .amt{font-weight:800}
+.advisor{display:flex;gap:.8rem;align-items:center;background:#fafbf8;border:1px solid var(--line);border-radius:10px;padding:.8rem;margin:.8rem 0}
+.advisor .avatar{width:52px;height:52px;border-radius:50%;background:var(--green);color:var(--ink);display:flex;align-items:center;justify-content:center;font-weight:800;flex:0 0 auto}
+.advisor .stars{color:#e6a700;font-size:.85rem}
+
+/* Ansprechpartner Immobilie */
+.agent{display:flex;gap:.8rem;align-items:center}
+.agent .avatar{width:52px;height:52px;border-radius:10px;background:#eef2ea;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--muted)}
+.agent .tel a{font-weight:700}
+.tel-reveal{color:var(--green-dark);font-weight:600;text-decoration:underline;cursor:pointer}
+
+/* Weitere Angebote */
+.more{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem;margin-top:.7rem}
+@media(min-width:620px){.more{grid-template-columns:repeat(3,1fr)}}
+.more .obj{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.more .obj .thumb{aspect-ratio:4/3;background:linear-gradient(135deg,#54683f,#9fc45a)}
+.more .obj .cap{padding:.5rem .6rem;font-size:.8rem}
+.more .obj .cap b{display:block;color:var(--green-dark)}
+
+footer.site{margin-top:2rem;background:#20261c;color:#c7cdbf;font-size:.82rem}
+footer.site .wrap{padding:1.2rem 1rem}
+
+/* Sticky Bottombar – Ziel 1 (P1.3) */
+.sticky-bar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;
+  border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.08);
+  display:flex;gap:.6rem;padding:.6rem;max-width:var(--maxw);margin:0 auto}
+.sticky-bar .btn{padding:.7rem}
+
+.dummy-pill{display:inline-block;background:#fff3cd;border:1px dashed #d9b400;color:#7a5c00;
+  font-size:.68rem;font-weight:700;border-radius:6px;padding:.05rem .4rem;margin-left:.4rem;vertical-align:middle}
+
+@media(min-width:860px){
+  .title-block h1{font-size:1.7rem}
+}
+
+/* ===================== P2-Maßnahmen ===================== */
+
+/* P2.5 – Makler-Trust direkt am Conversion-Punkt (im Anfrageformular) */
+.agent-trust{display:flex;align-items:center;gap:.7rem;margin:.2rem 1rem 0;padding:.7rem;
+  background:var(--green-ghost);border:1px solid #d7ecb5;border-radius:10px}
+.agent-trust .avatar{width:46px;height:46px;border-radius:50%;background:var(--green);color:var(--ink);
+  display:flex;align-items:center;justify-content:center;font-weight:800;flex:0 0 auto}
+.agent-trust .meta{flex:1;font-size:.85rem;line-height:1.3}
+.agent-trust .meta b{font-size:.92rem}
+.agent-trust .resp{color:var(--green-dark);font-weight:600;margin-top:.15rem}
+.agent-trust .tel-link{display:inline-block;margin-top:.35rem;color:var(--green-dark);
+  font-weight:600;font-size:.85rem;text-decoration:underline}
+
+/* P2.6 – Umgebung & Jobs (sekundär, unter den Formularen) */
+.poi-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:.4rem 0 .9rem}
+.poi-chips span{background:#f2f6ea;border:1px solid #dbe7c4;border-radius:999px;
+  padding:.35rem .7rem;font-size:.85rem;font-weight:600;color:var(--green-dark)}
+.jobs{display:flex;align-items:center;gap:.6rem;background:#fafbf8;border:1px solid var(--line);
+  border-radius:10px;padding:.7rem}
+.jobs .ic{width:38px;height:38px;border-radius:8px;background:#eef2ea;display:flex;
+  align-items:center;justify-content:center;font-weight:800;color:var(--muted);flex:0 0 auto}
+
+/* P2.7 – persistenter, dezenter Finanzierungs-Hook über der Sticky-Bar */
+.sticky-wrap{position:fixed;left:0;right:0;bottom:0;z-index:40;max-width:var(--maxw);margin:0 auto}
+.fin-strip{display:flex;align-items:center;justify-content:center;gap:.4rem;
+  background:var(--fin-ghost);border-top:1px solid #cfe8f6;color:var(--fin-dark);
+  font-size:.85rem;font-weight:600;padding:.5rem .75rem;text-decoration:none;
+  transition:transform .25s ease,opacity .25s ease}
+.fin-strip b{color:var(--fin-dark)}
+.fin-strip.is-hidden{transform:translateY(100%);opacity:0;pointer-events:none;position:absolute;bottom:100%;width:100%}
+/* Sticky-Bar nun innerhalb des Wraps – Ziel 1 bleibt primär/dominant */
+.sticky-bar{position:static;left:auto;right:auto;bottom:auto;z-index:auto;background:#fff;
+  border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.08);
+  display:flex;gap:.6rem;padding:.6rem;margin:0}
+
+/* ===== Kontakt-Popup (Modal) – vollflächig, CTA immer sichtbar (gepinnter Footer) ===== */
+.contact-modal{border:0;padding:0;margin:0;inset:0;background:var(--card);color:var(--ink);
+  width:100vw;max-width:100vw;height:100dvh;max-height:100dvh}
+.contact-modal::backdrop{background:rgba(0,0,0,.55)}
+.modal-form{display:flex;flex-direction:column;height:100%}
+.contact-modal .modal-head{flex:0 0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding:1rem 1rem .5rem}
+.contact-modal .modal-head h2{font-size:1.15rem}
+.contact-modal .modal-close{background:none;border:0;font-size:1.7rem;line-height:1;cursor:pointer;color:var(--muted);padding:0 .2rem}
+.contact-modal .modal-body{flex:1 1 auto;overflow:auto;padding:0 1rem .5rem}
+.contact-modal .sub{padding:0;margin:.2rem 0 .7rem;color:var(--muted);font-size:.9rem}
+.contact-modal .agent-trust{margin:.2rem 0 .7rem}
+.contact-modal .modal-foot{flex:0 0 auto;padding:.75rem 1rem;border-top:1px solid var(--line);background:#fff;box-shadow:0 -6px 16px rgba(0,0,0,.07)}
+@media(min-width:600px){
+  .contact-modal{width:min(520px,calc(100% - 1.5rem));max-width:520px;height:auto;max-height:90vh;margin:auto;inset:auto;
+    border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+}
+/* Bestätigungs-/Finanzierungs-Schritt (nach Absenden) */
+.modal-form[hidden]{display:none}
+.btn[hidden]{display:none}
+.confirm-success{display:flex;gap:.45rem;align-items:flex-start;background:var(--green-ghost);border:1px solid #d7ecb5;border-radius:8px;
+  padding:.6rem .8rem;font-weight:700;color:var(--green-dark);margin:.2rem 0 .9rem}
+.confirm-success .cs-ico{flex:0 0 auto}
+.confirm-h3{font-size:1.05rem;margin:.2rem 0 .2rem}
+.confirm-dismiss{display:block;margin:.6rem auto 0;background:none;border:0;color:var(--muted);
+  text-decoration:underline;cursor:pointer;font-size:.9rem}
+</style>
+</head>
+<body>
+
+<div class="proto-note">CONVERSION-PROTOTYP · <b>P1 + P2 umgesetzt</b> · Nicht verfügbare Live-Daten sind als <b>Dummy</b> markiert · offline lauffähig</div>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="logo-real" href="#" aria-label="Regionalimmobilien24"><img src="Doppelvorlage-2023.svg" alt="Regionalimmobilien24"></a>
+    <nav><a href="#">Immobilien</a><a href="#">Baufinanzierung</a><a href="#">Unser Team</a><a href="#">Login</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- GALERIE (Dummy-Bilder) -->
+  <div class="gallery" id="gallery">
+    <span class="ribbon">Premium</span>
+    <div class="track" id="track">
+      <div class="slide"><span class="dummy-badge">Dummy-Bild</span>Objektansicht<div class="tag"><span>Bild 1 / 5</span><span>Außenansicht</span></div></div>
+      <div class="slide"><span class="dummy-badge">Dummy-Bild</span>Wohnung EG<div class="tag"><span>Bild 2 / 5</span><span>Innenraum</span></div></div>
+      <div class="slide"><span class="dummy-badge">Dummy-Bild</span>Küche<div class="tag"><span>Bild 3 / 5</span><span>Einbauküche</span></div></div>
+      <div class="slide"><span class="dummy-badge">Dummy-Bild</span>Bad<div class="tag"><span>Bild 4 / 5</span><span>Badezimmer</span></div></div>
+      <div class="slide"><span class="dummy-badge">Dummy-Bild</span>Innenhof<div class="tag"><span>Bild 5 / 5</span><span>Hof / Balkone</span></div></div>
+    </div>
+    <button class="gbtn prev" id="gprev" aria-label="vorheriges Bild">‹</button>
+    <button class="gbtn next" id="gnext" aria-label="nächstes Bild">›</button>
+  </div>
+
+  <!-- KENNZAHLEN -->
+  <div class="facts">
+    <div class="f price"><div class="k">Kaufpreis</div><div class="v">249.000 €</div></div>
+    <div class="f"><div class="k">Wohnfläche</div><div class="v">295 m²</div></div>
+    <div class="f"><div class="k">Zimmer</div><div class="v">10</div></div>
+  </div>
+
+  <!-- FINANZIERUNGS-TEASER (bleibt oben – P1.1) -->
+  <div class="fin-teaser">
+    <span class="lbl">Finanzierung:</span>
+    <span>ab <span class="rate" id="teaserRate">1.018,88 €</span> / Monat</span>
+    <a class="btn btn-secondary" style="width:auto;padding:.5rem .9rem" href="#finanzierung">Finanzierung berechnen</a>
+  </div>
+
+  <!-- TITEL -->
+  <div class="title-block">
+    <h1>Stark! Vierfamilienhaus sucht neuen Eigentümer</h1>
+    <div class="addr">Fabrikstraße 31 | 08527 Plauen</div>
+  </div>
+
+  <!-- BESCHREIBUNG -->
+  <section class="section">
+    <h2>Objektbeschreibung</h2>
+    <div class="body">
+      <p>Auf dem Grundstück befindet sich ein viergeschossiges, voll unterkellertes Mehrfamilienhaus in Massivbauweise. Die Immobilie besteht aus vier Wohneinheiten – jede mit Abstellraum neben dem Balkon und Kellerabteil. Beheizt wird über eine Gasbrennwert­zentralheizung (Marke Buderus, Baujahr 2013).</p>
+      <p>Alle Wohneinheiten verfügen über einen Balkon zum Innenhof; die Einheiten im Erd-, 2. Ober- und Dachgeschoss enthalten zusätzlich eine Einbauküche. Das Objekt wurde 1998 komplett saniert und anschließend nach §8 WEG geteilt. Derzeit gibt es nur einen Eigentümer, sodass die WEG aktuell ruht, aber jederzeit wieder aufleben kann.</p>
+    </div>
+  </section>
+
+  <!-- OBJEKTFAKTEN (Akkordeons) -->
+  <details class="section" open>
+    <summary>Kosten</summary>
+    <div class="body"><table class="spec">
+      <tr><th>Kaufpreis</th><td>249.000,00 €</td></tr>
+      <tr><th>Provision für Käufer</th><td>5,95 % inkl. USt</td></tr>
+    </table></div>
+  </details>
+
+  <details class="section" open>
+    <summary>Allgemeine Informationen</summary>
+    <div class="body"><table class="spec">
+      <tr><th>Objektart</th><td>Haus</td></tr>
+      <tr><th>Haustyp</th><td>Mehrfamilienhaus</td></tr>
+      <tr><th>Baujahr</th><td>1900</td></tr>
+      <tr><th>Zustand</th><td>Teil-/Vollrenovierungsbedürftig</td></tr>
+      <tr><th>Erschließung</th><td>vollerschlossen</td></tr>
+    </table></div>
+  </details>
+
+  <details class="section">
+    <summary>Ausstattung</summary>
+    <div class="body"><table class="spec">
+      <tr><th>Gartennutzung</th><td>ja</td></tr>
+      <tr><th>Unterkellert</th><td>ja</td></tr>
+      <tr><th>Bad</th><td>Badewanne, Dusche</td></tr>
+      <tr><th>Küche</th><td>Einbauküche</td></tr>
+      <tr><th>Boden</th><td>Laminatboden</td></tr>
+      <tr><th>Heizung</th><td>Zentralheizung, Gas</td></tr>
+      <tr><th>Technik</th><td>Kabel-/Satelliten-TV</td></tr>
+    </table></div>
+  </details>
+
+  <details class="section">
+    <summary>Flächen / Räume</summary>
+    <div class="body"><table class="spec">
+      <tr><th>Wohnfläche</th><td>295,00 m²</td></tr>
+      <tr><th>Nutzfläche</th><td>354,00 m²</td></tr>
+      <tr><th>Grundstücksfläche</th><td>220,00 m²</td></tr>
+      <tr><th>Zimmer</th><td>10</td></tr>
+      <tr><th>Schlafzimmer</th><td>4</td></tr>
+      <tr><th>Badezimmer</th><td>4</td></tr>
+      <tr><th>Wohneinheiten</th><td>4</td></tr>
+    </table></div>
+  </details>
+
+  <details class="section">
+    <summary>Energieausweis</summary>
+    <div class="body">
+      <table class="spec">
+        <tr><th>Energiepassart</th><td>Verbrauch</td></tr>
+        <tr><th>Verbrauchskennwert</th><td>134,70 kWh/(m²·a)</td></tr>
+        <tr><th>Energieträger</th><td>Gas</td></tr>
+        <tr><th>Effizienzklasse</th><td>E</td></tr>
+        <tr><th>Gültig bis</th><td>17.12.2025</td></tr>
+      </table>
+      <div class="energy">
+        <div class="scale"><span class="mark" style="left:45%">E · 134,70</span></div>
+        <div class="val">134,70 kWh/(m²·a)</div>
+      </div>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary>Lage</summary>
+    <div class="body">
+      <p>Das Objekt befindet sich in zentraler Lage in Plauen, nahe dem Stadtbad.</p>
+      <div class="map-dummy">Kartenansicht <span class="dummy-pill">Dummy</span></div>
+    </div>
+  </details>
+
+  <!-- ============================================================
+       ZIEL 1: IMMOBILIENANFRAGE – jetzt VOR der Finanzierung (P1.1)
+       ============================================================ -->
+  <div class="formcard" id="kontaktformular">
+    <h2>Diese Immobilie anfragen</h2>
+    <p class="sub">Unverbindlich & kostenlos – der Anbieter meldet sich zeitnah bei Ihnen.</p>
+
+    <!-- P2.5: Ansprechpartner am Conversion-Punkt (ohne Qualitätsbewertung – wir sind das Portal) -->
+    <div class="agent-trust">
+      <div class="avatar">AS</div>
+      <div class="meta">
+        <b>Andreas Stark</b> · Stark Immobilien
+        <div class="resp">⏱ Antwortet meist innerhalb von 24 Std.</div>
+        <a class="tel-link tel-reveal" href="tel:+490000000" title="Telefonnummer des Anbieters anzeigen" data-tel="+49 000 0000000 (Dummy)">📞 Telefonnummer anzeigen</a>
+      </div>
+    </div>
+
+    <form onsubmit="return protoSubmit(event,'Ihre Anfrage wurde (Prototyp) abgeschickt.')">
+      <div class="row2">
+        <div class="field req"><label>Vorname</label><input required autocomplete="given-name"></div>
+        <div class="field req"><label>Nachname</label><input required autocomplete="family-name"></div>
+      </div>
+      <div class="field req"><label>E-Mail</label><input type="email" required autocomplete="email"></div>
+      <div class="field"><label>Telefon</label><input autocomplete="tel"></div>
+
+      <!-- P1.2: optionale Adressfelder eingeklappt -->
+      <button type="button" class="opt-toggle" id="addrToggle">+ Adresse hinzufügen (optional)</button>
+      <div class="opt-address" id="addrFields">
+        <div class="field"><label>Straße / Hausnummer</label><input autocomplete="street-address"></div>
+        <div class="row2">
+          <div class="field"><label>PLZ</label><input autocomplete="postal-code"></div>
+          <div class="field"><label>Ort</label><input autocomplete="address-level2"></div>
+        </div>
+      </div>
+
+      <div class="field"><label>Ihre Nachricht</label>
+        <textarea id="contactMsg" rows="2">Ich interessiere mich für Ihr Angebot, bitte nehmen Sie Kontakt mit mir auf.</textarea>
+      </div>
+      <div class="checks">
+        <label><input type="checkbox"> Rückruf erhalten</label>
+        <label><input type="checkbox"> Besichtigung</label>
+        <label><input type="checkbox"> Infos anfordern</label>
+        <label><input type="checkbox"> Finanzierungsvergleich</label>
+      </div>
+      <p class="legal">Geschützt durch reCAPTCHA <span class="dummy-pill">Dummy</span> · Es gelten unsere Datenschutzhinweise.</p>
+      <!-- P1.4: nutzenorientierter CTA, Ziel 1 = primär -->
+      <button class="btn btn-primary" type="submit">Jetzt unverbindlich anfragen</button>
+    </form>
+  </div>
+
+  <!-- ============================================================
+       ZIEL 2: FINANZIERUNG – nach unten verschoben (P1.1),
+       Buttons sekundär/Outline (P1.3)
+       ============================================================ -->
+  <div class="formcard" id="finanzierung">
+    <h2>Finanzierung vergleichen</h2>
+    <p class="sub">Kostenfrei & unverbindlich – Angebote mehrerer Banken auf einen Blick.</p>
+    <div class="fin-calc">
+      <div class="line"><span>Kaufpreis</span><b>249.000 €</b></div>
+      <div class="line"><span>+ Kaufnebenkosten (13,45 %)</span><b>33.490 €</b></div>
+      <div class="line"><span>Eigenkapital: <b id="ekVal">73.490 €</b></span></div>
+      <input type="range" id="ekSlider" min="0" max="282490" step="10" value="73490">
+      <div class="line"><span>Darlehensbetrag</span><b id="loanVal">209.000 €</b></div>
+
+      <div class="fin-result">
+        <div>Monatliche Rate ab</div>
+        <div class="big" id="calcRate">1.018,88 €</div>
+        <div style="font-size:.75rem;color:var(--muted)">Annahme: 3,85 % Sollzins, 2 % Tilgung <span class="dummy-pill">Dummy</span></div>
+      </div>
+
+      <ul class="offers">
+        <li><span class="bank">BA</span><span class="meta">Bestes Angebot · 3,85 % eff.</span><span class="amt">1.018 €</span></li>
+        <li><span class="bank">VB</span><span class="meta">Regionalbank · 3,94 % eff.</span><span class="amt">1.031 €</span></li>
+        <li><span class="bank">DK</span><span class="meta">Direktbank · 4,07 % eff.</span><span class="amt">1.038 €</span></li>
+      </ul>
+      <p style="font-size:.72rem;color:var(--muted)">Bank-Angebote <span class="dummy-pill">Dummy</span></p>
+
+      <div class="advisor">
+        <div class="avatar">PS</div>
+        <div>
+          <b>Philipp Steppohn</b> · Finanzierungsspezialist<br>
+          <span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4,92 / 5</span>
+        </div>
+      </div>
+
+      <!-- Ziel 2 = sekundäre Buttons (Outline) -->
+      <button class="btn btn-secondary" style="margin-bottom:.6rem" onclick="protoAlert('Zinsangebote kostenfrei vergleichen (Prototyp).')">Zinsangebote kostenfrei vergleichen</button>
+      <button class="btn btn-secondary" onclick="protoAlert('Kostenfreie Beratung anfordern (Dummy).')">Kostenfreie Beratung anfordern <span class="dummy-pill">Dummy</span></button>
+    </div>
+  </div>
+
+  <!-- P2.6: Sekundäres (Umgebung / Jobs) unter die Formulare verschoben -->
+  <details class="section">
+    <summary>Umgebung &amp; Infrastruktur</summary>
+    <div class="body">
+      <div class="poi-chips">
+        <span>Essen &amp; Trinken</span><span>Bildung</span><span>Einkaufen</span>
+        <span>Gesundheit</span><span>Nahverkehr</span><span>Unterhaltung</span>
+      </div>
+      <div class="jobs">
+        <div class="ic">JOB</div>
+        <div>Jobs in der Nähe <span class="dummy-pill">Dummy</span><br>
+          <span style="font-size:.82rem;color:var(--muted)">Stellenangebote in Plauen &amp; Umgebung</span></div>
+      </div>
+    </div>
+  </details>
+
+  <!-- ANSPRECHPARTNER IMMOBILIE -->
+  <section class="section">
+    <h2>Ansprechpartner Immobilie</h2>
+    <div class="body">
+      <div class="agent">
+        <div class="avatar">SI</div>
+        <div>
+          <b>Stark Immobilien</b><br>Andreas Stark<br>
+          <a class="tel-reveal" href="tel:+490000000" data-tel="+49 000 0000000 (Dummy)">📞 Telefonnummer anzeigen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEITERE ANGEBOTE -->
+  <section class="section">
+    <h2>Weitere Angebote</h2>
+    <div class="body">
+      <div class="more">
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Plauen</b>18 Zi · 560 m²<br>249.000 €</div></div>
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Jößnitz</b>2 Zi · 70 m²<br>59.000 €</div></div>
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Tannenbergsthal</b>5 Zi · 140 m²<br>219.000 €</div></div>
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Plauen</b>10 Zi · 295 m²<br>219.000 €</div></div>
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Zwota</b>7 Zi · 70 m²<br>99.000 €</div></div>
+        <div class="obj"><div class="thumb"></div><div class="cap"><b>Oberbrambach</b>5 Zi · 70 m²<br>99.000 €</div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- KONTAKT-POPUP (Modal) – vollflächig; CTA immer im Blick (gepinnter Footer); inkl. Trust-Karte -->
+<dialog class="contact-modal" id="contactModal" aria-labelledby="cmTitle">
+  <form class="modal-form" id="mvForm">
+    <div class="modal-head">
+      <h2 id="cmTitle">Diese Immobilie anfragen <span style="font-weight:500;color:var(--muted)">· Stark Immobilien</span></h2>
+      <button type="button" class="modal-close" aria-label="Popup schließen">×</button>
+    </div>
+    <div class="modal-body">
+      <p class="sub">Unverbindlich & kostenlos – der Anbieter meldet sich zeitnah bei Ihnen.</p>
+      <div class="agent-trust">
+        <div class="avatar">AS</div>
+        <div class="meta">
+          <b>Andreas Stark</b> · Stark Immobilien
+          <div class="resp">⏱ Antwortet meist innerhalb von 24 Std.</div>
+          <a class="tel-link tel-reveal" href="tel:+490000000" title="Telefonnummer des Anbieters anzeigen" data-tel="+49 000 0000000 (Dummy)">📞 Telefonnummer anzeigen</a>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field req"><label>Vorname</label><input required autocomplete="given-name"></div>
+        <div class="field req"><label>Nachname</label><input required autocomplete="family-name"></div>
+      </div>
+      <div class="field req"><label>E-Mail</label><input type="email" required autocomplete="email"></div>
+      <div class="field"><label>Telefon</label><input autocomplete="tel"></div>
+      <button type="button" class="opt-toggle">+ Adresse hinzufügen (optional)</button>
+      <div class="opt-address">
+        <div class="field"><label>Straße / Hausnummer</label><input autocomplete="street-address"></div>
+        <div class="row2">
+          <div class="field"><label>PLZ</label><input autocomplete="postal-code"></div>
+          <div class="field"><label>Ort</label><input autocomplete="address-level2"></div>
+        </div>
+      </div>
+      <div class="field"><label>Ihre Nachricht</label>
+        <textarea class="contact-msg" rows="2">Ich interessiere mich für Ihr Angebot, bitte nehmen Sie Kontakt mit mir auf.</textarea>
+      </div>
+      <div class="checks">
+        <label><input type="checkbox"> Rückruf erhalten</label>
+        <label><input type="checkbox"> Besichtigung</label>
+        <label><input type="checkbox"> Infos anfordern</label>
+        <label><input type="checkbox"> Finanzierungsvergleich</label>
+      </div>
+      <p class="legal">Geschützt durch reCAPTCHA <span class="dummy-pill">Dummy</span> · Es gelten unsere Datenschutzhinweise.</p>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" type="submit">Jetzt unverbindlich anfragen</button>
+    </div>
+  </form>
+
+  <!-- Ansicht 2: Bestätigung + Finanzierungs-Cross-Sell (nach Absenden ohne Finanzierungs-Häkchen) -->
+  <div class="modal-form" id="mvConfirm" hidden>
+    <div class="modal-head">
+      <h2>Kontaktanfrage versendet</h2>
+      <button type="button" class="modal-close" aria-label="Popup schließen">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="confirm-success"><span class="cs-ico">✓</span><span>Ihre Anfrage ist raus – der Anbieter meldet sich zeitnah bei Ihnen.</span></div>
+      <p class="confirm-optin" hidden>Ihren Wunsch nach einem Finanzierungsvergleich haben wir notiert – unser Finanzierungsspezialist meldet sich ebenfalls bei Ihnen.</p>
+      <div class="confirm-crosssell">
+        <h3 class="confirm-h3">Schon an die Finanzierung gedacht?</h3>
+        <p class="sub">Kostenfrei &amp; unverbindlich Zinsangebote mehrerer Banken vergleichen:</p>
+        <ul class="offers">
+          <li><span class="bank">BA</span><span class="meta">Bestes Angebot · 3,64 % eff.</span><span class="amt">1.175 €</span></li>
+          <li><span class="bank">OL</span><span class="meta">Oldenb. Landesbank · 3,78 % eff.</span><span class="amt">1.204 €</span></li>
+          <li><span class="bank">VB</span><span class="meta">Volksbank Chemnitz · 3,85 % eff.</span><span class="amt">1.219 €</span></li>
+        </ul>
+        <p style="font-size:.72rem;color:var(--muted)">Bank-Angebote <span class="dummy-pill">Dummy</span></p>
+        <div class="advisor">
+          <div class="avatar">PS</div>
+          <div><b>Philipp Steppohn</b> · Finanzierungsspezialist<br>
+            <span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4,92 / 5 (Proven Expert)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn btn-secondary confirm-fin-cta" onclick="protoAlert('Zinsangebote kostenfrei vergleichen (Prototyp).')">Zinsangebote kostenfrei vergleichen</button>
+      <button type="button" class="confirm-dismiss">Nein danke, später</button>
+    </div>
+  </div>
+</dialog>
+
+<footer class="site"><div class="wrap">© 2015–2026 Regionalimmobilien24 GmbH · AGB · Impressum · Datenschutz <span class="dummy-pill">Dummy-Footer</span></div></footer>
+
+<!-- STICKY: Ziel 1 primär (P1.3) + dezenter Finanzierungs-Hook (P2.7) -->
+<div class="sticky-wrap">
+  <a class="fin-strip" id="finStrip" href="#finanzierung">🧮 Finanzierung ab <b id="stripRate">1.018,88 €</b>/ Monat berechnen ›</a>
+  <div class="sticky-bar">
+    <button class="btn btn-primary" id="stickyCallback">📞 Rückruf</button>
+    <button class="btn btn-primary" id="stickyMessage">✉️ Nachricht</button>
+  </div>
+</div>
+
+<script>
+/* ---- Galerie ---- */
+(function(){
+  var track=document.getElementById('track'), i=0, n=track.children.length;
+  function go(d){ i=(i+d+n)%n; track.style.transform='translateX('+(-i*100)+'%)'; }
+  document.getElementById('gprev').onclick=function(){go(-1)};
+  document.getElementById('gnext').onclick=function(){go(1)};
+})();
+
+/* ---- P1.2: optionale Adressfelder (inline + Popup) ---- */
+document.querySelectorAll('.opt-toggle').forEach(function(t){
+  t.addEventListener('click',function(){
+    var f=t.nextElementSibling;
+    var open=f.classList.toggle('is-open');
+    t.textContent=open?'– Adresse ausblenden':'+ Adresse hinzufügen (optional)';
+  });
+});
+
+/* ---- Kontakt-Popup: öffnen → absenden → Bestätigung + Finanzierungs-Cross-Sell → schließen ---- */
+(function(){
+  var modal=document.getElementById('contactModal');
+  var vForm=document.getElementById('mvForm');
+  var vConfirm=document.getElementById('mvConfirm');
+  function open(prefill){
+    vConfirm.hidden=true; vForm.hidden=false;                 // zurück auf Anfrage-Ansicht
+    var msg=vForm.querySelector('.contact-msg');
+    if(msg) msg.value=(prefill!=null)?prefill:'Ich interessiere mich für Ihr Angebot, bitte nehmen Sie Kontakt mit mir auf.';
+    if(typeof modal.showModal==='function'){ if(!modal.open) modal.showModal(); } else modal.setAttribute('open','');
+    setTimeout(function(){ var el=vForm.querySelector('input'); if(el) el.focus(); },60);
+  }
+  function close(){ if(modal.close) modal.close(); else modal.removeAttribute('open'); }
+  document.getElementById('stickyCallback').onclick=function(){ open('Bitte rufen Sie mich zu diesem Objekt zurück.'); };
+  document.getElementById('stickyMessage').onclick=function(){ open(null); };
+  modal.querySelectorAll('.modal-close').forEach(function(b){ b.onclick=close; });
+  modal.addEventListener('click',function(e){ if(e.target===modal) close(); });
+  var dismiss=vConfirm.querySelector('.confirm-dismiss'); if(dismiss) dismiss.onclick=close;
+  vForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var finCb=null;
+    vForm.querySelectorAll('.checks label').forEach(function(l){ if(/Finanzierung/i.test(l.textContent)) finCb=l.querySelector('input'); });
+    var wantsFin=!!(finCb && finCb.checked);
+    vForm.hidden=true; vConfirm.hidden=false;                 // -> Bestätigungs-Ansicht
+    vConfirm.querySelector('.confirm-crosssell').hidden=wantsFin;   // Cross-Sell nur, wenn noch nicht opt-in
+    vConfirm.querySelector('.confirm-optin').hidden=!wantsFin;
+    vConfirm.querySelector('.confirm-fin-cta').hidden=wantsFin;
+    var dz=vConfirm.querySelector('.confirm-dismiss'); if(dz) dz.textContent=wantsFin?'Schließen':'Nein danke, später';
+    var body=vConfirm.querySelector('.modal-body'); if(body) body.scrollTop=0;
+  });
+})();
+
+/* ---- Finanzierungsrechner (vereinfacht, Prototyp) ---- */
+(function(){
+  var kp=249000, nk=33490; /* Kaufnebenkosten (Dummy, fix) */
+  var slider=document.getElementById('ekSlider');
+  var fmt=function(x){return x.toLocaleString('de-DE',{maximumFractionDigits:0})+' €';};
+  var fmt2=function(x){return x.toLocaleString('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';};
+  function calc(){
+    var ek=+slider.value;
+    var loan=Math.max(0,kp+nk-ek);
+    var rate=loan*(0.0385+0.02)/12;
+    document.getElementById('ekVal').textContent=fmt(ek);
+    document.getElementById('loanVal').textContent=fmt(loan);
+    document.getElementById('calcRate').textContent=fmt2(rate);
+    document.getElementById('teaserRate').textContent=fmt2(rate);
+    document.getElementById('stripRate').textContent=fmt2(rate); /* P2.7 */
+  }
+  slider.addEventListener('input',calc); calc();
+})();
+
+/* ---- P2.7: Finanzierungs-Hook ausblenden, sobald der Finanzierungsblock sichtbar ist ---- */
+(function(){
+  var strip=document.getElementById('finStrip'), target=document.getElementById('finanzierung');
+  if(!strip||!target||!('IntersectionObserver' in window)) return;
+  new IntersectionObserver(function(entries){
+    strip.classList.toggle('is-hidden', entries[0].isIntersecting);
+  },{threshold:0.15}).observe(target);
+})();
+
+/* ---- Telefonnummer erst auf Klick einblenden (Anruf nicht sofort auslösen) ---- */
+(function(){
+  document.querySelectorAll('.tel-reveal').forEach(function(a){
+    a.addEventListener('click',function(e){
+      if(!a.classList.contains('revealed')){
+        e.preventDefault();
+        a.classList.add('revealed');
+        a.textContent='📞 '+(a.dataset.tel||'');
+      }
+    });
+  });
+})();
+
+/* ---- Prototyp-Feedback statt echter Submits ---- */
+function protoSubmit(e,msg){ e.preventDefault(); alert(msg); return false; }
+function protoAlert(msg){ alert(msg); }
+</script>
+</body>
+</html>

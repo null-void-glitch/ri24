@@ -1,0 +1,451 @@
+{
+  "bank": "Sparkasse KölnBonn",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10 - darüber unter Vorbehalt\nMindestauszahlungssumme: 10.000 EUR"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Eigennutzer: 125 - gesonderte Prüfung ab 95\nKapitalanleger: 90 - keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "125"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Familienkäufe: Werteingabe über OnGeo akzeptiert die Spk. Falls Sprengnetter gewählt wird, dann mit 10 % Abschlag rechnen. Falls Wertermittlung der Spk zu einem anderen Ergebnis kommt dann wird die Kondition nochmal angepasst."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 /36"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 36"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100.000 - 5.000.000\nRundung ds Betrages auf volle 1.000er\nÜberschreitung - Einzelfallanfrage"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten - Ablösung innerhalb der nächsten 3 Monate = Annuitäten Darlehen. Ab 4 Monaten = Forward Darlehen."
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Anrechnung zu 40% wertsteigernd Modernisierungen ab 100,0 TEUR bitte mit Nachweis Architekt. Eigenleistungen akzeptiert die Spk bis 10,0 TEUR ohne Nachweis.\nBei größeren Modernisierungen die der Kunde selbst durchführt, muss ein Qualifikationsnachweis vorliegen (Kd. ist Handwerker, Helferliste, etc.)"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Einzelfallentscheidung"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kostenfreie Nichtabnahme i.H.v. 10% der bewilligten Darlehenssumme möglich (max. € 15.000,00)"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 - 20"
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten\nNur in Verbindung mit einem weiteren Darlehen"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "48"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "41800079"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Nein"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Anfrage über BaufiSmart mit folgenden Angaben:\nEinverständniserklärung des Kunden\nWelche Darlehenskonten (Bitte beachten: KfW nimmt die Sparkassse nicht in den Eigenbestand; Restschuld des Sparkassendarlehens muss > 50 T€ sein; eine Zusammenfassung von mehreren Darlehen ist nicht gewollt)\nBei Forward max. 48 Mon. Vorlaufzeit\nAngabe des Prolongationsbetrages, wenn der Kunde bei Fälligkeit Sondertilgungen leisten möchte\nGewünschte Festzinsbindung (möglichst keine Verlängerung der ursprünglich vereinbarten Gesamtlaufzeit)\nEvtl. Raten-/Tilgungswunsch\nEvtl. Sondertilgungsoption (wenn vorher vereinbart wird diese in der Regel übernommen)\nProvisionswunsch – hier Gesamtprovision, d.h. Direktprovision + Overhead (bis max. 2 % möglich; ohne Angabe werden 0,75 % Standardprovision berücksichtigt). \n\nAuf Basis der o.a. Angaben erhält der Vermittler ein Angebot\n\n Angebotsannahme über das System in dem der Antrag eingestellt wird; in der Regel keine Einreichung weiterer Unterlagen erforderlich\n\n Vertragserstellung wird beauftragt.\n\n Vertragsversand an Kunden und Vereinbarung eines Unterschriftstermins\n\n Nach Unterschrift Bestätigung im System und anschl. Provisionsabrechnung analog Neugeschäft"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "Bis max. 2 % möglich; ohne Angabe werden 0,75 % Standardprovision berücksichtigt"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Kostenfreie Nichtabnahme i.H.v. 10% der bewilligten\nDarlehenssumme möglich (max. € 15.000,00)"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Gegen Aufschlag möglich. Nach erfolgter Auszahlung ist eine sofortige SoTi im selben Jahr möglich"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,0%  \nbei BLA >100%: 2,5 %\nMax. Laufzeit: 40 Jahre"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "max. 24 Monate nach Darlehensantrag\n(variables Darlehen: max. 12 Monate)"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Absicherung über Bestandsimmobilie im Ausleihbezirk"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistungen ohne Qualifikationsnachweis max. 10.000 EUR\nEigenleistungen mit Qualifikationsnachweis max. 30% der Baukosten"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Absicherung über Bestandsimmobilie im Ausleihbezirk"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "50"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH\nBitte anfragen. Beispiele: Höfe, Objekte mit Gewerbefläche, reine Gewerbeobjekte"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Generell erforderlich (Kosten übernimmt die KSK) // Bei Anträgen > 750TEUR oder besonderen Immobilien (z.B. Erbbaurecht, MFH ect.) muss das Gutachten vor verbindlicher Zusage erstellt werden"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional (Köln/Bonn)\nMind. 1 Antragsteller oder alle Objekte im PLZ-Gebiet"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden nicht finanziert"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\ndürfen nicht wertmindernd sein"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nnur bis 80% BLA (inkl. aller Darlehen)"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "31"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "100% - In bewilligter Höhe für die bewilligte Dauer mit Elterngeldbescheid"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12\nkein Ansatz von Weihnachts-/Urlaubsgeld, Überstunden, 13./14. Monatsgehalt oder Einkommen aus Kurzarbeit sowie Beteiligungen"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ansatz von Einkünften aus geringfügiger Beschäftigung, nebenberuflichen Einkünften wenn diese nachweislich mindestens 12 Monate bestehen und auf ein Girokonto geleistet werden"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": ""
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Nein\nKindesunterhalt: Nein"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Bluecard: Ja,\nsonst bei Nicht EU-Bürgern unbefristete Aufenthaltsgenehmigung und Arbeitserlaubnis erforderlich"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung\nIn „üblichen“ Branchen (z.B. angestellte Ärzte, wissenschaftliche Mitarbeiter) in Ordnung."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\nGbR >Einzelfallentscheidung"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Bei Erwerb einer Kapitalanlage durch eine eheähnliche Gemeinschaft oder Personengemeinschaft muss ab sofort eine Voranfrage bei der SPK KölnBonn gestellt werden. \nHintergrund: In diesen Finanzierungskonstellationen erstellt die SPK ein Immobilienrating (neue Vorgabe).\nDie Systemkondition kann in diesen Fällen nicht genutzt werden und muss individuell angefragt werden. Plattformseitig werden diese Konstellationen automatisch als Gelbscore abgebildet.\nDie Bearbeitungszeiten der Finanzierungsanträge verzögern sich dadurch. \n \nDer Kunde muss deutschen Darlehensvertrag verstehen können oder auf eigene Kosten einen Dolmetscher stellen"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max.: 2 (selber Haushalt)\nMitverpflichtung Ehepartner: erforderlich\nkeine Finanzierung von getrennt lebenden Ehegatten"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Sofern mehr als 50 % der Haupteinkünfte der Antragsteller aus Vermietung und Verpachtung stammen – einschließlich der Mieteinnahmen des Finanzierungsobjekts – ist eine individuelle Konditionsanfrage erforderlich. Bei der Ermittlung der Mieteinnahmen wird ein pauschaler Abzug von 23 % für Bewirtschaftungskosten vorgenommen.\nkein Ansatz aus Einkünften Ferienhäuser/-wohnungen"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja - Kondition muss individuell angefragt werden"
+    },
+    "getrennt-lebende-darlehensnehmer": {
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung\nArbeitgeber im Ausland: In Ordnung, sofern Gehalt auf ein deutsches Konto eingeht und in D. versteuert wird."
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "150"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "wenn Haupteinkünfte aus V+V bezogen werden, erfolgt ggfs. ein Konditionsaufschlag\nwenn HHR nur durch Mieteinnahmen passt, wird die objektbezogene Rendite geprüft\nKaufpreisfinanzierung möglich\nBei Erwerb einer Kapitalanlage durch nicht verheiratete Darlehensnehmer muss eine Voranfrage gestellt werden. Die Systemkondition kann in diesen Fällen nicht genutzt werden und muss individuell angefragt werden. Plattformseitig werden diese Konstellationen automatisch als Gelbscore abgebildet."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Bei Vorlage negativer Schufamerkmale keine Finanzierung machbar"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "ab dem 70. Lebensjahr muss die Erbfolge dargelegt werden"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja - Kondition muss individuell angefragt werden"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Max. drei Bestandsobjekte – darüber hinaus bitte anfragen (Konditionen weichen ab)"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Kunde muss deutschen Darlehensvertrag verstehen können oder auf eigene Kosten einen Dolmetscher stellen"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nErläuterung:\nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Bei Genehmigung werden die Verträge auf der Plattform bereitgestellt und parallel dazu postalisch an die Kunden versandt. Die Vertragsunterzeichnung findet in den Räumen der SPK statt."
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, in den Geschäftsräumen der Sparkasse"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "DV per Post an Antragsteller"
+    }
+  },
+  "company_id": "fd087a6b702a57e52e466e8d71501a5d",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/fd087a6b702a57e52e466e8d71501a5d",
+  "bank_category": "Sparkassen",
+  "last_modified": "06.03.26",
+  "recent_news": [
+    {
+      "date": "24.03.26",
+      "title": "Sparkasse KölnBonn - Antragsqualität durch vollständige Unterlageneinreichung"
+    },
+    {
+      "date": "14.01.26",
+      "title": "Sparkasse KölnBonn - Aktualisierung eheähnliche Gemeinschaft / Personengemeinschaft bei Erwerb Kapitalanlage"
+    },
+    {
+      "date": "11.04.24",
+      "title": "Sparkasse KölnBonn - Konditionsabschlag \"Grüne Baufinanzierung\""
+    },
+    {
+      "date": "05.03.21",
+      "title": "SPK KölnBonn – Angebot steht vom 09.03.2021 bis zum 10.03.2021 nicht zur Verfügung."
+    },
+    {
+      "date": "23.12.20",
+      "title": "SPK KölnBonn – Angebot steht vom 04.01.2020 bis zum 05.01.2020 nicht zur Verfügung."
+    }
+  ]
+}

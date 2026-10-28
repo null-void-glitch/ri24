@@ -1,0 +1,501 @@
+{
+  "bank": "Sparkasse Aachen",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "10"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Pfandtausch\nMöglich gegen eine Gebühr von 1.000 Euro je Darlehenskonto"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 6"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6 / 6"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "min. 50.000 - max. keine Einschränkung"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird nicht angeboten"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "zur freien Verwendung\nMit wohnwirtschaftlichem Hintergrund\n\nZu beachten: Stellung werthaltiger Grundschulden"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Unterlagen für Nachfinanzierungen: Kostenaufstellung für Nachfinanzierung\nMöglichkeit von Nachfinanzierungen: Möglich. Die Darlehenssumme muss mindestens 25.000 Euro betragen\nKeine Provision"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nDarstellung als Verzichtsoption, max. 20.000 €, ohne Provisionszahlung"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5, 10 und 15 Jahre Zinsbindung ab dem Datum der Konditionsvereinbarung\n\nGenerell sind möglich:\n- variable Zinsbindung in Verbindung mit einer langfristigen Finanzierung möglich\n- alle Laufzeiten von 1 bis 10 Jahre\n- 12 und 15 Jahre"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "1-10"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Generell möglich:\n- maximal 2 Termine\n- auch von unterschiedlichen Gläubigern\n- innerhalb eines Zeitraums von 1 Jahr\nDie Konditionen gelten jedoch nicht für Anschlussfinanzierungen. Gegebenenfalls ist eine individuelle Voranfrage erforderlich."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Prolongation von KfW-Darlehen\nEine Prolongation aus Sparkassenmitteln für öffentliche Darlehen ist möglich. Allerdings muss eine Prüfung analog zu Neugeschäft durchgeführt werden."
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Aktueller Selbstauskunft\nAktueller Gehaltsnachweis\nObjektunterlagen nur bei Fremdinstituten\nIndividuelle Voranfragen sind möglich.\nKondition: Kondition nur auf Anfrage. Bitte Voranfrage stellen"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Vertragserstellung durch die Sparkasse"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5 / 10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1\nMax. Tilgungssatz: Keine Einschränkungen\nLaufzeit bis max. 40 Jahre"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    "tilgungsersatzprodukte": {
+      "name": "Tilgungsersatzprodukte",
+      "category": "Kriterien Tilgung",
+      "value": "Gegen Sparpläne: Uneingeschränkt möglich\nGegen Bausparvertrag: nur LBS-Verträge\nGegen Investmentfonds: Nicht möglich\nGegen brit. RV: Nicht möglich\nGegen brit. LV: Nicht möglich\nGegen fondsgebundene RV: Nicht möglich\nGegen fondsgebundene LV: Nicht möglich\nGegen dt. RV: Auf Anfrage\nGegen dt. Kapital-LV: Auf Anfrage"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Nein"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Ja, aber nur als Kapitalbeschaffung auf einer Immobilie im Ausleihgebiet\n \nAußerdem grenzüberschreitende Finanzierungen möglich\nVoraussetzungen: Nur wohnwirtschaftlich genutzte Immobilien (Grundstücke, ETW, EFH, DHH, RH, ZFH) im grenznahen Bereich (d.h. Belgien Bereich der Deutschsprachigen Gemeinschaft bzw. im Arrondissement Verviers, Niederlande: Bereich Süd-Limburg)\n- Erstrangige Grundschuld\n- Nebenkosten aus Eigenkapital oder adäquate Zusatzsicherheiten gedeckt\n- Vor Beurkundung des Kaufaktes: Zahlung des Kaufpreises inkl. der Nebenkosten auf Notartreuhandkonto"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen, auch bei\n \nLehmbauweise, Plattenbauweise, \nBlockhaus, Fachwerkhaus, Holzbau, \nFertighaus"
+    },
+    "blankoauszahlung": {
+      "name": "Blankoauszahlung",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung\nBewertung des Vorkaufrechtes: Keine Bewertung bei Nachrang\nKapitalisierung: Kapitalisierungszins 5,5% p.a.\nRestlaufzeit: 10 Jahre vor Ablauf des Erbbaurechtes muss das Darlehen zurückgezahlt sein.\nRangrücktritt / Stillhalteerklärung: Erforderlich\nPrivates Erbbaurecht: Nicht möglich\nKirchl. Erbbaurecht: Möglich, i.d.R. werden max. 70% von der Kirche bewilligt.\nöffentliches Erbbaurecht: Möglich, i.d.R. werden max. 70% von der Stadt bewilligt."
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Generell möglich bis zu einem Beleihungsauslauf von maximal 80%. Konditionen gelten jedoch nicht für Ferienhäuser/-wohnungen. Bitte gegebenenfalls eine individuelle Voranfrage stellen."
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Max. 30% Gewerbefläche"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "99%"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkungen"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, ETW, MFH"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora\nWertermittlung: Gestehungskosten"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "Regional\nmind. 1 Objekt im PLZ-Gebiet\n \nImmobilien in den Niederlanden:\nwohnwirtschaftlich genutzte Immobilien finanzierbar\nteilgewerbliche Nutzung bis 30 '% vorstellbar (wenn leicht umnutzbare Gewerbeflächen wie z.B. Büros)\nkeine Ferienimmobilie\nBei Eigennutzung sind 20% und bei vermieteten Immobilien 35% EK vom Sachwert erforderlich.\nDie Lage der Immobilie sollte im grenznahen Bereich sein (Vaals, Maastricht, Meerssen, Nuth, Brunssum)\nmaximale Laufzeit bei Eigennutzung 29 Jahre, bei Vermietung 20 Jahre\nErbpacht ist nicht möglich\nImmobilien in Belgien:\nAnsatz erhöhte Nebenkosten von 17 %\nEigenkapitaleinsatz von 20 % d3er Gesamtkosten zwingend erforderlich\nindividueller Zinssatz (nicht entsprechend Plattform)\nVerringerte Provision (1% Gesamtprovision inkl. QP Overhead)"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Finanzierungen mit noch zu vermessenden Teilflächen: Grundstück muss vor erster Auszahlung vermessen sein\nGrundstücksfinanzierungen ohne Baubewilligung: Möglich, aber Bauabsicht sollte vorhanden sein\nGrundstücksfinanzierungen mit Baubewilligung: Es muss sich zwingend um Bauland handeln."
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Nicht wertmindernde Vorlasten werden akzeptiert. Rangrücktritt von wertmindernden Vorlasten erforderlich, Rangrücktritt ist eine Einzelfallentscheidung\nAuch bei Rangrücktritt: Sofern eine Vorlast vorhanden ist, muss für Antragstellung eine Grobschätzung zum Objekt erstellt werden.\nBergschadenverzicht: Ggf. ist ein Beleihungswertabschlag erforderlich. Für Kondition bitte Voranfrage bei Sparkasse stellen\nNießbrauch: Rangrücktritt erforderlich\nWohnrecht: Rangrücktritt erforderlich. Das Wohnrecht darf nicht im Zusammenhang mit einem Altenteil bestellt sein."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Ansatz der Vorlasten: Nominalbetrag der Grundschuld\nVorlast in Höhe von maximal 50 % des Beleihungswert möglich, ansonsten Einzelfallentscheidung.\nBestehende Vorlast und beantragtes Darlehen müssen innerhalb 70% des Marktwertes liegen."
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "Keine Beschränkung"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja \nSicherungsleistung muss aus EK erbracht werden, Vorlaufzeit bis Verteilungstermin mind. 4 Wochen\n\nErforderliche Unterlagen:\nVerkehrswertgutachen\nBilder von innen\nbei Antrag Zuschlagsbeschluss"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ansatz 100% für die Dauer der Elternzeit. Für die Zeit nach Elternzeit wird eine Info benötigt, zu wieviel Prozent Kunden wieder einsteigen und eine Bestätigung dass ggf. ein Wiedereinstieg zu vorheriger Arbeitszeit erfolgt."
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12\nSchichtzuschläge müssen vertraglich zugesichert sein. Berücksichtigt wird der Durchschnittswert der letzten 12 Monate.\n \nÜberstunden werden nur angesetzt, wenn die Zahlung von Überstunden für eine Berufsgruppe typisch ist (z. B. Ärzte, Krankenschwestern) und auch regelmäßig Überstunden gezahlt werden. Berücksichtigt wird der Durchschnittswert der letzten 36 Monate."
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Das Arbeitsverhältnis muss nachweislich seit mind. 12 Monaten bestehen."
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwen-/Waisenrente: Ja\nAnsatz bis 18. Lebensjahr\n \nKapitaldienst\nbei laufender Rentenzahlung:\nAnsatz aktueller Rentenzahlung durch Nachweis der Nettorente aus der Renteninformation. Die Rentenzahlung wird gemildert um pauschal 20% Steuern.\n\nBei künftiger Rentenzahlung innerhalb der Zinsbindung:\nAnsatz der Nettorente gem. Renteninformation ab dem 67 Lebensjahr. Angenommenes Renteneinkommen wird pauschal um 20% Steuern gemildert. \n \nLiegt kein Nachweis der Renteninformation vor, werden pauschal 52% des letzten Nettoeinkommens angesetzt.\n\nMaximal ansetzbare Nettorente aus ges. Rentenversicherung 2.720 EUR.\n\nPrivate Rentenversicherung: Sofern private Rentenversicherungen bestehen sind diese durch aktuelle Policen sowie einer Garantierentenberechnung nachzuweisen.\n\nKAD Rechnung: Ist der Renteneintritt innerhalb der ersten Zinsbindung wird ausschließlich mit dem Renteneinkommen gerechnet. Sofern der Renteneintritt nach der ersten Zinsbindung liegt kann das aktuelle Einkommen angenommen werden. Trotzdem soll es eine nachvollziehbare Begründung zur Tragbarkeit für die Rentenzeit vorliegen."
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: 50 % \n\n\nKindesunterhalt: 100 %\nAnsatz bis zum 18. Lebensjahr\nNachweis durch Urteil/ Scheidungsvereinbarung\nes werden keine private Vereinbarungen aktzeptiert"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein, aber unter 80 % BLA Einzelfallentscheidung > Anfrage möglich"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nur in Ausnahmefällen möglich, wenn es sich um eine Berufsgruppe handelt, die typischerweise befristete Arbeitsverträge erhält (z.B. Professoren, Assistenzärzte).\nBei zwei Darlehensnehmern ist diese Regelung nur vom Hauptantragsteller zu erfüllen."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Mitverpflichtung Ehepartner: Gewünscht, je nach Konstellation nicht erforderlich. Einzelfallentscheidung\n \nMax. Verschuldungsgrad: Gesamte Verschuldungsgrade darf 50% vom gesamten Einkommen (inkl. Kindergeld und weitere ansetzbare Einkommen wie Miete etc.) nicht übersteigen. Ansonsten Einzelfallentscheidung.\nAusnahme: Ist der Verschuldungsgrade größer gleich 50%, der Haushaltsüberschuss dennoch größer gleich 1.500 EUR, ist eine Finanzierung darstellbar."
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Anzahl max. 4\n \nAb einer Beteiligungshöhe von 25 % gelten Geschäftsführende Gesellschafter bzw. Vorstände als selbständig\n\nVorstand: Keine Einschränkung\n\nGeschäftsführ. Gesellschafter: Keine Einschränkung"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Mieteinnahmen weitere Objekte: 82,5 % der Nettomieteinnahmen\n\nMieteinnahmen Finanzierungsobjekt: 82,5 % der Nettomieteinnahmen.\nEs können zusätzlich Steuern i.H.v 30% der Mieteinnahmen berechnet werden."
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in DE, Gehalt im Ausland: Ja  Akzeptierte Währungen: EUR, CHF, DKK\n\nWohnsitz im Ausland, Gehalt im Ausland: Ja\nAkzeptierter Währung: EUR\nGilt nur für Finanzierungen in der grenznahen Niederlande und Belgien\n \nEs muss ein Zustellungsbevollmächtigter in Deutschland genannt werden"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "50"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "max. 80 Jahre bei passender Beleihung"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Rücklastschriften, negative Bonität"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Der Hauptantragsteller muss eine Niederlassungserlaubnis vorweisen. Es wird nur das Gehalt von Kund:innen mit deutscher Staatsangehörigkeit oder einer Niederlassungserlaubnis angesetzt."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Darlehensnehmer in Probezeit werden finanziert, wenn Finanzierung alleine vom anderen Antragsteller tragbar ist. Einkünfte während der Probezeit werden nicht angesetzt."
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Bei Renteneintritt innerhalb der Zinsbindung, Nachweis der Renteneinkünfte erforderlich"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "weiteres-immobilienvermogen": {
+      "name": "Weiteres Immobilienvermögen",
+      "category": "Kriterien Person",
+      "value": "Bewirtschaftungskosten eigengenutzte Objekte: (Grundsteuer, Wasser inkl. Abwasser, Straßenreinigung, Müllbeseitigung,\nWohngebäudeversicherung)\nBei wohnwirtschaftlicher Nutzung: Ansatz gem. Selbstauskunft, mind. aber\na) Objektalter >=11 Jahre: 3,55 Euro/qm\nb) Objektalter <11 Jahre: 2,6 Euro/qm\nc) Garage: pauschal 8,40 Euro/p.M.\n\nBewirtschaftungskosten fremdgenutzte Objekte: Kein Ansatz, da Bewirtschaftungskosten bereits durch den reduzierten Ansatz der Mieteinnahmen berücksichtigt wurden."
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, amtl. bestellter Dolmetscher"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Innerhalb von 7 Bankarbeitstagen nach Konditionsangebot muss der Antrag vollständig vorliegen"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Legitimation: In der Filiale oder digital möglich\nBei digitaler Variante bitte einen Vermerk im Vorgang als Hinweis für den Sachbearbeiter hinterlegen\nVertragsunterschrift: In der Filiale vor Ort"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Objektbesichtigung findet in der Regel nach Kaufpreiszahlung bzw. Fertigstellung statt.\nAuftrag zur Wertermittlung wird mit Darlehensvertrag zugestellt."
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Aktuell wird dem Vermittler keine Ausfertigung zur Verfügung gestellt"
+    }
+  },
+  "company_id": "88c32992fd79bc885ae01b6a3a54f2e4",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/88c32992fd79bc885ae01b6a3a54f2e4",
+  "bank_category": "Sparkassen",
+  "last_modified": "14.04.26",
+  "recent_news": [
+    {
+      "date": "21.08.25",
+      "title": "Spk Aachen - Erreichbarkeit ab sofort"
+    },
+    {
+      "date": "31.03.25",
+      "title": "Sparkasse Aachen - Reduzierte Konditionen ab 01.04.2025"
+    },
+    {
+      "date": "23.06.21",
+      "title": "Spk Aachen - Konditionensenkung bei der Sparkasse Aachen! Sparkasse Aachen nun mit neuen Konditionen auf Europace!“"
+    },
+    {
+      "date": "30.04.21",
+      "title": "Spk Aachen - Erhöhung kostenfreie Sondertilgung auf 7% p.a."
+    },
+    {
+      "date": "21.08.20",
+      "title": "Spk Aachen - Umfangreich überarbeitetes Produktangebot ab dem 24.08.2020"
+    }
+  ]
+}

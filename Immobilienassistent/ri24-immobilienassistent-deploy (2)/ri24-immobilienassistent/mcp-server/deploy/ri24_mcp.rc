@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# ri24_mcp - FreeBSD rc.d service script for the RI24 MCP Server
+#
+# PROVIDE: ri24_mcp
+# REQUIRE: LOGIN NETWORKING
+# KEYWORD: shutdown
+#
+# Add the following lines to /etc/rc.conf to enable ri24_mcp:
+#   ri24_mcp_enable="YES"
+#   ri24_mcp_dir="/opt/ri24-mcp/server"
+#   ri24_mcp_user="www"
+#   ri24_mcp_logfile="/var/log/ri24-mcp.log"
+
+. /etc/rc.subr
+
+name="ri24_mcp"
+rcvar="${name}_enable"
+
+load_rc_config $name
+
+: ${ri24_mcp_enable:="NO"}
+: ${ri24_mcp_dir:="/opt/ri24-mcp/server"}
+: ${ri24_mcp_user:="www"}
+: ${ri24_mcp_logfile:="/var/log/ri24-mcp.log"}
+
+pidfile="/var/run/${name}.pid"
+command="/usr/sbin/daemon"
+node_cmd="/usr/local/bin/node"
+
+command_args="-P ${pidfile} -u ${ri24_mcp_user} -o ${ri24_mcp_logfile} ${node_cmd} ${ri24_mcp_dir}/dist/index.js"
+
+start_precmd="${name}_prestart"
+
+ri24_mcp_prestart()
+{
+    cd ${ri24_mcp_dir}
+    export NODE_ENV=production
+    # Source .env file if it exists
+    if [ -f "${ri24_mcp_dir}/.env" ]; then
+        set -a
+        . "${ri24_mcp_dir}/.env"
+        set +a
+    fi
+}
+
+run_rc_command "$1"

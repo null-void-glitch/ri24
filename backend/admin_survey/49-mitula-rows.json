@@ -1,0 +1,1240 @@
+{
+  "total_real_rows": 103,
+  "rows": [
+    {
+      "region": "VI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.vi24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.vi24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.vi24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.vi24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.vi24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "ZI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.zi24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.zi24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.zi24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.zi24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.zi24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "LI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.li24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.li24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.li24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.li24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.li24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "CI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ci24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.ci24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.ci24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.ci24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.ci24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "NSI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nsi24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.nsi24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.nsi24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.nsi24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.nsi24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "MFI24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mfi24.xml",
+      "checkboxes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "sub_links": [
+        {
+          "text": "Miete / Wohnung https://www.regionalimmo",
+          "href": "https://www.regionalimmobilien24.de/objects.mfi24.miete_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Wohnung https://www.regionalimmob",
+          "href": "https://www.regionalimmobilien24.de/objects.mfi24.kauf_wohnung.xml"
+        },
+        {
+          "text": "Kauf / Haus https://www.regionalimmobili",
+          "href": "https://www.regionalimmobilien24.de/objects.mfi24.kauf_haus.xml"
+        },
+        {
+          "text": "Kauf / Grundstück https://www.regionalim",
+          "href": "https://www.regionalimmobilien24.de/objects.mfi24.kauf_grund.xml"
+        }
+      ]
+    },
+    {
+      "region": "Aachen-Eifelimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.aai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Altmarkimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ami24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Anhaltimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Augsburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.abi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Bayerisch-schwabenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.bsi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Bergisches-Dreieckimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.bdi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Bergischeslandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.bgli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Berlinimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.bi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Bodenseeimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.bosi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Braunschweigimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.brai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Bremenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.brei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Südhessenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.dai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Dortmundimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.di24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Dresdenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ddi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Duisburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.dui24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Düsseldorfimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.duei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Elbelandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.eli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Emslandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.emsi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Erfurtimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.efi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Erzgebirgeimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.erzi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Essenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.eei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Frankfurtimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.fi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Giessenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.gii24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Göttingenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.goti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Halleimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Hamburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hhi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Hannoverimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hani24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Harzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Havellandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Heilbronnimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Holsteinimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.hoi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Jerichowimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.jei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Karlsruheimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ki24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Kasselimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.kai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Kielimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.kiei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Kölnimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.koei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Leineweserimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.lwi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Ludwigslustimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.lli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Lüneburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.lbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Magdeburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Mainzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.maii24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Mittelrheinimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mri24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Mittelsachsenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.msi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Mittelthüringenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mthi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Münchenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Münsterlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Niederbayernimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Niederrheinimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nri24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Nordsaarlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nsai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Nordthueringenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Nordwestmecklenburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.nwmi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberbayernimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.obi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberfrankenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ofi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberhavelimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ohi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberlausitzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.oli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberpfalzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.opi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oberschwabenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.osi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Oderlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.obli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Osnabrückimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.osni24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Ostsaarlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.osai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Ostthüringenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.othi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rhein-Erft-Kreisimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.reki24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rhein-Siegkreisimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rski24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rheinhessenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rhhi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rheinneckarimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rni24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rheinpfalzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rpi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rheintalimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rhti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Rostockimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.roi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Ruhrgebietimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.rgi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Saaleunstrutimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sui24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Saarbrückenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Salzlandimmobilien",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sli24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Sauerlandimmobilien",
+      "main_link": "https://www.regionalimmobilien24.de/objects.saui24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Schleswigimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.slwi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Schwäbischealbimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Schwarzwaldimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.swwi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Schwerinimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.si24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Siegerlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sigi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Spreewaldimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.swi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Stuttgartimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Südmecklenburgimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.smbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Südwestthüringenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.swti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Teutoburger-Wald-Imobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.tbi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Trierimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Uckermarkimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.umi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Unterfrankenimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.ufi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Vorpommernimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.vpi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Weseremsimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Westerwaldimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wwi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Westpfalzimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wpfi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Westsaarlandimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wsai24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Taunusimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wii24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Mannheimimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.mani24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Westeifelimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.wesi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Lübeckimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.luei24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Wetterauimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.weti24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    },
+    {
+      "region": "Sächsische-Schweiz-Osterzgebirgeimmobilien24",
+      "main_link": "https://www.regionalimmobilien24.de/objects.sosi24.xml",
+      "checkboxes": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "sub_links": []
+    }
+  ]
+}

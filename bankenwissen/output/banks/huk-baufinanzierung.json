@@ -1,0 +1,436 @@
+{
+  "bank": "HUK Baufinanzierung",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "7;  Mindestsumme pro Teilauszahlung 10.000 EUR bei Neubau\nErhöhung von regulär 7 auf 14 durch Anlage eines zweiten Darlehensbaustein mit gleichen Konditionen"
+    },
+    "beleihungsauslauf": {
+      "name": "Beleihungsauslauf",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "85"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Voranfragen werden nur als telefonische Vorabanfragen akzeptiert; eingereichte Voranfragen werden grundsätzlich abgelehnt. Bei Zweifel zur Machbarkeit steht Loancos telefonisch zur Verfügung.\nKeine Finanzierung von Modernisierungen möglich"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12/12"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12/12"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "75.000 EUR - 999.000 EUR"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Möglich unter Vorlage des Nachweises der Höhe"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein, Modernisierungen werden nicht begleitet"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 % kostenlos bei Neubau und Umfinanzierung"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "puffer-neubaumodernisierung": {
+      "name": "Puffer Neubau/Modernisierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5-20, 25, 30"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5-20"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5/5\neinmal pro Kalenderjahr möglich - Mindestbetrag 2.500,- € - max. 5 % des Ursprungsdarlehens"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "1,5 (max. 10%)"
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Zeitpunkt der Vollauszahlung"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "2-malig kostenfrei innerhalb der Zinsbindung"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "Bei Kaufobjekt: PV -Anlagen auf dem Dach werden als Inventar aus dem Objektwert herausgerechnet\nHinweise zu älteren Objekten/Ansatz Baujahr (>50 Jahre) bei erfolgten Modernisierungen:\nbei erfolgten Modernisierungen von \"wesentlichen\" Gewerken kann als Baujahr das aktuelle Jahr abzügl. 50 Jahre angesetzt werden\nbei individuell geplanten Architektenhäusern in Holzständerbauweise ist ein Gütesiegel entbehrlich"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "über 75,- €"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Gütesiegel gem. BDF/RAL/ GDF erforderlich\nBei individuell geplanten Architektenhäusern in Holzständerbauweise ist ein Gütesiegel entbehrlich"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "0 - werden nicht finanziert"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "49 > min. 50 % Eigennutzanteil erforderlich"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH (max. 6-geschossig) , ZFH (min. 50 % Eigennutzung), DHH, ETW \n \nnicht finanzierbar:\nMehrfamilienhäuser\nPlattenbauweise \nLuxus-/Liebhaberobjekte \nlandwirtschaftliche Objekte (außer es wird nachgewiesen, dass diese nicht mehr landwirtschaftliche genutzt werden)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora/ OnGeo"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "wertmindernde Rechte müssen im Rang zurücktreten (z.B. Wohnrecht / Nießbrauch / Rückauflassungsvormerkung) \nGrunddienstbarkeiten für öffentliche Träger (z.B. Leitungsrechte) können i.d.R. im Vorrang bleiben; im Zweifel telefonische Vorabanfrage\nkeine Finanzierung von Objekten mit Eintrag eines Bergschadenverzicht / Bergschadenminderverzicht\nEinzelfallentscheidung"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "30"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert\nDer Zuschlagsbeschluss muss bei Antragstellung bereits vorliegen\nGerichtsgutachten erforderlich"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Ja, kann zu 100 % angesetzt werden, wenn ein schriftlicher Nachweis der Weiterbeschäftigung vorliegt, inklusive Angabe der künftigen Arbeitszeit, das Datum der Wiederaufnahme sowie das zu erwartende Grundgehalt"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13 (wenn vertraglich zugesichert > Neben der Gehaltsabrechnung ist der Arbeitsvertrag mit einzureichen)"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Muss nachweislich seit mind. 12 Monaten bestehen; maximaler Ansatz 600 €"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "Witwenrente: Ja\nNachweis Rentenbescheid\nWaisenrente: Ja\nNachweis Rentenbescheid"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Ehegattenunterhalt: Ja\nkeine privatschriftlichen Vereinbarungen\nNachweis durch Urteil / Scheidungsfolgevereinbarung erforderlich\nKindesunterhalt: Ja\nkeine privatschriftlichen Vereinbarungen\nNachweis durch Urteil erforderlich"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Nein, nicht zulässig bei Hauptantragsteller; Mitantragsteller in Probezeit wird akzeptiert - kein Ansatz des Einkommens\nAUSNAHME bei Hauptantragsteller: Ärzte an Unikliniken oder in Ausbildung, sowie Forschungsmitarbeiter an Universitäten"
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 4"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Nein (als Hauptdarlehensnehmer nicht akzeptiert)"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in D und Gehaltsbezug im Ausland: Ja\nWohnsitz und Gehaltsbezug im Ausland: Nein\n \nAkzeptierte Wähnrung: EURO \nsollte in Einzelfällen die Gehaltszahlung in einer anderen, gängigen, Währung (CHF, USD, GBP, DKK) erfolgen ist eine telefonische Voranfrage zu stellen"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 70\nDie Rückzahlung des Darlehens muss bis zum 80 Lebensjahr gewährleistet sein; die Haushaltsrechnung muss auch nach Renteneintritt positiv sein"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Voranfrage erforderlich - Einzelfallentscheidung"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Max. 60 % des Beleihungswertes, Tilgungssatz min. 3 %"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Nein (als Hauptdarlehensnehmer nicht akzeptiert)"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "bitte anfragen"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "dolmetscher-akzeptiert": {
+      "name": "Dolmetscher akzeptiert?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungsfrist-bei-konditionserhohung": {
+      "name": "Einreichungsfrist bei Konditionserhöhung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Die Konditionen sind ab Erstellung des Angebots 5 Tage gültig. Bis zum Ablauf dieses Termins müssen die Unterlagen vollständig  und korrekt eingereicht werden"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n\nStufe a = kein Kundenschutz\n\nStufe b = Kundenschutz auf das vermittelte Produkt                                                                      \n\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per PostIdent"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload oder Mail"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, Besichtigung des Objektes ist aus rechtlichen Gründen erforderlich - erfolgt kostenfrei für den Darlehensnehmer\nSollte der Beleihungsauslauf von 60 % knapp überschritten werden, kann die Besichtigung zur Überprüfung des Wertes unter Umständen vorgezogen werden um die Erstrangkonditionen zu erhalten\n eine Vorabbesichtigung ist ebenfalls erforderlich, sofern die Restnutzungsdauer des Objektes die Darlehenslaufzeit unterschreitet"
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "auf Nachfrage möglich"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Sofern alle Antragsteller eine ausländische Staatsangehörigkeit besitzen, verlangt die HUK eine privatschriftliche Zustellungsvollmacht.\nZustellungsbevollmächtigt werden kann jede volljährige natürliche Person mit deutscher Staatsangehörigkeit und Wohnsitz in Deutschland"
+    }
+  },
+  "company_id": "bcca6581-4b22-4846-aef7-ee1ca6ca1b9f",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/bcca6581-4b22-4846-aef7-ee1ca6ca1b9f",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "30.04.26",
+  "recent_news": [
+    {
+      "date": "31.03.26",
+      "title": "HUK Baufinanzierung - Konditionserhöhung zum 01.04.2026"
+    },
+    {
+      "date": "13.03.26",
+      "title": "HUK Baufinanzierung - Konditionserhöhung zum 16.03.2026"
+    },
+    {
+      "date": "12.12.25",
+      "title": "HUK Baufinanzierung - Konditionserhöhung zum 15.12.2025"
+    },
+    {
+      "date": "19.11.25",
+      "title": "HUK Baufinanzierung - Konditionserhöhung zum 20.11.2025"
+    },
+    {
+      "date": "10.07.25",
+      "title": "HUK Baufinanzierung - Konditionserhöhung zum 11.07.2025"
+    }
+  ]
+}

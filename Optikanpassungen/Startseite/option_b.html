@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --green:#BDE04F;
+    --greendark:#5e7027;
+    --lightgreen:#DCE8B6;
+    --anthracite:#333333;
+    --gray:#565656;
+    --blue:#2F9BD6;
+    --lightgray:#FAFAFA;
+    --line:#e5e7eb;
+    --radius:12px;
+    --radius-sm:8px;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.05);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:var(--anthracite);overflow-x:hidden;}
+  .tag{position:fixed;top:14px;right:14px;background:var(--anthracite);color:#fff;font-size:13px;
+       padding:6px 14px;border-radius:20px;z-index:50;font-weight:bold;letter-spacing:.5px;}
+  img.real{display:block;width:100%;}
+  .navwrap{border-bottom:1px solid var(--line);}
+
+  .photo{
+    background: repeating-linear-gradient(45deg, #eaeaea, #eaeaea 10px, #f4f4f4 10px, #f4f4f4 20px);
+    display:flex;align-items:center;justify-content:center;color:#999;font-size:13px;text-align:center;
+  }
+
+  .note-strip{background:var(--lightgray);border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;
+    padding:10px 24px;font-size:12.5px;color:var(--gray);}
+
+  /* HERO v2 - two clear cards with gap, no overlap */
+  .hero{display:flex;align-items:flex-start;gap:16px;padding:24px;background:#fff;position:relative;}
+  .hero-network{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0;}
+  .hero-map-card{flex:1.1;background:transparent;border-radius:var(--radius);position:relative;z-index:1;overflow:visible;
+    display:flex;align-items:stretch;justify-content:center;}
+  .hero-map-glass{position:relative;z-index:1;max-width:calc(100% - 40px);background:rgba(255,255,255,.5);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;align-items:center;text-align:center;}
+  .hero-map-card h3{margin:10px 0 0;font-size:14px;position:relative;z-index:2;background:rgba(255,255,255,.7);
+    border-radius:6px;padding:2px 8px;}
+  .map-frame{width:clamp(220px,26vw,380px);flex:0 0 auto;aspect-ratio:9463.301/12526;display:block;border-radius:6px;overflow:hidden;
+    transform:scale(1.15);position:relative;z-index:0;}
+  .map-frame object{width:100%;height:100%;display:block;border:none;}
+  .hero-search-card{flex:1;background:var(--green);border-radius:var(--radius);padding:32px;position:relative;z-index:1;display:flex;flex-direction:column;justify-content:flex-start;}
+  .hero-search-card h2{margin:0 0 4px;font-size:15.4px;}
+  .field{margin-bottom:12px;}
+  .field label{display:block;font-size:13px;margin-bottom:4px;font-weight:bold;}
+  .field select,.field input{
+    width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;font-size:14px;color:#333;
+  }
+  .row2{display:flex;gap:12px;}
+  .row2 .field{flex:1;}
+  .btn-search{margin-top:8px;background:var(--anthracite);color:#fff;border:none;padding:12px 20px;
+    border-radius:5px;font-size:15px;font-weight:bold;cursor:pointer;width:100%;}
+
+  /* trust strip under hero */
+  .trust-strip{display:flex;gap:0;background:var(--anthracite);color:#fff;}
+  .trust-strip div{flex:1;text-align:center;padding:14px 8px;font-size:13px;border-right:1px solid #4a4a4a;}
+  .trust-strip div:last-child{border-right:none;}
+  .trust-strip b{color:var(--green);font-size:15px;display:block;}
+
+  /* CTA tiles v2 - 3x2 grid */
+  .cta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .cta-tile{background:var(--green);position:relative;border-radius:var(--radius);overflow:hidden;}
+  .cta-tile h3{margin:0;padding:16px 14px 10px;font-size:16px;text-align:center;line-height:1.25;color:#222;}
+  .cta-photo{height:130px;position:relative;}
+  .badge{
+    position:absolute;top:8px;left:8px;background:var(--greendark);color:#fff;font-size:11px;
+    font-weight:bold;padding:4px 9px;border-radius:6px;line-height:1.3;box-shadow:0 1px 3px rgba(0,0,0,.25);
+  }
+  .playdot{position:absolute;bottom:8px;right:8px;width:24px;height:24px;border-radius:50%;
+    background:rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--greendark);}
+
+  /* accordion for SEO wall */
+  .accordion{margin:28px 24px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+  .accordion-head{background:var(--lightgray);padding:14px 18px;font-weight:bold;font-size:14.5px;
+    display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+  .accordion-head span{color:var(--greendark);font-size:13px;}
+  .accordion-body{padding:16px 18px;font-size:13px;color:var(--gray);line-height:1.6;max-height:70px;overflow:hidden;position:relative;}
+  .accordion-body::after{content:"";position:absolute;bottom:0;left:0;right:0;height:36px;
+    background:linear-gradient(to bottom, rgba(255,255,255,0), #fff);}
+
+  /* condensed state chips instead of 16 photo tiles */
+  .states{margin:24px;}
+  .states h3{font-size:15px;margin-bottom:12px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{background:var(--lightgreen);color:var(--greendark);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:bold;}
+
+  /* internal-linking block - lives in the body, on white/light background, NOT inside <footer> */
+  .internal-links{background:#fff;padding:24px;margin-top:8px;border-top:1px solid var(--line);}
+  .internal-links h4{color:var(--anthracite);font-size:14px;margin:0 0 4px;}
+  .internal-links .sub{font-size:12px;color:var(--gray);margin:0 0 14px;}
+  .link-accordion{display:flex;gap:10px;flex-wrap:wrap;}
+  .link-chip{background:var(--lightgray);border:1px solid var(--line);padding:8px 14px;border-radius:5px;
+    font-size:12.5px;display:flex;align-items:center;gap:6px;color:var(--anthracite);}
+  .link-chip span{color:var(--greendark);font-weight:bold;}
+
+  /* real footer - unchanged, dark, sits below the internal-linking block */
+  .real-footer{background:#3c3c3c;color:#bbb;padding:20px 24px;font-size:12px;margin-top:0;}
+  .real-footer b{color:#fff;}
+
+  @media (max-width: 720px){
+    .hero{flex-direction:column;padding:16px;gap:16px;}
+    .hero-map-card{width:100%;order:2;}
+    .hero-map-glass{padding:20px;max-width:100%;}
+    .map-frame{width:min(58vw,260px);transform:none;}
+    .hero-search-card{width:100%;padding:20px;order:1;}
+
+    .trust-strip{flex-wrap:wrap;}
+    .trust-strip div{flex:1 1 50%;border-right:none;border-bottom:1px solid #4a4a4a;padding:12px 8px;}
+
+    .cta-grid{grid-template-columns:repeat(2,1fr);gap:8px;}
+    .cta-tile h3{font-size:14px;padding:12px 8px 8px;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word;}
+
+    .accordion{margin:20px 16px;}
+    .states{margin:16px;}
+    .internal-links{padding:16px;}
+  }
+</style>
+</head>
+<body>
+<div class="tag">OPTION B – Struktur &amp; Fokus</div>
+
+<div class="navwrap">
+  <img class="real" src="assets/asset_header.png">
+  <img class="real" src="assets/asset_navbar.png">
+</div>
+
+<div class="note-strip">✎ Änderung: Karte &amp; Suchmaske als zwei getrennte Cards mit Abstand statt überlappender Collage · Mascot entfernt aus dem Hero (reduziert visuelles Rauschen im wichtigsten Bereich).</div>
+
+<div class="hero">
+  <canvas class="hero-network" id="heroNetwork"></canvas>
+  <div class="hero-map-card">
+    <div class="hero-map-glass">
+      <div class="map-frame">
+        <object type="image/svg+xml" data="assets/de-map.svg" aria-label="Deutschlandkarte">Ihr Browser kann die Karte leider nicht anzeigen</object>
+      </div>
+      <h3>15.387 Mietwohnungen &amp; mehr in Deiner Region</h3>
+    </div>
+  </div>
+  <div class="hero-search-card">
+    <h2>Was suchst Du?</h2>
+    <div class="field">
+      <label>Immobilienart</label>
+      <select><option>Mietwohnungen</option></select>
+    </div>
+    <div class="field">
+      <label>Ort, PLZ oder ID</label>
+      <input placeholder="z. B. Leipzig, 04109">
+    </div>
+    <div class="row2">
+      <div class="field"><label>Umkreis</label><select><option>+ 10 km</option></select></div>
+      <div class="field"><label>Zimmer</label><select><option>Alle</option></select></div>
+    </div>
+    <button class="btn-search">Suchen</button>
+  </div>
+</div>
+
+<div class="trust-strip">
+  <div><b>500+</b>Banken im Vergleich</div>
+  <div><b>100%</b>kostenfreie Bewertung</div>
+  <div><b>100+</b>Finanzierungsberater vor Ort</div>
+  <div><b>15.387</b>Mietwohnungen aktuell</div>
+</div>
+
+<div class="note-strip">✎ Änderung: 6 Kacheln neu als 3×2-Raster (statt 6 nebeneinander) – mehr Platz pro Kachel, Badge wieder als feste Eckmarke.</div>
+
+<div class="cta-grid">
+  <div class="cta-tile">
+    <h3>Immobilien inserieren</h3>
+    <div class="cta-photo photo">[Foto]<span class="badge">Gewerblich + Privat</span><span class="playdot">▶</span></div>
+  </div>
+  <div class="cta-tile">
+    <h3>Finanzierungspartner werden</h3>
+    <div class="cta-photo photo">[Foto]<span class="playdot">▶</span></div>
+  </div>
+  <div class="cta-tile">
+    <h3>Immobilie bewerten lassen</h3>
+    <div class="cta-photo photo">[Foto]<span class="badge">100% kostenfrei</span><span class="playdot">▶</span></div>
+  </div>
+  <div class="cta-tile">
+    <h3>Baufinanzierungsberatung</h3>
+    <div class="cta-photo photo">[Foto]<span class="badge">Über 500 Banken</span><span class="playdot">▶</span></div>
+  </div>
+  <div class="cta-tile">
+    <h3>Fördermittel berechnen</h3>
+    <div class="cta-photo photo">[Foto]<span class="playdot">▶</span></div>
+  </div>
+  <div class="cta-tile">
+    <h3>Markt und Preis</h3>
+    <div class="cta-photo photo">[Foto]<span class="playdot">▶</span></div>
+  </div>
+</div>
+
+<div class="note-strip">✎ Änderung: 16 Bundesland-Fotokacheln ersetzt durch kompakte Chip-Liste (spart ~800px Scrolltiefe) – verlinkt auf dieselben Zielseiten.</div>
+
+<div class="states">
+  <h3>Wo suchst Du?</h3>
+  <div class="chip-row">
+    <div class="chip">Sachsen</div><div class="chip">Bayern</div><div class="chip">Baden-Württemberg</div>
+    <div class="chip">Thüringen</div><div class="chip">Berlin</div><div class="chip">Bremen</div>
+    <div class="chip">Mecklenburg-Vorpommern</div><div class="chip">Niedersachsen</div><div class="chip">Sachsen-Anhalt</div>
+    <div class="chip">Brandenburg</div><div class="chip">Hessen</div><div class="chip">Saarland</div>
+    <div class="chip">Nordrhein-Westfalen</div><div class="chip">Rheinland-Pfalz</div><div class="chip">Hamburg</div>
+    <div class="chip">Schleswig-Holstein</div>
+  </div>
+</div>
+
+<div class="note-strip">✎ Änderung: SEO-Textwand + Konkurrenzvergleichstabelle standardmäßig eingeklappt (Accordion) – Inhalt bleibt crawlbar, dominiert aber nicht mehr die Startseite.</div>
+
+<div class="accordion">
+  <div class="accordion-head">Regionalimmobilien24 – Immobilien finden. Finanzierung verstehen. <span>Mehr erfahren ▾</span></div>
+  <div class="accordion-body">Regionalimmobilien24 steht für eine moderne, regionale Immobilienvermarktung mit echtem Mehrwert. Wir verbinden die klassische Immobiliensuche mit einer persönlichen und fundierten Finanzierungsberatung. So erhalten unsere Nutzer nicht nur Zugang zu Häusern, Wohnungen…</div>
+</div>
+
+<div class="note-strip">✎ Änderung: Berater-Namenswand ist Body-Content zur internen Verlinkung (nicht der Footer) – Gruppierung nach Bundesland bleibt vollständig im DOM (Links weiter crawlbar/SEO-wirksam), wird aber nicht mehr komplett ausgebreitet angezeigt.</div>
+
+<div class="internal-links">
+  <h4>Finanzierer nach Bundesland</h4>
+  <p class="sub">Interne Verlinkung zu den Berater-Profilseiten – alle Links bleiben im HTML vorhanden, nur die Darstellung ist gruppiert.</p>
+  <div class="link-accordion">
+    <div class="link-chip">Sachsen <span>▾ 15</span></div>
+    <div class="link-chip">Hamburg <span>▾ 1</span></div>
+    <div class="link-chip">Bayern <span>▾ 22</span></div>
+    <div class="link-chip">Baden-Württemberg <span>▾ 12</span></div>
+    <div class="link-chip">Berlin <span>▾ 2</span></div>
+    <div class="link-chip">Nordrhein-Westfalen <span>▾ 9</span></div>
+    <div class="link-chip">+ 10 weitere Bundesländer</div>
+  </div>
+</div>
+
+<div class="real-footer">
+  <b>Regionalimmobilien24</b> &nbsp;|&nbsp; AGB und Rechtliche Hinweise &nbsp;|&nbsp; Impressum &nbsp;|&nbsp; Datenschutz
+  <div style="margin-top:8px;">© 2017-2026 Regionalimmobilien24 GmbH — echter Footer, unverändert.</div>
+</div>
+
+<script>
+(function(){
+  var canvas = document.getElementById('heroNetwork');
+  if(!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var wrap = canvas.parentElement;
+  var dotColor = '#5e7027';
+  var triFill = 'rgba(220,232,182,0.32)';
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var particles = [];
+  var mouse = { x: -9999, y: -9999 };
+  var t = 0;
+
+  function resize(){
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    canvas.width = w * DPR; canvas.height = h * DPR;
+    canvas.style.width = w + 'px'; canvas.style.height = h + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    var count = Math.max(50, Math.round((w * h) / 5500));
+    particles = [];
+    for(var i = 0; i < count; i++){
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.35,
+        r: 1.6 + Math.random() * 1.6,
+        seed: Math.random() * 1000
+      });
+    }
+  }
+
+  wrap.addEventListener('mousemove', function(e){
+    var rect = wrap.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  wrap.addEventListener('mouseleave', function(){
+    mouse.x = -9999; mouse.y = -9999;
+  });
+
+  function frame(){
+    t += 1;
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    ctx.clearRect(0, 0, w, h);
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < 0 || p.x > w){ p.vx *= -1; p.x = Math.max(0, Math.min(w, p.x)); }
+      if(p.y < 0 || p.y > h){ p.vy *= -1; p.y = Math.max(0, Math.min(h, p.y)); }
+
+      var dx = p.x - mouse.x, dy = p.y - mouse.y;
+      var dist = Math.sqrt(dx * dx + dy * dy);
+      if(dist < 70 && dist > 0.01){
+        var push = (70 - dist) / 70 * 1.6;
+        p.x += (dx / dist) * push;
+        p.y += (dy / dist) * push;
+      }
+    }
+
+    var maxDist = 100;
+    var n = particles.length;
+    var neighbors = new Array(n);
+    for(var i = 0; i < n; i++) neighbors[i] = [];
+    var edges = [];
+    for(var i = 0; i < n; i++){
+      for(var j = i + 1; j < n; j++){
+        var a = particles[i], b = particles[j];
+        var dx = a.x - b.x, dy = a.y - b.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if(dist < maxDist){
+          neighbors[i].push(j);
+          neighbors[j].push(i);
+          edges.push([i, j, dist]);
+        }
+      }
+    }
+
+    ctx.fillStyle = triFill;
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1];
+      var ni = neighbors[i];
+      for(var x = 0; x < ni.length; x++){
+        var k = ni[x];
+        if(k > j && neighbors[j].indexOf(k) !== -1){
+          var a = particles[i], b = particles[j], c = particles[k];
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.lineTo(c.x, c.y);
+          ctx.closePath();
+          ctx.fill();
+        }
+      }
+    }
+
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1], dist = edges[e][2];
+      ctx.strokeStyle = 'rgba(51,51,51,' + (0.5 * (1 - dist / maxDist)) + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(particles[i].x, particles[i].y);
+      ctx.lineTo(particles[j].x, particles[j].y);
+      ctx.stroke();
+    }
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      var pulse = 0.75 + 0.25 * Math.sin(t / 45 + p.seed);
+      ctx.beginPath();
+      ctx.fillStyle = dotColor;
+      ctx.globalAlpha = 0.85 * pulse;
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  window.addEventListener('resize', resize);
+  window.addEventListener('load', resize);
+  if('ResizeObserver' in window) new ResizeObserver(resize).observe(wrap);
+  var mapImg = wrap.querySelector('img');
+  if(mapImg && !mapImg.complete) mapImg.addEventListener('load', resize);
+  resize();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

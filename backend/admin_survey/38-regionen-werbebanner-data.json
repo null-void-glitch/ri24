@@ -1,0 +1,398 @@
+{
+  "popup_cards": [
+    {
+      "title": "Wohnen / Kaufen",
+      "rows": [
+        {
+          "label": "Darstellungstyp",
+          "value": "Baufi-Ansprechpartner",
+          "is_set": true
+        }
+      ]
+    },
+    {
+      "title": "Gewerbe / Kaufen",
+      "rows": [
+        {
+          "label": "Darstellungstyp",
+          "value": "Baufi-Ansprechpartner",
+          "is_set": true
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "title": "Wohnen / Mieten",
+      "banners": [
+        {
+          "title": "Banner 1",
+          "has_content": true,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/aai24//v/377x140/crop/wohnen-mieten-1_1661873480.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 2",
+          "has_content": false,
+          "img_src": "",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Suchauftrag als Kachel",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 3",
+          "has_content": true,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-mieten-3_1636984208.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 4",
+          "has_content": false,
+          "img_src": "",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Suchauftrag als Kachel",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wohnen / Kaufen",
+      "banners": [
+        {
+          "title": "Banner 1",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-kaufen-1_1755256197.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Baufi-Ansprechpartner",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 2",
+          "has_content": false,
+          "img_src": "",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Baufi-Funnel",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 3",
+          "has_content": false,
+          "img_src": "",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Suchauftrag als Kachel",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 4",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/wohnen-kaufen-4_1668761432.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Finanzierungszertifikat",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gewerbe / Mieten",
+      "banners": [
+        {
+          "title": "Banner 1",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-1_1612341957.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 2",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-2_1612341966.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 3",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-3_1612341976.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 4",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-mieten-4_1612341987.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "1 Link",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gewerbe / Kaufen",
+      "banners": [
+        {
+          "title": "Banner 1",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-1_1755256135.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Baufi-Ansprechpartner",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 2",
+          "has_content": false,
+          "img_src": "",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Baufi-Funnel",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 3",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-3_1755256229.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Baufi-Ansprechpartner",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        },
+        {
+          "title": "Banner 4",
+          "has_content": false,
+          "img_src": "https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/regions/immo-ad/ri24//v/377x140/crop/gewerbe-kaufen-4_1668761450.png",
+          "rows": [
+            {
+              "label": "Werbekachel (intern)",
+              "value": "Finanzierungszertifikat",
+              "is_set": true
+            },
+            {
+              "label": "Affiliate",
+              "value": "keine Nutzung",
+              "is_set": false
+            },
+            {
+              "label": "AdSense",
+              "value": "keine Nutzung",
+              "is_set": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

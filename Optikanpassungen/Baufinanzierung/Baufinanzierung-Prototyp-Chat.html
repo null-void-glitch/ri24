@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototyp – Baufinanzierungs-Landingpage | Regionalimmobilien24.de</title>
+<!--
+  =====================================================================
+  PROTOTYP – eigenständig lauffähig (Design), der Chat spricht aber ECHT
+  mit chat-baufinanzierung/chat.php (kein Dummy-Chat).
+  Ziel-Pfad in Produktion: /baufinanzierung/finanzierungsassistent
+  (gleiche Domain wie chat-baufinanzierung/*.php → same-origin, Sticky-
+  Cookie für die Berater-Zuweisung funktioniert dort ohne CORS).
+
+  Kernidee dieser Seite: Sie ist die "Objektseite" des Baufinanzierungs-
+  Assistenten. So wie ein Exposé einen Ansprechpartner (Makler) zeigt und
+  dessen Kontaktdaten per expose_url an den Chat übergibt, zeigt diese
+  Seite einen automatisch zugewiesenen Finanzierungsberater (Card) und
+  übergibt dessen Kontaktdaten als berater_id an chat.php — siehe
+  advisor-resolver.php / resolve-advisor.php im chat-baufinanzierung/-Ordner.
+
+  Chat-Einbindung bewusst als OFFENES INLINE-WIDGET (wie auf den echten
+  Exposé-Seiten, siehe chat/embed-snippet.html bzw.
+  chat-baufinanzierung/embed-snippet.html) — direkt sichtbar im
+  Seitenfluss, KEIN verstecktes Panel/Modal hinter einem Button (das war
+  nur im mobilen Exposé-Konversions-Prototyp so gelöst, siehe
+  Expose-Prototyp-P2-Chat.html; für diese Seite ist der Chat der
+  Hauptinhalt, nicht eine sekundäre Funktion).
+  =====================================================================
+-->
+<style>
+:root{
+  --green:#BDE04F;
+  --green-hover:#aed23f;
+  --greendark:#5e7027;
+  --lightgreen:#DCE8B6;
+  --anthracite:#333333;
+  --gray:#565656;
+  --muted:#6b7280;
+  --blue:#2F9BD6;
+  --fin:#2f9bd6;
+  --fin-dark:#2384bd;
+  --fin-ghost:#e9f5fc;
+  --lightgray:#FAFAFA;
+  --line:#e5e7eb;
+  --radius:12px;
+  --radius-sm:8px;
+  --shadow:0 1px 3px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.05);
+  --maxw:960px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:transparent;color:var(--anthracite);line-height:1.5;}
+img{max-width:100%;display:block;}
+img.real{width:100%;}
+a{color:var(--greendark);}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+.tag{position:fixed;top:14px;right:14px;background:var(--anthracite);color:#fff;font-size:13px;
+     padding:6px 14px;border-radius:20px;z-index:50;font-weight:bold;letter-spacing:.5px;}
+.header-bar{border-bottom:1px solid var(--line);position:relative;background:#fff;}
+.note-strip{background:var(--lightgray);border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;
+  padding:10px 24px;font-size:12.5px;color:var(--gray);}
+
+/* Partikel-Netzwerk-Hintergrund (1:1 aus Optikanpassungen/Startseite/option_b.html
+   übernommen) — läuft jetzt als fixer Hintergrund über die GESAMTE Seite (nicht
+   nur ein schmales Band), alle Inhaltsblöcke haben eigene, deckende Hintergründe
+   und liegen automatisch darüber. */
+.page-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;background:linear-gradient(180deg,#fff,var(--lightgray));}
+.hero-network{position:absolute;inset:0;width:100%;height:100%;display:block;}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-weight:bold;
+  font-size:1rem;border-radius:5px;padding:.85rem 1.4rem;cursor:pointer;border:2px solid var(--green);
+  text-decoration:none;font-family:inherit;}
+.btn-secondary{background:var(--fin);color:#fff;border-color:var(--fin);box-shadow:0 4px 4px 0 rgba(0,0,0,.12);}
+.btn-secondary:hover{background:var(--fin-dark);border-color:var(--fin-dark);}
+.btn-ghost{background:#fff;color:var(--greendark);border-color:var(--line);}
+
+/* TRUST STRIP */
+.trust-strip{display:flex;gap:0;background:var(--anthracite);color:#fff;}
+.trust-strip div{flex:1;text-align:center;padding:14px 8px;font-size:13px;border-right:1px solid #4a4a4a;}
+.trust-strip div:last-child{border-right:none;}
+.trust-strip b{color:var(--green);font-size:15px;display:block;}
+
+/* CHAT + BERATER-CARD (Kernbereich der Seite) – Chat steht ÜBER der Berater-
+   Card, beide gestapelt statt nebeneinander. */
+.assistant-section{padding:32px 24px;}
+.assistant-grid{display:flex;flex-direction:column;gap:28px;max-width:var(--maxw);margin:0 auto;}
+.berater-card{max-width:520px;margin:0 auto;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;display:flex;gap:16px;align-items:flex-start;}
+.berater-card .avatar{width:64px;height:64px;border-radius:50%;background:var(--green);color:var(--anthracite);
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.2rem;flex:0 0 auto;overflow:hidden;}
+.berater-card .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block;}
+.berater-card .meta{flex:1;min-width:0;}
+.berater-card .name{font-size:1.05rem;font-weight:800;margin:0;}
+.berater-card .title{color:var(--muted);font-size:.88rem;margin:2px 0 6px;}
+.berater-card .stars{color:#e6a700;font-size:.9rem;}
+.berater-card .resp{color:var(--greendark);font-weight:600;font-size:.85rem;margin-top:6px;}
+.berater-card .actions{display:flex;flex-direction:column;gap:8px;margin-top:12px;}
+.berater-card .actions .btn{padding:.55rem .9rem;font-size:.85rem;}
+.berater-card .tel-row{display:flex;flex-wrap:wrap;gap:8px;}
+.berater-card .tel-row .btn{flex:1;}
+.berater-card #beraterCalendly{width:100%;margin-top:8px;}
+
+/* Skeleton-Ladezustand, solange resolve-advisor.php noch antwortet */
+.skeleton{background:linear-gradient(90deg,#eee 25%,#f5f5f5 37%,#eee 63%);background-size:400% 100%;
+  animation:skeleton-loading 1.4s ease infinite;border-radius:6px;}
+@keyframes skeleton-loading{0%{background-position:100% 50%;}100%{background-position:0 50%;}}
+.berater-card.is-loading .avatar{background:#eee;}
+.berater-card.is-loading .sk-line{height:12px;margin-bottom:8px;}
+.berater-card .real{display:none;}
+.berater-card.is-loaded .real{display:block;}
+.berater-card.is-loaded .sk{display:none;}
+
+/* Inline Chat-Widget (offen, kein Panel/Modal — Muster wie chat/embed-snippet.html) */
+.chat-widget-wrap{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;height:640px;}
+.chat-widget-head{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;
+  gap:1rem;padding:.7rem 1rem;background:var(--greendark);color:#fff;}
+.chat-widget-head .title{font-weight:700;font-size:.95rem;display:flex;flex-direction:column;gap:2px;}
+.chat-widget-head .sub{font-weight:400;font-size:.78rem;opacity:.85;}
+#ri24-baufi-assistent{flex:1 1 auto;min-height:0;width:100%;}
+
+/* SO FUNKTIONIERT'S */
+.steps{padding:8px 24px 32px;}
+.steps h2{font-size:1.15rem;text-align:center;margin:0 0 20px;}
+.step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:var(--maxw);margin:0 auto;}
+.step{background:var(--lightgray);border-radius:var(--radius);padding:18px;text-align:center;}
+.step .num{width:28px;height:28px;border-radius:50%;background:var(--green);color:var(--anthracite);
+  font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 10px;}
+.step h3{font-size:.95rem;margin:0 0 6px;}
+.step p{font-size:.85rem;color:var(--gray);margin:0;}
+
+/* ACCORDION (SEO-Text) – bewusst OHNE max-width: geht über die volle
+   Seitenbreite (nur 24px Außenabstand wie im Startseite-Mockup), anders als
+   die auf --maxw begrenzten Blöcke darüber (Berater-Card/Chat, Steps). */
+.accordion{margin:8px 24px 32px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+.accordion-head{background:var(--lightgray);padding:14px 18px;font-weight:bold;font-size:14.5px;
+  display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+.accordion-head span{color:var(--greendark);font-size:13px;}
+.accordion-body{padding:16px 18px;font-size:13px;color:var(--gray);line-height:1.6;max-height:76px;overflow:hidden;position:relative;}
+.accordion-body::after{content:"";position:absolute;bottom:0;left:0;right:0;height:36px;
+  background:linear-gradient(to bottom, rgba(255,255,255,0), #fff);}
+
+.real-footer{background:#3c3c3c;color:#bbb;padding:20px 24px;font-size:12px;}
+.real-footer b{color:#fff;}
+
+@media (max-width:720px){
+  .step-grid{grid-template-columns:1fr;}
+  .trust-strip{flex-wrap:wrap;}
+  .trust-strip div{flex:1 1 50%;border-right:none;border-bottom:1px solid #4a4a4a;padding:12px 8px;}
+  .berater-card{flex-direction:column;align-items:center;text-align:center;}
+  .berater-card .actions{align-items:center;width:100%;}
+  .chat-widget-wrap{height:80vh;}
+}
+</style>
+</head>
+<body>
+<div class="tag">PROTOTYP – Baufinanzierungs-Landingpage</div>
+
+<!-- Navbar-Bild + Hero-Banner + der erste Hinweis-Strip entfernt: nur das
+     Header-Bild (Logo-Leiste) bleibt oben stehen, direkt gefolgt von der
+     dunkelgrauen Trust-Strip-Bar. Das Partikel-Netzwerk aus der Startseite
+     bleibt erhalten, läuft aber jetzt als fixer Hintergrund über die
+     gesamte Seite statt nur in einem Band oben (siehe .page-bg). -->
+<div class="header-bar">
+  <img class="real" src="assets/asset_header.png" alt="">
+</div>
+
+<div class="page-bg">
+  <canvas class="hero-network" id="heroNetwork"></canvas>
+</div>
+
+<div class="trust-strip">
+  <div><b>500+</b>Banken im Vergleich</div>
+  <div><b>100%</b>kostenfreie Berechnung</div>
+  <div><b>100+</b>Finanzierungsberater vor Ort</div>
+  <div><b>4,9 / 5</b>Ø-Bewertung unserer Berater</div>
+</div>
+
+<div class="note-strip">✎ Änderung/Neu: Berater-Card + Chat sind das Kernstück dieser Seite (nicht
+  Nebenfunktion wie im Exposé) – der Chat ist als <b>offenes Inline-Widget</b> direkt
+  sichtbar (Muster wie auf den echten Exposé-Seiten, kein verstecktes Panel hinter einem
+  Button). Card-Daten kommen live von <code>resolve-advisor.php</code>, nicht fest verdrahtet.</div>
+
+<div class="assistant-section wrap" id="assistant">
+  <div class="assistant-grid">
+
+    <div>
+      <h2>Frag direkt unseren Baufinanzierungs-Assistenten</h2>
+      <div class="chat-widget-wrap">
+        <div class="chat-widget-head">
+          <span class="title">💬 Baufinanzierungs-Assistent
+            <span class="sub" id="assistSub">Berater wird zugewiesen …</span>
+            <span class="sub">🤖 KI-generierter Inhalt</span>
+          </span>
+        </div>
+        <deep-chat id="ri24-baufi-assistent"></deep-chat>
+      </div>
+    </div>
+
+    <div>
+      <h2>Dein persönlicher Ansprechpartner</h2>
+      <div class="berater-card is-loading" id="beraterCard">
+        <div class="avatar sk skeleton" style="width:64px;height:64px;"></div>
+        <div class="avatar real" id="beraterAvatar"></div>
+        <div class="meta">
+          <div class="sk skeleton sk-line" style="width:55%;"></div>
+          <div class="sk skeleton sk-line" style="width:40%;"></div>
+          <div class="sk skeleton sk-line" style="width:70%;height:32px;"></div>
+
+          <p class="name real" id="beraterName"></p>
+          <p class="title real" id="beraterTitle"></p>
+          <p class="real"><span class="stars" id="beraterStars"></span></p>
+          <p class="resp real">⏱ Antwortet meist innerhalb von 24 Std.</p>
+          <div class="actions real">
+            <div class="tel-row">
+              <a class="btn btn-ghost" id="beraterTel" href="#"></a>
+              <a class="btn btn-ghost" id="beraterMobil" href="#" style="display:none;"></a>
+            </div>
+            <a class="btn btn-secondary" id="beraterCalendly" href="#" target="_blank" rel="noopener">📅 Termin buchen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="steps">
+  <h2>So funktioniert's</h2>
+  <div class="step-grid">
+    <div class="step"><div class="num">1</div><h3>Angaben machen</h3>
+      <p>Kaufpreis, PLZ, Objektart sowie Einkommen &amp; Eigenkapital – ganz einfach im Chat.</p></div>
+    <div class="step"><div class="num">2</div><h3>Vorschläge erhalten</h3>
+      <p>Sofortige Auswertung über 500+ Banken inkl. Machbarkeits-Score und Optimierungstipps.</p></div>
+    <div class="step"><div class="num">3</div><h3>Beratungstermin</h3>
+      <p>Für die persönliche &amp; verbindliche Beratung: Termin direkt bei deinem Berater buchen.</p></div>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-head">Baufinanzierung bei Regionalimmobilien24 <span>Mehr erfahren ▾</span></div>
+  <div class="accordion-body">Ob Neubau, Bestandsimmobilie oder Anschlussfinanzierung – unser
+    Baufinanzierungs-Assistent hilft dir unabhängig von einem konkreten Exposé, deine Finanzierung
+    durchzurechnen und zu optimieren. Er greift dabei ausschließlich auf geprüfte Bankangebote und
+    eine kuratierte Wissensdatenbank zurück und verweist für die persönliche, verbindliche Beratung
+    an einen unserer Finanzierungsspezialisten…</div>
+</div>
+
+<footer class="real-footer">
+  <b>Regionalimmobilien24</b> &nbsp;|&nbsp; AGB und Rechtliche Hinweise &nbsp;|&nbsp; Impressum &nbsp;|&nbsp; Datenschutz
+  <div style="margin-top:8px;">© 2017-2026 Regionalimmobilien24 GmbH — echter Footer, unverändert.</div>
+</footer>
+
+<script>
+/* ---- Partikel-Netzwerk-Hintergrund (1:1 aus Startseite/option_b.html übernommen) ---- */
+(function(){
+  var canvas = document.getElementById('heroNetwork');
+  if(!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var wrap = canvas.parentElement;
+  var dotColor = '#5e7027';
+  var triFill = 'rgba(220,232,182,0.32)';
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var particles = [];
+  var mouse = { x: -9999, y: -9999 };
+  var t = 0;
+
+  function resize(){
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    canvas.width = w * DPR; canvas.height = h * DPR;
+    canvas.style.width = w + 'px'; canvas.style.height = h + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    var count = Math.max(50, Math.round((w * h) / 5500));
+    particles = [];
+    for(var i = 0; i < count; i++){
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.35,
+        r: 1.6 + Math.random() * 1.6,
+        seed: Math.random() * 1000
+      });
+    }
+  }
+
+  wrap.addEventListener('mousemove', function(e){
+    var rect = wrap.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  wrap.addEventListener('mouseleave', function(){
+    mouse.x = -9999; mouse.y = -9999;
+  });
+
+  function frame(){
+    t += 1;
+    var w = wrap.clientWidth, h = wrap.clientHeight;
+    ctx.clearRect(0, 0, w, h);
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < 0 || p.x > w){ p.vx *= -1; p.x = Math.max(0, Math.min(w, p.x)); }
+      if(p.y < 0 || p.y > h){ p.vy *= -1; p.y = Math.max(0, Math.min(h, p.y)); }
+
+      var dx = p.x - mouse.x, dy = p.y - mouse.y;
+      var dist = Math.sqrt(dx * dx + dy * dy);
+      if(dist < 70 && dist > 0.01){
+        var push = (70 - dist) / 70 * 1.6;
+        p.x += (dx / dist) * push;
+        p.y += (dy / dist) * push;
+      }
+    }
+
+    var maxDist = 100;
+    var n = particles.length;
+    var neighbors = new Array(n);
+    for(var i = 0; i < n; i++) neighbors[i] = [];
+    var edges = [];
+    for(var i = 0; i < n; i++){
+      for(var j = i + 1; j < n; j++){
+        var a = particles[i], b = particles[j];
+        var dx = a.x - b.x, dy = a.y - b.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if(dist < maxDist){
+          neighbors[i].push(j);
+          neighbors[j].push(i);
+          edges.push([i, j, dist]);
+        }
+      }
+    }
+
+    ctx.fillStyle = triFill;
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1];
+      var ni = neighbors[i];
+      for(var x = 0; x < ni.length; x++){
+        var k = ni[x];
+        if(k > j && neighbors[j].indexOf(k) !== -1){
+          var a = particles[i], b = particles[j], c = particles[k];
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.lineTo(c.x, c.y);
+          ctx.closePath();
+          ctx.fill();
+        }
+      }
+    }
+
+    for(var e = 0; e < edges.length; e++){
+      var i = edges[e][0], j = edges[e][1], dist = edges[e][2];
+      ctx.strokeStyle = 'rgba(51,51,51,' + (0.5 * (1 - dist / maxDist)) + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(particles[i].x, particles[i].y);
+      ctx.lineTo(particles[j].x, particles[j].y);
+      ctx.stroke();
+    }
+
+    for(var i = 0; i < particles.length; i++){
+      var p = particles[i];
+      var pulse = 0.75 + 0.25 * Math.sin(t / 45 + p.seed);
+      ctx.beginPath();
+      ctx.fillStyle = dotColor;
+      ctx.globalAlpha = 0.85 * pulse;
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  window.addEventListener('resize', resize);
+  window.addEventListener('load', resize);
+  if('ResizeObserver' in window) new ResizeObserver(resize).observe(wrap);
+  resize();
+  requestAnimationFrame(frame);
+})();
+
+/* ---- Finanzierungsberater laden (resolve-advisor.php) ---- */
+var currentAdvisor = null;
+(function(){
+  // Lokal: gleicher PHP-Server wie chat.php (siehe chat-baufinanzierung/README.md).
+  // Produktion: same-origin unter /baufinanzierung/finanzierungsassistent/api/resolve-advisor.php
+  // bzw. dem tatsächlichen Deploy-Pfad von chat-baufinanzierung/.
+  var RESOLVE_ENDPOINT = 'http://localhost:8001/resolve-advisor.php';
+
+  // Fallback, falls resolve-advisor.php nicht erreichbar ist (z.B. Backend
+  // down) — Daten identisch zum 'philipp-steppohn'-Eintrag in
+  // chat-baufinanzierung/advisors.php, hier dupliziert, da diese Seite ohne
+  // Backend-Antwort sonst gar keine Berater-Daten hätte.
+  var FALLBACK_ADVISOR = {
+    id: 'philipp-steppohn',
+    name: 'Philipp Steppohn',
+    title: 'Finanzierungsspezialist',
+    phone: '03741 384 49 69',
+    mobile: '0176 476 653 21',
+    email: 'philipp.steppohn@regionalimmobilien24.de',
+    calendly: 'https://calendly.com/dummy-philipp-steppohn/baufinanzierung',
+    rating: '4,92 / 5',
+    avatarInitials: 'PS',
+    photo: 'assets/philipp-steppohn.png'
+  };
+
+  var card = document.getElementById('beraterCard');
+
+  function renderAdvisor(advisor){
+    currentAdvisor = advisor;
+    var avatarEl = document.getElementById('beraterAvatar');
+    if (advisor.photo) {
+      avatarEl.innerHTML = '';
+      var img = document.createElement('img');
+      img.src = advisor.photo;
+      img.alt = advisor.name || '';
+      avatarEl.appendChild(img);
+    } else {
+      avatarEl.textContent = advisor.avatarInitials || '';
+    }
+    document.getElementById('beraterName').textContent = advisor.name || '';
+    document.getElementById('beraterTitle').textContent = advisor.title || '';
+    document.getElementById('beraterStars').textContent = '★★★★★ ' + (advisor.rating || '');
+    var tel = document.getElementById('beraterTel');
+    tel.href = advisor.phone ? 'tel:' + advisor.phone.replace(/[^+\d]/g, '') : '#';
+    tel.textContent = '📞 ' + (advisor.phone || '');
+    var mobil = document.getElementById('beraterMobil');
+    mobil.style.display = advisor.mobile ? '' : 'none';
+    mobil.href = advisor.mobile ? 'tel:' + advisor.mobile.replace(/[^+\d]/g, '') : '#';
+    mobil.textContent = '📱 ' + (advisor.mobile || '');
+    var cal = document.getElementById('beraterCalendly');
+    cal.href = advisor.calendly || '#';
+    card.classList.remove('is-loading');
+    card.classList.add('is-loaded');
+    var sub = document.getElementById('assistSub');
+    if (sub) sub.textContent = 'mit Unterstützung von ' + (advisor.name || 'deinem Berater');
+  }
+
+  fetch(RESOLVE_ENDPOINT, { credentials: 'include' })
+    .then(function(r){ if(!r.ok) throw new Error('resolve-advisor.php: ' + r.status); return r.json(); })
+    .then(renderAdvisor)
+    .catch(function(err){
+      console.warn('[baufi] Berater-Zuweisung fehlgeschlagen, zeige Fallback:', err);
+      renderAdvisor(FALLBACK_ADVISOR);
+    });
+})();
+
+/* ---- KI-Baufinanzierungs-Assistent (DeepChat) ----
+   Offenes Inline-Widget, wie auf den echten Exposé-Seiten (siehe
+   chat/embed-snippet.html, chat-baufinanzierung/embed-snippet.html) — der
+   Chat ist von Anfang an sichtbar, kein Button/Panel/Modal nötig. ---- */
+(function () {
+  var ENDPOINT = 'http://localhost:8001/chat.php'; // Prod: same-origin chat-baufinanzierung/chat.php
+
+  var chat = document.getElementById('ri24-baufi-assistent');
+
+  var conversationId = (window.crypto && crypto.randomUUID)
+    ? crypto.randomUUID()
+    : 'c' + Date.now() + Math.random().toString(36).slice(2);
+
+  function configureChat() {
+    chat.connect = { url: ENDPOINT, method: 'POST', stream: true };
+    chat.requestInterceptor = function (r) {
+      r.body.conversation_id = conversationId;
+      // Dieselbe Berater-ID, die auch die Card oben zeigt — chat.php löst damit
+      // dieselben (Dummy-)Kontaktdaten auf und speist sie in den Prompt ein.
+      if (currentAdvisor && currentAdvisor.id) {
+        r.body.berater_id = currentAdvisor.id;
+      }
+      return r;
+    };
+    chat.style = 'width:100%;height:100%;border:none;' +
+      'font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;';
+    chat.textInput = {
+      placeholder: { text: 'Frag mich etwas zu deiner Baufinanzierung …' },
+      styles: { text: { color: '#333' } }
+    };
+    chat.submitButtonStyles = { submit: { container: { default: { backgroundColor: '#5e7027' } } } };
+    chat.messageStyles = {
+      default: {
+        ai:   { bubble: { backgroundColor: '#f2f6ea', color: '#333' } },
+        user: { bubble: { backgroundColor: '#5e7027', color: '#fff' } }
+      }
+    };
+    chat.htmlClassUtilities = {
+      'ri24-starter': {
+        events: { click: function (e) { chat.submitUserMessage({ text: e.target.textContent.trim() }); } },
+        styles: {
+          default: { display:'block', width:'100%', textAlign:'left', cursor:'pointer',
+            margin:'6px 0', padding:'10px 12px', borderRadius:'10px',
+            border:'1px solid #dbe7c4', backgroundColor:'#fff', color:'#5e7027', fontSize:'0.9rem' },
+          hover: { backgroundColor: '#f2f6ea' }
+        }
+      }
+    };
+    // "Vorgeblendete Fragen": klickbare Gesprächseinstiege direkt in der
+    // Intro-Nachricht, sofort sichtbar (kein Klick auf einen Chat-Button nötig,
+    // da der Chat von Anfang an offen ist). Deckt die Kernfunktionen dieser
+    // Seite ab: Rechner (createVorschlaege), Optimierung, Wissensdatenbank
+    // (file_search) und den neu dynamisch zugewiesenen Berater/Termin.
+    chat.introMessage = {
+      html:
+        '<div style="line-height:1.5">' +
+          '<b>👋 Willkommen!</b><br>Ich bin dein Baufinanzierungs-Assistent. ' +
+          'Ich helfe dir, deine Finanzierung durchzurechnen und zu optimieren — ' +
+          'unabhängig von einem konkreten Exposé.' +
+          '<div style="margin-top:10px">' +
+            '<div class="ri24-starter">Wie hoch könnte meine monatliche Rate sein? 💰</div>' +
+            '<div class="ri24-starter">Wie kann ich meine Finanzierung optimieren? 📈</div>' +
+            '<div class="ri24-starter">Was ist eine Anschlussfinanzierung? ❓</div>' +
+            '<div class="ri24-starter">Welche Fördermittel gibt es für mich? 🏛️</div>' +
+            '<div class="ri24-starter">Wer ist mein Finanzierungsberater? 🧑‍💼</div>' +
+            '<div class="ri24-starter">Ich möchte einen Beratungstermin buchen 📅</div>' +
+          '</div>' +
+        '</div>'
+    };
+  }
+
+  // whenDefined() statt direktem configureChat(): setzt man chat.connect etc., bevor das
+  // <deep-chat>-Custom-Element "upgraded" ist, startet DeepChat im Demo-Modus (siehe
+  // Projekt-Notiz zum selben Bug in chat-baufinanzierung/embed-snippet.html). Anders als
+  // im Sticky-Panel-Muster wird hier sofort beim Laden konfiguriert, nicht erst bei Klick,
+  // da das Widget von Anfang an offen im Seitenfluss steht.
+  customElements.whenDefined('deep-chat').then(configureChat);
+})();
+</script>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/deep-chat@2/dist/deepChat.bundle.js"></script>
+</body>
+</html>

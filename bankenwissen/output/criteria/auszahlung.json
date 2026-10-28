@@ -1,0 +1,981 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/auszahlung",
+  "category": "Kriterien weitere Hinweise",
+  "criterion_name": "Auszahlung",
+  "criterion_id": "auszahlung",
+  "scraped_at": "2026-05-07T12:19:30.854Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, spätestens vor zweiter Tranche muss die Rechnung eingereicht werden\nVerpfändung Auflassungsvormerkung/Kaufvertragsansprüchen: nicht möglich"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": ""
+    },
+    {
+      "bank": "AXA",
+      "value": "* Blankoauszahlung mit anschl. \n  Rechnungsvorlage: Nein\n* Verpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "BBBank",
+      "value": "Blankoauszahlung mit. anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/Kaufvertragsansprüche: nicht möglich\nBBBank bietet einen digitalen Auszahlungsprozess an . Das bedeutet, dass der Kunde/die Kundin keine papierhaften Auszahlungsformulare mehr einreichen muss, sondern über folgenden Link: www.bbbank.de/auszahlung direkt auf das Auszahlungsformular auf der Homepage gelangt. Als Auftragsbestätigung folgt eine SMS"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Ja, nach vorheriger Absprache\n \nAuszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag: Nein"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja; Nachweis innerhalb 6 Wochen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "Anzahl Auszahlungen max: 5 bzw. Zahlungen nach MaBV lt. Vereinbarung\ndarüber hinaus Einzelfallentscheidung\nMindestauszahlung: 50 TEUR\nVerzicht auf genehmigte Darlehensanteile:\n\nNeubau: nicht möglich\nBestand: ggfs. als Sondertilgung - 1 Jahr nach Vollauszahlung möglich\nPuffer: Freie Mittelverwendung i.H.v. 20% des Finanzierungsvolumens / max. 50.000 EUR möglich"
+    },
+    {
+      "bank": "DKB",
+      "value": "Mindestauszahlungsbetrag: 10.000 Euro\nAuszahlungen sind ausschließlich auf Konten, welche in EWR-Ländern (Europäischer Wirtschaftsraum) geführt werden, möglich.\nKeine Eilüberweisungen möglich\nKapitalbeschaffungen werden nur in einer Summe ausgezahlt (keine Teilauszahlungen).\nBei Neubau / Modernisierung: Die Auszahlung von 25.000 Euro ohne Nachweis von Rechnungen (als Vorschuss) ist möglich. Die Mittelverwendung ist der DKB vor nächster Auszahlung nachzuweisen. Die Auszahlung nach § 3 bzw. 7 MaBV ist möglich."
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich (Vorabsprache erforderlich)\nVerpfändung Auflassungsvormerkung/ Abtretung KV-Ansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "Blankoauszahlung bei nachträglicher Rechnungsvorlage möglich\n- grundsätzlich keine nachträgliche Rechnungsvorlage notwendig, da Besichtigung bei grundpfandrechtlicher Absicherung\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus den unterschriebenen Kaufvertrag ist möglich\n- Antragsbearbeitung erfolgt grundsätzlich ohne Verpfändung der Auflassungsvormerkung - Effizienzgesichtspunkte, im Einzelfall Anfrage möglich"
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "Blankoauszahlungen mit nachträglicher Rechnungsvorlage grundsätzlich bis 50 TEUR möglich, allerdings muss die Verwendung der zuvor ausgezahlten Mittel durch Belege nachgewiesen werden, bevor dann weitere Beträge ausgezahlt werden können\nAuszahlungen für Kaufnebenkosten sind ohne Nachweise möglich"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "Vor Auszahlung wird grundsätzlich der Energieausweis benötigt."
+    },
+    {
+      "bank": "Gabler-Saliter-Bank",
+      "value": "Start immer mit 3 % Disagio, daher jederzeit kostenfreie Ablöse"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\nNur bei Teilauszahlungen nach Baufortschritt gegen  Nachweis der Fertigstellung des Gewerkes vor nächster Teilauszahlung  /  Grundstückswert muss dann aus Eigenkapital bereits gezahlt sein    \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": ""
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich; Tranchenauszahlung 50.000 EUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Nein"
+    },
+    {
+      "bank": "Hanseatic Bank",
+      "value": "Bei Finanzierungen von Neubauten oder Bestandsimmobilien gibt es den neuen „Auftrag zur Darlehesauszahlung“. Dieser Zahlungsabruf ersetzt den Nachweis der Erstfinanzierung und wird zusammen mit den\nAntragsunterlagen von der Hanseatic Bank zur\nVerfügung gestellt. Der Auftrag wird vom Einreicher\nhochgeladen, sobald die Gesamtfinanzierungsichergestellt ist."
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "Blanko gegen anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungvormerkung / Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja > nach individueller Absprache\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "HUK Baufinanzierung",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "Im Rahmen der Vertragsunterschrift richten sich die Kund:innen einen Onlinebanking-Zugang ein.\nDie Kund:innen erhalten eine ausführliche Anleitung, wie sie sich im Onlinebanking registrieren und wie die Auszahlungsaufträge erfasst werden können.\nDie für die Auszahlung notwendigen oder fehlenden Unterlagen laden Kund:innen in den digitalen Arbeitskorb im Onlinebanking hoch. Für die Dokumentation von noch fehlenden Unterlagen gibt es ein Kommentarfeld.\nSind die Voraussetzungen erfüllt, können die Kund:innen Auszahlungen erfassen."
+    },
+    {
+      "bank": "ING",
+      "value": "Ausschließlich über das Online-Banking. Siehe Handout.\nVerpfändung der Auflassungsvormerkung:\nGrundsätzlich werden Finanzierungen bei denen die Auflassungsvormerkung verpfändet werden soll nicht begleitet.\nIn Einzelfällen können im Standardgeschäft Ausnahmen gemacht werden. Diese dann am Besten vorab mit den Key-Accountern absprechen"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "Blanko gegen nachträglicher Rechnungsvorlage: Ja\nVerpfändung der Auflassungsvormerkung/ Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Auszahlung in Tranchen möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "Verpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich\nBlankoauszahlung mit anschl. Rechnungsvorlage: möglich, Plausibler Finanzierungsplan, Baukostenausfstellung Architekt oder Kostenvoranschläge."
+    },
+    {
+      "bank": "Kreissparkasse Saarpfalz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: Möglich - max. 50.000 EUR\nAuszahl. gegen Verpfändung der Auflassungsvormerkung/Abtretung KV-Ansprüche: Ja\n\nVoraussetzung: Erfolgte Grundschuldeintragung für die KSK"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich? Ja \n>Keine Rechnungslegung erforderlich, Mindestabrufbetrag 25.000 €\n \nIst für die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich: Ja"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "Blanko mit anschl. Rechnungsvorlage: Nein\nVerpfändung der Auflassungsvormerkung bzw. Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich: Ja\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich: Nein"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "Blanko mit nachträglicher Rechnungsvorlage nach Absprache möglich"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "Die Auszahlung der Darlehen kann durch dich selbstständig online über www.kskmse.de/kreditauszahlung beauftragt werden."
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertrag: nicht möglich"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \n\nnicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \n\nnicht möglich"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "Anzahl unbegrenzt\nnach individueller Absprache ist bei Neubau der Einbau eines Puffers möglich\nAuszahlung von Blankoanteilen möglich, muss vorab beantragt werden"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja\nMindestauszahlungssumme 10.000 €, ab 500.000€ Finanzierungsvolumen nur gegen Rechnungsvorlage\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "Blanko gegen nachträglicher Rechnungsvorlage möglich - max. 25 TEUR\nVerpfändung der Auflassungsvormerkung/Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: möglich\nEinzelfallabstimmung\nVerpfändung der Auflassungsvormerkung/Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "max. 10 Auszahlungen\nMindestbetrag pro Auszahlung: 10.000 €"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": ""
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, bei Modernisierungen / Umbau Kostenvoranschläge ausreichend\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage - möglich\n\nFür weitere Auszahlungen sind Verwendungsnachweise der ersten Auszahlung erforderlich.\nVerpfändung Auflassungvormerkung oder Abtretung KV-Ansprüche: nicht möglich"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: Möglich - bis 30.000 EUR\nVerpfändung der Auflassungsvormerkung / Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich bis 20 TEUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglichVerpfändung Auflassungsvormerkung/ Abtretung KV-Ansprüche: nicht möglich"
+    },
+    {
+      "bank": "PSD München",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\ngegen Verpfändung Auflassungsvormerkung möglich: Ja (Verkäufer muss Eigentümer sein)"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "max. 10.000 EUR Blankoauszahlung mit anschließender Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\n\nBei Neubau bzw. Modernisierungen in 30-40TEUR Schritten. Nächste Auszahlung erfolgt nach Vorlage Rechnung.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "keine Einschränkung\nfür die Auszahlung ist die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich\nTranche: mind. 10 TEUR\nVerpfändung der Auflassungsvormerkung/ Abtretung KV-Ansprüche: möglich - Einzelfall"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja\nNur bei noch nicht vermessenen Grundstücken"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich - Mindestauszahlungssumme 50.000,00 Euro, bei Unschlüssigkeit kann ein Bautenstandsbericht beauftragt werden\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "Blankovorschuss bis zu 25.000 EUR möglich, wenn Nachweise im Nachgang erbracht werden"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "Anzahl: keine Beschränkung (Eigenkapitaleinsatz muss vorab erfolgen. Nachweise sind entsprechend einzureichen)\nBlankoauszahlung mit anschl. Rechnungsvorlage: ja, Einzelfallentscheidung\nVerpfändung Auflassungsvormerkung/Kaufvertragsansprüche: Auflassungsvormerkung: nein, Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "Nach rangrichtiger Eintragung d. Grundschuld und bei Vorlage aller benötigen Unterlagen"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "wichtiger aktueller Hinweis (Stand 04/2026):\n--> Verzicht auf die \"Anlage des Baufi-Verrechnungskontos\" sowie  den \"Auftrag zur Objektbesichtigung\"\nSofern kein Girokonto bei der Sparda-Bank BW eG besteht, wird das externe Konto aus dem Kreditantrag bzw. der Selbstauskunft entnommen und direkt per SEPA-Mandat im Darlehensvertrag hinterlegt. Die Darlehensauszahlung erfolgt direkt über das jeweilige Darlehenskonto (auch bei Förderdarlehen).\nBestehende Verrechnungskonten werden weitergeführt und nach Vollauszahlung aufgelöst (alter Prozess).\nBlankoauszahlung mit anschl. Rechnungsvorlage: Nach Absprache bis max 10 TEUR möglich.\nAbtretung der KV-Ansprüche: möglich im Rahmen einer Zwischenfinanzierung bei Vorlage des notariellen Verkaufsvertrages\nNach Darlehensauszahlung erfolgt eine Objektbesichtigung (Innen) von der Value AG \noder der revex Immobilienbewertung GmbH."
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: bis 20 T€\nVerpfändung Auflassungsvormerkung/Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "Auszahlungsaufträge inkl. auszahlungsrelevanten Unterlagen: Per Mail oder Post"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "Nach Kundenauftrag, Info in Kundenmappe"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: 25.000 EUR, individuell mit Fotos + Bautenstand"
+    },
+    {
+      "bank": "Sparda-Bank West",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nmax. 30.000,00 ohne Rechnungsvorlage möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich\nnotarieller KV muss vorgelegt werden"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "Blanko mit anschl. Rechnungsvorlage: nein\nVerpfändung der Auflassungsvormerkung/Abtretung KV-Ansprüche: möglich"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "max. Anzahl: 10\nBlankoauszahlungen gegen nachträglich Rechnungsvorlage sind nicht möglich\nDie Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag ist nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich, nach Absprache. Nachweise sind dann mit dem folgenden Abruf einzureichen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Nein\n \nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag: Möglich"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage möglich\n90% der Rechnungen müssen nachgewiesen sein/werden. Grundschuld muss bestellt und Darlehensverträge unterschrieben sein."
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "Blankoauszahlungen: Nein"
+    },
+    {
+      "bank": "Sparkasse Bad Tölz-Wolfratshausen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Verpfändung Auflassungsvormerkung: Ja ; Abtretung der Ansprüche aus dem KN: Nein"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "Die Auszahlung des Darlehens erfolgt in Teilbeträgen je nach Baufortschritt.\nDie Auszahlung erfolgt wenn der Auszahlungsbetrag innerhalb angemessener Frist dem festgelegten Verwendungszweck zugeführt werden kann, in einer Summe oder in maximal drei Teilbeträgen von mindestens 50.000,00 EUR."
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\n\ndem Bautenstand entsprechend werden Finanzierungsmittel zur Verfügung gestellt\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: ja"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nAuszahlung in Raten gemäß möglichem Baufortschritt\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglch"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nAuszahlungswunsch muss plausibel dargelegt werden, ggf. Einreichung Kostenvoranschlag/ Materialaufstellung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \nnicht möglich"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich, im Zusammenhang mit einer Vorfinanzierung aus Verkaufserlösen (ZwiFi)"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich, zeitnahes Nachreichen der Rechnung gemäß Investitionsplan\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich individuelle Regelung, ausschließlich auf Nachfrage"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "bei Nebenkosten Blankoauszahlung mit nachträglicher Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "bei Nebenkosten Blankoauszahlung mit nachträglicher Rechnungsvorlage: möglich, individuell, z. B. bei Neubau - Auszahlung in Tranchen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, aber nur im kleinteiligen Bereich TEUR 10\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage:  Ja, Vorschuss bis max. 50.000 €\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, max. 50 T€. Rechnungsnachweis muss dann zur nächsten Valutierung erfolgen. \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja, max 30.000 Euro\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich wenn Finanzierungsbestätigung des Käufers vorliegt"
+    },
+    {
+      "bank": "Sparkasse Heidelberg",
+      "value": "Blankoauszahlung mit anschl. Rechnungvorlage: möglich, Rechnungen sollen dann nachgereicht werden.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "Min. 20.000 EUR"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "Blankoauszahlung gegen nachträgliche Rechnungsvorlage: möglich - bis max. 100 TEUR"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \nMöglich, die erforderlichen Unterlagen müssen vom Kunden und/oder Notariat vorliegen"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich (in Tranchen)"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\n (bis max. 10 % der Darlehenssumme bzw. mind. 25 T€\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja, sofern Grundschuld eingetragen ist\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage:  Einzelfallentscheidung > spätestens vor der nächsten Valutierung sind die Nachweise zu erbringen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "Mindestvalutierungsbeträge bei Teilauszahlungen auf 25.000 Euro angehoben (ausgenommen sind Restvalutierungen)"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, bis 400 TEUR Engagementhöhe\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich\nOnlinevalutierung Möglich"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Lörrach-Rheinfelden",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche:"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "Keine Blankoauszahlungen möglich\nKeine Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus unterschriebenen Kaufvertag möglich"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: sind möglich, mind. 25 TEUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich, z.B. Abtretung der Auszahlungsansprüche für Fertighaushersteller"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ist möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Schwerin",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche:"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Regelungen im Vertrag beachten, z.B. Mindesttranchen und Schlussvalutierung.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "Blankoauszahlungen mit nachträglicher Rechnungsvorlage nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Mittelmosel - Eifel Mosel Hunsrück",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich\n\nabhängig von Vorhaben und Bonität\nVerpfändung Auflassungsvormerkung / Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "bei Nebenkosten Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Mülheim a. d. Ruhr",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "Ist für die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich? Ja"
+    },
+    {
+      "bank": "Sparkasse Neckartal-Odenwald",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "Ist die Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich? Ja\n \nIst für die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "Blankoauszahlung mit anschließender Rechnungsvorlage möglich > abhängig von Bonität und Vorhaben"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, sofern Kontoverbindung im Haus der Sparkasse\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja (Auszahlung erst nach Beurkundung Grundschuld möglich\nAbwicklung der Zahlung über Baugirokonto (kostenfrei) bei der SPK\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja, bei Neubau möglich; ansonsten bitte voranfragen"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja\n\nVoraussetzung: alle Zahlungsvoraussetzungen müssen gegeben sein: GS-Eintrag, KV, etc."
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: sind möglich bis max. 50.000 EUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "Die Blankoauszahlung mit nachträglicher Rechnungsvorlage ist möglich\nVor Auszahlung der nächsten Tranche müssen Rechnungsnachweise vorgelegt werden\nDie Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag für die Auszahlung ist nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: Ja - Einzelfallbetrachtung\nVerpfändung Auflassungsvormerkung/Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, in Absprache mit dem Filialbetreuer in realistischer und angemessener Höhe\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich, Ausnahme: i.d.R. beim Kauf im Einheimischenmodell"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "Blanko-Auszahlung mit nachträglicher Rechnungsvorlage? Nein"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich,\nErwerbsnebenkosten werden grundsätzlich ohne Vorlage von Rechnungen ausbezahlt\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsstellung möglich (grundpfandrechtliche Sicherstellung muss gegeben sein)"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung / Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "keine Begrenzung der max. Auszahlungen, mind. jedoch 10 TEUR je Auszahlung\nBlankoauszahlung bis max. 25.000 € bei nachträglicher Rechnungsvorlage möglich \nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus unterschriebenen Kaufvertrag nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "Blankoauszahlung mit anschließender Rechnungsvorlage: Möglich\n\nmax. 20.000 EUR"
+    },
+    {
+      "bank": "Sparkasse Südpfalz",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja\n\nbei Renovierungskosten im Einzelfall möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "Blanko mit anschl. Rechnungsvorlage: ja nach Absprache\nVerpfändung Auflassungsvormerkung / Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, 50.000 €\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich, Einzelfallentscheidung"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "Anzahl max. 5  Auszahlungen\nBlankoauszahlungen bei Modernisierungen möglich\nRechnungsnachweise und ggfs. Fotos sind nachzureichen"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Einzelfallentscheidung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Einzelfallentscheidung"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nBesonderheit: bei Darlehenssumme generell kein Rechnungsnachweis\nnotwendig, ausgenommen Förderdarlehen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich\nggflls. in Tranchen mit Baukostenvorschuss"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Abtretung Auszahlungsansprüche: Nein"
+    },
+    {
+      "bank": "Stadtsparkasse Remscheid",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, Rechnungen wenn möglich gesammelt einreichen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Stadtsparkasse Wuppertal",
+      "value": "Blanko gegen anschl. Rechnungsvorlage: möglich\n\nBesonderheiten: Nicht für Kaufpreise\nVerpfändung Auflassungsvormerkung/ Abtretung KV-Ansprüche: Nein"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich\ndie SPK bietet ein ein Jahr ein kostenfreies Baukonto an, bei Fremdablösungen ist dies sogar eine Voraussetzung"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "Verpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja, Finanzierungszusage des Käufers, bzw. EK-Nachweis"
+    },
+    {
+      "bank": "uniVersa",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nAuszahlung gegen Verpfändung der Auflassungsvormerkung / Abtretung der Auszahlungsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja, Einzelfallprüfung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: bis 25.000 EUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich bei Zwischenfinanzierungen"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, bis max. 50.000 € in Abhängigkeit von der Bonität\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung der Auflassungsvormerkung / Abtretung Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Nach Absprache im Einzelfall möglich\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich: Nein"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage:  Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja, Ansatz der Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag werden mit 80 % berücksichtigt"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich? Ja > bis zu 20.000 EUR ist eine Auszahlung vorab möglich, sofern alle Eigenmittel nachweislich aufgebraucht sind\n \nIst für die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem \nunterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, muss vor Vertragsabschluss geregelt werden"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\n\nin Teilauszahlungen, Eigenkapital muss vorrangig eingesetzt werden"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "Blanko gegen nachträglicher Rechnungsvorlage möglich: Nein\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche: Nein"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "Blankoauszahlung mit. anschl. Rechnungsvorlage: Möglich, individuelle Regelung erforderlich\nVerpfändung der Auflassungsvormerkung/Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "Mindestauszahlung 10.000 \nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem \nunterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich \n\nbis 20 TEUR sofern die Rechnungen nachgereicht werden\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "Blankoauszahlung mit. anschl. Rechnungsvorlage: möglich, max. 50 TEUR mit nachträglicher Rechnungsvorlage\nVerpfändung der Auflassungsvormerkung/Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "Blankloauszahlung mit nachträglicher Rechnungsvorlage? Ja\nVerpfändung der Auflassungsvormerkung bzw. Abtretung Ansprüche aus dem unterschriebenen KV möglich? Nein"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nPro Auszahlung mind. 25.000 EUR"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "Ist die Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich? Ja > Rechnungseinreichung ab 500 Euro Einzelrechnung\n \nIst für die Auszahlung die Verpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich (bis 20.000,- wenn vorab beantragt)\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "Blankoauszahlung mit anschließender Rechnungsvorlage ist nicht möglich"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage möglich\nbis 10 TEUR, Nachweise (Belege oder Fotos über fertiggestellte Gewerke) sind vor nächster Auszahlung nachzureichen"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich,\nmin. 25 TSD Auszahlung, Belege müssen nachgereicht werden bevor weitere Auszahlung erfolgt\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, Nachweis über Bautenstand vorrangig genutzt\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Möglich auf Anfrage"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Möglich"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, maximal 50T€\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\n\nAbrufe sind ab 25 TEUR möglich, Verwendungsnachweis bis zum nächsten Abruf\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, \n20 TEUR können ohne Rechnungsvorlage nach Sicherstellung ohne Rechnung ausgezahlt werden\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": ""
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglichVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Einzelfallentscheidung\n\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Sind möglich, Auszahlung erfolgt erst nach Erfüllung der Vertragsbedingungen"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nur bei Neubau\nVoraussetzung: halbjährliche Objektfotos als Bautenstand einreichen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Möglich"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Einzelfallentscheidung, bis 25 TEUR"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, Bis max. 50.000 € \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "Verpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage:  möglich, max. 25 TEUR\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, bis zu TE 25 können vorab ausgezahlt werden\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich, Kaufvertrag sollte beurkundet sein"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich (10% der Darlehenssumme)\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "Blanko mit nachtr. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Abtretung KV-Ansprüche: möglich\nAuszahlung nach Vorlage der vollstreckbaren GS-Urkunde"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\n\nVorabtranche bis zu 50.000,- €\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nmind. Vorliegen der vollstreckbaren Ausfertigung abhängig von Fall und Zweck. Eintragung der Sicherheit gewünscht\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \n\nmöglich, bis 10.000 Euro auch ganz ohne Nachweise\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \n\nnicht möglich"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: möglich\nbei nachvollziehbarem Verwendungszweck und Einreichung Fotos\nVerpfändung Auflassungsvormerkung/ Ansprüche aus Kaufvertrag: Ja - nur bei Zwifi wg. Objektverkauf"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\nNach Erfüllung aller sonstigen Auszahlungsbedingungen, insbesondere Stellung der vereinbarten Sicherheiten können 25 TEUR vorab ohne Nachweis ausgezahlt werden. Der Nachweis ist mit der nächsten Auszahlung einzureichen\nVerpfändung Auflassungsvormerkung / Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "Blankoauszahlung mit anschließender Rechnungsvorlage ist nicht möglich"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Ja bis 10 TEUR, weitere Auszahlung erst nach Verwendungsnachweis\nEK vor Darlehensmittel\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich, gemäß Vertragsgestaltung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nAbwicklung erfolgt über ein kostenfreies Baukonto\nüber 500 TEUR Finanzierungsvolumen kann ein einmaliger Vorabbetrag von 30 TEUR ohne Rechnungsvorlage ausbezahlt werden. \nRechnungen können nachgereicht werden.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich\nKund:innen müssen das Kreditauszahlungsformular nutzen (liegt den Vertragsunterlagen bei)"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Möglich"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "Blanko mit anschl. Rechnungsvorlage: möglich\nAußer bei KfW-Finanzierungen ist eine Rechnungsvorlage grundsätzlich nicht erforderlich. Für die Auszahlungskontrolle erfolgt ein Bautenstandsbericht mit Lichtbildern bei 50 Prozent Bautenstand und nochmal bei 100 Prozent (Abschluss)."
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja; maximal 50 TEUR, Einzelfallentscheidung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglic"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "Verpfändung der Auflassungsvormerkung/ Abtretung der Ansprüche aus dem unterschrieben Kaufvertrag: Nein"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nBei KfW Rechnungsvorlage in Höhe der KfW-Mittel erforderlich. Bei Neubau Bautenstandskontrolle 50% und bei Fertigstellung, bei Modernisierungen bei Fertigstellung der Modernisierungsarbeiten.\n\n\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nicht möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nEinzelfallentscheidung \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \nmöglich , Kaufvertrag muss vorgelegt werden"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: Ja\n\nnicht bei KfW-Darlehen oder Kaufpreiszahlung\nVerpfändung Auflassungsvormerkung/Abtretung der Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nicht möglich"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "Die Auszahlung kann ausschließlich der Kunde anstoßen\nSämtliche Auszahlungen über folgenden Link bei der VR-Bank abrufen:\n--> https://www.vr-mfr.de/privatkunden/immobilie-und-wohnen/auftrag-zur-darlehensauszahlung.html"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nBis max 30 TEUR pro Darlehen mit nachträglicher Rechnungsvorlage.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja, alle Unterlagen müssen vorliegen"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich, individuell im Kreditvertrag zu vereinbaren\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche:  nicht möglich"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: ja (ist abhängig von der jeweiligen Finanzierung (i.d.R. 10 % der Gesamtfinanzierung))\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nmöglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \nnicht möglich"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nAuszahlung blanko bis30.000€\nsobald diese nachgewiesen sind, können wieder 30.000€ ohne Rechnungsvorlage erfolgen\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "Blankoauszahlung mit nachtr. Rechnungsvorlage: möglich\n\nAbhängig der Höhe und Gesamtkonstellation\nRechnungen und Angebote sollen innerhalb von 4 Wochen nachgereicht werden"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Einzelfallentscheidung\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Nein"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein\nAuszahlungen sind mit dem entsprechenden Auszahlungsauftrag per Mail an kreditabruf@vr-vilshofen.de"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "Verpfändung Auflassungsvormerkung/"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: \nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: \n\nZusammen mit der Finanzierung kann ein kostenloses Baukonto (Girokonto) eingerichtet werden.\nAuszahlung auf das Baukonto, die Abbuchungen sind bereits die Mittelverwendungsnachweise."
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: Nein\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: Ja (Angabe beim Antrag)"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich (bis max. 25 TEUR)\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nein"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "Vorrangiger EK-Einsatz\nEinzureichendes Auszahlungsformular wird mit den Vertragsunterlagen übermittelt\nBei Neubau / Renovierungen Blankoauszahlungen bis 75 TEUR möglich \nVor der nächsten Auszahlung müssen entsprechende Nachweise erbracht werden.\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: möglich"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: Ja\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem\nunterschriebenen Kaufvertrag möglich? Nein"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "Blankoauszahlung mit nachträglicher Rechnungsvorlage: nicht möglich\nVerpfändung der Auflassungsvormerkung bzw. Abtretung der Ansprüche aus dem unterschriebenen Kaufvertrag : nicht möglich"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "Blankoauszahlung mit anschl. Rechnungsvorlage: möglich\nVerpfändung Auflassungsvormerkung/ Kaufvertragsansprüche: nicht möglich"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "bank": "Allianz Lebensversicherung",
+  "criteria": {
+    "alle-eigentumer-darlehensnehmer": {
+      "name": "Alle Eigentümer Darlehensnehmer",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja\nAusnahme: stellen Dritte ihr Objekt als Zusatzsicherheit zur Verfügung, werden diese lediglich als Sicherungsgeber eingebunden.  Auch von diesen \nPersonen benötigt die Allianz den Personalausweis sowie den vollständig ausgefüllten und unterschriebenen Vordruck „Erklärung und Hinweise zur Datenverarbeitung“.\nBei verheirateten Antragstellern ist eine gesamtschuldnerische Haftung anzustreben. Eine alleinige Antragsstellung ist in Ausnahmefällen unter folgenden Voraussetzungen möglich: der Partner ist nicht Eigentümer des Objektes, es ist keine Verfügungsgewalt über das Objekt erkennbar und die Beleihung beträgt max. 50% des Verkehrswertes. Die Mithaft des Ehepartners ohne (Mit-)Eigentum an der Immobilie ist möglich, sofern der Ehepartner über eigenes Einkommen oder entsprechendes Vermögen verfügt, um Zins und Tilgung nachhaltig bedienen zu können.\nBei geschiedenen und getrennt lebenden Antragstellern muss eine Kopie der Scheidungsfolgevereinbarung vorgelegt werden."
+    },
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine Einschränkungen"
+    },
+    "beleihungsauslauf-eigennutzer-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "90%\n– eigengenutzte Objekte\n– überwiegend eigengenutzte Immobilien (>= 50% der Fläche)\n– Baugrundstücke, welche mit einer eigengenutzten Immobilie bebaut werden"
+    },
+    "beleihungsauslauf-kapitalanleger-gesonderte-prufung-ab-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger, gesonderte Prüfung ab (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "keine gesonderte Prüfung"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "80%\n– Erbbaurechte\n– vermietete Objekte\n– überwiegend vermietete Objekte (> 50% der Fläche)\n– Baugrundstücke, welche mit einer überwiegend vermieteten Immobilie bebaut werden\n \n70%\n– Vermietete Objekte – Darlehensnehmer: Nicht-EU Staatsbürger\n– Überwiegend vermietete Objekte (> 50% der Fläche) – Darlehensnehmer: Nicht-EU Staatsbürger"
+    },
+    "besonderheiten-finanzierung": {
+      "name": "Besonderheiten Finanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Grüne Baufinanzierung:\nendgültiger Zustand nach Sanierung ist entscheidend\nKlimabonus -0,10 % für Effizienzklasse A+ und A\nEffizienzklasse F: +0,20 % und Effizienzklasse g und H: +0,50 % > sollte ein Objekt mit G oder H innerhalb der ersten 5 Jahre nach Vertragserstellung auf die Effizienzklasse F oder besser saniert werden, dann entfällt der Aufschlag von 0,50 % ab diesem Zeitpunkt\nAntragsstellung:\nBindefristen für Darlehenssummen unter 400.000 Euro:\nAntragseingang inkl. vollständiger Unterlagen vor dem Datum der angekündigten Konditionserhöhung \n \nFür Darlehenssummen ab 400.000 Euro:\nAntragseingang spätestens am 5. Arbeitstag beginnend mit dem Tag der Kalkulation inkl. vollständiger Unterlagen, Rückdatierungen sind nicht möglich."
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24 muss bei mehreren Tranchen identisch sein"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 / 24 muss bei mehreren Tranchen identisch sein"
+    },
+    "darlehensbetrag": {
+      "name": "Darlehensbetrag",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "min. 25.000 €, Ausnahme: KfW-Stan-Alone: mind. 75.000 \nmax. 999.999,99\nBei Einbindung einer Zusatzimmobilie Gesamtdarlehenssumme beider Finanzierungsteile max. 1,5 Mio EUR\nbei Finanzierungssummen unter 400.000 EUR gelten Tableaukonditionen\nbei Finanzierungssummen ab 400.000 EUR gelten Tageskonditionen, eine Rückdatierung ist nicht möglich"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "finanzierung-vorfalligkeitsentschadigung": {
+      "name": "Finanzierung Vorfälligkeitsentschädigung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja (innerhalb von T€ 20)"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten\n\n– maximal 36 Monate im Voraus möglich\n– die ersten 12 Monate sind Freimonate, d. h. für diese ist kein Aufschlag zu kalkulieren\n– die Summe aus Forwardzeit und Zinsbindung darf maximal 40 Jahre betragen\n– die Ablösetermine dürfen insgesamt maximal 18 Monate auseinander liegen\n– Ablösetermine, welche innerhalb eines Monats liegen, können zusammengefasst werden\n– Ablösetermine, die nicht innerhalb eines Monats liegen, müssen separat kalkuliert werden\n– es gibt keine Beschränkung bzgl. der Anzahl der abzulösenden Darlehen zu einem Ablösetermin"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nur bei Anschlussfinanzierungen unter bestimmten Voraussetzungen möglich (Siehe Kriterien Punkt 4.2)"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten"
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Energetisches Modernisierungsdarlehen:\nmin. 50 % der Sanierungskosten sind energetische Maßnahmen (Dach, Fassade, Fenster, Heizung, Photovoltaik + notwendige Gewerke)\nZinsrabatt von 0,10% auf die komplette Allianz-Darlehenssumme\n18 Monate bereitstellungszinsfreie Zeit\nkeine Summen- oder Nachfinanzierungsaufschläge (Mindestdarlehenssumme 25 TEUR)\nKostenvoranschläge ausreichend (kein Sanierungsfahrplan notwendig)\nKombinationsmöglichkeiten: Das energetische Modernisierungsdarlehen kann mit der KfW-Rabattaktion sowie den Effizienzabschlägen (Grüne Baufinanzierung) kombiniert werden"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Kann über die Vorhabenauswahl \"Nachfinanzierung\" in BaufiSmart kalkuliert und beantragt werden."
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Es können lediglich Förder-, Arbeitgeber- oder Privat-/Familiendarlehen eingebunden werden, Nebenkosten müssen aus echtem Eigenkapital erbracht werden."
+    },
+    "nichtabnahmeoption": {
+      "name": "Nichtabnahmeoption",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Bei allen Verwendungszwecken ist eine kostenfreie Nichtabnahme von bis zu 15 % der vereinbarten Darlehenssumme (gilt nur für Allianz-Darlehen) innerhalb von 24 Monaten nach Vertragserstellung möglich.\nEine Nichtabnahmegebühr für diesen Verzicht wird dabei nicht geltend gemacht. Ausgenommen von dieser Regel sind mitbeantragte Förderdarlehen.\nDie ursprünglich vereinbarte Annuität (Leistungsrate) bleibt unverändert, d. h. im Fall der Nichtabnahme erhöht \nsich der Tilgungsanteil innerhalb der Rate."
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "ja, sofern die Allianz in dem Beantragungsprozess (Durchleitung) nicht eingebunden ist."
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird nicht angeboten"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5 bis 40\nMonatsgenaue Zinsbindungen sind \nnicht möglich."
+    },
+    "zusatzobjekt": {
+      "name": "Zusatzobjekt",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "max. eine Immobilie wird als Zusatzsicherheit akzeptiert.\nBei Einbindung einer Zusatzimmobilie darf die Gesamtdarlehenssumme beider Finanzierungsteile 1,5 Mio EUR nicht übersteigen.\nBei Einbindung einer Zusatzimmobilie können die Nebenkosten bis zur Höhe des auf dem Zusatzobjekt besicherten Teildarlehens finanziert werden.\nFür den auf dem Zusatzobjekt abzusichernden Darlehensteil (Mindestdarlehenssumme: 25.000 EUR) muss ein gesonderter Darlehensantrag gestellt werden."
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "wird angeboten\nEine Zwischenfinanzierung kann nur für den Zweck eines geplanten Objektverkaufes und in Kombination mit einem langfristigen Darlehen von mind. 75 T€ (Absicherung auf dem eigentlichen Finanzierungsobjekt) erfolgen."
+    },
+    "erneute-prufung-vor-auszahlung": {
+      "name": "Erneute Prüfung vor Auszahlung",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bonität: in Einzelfällen (besonders bei Selbstständigen)"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5 bis 40 abzüglich Forwardzeit"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Bestanddatenabfrage auf der Plattform ist gewünscht; alternativ: Kontaktaufnahme via Mail an prolongation-leipzig@allianz.de\n \nFolgende Unterlagen sind für eine Bearbeitung erforderlich:\naktuelle Datenschutzerklärung\naktuelle Selbstauskunft oder Allianz Fragebogen (\"Angaben zur Darlehensverlängerung\")\n--> Unterlagenübermittlung ausschließlich per Mail"
+    },
+    "unterschiedliche-auszahlungstermine": {
+      "name": "Unterschiedliche Auszahlungstermine",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "die Ablösetermine dürfen insgesamt maximal 18 Monate auseinander liegen\nAblösetermine, welche innerhalb eines Monats liegen, können zusammengefasst werden\nAblösetermine, die nicht innerhalb eines Monats liegen, müssen separat kalkuliert werden\nGrundsätzlich erstrangige Absicherung gewünscht, kann aber auch über Treuhandauftrag für 2. Umschuldungstermin geregelt werden.\nHier bitte die Kunden ggf. bereits im Vorfeld darauf ansprechen, ob ein abzulösendes Teildarlehen vorübergehend variabel gestellt werden kann."
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-bankenwechsel": {
+      "name": "KfW - Bankenwechsel",
+      "category": "Kriterian KfW Darlehen",
+      "value": "wird nicht angeboten"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "47311819"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "124, 261, 297, 298, 300, 308, 358, 359 nur bestimmte Ausprägungen und keine Kombinatorik von 297/298 möglich; 261: Es werden keine Maßnahmen mehr seitens der Allianz begleitet, bei welchen bereits ein Start der Rückbaumaßnahmen erfolgt ist (unabhängig von eventuellen Bestätigungen der Energieberater oder Architekten), Ausschluss Effizienzhaus \"Denkmal\"\n \nDas Angebot beschränkt sich auf die Sollzinsbindungen von 10 und 20 Jahren und schließt die jeweilige Angebotsvariante mit Tilgungsaussetzung aus. Denkmalgeschützte Objekte werden unabhängig vom Programm nicht begleitet.\n\nHinweis für Programm 124: Die Allianz gewährt für die Energieeffizienzklassen G und H keinen Zinsrabatt, auf die KfW-Mittel, wenn die Immobilie nicht zeitnah saniert wird.\n \nBei Einbindung von KfW-Mitteln ist die erstrangige Sicherstellung Voraussetzung.\nSicherstellung:\n– Die Sicherstellung der KfW-Tranche muss auf dem in der BzA genannten Objekt erfolgen\n– Eine Einbindung einer Zusatzsicherheit ist ausschließlich für die Allianz Mittel möglich"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "ja\n75.000 EUR Mindestdarlehen"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "l-bank-programme": {
+      "name": "L-Bank-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Baden-Württemberg: Landesbank Baden-Württemberg (L-Bank) werden über Allianz gestellt\nSchleswig Holstein: Investitionsbank Schleswig-Holstein (IBSH) wird im Nachrang von allen Banken akzeptiert"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Über BaufiSmart möglich\nNur reduzierte Daten sind zu erfassen (Kundenname und Anschrift, bisherige Darlehensnummer, Bonitätsdaten und Angaben zur Darlehensgestaltung – ggf. sind Nachforderungen von Unterlagen möglich) \nDarlehensdatenanfrage und Ermittlung Angebot über BaufiSmart"
+    },
+    "prolongation-besonderheiten": {
+      "name": "Prolongation Besonderheiten",
+      "category": "Kriterien Prolongation",
+      "value": "Basis für die Kalkulation stellt der ursprünglich ermittelte Beleihungswert dar\nEin Prolongationsaufschlag von aktuell 0,20 % auf die Neugeschäftskonditionen wird berechnet\nAchtung: Bei vorzeitigen Kündigungen (§ 489 BGB) kann kein Prolongationsangebot erstellt werden."
+    },
+    "prolongation-erforderliche-unterlagen": {
+      "name": "Prolongation erforderliche Unterlagen",
+      "category": "Kriterien Prolongation",
+      "value": "Übergabeschreiben\nvon allen Darlehensnehmern, Mithaftern und Sicherungsgebern unterzeichnete Einwilligungserklärung zum Datenschutz > bei Formulare & Medien der Allianz-Seite unter \"Anträge\" hinterlegt\naktuelle Selbstauskunft\nKonditionsangebot\ndie Allianz behält sich vor, nach Prüfung des Kurzfragebogens dennoch Gehaltsabrechnungen anzufordern"
+    },
+    "prolongation-verprovisionierung": {
+      "name": "Prolongation Verprovisionierung",
+      "category": "Kriterien Prolongation",
+      "value": "max. 1,25 % abzgl. Overhead"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Zinsrabatt 0,10 % für Volltilgerdarlehen"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "max. 5%, pro % Punkt 1 BP Konditionsaufschlag"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Finanzierungen bis 80% bei 1%\nFinanzierungen ab 80% bei 2%\nAlter jüngster DN ≥ 60 Jahre Mindesttilgung liegt bei 3% (Ausnahme: BestAger-Darlehen)"
+    },
+    "tilgungsaussetzung": {
+      "name": "Tilgungsaussetzung",
+      "category": "Kriterien Tilgung",
+      "value": "Während der Zinsfestschreibungszeit kann auf Antrag einmalig eine Tilgungsaussetzung von bis zu 12 Monaten \nbei Vorliegen folgender Gründe gewährt werden:\n– Kurzarbeit oder Arbeitslosigkeit\n– Unfall\n– Berufs- oder Erwerbsunfähigkeit\n– Geburt oder Adoption eines Kindes oder Elternzeit \n– Trennung oder Scheidung\n– längere Krankheit\n\nDas Ereignis muss in geeigneter Weise spätestens 6 Monate nach Eintritt nachgewiesen (z. B. Bescheid \nArbeitsamt, Bescheinigung Arzt etc.) und die Tilgungsaussetzung schriftlich beantragt werden. Die \nAusübung einer Tilgungsaussetzung hat keinen Einfluss auf die Konditionierung."
+    },
+    "tilgungsbeginn": {
+      "name": "Tilgungsbeginn",
+      "category": "Kriterien Tilgung",
+      "value": "Ist bei Beantragung immer anzugeben, kann unabhängig von der Auszahlung gewählt werden (spätester Beginn max. 24 Monate nach Genehmigung).\n \nUnabhängig von der Vorgabe des gewünschten Tilgungsbeginns setzt die Tilgung frühestens mit Fälligkeit der ersten Rate nach Vollauszahlung des Darlehens ein."
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Ein Tilgungssatzwechsel ist während der Zinsbindung zweimal gebührenfrei in der Spanne von 2% bis 4% oder auf den anfänglich vereinbarten Tilgungssatz möglich (z.B. Volltilger).\nBei einer Reduzierung des Tilgungssatzes darf die jeweilige Mindesttilgung nicht unterschritten werden. Evtl. gewährte Tilgungsrabatte entfallen, wenn der anfängliche Tilgungssatz unterschritten wird.\nSollte der Tilgungssatz wieder erhöht werden, wird kein Tilgungsrabatt mehr gewährt. Die Darlehenssumme darf maximal 999.999 € betragen"
+    },
+    "auslandsimmobilie": {
+      "name": "Auslandsimmobilie",
+      "category": "Kriterien Objekt",
+      "value": "nein"
+    },
+    "bauweise": {
+      "name": "Bauweise",
+      "category": "Kriterien Objekt",
+      "value": "– Massivbauweise\n– Fachwerkhäuser\n– Fertig- und Holzbauhäuser (Die Fertighausfirma muss eine Niederlassung in Deutschland haben.) \n– keine Beleihung von Ausbauhäusern\n– keine Beleihung von Blockbohlenhäusern\n– keine Beleihung von Plattenbauten\n– keine Beleihung von Container-/Modulbauweisen\n– keine Beleihung von Tiny-Häusern \n– keine Beleihung von A-frame-Häusern\n– keine Beleihung von Ytong-Selbst- / Mitbauhäusern"
+    },
+    "besonderheiten-zum-objekt": {
+      "name": "Besonderheiten zum Objekt",
+      "category": "Kriterien Objekt",
+      "value": "regionale Konditionsaufschläge zwischen 0,05% und 0,15%\nEigentumswohnungen in Zweifamilienhäusern, WEG geteilteZweifamilienhäuser, Seniorenimmobilien/Betreutes Wohnen, Ferienimmobilien, Resthöfe, Bauernhöfe und ähnliche Immobilien sind ausgeschlossen. \nFinanzierung von Photovoltaikanlagen möglich (Voraussetzung: Installation auf Finanzierungsobjekt) \nObjektlage außerhalb geschlossener Ortschaften wird nicht finanziert"
+    },
+    "bodenrichtwert-euro": {
+      "name": "Bodenrichtwert (€)",
+      "category": "Kriterien Objekt",
+      "value": "mindestens 25 EUR/m² Bauland  \nBei Unterschreitung des Mindestbodenwertes ist eine Voranfrage möglich."
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Ja (Bitte als Voranfrage wg. Energieeffizienzpricing), KfW 261: Effizienzhaus \"Denkmal\" wird nicht finanziert"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Eigenleistungen werden bis zu 30.000 EUR akzeptiert. \nEine Aufstellung bezüglich der geplanten Maßnahmen ist einzureichen. Bei Eigenleistungen bis zu 50.000 EUR kann eine Voranfrage gestellt werden."
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "Bei Inanspruchnahme der Effizienzrabattierung (Klasse A / A+) benötigt die Allianz einen Bedarfsausweis, spätestens nach Fertigstellung des Bauvorhabens oder Sanierungsmaßnahmen. Ein Verbrauchsausweis reicht nicht mehr aus."
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "öffentliches und kirchliches Erbbaurecht sowie Erbbaurechte von Stiftungen des öffentlichen Rechts und kirchlichen Stiftungen.\n\n \n\n1. Falls nicht bereits im Erbbaurechtsvertrag geregelt bzw. die grundbuchrechtlich notierte Vereinbarung gemäß § 9 Abs. 3 Nr. 1 ErbbauRG vorliegt, wird die vom Erbbaurechtsgeber unterschriebene Erklärung zum Erbbaurecht benötigt (der entsprechende Vordruck ist auf den Plattformen als Muster hinterlegt.). Die Erklärung zum Erbbaurecht muss vor Darlehensauszahlung vom Grundstückseigentümer unterschrieben vorliegen.\n\n \n\n2. Zum Zeitpunkt des Antrags muss die Restlaufzeit des Erbbaurechts mindestens 40 Jahre betragen. Das Darlehen muss durch die planmäßige Tilgung 10 Jahre vor Ablauf des Erbbaurechts zurückgeführt sein.\n\n \n\nKeine Finanzierung von privaten Rechten und Finanzierungsbedarf < 80%"
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Ja, die Fertighausfirma muss eine Niederlassung in Deutschland haben."
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "50\nAusgeschlossen sind hierbei die gewerbliche Nutzung folgender Branchen: Fitnesscenter, Bäder, Saunen, Kletterhallen, Spielhallen und Rotlichtmilieu."
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "49,99"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "keine Begrenzung"
+    },
+    "mfh-moglich": {
+      "name": "MFH möglich?",
+      "category": "Kriterien Objekt",
+      "value": "ja"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "– Ein-, Zwei- und Dreifamilienhäuser \n– Eigentumswohnungen\n– Doppelhaushälften, Reihenhäuser \n– Baugrundstücke\n– Mehrfamilienhäuser\n– Wohn- und Geschäftshäuser\n \nregionale Konditionsaufschläge zwischen 0,05% und 0,15%\nTiny- und Ausbauhäuser, Blockbohlen-, Platten und Container-/Modulbauweisen, Ytong Selbst- und Mitbauhäusern: werden nicht finanziert\nResthöfe, Ferien- und Betreuungsimmobilien:\nwerden nicht finanziert\nFinanzierung von Photovoltaikanlagen möglich (Voraussetzung: Installation auf Finanzierungsobjekt)"
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Sprengnetter - Wertermittlungsverfahren auf der Plattform: Gestehungskosten\n \nSachwertverfahren:\nGrundstücke\nETW\nEFH, ZFH\nErtragswertverfahren:\nDreifamilienhaus und MFH\nWohn- und Geschäftshäuser"
+    },
+    "objektgutachten": {
+      "name": "Objektgutachten",
+      "category": "Kriterien Objekt",
+      "value": "Grundsätzlich wird im Rahmen der Beleihungswertermittlung seitens der Allianz eine Außen- und Innenbesichtigung durchgeführt. Die Außenbesichtigung erfolgt hierbei bereits bei Antragsstellung, die Innenbesichtigung erfolgt vor bzw. bei Neubauten während der Auszahlungsphase."
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "bundesweit"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "werden finanziert\nBei Baugrundstücken muss eine Bebauungsabsicht vorliegen und die Bonität (ausreichender Haushaltsüberschuss) die Finanzierung der Baukosten ermöglichen."
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Wertmindernde Vorlasten werden nicht akzeptiert. \nHINWEIS: Vorkaufsrechte (sofern diese betragsmäßig beziffert sind) und Rückauflassungsvormerkungen, die nicht sowohl bedingt als auch befristet sind, müssen im Rang zurücktreten.\nBohr- und Schürfrechte, die nach dem 31.12.1979 eingetragen wurden, müssen ebenfalls im Rang zurücktreten.\n \nSofern ein Rangrücktritt nicht realisiert werden kann (Klärung muss bei Antragstellung erfolgt sein), ist eine Finanzierung bei der Allianz nicht möglich.\n \nDie Finanzierung von Objekten, bei denen eine Mietbindung besteht, ist nicht möglich.\n \nKäufe innerhalb der Familie, bei denen in Abt. II des Grundbuchs bereits Negativmerkmale (z.B. Sicherungshypothek oder Zwangsversteigerung) vermerkt sind, werden nicht begleitet, auch wenn diese Rechte zwischenzeitlich gelöscht wurden."
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Vorlasten werden akzeptiert, wenn der Auslauf (kapitalisierte Vorlast* inkl. der beantragten Finanzierung) 90 % bei eigengenutzten bzw. 80 % bei vermieteten Objekten des Verkehrswertes nicht übersteigt. Zudem darf die kapitalisierte Vorlast nicht größer als das beantragte Allianzdarlehen sein.\n *Kapitalisierung des Nominalbetrags zzgl. dinglicher Zinsen für 2 Jahre. Kapitalisierung auf Restvaluta nur möglich, wenn die freien Grundschuldteile an die Allianz abgetreten und die Abtretung der Rückgewährsansprüche bestätigt wird\n\nAusnahmen: Absicherung auf Zwischenfinanzierungs- und Zusatzobjekten\n \nKäufe innerhalb der Familie, bei denen in Abt. III des Grundbuchs bereits Negativmerkmale (Sicherungshypothek oder Zwangsversteigerung) vermerkt sind, werden nicht begleitet, auch wenn diese Rechte zwischenzeitlich gelöscht wurden."
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "40 \nBei MFH müssen mindestens 80 % der Einheiten diese Mindestwohnfläche haben."
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "möglich, Ausnahme: nicht innerhalb der Familie"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "nachhaltiges Einkommen nach Ablauf des Elterngeldbezuges (Bestätigung des Arbeitgebers über Umfang und Bezahlung des künftigen Arbeitsverhältnisses muss vorgelegt werden)"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "13 (wenn Nachweis vorliegt)"
+    },
+    "ansatz-nebeneinkunfte": {
+      "name": "Ansatz Nebeneinkünfte",
+      "category": "Kriterien Person",
+      "value": "Ja, bei einem mindestens seit 6 Monaten bestehenden Arbeitsverhältnis (Mini-Job)"
+    },
+    "ansatz-pflegegeld": {
+      "name": "Ansatz Pflegegeld",
+      "category": "Kriterien Person",
+      "value": "kein Ansatz"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "In EURO bezahlte unbefristete Renten und Pensionen"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Unterhaltszahlungen bis zum Alter von 14 Jahren"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "generell nein\nAusnahme: Ein Nicht-EU-Bürger, der keine unbefristete Aufenthaltsgenehmigung besitzt kann Darlehensnehmer werden, wenn der weitere Darlehensnehmer die Belastung aus dem Darlehen alleine tragen kann und EU-Bürger ist."
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Ja, bei\n– wissenschaftlichen Mitarbeitern\n– Lehrer\n– Krankenschwester/-pfleger\n– Pflegekräfte\n– Erzieher\n– Vorstände\n– Geschäftsführer\n– Ärzte\n \n> Befristung darf frühestens in 6 Monaten enden\n \nBeamte auf Probe werden ebenfalls akzeptiert."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner\nBei Schweizer Staatsangehörigkeit muss der Antragsteller mind. 5 Jahre bei max. 2 verschiedenen AG beschäftigt sein\nbefristete Arbeitsverhältnisse von wissenschaftlichen Mitarbeitern werden akzeptiert, sofern die Befristung frühestens in 6 Monaten endet\nBeamte auf Probe werden akzeptiert\nDas Einkommen von Angestellten in den Branchen Fitnesscenter, Bäder, Saunen, Kletterhallen, Spielhallen und im Rotlichtmilieu darf in der Haushaltsrechnung nicht berücksichtigt werden.\nMitarbeiter des Allianz Konzerns können über diesen Vertriebsweg nicht finanziert werden."
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Gehaltsansatz: Vorjahresdurchschnitt (Aktuelles Einkommen muss den Durchschnitt bestätigen)\ngrundsätzlich müssen alle Eigentümer auch Darlehensnehmer werden\nAntragsteller mit Schweizer Staatsangehörigkeit können Darlehensnehmer werden wenn:\nunbefristete Aufenthaltserlaubnis besteht\nder weitere Darlehensnehmer die Belastung aus dem Darlehen alleine tragen kann und EU-Bürger ist\nAlleiniger verheirateter Antragssteller:in mit Gütertrennung\nDie Mithaft des Ehepartners muss unabhängig vom Güterstand ab 50 % vorgenommen werden\nBaukindergeld: Wird beim Einkommen berücksichtigt - Erhöhung des mtl. Nettoeinkommens um 100 EUR je Kind (max. 300 EUR)"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "max. 4"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "Mieteinkünfte aus weiterem Immobilienvermögen werden mit 75% der Kaltmiete angerechnet. \nEs erfolgt kein Ansatz von Mieteinkünften aus Ferienimmobilien."
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "ja\nDie freiberufliche Tätigkeit muss seit mindestens 36 Monaten ausgeführt werden. \nBei Beleihungen über 80 % muss diese Tätigkeit seit mindestens 60 Monaten bestehen.\n \nEine Vorsorgepausche iHv 500 EUR wird in der HHR automatisch nach Auswahl \"Freiberufler\" mit aufgenommen.\n \nEinkommen aus selbstständiger Arbeit in Deutschland (Durchschnitt der letzten 3 Jahre, sofern keine rückläufige Tendenz)"
+    },
+    "getrennt-lebende-darlehensnehmer": {
+      "name": "Getrennt lebende Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Bei geschiedenen und getrennt lebenden Antragstellern muss eine Kopie der Scheidungsfolgevereinbarung vorgelegt werden"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland = Ja\nAkzeptierte Währung = EUR\nWohnsitz & Gehaltsbezug im Ausland = nein\nHinweis = Nur bei guter Bonität - Voranfrage stellen, unbefristet. EK muss vor mind. 5 Jahren in Deutschland eingeführt worden sein Antragsteller mit Schweizer Staatsangehörigkeit können Darlehensnehmer werden wenn:- unbefristete Aufenthaltserlaubnis besteht- der weitere Darlehensnehmer die Belastung aus dem Darlehen alleine tragen kann und EU-Bürger ist"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "0"
+    },
+    "kapitalanleger": {
+      "name": "Kapitalanleger",
+      "category": "Kriterien Person",
+      "value": "Deutschland, jedoch nicht in Städten mit einer Einwohnerzahl < 50.000 in Sachsen, Thüringen, Sachsen-Anhalt, Brandenburg oder Mecklenburg-Vorpommern \nBei einer Unterschreitung der Einwohnerzahl ist eine Voranfrage möglich.\n \nAnrechnung der Einkünfte:\nMieteinkünfte aus weiterem Immobilienvermögen (75% der Kaltmiete)"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Für Kunden ab 60 Jahren wird das Einkommen aus selbständiger und nichtselbständiger Tätigkeit i.d.R. nur zu 70% angesetzt. Zusätzlich gelten folgende Besonderheiten hinsichtlich der Mindesttilgung und dem maximalen Finanzierungslauslauf:\n \n60 – 64 Alter des jüngsten Darlehensnehmers, Mindesttilgung 3%, max. Finanzierungsauslauf 90% (80% bei vermieteten Objekten)\n65 – 69 Alter des jüngsten Darlehensnehmers, Mindesttilgung 3%, max. Finanzierungsauslauf 80%\n70 – 74 Alter des jüngsten Darlehensnehmers, Mindesttilgung 3%, max. Finanzierungsauslauf 50%\nab 75 Alter des jüngsten Darlehensnehmers, Mindesttilgung 3%, max. Finanzierungsauslauf 40%"
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "nein"
+    },
+    "negativmerkmale": {
+      "name": "Negativmerkmale",
+      "category": "Kriterien Person",
+      "value": "Finanzierung nicht möglich"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Darlehen können nur vergeben werden, wenn die Darlehensnehmer entweder EU- oder EFTA-Bürger sind oder eine unbefristete Aufenthaltserlaubnis besitzen. Ein Nicht-EU/EFTA-Bürger, der eine befristete Aufenthaltserlaubnis oder BlueCard besitzt, kann Darlehensnehmer werden, wenn \ner Miteigentümer der zu finanzierenden Immobilie wird und der weitere Darlehensnehmer EU-Bürger ist und die Belastung aus dem Darlehen alleine tragen kann.\n \nEin Einkommensansatz kann nur erfolgen, wenn\n– die Einkommensvergütung in Euro erfolgt,\n– die Renteneinkünfte in Euro gezahlt werden und\n– die betreffende darlehensnehmende Person eine Niederlassungserlaubnis besitzt.\n \nDevisenausländer (Privatpersonen mit Wohnsitz im Ausland, die im Inland Finanzgeschäfte tätigen) oder selbstständige Nicht-EU-Bürger können keine Finanzierung erhalten."
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Nein"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "ab 60 Jahre mind. 3% Tilgung und max 90% (80% vermietete Objekte) BLA\nab 65 Jahre mind. 3% Tilgung und max. 80% BLA\nab 70 Jahre mind. 3% Tilgung und max. 50% BLA\nab 75 Jahre mind. 3% Tilgung und max. 40% BLA"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "ja\nDie Selbstständigkeit muss seit mindestens 36 Monaten ausgeführt werden. \nBei Beleihungen über 80 % muss diese Tätigkeit seit mindestens 60 Monaten bestehen.\n \nKunden, die in folgenden Branchen selbstständig tätig sind, werden als Darlehensnehmer oder Mithafter nicht \nakzeptiert:\n– Fitnesscenter\n– Bäder, Saunen \n– Kletterhallen\n– Spielhallen\n– Rotlichtmilieu\n\nGeschäftsführende Gesellschafter gelten immer als selbstständig, unabhängig von der Beteiligungshöhe.\n \nEs werden maximal 2 Firmenbeteiligungen pro Finanzierungsantrag akzeptiert. Hiervon ausgenommen \nsind reine Anlageprodukte (z. B. Schiff-/Filmfonds).\n \nEine Vorsorgepausche iHv 500 EUR wird in der HHR automatisch nach Auswahl \"selbstständig\" mit aufgenommen.\n \nEinkommen aus selbstständiger Arbeit in Deutschland (Durchschnitt der letzten 3 Jahre, sofern keine rückläufige Tendenz)"
+    },
+    "zeitsoldat": {
+      "name": "Zeitsoldat",
+      "category": "Kriterien Person",
+      "value": "Zeitsoldaten mit einer Restbeschäftigung von 8 Jahren oder am Ende einer mind. 8-jährigen Dienstzeit im Wechsel zum neuen zivilen Arbeitgeber werden akzeptiert"
+    },
+    "ablosung-ratenkredite": {
+      "name": "Ablösung Ratenkredite",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Möglich: Bis 20 TEUR - Bank zahlt an Kunden aus. Daher werden die Raten weiter angesetzt"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "benotigte-unterlagen": {
+      "name": "Benötigte Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Durch vollständige Anträge reduzieren sich unmittelbar die Bearbeitungszeiten und vermeiden Nachforderungen bei Deinen Kund:innen. Achte daher bitte besonders auf:\nMittelherkunftsnachweis der Allianz (vollständig ausgefüllt und unterschrieben)\nvollständige und aktuelle Eigenkapitalnachweise (Kontonummer und Kontoinhaber müssen ersichtlich sein)\nKostenaufstellungen, die aktuell UND plausibel zum Finanzierungsplan im Antrag sind\nvon allen Antragstellern unterschrieben KfW-Anträge\nzum Vorhaben passende Onlinebestätigung (BzA) zu den KfW-Anträgen\nvollständige Kontaktdaten der Kund:innen (eigene Mailadresse für Videolegitimation)\nvollständig ausgefüllte und unterschriebene Datenschutzerklärung (DSE) - spezifisches Formular der Allianz (Achte bitte hierbei auf die Erklärung zur Mittelaufnahme (Seite 3), die von Antragsteller:innen abgegeben werden muss.) - zwingend zusätzlich zur Selbstauskunft, bei der DSE müssen alle Seiten zusammen in einem Dokument übertragen werden!\nNachweise zum Vorjahreseinkommen\nInformationen zu laufenden Modernisierungen bei Bestandsobjekten\nEnergieausweise (Energieeffizienz wirkt sich auf die Preisfindung aus)\nvollständiger und aktueller Grundbuchauszug"
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein, eventuell wird dies aber stichprobenartig angefordert"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": ""
+    },
+    "einreichungversand-unterlagennachlieferungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen/Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "per Upload \nAchtung: Bei Prolongationen muss die Zusendung per Mail erfolgen"
+    },
+    "honorarberatung": {
+      "name": "Honorarberatung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "c\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "PostIdent und Videolegitimation\nVertragsdruck erfolgt durch die Allianz und Versand an Kund:innen\nkeine Qualifizierte Elektronische Signatur (QES)"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "ja"
+    },
+    "objektbesichtigung": {
+      "name": "Objektbesichtigung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Grundsätzlich wird im Rahmen der Beleihungswertermittlung seitens der Allianz eine Außen- und Innenbesichtigung durchgeführt. Die Außenbesichtigung erfolgt hierbei bereits bei Antragstellung, die Innenbesichtigung erfolgt vor bzw. bei Neubauten während\nder Auszahlungsphase.\n \nBitte weise die Kund:innen während der Beratung darauf hin, dass die Allianz umgehend nach der Produzentenauswahl eine Außenbesichtigung von einem externen Dienstleister durchführen lässt. Eine zusätzliche Innenbesichtigung wird zu einem späteren Zeitpunkt nach vorheriger Terminabsprache durchführt."
+    },
+    "qes-elektronische-unterschrift": {
+      "name": "QES (elektronische Unterschrift)",
+      "category": "Kriterien weitere Hinweise",
+      "value": "nein"
+    },
+    "upload-darlehensvertrag": {
+      "name": "Upload Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "vermittlerausfertigung-darlehensvertrag": {
+      "name": "Vermittlerausfertigung Darlehensvertrag",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja, per Email und per Post an Antragsteller"
+    },
+    "weitere-hinweise": {
+      "name": "Weitere Hinweise",
+      "category": "Kriterien weitere Hinweise",
+      "value": "KEINE Mehrfachannahme (Fall annehmen, zurückziehen und neu annehmen - über Schnittstelle wird jedes mal ein Kunde im Allianz-System neu angelegt und scorerelevante Schufaanfrage getätigt)\nWenn Kunde die Angabe eines Ratenkredites vergisst, wird der Fall unwiderruflich abgelehnt\nDoppelteinreichungen (über 2 Vermittler) führen zur sofortigen Ablehnung"
+    }
+  },
+  "company_id": "d20e1661cfb855966663a1094d37c68b",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/d20e1661cfb855966663a1094d37c68b",
+  "bank_category": "Überregionale Anbieter",
+  "last_modified": "07.04.26",
+  "recent_news": [
+    {
+      "date": "27.04.26",
+      "title": "Allianz - Reminder!: Sonderaktion \"Volltilger schlafen besser\""
+    },
+    {
+      "date": "25.03.26",
+      "title": "Allianz - Sonderaktion \"Volltilger schlafen besser\""
+    },
+    {
+      "date": "24.03.26",
+      "title": "Allianz - Konditionserhöhung zum 27.03.2026 - Anpassung BaufiSmart sofort"
+    },
+    {
+      "date": "17.03.26",
+      "title": "Allianz - Konditionserhöhung zum 20.03.2026 - Anpassung BaufiSmart sofort"
+    },
+    {
+      "date": "10.03.26",
+      "title": "Allianz - Konditionserhöhung zum 13.03.2026 - Anpassung BaufiSmart sofort"
+    }
+  ]
+}

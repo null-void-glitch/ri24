@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kooperationen - Makler - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="assets/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+<style>
+  #koop-table thead th { background-color: #333333 !important; font-size: 12px; }
+  #koop-table td small { color: #555; font-size: 11px; line-height: 1.4; display: block; max-width: 420px; }
+</style>
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Makler › Kooperationen (/adm/individuell/master/makler/kooperation/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. 24 real cooperation entries. Logos hotlinked from bilder.regionalimmobilien24.de CDN. Operation buttons (bearbeiten/sort/löschen) are decorative in the prototype.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li class="active">
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li class="active"><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Kooperationen</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Makler</a></li><li class="breadcrumb-item active"><strong>Kooperationen</strong></li></ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Kooperationen &nbsp;<span class="badge" style="background:#5b9bd5">24</span></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <a href="../makler-kooperationen-new/index.html" class="btn btn-success btn-sm pull-right" style="margin-bottom:10px;"><i class="fa fa-plus"></i> Neue Kooperation</a><div class="clearfix"></div>
+<div class="table-responsive">
+    <table id="koop-table" class="table table-striped table-bordered table-hover">
+        <thead><tr>
+    <th style="width:60px;">Sortierung</th>
+    <th style="width:220px;">Name</th>
+    <th style="width:70px;">Logo</th>
+    <th>Beschreibung</th>
+    <th style="width:120px;">Link</th>
+    <th style="width:120px;"></th>
+</tr></thead>
+        <tbody><tr><td style='vertical-align:middle;'><span class="badge badge-default">-1</span></td><td style='vertical-align:middle;'><strong>onOffice</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/658987be_onOffice_Logo2024_blue-black_RGB.png" alt="onOffice" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Immobiliensoftware, WP-Websites, App und Online-Marketing-ProdukteZusammenarbeit mit Maklern und ...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Energieausweis 48</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/533aaff0_logo-energieausweis48.png" alt="Energieausweis 48" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere ImmobilienanbieterIm Full- und Selfservice verfügbarBedarfs- und ...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Geoport</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/a9a2b1aa_logo-geoport.png" alt="Geoport" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere ImmobilienanbieterGrundbuchauszüge, Flurkarten uvm.transparente K...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>CRIF GmbH</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/974b72c6_crif-logo.png" alt="CRIF GmbH" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere ImmobilienanbieterInkassoservice ohne RisikoLösungen aus einer Hand</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>offmarket24</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/608b82d6_offmarket24-logo-black-new.png" alt="offmarket24" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere ImmobilienanbieterIhre Immobilien als Off-Market Objekt für über...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Sax-Haus</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/6d602e81_PastedGraphic-1.png" alt="Sax-Haus" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Bankeingewertete Bestandsobjekte mit ausreichender VerfügbarkeitÜberdurchschnittliche Provision...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>vreed</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/2bafa7c2_vreed-Logo-RGB.png" alt="vreed" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere ImmobilienanbieterOnline-Planung von energetischen Sanierungeninkl...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Energy & Finance</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/a4d3fc30_md2x.png" alt="Energy & Finance" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen bei der Einstufung als Energy-Scout (Empfehlungsgeber) oder Energy-Guide (Verm...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>prokonzept</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/64bacff3_logo_prokonzept.png" alt="prokonzept" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere Partnerschnell verständliches CRM für mehr Zeit im VertriebAPIs ...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>FinCompare</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/cb16889d_fincompare_blu.jpg" alt="FinCompare" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Gewerbefinanzierung für den MittelstandUnabhängige FinanzierungslösungenAnfrage in nur 2 Minuten</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Maklersprechstunde</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/3ccac330_makelrsprechstunde.PNG" alt="Maklersprechstunde" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Die Immobilien Makler Communitykostenfreie Weiterbildung für die Immobilienbranche</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>ilogu</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/f7e5f639_Logo.jpg" alt="ilogu" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>moderne Maklersoftware mit zahlreichen Automatisierungenintelligente Funktionen und Nutzung von K...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Bottimmo</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/390e1093_logo-bottimmo.png" alt="Bottimmo" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>kraftvolle Werbemittelkreativer KI-Textgeneratordigitale Tools: Immobilienbewertung, Rückrufbitt...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>WhoFinance</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/da1addf9_Bild1.png" alt="WhoFinance" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Deutschlands führender Marktplatz für FinanzberatungWhoFinance verbindet Kunden mit empfohlenen...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Erfolgskurs Bildungswerk</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/4f92b6c9_9_Logo-Erfolgskurs-MW.jpg" alt="Erfolgskurs Bildungswerk" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Online Pflichtfortbildung nach MaBVErfahrene Referenten vermittelen ihr Wissen praxisnah, aktuell...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>FinLink</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/8190e4db_logo-finlink.png" alt="FinLink" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Leistungsfähiges Baufinanzierungs-CRM mit optimaler Anbindung von eHyp und EuropaceUmfangreicher...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>McEnergieausweis</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/02dea9ad_mcmakler_energieausweis_logo_rgb.png" alt="McEnergieausweis" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>• 30% Rabatt für Ihre Kunden (Rabattcode auf Nachfrage erhältlich)• Bedarfs- und Verbrauchs...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>McMakler Energieberatung</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/8b9ed4cb_McEnergieberatung.png" alt="McMakler Energieberatung" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>• Vorzugskonditionen für Ihre Kunden• Staatlich geförderte Energieberatung ab 790 €• Sa...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Bodenrichtwerte Online</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/30788850_logo_boris-d.png" alt="Bodenrichtwerte Online" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Boris-D DatenbankBodenrichtwertinformationssystem für DeutschlandGemeinschaftsprojekt mehrerer B...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>HNG - Systemimmo</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/1c83f5a6_logo-hng.png" alt="HNG - Systemimmo" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Beraten Sie Ihre Kunden zum Thema Immobilie als Kapitalanlage und zur Altersvorsorge.Profitieren ...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>REALXLAB</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/bdd60eb9_logo_realxlab.png" alt="REALXLAB" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>RealXLab unterstützt Sie beim Aufbau und der Optimierung von unabhängigen Systemen (Google, Fac...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>finCRM</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/bdee7604_logo-fincrm-neu.png" alt="finCRM" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Vorzugskonditionen für unsere Immobilienanbietermodernes CRM für FinanzierungsberaterSchnittste...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">0</span></td><td style='vertical-align:middle;'><strong>Betongold Gutachten GmbH</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/f17b5ae4_Betongold-Logo-gruen_small-768x242.png" alt="Betongold Gutachten GmbH" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>Steuervorteile von Immobilien sichtbar machenRestnutzungsdauergutachten kostenlos als Vorabgutach...</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr><tr><td style='vertical-align:middle;'><span class="badge badge-default">6</span></td><td style='vertical-align:middle;'><strong>Pacta Invest</strong></td><td style='vertical-align:middle;'><img src="https://bilder.regionalimmobilien24.de/get-file/img/images/system_ri24/kooperation/v/50x50/crop/31f4d2a4_pacta-invest.png" alt="Pacta Invest" style="max-width:50px;max-height:50px;object-fit:contain;"></td><td style='vertical-align:middle;'><small>garantierter Ankauf von Policenattraktive Vergütungkein administrativer Aufwand</small></td><td style='vertical-align:middle;'></td><td style='vertical-align:middle;'><a href="../makler-kooperationen-edit/index.html" class="btn btn-default btn-xs" title="bearbeiten"><i class="fa fa-pencil"></i></a> <a href="#" class="btn btn-default btn-xs" title="Sortierung ändern"><i class="fa fa-sort"></i></a> <a href="#" class="btn btn-danger btn-xs" title="löschen"><i class="fa fa-trash"></i></a></td></tr></tbody>
+    </table>
+</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+<script src="assets/js/plugins/dataTables/datatables.min.js"></script>
+
+<script>
+$(function () {
+    
+$.extend(true, $.fn.dataTable.defaults, {
+    language: {
+        emptyTable: "Keine Daten in der Tabelle vorhanden",
+        info: "_START_ bis _END_ von _TOTAL_ Einträgen",
+        infoEmpty: "0 bis 0 von 0 Einträgen",
+        infoFiltered: "(gefiltert von _MAX_ Einträgen)",
+        lengthMenu: "_MENU_ Einträge anzeigen",
+        loadingRecords: "Wird geladen...",
+        processing: "Bitte warten...",
+        search: "Suchen:",
+        zeroRecords: "Keine Einträge vorhanden.",
+        paginate: {
+            first: "Erste",
+            previous: "Zurück",
+            next: "Nächste",
+            last: "Letzte"
+        },
+        aria: {
+            sortAscending: ": aktivieren, um Spalte aufsteigend zu sortieren",
+            sortDescending: ": aktivieren, um Spalte absteigend zu sortieren"
+        }
+    }
+});
+
+    $('#koop-table').DataTable({
+        autoWidth: false,
+        pageLength: 25,
+        columnDefs: [
+            { width: '60px',  targets: 0 },
+            { width: '200px', targets: 1 },
+            { width: '70px',  targets: 2, orderable: false },
+            { width: '110px', targets: 4, orderable: false },
+            { width: '110px', targets: 5, orderable: false },
+        ]
+    });
+});
+</script>
+</body>
+</html>

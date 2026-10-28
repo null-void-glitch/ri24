@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - RI24 SEO</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  /* Prototype note banner — not part of the Inspinia theme itself */
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+<div class="prototype-banner">
+    <strong>Prototype</strong> — Dashboard &rarr; Makler (/adm/individuell/master/dashboard/makler/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10.
+</div>
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li class="active">
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li class="active"><a href="../dashboard-makler/index.html">Makler</a></li>
+                    <li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li>
+                    <li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                    
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li>
+                    <li><a href="../makler-anfragen/index.html">Anfragen</a></li>
+                    <li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                    
+                    
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li>
+                    <li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li>
+                    <li><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li>
+                    <li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li>
+                    <li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li>
+                    <li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Dashboard - RI24 SEO</h2>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+            <li class="breadcrumb-item active"><strong>Makler</strong></li>
+        </ol>
+    </div>
+</div>
+
+        
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl Kontaktanfragen</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    <div class="row m-b-sm">
+        <div class="col-sm-2"><h2 class="no-margins">3993</h2><small>gesamt</small></div>
+    </div>
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            <select name="source" class="form-control input-sm"><option value="" selected>Alle Seiten</option><option value="list">Listenanzeige</option><option value="expose">Exposé</option><option value="maklerprofil">allgemeiner Kontakt Makler-Profil</option><option value="maklerprofillist">Listeneintrag Makler-Profil</option><option value="merkzettel">Merkzettel</option><option value="searchagentlist">neue Treffer aus Suchagent (Liste Kundenkonto)</option><option value="null">unbekannt/alt</option></select><select name="va" class="form-control input-sm"><option value="" selected>Alle Typen</option><option value="miete">Mietobjekte</option><option value="kauf">Kaufobjekte</option><option value="null">unbekannt/alt/allgemein</option></select><div class="m-t-sm"><select name="origin" class="form-control input-sm"><option value="all">Quellen/Referrals</option><option value="null">Organisch</option><option value="1">Google Ads</option><option value="10">Facebook</option><option value="referral">Referral (gruppiert)</option><option value="2">thribee (Mitula/nestoria)</option><option value="5">classmarkets</option><option value="9">immobilo</option><option value="3">trovit</option><option value="4">immosuchmaschine.de</option><option value="8">Main-Echo</option><option value="6">Südwest Presse</option><option value="7">Süddeutsche</option><option value="11">spotahome</option><option value="12">Wohnglück</option></select></div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <div class="row m-b-md">
+        <div class="col-sm-3"><span class="label label-success">Organisch: 3149</span></div>
+        <div class="col-sm-3"><span class="label label-info">Google Ads: 375</span></div>
+        <div class="col-sm-3"><span class="label label-primary">Facebook: ---</span></div>
+        <div class="col-sm-3"><span class="label label-warning">Referral: 469</span></div>
+    </div>
+    <div class="flot-chart">
+        <div class="flot-chart-content" id="chart-contact"></div>
+    </div>
+
+            </div>
+        </div></div></div>
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl Makler</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <div class="flot-chart"><div class="flot-chart-content" id="chart-makler"></div></div>
+
+            </div>
+        </div></div></div>
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl aktiver eigener Objekte</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <div class="flot-chart"><div class="flot-chart-content" id="chart-own"></div></div>
+
+            </div>
+        </div></div></div>
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl aktiver Fremdobjekte</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <div class="flot-chart"><div class="flot-chart-content" id="chart-ext"></div></div>
+
+            </div>
+        </div></div></div>
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl aktiver Immobilien</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <table class="table table-striped m-b-md">
+        <thead><tr><th>Quelle</th><th>online</th><th>letzte Lieferung</th><th>Onlinerate</th></tr></thead>
+        <tbody><tr style="font-weight:bold;"><td>gesamt</td><td>114.628</td><td></td><td></td></tr><tr><td>Intern</td><td>56.831</td><td></td><td></td></tr><tr><td>immobilien.de</td><td>0</td><td>0</td><td></td></tr><tr><td>wohnung-jetzt.de</td><td>3.973</td><td>10.052</td><td>39,5%</td></tr><tr><td>classmarkets</td><td>8.237</td><td>13.582</td><td>60,6%</td></tr><tr><td>immobilienpool</td><td>47</td><td>886</td><td>5,3%</td></tr><tr><td>versteigerungspool</td><td>646</td><td>654</td><td>98,8%</td></tr><tr><td>Wohnglück</td><td>40.899</td><td>61.633</td><td>66,4%</td></tr><tr><td>Spot A Home</td><td>3.995</td><td>4.033</td><td>99,1%</td></tr></tbody>
+    </table>
+    <div class="flot-chart" style="height: 350px;">
+        <div class="flot-chart-content" id="chart-immocount"></div>
+    </div>
+
+            </div>
+        </div></div></div>
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Anzahl aktiver Multilisting Objekte</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+    
+    <div class="row m-b-sm">
+        <div class="col-sm-8">
+            <select name="regioncode" class="form-control input-sm"><option value="" selected>Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option></select>
+            
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">von</span>
+                <input type="text" class="form-control input-sm datepicker" name="from" value="10.08.2026">
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon">bis</span>
+                <input type="text" class="form-control input-sm datepicker" name="to" value="10.09.2026">
+            </div>
+        </div>
+    </div>
+    <div class="flot-chart"><div class="flot-chart-content" id="chart-multi"></div></div>
+
+            </div>
+        </div></div></div>
+</div>
+
+        
+<div class="footer">
+    <div>
+        <strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH
+    </div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+
+<script>
+$(function () {
+    
+    var contactData = [[1788991200000, 25], [1788904800000, 184], [1788818400000, 203], [1788732000000, 173], [1788645600000, 108], [1788559200000, 101], [1788472800000, 117], [1788386400000, 129], [1788300000000, 158], [1788213600000, 134], [1788127200000, 170], [1788040800000, 85], [1787954400000, 96], [1787868000000, 105], [1787781600000, 126], [1787695200000, 162], [1787608800000, 151], [1787522400000, 174], [1787436000000, 131], [1787349600000, 94], [1787263200000, 102], [1787176800000, 156], [1787090400000, 186], [1787004000000, 232], [1786917600000, 138], [1786831200000, 67], [1786744800000, 66], [1786658400000, 82], [1786572000000, 93], [1786485600000, 80], [1786399200000, 71], [1786312800000, 119]];
+    $.plot('#chart-contact', [{ data: contactData, color: '#1ab394', lines: { show: true, fill: 0.05 }, points: { show: false } }], {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1786312800000, to: 1786312800000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+
+    
+    var maklerData = [[1788991200000, 2636], [1788904800000, 2636], [1788818400000, 2635], [1788732000000, 2634], [1788645600000, 2648], [1788559200000, 2648], [1788472800000, 2648], [1788386400000, 2648], [1788300000000, 2647], [1788213600000, 2647], [1788127200000, 2648], [1788040800000, 2647], [1787954400000, 2646], [1787868000000, 2646], [1787781600000, 2646], [1787695200000, 2646], [1787608800000, 2646], [1787522400000, 2647], [1787436000000, 2648], [1787349600000, 2648], [1787263200000, 2647], [1787176800000, 2647], [1787090400000, 2647], [1787004000000, 2647], [1786917600000, 2645], [1786831200000, 2646], [1786744800000, 2646], [1786658400000, 2646], [1786572000000, 2646], [1786485600000, 2647], [1786399200000, 2648], [1786312800000, 2653]];
+    $.plot('#chart-makler', [{ data: maklerData, color: '#1ab394', lines: { show: true, fill: 0.05 }, points: { show: false } }], {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1786312800000, to: 1786312800000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+
+    
+    var ownData = [[1788991200000, 56673], [1788904800000, 56597], [1788818400000, 55736], [1788732000000, 55557], [1788645600000, 54673], [1788559200000, 54132], [1788472800000, 54730], [1788386400000, 54834], [1788300000000, 54436], [1788213600000, 53560], [1788127200000, 54695], [1788040800000, 56021], [1787954400000, 56481], [1787868000000, 56019], [1787781600000, 57048], [1787695200000, 57412], [1787608800000, 57513], [1787522400000, 56250], [1787436000000, 56666], [1787349600000, 57366], [1787263200000, 56411], [1787176800000, 56085], [1787090400000, 56027], [1787004000000, 56006], [1786917600000, 55789], [1786831200000, 55504], [1786744800000, 56234], [1786658400000, 56117], [1786572000000, 54959], [1786485600000, 56083], [1786399200000, 54730], [1786312800000, 55869]];
+    $.plot('#chart-own', [{ data: ownData, color: '#1ab394', lines: { show: true, fill: 0.05 }, points: { show: false } }], {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1786312800000, to: 1786312800000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+
+    
+    var extData = [[1788991200000, 57797], [1788904800000, 79838], [1788818400000, 79315], [1788732000000, 79119], [1788645600000, 79979], [1788559200000, 78892], [1788472800000, 78381], [1788386400000, 79766], [1788300000000, 79401], [1788213600000, 78998], [1788127200000, 50562], [1788040800000, 79369], [1787954400000, 78568], [1787868000000, 78369], [1787781600000, 77658], [1787695200000, 77338], [1787608800000, 76909], [1787522400000, 76578], [1787436000000, 76916], [1787349600000, 75628], [1787263200000, 75423], [1787176800000, 76490], [1787090400000, 71641], [1787004000000, 78622], [1786917600000, 78734], [1786831200000, 78993], [1786744800000, 78416], [1786658400000, 78184], [1786572000000, 77890], [1786485600000, 77161], [1786399200000, 73027], [1786312800000, 77131]];
+    $.plot('#chart-ext', [{ data: extData, color: '#1ab394', lines: { show: true, fill: 0.05 }, points: { show: false } }], {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1786312800000, to: 1786312800000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+
+    
+    var multiData = [[1788991200000, 53], [1788904800000, 53], [1788818400000, 53], [1788732000000, 53], [1788645600000, 53], [1788559200000, 53], [1788472800000, 53], [1788386400000, 53], [1788300000000, 53], [1788213600000, 53], [1788127200000, 53], [1788040800000, 53], [1787954400000, 53], [1787868000000, 53], [1787781600000, 53], [1787695200000, 53], [1787608800000, 53], [1787522400000, 53], [1787436000000, 53], [1787349600000, 53], [1787263200000, 53], [1787176800000, 53], [1787090400000, 53], [1787004000000, 53], [1786917600000, 53], [1786831200000, 53], [1786744800000, 53], [1786658400000, 53], [1786572000000, 53], [1786485600000, 53], [1786399200000, 53], [1786312800000, 53]];
+    $.plot('#chart-multi', [{ data: multiData, color: '#1ab394', lines: { show: true, fill: 0.05 }, points: { show: false } }], {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1786312800000, to: 1786312800000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+
+
+    var immoSeries = [{"label": "classmarkets", "data": [[1786312800000, 2340], [1786399200000, 2340], [1786485600000, 2347], [1786572000000, 2356], [1786658400000, 2353], [1786744800000, 2219], [1786831200000, 2214], [1786917600000, 2221], [1787004000000, 2229], [1787090400000, 1616], [1787176800000, 1656], [1787263200000, 1669], [1787349600000, 1667], [1787436000000, 1667], [1787522400000, 1668], [1787608800000, 1673], [1787695200000, 1698], [1787781600000, 1697], [1787868000000, 1687], [1787954400000, 1655], [1788040800000, 1655], [1788127200000, 1658], [1788213600000, 1853], [1788300000000, 1887], [1788386400000, 1897], [1788472800000, 1863], [1788559200000, 1896], [1788645600000, 1916], [1788732000000, 1942], [1788818400000, 2046], [1788904800000, 2048], [1788991200000, 8237]], "color": "#288fd1"}, {"label": "immobilienpool", "data": [[1786312800000, 51], [1786399200000, 51], [1786485600000, 51], [1786572000000, 51], [1786658400000, 51], [1786744800000, 51], [1786831200000, 51], [1786917600000, 51], [1787004000000, 51], [1787090400000, 51], [1787176800000, 51], [1787263200000, 51], [1787349600000, 51], [1787436000000, 51], [1787522400000, 51], [1787608800000, 51], [1787695200000, 50], [1787781600000, 50], [1787868000000, 50], [1787954400000, 50], [1788040800000, 50], [1788127200000, 50], [1788213600000, 50], [1788300000000, 50], [1788386400000, 50], [1788472800000, 50], [1788559200000, 50], [1788645600000, 50], [1788732000000, 47], [1788818400000, 47], [1788904800000, 47], [1788991200000, 47]], "color": "#209aab"}, {"label": "immobilien.de", "data": [[1786312800000, 30412], [1786399200000, 26761], [1786485600000, 30407], [1786572000000, 31118], [1786658400000, 31315], [1786744800000, 31493], [1786831200000, 31584], [1786917600000, 31647], [1787004000000, 31832], [1787090400000, 25223], [1787176800000, 30579], [1787263200000, 30585], [1787349600000, 30643], [1787436000000, 31442], [1787522400000, 31529], [1787608800000, 31738], [1787695200000, 31934], [1787781600000, 32189], [1787868000000, 32379], [1787954400000, 32524], [1788040800000, 32609], [1788127200000, 0], [1788213600000, 32895], [1788300000000, 33068], [1788386400000, 33271], [1788472800000, 33440], [1788559200000, 33599], [1788645600000, 33683], [1788732000000, 33701], [1788818400000, 33807], [1788904800000, 33956], [1788991200000, 0]], "color": "#2563eb"}, {"label": "Intern", "data": [[1786312800000, 56111], [1786399200000, 54942], [1786485600000, 56308], [1786572000000, 55183], [1786658400000, 56320], [1786744800000, 56452], [1786831200000, 55712], [1786917600000, 56001], [1787004000000, 56205], [1787090400000, 56236], [1787176800000, 56298], [1787263200000, 56637], [1787349600000, 57568], [1787436000000, 56876], [1787522400000, 56465], [1787608800000, 57716], [1787695200000, 57623], [1787781600000, 57265], [1787868000000, 56359], [1787954400000, 56967], [1788040800000, 56501], [1788127200000, 54944], [1788213600000, 53749], [1788300000000, 54644], [1788386400000, 55047], [1788472800000, 54935], [1788559200000, 54343], [1788645600000, 54880], [1788732000000, 55757], [1788818400000, 55949], [1788904800000, 56799], [1788991200000, 56831]], "color": "#94c11e"}, {"label": "Spot A Home", "data": [[1786312800000, 4334], [1786399200000, 3809], [1786485600000, 4224], [1786572000000, 4264], [1786658400000, 4239], [1786744800000, 4226], [1786831200000, 4209], [1786917600000, 4224], [1787004000000, 4209], [1787090400000, 4186], [1787176800000, 4153], [1787263200000, 4143], [1787349600000, 4128], [1787436000000, 4130], [1787522400000, 4132], [1787608800000, 4098], [1787695200000, 4069], [1787781600000, 4048], [1787868000000, 4040], [1787954400000, 4019], [1788040800000, 4018], [1788127200000, 4023], [1788213600000, 3981], [1788300000000, 4011], [1788386400000, 4003], [1788472800000, 4026], [1788559200000, 4042], [1788645600000, 4036], [1788732000000, 4046], [1788818400000, 4043], [1788904800000, 4024], [1788991200000, 3995]], "color": "#0D0D0D"}, {"label": "versteigerungspool", "data": [[1786312800000, 608], [1786399200000, 607], [1786485600000, 609], [1786572000000, 601], [1786658400000, 612], [1786744800000, 606], [1786831200000, 606], [1786917600000, 615], [1787004000000, 633], [1787090400000, 637], [1787176800000, 628], [1787263200000, 632], [1787349600000, 629], [1787436000000, 629], [1787522400000, 643], [1787608800000, 653], [1787695200000, 654], [1787781600000, 644], [1787868000000, 645], [1787954400000, 640], [1788040800000, 640], [1788127200000, 644], [1788213600000, 642], [1788300000000, 631], [1788386400000, 634], [1788472800000, 632], [1788559200000, 631], [1788645600000, 631], [1788732000000, 643], [1788818400000, 654], [1788904800000, 656], [1788991200000, 646]], "color": "#8b006c"}, {"label": "Wohngl\u00fcck", "data": [[1786312800000, 37456], [1786399200000, 37488], [1786485600000, 37528], [1786572000000, 37464], [1786658400000, 37574], [1786744800000, 37781], [1786831200000, 38276], [1786917600000, 37919], [1787004000000, 37606], [1787090400000, 37852], [1787176800000, 37311], [1787263200000, 36184], [1787349600000, 36361], [1787436000000, 36869], [1787522400000, 36420], [1787608800000, 36565], [1787695200000, 36808], [1787781600000, 36898], [1787868000000, 37406], [1787954400000, 37516], [1788040800000, 38257], [1788127200000, 42043], [1788213600000, 37396], [1788300000000, 37540], [1788386400000, 37675], [1788472800000, 36119], [1788559200000, 36442], [1788645600000, 37421], [1788732000000, 36460], [1788818400000, 36460], [1788904800000, 36801], [1788991200000, 40899]], "color": "#10537b"}, {"label": "wohnung-jetzt.de ", "data": [[1786312800000, 1930], [1786399200000, 1971], [1786485600000, 1995], [1786572000000, 2036], [1786658400000, 2040], [1786744800000, 2040], [1786831200000, 2053], [1786917600000, 2057], [1787004000000, 2062], [1787090400000, 2076], [1787176800000, 2112], [1787263200000, 2159], [1787349600000, 2149], [1787436000000, 2128], [1787522400000, 2135], [1787608800000, 2131], [1787695200000, 2125], [1787781600000, 2132], [1787868000000, 2162], [1787954400000, 2164], [1788040800000, 2140], [1788127200000, 2144], [1788213600000, 2181], [1788300000000, 2214], [1788386400000, 2236], [1788472800000, 2251], [1788559200000, 2232], [1788645600000, 2242], [1788732000000, 2280], [1788818400000, 2258], [1788904800000, 2306], [1788991200000, 3973]], "color": "#538859"}];
+    $.plot('#chart-immocount', immoSeries, {
+        xaxis: { mode: 'time', timeformat: '%d.%m.%y' },
+        yaxis: { tickDecimals: 0 },
+        legend: { position: 'nw', noColumns: 2 },
+        grid: {
+            color: '#999999', hoverable: true, borderColor: '#f0f0f0', borderWidth: 1,
+            markings: [{ xaxis: { from: 1788991200000, to: 1788991200000 }, color: '#ED5565', lineWidth: 2 }]
+        },
+        tooltip: true
+    });
+});
+</script>
+
+</body>
+</html>

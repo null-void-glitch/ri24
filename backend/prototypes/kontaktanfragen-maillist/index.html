@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Mail Liste - Kontaktanfragen - RI24 Admin</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="assets/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+<style>
+  .data-table-kauf thead th, .data-table-miet thead th { background-color: #333333 !important; text-align: left !important; font-size: 12px !important; }
+  .data-table-kauf a:not(.btn), .data-table-miet a:not(.btn) { color: #333333 !important; }
+  .data-table-kauf a:not(.btn):hover, .data-table-miet a:not(.btn):hover { color: #A4C735 !important; }
+  .data-table-kauf .badge-inverse, .data-table-miet .badge-inverse { background-color: #333333 !important; }
+  .data-table-kauf .badge-danger, .data-table-miet .badge-danger { background-color: #c0392b !important; }
+  .data-table-kauf thead th.sorting, .data-table-kauf thead th.sorting_asc, .data-table-kauf thead th.sorting_desc,
+  .data-table-miet thead th.sorting, .data-table-miet thead th.sorting_asc, .data-table-miet thead th.sorting_desc { padding-right: 8px !important; padding-left: 8px !important; padding-top: 12px !important; padding-bottom: 22px !important; }
+  .data-table-kauf thead .sorting:after, .data-table-kauf thead .sorting_asc:after, .data-table-kauf thead .sorting_desc:after,
+  .data-table-miet thead .sorting:after, .data-table-miet thead .sorting_asc:after, .data-table-miet thead .sorting_desc:after { left: 8px !important; right: auto !important; bottom: 6px !important; }
+  .ibox-tools .btn { margin-top: -2px; }
+</style>
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-adaptation.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-colors.css" rel="stylesheet">
+<link href="assets/css/pitcom/pitcom-icons.css" rel="stylesheet">
+<style>
+  .prototype-banner { background:#2f4050; color:#fff; text-align:center; padding:6px 10px; font-size:12px; }
+  .prototype-banner strong { color:#1ab394; }
+</style>
+</head>
+<body class="pitcom">
+
+<div class="prototype-banner">
+    <strong>Prototype</strong> — E-Mail Liste (/adm/.../master/mails/list/) rebuilt on the Inspinia theme, using real data captured from the live backend on 2026-09-10. 50 Kaufinteressenten, 0 Mietinteressenten (Oct 2026, matches live). Region filter applies to both tables. Month filter is UI-only (static prototype). Contact data are real private individuals — internal review only.
+</div>
+
+<div id="wrapper">
+    
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs font-bold">Regionalimmobilien24</span>
+                    <span class="text-muted text-xs block">RI24 SEO Backend</span>
+                </div>
+            </li>
+            <li>
+                <a href="../dashboard-makler/index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span> <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../dashboard-makler/index.html">Makler</a></li><li><a href="../dashboard-baufi/index.html">Baufinanzierung</a></li><li><a href="../dashboard-nutzer/index.html">Nutzer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Makler</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-uebersicht/index.html">Übersicht Makler</a></li><li><a href="../makler-anfragen/index.html">Anfragen</a></li><li><a href="../makler-new/index.html">neuen Makler anlegen</a></li>
+                </ul>
+            </li>
+            <li><a href="../kundenlogin/index.html"><i class="fa fa-key"></i> <span class="nav-label">Nutzer</span></a></li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Objekte</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../objekte/index.html">alle Objekte</a></li><li><a href="../tools-oid-dubletten/index.html">OID / Dubletten Check</a></li>
+                </ul>
+            </li>
+            <li><a href="../privatanzeigen/index.html"><i class="fa fa-font"></i> <span class="nav-label">Privatanzeigen</span></a></li>
+            <li><a href="../regionen/index.html"><i class="fa fa-globe"></i> <span class="nav-label">alle Regionen</span></a></li>
+            <li class="active">
+                <a href="#"><i class="fa fa-envelope"></i> <span class="nav-label">Kontaktanfragen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="../kontaktanfragen/index.html">alle Kontaktanfragen</a></li><li class="active"><a href="../kontaktanfragen-maillist/index.html">E-Mail Liste</a></li><li><a href="../kontaktanfragen-blacklist/index.html">Blacklist</a></li>
+                </ul>
+            </li>
+            <li><a href="../team/index.html"><i class="fa fa-users"></i> <span class="nav-label">Team</span></a></li>
+            <li><a href="../whitelabel-lizenzen/index.html"><i class="fa fa-users"></i> <span class="nav-label">Whitelabel-Lizenzen</span></a></li>
+            <li>
+                <a href="../makler-kooperationen/index.html"><i class="fa fa-handshake-o"></i> <span class="nav-label">Kooperationen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../makler-kooperationen/index.html">Übersicht</a></li><li><a href="../makler-kooperationen-new/index.html">neue Kooperation</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-globe"></i> <span class="nav-label">Schnittstellen</span> <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="../schnittstellen-sitemaps/index.html">Sitemaps (Mitula)</a></li><li><a href="../schnittstellen-export/index.html">Statischer Immobilien Export</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        
+<div class="row border-bottom">
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+</nav>
+</div>
+
+        
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>E-Mail Liste</h2>
+        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="#">Home</a></li><li class="breadcrumb-item"><a href="#">Kontaktanfragen</a></li><li class="breadcrumb-item active"><strong>E-Mail Liste</strong></li></ol>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row"><div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>E-Mail Liste</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    <a class="close-link"><i class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                
+<div class="row m-b-md">
+    <div class="col-sm-4">
+        <label for="region-filter">Region</label>
+        <select id="region-filter" class="form-control input-sm">
+            <option value="">Alle Regionen</option><option value="aai24">Aachen-Eifelimmobilien24</option><option value="ami24">Altmarkimmobilien24</option><option value="ai24">Anhaltimmobilien24</option><option value="abi24">Augsburgimmobilien24</option><option value="bsi24">Bayerisch-schwabenimmobilien24</option><option value="bdi24">Bergisches-Dreieckimmobilien24</option><option value="bgli24">Bergischeslandimmobilien24</option><option value="bi24">Berlinimmobilien24</option><option value="bosi24">Bodenseeimmobilien24</option><option value="brai24">Braunschweigimmobilien24</option><option value="brei24">Bremenimmobilien24</option><option value="ci24">Chemnitzimmobilien24</option><option value="di24">Dortmundimmobilien24</option><option value="ddi24">Dresdenimmobilien24</option><option value="dui24">Duisburgimmobilien24</option><option value="duei24">Düsseldorfimmobilien24</option><option value="eli24">Elbelandimmobilien24</option><option value="emsi24">Emslandimmobilien24</option><option value="efi24">Erfurtimmobilien24</option><option value="erzi24">Erzgebirgeimmobilien24</option><option value="eei24">Essenimmobilien24</option><option value="fi24">Frankfurtimmobilien24</option><option value="gii24">Giessenimmobilien24</option><option value="goti24">Göttingenimmobilien24</option><option value="hai24">Halleimmobilien24</option><option value="hhi24">Hamburgimmobilien24</option><option value="hani24">Hannoverimmobilien24</option><option value="hi24">Harzimmobilien24</option><option value="hli24">Havellandimmobilien24</option><option value="hbi24">Heilbronnimmobilien24</option><option value="hoi24">Holsteinimmobilien24</option><option value="jei24">Jerichowimmobilien24</option><option value="ki24">Karlsruheimmobilien24</option><option value="kai24">Kasselimmobilien24</option><option value="kiei24">Kielimmobilien24</option><option value="koei24">Kölnimmobilien24</option><option value="lwi24">Leineweserimmobilien24</option><option value="li24">Leipzigimmobilien24</option><option value="luei24">Lübeckimmobilien24</option><option value="lli24">Ludwigslustimmobilien24</option><option value="lbi24">Lüneburgimmobilien24</option><option value="mbi24">Magdeburgimmobilien24</option><option value="maii24">Mainzimmobilien24</option><option value="mani24">Mannheimimmobilien24</option><option value="mfi24">Mittelfrankenimmobilien24</option><option value="mri24">Mittelrheinimmobilien24</option><option value="msi24">Mittelsachsenimmobilien24</option><option value="mthi24">Mittelthüringenimmobilien24</option><option value="mi24">Münchenimmobilien24</option><option value="mli24">Münsterlandimmobilien24</option><option value="nbi24">Niederbayernimmobilien24</option><option value="nri24">Niederrheinimmobilien24</option><option value="nsai24">Nordsaarlandimmobilien24</option><option value="nsi24">Nordsachsenimmobilien24</option><option value="nti24">Nordthueringenimmobilien24</option><option value="nwmi24">Nordwestmecklenburgimmobilien24</option><option value="obi24">Oberbayernimmobilien24</option><option value="ofi24">Oberfrankenimmobilien24</option><option value="ohi24">Oberhavelimmobilien24</option><option value="oli24">Oberlausitzimmobilien24</option><option value="opi24">Oberpfalzimmobilien24</option><option value="osi24">Oberschwabenimmobilien24</option><option value="obli24">Oderlandimmobilien24</option><option value="osni24">Osnabrückimmobilien24</option><option value="osai24">Ostsaarlandimmobilien24</option><option value="othi24">Ostthüringenimmobilien24</option><option value="reki24">Rhein-Erft-Kreisimmobilien24</option><option value="rski24">Rhein-Siegkreisimmobilien24</option><option value="rhhi24">Rheinhessenimmobilien24</option><option value="rni24">Rheinneckarimmobilien24</option><option value="rpi24">Rheinpfalzimmobilien24</option><option value="rhti24">Rheintalimmobilien24</option><option value="roi24">Rostockimmobilien24</option><option value="rgi24">Ruhrgebietimmobilien24</option><option value="sui24">Saaleunstrutimmobilien24</option><option value="sbi24">Saarbrückenimmobilien24</option><option value="sosi24">Sächsische-Schweiz-Osterzgebirgeimmobilien24</option><option value="sli24">Salzlandimmobilien</option><option value="saui24">Sauerlandimmobilien</option><option value="slwi24">Schleswigimmobilien24</option><option value="sai24">Schwäbischealbimmobilien24</option><option value="swwi24">Schwarzwaldimmobilien24</option><option value="si24">Schwerinimmobilien24</option><option value="sigi24">Siegerlandimmobilien24</option><option value="swi24">Spreewaldimmobilien24</option><option value="sti24">Stuttgartimmobilien24</option><option value="dai24">Südhessenimmobilien24</option><option value="smbi24">Südmecklenburgimmobilien24</option><option value="swti24">Südwestthüringenimmobilien24</option><option value="wii24">Taunusimmobilien24</option><option value="tbi24">Teutoburger-Wald-Imobilien24</option><option value="ti24">Trierimmobilien24</option><option value="umi24">Uckermarkimmobilien24</option><option value="ufi24">Unterfrankenimmobilien24</option><option value="vi24">Vogtlandimmobilien24</option><option value="vpi24">Vorpommernimmobilien24</option><option value="wei24">Weseremsimmobilien24</option><option value="wesi24">Westeifelimmobilien24</option><option value="wwi24">Westerwaldimmobilien24</option><option value="wpfi24">Westpfalzimmobilien24</option><option value="wsai24">Westsaarlandimmobilien24</option><option value="weti24">Wetterauimmobilien24</option><option value="zi24">Zwickauimmobilien24</option>
+        </select>
+    </div>
+    <div class="col-sm-3">
+        <label for="month-filter">Monat</label>
+        <select id="month-filter" class="form-control input-sm">
+            <option value="10/2026" selected>10/2026</option><option value="9/2026">9/2026</option><option value="8/2026">8/2026</option><option value="7/2026">7/2026</option><option value="6/2026">6/2026</option><option value="5/2026">5/2026</option><option value="4/2026">4/2026</option><option value="3/2026">3/2026</option><option value="2/2026">2/2026</option><option value="1/2026">1/2026</option><option value="12/2025">12/2025</option><option value="11/2025">11/2025</option>
+        </select>
+    </div>
+</div>
+            </div>
+        </div>
+    </div></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>Kaufinteressenten</h5>
+                    <div class="ibox-tools">
+                        <a href="#" class="btn btn-sm btn-default" title="CSV-Export für Kaufinteressenten"><i class="fa fa-download"></i> CSV-Export</a>
+                        <a class="collapse-link m-l-sm"><i class="fa fa-chevron-up"></i></a>
+                        <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+<p class="text-muted">50 Kaufinteressenten (aktueller Monat, alle Seiten zusammengeführt).</p>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover data-table-kauf">
+        <thead>
+<tr>
+    <th>Region</th>
+    <th>Newsletter</th>
+    <th>Kontaktdatum</th>
+    <th>Name</th>
+    <th>Vorname</th>
+    <th>E-Mail</th>
+    <th>Telefon</th>
+    <th>Objekte</th>
+    <th>Blacklist</th>
+</tr></thead>
+        <tbody><tr><td><span class="badge badge-inverse">ZI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Thuma</td><td>Jens-Erik</td><td><a href="mailto:jens-erik_thuma@outlook.de">jens-erik_thuma@outlook.de</a></td><td>+491767416005</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=434542296" target="_blank">434542296</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">ZI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Grad</td><td>Denise</td><td><a href="mailto:denisefriedemann09@gmail.com">denisefriedemann09@gmail.com</a></td><td>03723413140</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=649040687" target="_blank">649040687</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">ZI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Hurlebaus</td><td>Eduard</td><td><a href="mailto:eduard.hurlebaus@gmx.net">eduard.hurlebaus@gmx.net</a></td><td>+491626051699</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=168821584" target="_blank">168821584</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">ZI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Ehm</td><td>Michael</td><td><a href="mailto:michael.ehm1982@gmail.com">michael.ehm1982@gmail.com</a></td><td>+4917670520616</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=654923056" target="_blank">654923056</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">ZI24</span></td><td>05.10.26</td><td>02.10.26</td><td>Aksenova</td><td>Olga</td><td><a href="mailto:aksenovaolga010@gmail.com">aksenovaolga010@gmail.com</a></td><td>+49176773995812</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=043352055" target="_blank">043352055</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WWI24</span></td><td>04.10.26</td><td>01.10.26</td><td>Fragale</td><td>Antonietta</td><td><a href="mailto:antoniettafragale53@gmail.com">antoniettafragale53@gmail.com</a></td><td></td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=600752416" target="_blank">600752416</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WWI24</span></td><td>04.10.26</td><td>01.10.26</td><td>Hatami</td><td>Hatami</td><td><a href="mailto:khatami057@gmail.com">khatami057@gmail.com</a></td><td>01796604564</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=118010378" target="_blank">118010378</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WWI24</span></td><td>04.10.26</td><td>01.10.26</td><td>Hatami</td><td>Hatami</td><td><a href="mailto:khatami057@gmail.com">khatami057@gmail.com</a></td><td>01796604564</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=118010378" target="_blank">118010378</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WPFI24</span></td><td>04.10.26</td><td>01.10.26</td><td>dogan</td><td>seray</td><td><a href="mailto:s.dogan.03.sd@gmail.com">s.dogan.03.sd@gmail.com</a></td><td>+49 160 7621778</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=582721957" target="_blank">582721957</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WII24</span></td><td>03.10.26</td><td>30.09.26</td><td>Yang</td><td>Andreas</td><td><a href="mailto:andreasdateien@gmail.com">andreasdateien@gmail.com</a></td><td>+4917693288667</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=327663006" target="_blank">327663006</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WII24</span></td><td>05.10.26</td><td>02.10.26</td><td>Wenzel</td><td>Karin</td><td><a href="mailto:ks.wenzel@gmx.de">ks.wenzel@gmx.de</a></td><td>017656504302</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=636595078" target="_blank">636595078</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">WETI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Masimango</td><td>Nancy</td><td><a href="mailto:nancymasimango@yahoo.de">nancymasimango@yahoo.de</a></td><td>01753571594</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=102991461" target="_blank">102991461</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VPI24</span></td><td>06.10.26</td><td>06.09.26</td><td>Kirchner</td><td>Magdalena</td><td><a href="mailto:mk.pl.70818@gmail.com">mk.pl.70818@gmail.com</a></td><td>+4917668246778</td><td>&mdash;</td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>01.09.26</td><td>Faber</td><td>Alex</td><td><a href="mailto:alexander.faber.v@gmail.com">alexander.faber.v@gmail.com</a></td><td>+49 151 29758835</td><td>&mdash;</td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>02.09.26</td><td>ditz</td><td>sabina</td><td><a href="mailto:sabina.ditz@gmx.de">sabina.ditz@gmx.de</a></td><td>017645610306</td><td>&mdash;</td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>05.10.26</td><td>05.09.26</td><td>Kamphuis</td><td>Henriëtte</td><td><a href="mailto:hennykamphuis@hotmail.com">hennykamphuis@hotmail.com</a></td><td>0176 766837 31</td><td>&mdash;</td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>05.10.26</td><td>05.09.26</td><td>Liebold</td><td>Amrein</td><td><a href="mailto:amrein.liebold@gmx.de">amrein.liebold@gmx.de</a></td><td></td><td>&mdash;</td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Zweiniger</td><td>Kersten</td><td><a href="mailto:k.zweiniger@gmail.com">k.zweiniger@gmail.com</a></td><td>+491636249598</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=412060449" target="_blank">412060449</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=184366282" target="_blank">184366282</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=629633593" target="_blank">629633593</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=055804874" target="_blank">055804874</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=030181976" target="_blank">030181976</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=372942551" target="_blank">372942551</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=107801435" target="_blank">107801435</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=022005389" target="_blank">022005389</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=115072968" target="_blank">115072968</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=517092858" target="_blank">517092858</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>01.10.26</td><td>28.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=039620983" target="_blank">039620983</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Wroblewska</td><td>Joanna</td><td><a href="mailto:grzegorzmatyjaszczyk@t-online.de">grzegorzmatyjaszczyk@t-online.de</a></td><td></td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=320990975" target="_blank">320990975</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=127964672" target="_blank">127964672</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=333571443" target="_blank">333571443</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=052121195" target="_blank">052121195</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=105584960" target="_blank">105584960</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=020271942" target="_blank">020271942</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=286582294" target="_blank">286582294</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=371772406" target="_blank">371772406</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Melber</td><td>Cristina</td><td><a href="mailto:c.melber@online.de">c.melber@online.de</a></td><td>017634478083</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=621743751" target="_blank">621743751</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Göttlinger</td><td>Anita</td><td><a href="mailto:a.goettlinger@gmx.de">a.goettlinger@gmx.de</a></td><td>015127092752</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=403434970" target="_blank">403434970</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>02.10.26</td><td>29.09.26</td><td>Heger</td><td>Maximilian</td><td><a href="mailto:heger.maximilian@yahoo.de">heger.maximilian@yahoo.de</a></td><td>01624097829</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=178295138" target="_blank">178295138</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Rödel</td><td>Jens</td><td><a href="mailto:jcroedel@web.de">jcroedel@web.de</a></td><td>01728515708</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=157765427" target="_blank">157765427</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Özdemir</td><td>Gizem</td><td><a href="mailto:gizemfiridin@gmx.de">gizemfiridin@gmx.de</a></td><td>015774304034</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=573626526" target="_blank">573626526</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Panse</td><td>Sören</td><td><a href="mailto:immobilie.gesucht@icloud.com">immobilie.gesucht@icloud.com</a></td><td>+491796979247</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=633426029" target="_blank">633426029</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=130570883" target="_blank">130570883</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=166245086" target="_blank">166245086</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=088676286" target="_blank">088676286</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=580224103" target="_blank">580224103</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=606235470" target="_blank">606235470</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Steffens</td><td>Anton</td><td><a href="mailto:kontakt@nesgo.de">kontakt@nesgo.de</a></td><td>+4915792524937</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=369052138" target="_blank">369052138</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Balzereit</td><td>Jörg</td><td><a href="mailto:kupferkopf13@yahoo.de">kupferkopf13@yahoo.de</a></td><td>015151643426</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=318914218" target="_blank">318914218</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr><tr><td><span class="badge badge-inverse">VI24</span></td><td>03.10.26</td><td>30.09.26</td><td>Kartmann</td><td>Uwe</td><td><a href="mailto:uwe-kartmann@web.de">uwe-kartmann@web.de</a></td><td>017681678782</td><td><a href="https://www.regionalimmobilien24.de/immobilien/expose/?id=215320221" target="_blank">215320221</a></td><td><a href="#" class="btn btn-default btn-xs" title="Zur Blacklist hinzufügen"><i class="fa fa-ban"></i> hinzufügen</a></td></tr></tbody>
+    </table>
+</div></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>Mietinteressenten</h5>
+                    <div class="ibox-tools">
+                        <a href="#" class="btn btn-sm btn-default" title="CSV-Export für Mietinteressenten"><i class="fa fa-download"></i> CSV-Export</a>
+                        <a class="collapse-link m-l-sm"><i class="fa fa-chevron-up"></i></a>
+                        <a class="close-link"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+<p class="text-muted">0 Mietinteressenten (aktueller Monat — entspricht dem Live-Stand).</p>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover data-table-miet">
+        <thead>
+<tr>
+    <th>Region</th>
+    <th>Newsletter</th>
+    <th>Kontaktdatum</th>
+    <th>Name</th>
+    <th>Vorname</th>
+    <th>E-Mail</th>
+    <th>Telefon</th>
+    <th>Objekte</th>
+    <th>Blacklist</th>
+</tr></thead>
+        <tbody><tr><td colspan="9" class="text-center text-muted">Keine Einträge für diesen Monat.</td></tr></tbody>
+    </table>
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+<div class="footer">
+    <div><strong>&copy; 2014 - 2026</strong> Regionalimmobilien24 GmbH</div>
+</div>
+
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/js/plugins/flot/jquery.flot.time.js"></script>
+<script src="assets/js/inspinia.js"></script>
+<script src="assets/js/plugins/pace/pace.min.js"></script>
+<script src="assets/js/plugins/dataTables/datatables.min.js"></script>
+<script src="assets/js/plugins/dataTables/dataTables.bootstrap4.min.js"></script>
+<script>
+$.extend(true, $.fn.dataTable.defaults, {
+    language: {
+        emptyTable: "Keine Daten in der Tabelle vorhanden",
+        info: "_START_ bis _END_ von _TOTAL_ Einträgen",
+        infoEmpty: "0 bis 0 von 0 Einträgen",
+        infoFiltered: "(gefiltert von _MAX_ Einträgen)",
+        lengthMenu: "_MENU_ Einträge anzeigen",
+        loadingRecords: "Wird geladen...",
+        processing: "Bitte warten...",
+        search: "Suchen:",
+        zeroRecords: "Keine Einträge vorhanden.",
+        paginate: {
+            first: "Erste",
+            previous: "Zurück",
+            next: "Nächste",
+            last: "Letzte"
+        },
+        aria: {
+            sortAscending: ": aktivieren, um Spalte aufsteigend zu sortieren",
+            sortDescending: ": aktivieren, um Spalte absteigend zu sortieren"
+        }
+    }
+});
+</script>
+
+<script>
+$(function () {
+    var kaufTable = $('.data-table-kauf').DataTable({
+        order: [[2, 'desc']],
+        pageLength: 25,
+        autoWidth: false,
+        columnDefs: [
+            { targets: [0], width: '70px' },
+            { targets: [1, 2], width: '100px' },
+            { targets: [8], width: '130px', orderable: false }
+        ]
+    });
+
+    var mietTable = $('.data-table-miet').DataTable({
+        order: [[2, 'desc']],
+        pageLength: 25,
+        autoWidth: false,
+        columnDefs: [
+            { targets: [0], width: '70px' },
+            { targets: [1, 2], width: '100px' },
+            { targets: [8], width: '130px', orderable: false }
+        ]
+    });
+
+    // Region filter — applies to both tables via column(0) regex search
+    $('#region-filter').on('change', function () {
+        var val = $.fn.dataTable.util.escapeRegex($(this).val());
+        var search = val ? '^' + val + '$' : '';
+        kaufTable.column(0).search(search, true, false).draw();
+        mietTable.column(0).search(search, true, false).draw();
+    });
+
+    // Month filter — static prototype, no live data behind other months
+    $('#month-filter').on('change', function () {
+        console.log('Month filter changed to', $(this).val(), '— static prototype, real data only for 10/2026.');
+    });
+});
+</script>
+
+</body>
+</html>

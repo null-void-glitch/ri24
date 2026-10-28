@@ -1,0 +1,1757 @@
+{
+  "url": "https://partnerportal.qualitypool.de/produktanbieter/kriterien/baufinanzierung/kfw-kreditinstitutsnummer",
+  "category": "Kriterian KfW Darlehen",
+  "criterion_name": "KfW-Kreditinstitutsnummer",
+  "criterion_id": "kfw-kreditinstitutsnummer",
+  "scraped_at": "2026-05-07T12:14:18.912Z",
+  "banks": [
+    {
+      "bank": "1822direkt",
+      "value": "40090035"
+    },
+    {
+      "bank": "Aachener Bank eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Allianz Lebensversicherung",
+      "value": "47311819"
+    },
+    {
+      "bank": "Alte Leipziger",
+      "value": "75630001"
+    },
+    {
+      "bank": "AXA",
+      "value": "keine Angabe"
+    },
+    {
+      "bank": "Bank 1 Saar eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Bausparkasse Schwäbisch Hall AG",
+      "value": "./."
+    },
+    {
+      "bank": "Bausparkasse Wüstenrot",
+      "value": "74180002"
+    },
+    {
+      "bank": "BBBank",
+      "value": "41280008"
+    },
+    {
+      "bank": "Berliner Sparkasse",
+      "value": "41690001"
+    },
+    {
+      "bank": "Berliner Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "BHW",
+      "value": "72620005"
+    },
+    {
+      "bank": "BKM - Bausparkasse Mainz AG",
+      "value": "74940007"
+    },
+    {
+      "bank": "Bordesholmer Sparkasse",
+      "value": "5909006"
+    },
+    {
+      "bank": "Braunschweigische Landessparkasse",
+      "value": "40130029"
+    },
+    {
+      "bank": "Bremische Volksbank Weser-Wümme eG (zuvor Bremische Volksbank eG)",
+      "value": "40160041"
+    },
+    {
+      "bank": "Commerzbank",
+      "value": "63070006"
+    },
+    {
+      "bank": "Deutsche Bank",
+      "value": "Reservierung wird automatisch direkt bei Annahme über die Plattform ausgelöst"
+    },
+    {
+      "bank": "DKB",
+      "value": "59000007"
+    },
+    {
+      "bank": "Dortmunder Volksbank",
+      "value": "41740025"
+    },
+    {
+      "bank": "DZ HYP",
+      "value": "40160041"
+    },
+    {
+      "bank": "ERGO",
+      "value": "3684667"
+    },
+    {
+      "bank": "Erzgebirgssparkasse",
+      "value": "40150003"
+    },
+    {
+      "bank": "Förde Sparkasse",
+      "value": "59090006"
+    },
+    {
+      "bank": "Frankfurter Sparkasse",
+      "value": "40090035"
+    },
+    {
+      "bank": "Frankfurter Volksbank eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Genossenschaftsbank Unterallgäu eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Gladbacher Bank",
+      "value": "41740025"
+    },
+    {
+      "bank": "Grafschafter Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Hamburger Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Hannoversche Leben",
+      "value": "47492937"
+    },
+    {
+      "bank": "Hannoversche Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Harzsparkasse",
+      "value": "40130029"
+    },
+    {
+      "bank": "HASPA - Hamburger Sparkasse AG",
+      "value": "40090035"
+    },
+    {
+      "bank": "Heidenheimer Volksbank eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Herner Sparkasse",
+      "value": "41800079"
+    },
+    {
+      "bank": "Hohenzollerische Landesbank Kreissparkasse Sigmaringen",
+      "value": "40150003"
+    },
+    {
+      "bank": "HypoVereinsbank - UniCredit Bank GmbH",
+      "value": "40890023"
+    },
+    {
+      "bank": "ING",
+      "value": "73260002"
+    },
+    {
+      "bank": "Kasseler Sparkasse",
+      "value": "40090035"
+    },
+    {
+      "bank": "Kieler Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Kreissparkasse Freudenstadt",
+      "value": "40150003"
+    },
+    {
+      "bank": "Kreissparkasse Grafschaft Bentheim zu Nordhorn",
+      "value": "40130029"
+    },
+    {
+      "bank": "Kreissparkasse Kusel",
+      "value": "40150003"
+    },
+    {
+      "bank": "Kreis- und Stadtsparkasse Erding-Dorfen",
+      "value": "40060004"
+    },
+    {
+      "bank": "KSK Ahrweiler",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Anhalt-Bitterfeld",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Bautzen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Bersenbrück",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Biberach",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Börde",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Diepholz",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Düsseldorf",
+      "value": "41800079"
+    },
+    {
+      "bank": "KSK Esslingen-Nürtingen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Göppingen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Halle-Wiedenbrück (vormals Kreissparkasse Wiedenbrück)",
+      "value": "41800079"
+    },
+    {
+      "bank": "KSK Heidenheim",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Heilbronn",
+      "value": "Keine Angabe"
+    },
+    {
+      "bank": "KSK Heinsberg",
+      "value": "41800079"
+    },
+    {
+      "bank": "KSK Herzogtum Lauenburg",
+      "value": "59090006"
+    },
+    {
+      "bank": "KSK Köln",
+      "value": "41800079"
+    },
+    {
+      "bank": "KSK Ludwigsburg",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Melle",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK München Starnberg Ebersberg",
+      "value": "40060004"
+    },
+    {
+      "bank": "KSK Northeim",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Ravensburg",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Reutlingen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Rhein-Hunsrück",
+      "value": "41800079"
+    },
+    {
+      "bank": "KSK Saale-Orla",
+      "value": "40090078"
+    },
+    {
+      "bank": "KSK Saalfeld-Rudolstadt",
+      "value": "40090078"
+    },
+    {
+      "bank": "KSK Schwalm-Eder",
+      "value": "40090035"
+    },
+    {
+      "bank": "KSK Soltau",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK St. Wendel",
+      "value": "41630009"
+    },
+    {
+      "bank": "KSK Traunstein-Trostberg",
+      "value": "40060004"
+    },
+    {
+      "bank": "KSK Tübingen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Verden",
+      "value": "40130029"
+    },
+    {
+      "bank": "KSK Waiblingen",
+      "value": "40150003"
+    },
+    {
+      "bank": "KSK Walsrode",
+      "value": "40130029"
+    },
+    {
+      "bank": "Kyffhäusersparkasse Artern-Sondershausen",
+      "value": "40090078"
+    },
+    {
+      "bank": "Landessparkasse zu Oldenburg",
+      "value": "40130029"
+    },
+    {
+      "bank": "LBS NordOst (vormals LBS Ost)",
+      "value": "---"
+    },
+    {
+      "bank": "Leipziger Volksbank eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Meine Volksbank Raiffeisenbank eG, Rosenheim",
+      "value": "40160017"
+    },
+    {
+      "bank": "MHB - Münchener Hypothekenbank",
+      "value": "3934745"
+    },
+    {
+      "bank": "Mittelbrandenburgische Sparkasse",
+      "value": "86852876"
+    },
+    {
+      "bank": "Müritz-Sparkasse",
+      "value": "40130029"
+    },
+    {
+      "bank": "Nassauische Sparkasse",
+      "value": "40090035"
+    },
+    {
+      "bank": "Niederrheinische Sparkasse Rhein-Lippe (NISPA)",
+      "value": "41800079"
+    },
+    {
+      "bank": "Oldenburger Volksbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Oldenburgische Landesbank",
+      "value": "41560000"
+    },
+    {
+      "bank": "Ostsächsische Sparkasse Dresden",
+      "value": "40150003"
+    },
+    {
+      "bank": "OstseeSparkasse Rostock",
+      "value": "40130029"
+    },
+    {
+      "bank": "Provinzial Rheinland",
+      "value": "-"
+    },
+    {
+      "bank": "PSD Braunschweig",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Hannover",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Hessen-Thüringen",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Karlsruhe-Neustadt",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Koblenz",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD München",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Nord",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD Rhein-Ruhr",
+      "value": "41280008"
+    },
+    {
+      "bank": "PSD West",
+      "value": "41280008"
+    },
+    {
+      "bank": "Raiffeisenbank Augsburger Land West eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank eG Leezen",
+      "value": "40160041"
+    },
+    {
+      "bank": "Raiffeisenbank Geiselhöring-Pfaffenberg eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Hagenow eG (vormals Raiffeisenbank Südstormarn Mölln eG)",
+      "value": "40160041"
+    },
+    {
+      "bank": "Raiffeisenbank HessenNord eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Raiffeisenbank Hohenloher Land eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Raiffeisenbank im Kreis Calw eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Raiffeisenbank im Nürnberger Land eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Knoblauchsland-Bibertgrund eG (vormals Raiffeisenbank Bibertgrund eG)",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Kreis Kelheim eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Lauenburg-Elbe",
+      "value": "40160041"
+    },
+    {
+      "bank": "Raiffeisenbank Oberpfalz Süd eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Plankstetten",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Schwaben Mitte eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Straubing eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Werratal-Landeck eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Raiffeisenbank Westkreis Fürstenfeldbruck",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisenbank Wittelsbacher Land eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank eG, Aurich",
+      "value": "40160041  Reservierungen erfolgen über die DZ-Bank"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Haßberge eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Raiffeisen-Volksbank Oder-Spree eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Rheingauer Volksbank eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Rheinhessen Sparkasse",
+      "value": "40150003"
+    },
+    {
+      "bank": "Rhön-Rennsteig Sparkasse",
+      "value": "40090078"
+    },
+    {
+      "bank": "Saalesparkasse",
+      "value": "40130029"
+    },
+    {
+      "bank": "Signal Iduna Bauspar AG",
+      "value": "16347134"
+    },
+    {
+      "bank": "Sparda-Bank Augsburg",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Baden-Württemberg",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Berlin",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Hamburg",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Hannover",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank München eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Nürnberg",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparda-Bank Südwest",
+      "value": "41280008"
+    },
+    {
+      "bank": "Sparkasse Allgäu",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Altbayern (zuvor Sparkasse Aichach-Schrobenhausen)",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Altmark West",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Amberg-Sulzbach",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse am Niederrhein",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse an der Lippe",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Ansbach",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse an Volme und Ruhr",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Aschaffenburg Miltenberg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Aurich-Norden",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Baden-Baden Gaggenau",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Bad Tölz-Wolfratshausen",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Barnim",
+      "value": "86852876"
+    },
+    {
+      "bank": "Sparkasse Bayreuth",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Bielefeld",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Bodensee",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Bremen",
+      "value": "53130006"
+    },
+    {
+      "bank": "Sparkasse Bühl",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Burgenlandkreis",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Celle-Gifhorn-Wolfsburg",
+      "value": "62870181"
+    },
+    {
+      "bank": "Sparkasse Chemnitz",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Coburg-Lichtenfels",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Darmstadt",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Deggendorf",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Dieburg",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Dillenburg",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Duisburg",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Düren",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Einbeck",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Emsland",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Essen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Forchheim",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Freiburg-Nördlicher Breisgau",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Freyung-Grafenau",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Fulda",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Fürstenfeldbruck",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Fürth",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Gera-Greiz",
+      "value": "40090078"
+    },
+    {
+      "bank": "Sparkasse Gießen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Gladbeck",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Gummersbach",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Hameln-Weserbergland",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Hamm",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Hanau",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Hanauerland",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Harburg-Buxtehude",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Hegau-Bodensee",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Hellweg-Lippe",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Herford",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Hilden-Ratingen-Velbert",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Hildesheim Goslar Peine",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Hochschwarzwald",
+      "value": "4015003"
+    },
+    {
+      "bank": "Sparkasse Holstein",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse im Landkreis Cham",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Ingolstadt Eichstätt",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Iserlohn",
+      "value": "62871293"
+    },
+    {
+      "bank": "Sparkasse Jena-Saale-Holzland",
+      "value": "400 900 78"
+    },
+    {
+      "bank": "Sparkasse Karlsruhe",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Koblenz",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse KölnBonn",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Kulmbach-Kronach",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Landsberg-Dießen",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Landshut",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Langen-Seligenstadt",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse LeerWittmund",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Leipzig",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Lemgo",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Leverkusen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Lörrach-Rheinfelden",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Lübeck",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Lüneburg",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse MagdeBurg",
+      "value": "40130027"
+    },
+    {
+      "bank": "Sparkasse Mainfranken-Würzburg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Markgräflerland",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Märkisch Oderland",
+      "value": "Produktpartner erlaubt keine KfW-Reservierung durch Vertrieb"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Nordwest",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Schwerin",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Mecklenburg-Strelitz",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Meißen",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Minden-Lübbecke",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Mittelfranken Süd",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Mittelsachsen",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Mitten im Sauerland",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Muldental",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Münsterland-Ost",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Neubrandenburg-Demmin",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Neumarkt i. d. Oberpfalz-Parsberg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Neuss",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Neu-Ulm-Illertissen",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Niederlausitz",
+      "value": "86852876"
+    },
+    {
+      "bank": "Sparkasse Nienburg",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Nordschwaben (zuvor Sparkasse Dillingen-Nördlingen)",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Nürnberg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Oberhessen",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Oberland",
+      "value": "62875523"
+    },
+    {
+      "bank": "Sparkasse Oder-Spree",
+      "value": "37854593"
+    },
+    {
+      "bank": "Sparkasse Offenbach",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Offenburg-Ortenau",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Osnabrück",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Osterode am Harz",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Ostprignitz-Ruppin",
+      "value": "86852876"
+    },
+    {
+      "bank": "Sparkasse Paderborn-Detmold-Höxter",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Passau",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Pfaffenhofen",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Pforzheim-Calw",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Prignitz",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Rastatt-Gernsbach",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Regensburg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Rhein-Maas",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Rhein-Nahe",
+      "value": "40160017"
+    },
+    {
+      "bank": "Sparkasse Rhein-Neckar-Nord",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Rosenheim-Bad Aibling",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Rotenburg-Osterholz (ehemals KSK Osterholz)",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Rottal-Inn",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Saarbrücken",
+      "value": "41630009"
+    },
+    {
+      "bank": "Sparkasse Salem-Heiligenberg",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Schaumburg",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Schwaben-Bodensee",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Schwarzwald-Baar",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Schweinfurt-Haßberge",
+      "value": "40060004"
+    },
+    {
+      "bank": "Sparkasse Schwelm-Sprockhövel",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Stade-Altes Land",
+      "value": "40130029"
+    },
+    {
+      "bank": "Sparkasse Starkenburg",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Südholstein",
+      "value": "5909006"
+    },
+    {
+      "bank": "Sparkasse Südpfalz",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Uecker-Randow",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Ulm",
+      "value": ""
+    },
+    {
+      "bank": "Sparkasse Vest-Recklinghausen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Vogtland",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Vorderpfalz",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Vorpommern",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Waldeck-Frankenberg",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Werra-Meißner",
+      "value": "40090035"
+    },
+    {
+      "bank": "Sparkasse Westerwald-Sieg",
+      "value": "40150003"
+    },
+    {
+      "bank": "Sparkasse Westholstein",
+      "value": "59090006"
+    },
+    {
+      "bank": "Sparkasse Westmünsterland",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Wittgenstein",
+      "value": "41800079"
+    },
+    {
+      "bank": "Sparkasse Zwickau",
+      "value": "40150003"
+    },
+    {
+      "bank": "Spar- und Kreditbank Rheinstetten",
+      "value": "41280008"
+    },
+    {
+      "bank": "Spreewaldbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Stadtsparkasse Augsburg",
+      "value": "40060004"
+    },
+    {
+      "bank": "Stadtsparkasse Cuxhaven",
+      "value": "40130029"
+    },
+    {
+      "bank": "Stadtsparkasse Dessau",
+      "value": "40130029"
+    },
+    {
+      "bank": "Stadtsparkasse Düsseldorf",
+      "value": "41800079"
+    },
+    {
+      "bank": "Stadt-Sparkasse Haan",
+      "value": "41800079"
+    },
+    {
+      "bank": "Stadtsparkasse München",
+      "value": "40060004"
+    },
+    {
+      "bank": "Stadtsparkasse Oberhausen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Stadtsparkasse Solingen",
+      "value": "41800079"
+    },
+    {
+      "bank": "Stadt- und Kreissparkasse Erlangen Höchstadt Herzogenaurach",
+      "value": "40060004"
+    },
+    {
+      "bank": "Steyler Ethik Bank GmbH",
+      "value": "80280005"
+    },
+    {
+      "bank": "uniVersa",
+      "value": ""
+    },
+    {
+      "bank": "VBU Volksbank im Unterland",
+      "value": "41280008"
+    },
+    {
+      "bank": "Vereinigte Sparkassen Eschenbach i.d.Opf. Neustadt a.d. Waldnaab Vohenstrauß",
+      "value": "40060004"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Brakel",
+      "value": "40160041"
+    },
+    {
+      "bank": "Vereinigte Volksbank eG Bramgau Osnabrück Wittlage",
+      "value": "40160041"
+    },
+    {
+      "bank": "Vereinigte Volksbanken eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Vereinigte Volksbank Raiffeisenbank eG, Simmern",
+      "value": "41280008"
+    },
+    {
+      "bank": "Vereinigte VR Bank Kur- und Rheinpfalz",
+      "value": "41280008"
+    },
+    {
+      "bank": "Vereinte Volksbank eG Dorsten",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Allgäu-Oberschwaben",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Alzey-Worms",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank am Württemberg eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank an der Niers eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Beckum-Lippstadt",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Bodensee-Oberschwaben eG (vormals VR-Bank Ravensburg-Weingarten eG)",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Börde-Bernburg eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank BRAWO eG (vormals Volksbank Braunschweig-Wolfsburg)",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Breisgau-Markgräflerland eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Breisgau-Nord",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Bremen-Nord",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Chemnitz",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Darmstadt Mainz eG (vormals Mainzer Volksbank eG)",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Delitzsch eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Dreiländereck eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Dresden-Bautzen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Düsseldorf Neuss",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank eG - Die Gestalterbank",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank eG Essen Cappeln",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank eG Hildesheim-Lehrte-Pattensen",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank eg Neckar Odenwald Main Tauber (vormals Volksbank Main-Tauber eG, Fusion mit VoBa Mosbach)",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank eG Oldenburger-Land Delmenhorst (vormals Volksbank Delmenhorst Schierbrok eG)",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank eG Westrhauderfehn",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Erft eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Filder eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Freiburg eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Göppingen",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Gronau-Ahaus eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Halle (Saale) eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Hameln-Stadthagen",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Heinsberg eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Hellweg",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank im bergischen Land",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank im Elbe-Weser-Dreieck eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank im Hochsauerland",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank im Münsterland eG (ehemals Volksbank Münsterland Nord eG)",
+      "value": "41940032"
+    },
+    {
+      "bank": "Volksbank im Rheinland eG (bisher Volksbank Mönchengladbach eG)",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank in der Region eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank in Schaumburg und Nienburg eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank in Südwestfalen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Jade-Weser (ehemals Raiffeisen-Volksbank Varel-Nordenham eG)",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Kaiserslautern",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Kassel Göttingen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Köln Bonn eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Kraichgau eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Krefeld eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Kurpfalz eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Lahr eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Löbau-Zittau eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Lüneburger Heide eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Mittelhessen",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Mittlerer Neckar eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Mittlerer Schwarzwald",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Neckartal eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Nordharz eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Nordschwarzwald eG (ehemals Volksbank eG im Kreis Freudenstadt)",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Oberberg",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank pur eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Bayern Mitte eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Dachau eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Volksbank-Raiffeisenbank Glauchau eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Niederschlesien eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Raiffeisenbank Nordoberpfalz eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "Volksbank Rhein-Erft-Köln eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Rhein-Lippe eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Rhein-Ruhr",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Riesa",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Ruhr-Mitte",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Sauerland eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Seesen",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Solling eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Stendal eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Stuttgart",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Thüringen Mitte eG",
+      "value": "keine Angabe"
+    },
+    {
+      "bank": "Volksbank Überlingen",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Ulm-Biberach",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Viersen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Vogtland-Saale-Orla eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Vorpommern eG Stralsund",
+      "value": "40160041"
+    },
+    {
+      "bank": "Volksbank Westmünsterland eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "Volksbank Wilhelmshaven eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volksbank Zollernalb (vormals Volksbank Albstadt eG)",
+      "value": "41280008"
+    },
+    {
+      "bank": "Volks- und Raiffeisenbank Saale-Unstrut eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR Bank Amberg-Sulzbach eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Bamberg-Forchheim eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Bayreuth-Hof eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR-Bank Bonn Rhein-Sieg",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Donau-Mindel",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Donau-Oberschwaben eG (vorher Volksbank Bad Saulgau eG)",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank Dreieich-Offenbach eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR Bank eG, Monheim",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Ellwangen eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR-Bank Erding eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR-Bank Fläming-Elsterland eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR Bank Fulda eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Heilbronn Schwäbisch Hall eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR-Bank im südlichen Franken eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank in Holstein eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR-Bank in Südniedersachsen eG",
+      "value": "62895265"
+    },
+    {
+      "bank": "VR Bank in Thüringen eG (zuvor VR-Bank Westthüringen)",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR Bank Kempten-Oberallgäu eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Lahn-Dill eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Lausitz",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR-Bank Main-Kinzig-Büdingen",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR Bank Mecklenburg eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR-Bank Meißen-Großenhain",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Memmingen",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR-Bank Mitte eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Mittelfranken Mitte eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Mittelhaardt eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR-Bank Mittelsachsen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR Bank Mittlere Oberpfalz eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR-Bank Neuburg-Rain",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR-Bank Niederbayern-Oberpfalz",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank Ostalb",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank RheinAhrEifel eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR-Bank Rhein-Neckar eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank Ried-Überwald eG (ehemals Raiffeisenbank Ried eG)",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR-Bank Rottal-Inn eG",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Schleswig-Holstein Mitte eG. (vormals VR Bank Westküste eG)",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR-Bank Spangenberg-Morschen eG",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR Bank Starnberg-Zugspitze eG (vormals VR-Bank Starnberg-Herrsching-Landsberg)",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Südliche Weinstraße-Wasgau eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank Südpfalz eG",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR Bank Uckermark-Randow eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR Bank Vilshofen-Pocking eG (vormals Volksbank-Raiffeisenbank Vilshofen eG)",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank Westfalen-Lippe eG (nicht mehr aktiv > in der Volksbank Beckum-Lippstadt aufgegangen)",
+      "value": "41280008"
+    },
+    {
+      "bank": "VR-Bank Würzburg",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Bank zwischen den Meeren eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VReG -Volksbank Raiffeisenbank eG",
+      "value": "40160041"
+    },
+    {
+      "bank": "VR GenoBank DonauWald",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR Partnerbank eG Chattengau-Schwalm-Eder",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR TeilhaberBank (zuvor VR-Bank Metropolregion Nürnberg)",
+      "value": "40160017"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals Volksbank Lauterbach-Schlitz)",
+      "value": "41740025"
+    },
+    {
+      "bank": "VR VerbundBank eG (ehemals VR-Bank HessenLand)",
+      "value": "41740025"
+    },
+    {
+      "bank": "VVB Saarlouis - Sulzbach/Saar",
+      "value": "41740025"
+    },
+    {
+      "bank": "Waldeck-Frankenberger Bank eG (zuvor Waldecker Bank eG)",
+      "value": "41740025"
+    },
+    {
+      "bank": "Wartburg-Sparkasse",
+      "value": "40090078"
+    },
+    {
+      "bank": "Weser-Elbe Sparkasse",
+      "value": "40130029"
+    },
+    {
+      "bank": "Westerwald Bank eG Volks und Raiffeisenbank",
+      "value": "41740025"
+    }
+  ]
+}

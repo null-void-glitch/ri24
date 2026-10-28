@@ -1,0 +1,436 @@
+{
+  "bank": "Frankfurter Sparkasse",
+  "criteria": {
+    "annuitatendarlehen": {
+      "name": "Annuitätendarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten"
+    },
+    "anzahl-auszahlungen-max.": {
+      "name": "Anzahl Auszahlungen max.",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12 (darüber hinaus wird im Einzelfall geklärt)"
+    },
+    "beleihungsauslauf-eigennutzer-max.-percent": {
+      "name": "Beleihungsauslauf, Eigennutzer max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "110 (Obligo unter 1 Mio EUR)"
+    },
+    "beleihungsauslauf-kapitalanleger-max.-percent": {
+      "name": "Beleihungsauslauf, Kapitalanleger max. (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "95 (Obligo unter 1 Mio EUR)"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "12/24\nbei 13-24 Monaten Zinsaufschlag von 0,02 % je Monat der Verlängerung"
+    },
+    "bz-freie-zeit-kostenfrei-max.-monate-nicht-neubau": {
+      "name": "BZ-freie Zeit kostenfrei / max. (Monate) NICHT NEUBAU",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "6/12"
+    },
+    "darlehensbetrag-min.-euro": {
+      "name": "Darlehensbetrag min. (€)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "100 TEUR inkl. KFW Darlehen. \n \nNachfinanzierung 50 TEUR\n\n300 TEUR inkl. KfW Darlehen für ratingpflichtige Antragsteller* (*Haupt-Cash-Flow aus selbstständiger Tätigkeit, Gewerbebetrieb, V+V sowie Angestellte mit Unternehmensbeteiligung)"
+    },
+    "disagio": {
+      "name": "Disagio",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja (bitte Voranfrage)"
+    },
+    "forwarddarlehen": {
+      "name": "Forwarddarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten\nmehrere Anschlussfinanzierungen sind möglich, sofern die 2. Tranche innerhalb der nächsten 36 Monate umgeschuldet wird"
+    },
+    "kapitalbeschaffung": {
+      "name": "Kapitalbeschaffung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nur mit wohnwirtschaftlicher Verwendung, Mittelverwendungsnachweis"
+    },
+    "kfw-darlehen": {
+      "name": "KfW-Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja"
+    },
+    "lebenshaltungskosten": {
+      "name": "Lebenshaltungskosten",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": ""
+    },
+    "modernisierungsdarlehen": {
+      "name": "Modernisierungsdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Modernisierungen ab 100 TEUR nur mit Architektenaufstellung pro Gewerk und Baufortschrittsnachweise"
+    },
+    "nachfinanzierung": {
+      "name": "Nachfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Ja, zur nachweislichen Fertigstellung einer Immobilie > Darlehenssumme min. 50 TEUR"
+    },
+    "nachrangdarlehen": {
+      "name": "Nachrangdarlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "oneclick": {
+      "name": "OneClick",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "regionale-forderinstitute": {
+      "name": "Regionale Förderinstitute",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Nein"
+    },
+    "sicherheitsabschlag-auf-gestehungskosten-percent": {
+      "name": "Sicherheitsabschlag auf Gestehungskosten (%)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "0"
+    },
+    "variables-darlehen": {
+      "name": "Variables Darlehen",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten > nur in Verbindung mit weiterem Baustein"
+    },
+    "zinsbindung-jahre": {
+      "name": "Zinsbindung (Jahre)",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "5, 10, 15"
+    },
+    "zwischenfinanzierung": {
+      "name": "Zwischenfinanzierung",
+      "category": "vAllgemeine Kriterien Baufinanzierung",
+      "value": "Wird angeboten (nur in Verbindung mit weiterem Baustein)"
+    },
+    "forwardperiode-in-monaten": {
+      "name": "Forwardperiode in Monaten",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "max. 36"
+    },
+    "forward-zinsbindung-jahre": {
+      "name": "Forward Zinsbindung (Jahre)",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "5, 10, 15"
+    },
+    "prolongation": {
+      "name": "Prolongation",
+      "category": "Kriterien Forwarddarlehen",
+      "value": "Nein"
+    },
+    "kfw-anrechnung-in-beleihungsauslauf-zur-konditionierung": {
+      "name": "KfW-Anrechnung in Beleihungsauslauf zur Konditionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Ja"
+    },
+    "kfw-kreditinstitutsnummer": {
+      "name": "KfW-Kreditinstitutsnummer",
+      "category": "Kriterian KfW Darlehen",
+      "value": "40090035"
+    },
+    "kfw-programme": {
+      "name": "KfW-Programme",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Alle verfügbaren Programme"
+    },
+    "kfw-stand-alone": {
+      "name": "KfW-Stand-Alone",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nicht möglich"
+    },
+    "kfw-subventionierung": {
+      "name": "KfW-Subventionierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "nein"
+    },
+    "kfw-zinsreservierung": {
+      "name": "KfW-Zinsreservierung",
+      "category": "Kriterian KfW Darlehen",
+      "value": "Manuelle KfW-Reservierung notwendig"
+    },
+    "prolongation-abwicklung": {
+      "name": "Prolongation Abwicklung",
+      "category": "Kriterien Prolongation",
+      "value": "Kein Angbepot über BaufiSmart"
+    },
+    "besonderheit-zur-tilgung": {
+      "name": "Besonderheit zur Tilgung",
+      "category": "Kriterien Tilgung",
+      "value": "Antragsteller müssen in einer Schattenrechnung eine Annuität von 7% nach Abzug aller Kosten tragen können"
+    },
+    "sondertilgung-p.a.-kostenfrei-max.-percent": {
+      "name": "Sondertilgung p.a. kostenfrei / max. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "5/10"
+    },
+    "tilgung-mind.-percent": {
+      "name": "Tilgung mind. (%)",
+      "category": "Kriterien Tilgung",
+      "value": "Kaufpreis/Mindesttilgung\n72% 1,00%\n77% 1,10%\n81% 1,35%\n86% 1,50%\n90% 1,70%\n95% 1,80%\n99% 1,98% ( Finanzierungsobergrenze 110% Lorawert ist zu beachten!)\nmax. Tilgungssatz: 5%"
+    },
+    "tilgungssatzwechsel": {
+      "name": "Tilgungssatzwechsel",
+      "category": "Kriterien Tilgung",
+      "value": "Innerhalb einer Bandbreite von 1-5% während der gesamten Laufzeit kostenfrei (Untergrenze=Anfangstilgung)"
+    },
+    "denkmalschutz": {
+      "name": "Denkmalschutz",
+      "category": "Kriterien Objekt",
+      "value": "Mit angemessenem EK-Einsatz"
+    },
+    "eigenleistungen": {
+      "name": "Eigenleistungen",
+      "category": "Kriterien Objekt",
+      "value": "Max. 10% der Herstellungskosten"
+    },
+    "energieausweis": {
+      "name": "Energieausweis",
+      "category": "Kriterien Objekt",
+      "value": "erforderlich"
+    },
+    "erbbaurechte": {
+      "name": "Erbbaurechte",
+      "category": "Kriterien Objekt",
+      "value": "Ja, bei angemessenem EK-Einsatz\nStillhalteerklärung und vollständige Vertragsgrundlagen notwendig. Die\nplanmäßige Tilgung des Darlehens muss spätestens 10 Jahre vor Ablauf des Erbbaurechtes erfolgt sein (analog ErbbauRG)."
+    },
+    "ferienimmobilien": {
+      "name": "Ferienimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "fertighauser": {
+      "name": "Fertighäuser",
+      "category": "Kriterien Objekt",
+      "value": "Ab Baujahr 1995"
+    },
+    "gewerbeflache-max.-percent": {
+      "name": "Gewerbefläche max. (%)",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung -> keine Finanzierung von reinen Gewerbe-Objekten"
+    },
+    "kapitalanlage-bei-vermietetem-anteil-von-mehr-als-percent": {
+      "name": "Kapitalanlage bei vermietetem Anteil von mehr als (%)",
+      "category": "Kriterien Objekt",
+      "value": "-"
+    },
+    "max.-we-je-mfh": {
+      "name": "Max. WE je MFH",
+      "category": "Kriterien Objekt",
+      "value": "Keine Einschränkung"
+    },
+    "mietpool": {
+      "name": "Mietpool",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "objektart": {
+      "name": "Objektart",
+      "category": "Kriterien Objekt",
+      "value": "EFH, ZFH, DHH, RH, ETW, MFH\n \nNicht beleihbare Objekte: Plattenbauweise, Lehmbauweise, landwirtschaftliche Objekte, Ferienhäuser/-wohnungen, sonstige kritische Objekte, Auslandsimmobilien, wohnwirtschaftliche Immobilien mit Lage im Industriegebiet, Objekte mit ausschließlich gewerblicher Nutzung,.\nImmobilienerwerb mit Mietpoolvertrag, Appartements in betreutes Wohnen (Seniorenresidenz\nmit Betreibervertrag), Serviced Appartements (Boardinghousekonzept), Liebhaberobjekte, z. B Umbau von Hofreiten, Scheunen zu Wohnzwecken, Fertighäuser mit Baujahr vor 1995."
+    },
+    "objektbewertung": {
+      "name": "Objektbewertung",
+      "category": "Kriterien Objekt",
+      "value": "Lora \nWertermittlung: Gestehungskosten"
+    },
+    "pflegeimmobilien": {
+      "name": "Pflegeimmobilien",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "plz-gebiet": {
+      "name": "PLZ-Gebiet",
+      "category": "Kriterien Objekt",
+      "value": "regional (Frankfurt Rhein-Main)\nmin. 1 Antragsteller ODER min. 1 Objekt muss im PLZ-Gebiet liegen"
+    },
+    "reine-baugrundstucke": {
+      "name": "Reine Baugrundstücke",
+      "category": "Kriterien Objekt",
+      "value": "Nein"
+    },
+    "vorlasten-abt.-ii": {
+      "name": "Vorlasten Abt. II",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, nicht wertmindernde Lasten werden akzeptiert"
+    },
+    "vorlasten-abt.-iii": {
+      "name": "Vorlasten Abt. III",
+      "category": "Kriterien Objekt",
+      "value": "Einzelfallentscheidung, fremde Vorlasten bis 30 % des Marktwertes werden akzeptiert wenn das beantragte Darlehen inkl. Vorlast max. 80 % des Marktwertes beträgt"
+    },
+    "wohnflache-mind.-m": {
+      "name": "Wohnfläche mind. (m²)",
+      "category": "Kriterien Objekt",
+      "value": "keine"
+    },
+    "zwangsversteigerung": {
+      "name": "Zwangsversteigerung",
+      "category": "Kriterien Objekt",
+      "value": "Ja, Zuschlagsbeschluss muss vorliegen"
+    },
+    "ansatz-elterngeld": {
+      "name": "Ansatz Elterngeld",
+      "category": "Kriterien Person",
+      "value": "Wird berücksichtigt > bitte Befristung angeben, das nach Elternzeit vertraglich vereinbarte Nettoeinkommen wird angesetzt (Nachweis erforderlich)"
+    },
+    "ansatz-monatsgehalter": {
+      "name": "Ansatz Monatsgehälter",
+      "category": "Kriterien Person",
+      "value": "12\nAnsatz Niederstwertprinzip - niedrigster Einkommensnachweis"
+    },
+    "ansatz-rente": {
+      "name": "Ansatz Rente",
+      "category": "Kriterien Person",
+      "value": "100 % sofern unbefristete Nachweise vorhanden sind\nWaisen-und Halbwaisenrente max. bis zum 25. Lebensjahr"
+    },
+    "ansatz-unterhalt": {
+      "name": "Ansatz Unterhalt",
+      "category": "Kriterien Person",
+      "value": "Kindesunterhalt: 100 % bis max. 25. Lebensjahr\nEhegattenunterhalt: 100 % wenn Urteil/Scheidungsfolgevereinbarung nachgewiesen werden kann"
+    },
+    "befristeter-aufenthalt": {
+      "name": "Befristeter Aufenthalt / Bluecard",
+      "category": "Kriterien Person",
+      "value": "Nein, bei Nicht-EU-Bürgern muss eine unbefristete Aufenthalts- und Arbeitserlaubnis vorliegen"
+    },
+    "befristetes-arbeitsverhaltnis": {
+      "name": "Befristetes Arbeitsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung > Das Arbeitsverhältnis muss grundsätzlich unbefristet sein. Befristete Arbeitsverhältnisse akzeptiert die Sparkasse bei bereits langjähriger Beschäftigung bei hierfür typischen Berufsgruppen\n(Ärzte, Krankenschwestern, Lehrer...).\nZusätzlich benötigt sie eine Angabe darüber, wie hoch das Einkommen nach Ablauf der aktuellen Befristung vermutlich sein wird."
+    },
+    "beschaftigungsverhaltnis": {
+      "name": "Beschäftigungsverhältnis",
+      "category": "Kriterien Person",
+      "value": "Angestellte, Arbeiter, Beamte, Rentner"
+    },
+    "besonderheiten-zur-person": {
+      "name": "Besonderheiten zur Person",
+      "category": "Kriterien Person",
+      "value": "Familiäre Planung für die Zukunft sind zu erfragen und im Antrag zu vermerken\nbereits bekannte Einkommensveränderungen in der Zukunft sind ebenfalls mit anzuzeigen  ( Existenzgründung, Jobwechsel etc.)"
+    },
+    "darlehensnehmer": {
+      "name": "Darlehensnehmer",
+      "category": "Kriterien Person",
+      "value": "Max. 3\nMindestalter 18 Jahre\nGrundsätzlich nur Verbraucher (Eigennutzer und Kapitalanleger bis max. 10 vermietete Wohneinheiten inkl. Neuantrag)\nGBR mit max. 3 Gesellschaftern \nkeine juristische Personen\nkeine Antragsteller mit Mehrfachbeteiligungen an verschiedenen Unternehmen/Beteiligungsgesellschaften\nMitverpflichtung Ehepartner grundsätzlich erwünscht, Ausnahme möglich wenn Kapitaldienst trotz Haushalts-Pauschale für die Familie erbracht werden kann\nAntragsteller mit Haupt Cash Flow aus Gewerbebetrieb, selbstständige Tätigkeit, Vermietung und Verpachtung oder Unternehmensbeteiligung werden gesondert gepreist (Aufschlag von z.Zt. 0,20%) und die Darlehensuntergrenze beträgt 300.000"
+    },
+    "einkunfte-aus-vermietung-verpachtung": {
+      "name": "Einkünfte aus Vermietung / Verpachtung",
+      "category": "Kriterien Person",
+      "value": "(Aufschlag von z.Zt. 0,20%) und die Darlehensuntergrenze beträgt 300.000"
+    },
+    "freiberufler": {
+      "name": "Freiberufler",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "grenzganger": {
+      "name": "Grenzgänger",
+      "category": "Kriterien Person",
+      "value": "Wohnsitz in Deutschland & Gehaltsbezug im Ausland? Ja, EU-Ausland, Schweiz und UK\nAkzeptierte Währung: EUR\nWohnsitz & Gehaltsbezug im Ausland? Ja, EU-Ausland, Schweiz und UK\nAkzeptierte Währung: EUR"
+    },
+    "haushaltsuberschuss-rot-grenze-mind.-euro": {
+      "name": "Haushaltsüberschuss - Rot-Grenze mind. (€)",
+      "category": "Kriterien Person",
+      "value": "250\nBei Neubau mit Einzelgewerksvergabe bitte Puffer von 15% für Nachfinanzierungsbedarf berücksichtigen"
+    },
+    "kundenalter": {
+      "name": "Kundenalter",
+      "category": "Kriterien Person",
+      "value": "Mindestalter: 18 Jahre\nEine weitestgehende Entschuldung zu Lebzeiten (Männer bis 77 Jahre und Frauen bis 82 Jahre) wird vorausgesetzt. Wenn weitere freie Vermögenswerte vorhanden sind, können diese anteilig zur Tilgung der Restschuld zum statistischen Lebenszeitende angerechnet werden."
+    },
+    "kurzarbeit": {
+      "name": "Kurzarbeit",
+      "category": "Kriterien Person",
+      "value": "Kein Ansatz"
+    },
+    "nicht-eu-burger": {
+      "name": "Nicht EU-Bürger",
+      "category": "Kriterien Person",
+      "value": "Bei Nicht-EU-Bürgern muss eine unbefristete Aufenthalts- und Arbeitserlaubnis vorliegen"
+    },
+    "privatier": {
+      "name": "Privatier",
+      "category": "Kriterien Person",
+      "value": "Ja"
+    },
+    "probezeit": {
+      "name": "Probezeit",
+      "category": "Kriterien Person",
+      "value": "Einzelfallentscheidung"
+    },
+    "regelung-im-rentenalter": {
+      "name": "Regelung im Rentenalter",
+      "category": "Kriterien Person",
+      "value": "Weitestgehende Entschuldung zu Lebzeiten (Männer bis 76 Jahre / Frauen bis 82 Jahre) wird vorausgesetzt.\nWeitere freie Vermögenswerte können anteilig angerechnet werden"
+    },
+    "selbstandige": {
+      "name": "Selbständige",
+      "category": "Kriterien Person",
+      "value": "Ja aber keine Firmenkunden (mind. 50 Vollzeitkräfte und >= 10 Mio. Jahresumsatz oder Bilanzsumme)\nab einer Beteiligung von 1% gilt der Antragssteller als selbstständig"
+    },
+    "auszahlung": {
+      "name": "Auszahlung",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Vor Auszahlung wird grundsätzlich der Energieausweis benötigt."
+    },
+    "beratungsdokumentationpflichtunterlage": {
+      "name": "Beratungsdokumentation=Pflichtunterlage?",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Nein"
+    },
+    "einreichungversand-unterlagen": {
+      "name": "Einreichung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "kundenschutz": {
+      "name": "Kundenschutz",
+      "category": "Kriterien weitere Hinweise",
+      "value": "b\n \nStufe a = kein Kundenschutz\nStufe b = Kundenschutz auf das vermittelte Produkt\nStufe c = Kundenschutz auf alle Finanzdienstleistungen"
+    },
+    "legitimation-und-vertragsunterschrift": {
+      "name": "Legitimation und Vertragsunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "< 1 Mio. Darlehenssumme: Fernabsatz\n> 1 Mio. Darlehenssumme: Filiale der FRASPA\nVideolegitimation: Nein"
+    },
+    "nachlieferungversand-unterlagen": {
+      "name": "Nachlieferung/Versand Unterlagen",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Per Upload"
+    },
+    "nassunterschrift": {
+      "name": "Nassunterschrift",
+      "category": "Kriterien weitere Hinweise",
+      "value": "Ja"
+    }
+  },
+  "company_id": "f390c9b84f5199dcd1aee7402afaf266",
+  "company_url": "https://partnerportal.qualitypool.de/produktanbieter/company/f390c9b84f5199dcd1aee7402afaf266",
+  "bank_category": "Sparkassen",
+  "last_modified": "02.01.26",
+  "recent_news": [
+    {
+      "date": "06.05.26",
+      "title": "Frankfurter Sparkasse - Konditionssenkung per sofort"
+    },
+    {
+      "date": "31.03.26",
+      "title": "Frankfurter Sparkasse - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "24.03.26",
+      "title": "Frankfurter Sparkasse - Konditionsanpassung per sofort"
+    },
+    {
+      "date": "17.03.26",
+      "title": "Frankfurter Sparkasse - Konditionserhöhung per sofort"
+    },
+    {
+      "date": "11.03.26",
+      "title": "Frankfurter Sparkasse - Konditionsanpassung per sofort"
+    }
+  ]
+}
